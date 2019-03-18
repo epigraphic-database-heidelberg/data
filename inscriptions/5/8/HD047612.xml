@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Urne</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD047612</idno>
+                <idno type="TM">207516</idno><idno type="localID">HD047612</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Carros-Village, Centre International d'Art Contemporain</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/78">Urne</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>38</height>
+                                        <width>68</width>
+                                        <depth>42.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.5-2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/022359">Alpes Maritimae</placeName><placeName ref="http://www.trismegistos.org/place/022041">Vintium, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD – 230 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1998">1998</date>
+                        <placeName ref="http://www.geonames.org/3028513">Carros</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Provence-Alpes-Côte d’Azur</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-07-19" who="cimarosti">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2000, 0850. (B) 
+                    </bibl>
+                    <bibl>
+                         P. Arnaud, MemAlpesMedit 42, 2000, 25-28, Nr. 22; Foto. - AE 2000 (B) 
+                    </bibl>
+                    <bibl>
+                         S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 226-228, Nr. 120; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] / [- - -] et dec(urioni) Vi[nt(iensium)] / [ann(os) - - -]XIII L(ucius) Vinicius / [Secun]dus(?) et Maio/[rina?] filio et Vini/[cius Sec]undinus / [fratri?] pientiss(imo) // - - - - - -] / [- - - uxor?] Vinici Pu[den]/tis solac[ium] / dolori[s sui] / viva sibi [fecit]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> et <expan><abbr>dec</abbr><ex>urioni</ex></expan> Vi<supplied reason="lost"><expan><abbr>nt</abbr><ex>iensium</ex></expan></supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>ann</abbr><ex>os</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/>XIII <expan><abbr>L</abbr><ex>ucius</ex></expan> Vinicius <lb n="3"/><supplied reason="lost">Secun</supplied><expan><abbr>dus</abbr><ex cert="low"/></expan> et Maio<lb break="no" n="4"/><supplied reason="lost" cert="low">rina</supplied> filio et Vini<lb break="no" n="5"/><supplied reason="lost">cius Sec</supplied>undinus <lb n="6"/><supplied reason="lost" cert="low">fratri</supplied> <expan><abbr>pientiss</abbr><ex>imo</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> uxor</supplied> Vinici Pu<supplied reason="lost">den</supplied><lb break="no" n="2"/>tis solac<supplied reason="lost">ium</supplied> <lb n="3"/>dolori<supplied reason="lost">s sui</supplied> <lb n="4"/>viva sibi <supplied reason="lost">fecit</supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): AE 2000; Arnaud: Leseabweichungen. Puncta triangularia. Eingemeißelt. Bearbeiterin: V. Pettirossi.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

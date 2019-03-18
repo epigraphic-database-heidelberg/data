@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001217</idno>
+                <idno type="TM">195525</idno><idno type="localID">HD001217</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.5-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum</placeName></origPlace>
+                            <origDate notBefore-custom="0224" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">224 AD – 235 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1982">1982</date>
+                        <placeName ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Niederösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-07-07" who="osnabrügge">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1991, 1312. 
+                    </bibl>
+                    <bibl>
+                         AE 1982, 0781. (B) 
+                    </bibl>
+                    <bibl>
+                         D. Knibbe, MittGesCarnuntum 3, 1982, 8-12, Nr. 3; Abb. 3 (Zeichnung). (B) - AE 1982. 
+                    </bibl>
+                    <bibl>
+                         I. Piso, Tyche 6, 1991, 161, Nr. 4; Abb. 22 (Zeichnung). - AE 1991. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [I(ovi) O(ptimo) M(aximo)] / [pro salute Imp(eratoris) Caes(aris)] / [M(arci) Aurel(i) Severi] [[A]]le[xan]/[dri Pii Felic]is Aug(usti) [et] / [Iul(iae) Mamaeae] Aug(ustae) [[matr]][is] / [Aug(usti) et ca]stror(um) / [- - -]s ex [te]ss(erario) leg(ionis) / [XIIII g(eminae) - - -]O(?)[- - -] / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></supplied> <lb n="2"/><supplied reason="lost">pro salute <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan></supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Aurel</abbr><ex>i</ex></expan> Severi</supplied> <del rend="erasure">A</del>le<supplied reason="lost">xan</supplied><lb break="no" n="4"/><supplied reason="lost">dri Pii Felic</supplied>is <expan><abbr>Aug</abbr><ex>usti</ex></expan> <supplied reason="lost">et</supplied> <lb n="5"/><supplied reason="lost"><expan><abbr>Iul</abbr><ex>iae</ex></expan> Mamaeae</supplied> <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <del rend="erasure">matr</del><supplied reason="lost">is</supplied> <lb n="6"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan> et ca</supplied><expan><abbr>stror</abbr><ex>um</ex></expan> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>s ex <expan><abbr><supplied reason="lost">te</supplied>ss</abbr><ex>erario</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="8"/><supplied reason="lost">XIIII <expan><abbr>g</abbr><ex>eminae</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied><expan><abbr>O</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Y: Nach Knibbe wurde der Altar zu Ehren Faustinas mit dem Ehrentitel mater castrorum wohl an dem Festtag des 11.6.172 errichtet. Das Datum wäre mit dem unteren Teil der Inschrift verlorengegangen. Von dem Altar sind 2 aneinanderpassende Fragmente erhalten. Widerspruch bei Knibbe in Z.2 zwischen Umzeichnung [---]ALV und Wiedergabe des Textes [pro salu]te. In Z.6 nach Umzeichnung noch weitere Buchstabenreste vorhanden. Nach Knibbe weist Ende von Z.4 Spuren einer Rasur auf. Neulesung nach Piso 1991. (B): Abweichende Lesung bei Knibbe: [I(ovi) O(ptimo) M(aximo) K(arnuntino)] / [pro salu]te / [uxo]ris Aug(usti) [Faustinae] Aug(ustae) matr[is] / [ca]stror(um) / [---]E[---]S leg(---).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

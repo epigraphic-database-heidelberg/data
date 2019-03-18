@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD009320</idno>
+                <idno type="TM">195637</idno><idno type="localID">HD009320</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Virt, Brunnen, vermauert; Komárno, Festung, Bastion 6, Lapidarium (Kopie)</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>53</height>
+                                        <width>141</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Barbaricum</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1778">1778</date>
+                        <placeName ref="http://www.geonames.org/3056757">Virt</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/sk/">Slowakei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-06-08" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/3274">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 04350. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 11075. (B) 
+                    </bibl>
+                    <bibl>
+                         RIU 0737; Abb. 737 (Foto u. Zeichnung). (B) 
+                    </bibl>
+                    <bibl>
+                         F. Harl - B. Lőrincz, Führer zum römischen Lapidarium in Bastion VI der Festung Komárno (Komárno – Wien 2002) 53-54, Nr. 61; Foto. (B) 
+                    </bibl>
+                    <bibl>
+                         G. Alföldy, BJ 168, 1968, 548. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                P<l=I>ot(iis)#P<l>ot(iis)#PIOT (H)igino(!) et Polideuco(!) / equitibus Romanis / Aur(elius) Fla(v)us cons/obrinis carissimis / f(aciendum) c(uravit)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                P<choice><corr>l</corr><sic>I</sic></choice><expan><abbr>ot</abbr><ex>iis</ex></expan>#P<supplied reason="omitted">l</supplied><expan><abbr>ot</abbr><ex>iis</ex></expan>#PIOT <expan><ex>H</ex><abbr>igino</abbr></expan> <note>sic</note> et Polideuco <note>sic</note> <lb n="2"/>equitibus Romanis <lb n="3"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Fla<expan><ex>v</ex><abbr>us</abbr></expan> cons<lb break="no" n="4"/>obrinis carissimis <lb n="5"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Erhalten ist der Sarkophagkasten; zu Seiten des Inschriftfeldes je eine Nische mit einer männlichen Figur. (B): CIL 03, 04350: zahlreiche Leseabweichungen; CIL 03, 11075: Z. 1: TIOTIGINO; RIU 0737; Alföldy: Z. 1: Plot(iis); Harl - Lőrincz: Z. 1: &amp;lt;Pl=TI&amp;gt;ot(iis).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

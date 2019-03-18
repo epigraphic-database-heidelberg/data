@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD073579</idno>
+                <idno type="TM"/><idno type="localID">HD073579</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-29</height>
+                                        <width>-13</width>
+                                        <depth>-11</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.0</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum</placeName></origPlace>
+                            <origDate notBefore-custom="0212" notAfter-custom="0217" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">212 AD – 217 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1977">1977</date>
+                        <placeName ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Niederösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-05-04" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        I. Piso, Das Heiligtum des Jupiter Optimus Maximus auf dem Pfaffenberg/Carnuntum 1. Die Inschriften (Wien 2003) 32-33, Nr. 24; Foto u. Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $]G / [- - -]GE / [- - -]NT / [- - -]O / [- - -]II / [- - - - - - // - - - - - -] O[- - -] / [- - -]N et I[- - -] / [- - - ve]t(eranus) ex [- - -] / [- - -]ONA[- - -] / [- - -]TRM[& // $]ER / [- - - dec(urio)] col(oniae) / [- - -]IC / [- - - - - - // $]ntes I[- - -] / [- - - A]ur(elius) For/[tis? vet(eranus) leg(ionis) XIIII?] g(eminae?) Ant(oninianae?) [- - - - - - // $]I / [- - -] ex / [- - -]VS / [- - - - - - // $ leg(ionis)] XI[III g(eminae) - - -] / [- - -]A[& // $ magi]str[i? montis? - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>G <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>GE <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>NT <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>O <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>II <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> O<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>N et I<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">ve</supplied>t</abbr><ex>eranus</ex></expan> ex <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ONA<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>TRM<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="3" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ER <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><expan><abbr>dec</abbr><ex>urio</ex></expan></supplied> <expan><abbr>col</abbr><ex>oniae</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>IC <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="4" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ntes I<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">A</supplied>ur</abbr><ex>elius</ex></expan> For<lb break="no" n="3"/><supplied reason="lost" cert="low">tis? vet(eranus) leg(ionis) XIIII</supplied> <expan><abbr>g</abbr><ex cert="low">eminae</ex></expan> <expan><abbr>Ant</abbr><ex cert="low">oninianae</ex></expan><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="5" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>I <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> ex <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>VS <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="6" type="textpart"><ab><lb n="1"/> $ <expan><abbr>leg</abbr><ex>ionis</ex></expan>] XI<supplied reason="lost">III <expan><abbr>g</abbr><ex>eminae</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>A<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="7" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><supplied reason="lost">magi</supplied>str<supplied reason="lost">i<certainty locus="name" match="preceding-sibling::text()" cert="low"/> montis<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> 10 z.T. aneinanderpassende Fragmente einer Tafel. Möglicherweise Name eines Kaisers auf Fragment (a), Caracalla fallls 'Antoninianae' auf Fragment (d) zu lesen sein sollte. Fragment (a): Zeile 3: NT-Ligatur; Fragment (d): Zeile 3: ANT-Ligatur. Die Maßangabe bezieht sich auf Fragment (a); Maße der übrigen Fragmente (in cm, HxBxT): (b - 2 Stücke): 34x17x6; (c): 20x11x6,5; (d - 2 Stücke): 21x26x7; (e): 18x9,5x6; (f): 17,5x12x5; (g): 10,5x12x3,5.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

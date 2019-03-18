@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD042186</idno>
+                <idno type="TM">229252</idno><idno type="localID">HD042186</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mahón, Mus. Municipal</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>60</height>
+                                        <width>50</width>
+                                        <depth>8</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6.5-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016933">Hispania citerior</placeName><placeName ref="http://www.trismegistos.org/place/005557">Mago</placeName></origPlace>
+                            <origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD – 130 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Mahón</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-06-05" who="Garcia">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        C. Veny, Corpus de las inscripciones baleáricas hasta la dominación árabe (Madrid 1965) 142-144, Nr. 122; lám. 34, 84. 
+                    </bibl>
+                    <bibl>
+                         CIL 02, 03710. 
+                    </bibl>
+                    <bibl>
+                         R. Zucca, Insulae Baliares. Le isole Baleari sotto il dominio romano (Roma 1998) 257-258, Nr. 42 ; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                L(ucio) L(uci) f(ilio) / Quir(ina) / Fabullo / aed(ili) IIviro III / flamini divor(um) / Aug(ustali) r(es) p(ublica) Mag(ontana) / ob multa eius / merita
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><expan><abbr>Quir</abbr><ex>ina</ex></expan> <lb n="3"/>Fabullo <lb n="4"/><expan><abbr>aed</abbr><ex>ili</ex></expan> IIviro III <lb n="5"/>flamini <expan><abbr>divor</abbr><ex>um</ex></expan> <lb n="6"/><expan><abbr>Aug</abbr><ex>ustali</ex></expan> <expan><abbr>r</abbr><ex>es</ex></expan> <expan><abbr>p</abbr><ex>ublica</ex></expan> <expan><abbr>Mag</abbr><ex>ontana</ex></expan> <lb n="7"/>ob multa eius <lb n="8"/>merita
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

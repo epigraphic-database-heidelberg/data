@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD009126</idno>
+                <idno type="TM">285585</idno><idno type="localID">HD009126</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>100</height>
+                                        <width>60</width>
+                                        <depth>40</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Transpadana (Regio XI)</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Gambolò</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="1998-02-03" who="Feraudi">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1987, 0463. (B) 
+                    </bibl>
+                    <bibl>
+                         G. Amiotti, Athenaeum 65, 1987, 242-244; Foto u. Zeichnung. - AE 1987. 
+                    </bibl>
+                    <bibl>
+                         AE 1992, 0776. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Victoriae sacrum / [- - -] Prisci / [- - -]R[- - -]O[- - -] / [- - - - - -] / [- - -]S[-?]II(?)R / [- - -]R[-] / I(?)[- - -]rtialis lib(ertus) / [- - - - - -?
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Victoriae sacrum <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> Prisci <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>R<gap reason="lost" extent="unknown" unit="character"/>O<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>S<supplied reason="lost" cert="low">-</supplied><expan><abbr>II</abbr><ex cert="low"/>R</expan> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>R<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="6"/><expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>rtialis <expan><abbr>lib</abbr><ex>ertus</ex></expan> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Verbaut in eine Säule des Hauptschiffs, rechts des Hauptaltars. Inschrift fast vollständig abgerieben. (B): AE 1987: Z. 3: [--]R[-]O[---]; Z. 5/6: [-]S/[-]R[-]; Z. 7: [--]tialis lib(ertus); Z. 8: [---].</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Platte</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD078078</idno>
+                <idno type="TM"/><idno type="localID">HD078078</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum</placeName></origPlace>
+                            <origDate notBefore-custom="0601" notAfter-custom="0700" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">601 AD – 700 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1772">1772</date>
+                        <placeName ref="http://www.geonames.org/2933907">Mainz</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-01-31" who="osnabrügge">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        F.X. Kraus, Die christlichen Inschriften der Rheinlande (Freiburg i. B. 1890) 18, Nr. 30. (B) 
+                    </bibl>
+                    <bibl>
+                         W. Boppert, Die frühchristlichen Inschriften des Mittelrheingebietes (Mainz 1971) 60-62; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         CIL 13, 07260; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         ILCV 2674. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $]/lindis / filia Ve/landu(!) / et Thu/delindi(!) / qui(!) vixit / in pace a/<n=X>(no)s#a/<n>(no)s#AXS XII
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="2"/>lindis <lb n="3"/>filia Ve<lb break="no" n="4"/>landu <note>sic</note> <lb n="5"/>et Thu<lb break="no" n="6"/>delindi <note>sic</note> <lb n="7"/>qui <note>sic</note> vixit <lb n="8"/>in pace a<lb break="no" n="9"/><choice><corr>n</corr><sic>X</sic></choice><expan><ex>no</ex><abbr>s</abbr></expan>#a<lb break="no" n="10"/><supplied reason="omitted">n</supplied><expan><ex>no</ex><abbr>s</abbr></expan>#AXS XII
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Kraus: Z. 7/8: A/XS XII.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

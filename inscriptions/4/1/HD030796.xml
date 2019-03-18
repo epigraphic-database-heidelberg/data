@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD030796</idno>
+                <idno type="TM">247466</idno><idno type="localID">HD030796</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Etruria (Regio VII)</placeName><placeName ref="http://www.trismegistos.org/place/014351">Tarquinii</placeName></origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Tarquinii</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2001-10-25" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 61, Nr. 73. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                P(ublio) Tullio / Varronis fil(io) / Stel(latina) Varroni co(n)s(uli) / auguri proco(n)s(uli) provinc(iae) / Africae leg(ato) Aug(usti) pro pr(aetore) / Moesiae superior(is) curat(ori) / alvei Tiberis et riparum / et cloacarum urbis praef(ecto) / aerari Saturn(ini) proco(n)s(ulis) prov(inciae) / Baeticae ulterioris Hispa/niae leg(ato) leg(ionis) XII fulminatae / et VI victricis p(iae) f(idelis) / praetori aedil(i) Ceriali / quaestori urb(is) tribuno / milit(um) leg(ionis) XVI Fl(aviae) Xviro stlitibus / iudicand(is) praetori Etruriae quin/quennali Tarquinis / P(ublius) Tullius Callistio / posuit
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> Tullio <lb n="2"/>Varronis <expan><abbr>fil</abbr><ex>io</ex></expan> <lb n="3"/><expan><abbr>Stel</abbr><ex>latina</ex></expan> Varroni co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <lb n="4"/>auguri proco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>provinc</abbr><ex>iae</ex></expan> <lb n="5"/>Africae <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> pro <expan><abbr>pr</abbr><ex>aetore</ex></expan> <lb n="6"/>Moesiae <expan><abbr>superior</abbr><ex>is</ex></expan> <expan><abbr>curat</abbr><ex>ori</ex></expan> <lb n="7"/>alvei Tiberis et riparum <lb n="8"/>et cloacarum urbis <expan><abbr>praef</abbr><ex>ecto</ex></expan> <lb n="9"/>aerari <expan><abbr>Saturn</abbr><ex>ini</ex></expan> proco<expan><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan> <lb n="10"/>Baeticae ulterioris Hispa<lb break="no" n="11"/>niae <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XII fulminatae <lb n="12"/>et VI victricis <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <lb n="13"/>praetori <expan><abbr>aedil</abbr><ex>i</ex></expan> Ceriali <lb n="14"/>quaestori <expan><abbr>urb</abbr><ex>is</ex></expan> tribuno <lb n="15"/><expan><abbr>milit</abbr><ex>um</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XVI <expan><abbr>Fl</abbr><ex>aviae</ex></expan> Xviro stlitibus <lb n="16"/><expan><abbr>iudicand</abbr><ex>is</ex></expan> praetori Etruriae quin<lb break="no" n="17"/>quennali Tarquinis <lb n="18"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Tullius Callistio <lb n="19"/>posuit
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD013243</idno>
+                <idno type="TM">285387</idno><idno type="localID">HD013243</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>100</height>
+                                        <width>55</width>
+                                        <depth>50</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Transpadana (Regio XI)</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 400 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Barzano</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="1998-01-15" who="Scheithauer">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1969/70, 0203. (B) 
+                    </bibl>
+                    <bibl>
+                         AE 1964, 0105. 
+                    </bibl>
+                    <bibl>
+                         CIL 05, 05661. 
+                    </bibl>
+                    <bibl>
+                         A. Soffredi, Epigraphica 23, 1961, 98-101; Zeichnungen. - AE 1969/70. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                I(ovi) [O(ptimo)] M(aximo) / Novellia[nus] / Pandarus / pro se et suis / omnibus ara(m) / deo donum p(osuit) // Novel(l)ian[us] / Pa<n=D>darusqum(!)#Pa<n>darusqum(!)#PADDARUSQUM / I(ovi) O(ptimo) M(aximo) v(otum) s(olvit) l(ibens) / pro se rem(!) / domum f(ecit) / dis / deabusq(ue) / D(eo) d(onum) d(edit)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <supplied reason="lost"><expan><abbr>O</abbr><ex>ptimo</ex></expan></supplied> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>Novellia<supplied reason="lost">nus</supplied> <lb n="3"/>Pandarus <lb n="4"/>pro se et suis <lb n="5"/>omnibus <expan><abbr>ara</abbr><ex>m</ex></expan> <lb n="6"/>deo donum <expan><abbr>p</abbr><ex>osuit</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Novel<expan><ex>l</ex><abbr>ian</abbr></expan><supplied reason="lost">us</supplied> <lb n="2"/>Pa<choice><corr>n</corr><sic>D</sic></choice>darusqum <note>sic</note>#Pa<supplied reason="omitted">n</supplied>darusqum <note>sic</note>#PADDARUSQUM <lb n="3"/><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <lb n="4"/>pro se rem <note>sic</note> <lb n="5"/>domum <expan><abbr>f</abbr><ex>ecit</ex></expan> <lb n="6"/>dis <lb n="7"/><expan><abbr>deabusq</abbr><ex>ue</ex></expan> <lb n="8"/><expan><abbr>D</abbr><ex>eo</ex></expan> <expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Auf Vorder- und Rückseite beschriftet. (B): (1. Inschrift): AE 1969/70: Z. 1: I(nvicto) M(ithrae); Z. 2/3: Novellia Pandarus; CIL: Z. 3: Pandarus ex v(oto); (2. Inschrift): AE 1969/70: Z. 1: Pandarus; Z. 4/5: rem donum; Z. 6-8: cum dis deabusq(ue) d(eo).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD018551</idno>
+                <idno type="TM">216618</idno><idno type="localID">HD018551</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>3.4</height>
+                                        <width>3.4</width>
+                                        <depth>0.8</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003243">Raetia</placeName><placeName ref="http://www.trismegistos.org/place/003291">Castra Regina</placeName></origPlace>
+                            <origDate notBefore-custom="0140" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">140 AD – 150 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2849483">Regensburg</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Bayern</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-10-29" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1953, 0116. 
+                    </bibl>
+                    <bibl>
+                         AE 1959, 0105. 
+                    </bibl>
+                    <bibl>
+                         W. Kraft, Germania 30, 1952, 345-348, Nr. 2; Taf. 21,3 u. 21,4. - AE 1953. 
+                    </bibl>
+                    <bibl>
+                         W.J. De Boone, FA 11, 1956, 278, Nr. 4500. - AE 1959. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $]llo proc(uratore) qui[nque et viginti stipendii]s emeritis [dimissis honesta missio]ne quorum [nomina subscripta sunt civ]itatem Rom[anam qui eorum non haberen]t d[edit et conubium cum uxoribus & // - - - - - -] et III Th[rac(um) vet(erana) et III Thrac(um) c(ivium) R(omanorum) et III Brit(tanorum) et IV] Gall(orum) et V B[racar(augustanorum) et VI Lusitan(orum) et IX Batav(orum)] |(miliaria) et sun[t in Raetia sub - - - proc(uratore)] quinq[ue et viginti stipendiis d]imissi[s honesta missione quorum nomi]na subs[cripta sunt &
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>llo <expan><abbr>proc</abbr><ex>uratore</ex></expan> qui<supplied reason="lost">nque et viginti stipendii</supplied>s emeritis <supplied reason="lost">dimissis honesta missio</supplied>ne quorum <supplied reason="lost">nomina subscripta sunt civ</supplied>itatem Rom<supplied reason="lost">anam qui eorum non haberen</supplied>t d[edit et conubium cum uxoribus &amp; </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> et III Th<supplied reason="lost"><expan><abbr>rac</abbr><ex>um</ex></expan> <expan><abbr>vet</abbr><ex>erana</ex></expan> et III <expan><abbr>Thrac</abbr><ex>um</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et III <expan><abbr>Brit</abbr><ex>tanorum</ex></expan> et IV</supplied> <expan><abbr>Gall</abbr><ex>orum</ex></expan> et V B<supplied reason="lost"><expan><abbr>racar</abbr><ex>augustanorum</ex></expan> et VI <expan><abbr>Lusitan</abbr><ex>orum</ex></expan> et IX <expan><abbr>Batav</abbr><ex>orum</ex></expan></supplied> |(miliaria) et sun<supplied reason="lost">t in Raetia sub <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>proc</abbr><ex>uratore</ex></expan></supplied> quinq<supplied reason="lost">ue et viginti stipendiis d</supplied>imissi<supplied reason="lost">s honesta missione quorum nomi</supplied>na subs[cripta sunt &amp;
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Erhalten Fragment von tab. I; wiedergegeben in der Reihenfolge ext. // int.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

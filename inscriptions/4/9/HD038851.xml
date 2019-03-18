@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD038851</idno>
+                <idno type="TM">215205</idno><idno type="localID">HD038851</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">S. Lambrecht, Stiftsmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar?</objectType>
+                                    <material>Marmor, geädert / farbig</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>165</height>
+                                        <width>53</width>
+                                        <depth>45</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">7.0-5.0</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003230">Noricum</placeName><placeName>Municipium Claudium Virunum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2766615">S. Lambrecht</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Steiermark</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-01-22" who="böhm">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/1556">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 323, Nr. 276; Foto. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 05062. 
+                    </bibl>
+                    <bibl>
+                         ILLPRON 1342. 
+                    </bibl>
+                    <bibl>
+                         G. Piccottini, Grabstelen, Reiter- und Soldatendarstellungen sowie dekorative Reliefs des Stadtgebiets von Virunum und Nachträge zu CSIR-Österreich II/1-4, CSIR Österreich 2, 5 (Wien 1994) 38, Nr. 453; Taf. 18, 453. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                C(aio) / Acilio / C(ai) fil(io) / [A]ciliano / [f]ratre[s] / [fe]cerun[t]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> <lb n="2"/>Acilio <lb n="3"/><expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> <lb n="4"/><supplied reason="lost">A</supplied>ciliano <lb n="5"/><supplied reason="lost">f</supplied>ratre<supplied reason="lost">s</supplied> <lb n="6"/><supplied reason="lost">fe</supplied>cerun<supplied reason="lost">t</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Material: grau-weißer Marmor. Auf der rechten Nebenseite noch Reste einer Akanthusranke.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

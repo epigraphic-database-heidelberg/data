@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001064</idno>
+                <idno type="TM">192500</idno><idno type="localID">HD001064</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-185</height>
+                                        <width>90</width>
+                                        <depth>33</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">7-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029481">Moesia superior</placeName><placeName ref="http://www.trismegistos.org/place/029717">Scupi, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/792879">Skopje, Karpoš</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Skopski region</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/mk/">Mazedonien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-10-04" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://www.lupa.at/28175">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1983, 0873. 
+                    </bibl>
+                    <bibl>
+                         S. Dušanić, ZAnt 33, 1983, 15. - AE 1983. 
+                    </bibl>
+                    <bibl>
+                         IMS 6, 042; Foto. - AE 1983. 
+                    </bibl>
+                    <bibl>
+                         J. E. Tomić, Spomenik 47, 1909, 145-146, Nr. 67; Foto. (B) - AE 1910. 
+                    </bibl>
+                    <bibl>
+                         AE 1910, 0173. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                M(arcus) Octavius / M(arci) f(ilius) Aemil(ia) Valens / Stobis mil(es) leg(ionis) V / Macedo(nicae) decu(rio) / pontif(ex) col(oniae) F(laviae) F(elicis) D(ardanorum) / vivos(!) fecit sibi / Octaviae Marcellinae / filiae suae defunctae / vixit annis XXVI et Catiae / Secundae coniugi suae / hic se vivo / f(aciendum) c(uravit)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Octavius <lb n="2"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Aemil</abbr><ex>ia</ex></expan> Valens <lb n="3"/>Stobis <expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> V <lb n="4"/><expan><abbr>Macedo</abbr><ex>nicae</ex></expan> <expan><abbr>decu</abbr><ex>rio</ex></expan> <lb n="5"/><expan><abbr>pontif</abbr><ex>ex</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>F</abbr><ex>laviae</ex></expan> <expan><abbr>F</abbr><ex>elicis</ex></expan> <expan><abbr>D</abbr><ex>ardanorum</ex></expan> <lb n="6"/>vivos <note>sic</note> fecit sibi <lb n="7"/>Octaviae Marcellinae <lb n="8"/>filiae suae defunctae <lb n="9"/>vixit annis XXVI et Catiae <lb n="10"/>Secundae coniugi suae <lb n="11"/>hic se vivo <lb n="12"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Z. 5: Tomić, AE 1910: D(omitianae).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

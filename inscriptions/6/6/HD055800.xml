@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD055800</idno>
+                <idno type="TM">177338</idno><idno type="localID">HD055800</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000078">Achaia</placeName><placeName>Colonia Augusta Aroe Patrae</placeName></origPlace>
+                            <origDate notBefore-custom="-0030" notAfter-custom="0030" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC – 30 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Pátrai</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Pelopónissos</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2010-09-27" who="Cowey">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 00503. 
+                    </bibl>
+                    <bibl>
+                         A.D. Rizakis, Achaïe II. La cité de Patras: épigraphie et histoire (Athènes 1998) 205-206, Nr. 157; Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                C(aio) Aurelio P(ubli) f(ilio) Quir(ina) veter(ano) leg(ionis) X Eq(uestris) aedil(iciis) ornament(is) / D[-]I[- - -]datis[- - -]o C(ai) [f(ilio)] Qu[i]r(ina) [P]rocu[- - -] / CI[- - -]IAROVIV[- - -]T aedi[l]i d(ecreto) d(ecurionum) [- - -] / LINNAE[- - - hon]orato IOCOONES[- - - h]onorato [- - -] / FPRIQE[- - -] / C(aio) Aurelio C(ai) f(ilio) IA[- - -]IRX[- - -] Prisco VIvir(o)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Aurelio <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Quir</abbr><ex>ina</ex></expan> <expan><abbr>veter</abbr><ex>ano</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> X <expan><abbr>Eq</abbr><ex>uestris</ex></expan> <expan><abbr>aedil</abbr><ex>iciis</ex></expan> <expan><abbr>ornament</abbr><ex>is</ex></expan> <lb n="2"/>D<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>I<gap reason="lost" extent="unknown" unit="character"/>datis<gap reason="lost" extent="unknown" unit="character"/>o <expan><abbr>C</abbr><ex>ai</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <expan><abbr>Qu<supplied reason="lost">i</supplied>r</abbr><ex>ina</ex></expan> <supplied reason="lost">P</supplied>rocu<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>CI<gap reason="lost" extent="unknown" unit="character"/>IAROVIV<gap reason="lost" extent="unknown" unit="character"/>T aedi<supplied reason="lost">l</supplied>i <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>LINNAE<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">hon</supplied>orato IOCOONES<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">h</supplied>onorato <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>FPRIQE<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><expan><abbr>C</abbr><ex>aio</ex></expan> Aurelio <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> IA<gap reason="lost" extent="unknown" unit="character"/>IRX<gap reason="lost" extent="unknown" unit="character"/> Prisco <expan><abbr>VIvir</abbr><ex>o</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

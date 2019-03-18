@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD006280</idno>
+                <idno type="TM">190699</idno><idno type="localID">HD006280</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>93.5</height>
+                                        <width>66.5</width>
+                                        <depth>12</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.5-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName>Municipium Montanensium</placeName></origPlace>
+                            <origDate notBefore-custom="0232" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">232 AD – 235 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/729114">Montana (Mihajlovgrad)</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Montana</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-05-11" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1985, 0752. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) D 28. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) M 520. 
+                    </bibl>
+                    <bibl>
+                         G. Aleksandrov, Arch(Sofia) 28, 1, 1986, 37-39, Nr. 2; obr. 2. - AE 1985. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(eratori) Caes(ari) [[Marco Aur(elio)]] / [[Severo Alexandro]] Pio / Felici Invicto Aug(usto) / pontifici maximo / patri patriae / C(aius) Quintus Decius leg(atus) Aug(usti) / pr(o) pr(aetore) provinciarum / Moesiae itemque / Germani(a)e inferiorum / candidatus Aug(usti) / devotissimus / dicatissimusque / numini / maiestatique / eorum
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <del rend="erasure">Marco <expan><abbr>Aur</abbr><ex>elio</ex></expan></del> <lb n="2"/><del rend="erasure">Severo Alexandro</del> Pio <lb n="3"/>Felici Invicto <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="4"/>pontifici maximo <lb n="5"/>patri patriae <lb n="6"/><expan><abbr>C</abbr><ex>aius</ex></expan> Quintus Decius <expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="7"/><expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> provinciarum <lb n="8"/>Moesiae itemque <lb n="9"/>Germani<expan><ex>a</ex><abbr>e</abbr></expan> inferiorum <lb n="10"/>candidatus <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="11"/>devotissimus <lb n="12"/>dicatissimusque <lb n="13"/>numini <lb n="14"/>maiestatique <lb n="15"/>eorum
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

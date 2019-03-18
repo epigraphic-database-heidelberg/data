@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD014914</idno>
+                <idno type="TM">178776</idno><idno type="localID">HD014914</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bucureşti, Muz. Naţ. Ant.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>68.5</height>
+                                        <width>30.5</width>
+                                        <depth>24.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2.5-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/004366">Dacia</placeName><placeName ref="http://www.trismegistos.org/place/030193">Potaissa</placeName></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1910">1910</date>
+                        <placeName ref="http://www.geonames.org/664460">Turda</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Cluj</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-02-27" who="Cowey">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1967, 0398. (B) 
+                    </bibl>
+                    <bibl>
+                         E. Bujor, Apulum 6, 1967, 186-189. 204, Nr. 3; fig. 1, 3. (B) - AE 1967. 
+                    </bibl>
+                    <bibl>
+                         SEG 24, 1156. 
+                    </bibl>
+                    <bibl>
+                         ILD 504. (B) 
+                    </bibl>
+                    <bibl>
+                         J.R. Carbó García, in: S. Nemeti u. a. (Hrsg.), Dacia Felix. Studia Michaeli Bărbulescu oblata (Cluj-Napoca 2007) 133-134, Nr. 2; fig. 2 (Zeichnung). (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Μηνὶ Ἀνει/{ι}κή<τ>ῳ Aur(elius) / Marcianus / [s]ignifer / leg(ionis) voto / posuit
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><ab><lb n="1"/>
+                Μηνὶ Ἀνει<lb break="no" n="2"/><surplus>ι</surplus>κή<supplied reason="omitted">τ</supplied>ῳ <expan><abbr>Aur</abbr><ex>elius</ex></expan> <lb n="3"/>Marcianus <lb n="4"/><supplied reason="lost">s</supplied>ignifer <lb n="5"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> voto <lb n="6"/>posuit
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Bujor; AE 1967, ILD; Carbó García: Z. 1/2: Ἀνε/ικήτῳ; Bujor: Z. 4: sicnifer l(egionis) g(eminae); ILD: Z. 4: signifer; AE 1967: Z. 4/5: signi/fer l(egionis) g(eminae).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

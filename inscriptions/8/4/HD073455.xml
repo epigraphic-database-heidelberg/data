@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD073455</idno>
+                <idno type="TM"/><idno type="localID">HD073455</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-39</height>
+                                        <width>112</width>
+                                        <depth>30</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.0</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1890">1890</date>
+                        <placeName ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Niederösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-05-11" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F019050">
+            <desc>F019050</desc>
+        </graphic>
+
+        <graphic url="http://lupa.at/227">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 11226. 
+                    </bibl>
+                    <bibl>
+                         M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR Österreich 1, 4 (Wien 1972) 38, Nr. 504; Taf. 37, 504. (B) 
+                    </bibl>
+                    <bibl>
+                         E. Vorbeck, Militärinschriften aus Carnuntum (Wien 1980) 38-39, Nr. 79. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $]/ [- - -]L(?) et Lar(tidio?) V[- - -] / nep(oti) L(ucius) Lartidius Vultili/anus dup(larius) leg(ionis) s(upra) s(criptae) fratr(i) / nepotibus ex vol(untate) (tes)tamen(enti) / f(aciendum) c(uravit)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>L</abbr><ex cert="low"/></expan> et <expan><abbr>Lar</abbr><ex cert="low">tidio</ex></expan> V<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>nep</abbr><ex>oti</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> Lartidius Vultili<lb break="no" n="4"/>anus <expan><abbr>dup</abbr><ex>larius</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptae</ex></expan> <expan><abbr>fratr</abbr><ex>i</ex></expan> <lb n="5"/>nepotibus ex <expan><abbr>vol</abbr><ex>untate</ex></expan> <expan><ex>tes</ex><abbr>tamen</abbr><ex>enti</ex></expan> <lb n="6"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Unterer Teil einer Inschriftplatte. Zu Beginn von Z. 1. L oder E. Zahlreiche Ligaturn. Zeile 2: TI-, VL-. TI-, LI-Ligatur; Zeile 3: PL-, TR-Ligatur; Zeile 4: TI-, OL-, ME-Ligatur. (B): Z. 1: Krüger, Vorbeck: fi]l(io); V[ultil(iano)]; Z. 4: Vorbeck; Krüger: [tes]tamen(ti)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

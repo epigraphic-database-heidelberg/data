@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD012584</idno>
+                <idno type="TM">181880</idno><idno type="localID">HD012584</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Zenica, Muzej</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-130</height>
+                                        <width>102</width>
+                                        <depth>19</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0271" notAfter-custom="0330" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">271 AD – 330 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1967">1967</date>
+                        <placeName ref="http://www.geonames.org/3204143">Kakanj</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Zeničko-dobojski kanton</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ba/">Bosnien und Herzegowina</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-07-08" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1987, 0804. 
+                    </bibl>
+                    <bibl>
+                         V. Paškvalin, GlasSarajevo 38, 1983, 100-103; sl. 3. - AE 1987. 
+                    </bibl>
+                    <bibl>
+                         A. Škegro, OpuscArchZagreb 21, 1997, 101, Nr. 118. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) / Licini(a)e matri an(norum) XL / Arpagio fratri an(norum) VI / Valerius po(suit) fi(lius) pi(issimus?) mit(ri)(!) / et fra(tri)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Licini<expan><ex>a</ex><abbr>e</abbr></expan> matri <expan><abbr>an</abbr><ex>norum</ex></expan> XL <lb n="3"/>Arpagio fratri <expan><abbr>an</abbr><ex>norum</ex></expan> VI <lb n="4"/>Valerius <expan><abbr>po</abbr><ex>suit</ex></expan> <expan><abbr>fi</abbr><ex>lius</ex></expan> <expan><abbr>pi</abbr><ex cert="low">issimus</ex></expan> <expan><abbr>mit</abbr><ex>ri</ex></expan> <note>sic</note> <lb n="5"/>et <expan><abbr>fra</abbr><ex>tri</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

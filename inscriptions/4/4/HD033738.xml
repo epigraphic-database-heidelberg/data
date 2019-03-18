@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Meilen-/Leugenstein</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD033738</idno>
+                <idno type="TM">193110</idno><idno type="localID">HD033738</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugenstein</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-120</height>
+                                        <width>35</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000014">Thracia</placeName><placeName ref="http://www.trismegistos.org/place/015984">Turres</placeName></origPlace>
+                            <origDate notBefore-custom="0360" notAfter-custom="0362" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">360 AD – 362 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/787050">Pirot, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Centralna Srbija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/rs/">Serbien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-07-25" who="Feraudi">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        ILJug 1461. 
+                    </bibl>
+                    <bibl>
+                         N. Vulić, Spomenik 75, 1933, 62, Nr. 183. 
+                    </bibl>
+                    <bibl>
+                         S. Conti, Die Inschriften Kaiser Julians (Stuttgart 2004) 102, Nr. 61. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [- - -? I]mp[e]/ratori Caes[ari Fl(avio) Clau]dio Iu[liano Pio Felici Au]/gusto venerabili ac triu[m]fatori(!) [semper] / [August]/o [pon]ti[f]ici m[aximo Fran]/cico m[aximo] Alamann[ico maxim]/o [Germanico maximo consul]/i ter [patri patriae pro]/cons(uli) impe[r]atori / [- - - r]ecu[perata re publica]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/>? I</supplied>mp<supplied reason="lost">e</supplied><lb break="no" n="2"/>ratori Caes<supplied reason="lost">ari <expan><abbr>Fl</abbr><ex>avio</ex></expan> Clau</supplied>dio Iu<supplied reason="lost">liano Pio Felici Au</supplied><lb break="no" n="3"/>gusto venerabili ac triu<supplied reason="lost">m</supplied>fatori <note>sic</note> <supplied reason="lost">semper</supplied> <lb n="4"/><supplied reason="lost">August</supplied><lb break="no" n="5"/>o <supplied reason="lost">pon</supplied>ti<supplied reason="lost">f</supplied>ici m<supplied reason="lost">aximo Fran</supplied><lb break="no" n="6"/>cico m<supplied reason="lost">aximo</supplied> Alamann<supplied reason="lost">ico maxim</supplied><lb break="no" n="7"/>o <supplied reason="lost">Germanico maximo consul</supplied><lb break="no" n="8"/>i ter <supplied reason="lost">patri patriae pro</supplied><lb break="no" n="9"/><expan><abbr>cons</abbr><ex>uli</ex></expan> impe<supplied reason="lost">r</supplied>atori <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">r</supplied>ecu<supplied reason="lost">perata re publica</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> In den Zeilen 4 und 7 Spuren einer älteren Inschrift (maximo und [proc]o[nsuli]).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

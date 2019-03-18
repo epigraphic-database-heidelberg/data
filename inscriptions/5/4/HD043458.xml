@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD043458</idno>
+                <idno type="TM">192257</idno><idno type="localID">HD043458</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>80</height>
+                                        <width>45</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName>Municipium Montanensium</placeName></origPlace>
+                            <origDate notBefore-custom="0160" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">160 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/729114">Montana (Mihajlovgrad)</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Montana</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-09-06" who="Feraudi">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1891, 0080. (B) 
+                    </bibl>
+                    <bibl>
+                         S. Frankfurter, AEM 14, 1891, 145, Nr. 7. (B) - AE 1891. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) I 588. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 12371. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Dianae / Reginae et Apol/lini pro salute / L(uci) Iu<l=I>i#Iu<l>i#IUII Statilii Se/veri leg(ati) Aug(usti) pr(o) / pr(aetore) et li[be]r(or)um ei/us [-] Aelius [- - - f(ilius)] / Artemidoru(s) / |(centurio) [l]eg(ionis) [I] Ital(icae) [f]r(umentarius)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Dianae <lb n="2"/>Reginae et Apol<lb break="no" n="3"/>lini pro salute <lb n="4"/><expan><abbr>L</abbr><ex>uci</ex></expan> Iu<choice><corr>l</corr><sic>I</sic></choice>i#Iu<supplied reason="omitted">l</supplied>i#IUII Statilii Se<lb break="no" n="5"/>veri <expan><abbr>leg</abbr><ex>ati</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <lb n="6"/><expan><abbr>pr</abbr><ex>aetore</ex></expan> et <expan><abbr>li<supplied reason="lost">be</supplied>r</abbr><ex>or</ex>um</expan> ei<lb break="no" n="7"/>us <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Aelius <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="8"/><expan><abbr>Artemidoru</abbr><ex>s</ex></expan> <lb n="9"/>|(centurio) <expan><abbr><supplied reason="lost">l</supplied>eg</abbr><ex>ionis</ex></expan> <supplied reason="lost">I</supplied> <expan><abbr>Ital</abbr><ex>icae</ex></expan> <expan><abbr><supplied reason="lost">f</supplied>r</abbr><ex>umentarius</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Hederae. (B): Frankfurter, AE 1891: Z. 4: [T.] Iu[l]i.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

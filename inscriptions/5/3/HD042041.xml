@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD042041</idno>
+                <idno type="TM">191404</idno><idno type="localID">HD042041</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Dresden, Skulpturenslg.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>213</height>
+                                        <width>82</width>
+                                        <depth>25</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-4.2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName ref="http://www.trismegistos.org/place/029865">Tropaeum Traiani</placeName></origPlace>
+                            <origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/686688">Adamclisi</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Constanța</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-04-03" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F002906">
+            <desc>F002906</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F012695">
+            <desc>F012695</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 199, Nr. 271; Taf. 109, 3. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 14214, 14. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) // Scoris Mucapo/ri vicsit(!) anno/s LX Aurelius fi/lius vicsit(!) an/nis XXXI Sabina / filia vicsit(!) anni/s XXX / Aur(elia) Ettepir(?) u/csor(!) et Vale(n)s / et Sabinianus fi(lii) / superstantes // posuerunt
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Scoris Mucapo<lb break="no" n="2"/>ri vicsit <note>sic</note> anno<lb break="no" n="3"/>s LX Aurelius fi<lb break="no" n="4"/>lius vicsit <note>sic</note> an<lb break="no" n="5"/>nis XXXI Sabina <lb n="6"/>filia vicsit <note>sic</note> anni<lb break="no" n="7"/>s XXX <lb n="8"/><expan><abbr>Aur</abbr><ex>elia</ex></expan> <expan><abbr>Ettepir</abbr><ex cert="low"/></expan> u<lb break="no" n="9"/>csor <note>sic</note> et Vale<expan><ex>n</ex><abbr>s</abbr></expan> <lb n="10"/>et Sabinianus <expan><abbr>fi</abbr><ex>lii</ex></expan> <lb n="11"/>superstantes </ab></div><div n="3" type="textpart"><ab><lb n="1"/> posuerunt
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Oberhalb des Inschriftfeldes Totenmahlrelief; darüber ein weiteres Bildfeld mit einem Reiter und einer stehenden Frau. Z. 1 auf dem Streifen zwischen dem Inschriftfeld und dem Relief; Buchstabe D spiegelverkehrt. Der jeweils 1. Buchstabe der Z. 2-7 und 9-12, die Buchstaben I am Ende der Z. 7, FI am Ende der Z. 11, S am Ende der Z. 12 sowie die gesamte letzte Zeile befinden sich auf dem Rahmen des Inschriftfeldes. Z. 9: möglicherweise auch Eftepir. (B): Conrad, CIL III: Z. 3/4: anni/s; Conrad: Z. 9: Aurelia; Z. 10: Vale[n]s.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

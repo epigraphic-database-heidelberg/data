@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD057785</idno>
+                <idno type="TM">216329</idno><idno type="localID">HD057785</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Magdalensberg, Timenitz, S. Georg, Pfarrkirche, sekundär verwendet</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>71</height>
+                                        <width>-83</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">7.5-2.2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003230">Noricum</placeName><placeName>Municipium Claudium Virunum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0131" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2763594">Magdalensberg</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kärnten</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-05-13" who="Krenn">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/2548">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        ILLPRON 0608. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 04859. (B) 
+                    </bibl>
+                    <bibl>
+                         R. Wedenig, Epigraphische Quellen zur städtischen Administration in Noricum (Klagenfurt 1997) 262-263, Nr. V 13; Taf. 6, V 13. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) C(aio) Viato[rio - - -] / IIvir(o) iur(e) dic(undo) C[l(audii) Vir(uni) - - -?] / praefec(tus) coh(ortis) I[- - -] / trib(unus) leg(ionis) V Mace[d(onicae) - - -?] / patri carissimo [- - -] / Viatoriae Taurinae [- - -] / et [her]edes [- - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>C</abbr><ex>aio</ex></expan> Viato<supplied reason="lost">rio</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>IIvir</abbr><ex>o</ex></expan> <expan><abbr>iur</abbr><ex>e</ex></expan> <expan><abbr>dic</abbr><ex>undo</ex></expan> C<supplied reason="lost" cert="low">l(audii) Vir(uni) ---</supplied> <lb n="3"/><expan><abbr>praefec</abbr><ex>tus</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> I<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>trib</abbr><ex>unus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> V Mace<supplied reason="lost" cert="low">d(onicae) ---</supplied> <lb n="5"/>patri carissimo <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>Viatoriae Taurinae <gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>et <supplied reason="lost">her</supplied>edes <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Maße nach lupa 2548. (B): CIL 03: Z. 5: CAR [---]; ILLPRON: Z. 5: car(issimo); CIL 03, Z. 6: VIX [---]IV[---]AE[---]; ILLPRON: Z. 6: vix(it) [---]IV[---]AE[---].</p>
+            </div>
+        </body>
+    </text>
+</TEI>

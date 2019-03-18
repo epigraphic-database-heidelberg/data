@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD051573</idno>
+                <idno type="TM">168828</idno><idno type="localID">HD051573</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>5.7</height>
+                                        <width>4</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 400 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1979">1979</date>
+                        <placeName ref="http://www.geonames.org/2646812">Brandon</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Norfolk</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/76">Defixio</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-03-11" who="Cowey">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1994, 1112. 
+                    </bibl>
+                    <bibl>
+                         M.W.C. Hassall - R.S.O. Tomlin, Britannia 25, 1994, 293-295, Nr. 1; fig. 1 (Zeichnung). - AE 1994. 
+                    </bibl>
+                    <bibl>
+                         A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 3.3/1. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                SERADVASORISDVAS / s(i) ser(v)us si anc(i)i(l)a si li(bertus) liberta si m(u)lie[r] / si baro popia(m) fer(re)a(m) / EAENEC furtum fece/rit domino Neptuno / corulo pare(n)tatur
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                SERADVASORISDVAS <lb n="2"/><expan><abbr>s</abbr><ex>i</ex></expan> ser<expan><ex>v</ex><abbr>us</abbr></expan> si anc<expan><ex>i</ex><abbr>i</abbr><ex>l</ex><abbr>a</abbr></expan> si <expan><abbr>li</abbr><ex>bertus</ex></expan> liberta si m<expan><ex>u</ex><abbr>lie</abbr></expan><supplied reason="lost">r</supplied> <lb n="3"/>si baro <expan><abbr>popia</abbr><ex>m</ex></expan> fer<expan><ex>re</ex><abbr>a</abbr><ex>m</ex></expan> <lb n="4"/>EAENEC furtum fece<lb break="no" n="5"/>rit domino Neptuno <lb n="6"/>corulo pare<expan><ex>n</ex><abbr>tatur</abbr></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Gebet für Gerechtigkeit.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

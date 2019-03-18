@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD055921</idno>
+                <idno type="TM">181659</idno><idno type="localID">HD055921</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-4.4</height>
+                                        <width>-5.3</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">0.3-0.4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/004366">Dacia</placeName><placeName ref="http://www.trismegistos.org/place/030049">Micia</placeName></origPlace>
+                            <origDate notBefore-custom="0136" notAfter-custom="0138" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">136 AD – 138 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/663018">Veţel</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hunedoara</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-02-13" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2002, 1223. 
+                    </bibl>
+                    <bibl>
+                         RMD 384. 
+                    </bibl>
+                    <bibl>
+                         ILD 034. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) Caesar divi [Traiani Parthici f(ilius) divi] / Nervae nepos Tra[ianus Hadrianus Augustus] / pontif(ex) max(imus) tr(ibunicia) p[ot(estate) XXI? imp(erator) II co(n)s(ul) III p(ater) p(atriae)] / equit(ibus) et pedit(ibus) qui [m(ilitaverunt) in al(is) III et num(ero)? equit(um)] / Illyr(icorum) et coh(ortibus) X qua[e appell(antur) I Batav(orum) |(milliaria) et I] / Hisp(anorum) Camp(agonum) et I Gal[l(orum) et Bosp(oranorum) et I Alp(inorum) et I] / Vind(elicorum) et I Thr(acum) sa[g(ittaria) et I Ubior(um) et I Itur(aeorum)] / sag(ittariorum) et II Gall(orum) [Pann(onica) et II Fl(avia) Com(magenorum) et II] / Gall(orum) Dacic(a) et [IIII Hisp(anorum) et VIII Raet(orum) et sunt] / [in Dacia superiore & // Imp(erator) Caes(ar) di[vi Traiani Parthici f(ilius) divi Nervae] / nepos Tra[ianus Hadrianus Aug(ustus) pont(ifex) max(imus)] / tr(ibunicia) pot(estate) XX[I? imp(erator) II co(n)s(ul) III p(ater) p(atriae)] / eq(uitibus) et ped(itibus) q(ui) [m(ilitaverunt) in al(is) III et num(ero)? eq(uitum) Illyr(icorum) et coh(ortibus) X] / q(uae) ap(pellantur) I Bat(avorum) [|(milliaria) et I Hisp(anorum) Camp(agonum) et I Gall(orum) et] / Bosp(oranorum) et I Alp(inorum) [et I Vind(elicorum) et I Thr(acum) sag(ittaria)] / et I Ub(iorum) et [I Itur(aeorum) sag(ittariorum) et II Gall(orum) Pannon(ica) et II Fl(avia)] / [Co]m(agenorum) et [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi <supplied reason="lost">Traiani Parthici <expan><abbr>f</abbr><ex>ilius</ex></expan> divi</supplied> <lb n="2"/>Nervae nepos Tra<supplied reason="lost">ianus Hadrianus Augustus</supplied> <lb n="3"/><expan><abbr>pontif</abbr><ex>ex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> p<supplied reason="lost"><expan><abbr>ot</abbr><ex>estate</ex></expan> XXI<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>imp</abbr><ex>erator</ex></expan> II <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="4"/><expan><abbr>equit</abbr><ex>ibus</ex></expan> et <expan><abbr>pedit</abbr><ex>ibus</ex></expan> qui <supplied reason="lost"><expan><abbr>m</abbr><ex>ilitaverunt</ex></expan> in <expan><abbr>al</abbr><ex>is</ex></expan> III et <expan><abbr>num</abbr><ex>ero</ex></expan>? <expan><abbr>equit</abbr><ex>um</ex></expan></supplied> <lb n="5"/><expan><abbr>Illyr</abbr><ex>icorum</ex></expan> et <expan><abbr>coh</abbr><ex>ortibus</ex></expan> X qua<supplied reason="lost">e <expan><abbr>appell</abbr><ex>antur</ex></expan> I <expan><abbr>Batav</abbr><ex>orum</ex></expan> |(milliaria) et I</supplied> <lb n="6"/><expan><abbr>Hisp</abbr><ex>anorum</ex></expan> <expan><abbr>Camp</abbr><ex>agonum</ex></expan> et I Gal<supplied reason="lost"><expan><abbr>l</abbr><ex>orum</ex></expan> et <expan><abbr>Bosp</abbr><ex>oranorum</ex></expan> et I <expan><abbr>Alp</abbr><ex>inorum</ex></expan> et I</supplied> <lb n="7"/><expan><abbr>Vind</abbr><ex>elicorum</ex></expan> et I <expan><abbr>Thr</abbr><ex>acum</ex></expan> sa<supplied reason="lost"><expan><abbr>g</abbr><ex>ittaria</ex></expan> et I <expan><abbr>Ubior</abbr><ex>um</ex></expan> et I <expan><abbr>Itur</abbr><ex>aeorum</ex></expan></supplied> <lb n="8"/><expan><abbr>sag</abbr><ex>ittariorum</ex></expan> et II <expan><abbr>Gall</abbr><ex>orum</ex></expan> <supplied reason="lost"><expan><abbr>Pann</abbr><ex>onica</ex></expan> et II <expan><abbr>Fl</abbr><ex>avia</ex></expan> <expan><abbr>Com</abbr><ex>magenorum</ex></expan> et II</supplied> <lb n="9"/><expan><abbr>Gall</abbr><ex>orum</ex></expan> <expan><abbr>Dacic</abbr><ex>a</ex></expan> et <supplied reason="lost">IIII <expan><abbr>Hisp</abbr><ex>anorum</ex></expan> et VIII <expan><abbr>Raet</abbr><ex>orum</ex></expan> et sunt</supplied> <lb n="10"/>[in Dacia superiore &amp; </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> di<supplied reason="lost">vi Traiani Parthici <expan><abbr>f</abbr><ex>ilius</ex></expan> divi Nervae</supplied> <lb n="2"/>nepos Tra<supplied reason="lost">ianus Hadrianus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan></supplied> <lb n="3"/><expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XX<supplied reason="lost">I<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>imp</abbr><ex>erator</ex></expan> II <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="4"/><expan><abbr>eq</abbr><ex>uitibus</ex></expan> et <expan><abbr>ped</abbr><ex>itibus</ex></expan> <expan><abbr>q</abbr><ex>ui</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>ilitaverunt</ex></expan> in <expan><abbr>al</abbr><ex>is</ex></expan> III et <expan><abbr>num</abbr><ex>ero</ex></expan>? <expan><abbr>eq</abbr><ex>uitum</ex></expan> <expan><abbr>Illyr</abbr><ex>icorum</ex></expan> et <expan><abbr>coh</abbr><ex>ortibus</ex></expan> X</supplied> <lb n="5"/><expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>ap</abbr><ex>pellantur</ex></expan> I <expan><abbr>Bat</abbr><ex>avorum</ex></expan> <supplied reason="lost">|(milliaria) et I <expan><abbr>Hisp</abbr><ex>anorum</ex></expan> <expan><abbr>Camp</abbr><ex>agonum</ex></expan> et I <expan><abbr>Gall</abbr><ex>orum</ex></expan> et</supplied> <lb n="6"/><expan><abbr>Bosp</abbr><ex>oranorum</ex></expan> et I <expan><abbr>Alp</abbr><ex>inorum</ex></expan> <supplied reason="lost">et I <expan><abbr>Vind</abbr><ex>elicorum</ex></expan> et I <expan><abbr>Thr</abbr><ex>acum</ex></expan> <expan><abbr>sag</abbr><ex>ittaria</ex></expan></supplied> <lb n="7"/>et I <expan><abbr>Ub</abbr><ex>iorum</ex></expan> et <supplied reason="lost">I <expan><abbr>Itur</abbr><ex>aeorum</ex></expan> <expan><abbr>sag</abbr><ex>ittariorum</ex></expan> et II <expan><abbr>Gall</abbr><ex>orum</ex></expan> <expan><abbr>Pannon</abbr><ex>ica</ex></expan> et II <expan><abbr>Fl</abbr><ex>avia</ex></expan></supplied> <lb n="8"/><expan><abbr><supplied reason="lost">Co</supplied>m</abbr><ex>agenorum</ex></expan> et <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

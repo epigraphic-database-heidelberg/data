@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD065223</idno>
+                <idno type="TM">197890</idno><idno type="localID">HD065223</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>172</height>
+                                        <width>75</width>
+                                        <depth>75</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000014">Thracia</placeName><placeName ref="http://www.trismegistos.org/place/015863">Philippopolis</placeName></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/728193">Plovdiv</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Plovdiv</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-09-21" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IGBulg 5468. (B) 
+                    </bibl>
+                    <bibl>
+                         AE 1999, 1394. (B) 
+                    </bibl>
+                    <bibl>
+                         SEG 47, 1088. (B) 
+                    </bibl>
+                    <bibl>
+                         AE 2005, 1384.(B) 
+                    </bibl>
+                    <bibl>
+                         N. Sharankov, ArchBulg 9, 2, 2005, 66-67, Nr. 3c; Fig. 9. - AE 2005. 
+                    </bibl>
+                    <bibl>
+                         SEG 55, 0759. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Πό(πλιον) Οὐίρδιον Ἰ̣[ουλι]/ανὸν νέον χ̣[ειλί]/[αρ]χ̣ον τὸν ῥή[τορα] / φ[υ]λὴ Εὐμολπ[ηὶς] / τὸν ἥρωα / ἕστηκα ἐν μέ[ρει] / πατρὸς παῖς ὡ[ς ἐ]/φέδεν με / ζωὸν ἐόντα π[ά]/τρη στῆσεν ἐ[νὶ] / μεσάτῳ / ἐκδικοῦντος Αὐρ(ηλίου) [Πωλ]/λίωνος τοῦ καὶ Γεωργ[οῦ] / ἐπιμελουμένου Αὐρ(ηλίου) / Χρήστου Γλαύκου
+            --><div type="edition" xml:lang="grc"><head>Text</head><ab><lb n="1"/>
+                Πό(πλιον) Οὐίρδιον Ἰ̣<supplied reason="lost">ουλι</supplied><lb break="no" n="2"/>ανὸν νέον χ̣<supplied reason="lost">ειλί</supplied><lb break="no" n="3"/><supplied reason="lost">αρ</supplied>χ̣ον τὸν ῥή<supplied reason="lost">τορα</supplied> <lb n="4"/>φ<supplied reason="lost">υ</supplied>λὴ Εὐμολπ<supplied reason="lost">ηὶς</supplied> <lb n="5"/>τὸν ἥρωα <lb n="6"/>ἕστηκα ἐν μέ<supplied reason="lost">ρει</supplied> <lb n="7"/>πατρὸς παῖς ὡ<supplied reason="lost">ς ἐ</supplied><lb break="no" n="8"/>φέδεν με <lb n="9"/>ζωὸν ἐόντα π<supplied reason="lost">ά</supplied><lb break="no" n="10"/>τρη στῆσεν ἐ<supplied reason="lost">νὶ</supplied> <lb n="11"/>μεσάτῳ <lb n="12"/>ἐκδικοῦντος Αὐρ(ηλίου) <supplied reason="lost">Πωλ</supplied><lb break="no" n="13"/>λίωνος τοῦ καὶ Γεωργ<supplied reason="lost">οῦ</supplied> <lb n="14"/>ἐπιμελουμένου Αὐρ(ηλίου) <lb n="15"/>Χρήστου Γλαύκου
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 5-11: elegisches Distichon. (B): Z. 7-8 Ω[---]/ΦΕΔΕΝ bzw. ω[˘]/φεδεν in IGBulg 5468, AE 1999 und SEG 47. Z. 10-11 ἐ[ν τῷ?] / μεσάτῳ in IGBulg 5468, AE 1999 und SEG 47.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD039566</idno>
+                <idno type="TM">196887</idno><idno type="localID">HD039566</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Komárno, Festung, Bastion 6, Lapidarium</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>101</height>
+                                        <width>181</width>
+                                        <depth>85</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.5-5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016277">Brigetio</placeName></origPlace>
+                            <origDate notBefore-custom="0231" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">231 AD – 270 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1913">1913</date>
+                        <placeName ref="http://www.geonames.org/3044294">Komárom</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Komárom-Esztergom megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-12-07" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/3488">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1999, 1246. (B) 
+                    </bibl>
+                    <bibl>
+                         AE 2000, 1197. 
+                    </bibl>
+                    <bibl>
+                         RIU 0595; Abb. 595 (Foto u. Zeichnung). (B) 
+                    </bibl>
+                    <bibl>
+                         Z. Mráv, MünstBeitr 18, 1999, 73-85; Abb. 1; Abb. 2 (Zeichnung). (B) - AE 1999. 
+                    </bibl>
+                    <bibl>
+                         Z. Mráv, HevesKözl 2, 2000, 71-78. (B) 
+                    </bibl>
+                    <bibl>
+                         F. Harl - B. Lőrincz, Führer zum römischen Lapidarium in Bastion VI der Festung Komárno (Komárno – Wien 2002) 30, Nr. 28; Foto u. Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) // Valeri(a)e Lucill(a)e q(uondam) Q(?)/uae vixit ann(os) XL / Aurel(ius) Martia/lis naucler(us) portus / [Pon(tis)] (A)eni coniugi / carissim(a)e f(aciendum) c(uravit)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Valeri<expan><ex>a</ex><abbr>e</abbr></expan> Lucill<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>q</abbr><ex>uondam</ex></expan> <expan><abbr>Q</abbr><ex cert="low"/></expan><lb break="no" n="2"/>uae vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XL <lb n="3"/><expan><abbr>Aurel</abbr><ex>ius</ex></expan> Martia<lb break="no" n="4"/>lis <expan><abbr>naucler</abbr><ex>us</ex></expan> portus <lb n="5"/><supplied reason="lost"><expan><abbr>Pon</abbr><ex>tis</ex></expan></supplied> <expan><ex>A</ex><abbr>eni</abbr></expan> coniugi <lb n="6"/>carissim<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Maße beziehen sich auf den Kasten; Maße des Deckels: 30 x 181 x 85 cm. Z. 1: Buchstaben D und M links und rechts oberhalb des Inschriftfeldes. Z. 2 (Ende): aufsteigende Schräghaste durch das vorletzte Q; dahinter wohl doch eher ein mißlungenes Q als eine hedera, wie Mráv und AE 1999 meinen. Z. 5 (Ende): hedera. Textwiedergabe nach der Zeichnung bei Mráv, MünstBeitr. Ergänzungsvorschläge nach Mráv. (B): RIU: Abweichungen in Lesung und Ergänzung; Mráv, MünstBeitr, HevesKözl: Abweichungen in der Textwiedergabe.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

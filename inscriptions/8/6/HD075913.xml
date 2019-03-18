@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD075913</idno>
+                <idno type="TM"/><idno type="localID">HD075913</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Köln, S. Gereon, Kirche, Nikolauskapelle</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-39</height>
+                                        <width>-41</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016530">Germania inferior</placeName><placeName ref="http://www.trismegistos.org/place/003258">Colonia Claudia Ara Agrippinensium</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1839">1839</date>
+                        <placeName ref="http://www.geonames.org/2886242">Köln</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Nordrhein-Westfalen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-02-23" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F020306">
+            <desc>F020306</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 08350. 
+                    </bibl>
+                    <bibl>
+                         B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln, IKöln (2. 
+                    </bibl>
+                    <bibl>
+                         Aufl.) (Mainz 2010) 355-356, Nr. 426; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [- - -?] Se//cun//di//nio /// Severo negot(iatori) / cret(ario) C(aius) Secundin(ius) / Adventus frat[ri] / pientiss(imo) et Nun/din(ia) Severina co[n]/[iugi &
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> Se</ab></div><div n="2" type="textpart"><ab><lb n="1"/>cun</ab></div><div n="3" type="textpart"><ab><lb n="1"/>di</ab></div><div n="4" type="textpart"><ab><lb n="1"/>nio </ab></div><div n="5" type="textpart"><ab><lb n="1"/> <lb n="2"/>Severo <expan><abbr>negot</abbr><ex>iatori</ex></expan> <lb n="3"/><expan><abbr>cret</abbr><ex>ario</ex></expan> <expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Secundin</abbr><ex>ius</ex></expan> <lb n="4"/>Adventus frat<supplied reason="lost">ri</supplied> <lb n="5"/><expan><abbr>pientiss</abbr><ex>imo</ex></expan> et Nun<lb break="no" n="6"/><expan><abbr>din</abbr><ex>ia</ex></expan> Severina co<supplied reason="lost">n</supplied><lb break="no" n="7"/><supplied reason="lost">iugi</supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

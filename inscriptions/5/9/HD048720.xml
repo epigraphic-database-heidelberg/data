@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD048720</idno>
+                <idno type="TM">201456</idno><idno type="localID">HD048720</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>110</height>
+                                        <width>57</width>
+                                        <depth>50</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6-3.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/015771">Africa Proconsularis</placeName><placeName ref="http://www.trismegistos.org/place/017073">Giufi</placeName></origPlace>
+                            <origDate notBefore-custom="0229" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">229 AD – 235 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Bir-Mcherga</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/tn/">Tunesien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-05-05" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1999, 1828. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Quirino deo Patri / Genio municipii / Aug(usto) sacrum / pro salute Imp(eratoris) [[Caesaris]] / [[M(arci) Aureli Severi Alexandri Pii Felicis Aug(usti) pont(ificis) max(imi) trib(unicia) pot(estate) - - - co(n)s(ulis) - - - p(atris) p(atriae) proco(n)s(ulis) et Iuliae Mamaeae Aug(ustae) matris Aug(usti) et castrorum et senatus et patriae]] / totiusque domus divinae / L(ucius) Turius Martialis et Q(uintus) Corne/lius Felix Emeritus aediles / inlatis r(ei) p(ublicae) summis honora/riis aedilitatis suae amplius / statuam aeream ex SS VIIII(milibus) n(ummum) / et basim patriae dono dede/runt et dedicaverunt ob / quam dedicationem ludos / scaenicos(!) ediderunt et gymnasium biduo dederunt
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Quirino deo Patri <lb n="2"/>Genio municipii <lb n="3"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> sacrum <lb n="4"/>pro salute <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <del rend="erasure">Caesaris</del> <lb n="5"/><del rend="erasure"><expan><abbr>M</abbr><ex>arci</ex></expan> Aureli Severi Alexandri Pii Felicis <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pont</abbr><ex>ificis</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> et Iuliae Mamaeae <expan><abbr>Aug</abbr><ex>ustae</ex></expan> matris <expan><abbr>Aug</abbr><ex>usti</ex></expan> et castrorum et senatus et patriae</del> <lb n="6"/>totiusque domus divinae <lb n="7"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Turius Martialis et <expan><abbr>Q</abbr><ex>uintus</ex></expan> Corne<lb break="no" n="8"/>lius Felix Emeritus aediles <lb n="9"/>inlatis <expan><abbr>r</abbr><ex>ei</ex></expan> <expan><abbr>p</abbr><ex>ublicae</ex></expan> summis honora<lb break="no" n="10"/>riis aedilitatis suae amplius <lb n="11"/>statuam aeream ex SS <expan><abbr>VIIII</abbr><ex>milibus</ex></expan> <expan><abbr>n</abbr><ex>ummum</ex></expan> <lb n="12"/>et basim patriae dono dede<lb break="no" n="13"/>runt et dedicaverunt ob <lb n="14"/>quam dedicationem ludos <lb n="15"/>scaenicos <note>sic</note> ediderunt et gymnasium biduo dederunt
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Architekturteil</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD004198</idno>
+                <idno type="TM">250254</idno><idno type="localID">HD004198</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/35">Architekturteil</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/152">Mosaik</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033152">Latium et Campania (Regio I)</placeName><placeName ref="http://www.trismegistos.org/place/032416">Casilinum</placeName></origPlace>
+                            <origDate notBefore-custom="-0074" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">74 BC
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Capua</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Campania</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-09-23" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1980, 0233. 
+                    </bibl>
+                    <bibl>
+                         A. Ferrua, RPAA 28, 1954/55, 55-62; fig. 1-3. - AE 1980. 
+                    </bibl>
+                    <bibl>
+                         CIL 10, 03935. 
+                    </bibl>
+                    <bibl>
+                         AE 1997, 0316. 
+                    </bibl>
+                    <bibl>
+                         AE 1957, 0308. 
+                    </bibl>
+                    <bibl>
+                         AE 1956, 0037. 
+                    </bibl>
+                    <bibl>
+                         AE 1958, 0279. 
+                    </bibl>
+                    <bibl>
+                         AE 1996, 0429. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                L(ucius) Geminius L(uci) [f(ilius) - - -] C(aius) Metius C(ai) f(ilius) L(ucius) Maius N(umeri) f(ilius) C(aius) Conius L(uci) f(ilius) / M(arcus) Naevius M(arci) [f(ilius) - - -] L(ucius) Maamius L(uci) f(ilius) [M(arcus)?] Seius M(arci) f(ilius) P(ublius) Paccius L(uci) f(ilius) / h[e]isce magis[treis - - - faciun]dum aidemqu[e] reficiundam / col[u]mnas [- - -] vineis ina[- - -] de stipe Dianai / faciunda co[eraverunt L(ucio) Licinio L(uci) f(ilio)] M(arco) Aurelio [M(arci) f(ilio) c]onsolibus
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Geminius <expan><abbr>L</abbr><ex>uci</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>C</abbr><ex>aius</ex></expan> Metius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> Maius <expan><abbr>N</abbr><ex>umeri</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>C</abbr><ex>aius</ex></expan> Conius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Naevius <expan><abbr>M</abbr><ex>arci</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>L</abbr><ex>ucius</ex></expan> Maamius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <supplied reason="lost" cert="low">M(arcus)</supplied> Seius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>P</abbr><ex>ublius</ex></expan> Paccius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="3"/>h<supplied reason="lost">e</supplied>isce magis<supplied reason="lost">treis <gap reason="lost" extent="unknown" unit="character"/> faciun</supplied>dum aidemqu<supplied reason="lost">e</supplied> reficiundam <lb n="4"/>col<supplied reason="lost">u</supplied>mnas <gap reason="lost" extent="unknown" unit="character"/> vineis ina<gap reason="lost" extent="unknown" unit="character"/> de stipe Dianai <lb n="5"/>faciunda co<supplied reason="lost">eraverunt <expan><abbr>L</abbr><ex>ucio</ex></expan> Licinio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio <supplied reason="lost"><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> c</supplied>onsolibus
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Mosaik. CIL X 3935: nur ein Teil der Inschrift publiziert.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

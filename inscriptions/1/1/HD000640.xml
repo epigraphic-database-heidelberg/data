@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000640</idno>
+                <idno type="TM">248027</idno><idno type="localID">HD000640</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Cività Castellana, Privatbesitz</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>44.5</height>
+                                        <width>-44.5</width>
+                                        <depth>5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Etruria (Regio VII)</placeName><placeName ref="http://www.trismegistos.org/place/032097">Lucus Feroniae</placeName></origPlace>
+                            <origDate notBefore-custom="-0012" notAfter-custom="0020" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">12 BC – 20 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Lucus Feroniae</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Roma</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-05-07" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1983, 0399. 
+                    </bibl>
+                    <bibl>
+                         I. Di Stefano Manzella, in: I Volusii Saturnini. Archeologia: materiali e problemi 6 (Bari 1982) 45 -53; fig. 1-3; fig. 4 (Zeichnungen). - AE 1983. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [L(ucius) Vo]lusius Q(uinti) f(ilius) Sa[turninus VIIvir epulon(um) co(n)s(ul) IIIvir] / [c]enturi(i)s equ[itum recognoscendis cens(oria) pot(estate)] / [L(ucius) V]olusius L(uci) f(ilius) Sa[turninus co(n)s(ul) augur proco(n)s(ul) Asiae] / [te]mplum divo Augusto [faciendum curaverunt idemq(ue) dedicaverunt]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan> Vo</supplied>lusius <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Sa<supplied reason="lost">turninus VIIvir <expan><abbr>epulon</abbr><ex>um</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IIIvir</supplied> <lb n="2"/><expan><abbr><supplied reason="lost">c</supplied>enturi</abbr><ex>i</ex>s</expan> equ<supplied reason="lost">itum recognoscendis <expan><abbr>cens</abbr><ex>oria</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan></supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan> V</supplied>olusius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Sa<supplied reason="lost">turninus <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> augur <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> Asiae</supplied> <lb n="4"/><supplied reason="lost">te</supplied>mplum divo Augusto <supplied reason="lost">faciendum curaverunt <expan><abbr>idemq</abbr><ex>ue</ex></expan> dedicaverunt</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> 2 aneinanderpassende Fragmente; Maße beziehen sich auf Fragment a; Maße Fragment b: 44,5 x 39 x 5 cm. Datierung: L. Volusius Q.f. Saturninus: cos. 12 v. Chr., gestorben 20 n. Chr.; gleichnamiger Sohn: cos. 3 n. Chr. Zu Status und Ämtern von L. Volusius Saturninus Vater und Sohn: Tac., ann. 3, 30, 1; Suet., Aug. 37; AE 1914, 0136 = ILS 9483. Ergänzungen nach Di Stefano Manzella, der noch einen alternativen Ergänzungsvorschlag macht: [L(ucius) Vo]lusius Q(uinti) f(ilius) Sa[turninus triumvir] / [c]enturis equ[itum legendis] / [L(ucius) V]olusius L(uci) f(ilius) Sa[turninus consul] / [te]mplum divo Augusto [faciendum curaverunt]. Material: lunensischer Marmor.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

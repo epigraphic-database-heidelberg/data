@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD010955</idno>
+                <idno type="TM">224172</idno><idno type="localID">HD010955</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/11">Granit</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-120</height>
+                                        <width>-33</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6-7.4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/026018">Baedro, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD – 100 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1912">1912</date>
+                        <placeName ref="http://www.geonames.org/2521183">Belalcázar</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-03-19" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1987, 0519. 
+                    </bibl>
+                    <bibl>
+                         CIL 02 (2. Aufl.) 07, 00826. 
+                    </bibl>
+                    <bibl>
+                         A.U. Stylow, MDAI(M) 28, 1987, 76-78, Nr. 50. - AE 1987. 
+                    </bibl>
+                    <bibl>
+                         F. Fita, BAHist 61, 1912, 226-228, Nr. 6; Foto. (B) - AE 1987. 
+                    </bibl>
+                    <bibl>
+                         AE 1994, 0928. 
+                    </bibl>
+                    <bibl>
+                         A. Aguilar Saenz - P. Guichard, Villas romaines d'Èstrémadure. Doña María, La Sevillana et leur environnement (Madrid 1993) 29-36. - AE 1994. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [- Ae]mili[us] / [- - -]icius / [- - -] m(unicipii) Fla(vii) Laci(nimurg-) / [an(norum) - - -] hic sit(us) / est
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" quantity="1" unit="character"/><supplied reason="lost">Ae</supplied>mili<supplied reason="lost">us</supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>icius <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>m</abbr><ex>unicipii</ex></expan> <expan><abbr>Fla</abbr><ex>vii</ex></expan> <expan><abbr>Laci</abbr><ex>nimurg-</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>an</abbr><ex>norum</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> hic <expan><abbr>sit</abbr><ex>us</ex></expan> <lb n="5"/>est
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Fita: abweichende Textwiedergabe.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

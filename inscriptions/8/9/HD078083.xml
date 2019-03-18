@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Platte</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD078083</idno>
+                <idno type="TM"/><idno type="localID">HD078083</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mainz, Landesmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>29</height>
+                                        <width>53</width>
+                                        <depth>9</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="guidelines">GUIDELINES</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum</placeName></origPlace>
+                            <origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 400 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1907">1907</date>
+                        <placeName ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-11-15" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F015760">
+            <desc>F015760</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 11918. 
+                    </bibl>
+                    <bibl>
+                         ILCV 3312. (B) 
+                    </bibl>
+                    <bibl>
+                         W. Boppert, Die frühchristlichen Inschriften des Mittelrheingebietes (Mainz 1971) 63-67; Zeichnung. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Crispin[us] posuit titulum / dulcissim(a)e coniugi suae / Maur(a)e qui(!) d[e]cretum ge/nesi[s] conplevit(!) quod fui/[m]us(!) uno con[i]ugio men/ses X et dies XXVII qui(!) vix[it a]nnis / XVII et menses VIIII et dies XX / hunc titulum posuit Cris/pinus coniugi suae Maurae / in Chr(ist)o Ie(s)u
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Crispin<supplied reason="lost">us</supplied> posuit titulum <lb n="2"/>dulcissim<expan><ex>a</ex><abbr>e</abbr></expan> coniugi suae <lb n="3"/>Maur<expan><ex>a</ex><abbr>e</abbr></expan> qui <note>sic</note> d<supplied reason="lost">e</supplied>cretum ge<lb break="no" n="4"/>nesi<supplied reason="lost">s</supplied> conplevit <note>sic</note> quod fui<lb break="no" n="5"/><supplied reason="lost">m</supplied>us <note>sic</note> uno con<supplied reason="lost">i</supplied>ugio men<lb break="no" n="6"/>ses X et dies XXVII qui <note>sic</note> vix<supplied reason="lost">it a</supplied>nnis <lb n="7"/>XVII et menses VIIII et dies XX <lb n="8"/>hunc titulum posuit Cris<lb break="no" n="9"/>pinus coniugi suae Maurae <lb n="10"/>in Chr<expan><ex>ist</ex><abbr>o</abbr></expan> Ie<expan><ex>s</ex><abbr>u</abbr></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Vier aneinanderpassende Fragmente erhalten. (B): Boppert: Z. 1: p]osuit; CIL 13, 11918: Z.6: XII DIES (Majuskeltext); XII et dies (Transkription); ILCV: Z. 6: XII dies.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

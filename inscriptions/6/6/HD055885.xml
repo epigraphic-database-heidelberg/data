@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD055885</idno>
+                <idno type="TM">195432</idno><idno type="localID">HD055885</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Slavonski Brod, Muz. Brodsko Posavlja</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>16.8</height>
+                                        <width>13.1</width>
+                                        <depth>0.1</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0071-02-09" notAfter-custom="0071-02-09" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">9.2.71 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1997">1997</date>
+                        <placeName ref="http://www.geonames.org/3191326">Slavonski Šamac</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Brodsko-posavska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-07-04" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1997, 1273. 
+                    </bibl>
+                    <bibl>
+                         RMD 204. 
+                    </bibl>
+                    <bibl>
+                         J. Miškiv, VjesAMuzZagreb 30/31, 1997/98, 83-101; sl. 1-6. - AE 1997. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) Caesar Vespasianus Aug(ustus) pont(ifex) / max(imus) trib(unicia) pot(estate) II imp(erator) VI p(ater) p(atriae) co(n)s(ul) III / veteranis qui militaverunt in / classe Misenensi sub Sex(to) Lucilio / Basso qui sena et vicena stipen/dia aut plura meruerant et sunt / deducti Paestum quorum nomina / subscripta sunt ipsis liberis poste/risque eorum civitatem dedit et / conubium cum uxoribus quas / tunc habuissent cum est civi/tas iis data aut si qui caelibes / essent cum iis quas postea du/xissent dumtaxat singuli sin/gulas a(nte) d(iem) V Idus Febr(uarias) / Imp(eratore) Caesare Vespasiano Aug(usto) III / M(arco) Cocceio Nerva co(n)s(ulibus) / |(centurioni) Liccaio Birsi f(ilio) Marsunnia / loco XXIII / descriptum et recognitum ex / tabula aenea quae fixa est / Romae in Capitolio in podio arae / gentis Iuliae // Imp(erator) Caesar Vespasianus Aug(ustus) pont(ifex) max(imus) / tr(ibunicia) pot(estate) II imp(erator) VI p(ater) p(atriae) co(n)s(ul) III / veteranis qui militaverunt in classe / Misenensi sub Sex(to) Lucilio Basso qui / sena et vicena stipendia aut plura / meruerant et sunt deducti Paestum / quorum nomina subscripta sunt ip/sis liberis posterisque eorum civi/tatem dedit et conubium cum uxo/ribus quas tunc habuissent cum est / civitas iis data aut si qui caelibes / essent (c)um iis quas postea du//xissent dumtaxat singuli sin/gulas a(nte) d(iem) V Idus Febr(uarias) / Imp(eratore) Caesare Vespasiano Aug(usto) III / M(arco) Cocceio Nerva co(n)s(ulibus) / |(centurioni) Liccaius(!) Birsi f(ilio) Marsunnia / loco XXIII / descriptum et recognitum ex tabula / aenea quae fixa est Romae in Capito(lio) / in podio arae gentis Iuliae // M(arci) Viri Marcelli dec(urionis?) leg(ionis) / Savar(iensis) / L(uci) Domiti Severi vet(erani) / Breuci / C(ai) Marci Nobilis Emon(ensis) / C(ai) Pidieni Aquileiens(is) / L(uci) Valeri Pauonis vet(erani) / Breuci{o} / C(ai) Iuli Clari Aquileiens(is) / L(uci) Minei Iucundi Aqui/leiensis
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar Vespasianus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <lb n="2"/><expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> II <expan><abbr>imp</abbr><ex>erator</ex></expan> VI <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <lb n="3"/>veteranis qui militaverunt in <lb n="4"/>classe Misenensi sub <expan><abbr>Sex</abbr><ex>to</ex></expan> Lucilio <lb n="5"/>Basso qui sena et vicena stipen<lb break="no" n="6"/>dia aut plura meruerant et sunt <lb n="7"/>deducti Paestum quorum nomina <lb n="8"/>subscripta sunt ipsis liberis poste<lb break="no" n="9"/>risque eorum civitatem dedit et <lb n="10"/>conubium cum uxoribus quas <lb n="11"/>tunc habuissent cum est civi<lb break="no" n="12"/>tas iis data aut si qui caelibes <lb n="13"/>essent cum iis quas postea du<lb break="no" n="14"/>xissent dumtaxat singuli sin<lb break="no" n="15"/>gulas <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> V Idus <expan><abbr>Febr</abbr><ex>uarias</ex></expan> <lb n="16"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> Caesare Vespasiano <expan><abbr>Aug</abbr><ex>usto</ex></expan> III <lb n="17"/><expan><abbr>M</abbr><ex>arco</ex></expan> Cocceio Nerva co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="18"/>|(centurioni) Liccaio Birsi <expan><abbr>f</abbr><ex>ilio</ex></expan> Marsunnia <lb n="19"/>loco XXIII <lb n="20"/>descriptum et recognitum ex <lb n="21"/>tabula aenea quae fixa est <lb n="22"/>Romae in Capitolio in podio arae <lb n="23"/>gentis Iuliae </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar Vespasianus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <lb n="2"/><expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> II <expan><abbr>imp</abbr><ex>erator</ex></expan> VI <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <lb n="3"/>veteranis qui militaverunt in classe <lb n="4"/>Misenensi sub <expan><abbr>Sex</abbr><ex>to</ex></expan> Lucilio Basso qui <lb n="5"/>sena et vicena stipendia aut plura <lb n="6"/>meruerant et sunt deducti Paestum <lb n="7"/>quorum nomina subscripta sunt ip<lb break="no" n="8"/>sis liberis posterisque eorum civi<lb break="no" n="9"/>tatem dedit et conubium cum uxo<lb break="no" n="10"/>ribus quas tunc habuissent cum est <lb n="11"/>civitas iis data aut si qui caelibes <lb n="12"/>essent <expan><ex>c</ex><abbr>um</abbr></expan> iis quas postea du</ab></div><div n="3" type="textpart"><ab><lb n="1"/>xissent dumtaxat singuli sin<lb break="no" n="2"/>gulas <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> V Idus <expan><abbr>Febr</abbr><ex>uarias</ex></expan> <lb n="3"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> Caesare Vespasiano <expan><abbr>Aug</abbr><ex>usto</ex></expan> III <lb n="4"/><expan><abbr>M</abbr><ex>arco</ex></expan> Cocceio Nerva co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="5"/>|(centurioni) Liccaius <note>sic</note> Birsi <expan><abbr>f</abbr><ex>ilio</ex></expan> Marsunnia <lb n="6"/>loco XXIII <lb n="7"/>descriptum et recognitum ex tabula <lb n="8"/>aenea quae fixa est Romae in <expan><abbr>Capito</abbr><ex>lio</ex></expan> <lb n="9"/>in podio arae gentis Iuliae </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>M</abbr><ex>arci</ex></expan> Viri Marcelli <expan><abbr>dec</abbr><ex cert="low">urionis</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="2"/><expan><abbr>Savar</abbr><ex>iensis</ex></expan> <lb n="3"/><expan><abbr>L</abbr><ex>uci</ex></expan> Domiti Severi <expan><abbr>vet</abbr><ex>erani</ex></expan> <lb n="4"/>Breuci <lb n="5"/><expan><abbr>C</abbr><ex>ai</ex></expan> Marci Nobilis <expan><abbr>Emon</abbr><ex>ensis</ex></expan> <lb n="6"/><expan><abbr>C</abbr><ex>ai</ex></expan> Pidieni <expan><abbr>Aquileiens</abbr><ex>is</ex></expan> <lb n="7"/><expan><abbr>L</abbr><ex>uci</ex></expan> Valeri Pauonis <expan><abbr>vet</abbr><ex>erani</ex></expan> <lb n="8"/>Breuci<surplus>o</surplus> <lb n="9"/><expan><abbr>C</abbr><ex>ai</ex></expan> Iuli Clari <expan><abbr>Aquileiens</abbr><ex>is</ex></expan> <lb n="10"/><expan><abbr>L</abbr><ex>uci</ex></expan> Minei Iucundi Aqui<lb break="no" n="11"/>leiensis
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

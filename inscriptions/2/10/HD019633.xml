@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD019633</idno>
+                <idno type="TM">209125</idno><idno type="localID">HD019633</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>2.7</height>
+                                        <width>6.6</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/145">gepunzt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016530">Germania inferior</placeName><placeName>Varnenum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2885438">Aachen</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Nordrhein-Westfalen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-02-08" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1958, 0014. 
+                    </bibl>
+                    <bibl>
+                         E. Gose, BJ 155-156, 1955-1956, 171. 
+                    </bibl>
+                    <bibl>
+                         A.-B. Follmann-Schulz, ANRW 2, 18, 1 (Berlin - New York 1986) 699. 
+                    </bibl>
+                    <bibl>
+                         H.G. Horn, in: Ders. (Hrsg.), Die Römer in Nordrhein-Westfalen (Stuttgart 1987) 330-331. 
+                    </bibl>
+                    <bibl>
+                         H. Finke, BRGK 17, 1927, 87, Nr. 261. 
+                    </bibl>
+                    <bibl>
+                         J.B. Keune, Germania 8, 1924, 77. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [De]ae Sunuxsal(i) / Luo Cissonis / v(otum) s(olvit) l(ibens) m(erito)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">De</supplied>ae <expan><abbr>Sunuxsal</abbr><ex>i</ex></expan> <lb n="2"/>Luo Cissonis <lb n="3"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Mit zwei weiteren Bronzetäfelchen (AE 1958, 12 und AE 1958, 13) gefunden; seit dem 2. Weltkrieg verloren. Form der Tafel: tabula ansata. Eingepunzte Buchstaben. Linke obere Ecke ausgebrochen; Z. 2: Querhaste des ersten Buchstabens zu Anfang der Zeile in der Wiedergabe durch Finke noch klar erkennbar; davor sicher kein Text mehr zu ergänzen, wie dies Gose und - ihm folgend - die AE anzeigen. Zum Namen Luo(n): A. Holder, Alt-celtischer Sprachschatz 2 (Leipzig 1904) 349. Zum Personennamen Cisso s. W. Schulze, Zur Geschichte lateinischer Eigennamen (Berlin 1933) 305. Finke möchte für Cissonis Cissoni(u)s lesen. - Datierung nach dem Formular; Verbindung von Göttername und dem Wort deus/dea in der Germania Inferior nach datierten Inschriften zwischen ca. 164 und 242, s. M.-T. Raepsaet-Charlier, Diis deabusque sacrum (Paris 1993) 12-17. Terminus ante quem: aus den ebenfalls verlorengegangenen Kleinfunden erschlossene Auflassung der Tempelanlage in der Mitte des 3. Jh. - Zu der Lokalgöttin Sunuxsal (in weiteren Inschriften beginnen die Schreibvarianten Sunuxal und Sunucsal) s. S. Gutenbrunner, Die germanischen Götternamen der antiken Inschriften (Halle 1936) 75-76. 87-90.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

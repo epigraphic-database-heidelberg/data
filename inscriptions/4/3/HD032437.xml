@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD032437</idno>
+                <idno type="TM">247487</idno><idno type="localID">HD032437</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-75</height>
+                                        <width>-56</width>
+                                        <depth>71</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">15.5-13</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Etruria (Regio VII)</placeName><placeName ref="http://www.trismegistos.org/place/014349">Veii</placeName></origPlace>
+                            <origDate notBefore-custom="0029" notAfter-custom="0037" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">29 AD – 37 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Veio</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2004-07-13" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        M. Horster, Bauinschriften römischer Kaiser (Stuttgart 2001) 78. 327- 328, Nr. VII 10,2. 
+                    </bibl>
+                    <bibl>
+                         CIL 11, 03784. 
+                    </bibl>
+                    <bibl>
+                         CIL 11, 03785. 
+                    </bibl>
+                    <bibl>
+                         G. Alföldy, Epigraphica 64, 2002, 137-138, Nr. 30. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [T]i(berius) Caes[ar] divi A[ugu]sti f(ilius) Au[gustus] / [pont(ifex) m]axim(us) t[rib]unic(ia) po[te]st(ate) XXX[- - - imp(erator) VIII co(n)s(ul) IIII?] / porti[cum] Augus[tam statua? aenea?] / [divi? Augu?]sti [et orn]amen[tis et] aris [adiectis? - - -] / [- - - - - -? // [Imp(eratori) Caes(ari) L(ucio) Septimi]o Seve[ro] / [Per]tinaci [Aug(usto) Ar]abico Ad[iab(enico)] / [Par]thico ma[ximo po]ntifici ma[x(imo)] / [tribu]nic(ia) potes[t(ate) - - -] co(n)s(uli) III p(atri) p(atriae) // [Imp(eratori) Caes(ari) M(arco)] Aureli[o] / [Antonino A]ug(usto) Pio / Fel[ici pont(ifici)] m[ax(imo)] / trib(unicia) [pot(estate) - - -] / [plebs Vei]entiu[m dev]ota num[ini] maiestati[que eorum]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">T</supplied>i</abbr><ex>berius</ex></expan> Caes<supplied reason="lost">ar</supplied> divi A<supplied reason="lost">ugu</supplied>sti <expan><abbr>f</abbr><ex>ilius</ex></expan> Au<supplied reason="lost">gustus</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>pont</abbr><ex>ifex</ex></expan> m</supplied><expan><abbr>axim</abbr><ex>us</ex></expan> <expan><abbr>t<supplied reason="lost">rib</supplied>unic</abbr><ex>ia</ex></expan> <expan><abbr>po<supplied reason="lost">te</supplied>st</abbr><ex>ate</ex></expan> XXX<supplied reason="lost" cert="low">--- imp(erator) VIII co(n)s(ul) IIII</supplied> <lb n="3"/>porti<supplied reason="lost">cum</supplied> Augus<supplied reason="lost" cert="low">tam statua? aenea</supplied> <lb n="4"/><supplied reason="lost" cert="low">divi</supplied><supplied reason="lost">divi</supplied>sti <supplied reason="lost">et orn</supplied>amen<supplied reason="lost">tis et</supplied> aris <supplied reason="lost">adiectis<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>L</abbr><ex>ucio</ex></expan> Septimi</supplied>o Seve<supplied reason="lost">ro</supplied> <lb n="2"/><supplied reason="lost">Per</supplied>tinaci <supplied reason="lost"><expan><abbr>Aug</abbr><ex>usto</ex></expan> Ar</supplied>abico Ad<supplied reason="lost"><expan><abbr>iab</abbr><ex>enico</ex></expan></supplied> <lb n="3"/><supplied reason="lost">Par</supplied>thico ma<supplied reason="lost">ximo po</supplied>ntifici ma<supplied reason="lost"><expan><abbr>x</abbr><ex>imo</ex></expan></supplied> <lb n="4"/><expan><abbr><supplied reason="lost">tribu</supplied>nic</abbr><ex>ia</ex></expan> potes<supplied reason="lost"><expan><abbr>t</abbr><ex>ate</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> III <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan></supplied> Aureli<supplied reason="lost">o</supplied> <lb n="2"/><supplied reason="lost">Antonino A</supplied><expan><abbr>ug</abbr><ex>usto</ex></expan> Pio <lb n="3"/>Fel<supplied reason="lost">ici <expan><abbr>pont</abbr><ex>ifici</ex></expan></supplied> m<supplied reason="lost"><expan><abbr>ax</abbr><ex>imo</ex></expan></supplied> <lb n="4"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <supplied reason="lost"><expan><abbr>pot</abbr><ex>estate</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost">plebs Vei</supplied>entiu<supplied reason="lost">m dev</supplied>ota num<supplied reason="lost">ini</supplied> maiestati<supplied reason="lost">que eorum</supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> 4 Fragmente, von denen heute noch 2 erhalten sind; beidseitig beschrieben. Maße beziehen sich auf Fragment a und Inschrift A; Maße Fragment b: (82) x (68) x 8,2 cm. Buchstabenhöhe der späteren Inschrift B nicht bekannt. Inschrift A: Ergänzungsvorschlag nach Alföldy; Z. 2: am ehesten cos. IIII (30 n. Chr.) oder cos. V (31-37 n. Chr.) zu ergänzen. Datierung: nicht vor dem 26.6.29 n. Chr., da die Iterationsziffer tribunicia potestas mindestens XXXI, eher aber noch mehr betrug; falls cos. V zu ergänzen ist, nicht vor dem 1.1.31 n. Chr. Inschrift B: Ehreninschrift für Septimius Severus und Caracalla in zwei Spalten angeordnet; Z. 5 unter beiden Spalten durchlaufend; Datierung: Januar 198 n. Chr. (Siegerbeiname Parthicus maximus) bis 210 n. Chr. (Siegerbeiname Britannicus maximus, der in der Inschrift nicht erscheint).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

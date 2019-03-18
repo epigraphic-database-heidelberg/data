@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD004429</idno>
+                <idno type="TM">216553</idno><idno type="localID">HD004429</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Privatbesitz</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-24</height>
+                                        <width>-31</width>
+                                        <depth>8</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution">eingemeiÃ&#x9f;elt (mit Farbresten)</rs>
+
+                                    <rs type="guidelines">GUIDELINES</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003243">Raetia</placeName><placeName ref="http://www.trismegistos.org/place/028111">Vicus Scuttariensium</placeName></origPlace>
+                            <origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD – 230 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1973">1973</date>
+                        <placeName ref="http://www.geonames.org/2867011">Nassenfels</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Bayern</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-08-02" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1978, 0584. 
+                    </bibl>
+                    <bibl>
+                         U. Schillinger-Häfele, BRGK 58, 1977, 571-572, Nr. 238; Taf. 7,2. (B) - AE 1978. 
+                    </bibl>
+                    <bibl>
+                         AE 2006, 0958. 
+                    </bibl>
+                    <bibl>
+                         K. Dietz, BVBl 71, 2006, 34-36, Nr. 2. - AE 2006. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                In h(onorem) d(omus) d(ivinae) [- - -] / sac(rum) vik(ani)(!) [- - -] / c(uram) ag(entibus) L(ucio) Mac[- - -]/no et L(ucio) Vi[- - -] / Tito(?) CLAELI(?)[- - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>sac</abbr><ex>rum</ex></expan> <expan><abbr>vik</abbr><ex>ani</ex></expan> <note>sic</note> <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>c</abbr><ex>uram</ex></expan> <expan><abbr>ag</abbr><ex>entibus</ex></expan> <expan><abbr>L</abbr><ex>ucio</ex></expan> Mac<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="4"/>no et <expan><abbr>L</abbr><ex>ucio</ex></expan> Vi<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><expan><abbr>Tito</abbr><ex cert="low"/></expan> <expan><abbr>CLAELI</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 2: vielleicht vik(ani) [Scutt(arenses)]. Z. 5: nach TI noch Spuren von Buchstaben, vielleicht TO, zu erkennen. Dahinter noch der obere Bogen eines Rundbuchstaben, C oder G, nach dem L noch ein A erkennbar. Statt E auch L möglich. C. Laeli[ano], Cl(audio) Aeli(ano) oder Cl(audio) Eli[---]? Reste von roter Farbe in den Buchstaben. (B): Z. 2: s(acrum); Z. 5: l(ibentes) l(aeti) [m(erito)].</p>
+            </div>
+        </body>
+    </text>
+</TEI>

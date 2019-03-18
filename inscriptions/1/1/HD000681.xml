@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Block</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000681</idno>
+                <idno type="TM">203284</idno><idno type="localID">HD000681</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>97</height>
+                                        <width>49</width>
+                                        <depth>18</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">7-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Mauretania Caesariensis</placeName><placeName ref="http://www.trismegistos.org/place/017997">Tipasa</placeName></origPlace>
+                            <origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD – 170 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2476028">Tipasa</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Tipasa</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-11-02" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0979. 
+                    </bibl>
+                    <bibl>
+                         S. Lancel, AntAfr 16, 1980, 148-149, Nr. 11; fig. 14. - AE 1982. 
+                    </bibl>
+                    <bibl>
+                         AE 1914, 0241. (B) 
+                    </bibl>
+                    <bibl>
+                         B. Lőrincz, in: HPS 19 (Budapest - Debrecen 2011) 296, Nr. 8. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) sacru(m) / (A)elius Publ/ius vetera/nus milita/vit ala Bri/tannica bi/s torquat/a p(ius) v(ixit) a(nnos) LV / Numpidia(!) feci/t v(iro) p(ientissimo) et c(arissimo) m(arito) e(ius) / s(it) t(ibi) t(erra) l(evis) VSAL // OQB
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>sacru</abbr><ex>m</ex></expan> <lb n="2"/><expan><ex>A</ex><abbr>elius</abbr></expan> Publ<lb break="no" n="3"/>ius vetera<lb break="no" n="4"/>nus milita<lb break="no" n="5"/>vit ala Bri<lb break="no" n="6"/>tannica bi<lb break="no" n="7"/>s torquat<lb break="no" n="8"/>a <expan><abbr>p</abbr><ex>ius</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> LV <lb n="9"/>Numpidia <note>sic</note> feci<lb break="no" n="10"/>t <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>p</abbr><ex>ientissimo</ex></expan> et <expan><abbr>c</abbr><ex>arissimo</ex></expan> <expan><abbr>m</abbr><ex>arito</ex></expan> <expan><abbr>e</abbr><ex>ius</ex></expan> <lb n="11"/><expan><abbr>s</abbr><ex>it</ex></expan> <expan><abbr>t</abbr><ex>ibi</ex></expan> <expan><abbr>t</abbr><ex>erra</ex></expan> <expan><abbr>l</abbr><ex>evis</ex></expan> VSAL </ab></div><div n="2" type="textpart"><ab><lb n="1"/> OQB
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): AE 1914, Z. 7/8: Torquat/us; Z.9: Limpidia; Z. 10f: T V PETCME / STTLVSAL; AE 1982, Lancel: Z. 11 und Seite: s(it) t(ibi) t(erra) l(evis) v(otum) s(olvit) a(nimo) l(ibens) // o(ssa) q(uiescant) b(ene). AE 1914, Seite: Q. B. Datierung nach Lőrincz: um 149.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

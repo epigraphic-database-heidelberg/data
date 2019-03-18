@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD068716</idno>
+                <idno type="TM">404387</idno><idno type="localID">HD068716</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele?</objectType>
+                                    <material>Gesteine?</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/020126">Aquincum</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Budapest</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-08-18" who="Feraudi">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 03556. 
+                    </bibl>
+                    <bibl>
+                         TitAq 0747. 
+                    </bibl>
+                    <bibl>
+                         IDRE 283. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $?]/ SS[-]CISSIANI / militi leg(ionis) II adi(utricis) / armor(um) cust(odi) et / duplario stip(endiorum) X/IIII ann(orum) XXXII Poro/lissen{i}si pro(vincia?) D(acia?) <L=I>(ucius)#<L>(ucius)#I No/vius Provincia/lis mil(es) leg(ionis) eiusd(em) / heres fecit
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="2"/>SS<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>CISSIANI <lb n="3"/>militi <expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>adi</abbr><ex>utricis</ex></expan> <lb n="4"/><expan><abbr>armor</abbr><ex>um</ex></expan> <expan><abbr>cust</abbr><ex>odi</ex></expan> et <lb n="5"/>duplario <expan><abbr>stip</abbr><ex>endiorum</ex></expan> X<lb break="no" n="6"/>IIII <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XXXII Poro<lb break="no" n="7"/>lissen<surplus>i</surplus>si <expan><abbr>pro</abbr><ex cert="low">vincia</ex></expan> <expan><abbr>D</abbr><ex cert="low">acia</ex></expan> <choice><corr>L</corr><sic>I</sic></choice>(ucius)#<supplied reason="omitted">L</supplied>(ucius)#I No<lb break="no" n="8"/>vius Provincia<lb break="no" n="9"/>lis <expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <expan><abbr>eiusd</abbr><ex>em</ex></expan> <lb n="10"/>heres fecit
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

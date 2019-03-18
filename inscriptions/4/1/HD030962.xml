@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD030962</idno>
+                <idno type="TM">222758</idno><idno type="localID">HD030962</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>90</height>
+                                        <width>50</width>
+                                        <depth>40</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2-3.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0401" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD – 500 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Los Villares de la Artichuela, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2004-07-13" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 02 (2. Aufl.) 05, 00715. 
+                    </bibl>
+                    <bibl>
+                         IHC 374. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                In nomine D(omi)ni / <IH=HI>(Ie)su#<IH>(Ie)su#HISU XP(Christ)i con/secratio dom(i)/norum Petri et / Pauli die XIIII Kal(endas) / Iunias in quo/rum basilica // requiescunt re/liquiae Sancto/rum id est dom(i)/n(a)e Mariae dom(i)/ni Iuliani dom(i)/ni Istefani dom(i)/ni Laurenti dom(i)ni Martini dom(i)/n(a)e Eulali(a)e dom(i)/ni Vincenti dom(i)/norum trium
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                In nomine D<expan><ex>omi</ex><abbr>ni</abbr></expan> <lb n="2"/><supplied reason="omitted">IH=HI</supplied><expan><ex>Ie</ex><abbr>su</abbr></expan>#<supplied reason="omitted">IH</supplied><expan><ex>Ie</ex><abbr>su</abbr></expan>#HISU XP<expan><ex>Christ</ex><abbr>i</abbr></expan> con<lb break="no" n="3"/>secratio <expan><abbr>dom</abbr><ex>i</ex></expan><lb break="no" n="4"/>norum Petri et <lb n="5"/>Pauli die XIIII <expan><abbr>Kal</abbr><ex>endas</ex></expan> <lb n="6"/>Iunias in quo<lb break="no" n="7"/>rum basilica </ab></div><div n="2" type="textpart"><ab><lb n="1"/> requiescunt re<lb break="no" n="2"/>liquiae Sancto<lb break="no" n="3"/>rum id est <expan><abbr>dom</abbr><ex>i</ex></expan><lb break="no" n="4"/>n<expan><ex>a</ex><abbr>e</abbr></expan> Mariae <expan><abbr>dom</abbr><ex>i</ex></expan><lb break="no" n="5"/>ni Iuliani <expan><abbr>dom</abbr><ex>i</ex></expan><lb break="no" n="6"/>ni Istefani <expan><abbr>dom</abbr><ex>i</ex></expan><lb break="no" n="7"/>ni Laurenti dom<expan><ex>i</ex><abbr>ni</abbr></expan> Martini <expan><abbr>dom</abbr><ex>i</ex></expan><lb break="no" n="8"/>n<expan><ex>a</ex><abbr>e</abbr></expan> Eulali<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>dom</abbr><ex>i</ex></expan><lb break="no" n="9"/>ni Vincenti <expan><abbr>dom</abbr><ex>i</ex></expan><lb break="no" n="10"/>norum trium
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Auf der Rückseite Spuren einer älteren, völlig getilgten Inschrift. Die christliche Inschrift verteilt sich auf die linke und rechte Seite.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

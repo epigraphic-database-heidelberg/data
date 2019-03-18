@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Block</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD007148</idno>
+                <idno type="TM">232127</idno><idno type="localID">HD007148</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Sagunto, Mus. Arq.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>37</height>
+                                        <width>-41</width>
+                                        <depth>19</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.5-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016933">Hispania citerior</placeName><placeName ref="http://www.trismegistos.org/place/014134">Saguntum</placeName></origPlace>
+                            <origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 100 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2511619">Sagunto</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-07-07" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F006752">
+            <desc>F006752</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1981, 0576. 
+                    </bibl>
+                    <bibl>
+                         CIL 02 (2. Aufl.) 14, 00391. 
+                    </bibl>
+                    <bibl>
+                         G. Alföldy, ZPE 41, 1981, 229-230, Nr. 5; Taf. 9, 5. - AE 1981. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [- - -] T(iti) f(ilio) Vitulo / [- - -] Iuliensi an(norum) / [- - -]ae M(arci) f(iliae) Marcellae / [- - -] an(norum) XXXV / [- - -] Vitulo f(ilio) an(norum) XX / [- - -]us l(ibertus) ex tes(tamento) f(ecit)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Vitulo <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> Iuliensi <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ae <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> Marcellae <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>an</abbr><ex>norum</ex></expan> XXXV <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> Vitulo <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XX <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>us <expan><abbr>l</abbr><ex>ibertus</ex></expan> ex <expan><abbr>tes</abbr><ex>tamento</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

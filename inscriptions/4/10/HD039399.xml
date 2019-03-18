@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD039399</idno>
+                <idno type="TM">196823</idno><idno type="localID">HD039399</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Budapest, Magyar Nemzeti Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>152</height>
+                                        <width>54</width>
+                                        <depth>10</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.9-2.4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016277">Brigetio</placeName></origPlace>
+                            <origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1815">1815</date>
+                        <placeName ref="http://www.geonames.org/3044294">Komárom</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Komárom-Esztergom megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-11-23" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/3422">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 03531. 
+                    </bibl>
+                    <bibl>
+                         RIU 0507; Abb. 507 (Zeichnung). 
+                    </bibl>
+                    <bibl>
+                         J. Mander, Portraits of children on Roman funerary monuments (Cambridge 2013) 279, Nr. 572. 
+                    </bibl>
+                    <bibl>
+                         M. Nagy, Guide to the archaeological exhibitions in the Hungarian National Museum. Roman stones. Lapidarium (Budapest 2012) 155-156, Nr. 171; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) // Ael(iae) Messorin(a)e / q(uae) vix(it) ann(os) II m(enses) / IIII dies XV / Ael(ius) Messius imm(unis) leg(ionis) / I ad(iutricis) et Aur(elia) Tacita / fili(a)e pientissim(a)e / posuerunt
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Ael</abbr><ex>iae</ex></expan> Messorin<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="2"/><expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> II <expan><abbr>m</abbr><ex>enses</ex></expan> <lb n="3"/>IIII dies XV <lb n="4"/><expan><abbr>Ael</abbr><ex>ius</ex></expan> Messius <expan><abbr>imm</abbr><ex>unis</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="5"/>I <expan><abbr>ad</abbr><ex>iutricis</ex></expan> et <expan><abbr>Aur</abbr><ex>elia</ex></expan> Tacita <lb n="6"/>fili<expan><ex>a</ex><abbr>e</abbr></expan> pientissim<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="7"/>posuerunt
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Oberhalb des Inschriftfeldes die Büsten eines Ehepaares und eines Kindes; zwischen dieser Darstellung und dem Inschriftfeld die Buchstaben D und M der ersten Zeile. Z. 5: IMM nachträglich zwischen Z. 4 und 5 am Zeilenende eingefügt.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

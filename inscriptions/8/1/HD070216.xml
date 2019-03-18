@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Platte</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD070216</idno>
+                <idno type="TM">155473</idno><idno type="localID">HD070216</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Carlisle, Tullie House Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>71.5</height>
+                                        <width>105</width>
+                                        <depth>17.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/014914">Castra Exploratorum</placeName></origPlace>
+                            <origDate notBefore-custom="0219" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">219 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1794">1794</date>
+                        <placeName ref="http://www.geonames.org/">Netherby</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Cumbria</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-04-23" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 07, 00964. (B) 
+                    </bibl>
+                    <bibl>
+                         RIB 0980; Zeichnungen. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) M 667. 
+                    </bibl>
+                    <bibl>
+                         J.C. Coulston - E.J. Phillips, Hadrian's Wall west of the North Tyne, and Carlisle, CSIR Great Britain 1, 6 (Oxford 1988) 109, Nr. 276; Pl. 71, 276. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] / [- - -] temp[lum - - -] // im[p(eratoris) - - -] ANTOIII / PIISVSBSCOS vexil(lationes) / leg(ionum) II Aug(ustae) et XX V(aleriae) v(ictricis) / item coh(ortis) I Ael(iae) Hisp(anorum) / |(milliariae) eq(uitatae) sub cura M[o]/d[i] Iuli leg(atus) Aug(usti) / pr(o) pr(aetore) instante - Ael(ius) / [- - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> temp<supplied reason="lost">lum</supplied><gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> im<supplied reason="lost"><expan><abbr>p</abbr><ex>eratoris</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> ANTOIII <lb n="2"/>PIISVSBSCOS <expan><abbr>vexil</abbr><ex>lationes</ex></expan> <lb n="3"/><expan><abbr>leg</abbr><ex>ionum</ex></expan> II <expan><abbr>Aug</abbr><ex>ustae</ex></expan> et XX <expan><abbr>V</abbr><ex>aleriae</ex></expan> <expan><abbr>v</abbr><ex>ictricis</ex></expan> <lb n="4"/>item <expan><abbr>coh</abbr><ex>ortis</ex></expan> I <expan><abbr>Ael</abbr><ex>iae</ex></expan> <expan><abbr>Hisp</abbr><ex>anorum</ex></expan> <lb n="5"/>|(milliariae) <expan><abbr>eq</abbr><ex>uitatae</ex></expan> sub cura M<supplied reason="lost">o</supplied><lb break="no" n="6"/>d<supplied reason="lost">i</supplied> Iuli <expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="7"/><expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> instante - <expan><abbr>Ael</abbr><ex>ius</ex></expan> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Zu den Leseabweichungen s. RIB 0980. Z. 7-8: Ael(ius) / [---]. Man findet Ael(ius) / Nu[---] in: H. Devijver, Prosopographia Militiarum Equestrium quae fuerunt ab Augusto ad Gallienum, Pars Prima (Leuven 1976) 68-69, Nr. 50. Wegen des Zustandes des Originals ist aber Sicherheit micht mehr zu erlangen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

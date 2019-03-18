@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD023871</idno>
+                <idno type="TM">197638</idno><idno type="localID">HD023871</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Stara Zagora, Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>88</height>
+                                        <width>100</width>
+                                        <depth>20</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000014">Thracia</placeName><placeName ref="http://www.trismegistos.org/place/015865">Augusta Traiana</placeName></origPlace>
+                            <origDate notBefore-custom="0233-11-13" notAfter-custom="0233-11-13" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">13.11.233 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/726848">Stara Zagora</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Stara Zagora</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-11-14" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1933, 0090. 
+                    </bibl>
+                    <bibl>
+                         D.P. Dimitrov, BIAB 7, 1932/33, 291-295. 311, Nr. 1; obr. 72. - AE 1933. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) C 1413. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) V 131. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Bona Fortuna / Imp(eratori) Caes(ari) M(arco) Aur(elio) Sev(ero) [[Alexand(ro)]] / P(io) F(elici) Aug(usto) et Iul(iae) [[Mamaeae]] / matri Aug(usti) castr(orum) et senatus / veterani consistentes Augusta / Traiana honc(!) August<e=I>um#August<e>um#AUGUSTIUM / ex suis impendiis a solo / fabricaverunt feliciter / et dedicaverunt Idibus Novembribus / Maximo et Paterno co(n)s(ulibus)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Bona Fortuna <lb n="2"/><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> <expan><abbr>Sev</abbr><ex>ero</ex></expan> <del rend="erasure"><expan><abbr>Alexand</abbr><ex>ro</ex></expan></del> <lb n="3"/><expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>F</abbr><ex>elici</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> et <expan><abbr>Iul</abbr><ex>iae</ex></expan> <del rend="erasure">Mamaeae</del> <lb n="4"/>matri <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>castr</abbr><ex>orum</ex></expan> et senatus <lb n="5"/>veterani consistentes Augusta <lb n="6"/>Traiana honc <note>sic</note> August<choice><corr>e</corr><sic>I</sic></choice>um#August<supplied reason="omitted">e</supplied>um#AUGUSTIUM <lb n="7"/>ex suis impendiis a solo <lb n="8"/>fabricaverunt feliciter <lb n="9"/>et dedicaverunt Idibus Novembribus <lb n="10"/>Maximo et Paterno co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Hedera am Ende von Z. 7 und Z. 10.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

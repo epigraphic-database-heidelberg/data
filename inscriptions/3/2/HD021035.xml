@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD021035</idno>
+                <idno type="TM">179078</idno><idno type="localID">HD021035</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Drobeta - Turnu Severin, Muz. Reg. Porţilor de Fier</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>87</height>
+                                        <width>116</width>
+                                        <depth>27</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.5-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/004366">Dacia</placeName><placeName ref="http://www.trismegistos.org/place/029680">Drobeta</placeName></origPlace>
+                            <origDate notBefore-custom="0198" notAfter-custom="0209" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">198 AD – 209 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/678817">Drobeta - Turnu Severin</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Mehedinți</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-06-27" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1914, 0118. 
+                    </bibl>
+                    <bibl>
+                         IDR 2, 005; Foto. (B) 
+                    </bibl>
+                    <bibl>
+                         V. Pârvan, AA 1913, 367, Nr. 2; Abb. 2. - AE 1914. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(eratori) Caes(ari) L(uci) Sept(imi) Severi Pii / Pert(inacis) Aug(usti) Arab(ici) Adi(abenici) Parth(ici) / maximi f(ilio) div(i) M(arci) Antonini / Pii Germ(anici) Sarm(atici) nep(oti) divi / Hadr(iani) abnep(oti) divi Traiani / Parth(ici) et divi Nervae adnep(oti) / M(arco) Aurel(io) Antonino Aug(usto) / r(es) p(ublica) col(oniae) Sep(timiae) Dr(obetensium)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>Sept</abbr><ex>imi</ex></expan> Severi Pii <lb n="2"/><expan><abbr>Pert</abbr><ex>inacis</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>Arab</abbr><ex>ici</ex></expan> <expan><abbr>Adi</abbr><ex>abenici</ex></expan> <expan><abbr>Parth</abbr><ex>ici</ex></expan> <lb n="3"/>maximi <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>div</abbr><ex>i</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> Antonini <lb n="4"/>Pii <expan><abbr>Germ</abbr><ex>anici</ex></expan> <expan><abbr>Sarm</abbr><ex>atici</ex></expan> <expan><abbr>nep</abbr><ex>oti</ex></expan> divi <lb n="5"/><expan><abbr>Hadr</abbr><ex>iani</ex></expan> <expan><abbr>abnep</abbr><ex>oti</ex></expan> divi Traiani <lb n="6"/><expan><abbr>Parth</abbr><ex>ici</ex></expan> et divi Nervae <expan><abbr>adnep</abbr><ex>oti</ex></expan> <lb n="7"/><expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aurel</abbr><ex>io</ex></expan> Antonino <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="8"/><expan><abbr>r</abbr><ex>es</ex></expan> <expan><abbr>p</abbr><ex>ublica</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Sep</abbr><ex>timiae</ex></expan> <expan><abbr>Dr</abbr><ex>obetensium</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): IDR II: Z. 3: divi.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

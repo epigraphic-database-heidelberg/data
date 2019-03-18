@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD054463</idno>
+                <idno type="TM">211753</idno><idno type="localID">HD054463</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Stuttgart, Württ. Landesmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-63</height>
+                                        <width>47</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.0</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/027968">Vicus Aurelianus</placeName></origPlace>
+                            <origDate notBefore-custom="0222-11-01" notAfter-custom="0222-11-01" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1.11.222 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1783">1783</date>
+                        <placeName ref="http://www.geonames.org/2857565">Öhringen</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Baden-Württemberg</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-04-26" who="osnabrügge">
+             überprüft per Autopsie
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 06549. 
+                    </bibl>
+                    <bibl>
+                         E. Herzog, in: Der obergermanisch-rätische Limes des Römerreiches B, IV, 42 u. 42, 1 (Lieferung 5) (Berlin - Leipzig 1929) 28, Nr. 13; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         F. Haug - G. Sixt, Die römischen Inschriften und Bildwerke Württembergs (2. Aufl. Stuttgart 1914) 612, Nr. 429. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] / [pro] sa[l]u[t(e)] Im[p(eratoris)] / [Sev]eri colle/[g]ium iuvent/[u]ti(s) devotissi/[m]i numini eiu/[s] sacrant K/al(endis) Nov(embribus) Imp(eratore) S/evero Alexa/ndro Aug(usto) co(n)s(ule)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><supplied reason="lost">pro</supplied> <expan><abbr>sa<supplied reason="lost">l</supplied>u<supplied reason="lost">t</supplied></abbr><supplied reason="lost"><ex>e</ex></supplied></expan> <supplied reason="lost"/> Im<supplied reason="lost"><expan><abbr>p</abbr><ex>eratoris</ex></expan></supplied> <lb n="2"/><supplied reason="lost">Sev</supplied>eri colle<lb break="no" n="3"/><supplied reason="lost">g</supplied>ium iuvent<lb break="no" n="4"/><expan><abbr><supplied reason="lost">u</supplied>ti</abbr><ex>s</ex></expan> devotissi<lb break="no" n="5"/><supplied reason="lost">m</supplied>i numini eiu<lb break="no" n="6"/><supplied reason="lost">s</supplied> sacrant K<lb break="no" n="7"/><expan><abbr>al</abbr><ex>endis</ex></expan> <expan><abbr>Nov</abbr><ex>embribus</ex></expan> <expan><abbr>Imp</abbr><ex>eratore</ex></expan> S<lb break="no" n="8"/>evero Alexa<lb break="no" n="9"/>ndro <expan><abbr>Aug</abbr><ex>usto</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Autopsie R. Wiegels. Altar oder Basis, oben abgebrochen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

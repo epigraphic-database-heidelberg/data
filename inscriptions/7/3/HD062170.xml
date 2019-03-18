@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD062170</idno>
+                <idno type="TM">190411</idno><idno type="localID">HD062170</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-121</height>
+                                        <width>-94</width>
+                                        <depth>16</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.8-4.8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000161">Macedonia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0112" notAfter-custom="0113" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">112 AD – 113 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/789028">Krivogaštani</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Pelagoniski region</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/mk/">Mazedonien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-01-17" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 07318. 
+                    </bibl>
+                    <bibl>
+                         ILJug 1243. 
+                    </bibl>
+                    <bibl>
+                         IG 10, 02, 2, 00309. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [D]is Manibus / [Flav]ius Capiton mil(es) coh(ortis) / [Hispa]ne(n)s(is) XIII mil(i)tavit an(n)is II / [vixit] an(n)is XXV fecit T(itus) F[l]avius / [Her]mas l(ibertus) ex testamento // ἔτος ξσʹ / Θεοῖς Δαίμοσιν / [Τ(ίτου) Φ]λαουίου Καπίτωνος / [σ]τρατιώτου σπείρης ιγʹ / [Ἱσ]πανῆς, ἐστράτευσε[ν ἔτ]/[εσι δ]υσίν ἔζησεν ἔτεσι [εἴκο]/[σι πέντ]ε Ἑρμᾶς κατ[ὰ] δ[ια]/[θήκην]
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">D</supplied>is Manibus <lb n="2"/><supplied reason="lost">Flav</supplied>ius Capiton <expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <lb n="3"/><expan><abbr><supplied reason="lost">Hispa</supplied>ne</abbr><ex>n</ex>s</expan>(is) XIII mil<expan><ex>i</ex><abbr>tavit</abbr></expan> an<expan><ex>n</ex><abbr>is</abbr></expan> II <lb n="4"/><supplied reason="lost">vixit</supplied> an<expan><ex>n</ex><abbr>is</abbr></expan> XXV fecit <expan><abbr>T</abbr><ex>itus</ex></expan> F<supplied reason="lost">l</supplied>avius <lb n="5"/><supplied reason="lost">Her</supplied>mas <expan><abbr>l</abbr><ex>ibertus</ex></expan> ex testamento </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ἔτος ξσʹ <lb n="2"/>Θεοῖς Δαίμοσιν <lb n="3"/><supplied reason="lost">Τ(ίτου) Φ</supplied>λαουίου Καπίτωνος <lb n="4"/><supplied reason="lost">σ</supplied>τρατιώτου σπείρης ιγʹ <lb n="5"/><supplied reason="lost">Ἱσ</supplied>πανῆς, ἐστράτευσε<supplied reason="lost">ν ἔτ</supplied><lb break="no" n="6"/><supplied reason="lost">εσι δ</supplied>υσίν ἔζησεν ἔτεσι <supplied reason="lost">εἴκο</supplied><lb break="no" n="7"/><supplied reason="lost">σι πέντ</supplied>ε Ἑρμᾶς κατ<supplied reason="lost">ὰ</supplied> δ<supplied reason="lost">ια</supplied><lb break="no" n="8"/><supplied reason="lost">θήκην</supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

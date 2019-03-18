@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Architekturteil</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD026631</idno>
+                <idno type="TM">191254</idno><idno type="localID">HD026631</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/35">Architekturteil</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>80</height>
+                                        <width>-444</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-4.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName>Istrus</placeName></origPlace>
+                            <origDate notBefore-custom="0154" notAfter-custom="0155" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">154 AD – 155 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1914">1914</date>
+                        <placeName ref="http://www.geonames.org/675471">Istria</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Constanța</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-10-10" who="Cowey">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1919, 0012. 
+                    </bibl>
+                    <bibl>
+                         IScM 1, 151; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         V. Pârvan, MAR(H) 38, 1915/16, 612-615, Nr. 22; Zeichnung. - AE 1919. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) F 305. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(eratori) Caesari divi Hadriani filio divi Traiani Parthici nepoti] divi Nervae pronepoti Tito Aelio Hadriano Antonino A[ug(usto) Pi]o pontifici ma[x]im(o) trib(unicia) pot(estate) XVIII co(n)s(uli) II[I]I p(atri)(?) p(atriae)(?) e[t](?) M(arco) / [Aurelio Vero Caesari co(n)s(uli)] II civitas Histrianorum T(ito) Fl(avio) Longino Q(uinto) Marcio Tur[bone legato Aug(usti) pr(o) pr(aetore)] // [Αὐτοκράτορι Καίσαρι θεοῦ Ἁδριανοῦ υἱῷ θεοῦ Τραιανοῦ Παρθι]κοῦ υἱ<ω>νῷ θεοῦ <Νέρουα ἐ>γγόνῳ Τ(ίτον) Αἴλιον Ἁδριανὸν / Ἀντωνείνῳ Σεβ(αστῷ) Εὐ[σ]εβ(εῖ) π[ατρὶ πατ]ρίδος ἀρχειερεῖ μεγίστῳ δημαρχικῆς ἐξουσ[ία]ς [τ]ὸ ιηʹ / [ὑπάτῳ τὸ δʹ καὶ Μ(άρκῳ) Αὐρηλίῳ Οὐήρῳ Κ]αίσαρι ὑπάτῳ τὸ ∙ βʹ ∙ βουλὴ δῆμος Ἰστριανῶν Τ(ίτου) ∙ Φλα(ουίου) Λογ[γίνο]υ ∙ / Μαρ[κ]ίῳ Τούρβωνος πρεσβευτ[οῦ] Σε[βαστοῦ] καὶ ἀντιστρατήγου
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesari divi Hadriani filio divi Traiani Parthici nepoti</supplied> divi Nervae pronepoti Tito Aelio Hadriano Antonino A<supplied reason="lost"><expan><abbr>ug</abbr><ex>usto</ex></expan> Pi</supplied>o pontifici <expan><abbr>ma<supplied reason="lost">x</supplied>im</abbr><ex>o</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XVIII co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II<supplied reason="lost">I</supplied>I <expan><abbr>p</abbr><ex>atri</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>p</abbr><ex>atriae</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> e<supplied reason="lost" cert="low">t</supplied> <expan><abbr>M</abbr><ex>arco</ex></expan> <lb n="2"/><supplied reason="lost">Aurelio Vero Caesari <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></supplied> II civitas Histrianorum <expan><abbr>T</abbr><ex>ito</ex></expan> <expan><abbr>Fl</abbr><ex>avio</ex></expan> Longino <expan><abbr>Q</abbr><ex>uinto</ex></expan> Marcio Tur<supplied reason="lost">bone legato <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Αὐτοκράτορι Καίσαρι θεοῦ Ἁδριανοῦ υἱῷ θεοῦ Τραιανοῦ Παρθι</supplied>κοῦ υἱ<supplied reason="omitted">ω</supplied>νῷ θεοῦ &lt;Νέρουα ἐ&gt;γγόνῳ Τ(ίτον) Αἴλιον Ἁδριανὸν <lb n="2"/>Ἀντωνείνῳ Σεβ(αστῷ) Εὐ<supplied reason="lost">σ</supplied>εβ(εῖ) π<supplied reason="lost">ατρὶ πατ</supplied>ρίδος ἀρχειερεῖ μεγίστῳ δημαρχικῆς ἐξουσ<supplied reason="lost">ία</supplied>ς <supplied reason="lost">τ</supplied>ὸ ιηʹ <lb n="3"/><supplied reason="lost">ὑπάτῳ τὸ δʹ καὶ Μ(άρκῳ) Αὐρηλίῳ Οὐήρῳ Κ</supplied>αίσαρι ὑπάτῳ τὸ ∙ βʹ ∙ βουλὴ δῆμος Ἰστριανῶν Τ(ίτου) ∙ Φλα(ουίου) Λογ<supplied reason="lost">γίνο</supplied>υ ∙ <lb n="4"/>Μαρ<supplied reason="lost">κ</supplied>ίῳ Τούρβωνος πρεσβευτ<supplied reason="lost">οῦ</supplied> Σε<supplied reason="lost">βαστοῦ</supplied> καὶ ἀντιστρατήγου
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Inschrift wurde auf drei separate Steine angebracht, wovon nur zwei noch heute vorhanden sind.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

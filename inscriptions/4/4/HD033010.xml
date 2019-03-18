@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD033010</idno>
+                <idno type="TM">193001</idno><idno type="localID">HD033010</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-97</height>
+                                        <width>-57</width>
+                                        <depth>30</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">7.5-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029481">Moesia superior</placeName><placeName ref="http://www.trismegistos.org/place/029683">Timacum Minus, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/786413">Knjaževac</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Centralna Srbija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/rs/">Serbien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-11-16" who="Feraudi">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        ILJug 1329. 
+                    </bibl>
+                    <bibl>
+                         IMS 3, 2, 074; Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $ be]ne mer(enti?) / [- - - C]laudii / [- - -? Ni]grini / [- - - vi]x(it) ann(os) X / [h(ic)] s(itus) e(st) hunc / se vivo / [- - - mo]num[ent- -] / [- - - Cla]udius Quin[tus &
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><supplied reason="lost">be</supplied>ne <expan><abbr>mer</abbr><ex cert="low">enti</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">C</supplied>laudii <lb n="3"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/>? Ni</supplied>grini <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">vi</supplied>x</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> X <lb n="5"/><supplied reason="lost"><expan><abbr>h</abbr><ex>ic</ex></expan></supplied> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> hunc <lb n="6"/>se vivo <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">mo</supplied>num<supplied reason="lost">ent<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Cla</supplied>udius Quin<supplied reason="lost">tus</supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

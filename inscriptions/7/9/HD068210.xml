@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rechtliche Verfügung, privat auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD068210</idno>
+                <idno type="TM">699941</idno><idno type="localID">HD068210</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Dhílos, Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>54</height>
+                                        <width>35</width>
+                                        <depth>9</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000078">Achaia</placeName><placeName ref="http://www.trismegistos.org/place/000542">Delos</placeName></origPlace>
+                            <origDate notBefore-custom="-0200" notAfter-custom="-0171" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">200 BC – 171 BC
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1903">1903</date>
+                        <placeName ref="http://www.geonames.org/">Dhílos</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Nótio Aigaío</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Rechtliche Verfügung, privat</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-09-29" who="Cowey">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IG 11, 04, 00712. 
+                    </bibl>
+                    <bibl>
+                         AE 2009, 1308. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Ἔδοξεν τεῖ βουλεῖ καὶ τῶι δήμωι· Ἀ[ν]/τίλακος Σιμίδου εἶπεν· ἐπειδὴ Πόπ[λι]/[ος] Κορνήλιος Ποπλίου ὑὸς Σκιπίω[ν] / [Ῥ]ωμαῖος πρόξενος ὢν καὶ εὐεργέτη[ς] / τοῦ τε ἱεροῦ καὶ Δηλίων τὴν πᾶσαν ἐπ[ι]/μέλειαν ποεῖται περί τε τοῦ ἱεροῦ / καὶ Δηλίων· δεδόχθαι τεῖ βουλεῖ κα[ὶ] / τῶι δήμωι στεφανῶσαι Πόπλιον Κορν[ή]/λιον Ποπλίου ὑὸν Σκιπίωνα Ῥωμαῖον / τοῖς Ἀπολλωνίοις δάφνης στ[ε]φάνωι / τῶι ἱερῶι· ἀναγορεῦσαι δὲ τὸν ἱεροκ[ή]/ρυκα ἐν τῶι θεάτρωι ὅταν οἱ τῶν παίδων χ[ο]/ροὶ ἀγωνίζωνται τόδε τὸ κήρυγμα· / στεφανοῖ ὁ δῆμος ὁ Δηλίων Πόπλιον / Κορνήλιον Σκιπίωνα Ῥωμαῖον δάφνη[ς] / στεφάνωι τῶι ἱερῶι ἀ[ρ]ετῆς ἕνεκεν / καὶ εὐσεβείας τῆς περὶ τὸ ἱερὸν κα[ὶ] / εὐνοίας τῆς εἰς τὸν δῆμον τὸν Δηλίω[ν]· / Λυσανίας Καίβωνος ἐπεψήφισεν
+            --><div type="edition" xml:lang="grc"><head>Text</head><ab><lb n="1"/>
+                Ἔδοξεν τεῖ βουλεῖ καὶ τῶι δήμωι· Ἀ<supplied reason="lost">ν</supplied><lb break="no" n="2"/>τίλακος Σιμίδου εἶπεν· ἐπειδὴ Πόπ<supplied reason="lost">λι</supplied><lb break="no" n="3"/><supplied reason="lost">ος</supplied> Κορνήλιος Ποπλίου ὑὸς Σκιπίω<supplied reason="lost">ν</supplied> <lb n="4"/><supplied reason="lost">Ῥ</supplied>ωμαῖος πρόξενος ὢν καὶ εὐεργέτη<supplied reason="lost">ς</supplied> <lb n="5"/>τοῦ τε ἱεροῦ καὶ Δηλίων τὴν πᾶσαν ἐπ<supplied reason="lost">ι</supplied><lb break="no" n="6"/>μέλειαν ποεῖται περί τε τοῦ ἱεροῦ <lb n="7"/>καὶ Δηλίων· δεδόχθαι τεῖ βουλεῖ κα<supplied reason="lost">ὶ</supplied> <lb n="8"/>τῶι δήμωι στεφανῶσαι Πόπλιον Κορν<supplied reason="lost">ή</supplied><lb break="no" n="9"/>λιον Ποπλίου ὑὸν Σκιπίωνα Ῥωμαῖον <lb n="10"/>τοῖς Ἀπολλωνίοις δάφνης στ<supplied reason="lost">ε</supplied>φάνωι <lb n="11"/>τῶι ἱερῶι· ἀναγορεῦσαι δὲ τὸν ἱεροκ<supplied reason="lost">ή</supplied><lb break="no" n="12"/>ρυκα ἐν τῶι θεάτρωι ὅταν οἱ τῶν παίδων χ<supplied reason="lost">ο</supplied><lb break="no" n="13"/>ροὶ ἀγωνίζωνται τόδε τὸ κήρυγμα· <lb n="14"/>στεφανοῖ ὁ δῆμος ὁ Δηλίων Πόπλιον <lb n="15"/>Κορνήλιον Σκιπίωνα Ῥωμαῖον δάφνη<supplied reason="lost">ς</supplied> <lb n="16"/>στεφάνωι τῶι ἱερῶι ἀ<supplied reason="lost">ρ</supplied>ετῆς ἕνεκεν <lb n="17"/>καὶ εὐσεβείας τῆς περὶ τὸ ἱερὸν κα<supplied reason="lost">ὶ</supplied> <lb n="18"/>εὐνοίας τῆς εἰς τὸν δῆμον τὸν Δηλίω<supplied reason="lost">ν</supplied>· <lb n="19"/>Λυσανίας Καίβωνος ἐπεψήφισεν
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

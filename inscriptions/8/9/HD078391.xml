@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD078391</idno>
+                <idno type="TM">428922</idno><idno type="localID">HD078391</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Worms, Stadtmus. im Andreasstift?</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-64</height>
+                                        <width>-38</width>
+                                        <depth>11</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Borbetomagus (Civitas Vangionum)</placeName></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1952">1952</date>
+                        <placeName ref="http://www.geonames.org/2806142">Worms</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-02-27" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        H. Nesselhauf - H. Lieb, BRGK 40, 1959, 166, Nr. 117. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $]/an(iae?) Delibri(a)e / [i]u(v)eni infeli(ci) / [qu(a)e] vixit an/[no]s XVIII / [- - -]ridia ma(ter) / [mi]sera qu(a)e / [co]ntra vo/tum su(u)m e[t] / qu(ae) si(bi) a [fil(ia) opt(averat)] / [f]ac(iendum) ku[ravit(!)]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="2"/><expan><abbr>an</abbr><ex cert="low">iae</ex></expan> Delibri<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="3"/><expan><abbr><supplied reason="lost">i</supplied>u</abbr><ex>v</ex>eni</expan> <expan><abbr>infeli</abbr><ex>ci</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>qu</abbr><ex>a</ex>e</expan></supplied> vixit an<lb break="no" n="5"/><supplied reason="lost">no</supplied>s XVIII <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>ridia <expan><abbr>ma</abbr><ex>ter</ex></expan> <lb n="7"/><supplied reason="lost">mi</supplied>sera qu<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="8"/><supplied reason="lost">co</supplied>ntra vo<lb break="no" n="9"/>tum su<expan><ex>u</ex><abbr>m</abbr></expan> e<supplied reason="lost">t</supplied> <lb n="10"/><expan><abbr>qu</abbr><ex>ae</ex></expan> <expan><abbr>si</abbr><ex>bi</ex></expan> a <supplied reason="lost"><expan><abbr>fil</abbr><ex>ia</ex></expan> <expan><abbr>opt</abbr><ex>averat</ex></expan></supplied> <lb n="11"/><expan><abbr><supplied reason="lost">f</supplied>ac</abbr><ex>iendum</ex></expan> ku<supplied reason="lost"><expan><abbr>ravit</abbr><ex>!</ex></expan></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Allseitig abgearbeitet, Inschriftfeld stark verrieben.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD052417</idno>
+                <idno type="TM">121678</idno><idno type="localID">HD052417</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Skopje, Arh. Muz. Mak.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>172</height>
+                                        <width>67</width>
+                                        <depth>20</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3-3.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000161">Macedonia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 100 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/mk/">Mazedonien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-09-26" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 00630. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 07325. (B) 
+                    </bibl>
+                    <bibl>
+                         ILJug 0003. 
+                    </bibl>
+                    <bibl>
+                         ILJug 1251. 
+                    </bibl>
+                    <bibl>
+                         IG 10, 02, 2, 00160; tab. 21. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                C(aius) Iulius Bassus C(ai) f(ilius) Maec(ia) / Pelago(nia) mis(sus) vete(ranus) ex leg(ione) / VIII Aug(usta) mil(itavit) ann(os) XXV / vixit ann(os) LXXV her(e)des d(- - -) f(ecerunt) / C(aius) Iulius Caenialis et / C(aius) Iulius Olumpius et / C(aius) Iulius Expeditus et / C(aius) Iulius Felix / ex t(estamento) a(d) m(onumentum) den(arios) LX
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Bassus <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Maec</abbr><ex>ia</ex></expan> <lb n="2"/><expan><abbr>Pelago</abbr><ex>nia</ex></expan> <expan><abbr>mis</abbr><ex>sus</ex></expan> <expan><abbr>vete</abbr><ex>ranus</ex></expan> ex <expan><abbr>leg</abbr><ex>ione</ex></expan> <lb n="3"/>VIII <expan><abbr>Aug</abbr><ex>usta</ex></expan> <expan><abbr>mil</abbr><ex>itavit</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXV <lb n="4"/>vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> LXXV her<expan><ex>e</ex><abbr>des</abbr></expan> <abbr>d</abbr> <expan><abbr>f</abbr><ex>ecerunt</ex></expan> <lb n="5"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Caenialis et <lb n="6"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Olumpius et <lb n="7"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Expeditus et <lb n="8"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Felix <lb n="9"/>ex <expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>a</abbr><ex>d</ex></expan> <expan><abbr>m</abbr><ex>onumentum</ex></expan> <expan><abbr>den</abbr><ex>arios</ex></expan> LX
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Abweichende Textgestaltung in Z. 4.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

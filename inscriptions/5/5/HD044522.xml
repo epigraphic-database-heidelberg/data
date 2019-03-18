@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verzeichnis auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD044522</idno>
+                <idno type="TM">197785</idno><idno type="localID">HD044522</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-52</height>
+                                        <width>-38</width>
+                                        <depth>19</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000014">Thracia</placeName><placeName>Perinthus</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/741725">Marmara Ereğlisi</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Tekirdağ</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/tr/">Türkei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/108">Verzeichnis</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-05-21" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 07398. 
+                    </bibl>
+                    <bibl>
+                         M.H. Sayar, Perinthos-Herakleia (Marmara Ereğlisi) und Umgebung. 
+                    </bibl>
+                    <bibl>
+                         Geschichte, Testimonien, griechische und lateinische Inschriften (Wien 1998) 246-247, Nr. 67; Taf. 18, 70. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Licinius Valens dec(urio) / Aemilius Optatus [dec(urio)] / Annaeus Dexter dec(urio) / Flavius Iustus dec(urio) / Ulpius Candidus dec(urio) / Aelius Beronician(us) de(curio) / Terilus Kapito [dec(urio)] / A<el>ius Optatus dec(urio) / Aelius Albanus de[c(urio)] / Iunius Marcianus [dec(urio)] / Claudius Primus d[ec(urio)] / Aelius Tarsa dec(urio) / Claud(ius) Frontinus [dec(urio)] / Aelius Crescens [dec(urio)] / Aelius Diodorus d<e>[c(urio)] / Aelius Nic<e>[phorus? dec(urio)] / M<ett>ius Sab<ia>n[us dec(urio)]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Licinius Valens <expan><abbr>dec</abbr><ex>urio</ex></expan> <lb n="2"/>Aemilius Optatus <supplied reason="lost"><expan><abbr>dec</abbr><ex>urio</ex></expan></supplied> <lb n="3"/>Annaeus Dexter <expan><abbr>dec</abbr><ex>urio</ex></expan> <lb n="4"/>Flavius Iustus <expan><abbr>dec</abbr><ex>urio</ex></expan> <lb n="5"/>Ulpius Candidus <expan><abbr>dec</abbr><ex>urio</ex></expan> <lb n="6"/>Aelius <expan><abbr>Beronician</abbr><ex>us</ex></expan> <expan><abbr>de</abbr><ex>curio</ex></expan> <lb n="7"/>Terilus Kapito <supplied reason="lost"><expan><abbr>dec</abbr><ex>urio</ex></expan></supplied> <lb n="8"/>A<supplied reason="omitted">el</supplied>ius Optatus <expan><abbr>dec</abbr><ex>urio</ex></expan> <lb n="9"/>Aelius Albanus de<supplied reason="lost"><expan><abbr>c</abbr><ex>urio</ex></expan></supplied> <lb n="10"/>Iunius Marcianus <supplied reason="lost"><expan><abbr>dec</abbr><ex>urio</ex></expan></supplied> <lb n="11"/>Claudius Primus d<supplied reason="lost"><expan><abbr>ec</abbr><ex>urio</ex></expan></supplied> <lb n="12"/>Aelius Tarsa <expan><abbr>dec</abbr><ex>urio</ex></expan> <lb n="13"/><expan><abbr>Claud</abbr><ex>ius</ex></expan> Frontinus <supplied reason="lost"><expan><abbr>dec</abbr><ex>urio</ex></expan></supplied> <lb n="14"/>Aelius Crescens <supplied reason="lost"><expan><abbr>dec</abbr><ex>urio</ex></expan></supplied> <lb n="15"/>Aelius Diodorus d<supplied reason="omitted">e</supplied><supplied reason="lost"><expan><abbr>c</abbr><ex>urio</ex></expan></supplied> <lb n="16"/>Aelius Nic<supplied reason="omitted">e</supplied><supplied reason="lost">phorus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>dec</abbr><ex>urio</ex></expan></supplied> <lb n="17"/>M<supplied reason="omitted">ett</supplied>ius Sab<supplied reason="omitted">ia</supplied>n<supplied reason="lost">us <expan><abbr>dec</abbr><ex>urio</ex></expan></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

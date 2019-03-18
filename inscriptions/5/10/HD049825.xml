@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elogium auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD049825</idno>
+                <idno type="TM">176693</idno><idno type="localID">HD049825</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Kırşehir, Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-92.5</height>
+                                        <width>-69</width>
+                                        <depth>-45.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.2-5.6</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000482">Cappadocia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD – 130 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Hacıkafilı</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/tr/">Türkei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/70">Elogium</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-06-23" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1997, 1522. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] / XV Apol(linaris) XII[I] / gem(inae) I adiut(ricis) / XVI F(laviae) f(irmae) hast(atus) / I Miner(viae) princ(eps) / et p(rimus) p(ilus) beneficio / Imp(eratore) d(onis) d(onatus) bello / Ger(manico) item d(onis) d(onatus) bel/lo Dac(ico) item / praef(ectus) leg(ionis) IIII Scyt(hicae) / consummavit / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/>XV <expan><abbr>Apol</abbr><ex>linaris</ex></expan> XII<supplied reason="lost">I</supplied> <lb n="2"/><expan><abbr>gem</abbr><ex>inae</ex></expan> I <expan><abbr>adiut</abbr><ex>ricis</ex></expan> <lb n="3"/>XVI <expan><abbr>F</abbr><ex>laviae</ex></expan> <expan><abbr>f</abbr><ex>irmae</ex></expan> <expan><abbr>hast</abbr><ex>atus</ex></expan> <lb n="4"/>I <expan><abbr>Miner</abbr><ex>viae</ex></expan> <expan><abbr>princ</abbr><ex>eps</ex></expan> <lb n="5"/>et <expan><abbr>p</abbr><ex>rimus</ex></expan> <expan><abbr>p</abbr><ex>ilus</ex></expan> beneficio <lb n="6"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>d</abbr><ex>onis</ex></expan> <expan><abbr>d</abbr><ex>onatus</ex></expan> bello <lb n="7"/><expan><abbr>Ger</abbr><ex>manico</ex></expan> item <expan><abbr>d</abbr><ex>onis</ex></expan> <expan><abbr>d</abbr><ex>onatus</ex></expan> bel<lb break="no" n="8"/>lo <expan><abbr>Dac</abbr><ex>ico</ex></expan> item <lb n="9"/><expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> IIII <expan><abbr>Scyt</abbr><ex>hicae</ex></expan> <lb n="10"/>consummavit <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

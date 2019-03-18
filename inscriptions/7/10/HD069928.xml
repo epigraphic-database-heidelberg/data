@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD069928</idno>
+                <idno type="TM">155158</idno><idno type="localID">HD069928</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">York, Yorkshire Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>114</height>
+                                        <width>-112</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/013682">Eburacum</placeName></origPlace>
+                            <origDate notBefore-custom="0107" notAfter-custom="0108" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">107 AD – 108 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1854">1854</date>
+                        <placeName ref="http://www.geonames.org/2633352">York</placeName><placeName type="modern_region" ref="http://www.geonames.org/">North Yorkshire</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-09-18" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F009169">
+            <desc>F009169</desc>
+        </graphic>
+
+        <graphic url="http://www.yorkmuseumstrust.org.uk/collections/search/item/?id=1085">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 07, 00241. (B) 
+                    </bibl>
+                    <bibl>
+                         RIB 0665; Foto u. Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [I]mp(erator) Caesar / [divi N]ervae fil(ius) Ne[rva] / [Trai]anus Aug(ustus) Ger[m(anicus) Dac]/[icus po]ntifex maximu[s tribun]/[iciae po]testatis XII imp(erator) V[I co(n)s(ul) V p(ater) p(atriae)] / [portam] per leg(ionem) VIIII Hi[sp(anam) fecit]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>erator</ex></expan> Caesar <lb n="2"/><supplied reason="lost">divi N</supplied>ervae <expan><abbr>fil</abbr><ex>ius</ex></expan> Ne<supplied reason="lost">rva</supplied> <lb n="3"/><supplied reason="lost">Trai</supplied>anus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Ger<supplied reason="lost"><expan><abbr>m</abbr><ex>anicus</ex></expan> Dac</supplied><lb break="no" n="4"/><supplied reason="lost">icus po</supplied>ntifex maximu<supplied reason="lost">s tribun</supplied><lb break="no" n="5"/><supplied reason="lost">iciae po</supplied>testatis XII <expan><abbr>imp</abbr><ex>erator</ex></expan> V<supplied reason="lost">I <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> V <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="6"/><supplied reason="lost">portam</supplied> per <expan><abbr>leg</abbr><ex>ionem</ex></expan> VIIII Hi<supplied reason="lost"><expan><abbr>sp</abbr><ex>anam</ex></expan> fecit</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Zu den leichten Leseabweichungen s. RIB 0665.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

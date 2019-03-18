@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio auf Tessera</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001464</idno>
+                <idno type="TM">168763</idno><idno type="localID">HD001464</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/276">Tessera</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei, Zinn</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>5.8</height>
+                                        <width>7.5</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName>Aquae Sulis</placeName></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 400 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1979">1979</date>
+                        <placeName ref="http://www.geonames.org/2656173">Bath</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Somerset</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/76">Defixio</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-02-22" who="Cowey">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1984, 0620. 
+                    </bibl>
+                    <bibl>
+                         M.W.C. Hassall - R.S.O. Tomlin, Britannia 15, 1984, 333, Nr. 2; fig. 31 u. 32 (Zeichnungen). - AE 1984. 
+                    </bibl>
+                    <bibl>
+                         A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 3.2/36. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                A[e]n[um me]um qui levavit [e]xc/on(f)ic[tu]s [e]st templo Sulis / dono si mulier si baro si ser/vus si liber si pure(!) si puella / et qui hoc fecerit san/gu(in)em suum in ipsmu(!) aen/mu(!) fundat // Dono si mul[ie]r si / ba(ro) si servus si lib/er si puer si puel/la eum latr[on]/em qui rem ipsa/m involavi[t] d/eus [i]nvenia[t]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                A<supplied reason="lost">e</supplied>n<supplied reason="lost">um me</supplied>um qui levavit <supplied reason="lost">e</supplied>xc<lb break="no" n="2"/>on<expan><ex>f</ex><abbr>ic</abbr></expan><supplied reason="lost">tu</supplied>s <supplied reason="lost">e</supplied>st templo Sulis <lb n="3"/>dono si mulier si baro si ser<lb break="no" n="4"/>vus si liber si pure <note>sic</note> si puella <lb n="5"/>et qui hoc fecerit san<lb break="no" n="6"/>gu<expan><ex>in</ex><abbr>em</abbr></expan> suum in ipsmu <note>sic</note> aen<lb break="no" n="7"/>mu <note>sic</note> fundat </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Dono si mul<supplied reason="lost">ie</supplied>r si <lb n="2"/><expan><abbr>ba</abbr><ex>ro</ex></expan> si servus si lib<lb break="no" n="3"/>er si puer si puel<lb break="no" n="4"/>la eum latr<supplied reason="lost">on</supplied><lb break="no" n="5"/>em qui rem ipsa<lb break="no" n="6"/>m involavi<supplied reason="lost">t</supplied> d<lb break="no" n="7"/>eus <supplied reason="lost">i</supplied>nvenia<supplied reason="lost">t</supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> 4 aneinanderpassende Fragmente erhalten. Material: Blei-Zinn-Legierung. Text beidseitig spiegelbildlich von rechts nach links geschrieben.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

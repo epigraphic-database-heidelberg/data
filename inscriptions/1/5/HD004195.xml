@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD004195</idno>
+                <idno type="TM">123363</idno><idno type="localID">HD004195</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033155">Venetia et Histria (Regio X)</placeName><placeName ref="http://www.trismegistos.org/place/012251">Vicetia</placeName></origPlace>
+                            <origDate notBefore-custom="0048" notAfter-custom="0054" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">48 AD – 54 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Vicenza</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="1992-07-15" who="Scheithauer">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1980, 0508. (B) 
+                    </bibl>
+                    <bibl>
+                         G. Alföldy, ZPE 39, 1980, 255-266; Taf. 13; Abb. 1 (Zeichnung). - AE. 
+                    </bibl>
+                    <bibl>
+                         CIL 05, 03117. (B) 
+                    </bibl>
+                    <bibl>
+                         ILS 0968. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [- Salonio? - f(ilio) Men(enia)] / Ma[tid]io [- - -] / a Ti(berio) Claudio Caesare / Augus[t]o Germanico / censor(e) [a]dlecto in / senatum et inter / tribunicios relato / ab eodem adscito in / numerum saliorum / Salonia mater / filio piissimo / viva fecit
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/> Salonio<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" quantity="1" unit="character"/> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Men</abbr><ex>enia</ex></expan></supplied> <lb n="2"/>Ma<supplied reason="lost">tid</supplied>io <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>a <expan><abbr>Ti</abbr><ex>berio</ex></expan> Claudio Caesare <lb n="4"/>Augus<supplied reason="lost">t</supplied>o Germanico <lb n="5"/><expan><abbr>censor</abbr><ex>e</ex></expan> <supplied reason="lost">a</supplied>dlecto in <lb n="6"/>senatum et inter <lb n="7"/>tribunicios relato <lb n="8"/>ab eodem adscito in <lb n="9"/>numerum saliorum <lb n="10"/>Salonia mater <lb n="11"/>filio piissimo <lb n="12"/>viva fecit
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Fundstelle umstritten: noch Torricello-Hügel überliefert. Die Tafel gehörte wohl zu einem Grabbau. Y: 48: terminus post quem: Aufnahme in den Senat während der Censur des Claudius; terminus ante quem: 54: Tod des Claudius. (B): geringfügige Leseabweichungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

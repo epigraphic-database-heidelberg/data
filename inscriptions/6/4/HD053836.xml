@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD053836</idno>
+                <idno type="TM">176302</idno><idno type="localID">HD053836</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>45</height>
+                                        <width>-50</width>
+                                        <depth>13</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">8-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/002496">Asia</placeName><placeName>Ephesus</placeName></origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/">Izmir</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/tr/">Türkei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-06-24" who="Cowey">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1992, 1581. 
+                    </bibl>
+                    <bibl>
+                         IK 13, 0705a. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Q(uintus) Pinari[us L(uci) f(ilius)] / Aem(ilia) trib(unus) l[eg(ionis) VI] / Macedoni[cae sibi] / et Pinariae [Doxae] / uxori suae // Κόϊντος Πινάριος / Λευκίου υἱὸς Αἰμιλία / χιλίαρχος λεγιῶνος / ἕκτης Μακεδονικῆς / ἑαυτῶι καὶ Πειναρί/ᾳ Δόξηι τῇ ἑαυτοῦ / γυναικί
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uintus</ex></expan> Pinari<supplied reason="lost">us <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="2"/><expan><abbr>Aem</abbr><ex>ilia</ex></expan> <expan><abbr>trib</abbr><ex>unus</ex></expan> l<supplied reason="lost"><expan><abbr>eg</abbr><ex>ionis</ex></expan> VI</supplied> <lb n="3"/>Macedoni<supplied reason="lost">cae sibi</supplied> <lb n="4"/>et Pinariae <supplied reason="lost">Doxae</supplied> <lb n="5"/>uxori suae </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Κόϊντος Πινάριος <lb n="2"/>Λευκίου υἱὸς Αἰμιλία <lb n="3"/>χιλίαρχος λεγιῶνος <lb n="4"/>ἕκτης Μακεδονικῆς <lb n="5"/>ἑαυτῶι καὶ Πειναρί<lb break="no" n="6"/>ᾳ Δόξηι τῇ ἑαυτοῦ <lb n="7"/>γυναικί
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

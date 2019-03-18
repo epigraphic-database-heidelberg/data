@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD052981</idno>
+                <idno type="TM">198703</idno><idno type="localID">HD052981</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Qal`at al Madiq, Karawanserei, Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>74</height>
+                                        <width>69.5</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000016">Syria</placeName><placeName>Apamea</placeName></origPlace>
+                            <origDate notBefore-custom="0215" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">215 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Hama, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/sy/">Syrien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-12-01" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1993, 1572. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [- - - V]ivio Bataoni / mil(iti) leg(ionis) II Part(h)ic(a)e Anto/ninianae piae f(idelis) f(elicis) aet(ernae) / coh(ortis) VI princ(ip)is prioris / qui vixit an(n)is XXXX mi/litavit an(n)es(!) XVIII (h)oris / noctis II defu(n)ctus / Aegeas cuius corpus / conditum Catabolo / titulum positum Apam(e)ae / ab Aurelio Mucazano h/erede b(e)ne merenti fecit
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">V</supplied>ivio Bataoni <lb n="2"/><expan><abbr>mil</abbr><ex>iti</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> II Part<expan><ex>h</ex><abbr>ic</abbr><ex>a</ex><abbr>e</abbr></expan> Anto<lb break="no" n="3"/>ninianae piae <expan><abbr>f</abbr><ex>idelis</ex></expan> <expan><abbr>f</abbr><ex>elicis</ex></expan> <expan><abbr>aet</abbr><ex>ernae</ex></expan> <lb n="4"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> VI princ<expan><ex>ip</ex><abbr>is</abbr></expan> prioris <lb n="5"/>qui vixit an<expan><ex>n</ex><abbr>is</abbr></expan> XXXX mi<lb break="no" n="6"/>litavit an<expan><ex>n</ex><abbr>es</abbr></expan> <note>sic</note> XVIII <expan><ex>h</ex><abbr>oris</abbr></expan> <lb n="7"/>noctis II defu<expan><ex>n</ex><abbr>ctus</abbr></expan> <lb n="8"/>Aegeas cuius corpus <lb n="9"/>conditum Catabolo <lb n="10"/>titulum positum Apam<expan><ex>e</ex><abbr>ae</abbr></expan> <lb n="11"/>ab Aurelio Mucazano h<lb break="no" n="12"/>erede b<expan><ex>e</ex><abbr>ne</abbr></expan> merenti fecit
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD031402</idno>
+                <idno type="TM">205741</idno><idno type="localID">HD031402</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Timgad (Thamugadi), röm. Stadt</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003344">Numidia</placeName><placeName ref="http://www.trismegistos.org/place/018251">Thamugadi</placeName></origPlace>
+                            <origDate notBefore-custom="0167" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">167 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2476409">Timgad</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Batna</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2007-11-26" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F003227">
+            <desc>F003227</desc>
+        </graphic>
+
+        <graphic url="http://cil-old.bbaw.de/test06/bilder/datenbank/PH0008153.jpg">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 157, Nr. 37c. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 17866. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(eratore) Caes(are) M(arco) Aur(elio) Antonino Aug(usto) Armeniaco] Parthico max(imo) M[edico] / po[nt(ifice) max(imo) imp(eratore) V tribuniciae potesta]tis XXI consule III [p(atre) p(atriae) et] / Imp(eratore) C[aes(are) L(ucio) Aur(elio) Vero Arm(eniaco) Parth(ico) max(imo) Me]d(ico) Aug(usto) pon(tifice) max(imo) imp(eratore) V [tr(ibuniciae) p(otestatis) VII] / co(n)s(ule) [III p(atre) p(atriae) divi Antonini fili(i)s divi H]adriani nepotibu[s divi] / Tra[iani Parth(ici) pronepotibus divi Nervae] abnepotibus statuas [-]T AE[-] / [[[M(arcus) Lucceius Torquatus Bassianus leg(atus) Augustorum pr(o) pr(aetore) pat(ronus) col(oniae) ded(icavit)]]] d(ecreto) [d(ecurionum) p(ecunia) p(ublica)]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>Caes</abbr><ex>are</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> Antonino <expan><abbr>Aug</abbr><ex>usto</ex></expan> Armeniaco</supplied> Parthico <expan><abbr>max</abbr><ex>imo</ex></expan> M<supplied reason="lost">edico</supplied> <lb n="2"/>po<supplied reason="lost"><expan><abbr>nt</abbr><ex>ifice</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>imp</abbr><ex>eratore</ex></expan> V tribuniciae potesta</supplied>tis XXI consule III <supplied reason="lost"><expan><abbr>p</abbr><ex>atre</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> et</supplied> <lb n="3"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> C<supplied reason="lost"><expan><abbr>aes</abbr><ex>are</ex></expan> <expan><abbr>L</abbr><ex>ucio</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> Vero <expan><abbr>Arm</abbr><ex>eniaco</ex></expan> <expan><abbr>Parth</abbr><ex>ico</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> Me</supplied><expan><abbr>d</abbr><ex>ico</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>pon</abbr><ex>tifice</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>imp</abbr><ex>eratore</ex></expan> V <supplied reason="lost"><expan><abbr>tr</abbr><ex>ibuniciae</ex></expan> <expan><abbr>p</abbr><ex>otestatis</ex></expan> VII</supplied> <lb n="4"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> <supplied reason="lost">III <expan><abbr>p</abbr><ex>atre</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> divi Antonini <expan><abbr>fili</abbr><ex>i</ex>s</expan> divi H</supplied>adriani nepotibu<supplied reason="lost">s divi</supplied> <lb n="5"/>Tra<supplied reason="lost">iani <expan><abbr>Parth</abbr><ex>ici</ex></expan> pronepotibus divi Nervae</supplied> abnepotibus statuas <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>T AE<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="6"/><del rend="erasure">[<expan><abbr>M</abbr><ex>arcus</ex></expan> Lucceius Torquatus Bassianus <expan><abbr>leg</abbr><ex>atus</ex></expan> Augustorum <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>pat</abbr><ex>ronus</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>ded</abbr><ex>icavit</ex></expan></del>] <expan><abbr>d</abbr><ex>ecreto</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>p</abbr><ex>ublica</ex></expan></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

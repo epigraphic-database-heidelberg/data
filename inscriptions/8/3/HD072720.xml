@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD072720</idno>
+                <idno type="TM">700167</idno><idno type="localID">HD072720</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Montana, Ist. Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName>Municipium Montanensium</placeName></origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1986">1986</date>
+                        <placeName ref="http://www.geonames.org/">Montana</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Montana</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-03-08" who="Lopez">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2012, 1263. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Dean(ae) et Apoll(ini) sac(rum) // pro salute T(iberi?) Ael(i) H[a]/driani Anton(ini) Aug(usti) / Pii et M(arco) Aur(eli) Ver(i) Ca[es(aris)] / et advent(u) L(uci) Iul(i) Sev[e]/ri co(n)s(ularis) l(egati) Au(gusti) pr(o) <pr(aetore)> L(ucius) Iul(ius) / Macedo b(ene)f(iciarius) co(n)s(ularis)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Dean</abbr><ex>ae</ex></expan> et <expan><abbr>Apoll</abbr><ex>ini</ex></expan> <expan><abbr>sac</abbr><ex>rum</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> pro salute <expan><abbr>T</abbr><ex cert="low">iberi</ex></expan> <expan><abbr>Ael</abbr><ex>i</ex></expan> H<supplied reason="lost">a</supplied><lb break="no" n="2"/>driani <expan><abbr>Anton</abbr><ex>ini</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="3"/>Pii et <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>eli</ex></expan> <expan><abbr>Ver</abbr><ex>i</ex></expan> Ca<supplied reason="lost"><expan><abbr>es</abbr><ex>aris</ex></expan></supplied> <lb n="4"/>et <expan><abbr>advent</abbr><ex>u</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>Iul</abbr><ex>i</ex></expan> Sev<supplied reason="lost">e</supplied><lb break="no" n="5"/>ri co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <expan><abbr>l</abbr><ex>egati</ex></expan> <expan><abbr>Au</abbr><ex>gusti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> &lt;<expan><abbr>pr</abbr><ex>aetore</ex></expan>&gt; <expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> <lb n="6"/>Macedo b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

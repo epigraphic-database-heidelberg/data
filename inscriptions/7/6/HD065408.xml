@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD065408</idno>
+                <idno type="TM">275386</idno><idno type="localID">HD065408</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">London, Brit. Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-22</height>
+                                        <width>-25</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000172">Roma</placeName><placeName ref="http://www.trismegistos.org/place/000172">Roma?</placeName></origPlace>
+                            <origDate notBefore-custom="0014" notAfter-custom="0037" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">14 AD – 37 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Roma?</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Lazio</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-05-23" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F014206">
+            <desc>F014206</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 06, 40345; Foto. 
+                    </bibl>
+                    <bibl>
+                         CIL 06, 01230 add. p. 3778. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Ti(berio) Caesari] / [Aug]us[to] / [divi Augusti f(ilio)] Divi Iuli n[epoti] // [ἡ ἐλευθέρα?] πόλις τ[ῶν] / [- - - τ]ῶν εὐεργεσιῶ[ν] / [πολλῶν? ἕνεκεν τ]ῶν εἰς αὑτ[ήν] / [- - - - - -
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Ti</abbr><ex>berio</ex></expan> Caesari</supplied> <lb n="2"/><supplied reason="lost">Aug</supplied>us<supplied reason="lost">to</supplied> <lb n="3"/><supplied reason="lost">divi Augusti <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> Divi Iuli n<supplied reason="lost">epoti</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost" cert="low">ἡ ἐλευθέρα</supplied> πόλις τ<supplied reason="lost">ῶν</supplied> <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> τ</supplied>ῶν εὐεργεσιῶ<supplied reason="lost">ν</supplied> <lb n="3"/><supplied reason="lost">πολλῶν<certainty locus="name" match="preceding-sibling::text()" cert="low"/> ἕνεκεν τ</supplied>ῶν εἰς αὑτ<supplied reason="lost">ήν</supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Herkunft der Inschrift aus Rom unsicher.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

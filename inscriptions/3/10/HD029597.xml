@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD029597</idno>
+                <idno type="TM">222718</idno><idno type="localID">HD029597</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/026602">Mellaria, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD – 130 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1759">1759</date>
+                        <placeName ref="http://www.geonames.org/">Tarifa, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Andalucía</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-08-12" who="Feraudi">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 02 (2. Aufl.) 07, 00798. 
+                    </bibl>
+                    <bibl>
+                         CIL 02, 02343. 
+                    </bibl>
+                    <bibl>
+                         AE 1987, 0538. 
+                    </bibl>
+                    <bibl>
+                         A.U. Stylow, MDAI(M) 28, 1987, 98-100, Nr. 70. - AE 1987. 
+                    </bibl>
+                    <bibl>
+                         AE 1992, 0982. 
+                    </bibl>
+                    <bibl>
+                         J. Lacort Navarro, AnCord 2, 1991, 365. - AE 1992. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Aquam Aug(ustam) / C(aius) Annius C(ai) f(ilius) Quir(ina) / Annianus IIvir bis / ponti<f=II>(ex)#ponti<f>(ex)#PONTIII perpetualis / mun<e=I>ris#mun<e>ris#MUNIRIS municipio suo / ex HS [- - -] num(m)orum te/stamento [perduci] iussit
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Aquam <expan><abbr>Aug</abbr><ex>ustam</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Annius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Quir</abbr><ex>ina</ex></expan> <lb n="3"/>Annianus IIvir bis <lb n="4"/>ponti<supplied reason="omitted">f=II</supplied>(ex)#ponti<supplied reason="omitted">f</supplied>(ex)#PONTIII perpetualis <lb n="5"/>mun<choice><corr>e</corr><sic>I</sic></choice>ris#mun<supplied reason="omitted">e</supplied>ris#MUNIRIS municipio suo <lb n="6"/>ex HS <gap reason="lost" extent="unknown" unit="character"/> num<expan><ex>m</ex><abbr>orum</abbr></expan> te<lb break="no" n="7"/>stamento <supplied reason="lost">perduci</supplied> iussit
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

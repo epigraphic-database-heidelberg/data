@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Beischrift auf Architekturteil</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD015202</idno>
+                <idno type="TM">199327</idno><idno type="localID">HD015202</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Sousse, Mus. de Sousse</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/35">Architekturteil</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>220</height>
+                                        <width>420</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/152">Mosaik</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/015771">Africa Proconsularis</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0231" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">231 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Smirat</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/tn/">Tunesien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/109">Beischrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2010-08-19" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F009089">
+            <desc>F009089</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1967, 0549. 
+                    </bibl>
+                    <bibl>
+                         A. Beschaouch, CRAI 1966, 134-157; pl. 1. 3-5; Fotos. - AE 1967. 
+                    </bibl>
+                    <bibl>
+                         AE 2000, 1598. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Spittara // Victor // Bullarius // Crispinus // Hilarinus // Per curionem / dictum domi/ni mei ut / Telegeni / pro leopardo / meritum ha/beant vestri / favoris dona/te eis denarios / quingentos // Mageri Mageri // Adclamatum est / exemplo tuo mu/nus sic discant / futuri audiant / praeteriti unde / tale quando tale / exemplo quaesto/rum munus edes / de re tua munus edes / (i)sta dies / Magerius do/nat hoc est habe/re hoc est posse / hoc est ia[m] nox est / ia(m) munere tuo / saccis missos // [- - - - - -] // Luxurius // Mamertinus / Romanus
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Spittara </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Victor </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Bullarius </ab></div><div n="4" type="textpart"><ab><lb n="1"/> Crispinus </ab></div><div n="5" type="textpart"><ab><lb n="1"/> Hilarinus </ab></div><div n="6" type="textpart"><ab><lb n="1"/> Per curionem <lb n="2"/>dictum domi<lb break="no" n="3"/>ni mei ut <lb n="4"/>Telegeni <lb n="5"/>pro leopardo <lb n="6"/>meritum ha<lb break="no" n="7"/>beant vestri <lb n="8"/>favoris dona<lb break="no" n="9"/>te eis denarios <lb n="10"/>quingentos </ab></div><div n="7" type="textpart"><ab><lb n="1"/> Mageri Mageri </ab></div><div n="8" type="textpart"><ab><lb n="1"/> Adclamatum est <lb n="2"/>exemplo tuo mu<lb break="no" n="3"/>nus sic discant <lb n="4"/>futuri audiant <lb n="5"/>praeteriti unde <lb n="6"/>tale quando tale <lb n="7"/>exemplo quaesto<lb break="no" n="8"/>rum munus edes <lb n="9"/>de re tua munus edes <lb n="10"/><expan><ex>i</ex><abbr>sta</abbr></expan> dies <lb n="11"/>Magerius do<lb break="no" n="12"/>nat hoc est habe<lb break="no" n="13"/>re hoc est posse <lb n="14"/>hoc est ia<supplied reason="lost">m</supplied> nox est <lb n="15"/><expan><abbr>ia</abbr><ex>m</ex></expan> munere tuo <lb n="16"/>saccis missos </ab></div><div n="9" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="10" type="textpart"><ab><lb n="1"/> Luxurius </ab></div><div n="11" type="textpart"><ab><lb n="1"/> Mamertinus <lb n="2"/>Romanus
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Mosaik mit der Darstellung von Kämpfen gegen wilde Tiere in der Arena.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

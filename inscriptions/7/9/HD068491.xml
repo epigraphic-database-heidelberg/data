@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD068491</idno>
+                <idno type="TM">405364</idno><idno type="localID">HD068491</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Budapest, Aquincumi Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-250</height>
+                                        <width>98</width>
+                                        <depth>16</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.8-2.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/020126">Aquincum</placeName></origPlace>
+                            <origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD – 230 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1899">1899</date>
+                        <placeName ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Budapest</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-01-26" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/2846">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 15159. 
+                    </bibl>
+                    <bibl>
+                         TitAq 0545; Foto. 
+                    </bibl>
+                    <bibl>
+                         A. Schober, Die römischen Grabsteine von Noricum und Pannonien (Wien 1923) 73-74, Nr. 158; Abb. 77. 
+                    </bibl>
+                    <bibl>
+                         J. Mander, Portraits of children on Roman funerary monuments (Cambridge 2013) 302, Nr. 678. 
+                    </bibl>
+                    <bibl>
+                         H. Ubl, Waffen und Uniform des römischen Heeres der Prinzipatsepoche nach den Grabreliefs Noricums und Pannoniens (Wien 2013) XXVIII-XXIX, Nr. 25; Taf. 10, 37 u. 38. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) // Aur(elio) Bito corn(icini) leg(ionis) II ad(iutricis) / stip(endiorum) XVIII bello desi(derato) vixsit(!) / ann(os) XXXVIII m(enses) III et Vital(ino) filio / vix(it) ann(os) IIII m(enses) XI d(ies) XVIII et Bitill(a)e / fili(ae) et Dalmatio filio et Quintili/{li}ano filio posu(it) Aurelia Qu(i)n/til{i}la coniu(gi) et filibus suis me/moriam
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Aur</abbr><ex>elio</ex></expan> Bito <expan><abbr>corn</abbr><ex>icini</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>ad</abbr><ex>iutricis</ex></expan> <lb n="2"/><expan><abbr>stip</abbr><ex>endiorum</ex></expan> XVIII bello <expan><abbr>desi</abbr><ex>derato</ex></expan> vixsit <note>sic</note> <lb n="3"/><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXXVIII <expan><abbr>m</abbr><ex>enses</ex></expan> III et <expan><abbr>Vital</abbr><ex>ino</ex></expan> filio <lb n="4"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> IIII <expan><abbr>m</abbr><ex>enses</ex></expan> XI <expan><abbr>d</abbr><ex>ies</ex></expan> XVIII et Bitill<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="5"/><expan><abbr>fili</abbr><ex>ae</ex></expan> et Dalmatio filio et Quintili<lb break="no" n="6"/><surplus>li</surplus>ano filio <expan><abbr>posu</abbr><ex>it</ex></expan> Aurelia Qu<expan><ex>i</ex><abbr>n</abbr></expan><lb break="no" n="7"/>til<surplus>i</surplus>la <expan><abbr>coniu</abbr><ex>gi</ex></expan> et filibus suis me<lb break="no" n="8"/>moriam
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

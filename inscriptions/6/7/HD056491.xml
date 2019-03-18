@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grenzmarkierung auf Cippus</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD056491</idno>
+                <idno type="TM">184973</idno><idno type="localID">HD056491</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/85">Cippus</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>182</height>
+                                        <width>55</width>
+                                        <depth>17</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/011858">Varvaria</placeName></origPlace>
+                            <origDate notBefore-custom="0069" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">69 AD – 70 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3203316">Skradin</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Šibensko-kninska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/293">Grenzmarkierung</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-03-27" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        S. Čače, Asseria 1, 2003, 41-42, Nr. 5. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) P 654. 
+                    </bibl>
+                    <bibl>
+                         B. Kuntić-Makvić - M. Šegvić, ARadRaspr 11, 1988, 51-52; sl. 2 u. 3. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Ti(berius) Cl]audius Epetinus / [C(aius) A]villius Clemens / [L(ucius) Coeliu]s Capella P(ublius) Raec/[ius Libo P(ublius) Valerius] S[ec]und[us] / [iudice]s dati a M(arco) Pomp(eio) / Silvano leg(ato) Aug(usti) pro pr(aetore) / inter rem p(ublicam) Asseriatium / et rem p(ublicam) Alveritarum in [re] / praesenti [pe]r [s]e[nt]enti[am] s[uam] / [determ]inaverunt
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Ti</abbr><ex>berius</ex></expan> Cl</supplied>audius Epetinus <lb n="2"/><supplied reason="lost"><expan><abbr>C</abbr><ex>aius</ex></expan> A</supplied>villius Clemens <lb n="3"/><supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan> Coeliu</supplied>s Capella <expan><abbr>P</abbr><ex>ublius</ex></expan> Raec<lb break="no" n="4"/><supplied reason="lost">ius Libo <expan><abbr>P</abbr><ex>ublius</ex></expan> Valerius</supplied> S<supplied reason="lost">ec</supplied>und<supplied reason="lost">us</supplied> <lb n="5"/><supplied reason="lost">iudice</supplied>s dati a <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Pomp</abbr><ex>eio</ex></expan> <lb n="6"/>Silvano <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> pro <expan><abbr>pr</abbr><ex>aetore</ex></expan> <lb n="7"/>inter rem <expan><abbr>p</abbr><ex>ublicam</ex></expan> Asseriatium <lb n="8"/>et rem <expan><abbr>p</abbr><ex>ublicam</ex></expan> Alveritarum in <supplied reason="lost">re</supplied> <lb n="9"/>praesenti <supplied reason="lost">pe</supplied>r <supplied reason="lost">s</supplied>e<supplied reason="lost">nt</supplied>enti<supplied reason="lost">am</supplied> s<supplied reason="lost">uam</supplied> <lb n="10"/><supplied reason="lost">determ</supplied>inaverunt
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Genaue Herkunft des Grenzsteins unbekannt.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

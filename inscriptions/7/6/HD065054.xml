@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD065054</idno>
+                <idno type="TM">178240</idno><idno type="localID">HD065054</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Elefsís, Arch. mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>32</height>
+                                        <width>65</width>
+                                        <depth>32</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">1.3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000078">Achaia</placeName><placeName ref="http://www.trismegistos.org/place/000624">Eleusis</placeName></origPlace>
+                            <origDate notBefore-custom="-0050" notAfter-custom="-0015" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">50 BC – 15 BC
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Elefsís</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Attikí</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-12-12" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IG 02 (2. Aufl.) 04705. 
+                    </bibl>
+                    <bibl>
+                         AE 2006, 1368. 
+                    </bibl>
+                    <bibl>
+                         M.-H. Quet, in: A. Vigourt - X. Loriot - A. Bérenger-Badel - B. Klein (Hrsg.), Pouvoir et religion dans le monde romain (Paris 2006) 63-73. 
+                    </bibl>
+                    <bibl>
+                         K. Clinton, Eleusis, The inscriptions on stone. Documents of the sanctuary of the two goddesses and public documents of the deme 1 (Athens 2005) 290-291, Nr. 287; pl. 138,287. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Κόιντος Πομπήιος Αὔλου υ[ἱὸς] / ἐποίει καὶ ἀνέθηκε / σὺν ἀδελφοῖς Αὔλωι καὶ Σέξτωι / Αἰῶνα / εἰς κράτος Ῥώμης καὶ διαμονὴν / μυστηρίων / Αἰὼν ὁ αὐτὸς ἐν τοῖς αὐτοῖς αἰεὶ / φύσει θείαι μένων κόσμος τε εἷς / κατὰ τὰ αὐτά, ὁποῖος ἔστι καὶ ἦν / καὶ ἔσται ἀρχὴν μεσότητα τέλος / οὐκ ἔχων, μεταβολῆς ἀμέτοχος / θείας φύσεως ἐργάτης αἰωνίου πάντα
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Κόιντος Πομπήιος Αὔλου υ<supplied reason="lost">ἱὸς</supplied> <lb n="2"/>ἐποίει καὶ ἀνέθηκε <lb n="3"/>σὺν ἀδελφοῖς Αὔλωι καὶ Σέξτωι <lb n="4"/>Αἰῶνα <lb n="5"/>εἰς κράτος Ῥώμης καὶ διαμονὴν <lb n="6"/>μυστηρίων <lb n="7"/>Αἰὼν ὁ αὐτὸς ἐν τοῖς αὐτοῖς αἰεὶ <lb n="8"/>φύσει θείαι μένων κόσμος τε εἷς <lb n="9"/>κατὰ τὰ αὐτά, ὁποῖος ἔστι καὶ ἦν <lb n="10"/>καὶ ἔσται ἀρχὴν μεσότητα τέλος <lb n="11"/>οὐκ ἔχων, μεταβολῆς ἀμέτοχος <lb n="12"/>θείας φύσεως ἐργάτης αἰωνίου πάντα
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

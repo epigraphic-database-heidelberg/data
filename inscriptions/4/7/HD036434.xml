@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD036434</idno>
+                <idno type="TM">183890</idno><idno type="localID">HD036434</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Split, Arh. Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width>66</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/015883">Salonae</placeName></origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Splitsko-dalmatinska županija?</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-06-12" who="Cowey">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        ILJug 2350. 
+                    </bibl>
+                    <bibl>
+                         R. Egger, Der altchristliche Friedhof Manastirine nach dem Materiale Fr. 
+                    </bibl>
+                    <bibl>
+                         Bulić', Forschungen in Salona 2 (Wien 1926) 72, Nr. 72; Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [- - - - - -] / [καὶ ναίει νησοὺς ἐν θαλ]ίῃ μακά[ρων - - -] / [- - -]ταμ[-] ου[ραν]οῦ ἀστε [- - -] / [- - -] Μηλε[ίω]ν ὅς παράκοιτ[ιν ἐλεῖ] / [οὐδείς] θνητὸς ἐὼν σὺν ἀθα/νάτοις βασιλεῦσιν οὐδεὶς τὴν / φ<ι=ΕΙ>λίαν#φ<ι>λίαν#φΕΙλίαν θήκατο μέχρι τέλους. / οὗτος σῆμα τόδ' ἐσθλὸν ἑῇ κατέ[θη]/[κε συν]εύνῳ ἀντ' ἐρατῆς μ[νήμης] / [- - -]νοι ἁμ' ἁζόμεν[ο]ς. γὰρ κου[ριδί]/[ην ἄλοχ]ον αυ[- - -] ἐπ' [ὀ]κτώ / [- - -]της κούρην [- - -]χε[ν]
+            --><div type="edition" xml:lang="grc"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost">καὶ ναίει νησοὺς ἐν θαλ</supplied>ίῃ μακά<supplied reason="lost">ρων <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ταμ<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> ου<supplied reason="lost">ραν</supplied>οῦ ἀστε <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> Μηλε<supplied reason="lost">ίω</supplied>ν ὅς παράκοιτ<supplied reason="lost">ιν ἐλεῖ</supplied> <lb n="4"/><supplied reason="lost">οὐδείς</supplied> θνητὸς ἐὼν σὺν ἀθα<lb break="no" n="5"/>νάτοις βασιλεῦσιν οὐδεὶς τὴν <lb n="6"/>φ<supplied reason="omitted">ι=ΕΙ</supplied>λίαν#φ<supplied reason="omitted">ι</supplied>λίαν#φΕΙλίαν θήκατο μέχρι τέλους. <lb n="7"/>οὗτος σῆμα τόδ' ἐσθλὸν ἑῇ κατέ<supplied reason="lost">θη</supplied><lb break="no" n="8"/><supplied reason="lost">κε συν</supplied>εύνῳ ἀντ' ἐρατῆς μ<supplied reason="lost">νήμης</supplied> <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>νοι ἁμ' ἁζόμεν<supplied reason="lost">ο</supplied>ς. γὰρ κου<supplied reason="lost">ριδί</supplied><lb break="no" n="10"/><supplied reason="lost">ην ἄλοχ</supplied>ον αυ<gap reason="lost" extent="unknown" unit="character"/> ἐπ' <supplied reason="lost">ὀ</supplied>κτώ <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/>της κούρην <gap reason="lost" extent="unknown" unit="character"/>χε<supplied reason="lost">ν</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Metrum: elegische Disticha. Am Ende von Z. 4 ἐλεῖ statt ἐλεεῖ metrisch bedingt. Mehrere zusammengehörige Fragmente.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

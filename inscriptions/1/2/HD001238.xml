@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001238</idno>
+                <idno type="TM">247116</idno><idno type="localID">HD001238</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">S. Marco di Agropoli, Antiquarium</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-78.5</height>
+                                        <width>-35</width>
+                                        <depth>5.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.7-2.3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033153">Bruttium et Lucania (Regio III)</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0401-11-05" notAfter-custom="0401-11-05" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">5.11.401 AD – 500 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1976">1976</date>
+                        <placeName ref="http://www.geonames.org/">S. Marco di Agropoli</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Campania</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-01-17" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0223. (C) 
+                    </bibl>
+                    <bibl>
+                         M. Mello, VetChr 19, 1982, 89-93, Nr. 2; Foto. - AE 1982, AE 1984. 
+                    </bibl>
+                    <bibl>
+                         AE 1984, 0264. (A) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Hic r]equiescit / [- - -]rus qui vixit / [an(nos) pl(us)] m(inus) XVIII dep(ositus) est / [die No]narum Nov(embrium) ind(ictione) / [- - - e]t coniuro vos sa/[cerdot?]es per Deum ut / [hanc s]epulturam / [meam] null(us) violet / [- - -]t die Nonar(um) / [- - -]is nona
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Hic r</supplied>equiescit <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>rus qui vixit <lb n="3"/><supplied reason="lost"><expan><abbr>an</abbr><ex>nos</ex></expan> <expan><abbr>pl</abbr><ex>us</ex></expan></supplied> <expan><abbr>m</abbr><ex>inus</ex></expan> XVIII <expan><abbr>dep</abbr><ex>ositus</ex></expan> est <lb n="4"/><supplied reason="lost">die No</supplied>narum <expan><abbr>Nov</abbr><ex>embrium</ex></expan> <expan><abbr>ind</abbr><ex>ictione</ex></expan> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">e</supplied>t coniuro vos sa<lb break="no" n="6"/><supplied reason="lost" cert="low">cerdot</supplied>es per Deum ut <lb n="7"/><supplied reason="lost">hanc s</supplied>epulturam <lb n="8"/><supplied reason="lost">meam</supplied> <expan><abbr>null</abbr><ex>us</ex></expan> violet <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>t die <expan><abbr>Nonar</abbr><ex>um</ex></expan> <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>is nona
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Wiederverwendung der Tafel als Abdeckung eines Grabes. (C): 5. oder eher 6. Jh.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

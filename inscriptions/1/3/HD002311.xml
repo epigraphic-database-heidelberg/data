@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Block</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002311</idno>
+                <idno type="TM">203304</idno><idno type="localID">HD002311</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Cherchell, Musée</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>98</height>
+                                        <width>56</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.5-5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Mauretania Caesariensis</placeName><placeName ref="http://www.trismegistos.org/place/003116">Caesarea</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1905">1905</date>
+                        <placeName ref="http://www.geonames.org/2501440">Cherchell</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Tipaza</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2007-05-16" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1984, 0941. 
+                    </bibl>
+                    <bibl>
+                         I.I. Russu, ActaMusPorol 8, 1984, 159-164; fig. 1a; fig. 1b (Zeichnung) - AE 1984. 
+                    </bibl>
+                    <bibl>
+                         AE 1905, 0110. (B) 
+                    </bibl>
+                    <bibl>
+                         V. Waille, Nouvelles explorations à Cherchel (Alger 1905) - AE 1905 (unzugänglich). 
+                    </bibl>
+                    <bibl>
+                         AE 1989, 0905. 
+                    </bibl>
+                    <bibl>
+                         AE 1997, 1743. 
+                    </bibl>
+                    <bibl>
+                         AE 1998, 1593. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Sex(to) Cornelio / Eucaeriano / municipium / Hadrianum / Drobetense / ex Dacia
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Sex</abbr><ex>to</ex></expan> Cornelio <lb n="2"/>Eucaeriano <lb n="3"/>municipium <lb n="4"/>Hadrianum <lb n="5"/>Drobetense <lb n="6"/>ex Dacia
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Geehrter vermutlich Verwandter (Sohn?) von Sex. Cornelius Clemens, Statthalter von Dakien 170/71, s. PIR, 2. Aufl., C 1353. (B): Eindeutig Z. 2 Anfang E.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

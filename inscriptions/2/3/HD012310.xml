@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD012310</idno>
+                <idno type="TM">190871</idno><idno type="localID">HD012310</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>48</height>
+                                        <width>65.5</width>
+                                        <depth>35</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6-3.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName>Odessus</placeName></origPlace>
+                            <origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 400 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/726050">Varna</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Varna</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-10-05" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/21628">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1969/70, 0575. (B) 
+                    </bibl>
+                    <bibl>
+                         V. Beševliev, BSAVarna 14, 1963, 62-63, Nr. 14; obr.12. - AE 1969/70. 
+                    </bibl>
+                    <bibl>
+                         V. Beševliev, Spätgriechische und spätlateinische Inschriften aus Bulgarien (Berlin 1964) 90-92, Nr. 130; Taf. 47, 129. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) / Fl(avius) Victorinus ve/t(e)ranus vixit annus(!) L mili(tavit) / an(nos) XXV in vixillatione(!) secon/do(!) Iscutariorom(!) et pusuvit(!) (h)un(c)(!) R/ebicithrioen(!) cuniugen(!) sua Antioc(h)i/an(!) gui(!) ficit(!) memuria(m)(!) titulum in eo(!)/ vonas(!) vias viatur(!) geras
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Fl</abbr><ex>avius</ex></expan> Victorinus ve<lb break="no" n="3"/>t<expan><ex>e</ex><abbr>ranus</abbr></expan> vixit annus <note>sic</note> L <expan><abbr>mili</abbr><ex>tavit</ex></expan> <lb n="4"/><expan><abbr>an</abbr><ex>nos</ex></expan> XXV in vixillatione <note>sic</note> secon<lb break="no" n="5"/>do <note>sic</note> Iscutariorom <note>sic</note> et pusuvit <note>sic</note> <expan><ex>h</ex><abbr>un</abbr><ex>c</ex></expan> <note>sic</note> R<lb break="no" n="6"/>ebicithrioen <note>sic</note> cuniugen <note>sic</note> sua Antioc<expan><ex>h</ex><abbr>i</abbr></expan><lb break="no" n="7"/>an <note>sic</note> gui <note>sic</note> ficit <note>sic</note> <expan><abbr>memuria</abbr><ex>m</ex></expan> <note>sic</note> titulum in eo <note>sic</note> <lb n="8"/>vonas <note>sic</note> vias viatur <note>sic</note> geras
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> In 3 Teile gebrochen. Z. 3/4: Buchstaben MILI / AN stehen auf dem Rahmen; Z. 8 steht auf dem Rahmen. (B): AE 1969/70: Leseabweichungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

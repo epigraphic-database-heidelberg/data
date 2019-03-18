@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD060725</idno>
+                <idno type="TM">212385</idno><idno type="localID">HD060725</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Wiesbaden, Städt. Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Aquae Mattiacorum (Castelllllum Mattiacorum)</placeName></origPlace>
+                            <origDate notBefore-custom="0116-09-08" notAfter-custom="0116-09-08" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">8.9.116 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1855">1855</date>
+                        <placeName ref="http://www.geonames.org/2809346">Wiesbaden</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hessen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-01-09" who="Esch">
+             überprüft per Autopsie
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 07573. 
+                    </bibl>
+                    <bibl>
+                         CIL 16, 00062. 
+                    </bibl>
+                    <bibl>
+                         H. Schoppa, Die römische Kaiserzeit (Wiesbaden 1963) 7. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) Caesar divi Nervae f(ilius) Nerva Traianus Optim(us) / Aug(ustus) Germ(anicus) Dacic(us) Parthic(us) pontif(ex) max(imus) trib(unicia) po/testat(e) XX imp(erator) XIII proco(n)s(ul) co(n)s(ul) VI p(ater) p(atriae) / equitibus et peditibus qui militaverunt / in alis duabus et coh(ortibus) decem et septem / quae ap(p)ellantur I Flav(ia) gemina et I Scubul(orum) / et I Germanor(um) c(ivium) R(omanorum) et I Flav(ia) Damasce[nor(um) |(milliaria)] / et I Ligur(um) et Hispanor(um) c(ivium) R(omanorum) et I c(ivium) [Romanor(um) et I As]/tu[r(um) et I Aquita]nor(um) veterana et [I Biturigum] / [et I Thracum c(ivium) R(omanorum) et II A]ug(usta) Cyr[enaica et II Hispanor(um) p(ia) f(idelis) et II Raetor(um) c(ivium) R(omanorum) et III Aquitanorum et III Delmatar(um) p(ia) f(idelis) et IIII Aquitanor(um) et IIII Vindelicor(um) et V Delmatar(um) et VII Raetor(um) quae sunt in Germania superiore sub Kano - - - quinis et vicenis stipendi(i)s emeritis dimissis honesta missione quorum nomina subscripta sunt ipsis liberis posterisque eorum civitatem dedit et conubium cum uxoribus quas tunc habuissent cum est civitas iis data aut si qui caelibes essent cum iis quas postea duxissent dumtaxat singuli singulas a(nte) d(iem) VI Idus Sept(embres) Cn(aeo) Minicio Faustino - - - co(n)s(ulibus) coh(ortis) II Raetorum c(ivium) R(omanorum) cui prae(e)st C(aius) Licinius C- - - Cn(aeo) Cornelio - - - et Pra- - - descriptum et recognitum ex tabula aenea quae fixa est Romae in muro post templum divi Aug(usti) ad Minervam] // Imp(erator) Caesar divi Nerv[ae f(ilius) Nerva Traianus] / Optimus Augustus Ge[rm(anicus) Dacic(us) Par]/thicus pontifex m[ax(imus) trib(unicia) potestat(e)] / XX imp(erator) XIII pr[oco(n)s(ul) co(n)s(ul) VI p(ater) p(atriae)] / equitibus et peditibu[s qui militaverunt in alis] / duabus et cohortibus [decem et septem quae appel]/lantur I Flavia gemi[na et I Scubul(orum) et I Germa]/nor(um) c(ivium) R(omanorum) et I Flavia Da[mascenor(um) |(milliaria) et I Ligur(um) et] / Hispanor(um) c(ivium) R(omanorum) et I civiu[m Romanor(um) et I Astur(um)] / et I Aquitanor(um) vetera[na et I Biturigum et I] / Thracum c(ivium) R(omanorum) et II Aug(usta) [Cyrenaica et II Hispa]/nor(um) p(ia) f(idelis) et II Raetor(um) c(ivium) R(omanorum) [et III Aquitanorum et III] / Delmatar(um) p(ia) f(idelis) et IIII Aqui[tanor(um) et IIII Vindelicor(um)] / et V Delmatar(um) et VII Ra[etor(um) quae sunt in Germa]/nia superiore sub Kan[o - - - quinis et] / vicenis stipendi(i)s emer[itis dimissis honesta] / missione quorum nomi[na subscripta sunt ip]/sis liberis posterisque e[orum civitatem de]/dit et conubium cum ux[oribus quas tunc] / habuissent cum e[st civitas iis data aut si] / qui caelibes essent cu[m iis quas postea du]/xissent dumtaxat sin[guli singulas] / a(nte) d(iem) VI Idus Sep[t(embres)] / Cn(aeo) Minicio Fau[stino - - - co(n)s(ulibus)] / coh(ortis) II Raetoru[m c(ivium) R(omanorum) cui prae(e)st] / C(aius) Licinius C[- - -] / Cn(aeo) Cornelio [- - -] / et Pra[- - -] / descriptum e[t recognitum ex tabula aenea quae fi]/xa es[t Romae in muro post templum divi Aug(usti) ad Minervam]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Nervae <expan><abbr>f</abbr><ex>ilius</ex></expan> Nerva Traianus <expan><abbr>Optim</abbr><ex>us</ex></expan> <lb n="2"/><expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>Germ</abbr><ex>anicus</ex></expan> <expan><abbr>Dacic</abbr><ex>us</ex></expan> <expan><abbr>Parthic</abbr><ex>us</ex></expan> <expan><abbr>pontif</abbr><ex>ex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> po<lb break="no" n="3"/><expan><abbr>testat</abbr><ex>e</ex></expan> XX <expan><abbr>imp</abbr><ex>erator</ex></expan> XIII proco<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> VI <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="4"/>equitibus et peditibus qui militaverunt <lb n="5"/>in alis duabus et <expan><abbr>coh</abbr><ex>ortibus</ex></expan> decem et septem <lb n="6"/>quae ap<expan><ex>p</ex><abbr>ellantur</abbr></expan> I <expan><abbr>Flav</abbr><ex>ia</ex></expan> gemina et I <expan><abbr>Scubul</abbr><ex>orum</ex></expan> <lb n="7"/>et I <expan><abbr>Germanor</abbr><ex>um</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I <expan><abbr>Flav</abbr><ex>ia</ex></expan> Damasce<supplied reason="lost"><expan><abbr>nor</abbr><ex>um</ex></expan> |(milliaria)</supplied> <lb n="8"/>et I <expan><abbr>Ligur</abbr><ex>um</ex></expan> et <expan><abbr>Hispanor</abbr><ex>um</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I <expan><abbr>c</abbr><ex>ivium</ex></expan> <supplied reason="lost"><expan><abbr>Romanor</abbr><ex>um</ex></expan> et I As</supplied><lb break="no" n="9"/>tu<supplied reason="lost"><expan><abbr>r</abbr><ex>um</ex></expan> et I Aquita</supplied><expan><abbr>nor</abbr><ex>um</ex></expan> veterana et <supplied reason="lost">I Biturigum</supplied> <lb n="10"/><supplied reason="lost">et I Thracum <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et II A</supplied><expan><abbr>ug</abbr><ex>usta</ex></expan> Cyr<supplied reason="lost">enaica et II <expan><abbr>Hispanor</abbr><ex>um</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> et II <expan><abbr>Raetor</abbr><ex>um</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et III Aquitanorum et III <expan><abbr>Delmatar</abbr><ex>um</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> et IIII <expan><abbr>Aquitanor</abbr><ex>um</ex></expan> et IIII <expan><abbr>Vindelicor</abbr><ex>um</ex></expan> et V <expan><abbr>Delmatar</abbr><ex>um</ex></expan> et VII <expan><abbr>Raetor</abbr><ex>um</ex></expan> quae sunt in Germania superiore sub Kano <gap reason="lost" extent="unknown" unit="character"/> quinis et vicenis <expan><abbr>stipendi</abbr><ex>i</ex>s</expan> emeritis dimissis honesta missione quorum nomina subscripta sunt ipsis liberis posterisque eorum civitatem dedit et conubium cum uxoribus quas tunc habuissent cum est civitas iis data aut si qui caelibes essent cum iis quas postea duxissent dumtaxat singuli singulas <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> VI Idus <expan><abbr>Sept</abbr><ex>embres</ex></expan> <expan><abbr>Cn</abbr><ex>aeo</ex></expan> Minicio Faustino <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> II Raetorum <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> cui <expan><abbr>prae</abbr><ex>e</ex>st</expan> <expan><abbr>C</abbr><ex>aius</ex></expan> Licinius C<gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Cn</abbr><ex>aeo</ex></expan> Cornelio <gap reason="lost" extent="unknown" unit="character"/> et Pra<gap reason="lost" extent="unknown" unit="character"/> descriptum et recognitum ex tabula aenea quae fixa est Romae in muro post templum divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad Minervam</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Nerv<supplied reason="lost">ae <expan><abbr>f</abbr><ex>ilius</ex></expan> Nerva Traianus</supplied> <lb n="2"/>Optimus Augustus Ge<supplied reason="lost"><expan><abbr>rm</abbr><ex>anicus</ex></expan> <expan><abbr>Dacic</abbr><ex>us</ex></expan> Par</supplied><lb break="no" n="3"/>thicus pontifex m<supplied reason="lost"><expan><abbr>ax</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potestat</abbr><ex>e</ex></expan></supplied> <lb n="4"/>XX <expan><abbr>imp</abbr><ex>erator</ex></expan> XIII pr<supplied reason="lost"><expan><abbr>oco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> VI <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="5"/>equitibus et peditibu<supplied reason="lost">s qui militaverunt in alis</supplied> <lb n="6"/>duabus et cohortibus <supplied reason="lost">decem et septem quae appel</supplied><lb break="no" n="7"/>lantur I Flavia gemi<supplied reason="lost">na et I <expan><abbr>Scubul</abbr><ex>orum</ex></expan> et I Germa</supplied><lb break="no" n="8"/><expan><abbr>nor</abbr><ex>um</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I Flavia Da<supplied reason="lost"><expan><abbr>mascenor</abbr><ex>um</ex></expan> |(milliaria) et I <expan><abbr>Ligur</abbr><ex>um</ex></expan> et</supplied> <lb n="9"/><expan><abbr>Hispanor</abbr><ex>um</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I civiu<supplied reason="lost">m <expan><abbr>Romanor</abbr><ex>um</ex></expan> et I <expan><abbr>Astur</abbr><ex>um</ex></expan></supplied> <lb n="10"/>et I <expan><abbr>Aquitanor</abbr><ex>um</ex></expan> vetera<supplied reason="lost">na et I Biturigum et I</supplied> <lb n="11"/>Thracum <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et II <expan><abbr>Aug</abbr><ex>usta</ex></expan> <supplied reason="lost">Cyrenaica et II Hispa</supplied><lb break="no" n="12"/><expan><abbr>nor</abbr><ex>um</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> et II <expan><abbr>Raetor</abbr><ex>um</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <supplied reason="lost">et III Aquitanorum et III</supplied> <lb n="13"/><expan><abbr>Delmatar</abbr><ex>um</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> et IIII Aqui<supplied reason="lost"><expan><abbr>tanor</abbr><ex>um</ex></expan> et IIII <expan><abbr>Vindelicor</abbr><ex>um</ex></expan></supplied> <lb n="14"/>et V <expan><abbr>Delmatar</abbr><ex>um</ex></expan> et VII Ra<supplied reason="lost"><expan><abbr>etor</abbr><ex>um</ex></expan> quae sunt in Germa</supplied><lb break="no" n="15"/>nia superiore sub Kan<supplied reason="lost">o <gap reason="lost" extent="unknown" unit="character"/> quinis et</supplied> <lb n="16"/>vicenis stipendi<expan><ex>i</ex><abbr>s</abbr></expan> emer<supplied reason="lost">itis dimissis honesta</supplied> <lb n="17"/>missione quorum nomi<supplied reason="lost">na subscripta sunt ip</supplied><lb break="no" n="18"/>sis liberis posterisque e<supplied reason="lost">orum civitatem de</supplied><lb break="no" n="19"/>dit et conubium cum ux<supplied reason="lost">oribus quas tunc</supplied> <lb n="20"/>habuissent cum e<supplied reason="lost">st civitas iis data aut si</supplied> <lb n="21"/>qui caelibes essent cu<supplied reason="lost">m iis quas postea du</supplied><lb break="no" n="22"/>xissent dumtaxat sin<supplied reason="lost">guli singulas</supplied> <lb n="23"/><expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> VI Idus Sep<supplied reason="lost"><expan><abbr>t</abbr><ex>embres</ex></expan></supplied> <lb n="24"/><expan><abbr>Cn</abbr><ex>aeo</ex></expan> Minicio Fau<supplied reason="lost">stino <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="25"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> II Raetoru<supplied reason="lost">m <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> cui <expan><abbr>prae</abbr><ex>e</ex>st</expan></supplied> <lb n="26"/><expan><abbr>C</abbr><ex>aius</ex></expan> Licinius C<gap reason="lost" extent="unknown" unit="character"/> <lb n="27"/><expan><abbr>Cn</abbr><ex>aeo</ex></expan> Cornelio <gap reason="lost" extent="unknown" unit="character"/> <lb n="28"/>et Pra<gap reason="lost" extent="unknown" unit="character"/> <lb n="29"/>descriptum e<supplied reason="lost">t recognitum ex tabula aenea quae fi</supplied><lb break="no" n="30"/>xa es<supplied reason="lost">t Romae in muro post templum divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad Minervam</supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Zwei Fragmente eines Militärdiploms. Lesung: tab. I int. - tab. I ext. Autopsie R. Wiegels.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

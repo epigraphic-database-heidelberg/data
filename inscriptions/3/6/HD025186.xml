@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD025186</idno>
+                <idno type="TM">191231</idno><idno type="localID">HD025186</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-114</height>
+                                        <width>-47</width>
+                                        <depth>-40</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.5-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName ref="http://www.trismegistos.org/place/030024">Ulmetum</placeName></origPlace>
+                            <origDate notBefore-custom="0191-06-05" notAfter-custom="0191-06-05" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">5.6.191 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1914">1914</date>
+                        <placeName ref="http://www.geonames.org/671381">Pantelimon</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Constanța</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-01-18" who="Feraudi">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1922, 0070. 
+                    </bibl>
+                    <bibl>
+                         IScM 5, 067; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         V. Pârvan, AA 1915, 241-242, Nr. 15. - AE 1922. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) O 109. 
+                    </bibl>
+                    <bibl>
+                         PIR V 31. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                I(ovi) O(ptimo) M(aximo) / et Sancto Sil/vano [p]ro salu/te Inperatoris(!) / et salute con/sacranorum / Fla(vius) Augustales(!) / de suo posuit a/ra(m) et tab(u)la(m) memor/ia sua Aproniano et / Bradu(a) co(n)s(ulibus) die No/narum Iuniaro(m)(!)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>et Sancto Sil<lb break="no" n="3"/>vano <supplied reason="lost">p</supplied>ro salu<lb break="no" n="4"/>te Inperatoris <note>sic</note> <lb n="5"/>et salute con<lb break="no" n="6"/>sacranorum <lb n="7"/><expan><abbr>Fla</abbr><ex>vius</ex></expan> Augustales <note>sic</note> <lb n="8"/>de suo posuit a<lb break="no" n="9"/><expan><abbr>ra</abbr><ex>m</ex></expan> et tab<expan><ex>u</ex><abbr>la</abbr><ex>m</ex></expan> memor<lb break="no" n="10"/>ia sua Aproniano et <lb n="11"/><expan><abbr>Bradu</abbr><ex>a</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> die No<lb break="no" n="12"/>narum <expan><abbr>Iuniaro</abbr><ex>m</ex></expan> <note>sic</note>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

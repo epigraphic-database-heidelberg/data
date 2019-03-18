@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Besitzer-/Herstellerinschrift auf Instrumentum domesticum</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD078636</idno>
+                <idno type="TM"/><idno type="localID">HD078636</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/140">Instrumentum domesticum</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/025367">Vesontio</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1752">1752</date>
+                        <placeName ref="http://www.geonames.org/3033123">Besançon</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Bourgogne-Franche-Comté</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/311">Besitzer-/Herstellerinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-01-30" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 10021, 166. 
+                    </bibl>
+                    <bibl>
+                         É. Espérandieu, Signacula medicorum oculariorum (Parisiis 1905) 103-104, Nr. 166. 
+                    </bibl>
+                    <bibl>
+                         (o. Autor), in: L. Joan u. a., Le Doubs et le territoire de Belfort, Carte archéologique de la Gaule 25 u. 90 (Paris 2003) 249. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                L(uci) Sacci Menandr(i) chelidoni(u)m ad ca(liginem) // L(uci) Sacci Menandr(i) melinum delacr(imatorium) // L(uci) Sacci Menandri thalasseros delac(rimatorium) // L(uci) Sacci Menan(dri) dia<ps=SP>horic(um)(!)#dia<ps>horic(um)(!)#DIASPHORIC ad sc(abritias)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>uci</ex></expan> Sacci <expan><abbr>Menandr</abbr><ex>i</ex></expan> chelidoni<expan><ex>u</ex><abbr>m</abbr></expan> ad <expan><abbr>ca</abbr><ex>liginem</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>uci</ex></expan> Sacci <expan><abbr>Menandr</abbr><ex>i</ex></expan> melinum <expan><abbr>delacr</abbr><ex>imatorium</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>uci</ex></expan> Sacci Menandri thalasseros <expan><abbr>delac</abbr><ex>rimatorium</ex></expan> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>uci</ex></expan> Sacci <expan><abbr>Menan</abbr><ex>dri</ex></expan> dia<supplied reason="omitted">ps=SP</supplied><expan><abbr>horic</abbr><ex>um</ex></expan> <note>sic</note>#dia<supplied reason="omitted">ps</supplied><expan><abbr>horic</abbr><ex>um</ex></expan> <note>sic</note>#DIASPHORIC ad <expan><abbr>sc</abbr><ex>abritias</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Augenarztstempel. (B):(o. Autor), in: Joan u. a., Le Doubs: Z. 3: Menandri; delacr(imatorium); Z. 4: Menandr(i).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

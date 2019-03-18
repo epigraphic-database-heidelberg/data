@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD055916</idno>
+                <idno type="TM">217821</idno><idno type="localID">HD055916</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Targovichte, Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-8.5</height>
+                                        <width>-7.4</width>
+                                        <depth>0.2</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">unbekannt</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0160-02-07" notAfter-custom="0160-02-07" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">7.2.160 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries//">unbekannt</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-04-02" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1992, 1507. 
+                    </bibl>
+                    <bibl>
+                         RMD 172. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) Caes(ar) divi Hadr[iani filius divi Traiani] / Parthici nepos div[i Nervae pronepos] / T(itus) Aelius Hadrianus A[ntoninus Aug(ustus) Pius] / pont(ifex) max(imus) trib(unicia) pot(estate) XXI[II co(n)s(ul) IV imp(erator) II p(ater) p(atriae)] / iis qui militaverunt [in classe praet(oria)] / Misenensi quae est su[b Iulio Cresce]/n(t)e praef(ecto) sex et vigin[ti stipendi(i)s emeri]/tis dimissis honesta [missione quorum] / nomina subscript[a sunt ipsis fili(i)sque] / [eo]rum quos susce[perint & // Imp(erator) Caes(ar) divi Ha[driani filius divi Traiani Parthici] / nepos divi Ner[vae pronepos T(itus) Aelius Hadrianus] / Antoninus Au[g(ustus) Pius pont(ifex) max(imus) trib(unicia)] / pot(estate) XXIII [cons(ul) IV imp(erator) II p(ater) p(atriae)] / i(i)s q(u)i mili<t=I>averun[t#mili<t>averun[t#MILIIAVERUN in classe praet(oria) Misenensi] / quae est sub Iu[lio Crescente praef(ecto) sex et viginti stipen]/di(i)s emeritis dim[issis honesta missione quorum] / nomina subscr[ipta sunt ipsis fili(i)sque eorum quos] / susceperin[t ex mulieribus quas secum concessa] / [consuet]u[dine probaverint &
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi Hadr<supplied reason="lost">iani filius divi Traiani</supplied> <lb n="2"/>Parthici nepos div<supplied reason="lost">i Nervae pronepos</supplied> <lb n="3"/><expan><abbr>T</abbr><ex>itus</ex></expan> Aelius Hadrianus A<supplied reason="lost">ntoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Pius</supplied> <lb n="4"/><expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XXI<supplied reason="lost">II <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IV <expan><abbr>imp</abbr><ex>erator</ex></expan> II <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="5"/>iis qui militaverunt <supplied reason="lost">in classe <expan><abbr>praet</abbr><ex>oria</ex></expan></supplied> <lb n="6"/>Misenensi quae est su<supplied reason="lost">b Iulio Cresce</supplied><lb break="no" n="7"/>n<expan><ex>t</ex><abbr>e</abbr></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan> sex et vigin<supplied reason="lost">ti <expan><abbr>stipendi</abbr><ex>i</ex>s</expan> emeri</supplied><lb break="no" n="8"/>tis dimissis honesta <supplied reason="lost">missione quorum</supplied> <lb n="9"/>nomina subscript<supplied reason="lost">a sunt ipsis <expan><abbr>fili</abbr><ex>i</ex>sque</expan></supplied> <lb n="10"/><supplied reason="lost">eo</supplied>rum quos susce<supplied reason="lost">perint</supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi Ha<supplied reason="lost">driani filius divi Traiani Parthici</supplied> <lb n="2"/>nepos divi Ner<supplied reason="lost">vae pronepos <expan><abbr>T</abbr><ex>itus</ex></expan> Aelius Hadrianus</supplied> <lb n="3"/>Antoninus Au<supplied reason="lost"><expan><abbr>g</abbr><ex>ustus</ex></expan> Pius <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan></supplied> <lb n="4"/><expan><abbr>pot</abbr><ex>estate</ex></expan> XXIII <supplied reason="lost"><expan><abbr>cons</abbr><ex>ul</ex></expan> IV <expan><abbr>imp</abbr><ex>erator</ex></expan> II <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="5"/>i<expan><ex>i</ex><abbr>s</abbr></expan> q<expan><ex>u</ex><abbr>i</abbr></expan> mili<choice><corr>t</corr><sic>I</sic></choice>averun[t#mili<supplied reason="omitted">t</supplied>averun<supplied reason="lost">t#MILIIAVERUN in classe <expan><abbr>praet</abbr><ex>oria</ex></expan> Misenensi</supplied> <lb n="6"/>quae est sub Iu<supplied reason="lost">lio Crescente <expan><abbr>praef</abbr><ex>ecto</ex></expan> sex et viginti stipen</supplied><lb break="no" n="7"/>di<expan><ex>i</ex><abbr>s</abbr></expan> emeritis dim<supplied reason="lost">issis honesta missione quorum</supplied> <lb n="8"/>nomina subscr<supplied reason="lost">ipta sunt ipsis <expan><abbr>fili</abbr><ex>i</ex>sque</expan> eorum quos</supplied> <lb n="9"/>susceperin<supplied reason="lost">t ex mulieribus quas secum concessa</supplied> <lb n="10"/><supplied reason="lost">consuet</supplied>u[dine probaverint &amp;
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

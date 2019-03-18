@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD033304</idno>
+                <idno type="TM">204178</idno><idno type="localID">HD033304</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-60</height>
+                                        <width>34</width>
+                                        <depth>34</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.5-2.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Mauretania Caesariensis</placeName><placeName ref="http://www.trismegistos.org/place/020424">Sitifis</placeName></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0204" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 204 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2481700">Sétif</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Sétif</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2010-10-14" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 208, Nr. 24n. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) A 231. 
+                    </bibl>
+                    <bibl>
+                         H.-G. Pflaum, Les carrières procuratoriennes équestres sous le Haut-Empire romain (Paris 1960/61) 621-625, Nr. 233. 
+                    </bibl>
+                    <bibl>
+                         AE 1993, 1777. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $?] / pro salute / Auggg[[g(ustorum)]] do/minor(um) nn[[n(ostrorum)]] / Impp(eratorum) Severi / et Antoni/ni et [[Getae]] / [[nobilissi]]/[[mi Caesaris]] / et P(ubli) Aeli Peregrini{ni} prae/sidis n(ostri) Messius Priscus / be(ne)f(iciarius) ex voto aram / restituit
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="2"/>pro salute <lb n="3"/>Auggg<del rend="erasure"><expan><abbr>g</abbr><ex>ustorum</ex></expan></del> do<lb break="no" n="4"/><expan><abbr>minor</abbr><ex>um</ex></expan> nn<del rend="erasure"><expan><abbr>n</abbr><ex>ostrorum</ex></expan></del> <lb n="5"/><expan><abbr>Impp</abbr><ex>eratorum</ex></expan> Severi <lb n="6"/>et Antoni<lb break="no" n="7"/>ni et <del rend="erasure">Getae</del> <lb n="8"/><del rend="erasure">nobilissi</del><lb break="no" n="9"/><del rend="erasure">mi Caesaris</del> <lb n="10"/>et <expan><abbr>P</abbr><ex>ubli</ex></expan> Aeli Peregrini<surplus>ni</surplus> prae<lb break="no" n="11"/>sidis <expan><abbr>n</abbr><ex>ostri</ex></expan> Messius Priscus <lb n="12"/>be<expan><ex>ne</ex><abbr>f</abbr><ex>iciarius</ex></expan> ex voto aram <lb n="13"/>restituit
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Datierung: um 201-203/204 n. Chr., als P. Aelius Peregrinus Prokurator der Mauretania Caesariensis war.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

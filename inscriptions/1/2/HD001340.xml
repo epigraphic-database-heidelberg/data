@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001340</idno>
+                <idno type="TM">192508</idno><idno type="localID">HD001340</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-64</height>
+                                        <width>-59</width>
+                                        <depth>-54</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029481">Moesia superior</placeName><placeName ref="http://www.trismegistos.org/place/026916">Mediana</placeName></origPlace>
+                            <origDate notBefore-custom="0316" notAfter-custom="0363" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">316 AD – 363 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1981">1981</date>
+                        <placeName ref="http://www.geonames.org/792214">Niš, Medijana</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Centralna Srbija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/rs/">Serbien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-10-05" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0842. 
+                    </bibl>
+                    <bibl>
+                         AE 1997, 1307. 
+                    </bibl>
+                    <bibl>
+                         M. Mirković, in: G. Wirth - K.-H. Schwarte - J. Heinrichs (Hrsg.), Romanitas - Christianitas. Untersuchungen zur Geschichte und Literatur der römischen Kaiserzeit (Berlin - New York 1982) 360-366. - AE 1982. 
+                    </bibl>
+                    <bibl>
+                         P. Petrović, Medijana. Rezidencija rimskich careva. (Mediana. Residence of Roman emperors) (Beograd 1994) 41-46. 91-96; sl. 32; fig. 32. - AE 1997. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                I(ovi) O(ptimo) M(aximo) / Co(ho)rtali / Aurel(ius) Ampelius trib(unus) Bat(avorum) / cum filio s[u]o [Ampel]iano / ob dedicatio[nem] domus / et salutem suam [su]orum/que omnium votum po/suerunt
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>Co<expan><ex>ho</ex><abbr>rtali</abbr></expan> <lb n="3"/><expan><abbr>Aurel</abbr><ex>ius</ex></expan> Ampelius <expan><abbr>trib</abbr><ex>unus</ex></expan> <expan><abbr>Bat</abbr><ex>avorum</ex></expan> <lb n="4"/>cum filio s<supplied reason="lost">u</supplied>o <supplied reason="lost">Ampel</supplied>iano <lb n="5"/>ob dedicatio<supplied reason="lost">nem</supplied> domus <lb n="6"/>et salutem suam <supplied reason="lost">su</supplied>orum<lb break="no" n="7"/>que omnium votum po<lb break="no" n="8"/>suerunt
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 4: möglicherweise ein abgekürztes praenomen und Lici[ni]o; Z. 4 (Ende): statt R auch L möglich. Datierung: Nach Mirković sind zwei Datierungen wahrscheinlich: a) 316-321 weilte Konstantin in Illyricum; möglicherweise zählte die cohors Batavorum zu den mit ihm ziehenden Truppen; b) Batavii begleiteten Iulian nach Illyricum und wurden von ihm in Sirmium zurückgelassen. - Nach Iulians Tod Weihung eines Tribunen an heidnische Gottheit unwahrscheinlich.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

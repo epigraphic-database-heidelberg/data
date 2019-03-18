@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Architekturteil</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD056809</idno>
+                <idno type="TM">229677</idno><idno type="localID">HD056809</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Barcelona, Mus. d'Arq. Catalunya</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/35">Architekturteil</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>50</height>
+                                        <width>184</width>
+                                        <depth>21.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6.8-4.9</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016933">Hispania citerior</placeName><placeName ref="http://www.trismegistos.org/place/026261">Barcino</placeName></origPlace>
+                            <origDate notBefore-custom="-0030" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC – 14 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1787">1787</date>
+                        <placeName ref="http://www.geonames.org/3128760">Barcelona</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Cataluña</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-10-02" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 02, 04530. 
+                    </bibl>
+                    <bibl>
+                         IRC 4, 072; pl. 42, 72. 
+                    </bibl>
+                    <bibl>
+                         S. Mariner Bigorra, Inscripciones romanas de Barcelona (Barcelona 1973) 76, Nr. 65. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Q(uinto) Salvio L(uci) [f(ilio)] Galeria aedili / duoi(!) vir[o] et duoi(!) viro quinq/uennal[i] [he]redes ex / testamento
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uinto</ex></expan> Salvio <expan><abbr>L</abbr><ex>uci</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> Galeria aedili <lb n="2"/>duoi <note>sic</note> vir<supplied reason="lost">o</supplied> et duoi <note>sic</note> viro quinq<lb break="no" n="3"/>uennal<supplied reason="lost">i</supplied> <supplied reason="lost">he</supplied>redes ex <lb n="4"/>testamento
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Türsturz.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

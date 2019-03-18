@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meilen-/Leugenstein</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059950</idno>
+                <idno type="TM">176752</idno><idno type="localID">HD059950</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugenstein</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000075">Cilicia</placeName><placeName ref="http://www.trismegistos.org/place/016163">Olba</placeName></origPlace>
+                            <origDate notBefore-custom="0197" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">197 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Uzuncaburç, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Mersin</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/tr/">Türkei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2010-02-25" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 12120. (B) 
+                    </bibl>
+                    <bibl>
+                         S. Hagel - K. Tomaschitz, Repertorium der westkilikischen Inschriften, ETAM 22 (Wien 1998) 340, Nr. OlD 88. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) Caes(ar) / L(ucius) [Se]ptimius / S[e]verus Pius / Pertinax Aug(ustus) / Arab(icus) Adiab(enicus) p(ontifex) [m(aximus)] / trib(unicia) pot(estate) V imp(erator) [VIII] / co(n)s(ul) II [p]roc(onsul) p(ater) p(atriae) et / [M(arcus) A]urelius [An]/[ton]inus Caesar / [I]mp(erator) desig(natus) / m(ilia) p(assuum) V
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <lb n="2"/><expan><abbr>L</abbr><ex>ucius</ex></expan> <supplied reason="lost">Se</supplied>ptimius <lb n="3"/>S<supplied reason="lost">e</supplied>verus Pius <lb n="4"/>Pertinax <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <lb n="5"/><expan><abbr>Arab</abbr><ex>icus</ex></expan> <expan><abbr>Adiab</abbr><ex>enicus</ex></expan> <expan><abbr>p</abbr><ex>ontifex</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>aximus</ex></expan></supplied> <lb n="6"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> V <expan><abbr>imp</abbr><ex>erator</ex></expan> <supplied reason="lost">VIII</supplied> <lb n="7"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> II <expan><abbr><supplied reason="lost">p</supplied>roc</abbr><ex>onsul</ex></expan> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> et <lb n="8"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arcus</ex></expan> A</supplied>urelius <supplied reason="lost">An</supplied><lb break="no" n="9"/><supplied reason="lost">ton</supplied>inus Caesar <lb n="10"/><expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>erator</ex></expan> <expan><abbr>desig</abbr><ex>natus</ex></expan> <lb n="11"/><expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> V
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): CIL III, 12120: Z. 2: [L. Se]ptimius; Z. 8: A]ureliu[s.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

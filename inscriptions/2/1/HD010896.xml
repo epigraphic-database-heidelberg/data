@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD010896</idno>
+                <idno type="TM">244222</idno><idno type="localID">HD010896</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>50.5</height>
+                                        <width>30.5</width>
+                                        <depth>3.8</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">1.7-2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Aemilia (Regio VIII)</placeName><placeName ref="http://www.trismegistos.org/place/014365">Ariminum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0351" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">351 AD – 400 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">S. Mauro Pascoli</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="1998-06-17" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1974, 0332. (B) 
+                    </bibl>
+                    <bibl>
+                         A. Donati, Epigraphica 36, 1974, 234-239; Foto. - AE 1974. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Initium generis / (h)umani Sentius Co/nstant(i)us iuxta / meri[t]u(m) <l=I>aboris#<l>aboris#IABORIS / sui [- - -]inia / <f=E>ecerun[t]#<f>ecerun[t]#EECERUN <s=C>e#<s>e#CE vivi / et numinav(e)r/un[t](!) se vixxe(!) ann/us(!) nunacinus(!) si qu/is vo[l]uer[it] violar/e locu[m nostr]um det <i=V>/<v=I>re#<i>/<v>re#VIRE in <f=E>isco#<f>isco#EISCO auri libra(m) una(m)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Initium generis <lb n="2"/><expan><ex>h</ex><abbr>umani</abbr></expan> Sentius Co<lb break="no" n="3"/>nstant<expan><ex>i</ex><abbr>us</abbr></expan> iuxta <lb n="4"/><expan><abbr>meri<supplied reason="lost">t</supplied>u</abbr><ex>m</ex></expan> <choice><corr>l</corr><sic>I</sic></choice>aboris#<supplied reason="omitted">l</supplied>aboris#IABORIS <lb n="5"/>sui <gap reason="lost" extent="unknown" unit="character"/>inia <lb n="6"/><choice><corr>f</corr><sic>E</sic></choice>ecerun<supplied reason="lost">t</supplied>#<supplied reason="omitted">f</supplied>ecerun<supplied reason="lost">t</supplied>#EECERUN <choice><corr>s</corr><sic>C</sic></choice>e#<supplied reason="omitted">s</supplied>e#CE vivi <lb n="7"/>et numinav<expan><ex>e</ex><abbr>r</abbr></expan><lb break="no" n="8"/>un<supplied reason="lost">t</supplied> <note>sic</note> se vixxe <note>sic</note> ann<lb break="no" n="9"/>us <note>sic</note> nunacinus <note>sic</note> si qu<lb break="no" n="10"/>is vo<supplied reason="lost">l</supplied>uer<supplied reason="lost">it</supplied> violar<lb break="no" n="11"/>e locu<supplied reason="lost">m nostr</supplied>um det <choice><corr>i</corr><sic>V</sic></choice><lb break="no" n="12"/><choice><corr>v</corr><sic>I</sic></choice>re#<supplied reason="omitted">i</supplied><lb break="no" n="13"/><supplied reason="omitted">v</supplied>re#VIRE in <choice><corr>f</corr><sic>E</sic></choice>isco#<supplied reason="omitted">f</supplied>isco#EISCO auri <expan><abbr>libra</abbr><ex>m</ex></expan> <expan><abbr>una</abbr><ex>m</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Nach Donati bezeichnet Sentius Constant(i)us eventuell auch nur 1 Person. Ergänzung des 2. Wortes in Z. 5 nach Donati entweder [sua pec]&amp;lt;u=I&amp;gt;nia oder mit einem Frauennamen [et ---]inia. (B): AE 1974: Z. 3: laboris; Z. 4: fecerun[t]; Z. 6: se; Z. 7/8: numinav(e)r/unt; Z. 12: fisco.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

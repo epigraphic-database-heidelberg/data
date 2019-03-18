@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD060323</idno>
+                <idno type="TM">186022</idno><idno type="localID">HD060323</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/028796">Iader</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 150 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3186952">Zadar</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Zadarska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2010-03-23" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 10015. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                C(ai-) Vib[i- - -] / R[- - -] / AN[- - -] / SCR[- - -] / POIV[- - -] / Iulia [- - -] / mate[r - - -] / viva [- - -] / C(ai-) Vibi[- - -] / VI[- - -] / in f(ronte) p(edes) X[- - -] / h(oc) m(onumentum) [h(eredem) n(on) s(equetur)] / et liber[tis libertabusq(ue)] / poster[isq(ue) eorum]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>ai-</ex></expan> Vib<supplied reason="lost">i</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>R<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>AN<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>SCR<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>POIV<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>Iulia <gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>mate<supplied reason="lost">r</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/>viva <gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/><expan><abbr>C</abbr><ex>ai-</ex></expan> Vibi<gap reason="lost" extent="unknown" unit="character"/> <lb n="10"/>VI<gap reason="lost" extent="unknown" unit="character"/> <lb n="11"/>in <expan><abbr>f</abbr><ex>ronte</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> X<gap reason="lost" extent="unknown" unit="character"/> <lb n="12"/><expan><abbr>h</abbr><ex>oc</ex></expan> <expan><abbr>m</abbr><ex>onumentum</ex></expan> <supplied reason="lost"><expan><abbr>h</abbr><ex>eredem</ex></expan> <expan><abbr>n</abbr><ex>on</ex></expan> <expan><abbr>s</abbr><ex>equetur</ex></expan></supplied> <lb n="13"/>et liber<supplied reason="lost">tis <expan><abbr>libertabusq</abbr><ex>ue</ex></expan></supplied> <lb n="14"/>poster<supplied reason="lost"><expan><abbr>isq</abbr><ex>ue</ex></expan> eorum</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

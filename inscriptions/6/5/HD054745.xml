@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD054745</idno>
+                <idno type="TM">195400</idno><idno type="localID">HD054745</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Budapest, Aquincumi Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>56</height>
+                                        <width>195</width>
+                                        <depth>93</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/020126">Aquincum</placeName></origPlace>
+                            <origDate notBefore-custom="0301" notAfter-custom="0330" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 330 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1987">1987</date>
+                        <placeName ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Budapest</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-01-19" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/5379">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2005, 1260. 
+                    </bibl>
+                    <bibl>
+                         TitAq 0556; Fotos. 
+                    </bibl>
+                    <bibl>
+                         J. Topál, Roman cemeteries of Aquincum, Pannonia. The Western Cemetery (Bécsi Road) 2 (Budapest 2003) 60; pl. 113 u. 114. - AE 2005. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) / Aurel(io) Maximo d<e=F>curio/ni#d<e>curio/ni#DFCURIONI qui vixit ann(is) <L?=I>XXX#<L?>XXX#IXXX Aur(elius) / Poludeuces(!) cives(!) pietatis / gratia <f=E>ecit#<f>ecit#EECIT
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Aurel</abbr><ex>io</ex></expan> Maximo d<choice><corr>e</corr><sic>F</sic></choice>curio<lb break="no" n="3"/>ni#d<supplied reason="omitted">e</supplied>curio<lb break="no" n="4"/>ni#DFCURIONI qui vixit <expan><abbr>n<am>n</am></abbr><ex>is</ex></expan> &lt;L<certainty match="preceding-sibling::node()" locus="value"/>=I&gt;XXX#&lt;L<certainty match="preceding-sibling::node()" locus="value"/>&gt;XXX#IXXX <expan><abbr>Aur</abbr><ex>elius</ex></expan> <lb n="5"/>Poludeuces <note>sic</note> cives <note>sic</note> pietatis <lb n="6"/>gratia <choice><corr>f</corr><sic>E</sic></choice>ecit#<supplied reason="omitted">f</supplied>ecit#EECIT
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Inschriftträger: (TitAq) Arca. Z. 2: Topál, AE 2005: anni(s) XXX.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

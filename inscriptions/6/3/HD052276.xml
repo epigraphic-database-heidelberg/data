@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD052276</idno>
+                <idno type="TM">184269</idno><idno type="localID">HD052276</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Zadar, Arh. Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/029321">Nedinum?</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 150 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3194604">Benkovac?</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Zadarska županija?</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-02-20" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F034495">
+            <desc>F034495</desc>
+        </graphic>
+
+        <graphic url="http://lupa.at/24148">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        M. Sanader, in: M. Sanader (Hrsg.), Kroatien in der Antike (Mainz 2007) 112; Abb. 103. 
+                    </bibl>
+                    <bibl>
+                         A. Kurilić, Asseria 4, 2006, 51-54, Nr. 14; sl. 27. (B) 
+                    </bibl>
+                    <bibl>
+                         M. Šašel Kos, Pre-Roman divinities of the Eastern Alps and Adriatic (Ljubljana 1999) 77; Fig. 6. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Latrae A[ug(ustae)?] / libentes Gel[lii?] / sub Clod(io) Gem[ino?] / aedile [[[fecerunt?]]]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Latrae A<supplied reason="lost" cert="low">ug(ustae)</supplied> <lb n="2"/>libentes Gel<supplied reason="lost" cert="low">lii</supplied> <lb n="3"/>sub <expan><abbr>Clod</abbr><ex>io</ex></expan> Gem<supplied reason="lost" cert="low">ino</supplied> <lb n="4"/>aedile <del rend="erasure">[fecerunt<certainty locus="name" match="preceding-sibling::text()" cert="low"/></del>]
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Fundort: nach Kurilić möglicherweise auch aus Asseria. Z. 2 (Ende) vom L(?) nur noch die senkrechte Haste erkennbar. Z. 3: vom eradierten Text nur wenige, kaum erkennbare Spuren erhalten. Ergänzungen nach Kurilić. (B): Kurilić: Z. 2: Ge[llii].</p>
+            </div>
+        </body>
+    </text>
+</TEI>

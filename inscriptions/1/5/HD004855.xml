@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD004855</idno>
+                <idno type="TM">193990</idno><idno type="localID">HD004855</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/029142">Cibalae, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0065-06-17" notAfter-custom="0065-06-17" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">17.6.65 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3194552">Negoslavci</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Vukovarsko-srijemska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-04-19" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1978, 0658. 
+                    </bibl>
+                    <bibl>
+                         S. Dušanić, Germania 56, 1978, 461-475; pl. 47-48. - AE 1978. 
+                    </bibl>
+                    <bibl>
+                         AE 1989, 0626. 
+                    </bibl>
+                    <bibl>
+                         A. Dorn, in: Archäologische Forschungen in Ostslawonien und Baranja. Tagung Vukovar 6.-9.X.1981 (Zagreb 1984) 165-174; Fotos; Zeichnung. - AE 1989. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Nero Claudius divi Claudi f(ilius) Germani[ci] / Caesaris n(epos) Ti(beri) Caesaris Aug(usti) pron(epos) divi / Aug(usti) abn(epos) Caesar Aug(ustus) Germanicus / pont(ifex) / max(imus) trib(unicia) pot(estate) XI imp(erator) VIIII p(ater) p(atriae) co(n)s(ul) IIII / peditibus et equitibus qui militant <in> / cohortibus tribus quae appellant/ur I et II Thracum et VII Breucorum / et sunt in Germania sub P(ublio) Sulpicio / Scribonio Proculo qui quina et vice/na stipendia aut plura meruerant / quorum nomina subscripta sunt ips/is liberis posterisque eorum civit/atem dedit et conubium cum uxori/bus quas tunc habuissent cum est civ/itas iis data aut siqui caelibes essent / cum iis quas postea duxissent dum/taxat singuli singulas / a(nte) d(iem) XV K(alendas) Iulias / A(ulo) Licinio Nerva Siliano / P(ublio) Pasidieno Firmo co(n)s(ulibus) / pediti coh(ortis) VII Breucorum cui / praeest C(aius) Numisius C(ai) f(ilius) Vel(ina) Max(imus) / Liccaio Liccai f(ilio) Breuco / descriptum et recognitum ex tabu/la aenia/quae fixa est Romae in / Capitolio ante aerarium milita/re in basi Claudiorum Marcellor/um // C(ai) Marci Nobilis Emoniensis / Sex(ti) Tei Nicerotis Aquileiensis / C(ai) Caecinae Hermaes(!) Aquileiensis / T(iti) Picati Carpi Aquileiensis / L(uci) Hostili Blaesi Emoniensis / M(arci) Treboni Hygini Aquileiensis / L(uci) Anni Potentis Aquileiensis
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Nero Claudius divi Claudi <expan><abbr>f</abbr><ex>ilius</ex></expan> Germani<supplied reason="lost">ci</supplied> <lb n="2"/>Caesaris <expan><abbr>n</abbr><ex>epos</ex></expan> <expan><abbr>Ti</abbr><ex>beri</ex></expan> Caesaris <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pron</abbr><ex>epos</ex></expan> divi <lb n="3"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>abn</abbr><ex>epos</ex></expan> Caesar <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Germanicus <lb n="4"/><expan><abbr>pont</abbr><ex>ifex</ex></expan> <lb n="5"/><expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XI <expan><abbr>imp</abbr><ex>erator</ex></expan> VIIII <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IIII <lb n="6"/>peditibus et equitibus qui militant <supplied reason="omitted">in</supplied> <lb n="7"/>cohortibus tribus quae appellant<lb break="no" n="8"/>ur I et II Thracum et VII Breucorum <lb n="9"/>et sunt in Germania sub <expan><abbr>P</abbr><ex>ublio</ex></expan> Sulpicio <lb n="10"/>Scribonio Proculo qui quina et vice<lb break="no" n="11"/>na stipendia aut plura meruerant <lb n="12"/>quorum nomina subscripta sunt ips<lb break="no" n="13"/>is liberis posterisque eorum civit<lb break="no" n="14"/>atem dedit et conubium cum uxori<lb break="no" n="15"/>bus quas tunc habuissent cum est civ<lb break="no" n="16"/>itas iis data aut siqui caelibes essent <lb n="17"/>cum iis quas postea duxissent dum<lb break="no" n="18"/>taxat singuli singulas <lb n="19"/><expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> XV <expan><abbr>K</abbr><ex>alendas</ex></expan> Iulias <lb n="20"/><expan><abbr>A</abbr><ex>ulo</ex></expan> Licinio Nerva Siliano <lb n="21"/><expan><abbr>P</abbr><ex>ublio</ex></expan> Pasidieno Firmo co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="22"/>pediti <expan><abbr>coh</abbr><ex>ortis</ex></expan> VII Breucorum cui <lb n="23"/>praeest <expan><abbr>C</abbr><ex>aius</ex></expan> Numisius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Vel</abbr><ex>ina</ex></expan> <expan><abbr>Max</abbr><ex>imus</ex></expan> <lb n="24"/>Liccaio Liccai <expan><abbr>f</abbr><ex>ilio</ex></expan> Breuco <lb n="25"/>descriptum et recognitum ex tabu<lb break="no" n="26"/>la aenia<lb break="no" n="27"/>quae fixa est Romae in <lb n="28"/>Capitolio ante aerarium milita<lb break="no" n="29"/>re in basi Claudiorum Marcellor<lb break="no" n="30"/>um </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>ai</ex></expan> Marci Nobilis Emoniensis <lb n="2"/><expan><abbr>Sex</abbr><ex>ti</ex></expan> Tei Nicerotis Aquileiensis <lb n="3"/><expan><abbr>C</abbr><ex>ai</ex></expan> Caecinae Hermaes <note>sic</note> Aquileiensis <lb n="4"/><expan><abbr>T</abbr><ex>iti</ex></expan> Picati Carpi Aquileiensis <lb n="5"/><expan><abbr>L</abbr><ex>uci</ex></expan> Hostili Blaesi Emoniensis <lb n="6"/><expan><abbr>M</abbr><ex>arci</ex></expan> Treboni Hygini Aquileiensis <lb n="7"/><expan><abbr>L</abbr><ex>uci</ex></expan> Anni Potentis Aquileiensis
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD049179</idno>
+                <idno type="TM">177014</idno><idno type="localID">HD049179</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-130</height>
+                                        <width>-64</width>
+                                        <depth>42</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016417">Lycia et Pamphylia</placeName><placeName>Oenoanda, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">50 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1994">1994</date>
+                        <placeName ref="http://www.geonames.org/">Kemerarası</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/tr/">Türkei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-05-26" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F020609">
+            <desc>F020609</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1998, 1399. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Ti(berius) Claudius Drusi f(ilius) / Caesar deus Aug(ustus) Ger/manicus pontife[x] / max(imus) tr[i]buniciae p[ot(estatis)] / X co(n)s(ul) V imp(erator) X II des[ig(natus)] / p(ater) p(atriae) pontem per T(itum) [Cl(odium)?] / Eprium Marcellum / [l]eg(atum) Aug(usti) pro pr(aetore) so(dalem) A(ugustalem)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ti</abbr><ex>berius</ex></expan> Claudius Drusi <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/>Caesar deus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Ger<lb break="no" n="3"/>manicus pontife<supplied reason="lost">x</supplied> <lb n="4"/><expan><abbr>max</abbr><ex>imus</ex></expan> tr<supplied reason="lost">i</supplied>buniciae p<supplied reason="lost"><expan><abbr>ot</abbr><ex>estatis</ex></expan></supplied> <lb n="5"/>X co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> V <expan><abbr>imp</abbr><ex>erator</ex></expan> X II des<supplied reason="lost"><expan><abbr>ig</abbr><ex>natus</ex></expan></supplied> <lb n="6"/><expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> pontem per <expan><abbr>T</abbr><ex>itum</ex></expan> <supplied reason="lost" cert="low">Cl(odium)</supplied> <lb n="7"/>Eprium Marcellum <lb n="8"/><expan><abbr><supplied reason="lost">l</supplied>eg</abbr><ex>atum</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> pro <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>so</abbr><ex>dalem</ex></expan> <expan><abbr>A</abbr><ex>ugustalem</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

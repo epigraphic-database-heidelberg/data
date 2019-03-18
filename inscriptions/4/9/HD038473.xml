@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD038473</idno>
+                <idno type="TM">195153</idno><idno type="localID">HD038473</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Szentendre, Ferenczy Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-43</height>
+                                        <width>-37</width>
+                                        <depth>7.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution">eingemeiÃ&#x9f;elt (mit Farbresten)</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3-1.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName>Ulcisia Castra</placeName></origPlace>
+                            <origDate notBefore-custom="0244" notAfter-custom="0249" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">244 AD – 249 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3044681">Szentendre</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Pest megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift?</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-05-10" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/6034">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        RIU 0879; Abb. 879 (Foto u. Zeichnung). (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $ leg(ionis) p(iae)] f(idelis) Philippianae // - - - - - -] // Aur(elius) Avitianus / Aur(elius) Py<rrh=HRR>us#Py<rrh>us#PYHRRUS / Aur(elius) Bitus / Cla(udius) Proculus / Aur(elius) Iustus / [A]ur(elius) Florus / [D]om(itius) Lupianus / [V?]ip(sanius?) Mar(i)n(i)anus / [I]ul(ius) Sev(e)rinus / [S]ep(timius) Atta / [C]la(udius) Felicianus / Aur(elius) Albanus / Iul(ius) Silvanus / Aur(elius) Numerius / [- - -] Titian[u]s / [- - - - - - // Aur(elius) Carus / Sep(timius) M(u)cianus / Dips(- - -) Maximus / Aur(elius) Fl[o]rus / Ael(ius) Maximus / Iul(ius) Lernat(u)s / Ael(ius) Cresc(e)n[s] / Iul(ius) Nodia[- - -] / C[l]a(udius) Val[ens] / Aur(elius) Trice[- - -] / Iul(ius) Vit[alis] / Sep(timius) I(?)[- - -]us / Aur(elius) [- - -]lianus / Aur(elius) [An]toninus / Aur(elius) [- - -]ius / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                $ <expan><abbr>leg</abbr><ex>ionis</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan>] <expan><abbr>f</abbr><ex>idelis</ex></expan> Philippianae </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/></ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>Aur</abbr><ex>elius</ex></expan> Avitianus <lb n="2"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Py<supplied reason="omitted">rrh=HRR</supplied>us#Py<supplied reason="omitted">rrh</supplied>us#PYHRRUS <lb n="3"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Bitus <lb n="4"/><expan><abbr>Cla</abbr><ex>udius</ex></expan> Proculus <lb n="5"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Iustus <lb n="6"/><expan><abbr><supplied reason="lost">A</supplied>ur</abbr><ex>elius</ex></expan> Florus <lb n="7"/><expan><abbr><supplied reason="lost">D</supplied>om</abbr><ex>itius</ex></expan> Lupianus <lb n="8"/><supplied reason="lost" cert="low">V</supplied><expan><abbr>ip</abbr><ex cert="low">sanius</ex></expan> Mar<expan><ex>i</ex><abbr>n</abbr><ex>i</ex><abbr>anus</abbr></expan> <lb n="9"/><expan><abbr><supplied reason="lost">I</supplied>ul</abbr><ex>ius</ex></expan> Sev<expan><ex>e</ex><abbr>rinus</abbr></expan> <lb n="10"/><expan><abbr><supplied reason="lost">S</supplied>ep</abbr><ex>timius</ex></expan> Atta <lb n="11"/><expan><abbr><supplied reason="lost">C</supplied>la</abbr><ex>udius</ex></expan> Felicianus <lb n="12"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Albanus <lb n="13"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Silvanus <lb n="14"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Numerius <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/> Titian<supplied reason="lost">u</supplied>s <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>Aur</abbr><ex>elius</ex></expan> Carus <lb n="2"/><expan><abbr>Sep</abbr><ex>timius</ex></expan> M<expan><ex>u</ex><abbr>cianus</abbr></expan> <lb n="3"/><abbr>Dips</abbr> Maximus <lb n="4"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Fl<supplied reason="lost">o</supplied>rus <lb n="5"/><expan><abbr>Ael</abbr><ex>ius</ex></expan> Maximus <lb n="6"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Lernat<expan><ex>u</ex><abbr>s</abbr></expan> <lb n="7"/><expan><abbr>Ael</abbr><ex>ius</ex></expan> Cresc<expan><ex>e</ex><abbr>n</abbr></expan><supplied reason="lost">s</supplied> <lb n="8"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Nodia<gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/><expan><abbr>C<supplied reason="lost">l</supplied>a</abbr><ex>udius</ex></expan> Val<supplied reason="lost">ens</supplied> <lb n="10"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Trice<gap reason="lost" extent="unknown" unit="character"/> <lb n="11"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Vit<supplied reason="lost">alis</supplied> <lb n="12"/><expan><abbr>Sep</abbr><ex>timius</ex></expan> <expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>us <lb n="13"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>lianus <lb n="14"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> <supplied reason="lost">An</supplied>toninus <lb n="15"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>ius <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> In den Buchstaben Reste roter Farbe. Z. 1 lief über die beiden erhaltenen Kolumnen hinweg; links davon müssen sich noch mehrere weitere Kolumnen befunden haben. Möglicherweise handelt es sich um eine Weihinschrift etwa an den Genius. Z. 13: Sep. nachträglich aus Rep. verbessert. (B): RIU: col. I: Z. 6: [Au]r.; Z. 15: Titian(u)s.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

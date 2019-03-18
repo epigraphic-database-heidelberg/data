@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD047630</idno>
+                <idno type="TM">214128</idno><idno type="localID">HD047630</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/019860">Narbonensis</placeName><placeName ref="http://www.trismegistos.org/place/020500">Aquae Sextiae</placeName></origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3038354">Aix-en-Provence</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-03-10" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2000, 0879. 
+                    </bibl>
+                    <bibl>
+                         CIL 12, 00516 add. p. 814. 
+                    </bibl>
+                    <bibl>
+                         CIL 12, 00521. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Sex(to) Iul(io) Pate[rni f(ilio) Vol(tinia)] Vero laticlavio / patro[no col]oniae / Sex(to) Iul(io) Sex(ti) f(ilio) Vo[lt(inia) Paterno trib(uno)] mil(itum) leg(ionis) VII gem(inae) fel(icis) / honore flamo[nii functo II?]viro patrono col(oniae) / M(arco) Iul(io) Sex(ti) f(ilio) Vo[l(tinia) - - - trib(uno) m]il(itum) leg(ionis) VIII Aug(ustae) / flam[ini Aug(usti) patro]no coloniae
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Sex</abbr><ex>to</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> Pate<supplied reason="lost">rni <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Vol</abbr><ex>tinia</ex></expan></supplied> Vero laticlavio <lb n="2"/>patro<supplied reason="lost">no col</supplied>oniae <lb n="3"/><expan><abbr>Sex</abbr><ex>to</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> <expan><abbr>Sex</abbr><ex>ti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Vo<supplied reason="lost"><expan><abbr>lt</abbr><ex>inia</ex></expan> Paterno <expan><abbr>trib</abbr><ex>uno</ex></expan></supplied> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> VII <expan><abbr>gem</abbr><ex>inae</ex></expan> <expan><abbr>fel</abbr><ex>icis</ex></expan> <lb n="4"/>honore flamo<supplied reason="lost" cert="low">nii functo II</supplied>viro patrono <expan><abbr>col</abbr><ex>oniae</ex></expan> <lb n="5"/><expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> <expan><abbr>Sex</abbr><ex>ti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Vo<supplied reason="lost"><expan><abbr>l</abbr><ex>tinia</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>trib</abbr><ex>uno</ex></expan> m</supplied><expan><abbr>il</abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> VIII <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <lb n="6"/>flam<supplied reason="lost">ini <expan><abbr>Aug</abbr><ex>usti</ex></expan> patro</supplied>no coloniae
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Fundort des zweiten Fragments: Le-Puy-Sainte-Réparade.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

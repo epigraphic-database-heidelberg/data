@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD042054</idno>
+                <idno type="TM">695983</idno><idno type="localID">HD042054</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000172">Roma</placeName><placeName ref="http://www.trismegistos.org/place/000172">Roma</placeName></origPlace>
+                            <origDate notBefore-custom="0300" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">300 AD – 400 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Roma</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Lazio</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/76">Defixio</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2006-03-16" who="Hartmann">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2002, 0209. 
+                    </bibl>
+                    <bibl>
+                         AE 1998, 0210. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Φακτίω Βενετα / Λακινειν/ Ηιλαρεινο, Φλακινο. / Καταδείνω βεινετου / [Ηι]λαρεινο, Φλακινο, [- - -] / ΙΑΖΑΒΙΟΑΛΗΘ ΜΑΡΜΑΡΑΩΘ ΦΡΑΝΟΥΝΟΡΑ / ΑΒΡΑΝΑΞ. Ἐγώ εἰμι ΗΜΟΣΣΕΣΗΟΡΩΣ. Ἐγώ <εἰμι> / ΣΙΟΕΡΜΟΥΟΚΝΟΥΩΡΑ ΑΒΡΑΣΑΞ ΣΕΧΕΒ. / Ἐγώ εἰμι ΘΟΧΗΒΒΑΛΟΩΗΟ. Ἐγώ <εἰμι> ΕΩ/ΟΒΡΟΗΝ. Ἐγώ εἰμι ὁ κύριος τῆς Ἀνάνκη/ς ὁ καταπλέξας τὸν ΙΑΙ ΙΑΒΩ. / Ἐγώ εἰμι Ἀνάνκη. / Λεικειτιωσους, Λουκουντι[λ]ος, / ΜΑΣΚΕΛΛΙ MΑΣΚΕΛΑΡΩ / Λεξιοσυς, Λουξουριοσους, ΒΡΑΙΟ/[- - -]Ν ΦΝΟΥΚΕΝΤΑΒΑΩΙ / Ληγιτιμιους, Λαυρεντινου, / Λήμνιος, Λασκιβος, Λήνεος, / Λουκορ, Λουκιφιρ, Λαυρεντιος, / Λαμπάδιος, Λεόντου, Λέπα. / Καταδείνω Αλκεινο, Πανσα, Βεννετερα, / Αλιγερ, Αμορ, Ἀφρικός, Αἴγυπτους, Ῥυθυλος, Ῥαπιδους, Ῥηνος, Ῥε[-]αρασους, / [- - -]οννησις, Ῥιβαρις, Ῥεστιτουτος, / Ῥεφεκιτορος. Καταδείνο φακτωνα ρουσι/α. Κορεος, Λουσορ, Ηγρεγιο, Στιβαρεα, / Πρυθνεος, Παδους, Ῥοσατος, Σολημνιος, / Ἔολους, Ποντικός, ΙΠΥΗΟΧΘΩ / ΒΡΑΖΑΓΡΑΝ ΡΗΣΙΚΙΘΩΝ / ΠΕΡΤΑΩΒΜΠΚ ΙΤΕΡΑΚΑΚΩΜ/ΣΑΧΜΗΜΙ[-]ΩΟΥΩ ΚΑΟΤΟΧΟ/[- -]Η ΗΜΕ[- - -]/[- - - - - -].
+            --><div type="edition" xml:lang="grc"><head>Text</head><ab><lb n="1"/>
+                Φακτίω Βενετα <lb n="2"/>Λακινειν <lb n="3"/>Ηιλαρεινο, Φλακινο. <lb n="4"/>Καταδείνω βεινετου <lb n="5"/><supplied reason="lost">Ηι</supplied>λαρεινο, Φλακινο, <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>ΙΑΖΑΒΙΟΑΛΗΘ ΜΑΡΜΑΡΑΩΘ ΦΡΑΝΟΥΝΟΡΑ <lb n="7"/>ΑΒΡΑΝΑΞ. Ἐγώ εἰμι ΗΜΟΣΣΕΣΗΟΡΩΣ. Ἐγώ <supplied reason="omitted">εἰμι</supplied> <lb n="8"/>ΣΙΟΕΡΜΟΥΟΚΝΟΥΩΡΑ ΑΒΡΑΣΑΞ ΣΕΧΕΒ. <lb n="9"/>Ἐγώ εἰμι ΘΟΧΗΒΒΑΛΟΩΗΟ. Ἐγώ <supplied reason="omitted">εἰμι</supplied> ΕΩ<lb break="no" n="10"/>ΟΒΡΟΗΝ. Ἐγώ εἰμι ὁ κύριος τῆς Ἀνάνκη<lb break="no" n="11"/>ς ὁ καταπλέξας τὸν ΙΑΙ ΙΑΒΩ. <lb n="12"/>Ἐγώ εἰμι Ἀνάνκη. <lb n="13"/>Λεικειτιωσους, Λουκουντι<supplied reason="lost">λ</supplied>ος, <lb n="14"/>ΜΑΣΚΕΛΛΙ MΑΣΚΕΛΑΡΩ <lb n="15"/>Λεξιοσυς, Λουξουριοσους, ΒΡΑΙΟ<lb break="no" n="16"/><gap reason="lost" extent="unknown" unit="character"/>Ν ΦΝΟΥΚΕΝΤΑΒΑΩΙ <lb n="17"/>Ληγιτιμιους, Λαυρεντινου, <lb n="18"/>Λήμνιος, Λασκιβος, Λήνεος, <lb n="19"/>Λουκορ, Λουκιφιρ, Λαυρεντιος, <lb n="20"/>Λαμπάδιος, Λεόντου, Λέπα. <lb n="21"/>Καταδείνω Αλκεινο, Πανσα, Βεννετερα, <lb n="22"/>Αλιγερ, Αμορ, Ἀφρικός, Αἴγυπτους, Ῥυθυλος, Ῥαπιδους, Ῥηνος, Ῥε<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>αρασους, <lb n="23"/><gap reason="lost" extent="unknown" unit="character"/>οννησις, Ῥιβαρις, Ῥεστιτουτος, <lb n="24"/>Ῥεφεκιτορος. Καταδείνο φακτωνα ρουσι<lb break="no" n="25"/>α. Κορεος, Λουσορ, Ηγρεγιο, Στιβαρεα, <lb n="26"/>Πρυθνεος, Παδους, Ῥοσατος, Σολημνιος, <lb n="27"/>Ἔολους, Ποντικός, ΙΠΥΗΟΧΘΩ <lb n="28"/>ΒΡΑΖΑΓΡΑΝ ΡΗΣΙΚΙΘΩΝ <lb n="29"/>ΠΕΡΤΑΩΒΜΠΚ ΙΤΕΡΑΚΑΚΩΜ<lb break="no" n="30"/>ΣΑΧΜΗΜΙ<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>ΩΟΥΩ ΚΑΟΤΟΧΟ<lb break="no" n="31"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>Η ΗΜΕ<gap reason="lost" extent="unknown" unit="character"/><lb n="0"/><gap reason="lost" quantity="1" unit="line"/>.
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

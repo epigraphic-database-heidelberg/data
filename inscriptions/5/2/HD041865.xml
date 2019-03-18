@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD041865</idno>
+                <idno type="TM">236341</idno><idno type="localID">HD041865</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016933">Hispania citerior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0197" notAfter-custom="0211" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">197 AD – 211 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3127035">Caldes de Montbui</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Cataluña</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-10-15" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IRC 1, 041. 
+                    </bibl>
+                    <bibl>
+                         IRC 5, p. 15. 17-18. 
+                    </bibl>
+                    <bibl>
+                         HEp 01, 1989, 0132. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(eratori) Caes(ari)] / [divi M(arci) A]nto[nini] / [Pii Ger(manici) Sa]rm[atici] fil(io) / [divi Com]modi f[ratri] / [divi] Anton[ini Pii nep(oti)] / [divi Hadri]an[i pronep(oti)] / [divi Traia]ni Par[t(hici) abn(epoti)] / [divi Nervae] adn[ep(oti)] / [L(ucio) Septimi]o [Severo] / [Pio Per]tin[aci Aug(usto) Arab(ico)] / [Adiaben(ico) P]ar[thico Max(imo)] / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied> <lb n="2"/><supplied reason="lost">divi <expan><abbr>M</abbr><ex>arci</ex></expan> A</supplied>nto<supplied reason="lost">nini</supplied> <lb n="3"/><supplied reason="lost">Pii <expan><abbr>Ger</abbr><ex>manici</ex></expan> Sa</supplied>rm<supplied reason="lost">atici</supplied> <expan><abbr>fil</abbr><ex>io</ex></expan> <lb n="4"/><supplied reason="lost">divi Com</supplied>modi f<supplied reason="lost">ratri</supplied> <lb n="5"/><supplied reason="lost">divi</supplied> Anton<supplied reason="lost">ini Pii <expan><abbr>nep</abbr><ex>oti</ex></expan></supplied> <lb n="6"/><supplied reason="lost">divi Hadri</supplied>an<supplied reason="lost">i <expan><abbr>pronep</abbr><ex>oti</ex></expan></supplied> <lb n="7"/><supplied reason="lost">divi Traia</supplied>ni Par<supplied reason="lost"><expan><abbr>t</abbr><ex>hici</ex></expan> <expan><abbr>abn</abbr><ex>epoti</ex></expan></supplied> <lb n="8"/><supplied reason="lost">divi Nervae</supplied> adn<supplied reason="lost"><expan><abbr>ep</abbr><ex>oti</ex></expan></supplied> <lb n="9"/><supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan> Septimi</supplied>o <supplied reason="lost">Severo</supplied> <lb n="10"/><supplied reason="lost">Pio Per</supplied>tin<supplied reason="lost">aci <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>Arab</abbr><ex>ico</ex></expan></supplied> <lb n="11"/><supplied reason="lost"><expan><abbr>Adiaben</abbr><ex>ico</ex></expan> P</supplied>ar<supplied reason="lost">thico <expan><abbr>Max</abbr><ex>imo</ex></expan></supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Verschollen. Z. 1: oder Caesari. Z. 8: oder adn[epoti.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

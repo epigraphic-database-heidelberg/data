@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Block</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002757</idno>
+                <idno type="TM">175453</idno><idno type="localID">HD002757</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-40</height>
+                                        <width>-30</width>
+                                        <depth>20</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4-6</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003239">Sardinia</placeName><placeName ref="http://www.trismegistos.org/place/003239">Carales</placeName></origPlace>
+                            <origDate notBefore-custom="0401" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD – 600 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Cagliari</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Cagliari</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-11-28" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0427. M. Bonello Lai, AFLC 40, 1980/81, 199-202. - AE 1982. (unzugänglich). 
+                    </bibl>
+                    <bibl>
+                         AE 1924, 0122. (B) 
+                    </bibl>
+                    <bibl>
+                         A. Taramelli, NSA 1924, 116-117, Nr. 20; Foto. (B) - AE 1924. 
+                    </bibl>
+                    <bibl>
+                         ILCV 2450. (B) 
+                    </bibl>
+                    <bibl>
+                         G. Sotgiu, Iscrizioni latine della Sardegna 1 (Padova 1961) 68-69, Nr. 93; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                In n(omine) d(omi)ni D(e)i / n(ostr)i Chr(ist)i l(ocu)m(?) / salinarum / pertinen[tes] / fecerunt
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                In <expan><abbr>n</abbr><ex>omine</ex></expan> d<expan><ex>omi</ex><abbr>ni</abbr></expan> D<expan><ex>e</ex><abbr>i</abbr></expan> <lb n="2"/>n<expan><ex>ostr</ex><abbr>i</abbr></expan> Chr<expan><ex>ist</ex><abbr>i</abbr></expan> l<expan><ex>ocu</ex><abbr>m</abbr></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="3"/>salinarum <lb n="4"/>pertinen<supplied reason="lost">tes</supplied> <lb n="5"/>fecerunt
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Z. 1 [I]n; AE 1924, ILCV: Z. 2/3: im... / salinarum. Taramelli: IM wird im(munes) aufgelöst; Z. 4: pertinent[es] - AE 1924; pertinente[s?] - ILCV; - pertinent(es) - Taramelli; Z. 5: fehlt.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

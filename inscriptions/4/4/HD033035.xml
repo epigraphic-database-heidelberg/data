@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD033035</idno>
+                <idno type="TM">125076</idno><idno type="localID">HD033035</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-61</height>
+                                        <width>106</width>
+                                        <depth>86</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2.5-2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033155">Venetia et Histria (Regio X)</placeName><placeName ref="http://www.trismegistos.org/place/012317">Tergeste</placeName></origPlace>
+                            <origDate notBefore-custom="0117" notAfter-custom="0138" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">117 AD – 138 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Trieste</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2003-12-05" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/16167">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        G. Alföldy, Römische Statuen in Venetia et Histria. Epigraphische Quellen (Heidelberg 1984) 86, Nr. 37. 
+                    </bibl>
+                    <bibl>
+                         CIL 05, 00546. 
+                    </bibl>
+                    <bibl>
+                         InscrIt 10, 4, 0055; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $ donis donato] / ob bellum Parth(icum) [torquibus] / armillis phaleris co[rona - - -] / L(ucius) Varius Papirius Papirianus [pat]er / IIvir i(ure) d(icundo) IIvir i(ure) d(icundo) quinq(ennalis) Tergest(e) / praef(ectus) fabrum Romae et Terg(este)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                $ donis donato] <lb n="2"/>ob bellum <expan><abbr>Parth</abbr><ex>icum</ex></expan> <supplied reason="lost">torquibus</supplied> <lb n="3"/>armillis phaleris co<supplied reason="lost">rona</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Varius Papirius Papirianus <supplied reason="lost">pat</supplied>er <lb n="5"/>IIvir <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> IIvir <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <expan><abbr>quinq</abbr><ex>ennalis</ex></expan> <expan><abbr>Tergest</abbr><ex>e</ex></expan> <lb n="6"/><expan><abbr>praef</abbr><ex>ectus</ex></expan> fabrum Romae et <expan><abbr>Terg</abbr><ex>este</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

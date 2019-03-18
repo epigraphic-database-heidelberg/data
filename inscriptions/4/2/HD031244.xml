@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD031244</idno>
+                <idno type="TM">222882</idno><idno type="localID">HD031244</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>58</height>
+                                        <width>68</width>
+                                        <depth>-17</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.5-2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/026191">Nescania</placeName></origPlace>
+                            <origDate notBefore-custom="0153-07-01" notAfter-custom="0153-07-01" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1.7.153 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Valle de Abdalajís</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Málaga</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2010-03-29" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://cil-old.bbaw.de/test06/bilder/datenbank/PH0005955.jpg">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 02 (2. Aufl.) 05, 00840; Foto. 
+                    </bibl>
+                    <bibl>
+                         CIL 02, 02008. 
+                    </bibl>
+                    <bibl>
+                         ILS 5423. 
+                    </bibl>
+                    <bibl>
+                         I. Piso, Fasti provinciae Daciae 1. Die senatorischen Amtsträger (Bonn 1993) 61-66, Nr. 14, 11. (B) 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) S 306. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Iovem Pantheum Aug(ustum) / cum aede et tetrastylo solo [p]ub(lico) / L(ucius) Calpurnius Gallio et C(aius) Marius / Clemens Nescanienses cu/ratores iuvenum Laurensium / d(ederunt) d(edicaverunt) K(alendis) Iuli(i)s P(ublio) Septumio Apro / M(arco) Sedatio Severiano co(n)s(ulibus)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Iovem Pantheum <expan><abbr>Aug</abbr><ex>ustum</ex></expan> <lb n="2"/>cum aede et tetrastylo solo <expan><abbr><supplied reason="lost">p</supplied>ub</abbr><ex>lico</ex></expan> <lb n="3"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Calpurnius Gallio et <expan><abbr>C</abbr><ex>aius</ex></expan> Marius <lb n="4"/>Clemens Nescanienses cu<lb break="no" n="5"/>ratores iuvenum Laurensium <lb n="6"/><expan><abbr>d</abbr><ex>ederunt</ex></expan> <expan><abbr>d</abbr><ex>edicaverunt</ex></expan> <expan><abbr>K</abbr><ex>alendis</ex></expan> Iuli<expan><ex>i</ex><abbr>s</abbr></expan> <expan><abbr>P</abbr><ex>ublio</ex></expan> Septumio Apro <lb n="7"/><expan><abbr>M</abbr><ex>arco</ex></expan> Sedatio Severiano co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Piso: Z. 7: [M(arco)].</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD004769</idno>
+                <idno type="TM">282395</idno><idno type="localID">HD004769</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>108</height>
+                                        <width>69</width>
+                                        <depth>43</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4-2.1</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Samnium (Regio IV)</placeName><placeName ref="http://www.trismegistos.org/place/032795">Anninus vicus</placeName></origPlace>
+                            <origDate notBefore-custom="0014" notAfter-custom="0051" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">14 AD – 51 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Lecce nei Marsi</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2006-08-22" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1978, 0286. 
+                    </bibl>
+                    <bibl>
+                         C. Letta, Athenaeum 56, 1978, 3-19; Foto. - AE. 
+                    </bibl>
+                    <bibl>
+                         AE 1996, 0513. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                A(ulo) Virgio L(uci) f(ilio) Marso / prim(o) pil(o) leg(ionis) III Gallicae / iterum praef(ecto) castr(orum) Aegy(pti) / praef(ecto) fabr(um) tr(ibuno) mil(itum) in praet(orio) / divi Aug(usti) et Ti(beri) Caesaris Aug(usti) / cohort(ium) XI et IIII praetoriar(um) / IIIIvir(o) quinq(uennali) delato hon/ore ab dec(urionibus) et popul(o) in col(onia) Troad(ensium) / Aug(usta) et Marru(v)io testamento / dedit vicalibus Anninis imagin(es) / Caesarum argentias(!) quinque / et sestertia X milia / vicales Annini{s} honor(is) / causa
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>A</abbr><ex>ulo</ex></expan> Virgio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Marso <lb n="2"/><expan><abbr>prim</abbr><ex>o</ex></expan> <expan><abbr>pil</abbr><ex>o</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> III Gallicae <lb n="3"/>iterum <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>castr</abbr><ex>orum</ex></expan> <expan><abbr>Aegy</abbr><ex>pti</ex></expan> <lb n="4"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan> <expan><abbr>tr</abbr><ex>ibuno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> in <expan><abbr>praet</abbr><ex>orio</ex></expan> <lb n="5"/>divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> et <expan><abbr>Ti</abbr><ex>beri</ex></expan> Caesaris <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="6"/><expan><abbr>cohort</abbr><ex>ium</ex></expan> XI et IIII <expan><abbr>praetoriar</abbr><ex>um</ex></expan> <lb n="7"/><expan><abbr>IIIIvir</abbr><ex>o</ex></expan> <expan><abbr>quinq</abbr><ex>uennali</ex></expan> delato hon<lb break="no" n="8"/>ore ab <expan><abbr>dec</abbr><ex>urionibus</ex></expan> et <expan><abbr>popul</abbr><ex>o</ex></expan> in <expan><abbr>col</abbr><ex>onia</ex></expan> <expan><abbr>Troad</abbr><ex>ensium</ex></expan> <lb n="9"/><expan><abbr>Aug</abbr><ex>usta</ex></expan> et Marru<expan><ex>v</ex><abbr>io</abbr></expan> testamento <lb n="10"/>dedit vicalibus Anninis <expan><abbr>imagin</abbr><ex>es</ex></expan> <lb n="11"/>Caesarum argentias <note>sic</note> quinque <lb n="12"/>et sestertia X milia <lb n="13"/>vicales Annini<surplus>s</surplus> <expan><abbr>honor</abbr><ex>is</ex></expan> <lb n="14"/>causa
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Zum vicus Anninus (bei Marruvium) vgl. CIL 1 (2. Aufl.) 391. Testamentarische Schenkung kaiserlicher imagines an den vicus.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

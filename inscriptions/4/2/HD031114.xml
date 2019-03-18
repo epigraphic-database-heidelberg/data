@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD031114</idno>
+                <idno type="TM">201001</idno><idno type="localID">HD031114</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/015771">Africa Proconsularis</placeName><placeName>Carthago - Hippo Regius, inter</placeName></origPlace>
+                            <origDate notBefore-custom="0076" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">76 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Carthage - ʿAnnaba, zwischen</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Tibissa</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2010-03-01" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 136, Nr. 6b. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 10116. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 22190. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(eratore) Caesar(e) Vespas[iano Au]g(usto) pont(ifice) max(imo) / trib(unicia) pot(estate) VII [imp(eratore) XVII co(n)s(ule)] VII qui / pri[mus - - -]itionem / flumin[- - -] aperuit / Imp(eratore) T(ito) [Vespasiano Aug(usti)] f(ilio) / imp(eratore) XI pontif(ice) tr(ibunicia) [pot(estate)] / V co(n)s(ule) V / Caesar(e) Aug(usti) f(ilio) Domitian[o c]o(n)s(ule) IIII pontif(ice) / Q(uinto) Egnatio Cato leg(ato) Aug(usti) pr(o) pr(aetore) / leg(io) III Aug(usta)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>Caesar</abbr><ex>e</ex></expan> Vespas<supplied reason="lost">iano Au</supplied><expan><abbr>g</abbr><ex>usto</ex></expan> <expan><abbr>pont</abbr><ex>ifice</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <lb n="2"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> VII <supplied reason="lost"><expan><abbr>imp</abbr><ex>eratore</ex></expan> XVII <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></supplied> VII qui <lb n="3"/>pri<supplied reason="lost">mus</supplied><gap reason="lost" extent="unknown" unit="character"/>itionem <lb n="4"/>flumin<gap reason="lost" extent="unknown" unit="character"/> aperuit <lb n="5"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>T</abbr><ex>ito</ex></expan> <supplied reason="lost">Vespasiano <expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="6"/><expan><abbr>imp</abbr><ex>eratore</ex></expan> XI <expan><abbr>pontif</abbr><ex>ice</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <supplied reason="lost"><expan><abbr>pot</abbr><ex>estate</ex></expan></supplied> <lb n="7"/>V co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> V <lb n="8"/><expan><abbr>Caesar</abbr><ex>e</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Domitian<supplied reason="lost">o c</supplied>o<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> IIII <expan><abbr>pontif</abbr><ex>ice</ex></expan> <lb n="9"/><expan><abbr>Q</abbr><ex>uinto</ex></expan> Egnatio Cato <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <lb n="10"/><expan><abbr>leg</abbr><ex>io</ex></expan> III <expan><abbr>Aug</abbr><ex>usta</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

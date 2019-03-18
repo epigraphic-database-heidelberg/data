@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD003183</idno>
+                <idno type="TM">247879</idno><idno type="localID">HD003183</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Grosseto, Mus. Arch.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material>Marmor, geädert / farbig</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-26</height>
+                                        <width>-15</width>
+                                        <depth>0.8</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Etruria (Regio VII)</placeName><placeName ref="http://www.trismegistos.org/place/014354">Rusellae</placeName></origPlace>
+                            <origDate notBefore-custom="-0002" notAfter-custom="0002" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">2 BC – 2 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1966">1966</date>
+                        <placeName ref="http://www.geonames.org/">Roselle</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Toscana</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-09-23" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1980, 0448. 
+                    </bibl>
+                    <bibl>
+                         V. Saladino, ZPE 39, 1980, 219, Nr. 7-8; Taf. 7, 7 u. 7, 8. - AE 1980. 
+                    </bibl>
+                    <bibl>
+                         AE 1998, 0445. 
+                    </bibl>
+                    <bibl>
+                         S. Conti, SupplIt 16 (Roma 1998) 114, Nr. 8; Foto. - AE 1998. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                L(ucio) Ca[esa]ri A[ug(usti) f(ilio) - - -] / [augur]i c[o(n)s(uli) des(ignato) - - -] / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Ca<supplied reason="lost">esa</supplied>ri A<supplied reason="lost"><expan><abbr>ug</abbr><ex>usti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><supplied reason="lost">augur</supplied>i c<supplied reason="lost"><expan><abbr>o</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>des</abbr><ex>ignato</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Zwei teilweise aus mehreren Teilen zusammengesetzte Fragmente erhalten; Maße beziehen sich auf Fragment a; Maße Fragment b: (13) x (9,5) x 0,7 cm. Material: grau geäderter weißer Marmor. Datierung: 2 v. Chr. (Designierung zum Konsul und Augurat des L. Caesar) bis 20.8.2 n. Chr. (Tod des L. Caesar).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

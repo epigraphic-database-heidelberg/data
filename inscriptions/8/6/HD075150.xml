@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD075150</idno>
+                <idno type="TM"/><idno type="localID">HD075150</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Speyer, Hist. Mus. der Pfalz</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>105</height>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>(Civitas Nemetum)</placeName></origPlace>
+                            <origDate notBefore-custom="0230" notAfter-custom="0240" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">230 AD – 240 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1926">1926</date>
+                        <placeName ref="http://www.geonames.org/2920373">Neustadt/Weinstraße</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-02-21" who="osnabrügge">
+             überprüft per Autopsie
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F023203">
+            <desc>F023203</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F023202">
+            <desc>F023202</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIMRM 1319. 
+                    </bibl>
+                    <bibl>
+                         H. Finke, BRGK 17, 1927, 54, Nr. 165. (B) 
+                    </bibl>
+                    <bibl>
+                         W. Spickermann, in: L. Clemens - H. Merten - C. Schäfer (Hrsg.), Frühchristliche Grabinschriften im Westen des Römischen Reiches (Trier 2014) 84, Nr. 8. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                In h(onorem) d(omus) d(ivinae) / Deo / Invihto(!) / Materninius / Faustinus carax(!) / in suo posuit / l(ibens) l(aetus) m(erito)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <lb n="2"/>Deo <lb n="3"/>Invihto <note>sic</note> <lb n="4"/>Materninius <lb n="5"/>Faustinus carax <note>sic</note> <lb n="6"/>in suo posuit <lb n="7"/><expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Altar, unten horizontal gebrochen, modern wieder zusammengefügt. Bestoßen. Vom selben Stifter stammen: http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD075148 http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD075151. (B): Finke: kleinere Leseabweichungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Besitzer-/Herstellerinschrift auf Ziegel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD024098</idno>
+                <idno type="TM">231279</idno><idno type="localID">HD024098</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Valencia, Mus. Hist. Med.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/147">Ziegel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/88">geritzt / Graffito</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3-1.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016933">Hispania citerior</placeName><placeName ref="http://www.trismegistos.org/place/019741">Valentia</placeName></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 400 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Valencia</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/311">Besitzer-/Herstellerinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-09-13" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F006555">
+            <desc>F006555</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 02 (2. Aufl.) 14, 00035 a; tab. 2, 6. 
+                    </bibl>
+                    <bibl>
+                         CIL 02 (2. Aufl.) 14, 00035 b; tab. 2, 6. 
+                    </bibl>
+                    <bibl>
+                         AE 1979, 0370. (B) 
+                    </bibl>
+                    <bibl>
+                         G. Pereira Menaut, Inscripciones romanas de Valentia (Valencia 1979) 78-80, Nr. 73; lám. 41. - AE 1979. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [I]ulius a ratio/ne tegularia An/thimus cum cen/sum par{i}avit / DXXXIII / ago gratias / domine // Solve quod mi/nus fecisti et / sic gratias a/ge et duas / amplius quia min/us numerasti
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">I</supplied>ulius a ratio<lb break="no" n="2"/>ne tegularia An<lb break="no" n="3"/>thimus cum cen<lb break="no" n="4"/>sum par<surplus>i</surplus>avit <lb n="5"/>DXXXIII <lb n="6"/>ago gratias <lb n="7"/>domine </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Solve quod mi<lb break="no" n="2"/>nus fecisti et <lb n="3"/>sic gratias a<lb break="no" n="4"/>ge et duas <lb n="5"/>amplius quia min<lb break="no" n="6"/>us numerasti
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Ziegel in 3 Fragmente gebrochen. 2 gegenständig angeordnete, jeweils an den Schmalseiten des Ziegels beginnende eingeritzte Inschriften. (B): AE 1979: Z. 2/3: Ant/himus; AE 1979, Pereira Menault: Z. 3/4: censum pariavit; CIL II² 14, 35 b: Z. 12/13: min/nus.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

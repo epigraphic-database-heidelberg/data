@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD065126</idno>
+                <idno type="TM">190608</idno><idno type="localID">HD065126</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>19.5</height>
+                                        <width>20</width>
+                                        <depth>4</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">1.5-2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000161">Macedonia</placeName><placeName>Thessalonica</placeName></origPlace>
+                            <origDate notBefore-custom="0195" notAfter-custom="0211" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">195 AD – 211 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Thessaloníki</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kentrikí Makedonía</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-02-06" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IG 10, 02, 1, 00138. 
+                    </bibl>
+                    <bibl>
+                         AE 2006, 1270. 
+                    </bibl>
+                    <bibl>
+                         P.M. Nigdelis, Epigraphika Thessalonikeia. Symboli stin politiki kai koinoniki historia tis archaias Thessalonikis (Thessaloniki 2006) 56-59, Nr. 6; ar. 14-15. - AE 2006. 
+                    </bibl>
+                    <bibl>
+                         SEG 56, 0752. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [- - - - - -] / [- - - Σεουήρου Εὐσ]εβο[ῦ]ς Περτ[ίνακος Σεβαστοῦ - - -] / [- - - θεοῦ Κομμόδου] Εὐσεβοῦς Γε[ρμανικοῦ ἀδελφοῦ, θεοῦ Ἀντωνείνου Εὐ]/[σεβοῦς ἐκγόνου θεοῦ Ἁδριανοῦ] κὲ θεοῦ Τρ<α=Λ>ι[ανοῦ#Τρ<α>ι[ανοῦ#ΤρΛι κὲ θεοῦ Νερούα ἀπογόνου] / [ἀρχιερέως μεγίστου δημαρχι]κῆς ἐξουσίας α[ὐτοκράτορος πατρὸς πατρίδος] / [καὶ Ἰουλίας Δόμνης Σεβασ]τῆς μητρὸς κάστρ[ων καὶ - - - καὶ ὑπὲρ?] / [τοῦ σύνπαντος οἴκου] καὶ ἱερᾶς συνκλήτ[ου καὶ δήμου Ῥωμαίων] / [ἀρχιερεὺς τῶν Σεβασ]τῶν καὶ ἀγων[οθέτης Κοινοῦ τῶν Μακεδόνων] / [- - - - - -]
+            --><div type="edition" xml:lang="grc"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> Σεουήρου Εὐσ</supplied>εβο<supplied reason="lost">ῦ</supplied>ς Περτ<supplied reason="lost">ίνακος Σεβαστοῦ <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> θεοῦ Κομμόδου</supplied> Εὐσεβοῦς Γε<supplied reason="lost">ρμανικοῦ ἀδελφοῦ, θεοῦ Ἀντωνείνου Εὐ</supplied><lb break="no" n="3"/><supplied reason="lost">σεβοῦς ἐκγόνου θεοῦ Ἁδριανοῦ</supplied> κὲ θεοῦ Τρ<choice><corr>α</corr><sic>Λ</sic></choice>ι[ανοῦ#Τρ<supplied reason="omitted">α</supplied>ι<supplied reason="lost">ανοῦ#ΤρΛι κὲ θεοῦ Νερούα ἀπογόνου</supplied> <lb n="4"/><supplied reason="lost">ἀρχιερέως μεγίστου δημαρχι</supplied>κῆς ἐξουσίας α<supplied reason="lost">ὐτοκράτορος πατρὸς πατρίδος</supplied> <lb n="5"/><supplied reason="lost">καὶ Ἰουλίας Δόμνης Σεβασ</supplied>τῆς μητρὸς κάστρ<supplied reason="lost" cert="low">ων καὶ --- καὶ ὑπὲρ</supplied> <lb n="6"/><supplied reason="lost">τοῦ σύνπαντος οἴκου</supplied> καὶ ἱερᾶς συνκλήτ<supplied reason="lost">ου καὶ δήμου Ῥωμαίων</supplied> <lb n="7"/><supplied reason="lost">ἀρχιερεὺς τῶν Σεβασ</supplied>τῶν καὶ ἀγων<supplied reason="lost">οθέτης Κοινοῦ τῶν Μακεδόνων</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

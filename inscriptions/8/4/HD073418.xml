@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD073418</idno>
+                <idno type="TM"/><idno type="localID">HD073418</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum</placeName></origPlace>
+                            <origDate notBefore-custom="0052" notAfter-custom="0053" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">52 AD – 53 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1750">1750</date>
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/">Niederösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-05-31" who="osnabrügge">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 04591. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) V 690. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) R 248. 
+                    </bibl>
+                    <bibl>
+                         E. Vorbeck, Militärinschriften aus Carnuntum (2. Aufl. Wien 1980) 112-113, Nr. 324. (B) 
+                    </bibl>
+                    <bibl>
+                         J. Fitz, Die Verwaltung Pannoniens in der Römerzeit (Budapest 1993) 147-148, Nr. 54. 
+                    </bibl>
+                    <bibl>
+                         M. Mosser, Die Steindenkmäler der legio XV Apollinaris (Wien 2003) 276, Nr. 219. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Ti(berio) Claudio Caesa]ri Augus[to Germanico pont(ifici) max(imo)] / [tr(ibunicia) pot(estate) XI i]mper(atori) XXVII [patri patriae co(n)s(uli) V] / [cur(ante) Messal]la Vipstano Gallo [legato Augusti pro pr(aetore)] / [et] C(aio) Rutilio Ga[llic]o [legato Augusti leg(io) XV Apol(linaris)]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Ti</abbr><ex>berio</ex></expan> Claudio Caesa</supplied>ri Augus<supplied reason="lost">to Germanico <expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan></supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XI i</supplied><expan><abbr>mper</abbr><ex>atori</ex></expan> XXVII <supplied reason="lost">patri patriae <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> V</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>cur</abbr><ex>ante</ex></expan> Messal</supplied>la Vipstano Gallo <supplied reason="lost">legato Augusti pro <expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied> <lb n="4"/><supplied reason="lost">et</supplied> <expan><abbr>C</abbr><ex>aio</ex></expan> Rutilio Ga<supplied reason="lost">llic</supplied>o <supplied reason="lost">legato Augusti <expan><abbr>leg</abbr><ex>io</ex></expan> XV <expan><abbr>Apol</abbr><ex>linaris</ex></expan></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Fragment einer Bauinschrift. Der Fundort ist unsicher. (B): Z. 1: CIL 03, 04591: [Ti. Claudio Drusi f.] / [Caesa]ri; Z. 3: Vorbeck: [L(ucio Gellio Publicol]a Vipstano; Z. 4: Vorbeck: [Q(uinto) Iulio Cordino] C(aio).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

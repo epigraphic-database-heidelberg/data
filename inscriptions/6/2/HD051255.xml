@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Block</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD051255</idno>
+                <idno type="TM">121608</idno><idno type="localID">HD051255</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Thessaloníki, Arch. Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>41</height>
+                                        <width>96</width>
+                                        <depth>23</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2.5-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000161">Macedonia</placeName><placeName>Thessalonica</placeName></origPlace>
+                            <origDate notBefore-custom="-0012" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">12 BC – 14 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Thessaloníki</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kentrikí Makedonía</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-05-24" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1995, 1389. 
+                    </bibl>
+                    <bibl>
+                         P. Nigdelis, Tekmeria 1, 1995, 51-53; Foto. - AE 1995. 
+                    </bibl>
+                    <bibl>
+                         SEG 43, 0457. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Αὐτοκράτορι Καίσαρι θεοῦ υἱῶι / Σεβαστῶι καὶ Ἡρακλεῖ καὶ τῆι πόλει / Ἀυία Αὔλου θυγάτηρ Πόσιλλα τὸν / ναὸν καὶ τὰ θερμὰ καὶ τὴν δεξαμενὴν / καὶ τ[ὰ]ς περει[κειμέν]ας στοὰς τῶι ὕδατι ἐκ τοῦ ἰδίου // Imp(eratori) Caesari divi f(ilio) pont(ifici) max(imo) / et Herculi et civitati Thessalonicensium / Avia A(uli) f(ilia) Posilla aedem aquas piscinam et / porticus circa piscinam de suo
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Αὐτοκράτορι Καίσαρι θεοῦ υἱῶι <lb n="2"/>Σεβαστῶι καὶ Ἡρακλεῖ καὶ τῆι πόλει <lb n="3"/>Ἀυία Αὔλου θυγάτηρ Πόσιλλα τὸν <lb n="4"/>ναὸν καὶ τὰ θερμὰ καὶ τὴν δεξαμενὴν <lb n="5"/>καὶ τ<supplied reason="lost">ὰ</supplied>ς περει<supplied reason="lost">κειμέν</supplied>ας στοὰς τῶι ὕδατι ἐκ τοῦ ἰδίου </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesari divi <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <lb n="2"/>et Herculi et civitati Thessalonicensium <lb n="3"/>Avia <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> Posilla aedem aquas piscinam et <lb n="4"/>porticus circa piscinam de suo
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

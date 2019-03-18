@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD056049</idno>
+                <idno type="TM">217866</idno><idno type="localID">HD056049</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-4.1</height>
+                                        <width>-4.2</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">0.3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">unbekannt</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0142" notAfter-custom="0145" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">142 AD – 145 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries//">unbekannt</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-04-06" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2004, 1903. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] et I Cann[anef]/[at(ium) c(ivium) R(omanorum) et - - - et I U]lp(ia) Pannoni[or(um)] / [- - -]N et I Aelia <G=C>ae/[sat(orum)#<G>ae/[sat(orum)#CAE |(milliaria) sag(ittaria) - - - e]t V Callaec(orum) Lu/[cens(ium) - - - e]t sunt in Pan/[nonia superio(re) sub - - -] Paulo quinis / [et vicenis plurib(us)ve stip(endiis) eme]r(itis) dimis(sis) honest(a) / [miss(ione) - - -] / [- - - - - - // - - - - - -] / [- - - qu]as tunc / [habuiss(ent) cum est civit(as) iis data aut] cum i(i)s quas
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> et I Cann<supplied reason="lost">anef</supplied><lb break="no" n="2"/><supplied reason="lost"><expan><abbr>at</abbr><ex>ium</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et <gap reason="lost" extent="unknown" unit="character"/> et I U</supplied><expan><abbr>lp</abbr><ex>ia</ex></expan> Pannoni<supplied reason="lost"><expan><abbr>or</abbr><ex>um</ex></expan></supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>N et I Aelia <choice><corr>G</corr><sic>C</sic></choice>ae<lb break="no" n="4"/>[<expan><abbr>sat</abbr><ex>orum</ex></expan>#<supplied reason="omitted">G</supplied>ae<lb break="no" n="5"/><supplied reason="lost"><expan><abbr>sat</abbr><ex>orum</ex></expan>#CAE |(milliaria) <expan><abbr>sag</abbr><ex>ittaria</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> e</supplied>t V <expan><abbr>Callaec</abbr><ex>orum</ex></expan> Lu<lb break="no" n="6"/><supplied reason="lost"><expan><abbr>cens</abbr><ex>ium</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> e</supplied>t sunt in Pan<lb break="no" n="7"/><supplied reason="lost">nonia <expan><abbr>superio</abbr><ex>re</ex></expan> sub <gap reason="lost" extent="unknown" unit="character"/></supplied> Paulo quinis <lb n="8"/><supplied reason="lost">et vicenis <expan><abbr>plurib</abbr><ex>us</ex>ve</expan> <expan><abbr>stip</abbr><ex>endiis</ex></expan> eme</supplied><expan><abbr>r</abbr><ex>itis</ex></expan> <expan><abbr>dimis</abbr><ex>sis</ex></expan> <expan><abbr>honest</abbr><ex>a</ex></expan> <lb n="9"/><supplied reason="lost"><expan><abbr>miss</abbr><ex>ione</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">qu</supplied>as tunc <lb n="2"/><supplied reason="lost"><expan><abbr>habuiss</abbr><ex>ent</ex></expan> cum est <expan><abbr>civit</abbr><ex>as</ex></expan> iis data aut</supplied> cum i<expan><ex>i</ex><abbr>s</abbr></expan> quas
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

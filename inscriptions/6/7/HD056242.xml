@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD056242</idno>
+                <idno type="TM">212076</idno><idno type="localID">HD056242</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mainz, Landesmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-45</height>
+                                        <width>-38</width>
+                                        <depth>15</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6.0</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum</placeName></origPlace>
+                            <origDate notBefore-custom="0031" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD – 70 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1842">1842</date>
+                        <placeName ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-12-01" who="Esch">
+             überprüft per Autopsie
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F014636">
+            <desc>F014636</desc>
+        </graphic>
+
+        <graphic url="http://lupa.at/16471">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 07020. (B) 
+                    </bibl>
+                    <bibl>
+                         É. Espérandieu, Recueil général des bas-reliefs, statues et bustes de la Gaule romaine 10 (Paris 1928) 86-87, Nr. 7403; Foto. 
+                    </bibl>
+                    <bibl>
+                         W. Boppert, Militärische Grabdenkmäler aus Mainz und Umgebung, CSIR Deutschland 2, 5 (Mainz 1992) 274-275, Nr. 173; Tafel 118, 173. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] st(i)p(endiorum) X[-] h(ic) s(itus) [e(st)] / t(estamento) f(ieri) i(ussit) h(eres) f(aciendum) c(uravit)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> st<expan><ex>i</ex><abbr>p</abbr><ex>endiorum</ex></expan> X<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <supplied reason="lost"><expan><abbr>e</abbr><ex>st</ex></expan></supplied> <lb n="2"/><expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>f</abbr><ex>ieri</ex></expan> <expan><abbr>i</abbr><ex>ussit</ex></expan> <expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Autopsie R. Wiegels. Unterhalb der Inschrift Winkelmaß, Zirkel und Lot. Z. 1: nur die untere Hälfte von T und P erhalten; möglicherweise PI-Ligatur. (B): CIL 13, 07020: Z. 1: STIP.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

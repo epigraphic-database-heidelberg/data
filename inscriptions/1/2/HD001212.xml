@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001212</idno>
+                <idno type="TM">222157</idno><idno type="localID">HD001212</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/026022">Igabrum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 100 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Fuente de las Piedras</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-11-09" who="Esch">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 02 (2. Aufl.) 05, 00330. 
+                    </bibl>
+                    <bibl>
+                              
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [- -?]N(?)atius L(uci) [f(ilius) - - -] / [flame]n sacrorum pu[blicorum - - -] / [carus?] amicitiis hic [situs est - - -] / [- - -]ilia P(ubli) f(ilia) [- - -] / [quae vo]to petiere suis p[lerumque parentes] / [vix] huic contiger[ant - - -] / [- - - p]raeclara fi[de- - - -] / [- - -] praecipua [- - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">--</supplied><expan><abbr>N</abbr><ex cert="low"/>atius</expan> <expan><abbr>L</abbr><ex>uci</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><supplied reason="lost">flame</supplied>n sacrorum pu<supplied reason="lost">blicorum</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><supplied reason="lost" cert="low">carus</supplied> amicitiis hic <supplied reason="lost">situs est <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ilia <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost">quae vo</supplied>to petiere suis p<supplied reason="lost">lerumque parentes</supplied> <lb n="6"/><supplied reason="lost">vix</supplied> huic contiger<supplied reason="lost">ant</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">p</supplied>raeclara fi<supplied reason="lost">de<gap reason="lost" quantity="1" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> praecipua <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Das Stück ist nicht mehr auffindbar. Ursprünglich muß sich rechts eine weitere Tafel mit dem übrigen Text angeschlossen haben.     </p>
+            </div>
+        </body>
+    </text>
+</TEI>

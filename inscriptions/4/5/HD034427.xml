@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Basis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD034427</idno>
+                <idno type="TM">183020</idno><idno type="localID">HD034427</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/53">Basis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/015883">Salonae</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 130 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1861">1861</date>
+                        <placeName ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Splitsko-dalmatinska županija?</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-10-24" who="Feraudi">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        ILJug 2077. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 01988. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 01989. 
+                    </bibl>
+                    <bibl>
+                         W. Kubitschek, JŒAI (Beibl.) 6, 1903, 81-82, Nr. 1; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) R 52. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                C(aio) Valerio C(ai) f(ilio) [T]rom(entina) Respe[cto] / Terentiano c[la]rissimo iuven[i Xviro] / stlit(ibus) iudicand(is) f(ilio) [et] Caediciae L(uci) f(iliae) Luc[illae? - - -] / Crispinilla mate[r] infelicissima av[e vale]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Valerio <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr><supplied reason="lost">T</supplied>rom</abbr><ex>entina</ex></expan> Respe<supplied reason="lost">cto</supplied> <lb n="2"/>Terentiano c<supplied reason="lost">la</supplied>rissimo iuven<supplied reason="lost">i Xviro</supplied> <lb n="3"/><expan><abbr>stlit</abbr><ex>ibus</ex></expan> <expan><abbr>iudicand</abbr><ex>is</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <supplied reason="lost">et</supplied> Caediciae <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> Luc<supplied reason="lost">illae<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/>Crispinilla mate<supplied reason="lost">r</supplied> infelicissima av<supplied reason="lost">e vale</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

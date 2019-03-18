@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD043178</idno>
+                <idno type="TM">192095</idno><idno type="localID">HD043178</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Saint-Germain-en-Laye, Mus. Arch. Nat.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>120</height>
+                                        <width>71</width>
+                                        <depth>57</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">7</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName ref="http://www.trismegistos.org/place/029965">Troesmis</placeName></origPlace>
+                            <origDate notBefore-custom="0218" notAfter-custom="0222" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">218 AD – 222 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/664464">Turcoaia</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Tulcea</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2007-11-07" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://cil-old.bbaw.de/test06/bilder/datenbank/PH0000107.jpg">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IScM 5, 151; Foto u. Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 00773. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 06170. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(eratori) Caesari M(arco) / Aurelio [[A[n]toni]]/[[[n]o]] Pio Fel(ici) Aug(usto) / divi Severi [[n[ep]oti]] / divi Antonini [[[f]il(io)]] dedi/cante T(ito) Fl(avio) Novio Rufo / leg(ato) Aug(usti) pr(o) pr(aetore) M(arcus) Ulp(ius) Antipater / sacerd(os) provin(ciae) et bis du/umviral(is) ob hon(orem) pontif(icatus)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesari <expan><abbr>M</abbr><ex>arco</ex></expan> <lb n="2"/>Aurelio <del rend="erasure">A<supplied reason="lost">n</supplied>toni</del><lb break="no" n="3"/><del rend="erasure"><supplied reason="lost">n</supplied>o</del> Pio <expan><abbr>Fel</abbr><ex>ici</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="4"/>divi Severi <del rend="erasure">n<supplied reason="lost">ep</supplied>oti</del> <lb n="5"/>divi Antonini <del rend="erasure"><supplied reason="lost">f</supplied><expan><abbr>il</abbr><ex>io</ex></expan></del> dedi<lb break="no" n="6"/>cante <expan><abbr>T</abbr><ex>ito</ex></expan> <expan><abbr>Fl</abbr><ex>avio</ex></expan> Novio Rufo <lb n="7"/><expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Ulp</abbr><ex>ius</ex></expan> Antipater <lb n="8"/><expan><abbr>sacerd</abbr><ex>os</ex></expan> <expan><abbr>provin</abbr><ex>ciae</ex></expan> et bis du<lb break="no" n="9"/><expan><abbr>umviral</abbr><ex>is</ex></expan> ob <expan><abbr>hon</abbr><ex>orem</ex></expan> <expan><abbr>pontif</abbr><ex>icatus</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Hedera in Z. 6. (B): CIL III 773; CIL III 6170: Leseabweichungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD031027</idno>
+                <idno type="TM">249501</idno><idno type="localID">HD031027</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033152">Latium et Campania (Regio I)</placeName><placeName ref="http://www.trismegistos.org/place/032591">Volturnum</placeName></origPlace>
+                            <origDate notBefore-custom="0250" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">250 AD – 270 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2001-11-08" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 123, Nr. 73. 
+                    </bibl>
+                    <bibl>
+                         CIL 10, 03723. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Ti(berio) Cl(audio) Ti(beri) fil(io) Pa[l(atina)] / Me[- - - P]risc[o] / Ruf[ino i]un(iori) c(larissimo) v(iro) / tribu[no mi]l(itum) leg(ionis) VII / Cl(audiae) allect(o) inter / quaestor(ios) praet(ori) / urb(ano) leg(ato) prov(inciae) Nar/bonens(is) leg(ato) prov(inciae) Cre/t(a)e praef(ecto) Min(iciae) proco(n)s(uli) / prov(inciae) Achai(a)e leg(ato) pro/v(inciae) Africae p(atronus) c(oloniae) / l(ocus) d(atus) d(ecreto) d(ecurionum)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ti</abbr><ex>berio</ex></expan> <expan><abbr>Cl</abbr><ex>audio</ex></expan> <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> Pa<supplied reason="lost"><expan><abbr>l</abbr><ex>atina</ex></expan></supplied> <lb n="2"/>Me<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">P</supplied>risc<supplied reason="lost">o</supplied> <lb n="3"/>Ruf<supplied reason="lost">ino i</supplied><expan><abbr>un</abbr><ex>iori</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan> <lb n="4"/>tribu<supplied reason="lost">no mi</supplied><expan><abbr>l</abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> VII <lb n="5"/><expan><abbr>Cl</abbr><ex>audiae</ex></expan> <expan><abbr>allect</abbr><ex>o</ex></expan> inter <lb n="6"/><expan><abbr>quaestor</abbr><ex>ios</ex></expan> <expan><abbr>praet</abbr><ex>ori</ex></expan> <lb n="7"/><expan><abbr>urb</abbr><ex>ano</ex></expan> <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan> Nar<lb break="no" n="8"/><expan><abbr>bonens</abbr><ex>is</ex></expan> <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan> Cre<lb break="no" n="9"/>t<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>Min</abbr><ex>iciae</ex></expan> proco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <lb n="10"/><expan><abbr>prov</abbr><ex>inciae</ex></expan> Achai<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>leg</abbr><ex>ato</ex></expan> pro<lb break="no" n="11"/><expan><abbr>v</abbr><ex>inciae</ex></expan> Africae <expan><abbr>p</abbr><ex>atronus</ex></expan> <expan><abbr>c</abbr><ex>oloniae</ex></expan> <lb n="12"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

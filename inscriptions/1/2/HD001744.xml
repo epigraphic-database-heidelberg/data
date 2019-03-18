@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001744</idno>
+                <idno type="TM">251067</idno><idno type="localID">HD001744</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Römisches Theater, Lapidarium</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material>Marmor, geädert / farbig</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>44</height>
+                                        <width>-86</width>
+                                        <depth>7</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033152">Latium et Campania (Regio I)</placeName><placeName ref="http://www.trismegistos.org/place/014433">Minturnae</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Minturno</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Latina</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-02-29" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0157. (B) 
+                    </bibl>
+                    <bibl>
+                         P. Cavuoto, in: MGR 8 (Roma 1982) 533-538, Nr. 25; tav. 16, 27. - AE 1982. 
+                    </bibl>
+                    <bibl>
+                         H. Solin, Arctos 18, 1984, 120-121. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $]ae et Proculae Burb[ulei Optati] / [f(iliabus)? quod t]rib(unal) et simulacr(um) Victor(iae) A[ugustae fecer(unt)] / [ob cuius op]eris dedicat(ionem) decur(ionibus) et filis e[orum sing(ulis) HS XVI? n(ummum)] / [deder(unt) item d]ec(urionum) uxor(ibus) HS XII n(ummum) Aug(ustalibus) HS VIII n(ummum) cet(eris) [colon(is)? et inc(olis)? HS VI? n(ummum) - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ae et Proculae Burb<supplied reason="lost">ulei Optati</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>f</abbr><ex>iliabus</ex></expan>? quod t</supplied><expan><abbr>rib</abbr><ex>unal</ex></expan> et <expan><abbr>simulacr</abbr><ex>um</ex></expan> <expan><abbr>Victor</abbr><ex>iae</ex></expan> A<supplied reason="lost">ugustae <expan><abbr>fecer</abbr><ex>unt</ex></expan></supplied> <lb n="3"/><supplied reason="lost">ob cuius op</supplied>eris <expan><abbr>dedicat</abbr><ex>ionem</ex></expan> <expan><abbr>decur</abbr><ex>ionibus</ex></expan> et filis e<supplied reason="lost">orum <expan><abbr>sing</abbr><ex>ulis</ex></expan> HS XVI<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>n</abbr><ex>ummum</ex></expan></supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>deder</abbr><ex>unt</ex></expan> item d</supplied><expan><abbr>ec</abbr><ex>urionum</ex></expan> <expan><abbr>uxor</abbr><ex>ibus</ex></expan> HS XII <expan><abbr>n</abbr><ex>ummum</ex></expan> <expan><abbr>Aug</abbr><ex>ustalibus</ex></expan> HS VIII <expan><abbr>n</abbr><ex>ummum</ex></expan> <expan><abbr>cet</abbr><ex>eris</ex></expan> <supplied reason="lost"><expan><abbr>colon</abbr><ex>is</ex></expan>? et <expan><abbr>inc</abbr><ex>olis</ex></expan>? HS VI<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>n</abbr><ex>ummum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Der Vater der Stifterinnen ist wahrscheinlich L. Burbuleius Optatus Ligarianus, cos. suff. unter Hadrian (vgl. CIL X 6006 = ILS 1066). Das erhaltene Stück der Tafel ist in 2 Teile zerbrochen. (B): AE: dedicat(ione) decurionibus. Erhalten sind zwei anpassende Fragmente. Material: grauer Marmor.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

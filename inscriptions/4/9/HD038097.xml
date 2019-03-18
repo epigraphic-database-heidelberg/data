@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD038097</idno>
+                <idno type="TM">179352</idno><idno type="localID">HD038097</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/004366">Dacia</placeName><placeName ref="http://www.trismegistos.org/place/014481">Apulum</placeName></origPlace>
+                            <origDate notBefore-custom="0185" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">185 AD – 270 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1800">1800</date>
+                        <placeName ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hunedoara</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-03-06" who="Garcia">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IDR 3, 5, 082. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 01012. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Genio / leg(ionis) XIII g(eminae) / Q(uintus) Caecilius / Lae[t]us [leg(atus)] leg(ionis) eius[d]em / v(otum) [l(ibens)] s(olvit)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Genio <lb n="2"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XIII <expan><abbr>g</abbr><ex>eminae</ex></expan> <lb n="3"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Caecilius <lb n="4"/>Lae<supplied reason="lost">t</supplied>us <supplied reason="lost"><expan><abbr>leg</abbr><ex>atus</ex></expan></supplied> <expan><abbr>leg</abbr><ex>ionis</ex></expan> eius<supplied reason="lost">d</supplied>em <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <supplied reason="lost"><expan><abbr>l</abbr><ex>ibens</ex></expan></supplied> <expan><abbr>s</abbr><ex>olvit</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Altar oder Statuenbasis. Datierung: zwischen 185 und 188, 193/4 und 197 n. Chr. oder ins 3. Jh. n. Chr.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

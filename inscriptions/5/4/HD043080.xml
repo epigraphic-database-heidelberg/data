@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Basis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD043080</idno>
+                <idno type="TM">197718</idno><idno type="localID">HD043080</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Stara Zagora, Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/53">Basis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>10</height>
+                                        <width>50</width>
+                                        <depth>46</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.5-4.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000014">Thracia</placeName><placeName ref="http://www.trismegistos.org/place/015865">Augusta Traiana</placeName></origPlace>
+                            <origDate notBefore-custom="0212" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">212 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1993">1993</date>
+                        <placeName ref="http://www.geonames.org/726848">Stara Zagora</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Stara Zagora</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-07-31" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2002, 1265. 
+                    </bibl>
+                    <bibl>
+                         H. Buyukliev - N. Sharankov, in: K. Boshnakov (Hrsg.), Jubilaeus 5. Sbornik v cest na prof. Margarita Taceva (Sofija 2002) 82-87; obr. 1. - AE 2002. 
+                    </bibl>
+                    <bibl>
+                         SEG 52, 0694. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Ἀγαθῆι Τύχ[ηι] / Τὸν ὐπὲρ πάντας φ[ίλον?] / καὶ μόνον ἔργοις κοσμήσ[α]/ντα τὴν πατρίδα, (πρῶτον) ἄρχοντα / καὶ ἀρχιερέα δι' ὅπλων τετρ[ά]/κις φιλότιμον ἱερέα Ῥώμης / κατασκευάσαντα ἐκ τῶ[ν] / ἰδίων τὴν ἐπιδίστεγον στοὰ[ν] / ἐξηκοντακαιεξάστυλο[ν] / καὶ τὴν δικείονα πρὸς τῷ / Σευηριανῷ γυμνασίῳ ὁ/μοίως οἴκοθεν τριάκοντα / καὶ πέντε κειόνων Μ(ᾶρκον) Αὐρ(ήλιον) / Ἀσιατικὸν ἀρετῆς καὶ εὐ/νοίας χάριν
+            --><div type="edition" xml:lang="grc"><head>Text</head><ab><lb n="1"/>
+                Ἀγαθῆι Τύχ<supplied reason="lost">ηι</supplied> <lb n="2"/>Τὸν ὐπὲρ πάντας φ<supplied reason="lost" cert="low">ίλον</supplied> <lb n="3"/>καὶ μόνον ἔργοις κοσμήσ<supplied reason="lost">α</supplied><lb break="no" n="4"/>ντα τὴν πατρίδα, (πρῶτον) ἄρχοντα <lb n="5"/>καὶ ἀρχιερέα δι' ὅπλων τετρ<supplied reason="lost">ά</supplied><lb break="no" n="6"/>κις φιλότιμον ἱερέα Ῥώμης <lb n="7"/>κατασκευάσαντα ἐκ τῶ<supplied reason="lost">ν</supplied> <lb n="8"/>ἰδίων τὴν ἐπιδίστεγον στοὰ<supplied reason="lost">ν</supplied> <lb n="9"/>ἐξηκοντακαιεξάστυλο<supplied reason="lost">ν</supplied> <lb n="10"/>καὶ τὴν δικείονα πρὸς τῷ <lb n="11"/>Σευηριανῷ γυμνασίῳ ὁ<lb break="no" n="12"/>μοίως οἴκοθεν τριάκοντα <lb n="13"/>καὶ πέντε κειόνων Μ(ᾶρκον) Αὐρ(ήλιον) <lb n="14"/>Ἀσιατικὸν ἀρετῆς καὶ εὐ<lb break="no" n="15"/>νοίας χάριν
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Qualität der Abbildung ließ eine genaue Nachprüfung der Lesungen nicht zu.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

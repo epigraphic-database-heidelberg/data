@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD065341</idno>
+                <idno type="TM">197910</idno><idno type="localID">HD065341</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Plovdiv, Arh. Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>185</height>
+                                        <width>65</width>
+                                        <depth>75</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.6</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000014">Thracia</placeName><placeName ref="http://www.trismegistos.org/place/015863">Philippopolis</placeName></origPlace>
+                            <origDate notBefore-custom="0218" notAfter-custom="0222" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">218 AD – 222 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/728193">Plovdiv</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Plovdiv</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-09-21" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2007, 1256. 
+                    </bibl>
+                    <bibl>
+                         N. Sharankov, in: A. Iakovidou (Hrsg.), Thrace in the Graeco-Roman world. 
+                    </bibl>
+                    <bibl>
+                         Proceedings of the 10th International Congress of Thracology, Komotini - Alexandroupolis 2005 (Athens 2007) 525, Nr. 7; Fig. 10. - AE 2007. 
+                    </bibl>
+                    <bibl>
+                         SEG 57, 0625. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [[Τ̣[ὸν μ]έ̣[γιστον]]] / [[[αὐτοκράτορα Μ(ᾶρκον)]]] / [[[Αὐρ(ήλιον) Ἀντωνῖνον]]] / [ἡ] λαμπροτάτ̣η / Θρᾳκῶν μητρό/πολις Φιλιπ/πόπολις νεω/κόρος ἐπι/μελουμένου / Μ(άρκου) Αὐρ(ηλίου) Ἀλεξάν/δρου Θρᾳκάρχου / καὶ πρώτου ἄρ/χοντος / εὐτυχῶς
+            --><div type="edition" xml:lang="grc"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure">Τ̣<supplied reason="lost">ὸν μ</supplied>έ̣[γιστον</del>] <lb n="2"/><del rend="erasure">[αὐτοκράτορα Μ(ᾶρκον)</del>] <lb n="3"/><del rend="erasure">[Αὐρ(ήλιον) Ἀντωνῖνον</del>] <lb n="4"/><supplied reason="lost">ἡ</supplied> λαμπροτάτ̣η <lb n="5"/>Θρᾳκῶν μητρό<lb break="no" n="6"/>πολις Φιλιπ<lb break="no" n="7"/>πόπολις νεω<lb break="no" n="8"/>κόρος ἐπι<lb break="no" n="9"/>μελουμένου <lb n="10"/>Μ(άρκου) Αὐρ(ηλίου) Ἀλεξάν<lb break="no" n="11"/>δρου Θρᾳκάρχου <lb n="12"/>καὶ πρώτου ἄρ<lb break="no" n="13"/>χοντος <lb n="14"/>εὐτυχῶς
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

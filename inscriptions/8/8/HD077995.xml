@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Platte</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD077995</idno>
+                <idno type="TM"/><idno type="localID">HD077995</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mainz, Landesmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-60</height>
+                                        <width>50</width>
+                                        <depth>12</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
+
+                                    <rs type="guidelines">GUIDELINES</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum</placeName></origPlace>
+                            <origDate notBefore-custom="0601" notAfter-custom="0700" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">601 AD – 700 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1882">1882</date>
+                        <placeName ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-11-28" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F015794">
+            <desc>F015794</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 07203. 
+                    </bibl>
+                    <bibl>
+                         CLE 0793. (B) 
+                    </bibl>
+                    <bibl>
+                         ILCV 3567. 
+                    </bibl>
+                    <bibl>
+                         W. Boppert, Die frühchristlichen Inschriften des Mittelrheingebietes (Mainz 1971) 34-39; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         CIL 13, 07203 add. 04, p. 108. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $](?) / [-]I(?)I(?)I(?)I(?)CI(?)I(?)O(?)I(?)[- - -]I(?)[- - -]I(?)[-] / requiiscit(!) Dructa/charius qui vixit in / pace annus(!) XXI / condita (h)oc tumulis / requiiscit(!) ossa se/pulchrum(!) (i?)bique tu/mulatus propriam / subteriacit(!) arce/m flivelis(!) evinit(!) me/serorum(!) corda pa/rentum eo(rum?) filius
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="2"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>CI</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>O</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/></expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="3"/>requiiscit <note>sic</note> Dructa<lb break="no" n="4"/>charius qui vixit in <lb n="5"/>pace annus <note>sic</note> XXI <lb n="6"/>condita <expan><ex>h</ex><abbr>oc</abbr></expan> tumulis <lb n="7"/>requiiscit <note>sic</note> ossa se<lb break="no" n="8"/>pulchrum <note>sic</note> (i<certainty match="preceding-sibling::node()" locus="value"/>bique tu<lb break="no" n="9"/>mulatus propriam <lb n="10"/>subteriacit <note>sic</note> arce<lb break="no" n="11"/>m flivelis <note>sic</note> evinit <note>sic</note> me<lb break="no" n="12"/>serorum <note>sic</note> corda pa<lb break="no" n="13"/>rentum <expan><abbr>eo</abbr><ex cert="low">rum</ex></expan> filius
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Buchstabe A mit spitz nach unten zeigender Querhaste. Buchstabe O in Form einer Raute. Z. 10: flivelis für flebilis. Metrik: Z. 5-12 (parentum). (B): CLE: Z. 8: prope iam.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

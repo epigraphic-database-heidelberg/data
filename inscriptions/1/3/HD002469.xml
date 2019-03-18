@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002469</idno>
+                <idno type="TM">282582</idno><idno type="localID">HD002469</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Chieti, Mus. Naz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>120</height>
+                                        <width>39</width>
+                                        <depth>30</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2.5-1.7</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Samnium (Regio IV)</placeName><placeName ref="http://www.trismegistos.org/place/014418">Peltuinum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1978">1978</date>
+                        <placeName ref="http://www.geonames.org/">S. Pio delle Camere</placeName><placeName type="modern_region" ref="http://www.geonames.org/">L'Aquila</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-08-23" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1985, 0330a u. b. 
+                    </bibl>
+                    <bibl>
+                         M. Buonocore - P. Cugusi, Epigraphica 47, 1985, 35-42; fig. 2 u. 43-51, fig. 4. (BC) - AE. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Onesim[o] / C(ai) Corneli / servo parentes p(osuerunt) / v(ixit) a(nnos) XXVI / Fidus Fidus / conser(vi) pient(issimo) homin[i] // [quid] moror si non in[vitus] / consiste viator et vide quam va/[nu]m hominem super annos vixi / ominum con[spect]um [requi]/[sisti] avide signis semperque / rataque dum[- - -] fructus exigas et [- - -] / [- - -] hunc titulum posuere [- - -] / parentes
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Onesim<supplied reason="lost">o</supplied> <lb n="2"/><expan><abbr>C</abbr><ex>ai</ex></expan> Corneli <lb n="3"/>servo parentes <expan><abbr>p</abbr><ex>osuerunt</ex></expan> <lb n="4"/><expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> XXVI <lb n="5"/>Fidus Fidus <lb n="6"/><expan><abbr>conser</abbr><ex>vi</ex></expan> <expan><abbr>pient</abbr><ex>issimo</ex></expan> homin<supplied reason="lost">i</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">quid</supplied> moror si non in<supplied reason="lost">vitus</supplied> <lb n="2"/>consiste viator et vide quam va<lb break="no" n="3"/><supplied reason="lost">nu</supplied>m hominem super annos vixi <lb n="4"/>ominum con<supplied reason="lost">spect</supplied>um <supplied reason="lost">requi</supplied><lb break="no" n="5"/><supplied reason="lost">sisti</supplied> avide signis semperque <lb n="6"/>rataque dum<gap reason="lost" extent="unknown" unit="character"/> fructus exigas et <gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> hunc titulum posuere <gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/>parentes
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Z. 6: conser(vus). (C): Fidus wird als eine Person aufgefaßt, dessen cognomen wiederholt wird.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

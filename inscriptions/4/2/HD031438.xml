@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Architekturteil</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD031438</idno>
+                <idno type="TM">205751</idno><idno type="localID">HD031438</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/35">Architekturteil</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>88</height>
+                                        <width>64</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">15-13</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003344">Numidia</placeName><placeName ref="http://www.trismegistos.org/place/017465">Lambaesis, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0174" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">174 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2505572">Batna</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-05-11" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 159, Nr. 39g. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 02654. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 18104. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) A 382. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Neptuno] Augu[sto] sacrum / Imp(eratori) Ca[es(ari) M(arco) Aurelio A]ntoni[no Aug(usto) Armeniac]o Medico Par[thico Germanico t]r(ibunicia) pot(estate) XXVIII im[p(eratori) VI? co(n)s(uli) III p(atri) p(atriae) por]ticus et an[tas] et propyla / cum v[estibulo - - -]aten[- - - legio II]I Augus[ta fecit dedica]nte M(arco) Aemilio [Macro Satu]rnino le[g(ato) Au]g(usti) pr(o) pr(aetore) co(n)s(uli) de(signato)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Neptuno</supplied> Augu<supplied reason="lost">sto</supplied> sacrum <lb n="2"/><expan><abbr>Imp</abbr><ex>eratori</ex></expan> Ca<supplied reason="lost"><expan><abbr>es</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio A</supplied>ntoni<supplied reason="lost">no <expan><abbr>Aug</abbr><ex>usto</ex></expan> Armeniac</supplied>o Medico Par<supplied reason="lost">thico Germanico t</supplied><expan><abbr>r</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XXVIII im<supplied reason="lost"><expan><abbr>p</abbr><ex>eratori</ex></expan> VI<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> III <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> por</supplied>ticus et an<supplied reason="lost">tas</supplied> et propyla <lb n="3"/>cum v<supplied reason="lost">estibulo</supplied><gap reason="lost" extent="unknown" unit="character"/>aten<supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> legio II</supplied>I Augus<supplied reason="lost">ta fecit dedica</supplied>nte <expan><abbr>M</abbr><ex>arco</ex></expan> Aemilio <supplied reason="lost">Macro Satu</supplied>rnino le<supplied reason="lost"><expan><abbr>g</abbr><ex>ato</ex></expan> Au</supplied><expan><abbr>g</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>de</abbr><ex>signato</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Sechs nicht aneinanderpassende Fragmente eines Frieses. Breitenangabe bezieht sich auf Fragment a; Breite Fragment b: (64) cm; c: (130) cm; d: (150) cm; e: (97) cm; f: (105) cm. Z.. 3 (Anfang): hinter CVM V möglicherweise noch der Rest einer senkrechten Haste erhalten (CIL VIII 18104).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

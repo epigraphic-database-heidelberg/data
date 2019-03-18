@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD007401</idno>
+                <idno type="TM">285458</idno><idno type="localID">HD007401</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>71</height>
+                                        <width>85</width>
+                                        <depth>7</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3-9</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Transpadana (Regio XI)</placeName><placeName ref="http://www.trismegistos.org/place/003313">Vercellae, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0408-05-02" notAfter-custom="0408-05-02" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">2.5.408 AD – 588 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Salussola</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Piemonte</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-02-01" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1986, 0269. (B) 
+                    </bibl>
+                    <bibl>
+                         S. Roda, Iscrizione latine di Vercelli (Torino 1985) 176, Nr. 104; Foto. - AE 1986. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                B(onae) m(emoriae) / hic in [som]no pace[s! re]quiescit / Vitale[s! v(ir)? i(nlustris)?] adol[escen]s qui vixit / in hac pra[e]senti vita ann(um) un(um) / et m(enses) VI obi[it s]ub d(ie) VI Non(as) Mai(as) / ind(ictione) VI [- - -?]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>B</abbr><ex>onae</ex></expan> <expan><abbr>m</abbr><ex>emoriae</ex></expan> <lb n="2"/>hic in <supplied reason="lost">som</supplied>no pace<supplied reason="lost">s! re</supplied>quiescit <lb n="3"/>Vitale<supplied reason="lost" cert="low">s! v(ir)? i(nlustris)</supplied> adol<supplied reason="lost">escen</supplied>s qui vixit <lb n="4"/>in hac pra<supplied reason="lost">e</supplied>senti vita <expan><abbr>n<am>n</am></abbr><ex>um</ex></expan> <expan><abbr>un</abbr><ex>um</ex></expan> <lb n="5"/>et <expan><abbr>m</abbr><ex>enses</ex></expan> VI obi<supplied reason="lost">it s</supplied>ub <expan><abbr>d</abbr><ex>ie</ex></expan> VI <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Mai</abbr><ex>as</ex></expan> <lb n="6"/><expan><abbr>ind</abbr><ex>ictione</ex></expan> VI <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Vierfach gebrochene, oben links fragmentarische Tafel; an den Bruchstellen z.T. starke Beschädigungen auf Kosten der Lesbarkeit der entsprechenden Partien der Inschrift. [v(ir) i(nlustris)]: Ergänzung nach einer Handschrift (vgl. L. Schiaparelli, Tre iscrizioni antiche nel Biellese, AAT 30, 1894/95, 198-200). (B): Z. 5: d(ie) Non(as) Mai(as). Datierung: paläographisch 5. bzw. 6. Jh. n. Chr. naheliegend; innerhalb der VI. Indikation der frühestmögliche Termin im 5. Jh. n. Chr. auf das Jahr 408, der spätestmögliche im 6. Jh. n. Chr. auf das Jahr 588.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

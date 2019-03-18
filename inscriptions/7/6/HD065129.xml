@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD065129</idno>
+                <idno type="TM">190611</idno><idno type="localID">HD065129</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Thessaloníki, Arch. Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-73</height>
+                                        <width>221</width>
+                                        <depth>93.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000161">Macedonia</placeName><placeName>Thessalonica</placeName></origPlace>
+                            <origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD – 230 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1966">1966</date>
+                        <placeName ref="http://www.geonames.org/">Thessaloníki</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kentrikí Makedonía</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-01-31" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2006, 1322. 
+                    </bibl>
+                    <bibl>
+                         P.M. Nigdelis, Epigraphika Thessalonikeia. Symboli stin politiki kai koinoniki historia tis archaias Thessalonikis (Thessaloniki 2006) 391-395, Nr. 12; eik. 95. - AE 2006. 
+                    </bibl>
+                    <bibl>
+                         SEG 56, 0804. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Ἀλ[λ]ιδία Ἀθηνὼ Ἀλλιδίῳ Μακεδόνι μνήμης χάριν ἐξορκίζω δὲ τὴν [τοῦ] / αὐ[το]κράτορος τύχην τὴν κυρίαν μου Ἀλλιδίαν Ἀθηνὼν καὶ τοὺ[ς] / ὄν[τα]ς κληρονόμους αὐτῆς μηδένα ἀνοῖξε τὴν ληνόν μήτε σὲ μήτε ἄλ[λον] / τιν[ά] ἐὰν δέ τις ἐπιβουλεύσῃ τῶν κληρονόμων αὐτῆς τοῦ ἔσω κατατεθῆ[ναι] / ἢ ἄλλος τις δώσι τῷ ταμείῳ προστείμου |(δηνάρια) ͵ε
+            --><div type="edition" xml:lang="grc"><head>Text</head><ab><lb n="1"/>
+                Ἀλ<supplied reason="lost">λ</supplied>ιδία Ἀθηνὼ Ἀλλιδίῳ Μακεδόνι μνήμης χάριν ἐξορκίζω δὲ τὴν <supplied reason="lost">τοῦ</supplied> <lb n="2"/>αὐ<supplied reason="lost">το</supplied>κράτορος τύχην τὴν κυρίαν μου Ἀλλιδίαν Ἀθηνὼν καὶ τοὺ<supplied reason="lost">ς</supplied> <lb n="3"/>ὄν<supplied reason="lost">τα</supplied>ς κληρονόμους αὐτῆς μηδένα ἀνοῖξε τὴν ληνόν μήτε σὲ μήτε ἄλ<supplied reason="lost">λον</supplied> <lb n="4"/>τιν<supplied reason="lost">ά</supplied> ἐὰν δέ τις ἐπιβουλεύσῃ τῶν κληρονόμων αὐτῆς τοῦ ἔσω κατατεθῆ<supplied reason="lost">ναι</supplied> <lb n="5"/>ἢ ἄλλος τις δώσι τῷ ταμείῳ προστείμου |(δηνάρια) ͵ε
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

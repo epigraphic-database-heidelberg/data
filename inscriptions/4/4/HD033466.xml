@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD033466</idno>
+                <idno type="TM">205845</idno><idno type="localID">HD033466</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003344">Numidia</placeName><placeName ref="http://www.trismegistos.org/place/017465">Lambaesis</placeName></origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2477528">Tazoult-Lambèse</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Batna</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-12-10" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 174, Nr. 50hh. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 18068. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) A 595. 
+                    </bibl>
+                    <bibl>
+                         AE 1890, 0107. 
+                    </bibl>
+                    <bibl>
+                         AE 1891, 0149. 
+                    </bibl>
+                    <bibl>
+                         AE 1992, 1875. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] / [- - - principis?] / [i]uvent(utis) ma[tris Aug(usti)] / et castroru[m dedica]nte Q(uinto) Ani[cio Fausto] / leg(ato) Augg(ustorum) [pr(o) pr(aetore) c(larissimo) v(iro) co(n)s(ule)] / ampl[issimo] / veteran[i leg(ionis) III] / Aug(ustae) p(iae) v(indicis) q[ui mi]/litare c[oeperunt] / Cn(aeo) Cl(audio) Se[vero] / II Tib(erio) Cl(audio) P[ompeiano II] / co(n)ss(ulibus) // L(ucius) Callius(?) [- - -]O(?)L(?)[- - -] / C(aius) Nerullius Seranus [C]irt(a) / M(arcus) Aurelius Fatalis Thev(este) / M(arcus) Iulius Quintulus Cirt(a) / M(arcus) Cingonius Verus Cirt(a) / M(arcus) Flavius Urbanus Cirt(a) / C(aius) Iulius Saturninus cast(ris) / coh(ors) VII Tib(erius) Claudius Castus Cirt(a) / Q(uintus) Memmius Avitus cast(ris) / C(aius) Attius Roga[tus?] cast(ris) / Q(uintus) Cerellius Silv[anus] cas[t(ris)] / M(arcus) Cattius Faustinus Cirt(a) / C(aius) Sertorius Victor Kart(hagine) / M(arcus) Munatius Messor cast(ris) / C(aius) Iulius Siliquarius Cirt(a) / C(aius) Iulius Honoratus Cirt(a) / M(arcus) Granius Clemens cast(ris) / M(arcus) Cassius Rufus [- - -] / C(aius) Aufidius Faruleus [- - -]/ M(arcus) Aurelius Cittinus [- - -]/ Q(uintus) Clodius Clarus Cirt(a) / M(arcus) Ulpius Satur[ni]nus Ka[r]t(hagine) / M(arcus) Gellius Optat[u]s Ba[gai?] / C(aius) Cornelius Sat[urninus] Cirt(a) / M(arcus) Nuerius Da[tus] Cirt(a) / T(itus) Aelius Creticus cast(ris) / Q(uintus) Aurelius Rufus cast(ris) / C(aius) Vinicius Donatus cast(ris) / C(aius) Vitalis C[u]pitus Had(rumeto) / C(aius) Iulius Arabus Cuic(ule) / Q(uintus) Geminius Saturninus Cirta / M(arcus) Atinius Felix Tham(ugade) / P(ublius) Publicius Orestinus C[- - -]s(- - -) cor(nicularius) tr(ibuni) / C(aius) Petronius Mangala Cuic(ule) / C(aius) Iulius Extricat[us] Thev(este) / M(arcus) Caecilius Meridianus cast(ris) / Q(uintus) Sallustius Felix Cirt(a) / C(aius) Iulius Victor Cirt(a) / M(arcus) Terentius Gemellus Cirt(a) / C(aius) Geminius Vetustinus Kar(thagine) b(ene)f(iciarius) trib(uni) / Sex(tus) Vettius Victorinus cast(ris) / coh(ors) VIII C(aius) Iulius Gudullus ca[st(ris)] / M(arcus) Aemilius Hiddibal cast(ris) / M(arcus) Flavius Rogatus Amm(aedara) / C(aius) Staberius Primus cast(ris) // [- - -]X[- - -]I(?)I(?)I(?)I(?)V(?)C(?)AI(?)S / C(aius) Pomponius Vitalis Amm(a)ed(ara) / C(aius) Egnatius Saturnin(us) Kart(hagine) / L(ucius) Iulius Faustus Cil(l)io / Q(uintus) Aemilius Saxo Cirt(a) / C(aius) Iulius Iucundus Cirt(a) / C(aius) Laelius Secundus Cirt(a) / C(aius) Iulius Festus Simit(thu) / C(aius) Vibsanius(!) Victor cast(ris) / C(aius) Iulius Impetratus Kart(hagine) / C(aius) Cornelius Honoratus Tham(ugade) / C(aius) Cerellius Fructus Cast(ris) corn(icularius) / Q(uintus) Oppius Crescens Hippo(ne) / C(aius) Gentius Iulianus cast(ris) / coh(ors) X Q(uintus) Volus{s}ius Maxim(us) Lamb(aese) / C(aius) Iulius Vitalis Thev(este) / C(aius) Iulius Baric(io) cast(ris) / C(aius) Egnatius Martialis Tham(ugade) / M(arcus) Numisius Gemellus cast(ris) / M(arcus) Nurius Felix Cirt(a) / M(arcus) Quintius Servilius Bulla / C(aius) G[e]ll[ius](?) Martialis Cil(l)io / T(itus) Flavius Saturninus cast(ris) / L(ucius) Latinius Silvanus Kart(hagine) / L(ucius) Agrius Ianuarius Kart(hagine) / C(aius) Cantinius Victor Calam(a) / C(aius) Saltius Victor cast(ris) / C(aius) Attius Fa[ust]us [Ti]pas(a) b(ene)f(iciarius) trib(uni) / L(ucius) Omidius Donatus Tham(ugade) sig(nifer) / C(aius) Iulius Felix cast(ris) / C(aius) Iulius Optatus Hipp(one) / T(itus) Aonius Donatus Bagai / C(aius) Pinaeus Baric(io) cast(ris) / L(ucius) Flavius C[- - -]inus Calam(a) / L(ucius) Octavius Augustalis Kart(hagine) / C(aius) Silicius Ianuarius cast(ris) / L(ucius) Mellonius Felix Cirt(a) / L(ucius) Lucius Antoninus Dian(a) / L(ucius) Lucceius Felix Thev(este) / C(aius) Aelius Fortunatu[s] Cirt(a) / C(aius) Pomponius Feli[x] N[- - -] / M(arcus) Laberius O[pt]atus Tipas(a) / C(aius) Caecilius Ian[uarius] Hipp(one) / C(aius) Iulius Victo[r] Cirt(a) / P(ublius) Magnius Gemellus Thusd(ro)(!) / L(ucius) Appius Porcellus Oea /
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> principis</supplied> <lb n="2"/><expan><abbr><supplied reason="lost">i</supplied>uvent</abbr><ex>utis</ex></expan> ma<supplied reason="lost">tris <expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> <lb n="3"/>et castroru<supplied reason="lost">m dedica</supplied>nte <expan><abbr>Q</abbr><ex>uinto</ex></expan> Ani<supplied reason="lost">cio Fausto</supplied> <lb n="4"/><expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <supplied reason="lost"><expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></supplied> <lb n="5"/>ampl<supplied reason="lost">issimo</supplied> <lb n="6"/>veteran<supplied reason="lost">i <expan><abbr>leg</abbr><ex>ionis</ex></expan> III</supplied> <lb n="7"/><expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>v</abbr><ex>indicis</ex></expan> q<supplied reason="lost">ui mi</supplied><lb break="no" n="8"/>litare c<supplied reason="lost">oeperunt</supplied> <lb n="9"/><expan><abbr>Cn</abbr><ex>aeo</ex></expan> <expan><abbr>Cl</abbr><ex>audio</ex></expan> Se<supplied reason="lost">vero</supplied> <lb n="10"/>II <expan><abbr>Tib</abbr><ex>erio</ex></expan> <expan><abbr>Cl</abbr><ex>audio</ex></expan> P<supplied reason="lost">ompeiano II</supplied> <lb n="11"/>co<expan><ex>n</ex><abbr>ss</abbr><ex>ulibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Callius</abbr><ex cert="low"/></expan> <gap reason="lost" extent="unknown" unit="character"/><expan><abbr>O</abbr><ex cert="low"/>L</expan><certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Nerullius Seranus <expan><abbr><supplied reason="lost">C</supplied>irt</abbr><ex>a</ex></expan> <lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Aurelius Fatalis <expan><abbr>Thev</abbr><ex>este</ex></expan> <lb n="4"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Iulius Quintulus <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="5"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Cingonius Verus <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="6"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Flavius Urbanus <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="7"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Saturninus <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="8"/><expan><abbr>coh</abbr><ex>ors</ex></expan> VII <expan><abbr>Tib</abbr><ex>erius</ex></expan> Claudius Castus <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="9"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Memmius Avitus <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="10"/><expan><abbr>C</abbr><ex>aius</ex></expan> Attius Roga<supplied reason="lost" cert="low">tus</supplied> <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="11"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Cerellius Silv<supplied reason="lost">anus</supplied> cas<supplied reason="lost"><expan><abbr>t</abbr><ex>ris</ex></expan></supplied> <lb n="12"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Cattius Faustinus <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="13"/><expan><abbr>C</abbr><ex>aius</ex></expan> Sertorius Victor <expan><abbr>Kart</abbr><ex>hagine</ex></expan> <lb n="14"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Munatius Messor <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="15"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Siliquarius <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="16"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Honoratus <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="17"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Granius Clemens <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="18"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Cassius Rufus <gap reason="lost" extent="unknown" unit="character"/> <lb n="19"/><expan><abbr>C</abbr><ex>aius</ex></expan> Aufidius Faruleus <gap reason="lost" extent="unknown" unit="character"/> <lb n="20"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Aurelius Cittinus <gap reason="lost" extent="unknown" unit="character"/> <lb n="21"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Clodius Clarus <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="22"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Ulpius Satur<supplied reason="lost">ni</supplied>nus <expan><abbr>Ka<supplied reason="lost">r</supplied>t</abbr><ex>hagine</ex></expan> <lb n="23"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Gellius Optat<supplied reason="lost">u</supplied>s Ba<supplied reason="lost" cert="low">gai</supplied> <lb n="24"/><expan><abbr>C</abbr><ex>aius</ex></expan> Cornelius Sat<supplied reason="lost">urninus</supplied> <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="25"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Nuerius Da<supplied reason="lost">tus</supplied> <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="26"/><expan><abbr>T</abbr><ex>itus</ex></expan> Aelius Creticus <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="27"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Aurelius Rufus <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="28"/><expan><abbr>C</abbr><ex>aius</ex></expan> Vinicius Donatus <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="29"/><expan><abbr>C</abbr><ex>aius</ex></expan> Vitalis C<supplied reason="lost">u</supplied>pitus <expan><abbr>Had</abbr><ex>rumeto</ex></expan> <lb n="30"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Arabus <expan><abbr>Cuic</abbr><ex>ule</ex></expan> <lb n="31"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Geminius Saturninus Cirta <lb n="32"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Atinius Felix <expan><abbr>Tham</abbr><ex>ugade</ex></expan> <lb n="33"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Publicius Orestinus C<gap reason="lost" extent="unknown" unit="character"/><abbr>s</abbr> <expan><abbr>cor</abbr><ex>nicularius</ex></expan> <expan><abbr>tr</abbr><ex>ibuni</ex></expan> <lb n="34"/><expan><abbr>C</abbr><ex>aius</ex></expan> Petronius Mangala <expan><abbr>Cuic</abbr><ex>ule</ex></expan> <lb n="35"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Extricat<supplied reason="lost">us</supplied> <expan><abbr>Thev</abbr><ex>este</ex></expan> <lb n="36"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Caecilius Meridianus <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="37"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Sallustius Felix <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="38"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Victor <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="39"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Terentius Gemellus <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="40"/><expan><abbr>C</abbr><ex>aius</ex></expan> Geminius Vetustinus <expan><abbr>Kar</abbr><ex>thagine</ex></expan> b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>trib</abbr><ex>uni</ex></expan> <lb n="41"/><expan><abbr>Sex</abbr><ex>tus</ex></expan> Vettius Victorinus <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="42"/><expan><abbr>coh</abbr><ex>ors</ex></expan> VIII <expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Gudullus ca<supplied reason="lost"><expan><abbr>st</abbr><ex>ris</ex></expan></supplied> <lb n="43"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Aemilius Hiddibal <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="44"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Flavius Rogatus <expan><abbr>Amm</abbr><ex>aedara</ex></expan> <lb n="45"/><expan><abbr>C</abbr><ex>aius</ex></expan> Staberius Primus <expan><abbr>cast</abbr><ex>ris</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/>X<gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>V</abbr><ex cert="low"/>C</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>AI</abbr><ex cert="low"/>S</expan> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Pomponius Vitalis Amm<expan><ex>a</ex><abbr>ed</abbr><ex>ara</ex></expan> <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> Egnatius <expan><abbr>Saturnin</abbr><ex>us</ex></expan> <expan><abbr>Kart</abbr><ex>hagine</ex></expan> <lb n="4"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Iulius Faustus Cil<expan><ex>l</ex><abbr>io</abbr></expan> <lb n="5"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Aemilius Saxo <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="6"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Iucundus <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="7"/><expan><abbr>C</abbr><ex>aius</ex></expan> Laelius Secundus <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="8"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Festus <expan><abbr>Simit</abbr><ex>thu</ex></expan> <lb n="9"/><expan><abbr>C</abbr><ex>aius</ex></expan> Vibsanius <note>sic</note> Victor <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="10"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Impetratus <expan><abbr>Kart</abbr><ex>hagine</ex></expan> <lb n="11"/><expan><abbr>C</abbr><ex>aius</ex></expan> Cornelius Honoratus <expan><abbr>Tham</abbr><ex>ugade</ex></expan> <lb n="12"/><expan><abbr>C</abbr><ex>aius</ex></expan> Cerellius Fructus <expan><abbr>Cast</abbr><ex>ris</ex></expan> <expan><abbr>corn</abbr><ex>icularius</ex></expan> <lb n="13"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Oppius Crescens <expan><abbr>Hippo</abbr><ex>ne</ex></expan> <lb n="14"/><expan><abbr>C</abbr><ex>aius</ex></expan> Gentius Iulianus <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="15"/><expan><abbr>coh</abbr><ex>ors</ex></expan> X <expan><abbr>Q</abbr><ex>uintus</ex></expan> Volus<surplus>s</surplus>ius <expan><abbr>Maxim</abbr><ex>us</ex></expan> <expan><abbr>Lamb</abbr><ex>aese</ex></expan> <lb n="16"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Vitalis <expan><abbr>Thev</abbr><ex>este</ex></expan> <lb n="17"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius <expan><abbr>Baric</abbr><ex>io</ex></expan> <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="18"/><expan><abbr>C</abbr><ex>aius</ex></expan> Egnatius Martialis <expan><abbr>Tham</abbr><ex>ugade</ex></expan> <lb n="19"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Numisius Gemellus <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="20"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Nurius Felix <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="21"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Quintius Servilius Bulla <lb n="22"/><expan><abbr>C</abbr><ex>aius</ex></expan> G<supplied reason="lost">e</supplied>ll<supplied reason="lost" cert="low">ius</supplied> Martialis Cil<expan><ex>l</ex><abbr>io</abbr></expan> <lb n="23"/><expan><abbr>T</abbr><ex>itus</ex></expan> Flavius Saturninus <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="24"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Latinius Silvanus <expan><abbr>Kart</abbr><ex>hagine</ex></expan> <lb n="25"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Agrius Ianuarius <expan><abbr>Kart</abbr><ex>hagine</ex></expan> <lb n="26"/><expan><abbr>C</abbr><ex>aius</ex></expan> Cantinius Victor <expan><abbr>Calam</abbr><ex>a</ex></expan> <lb n="27"/><expan><abbr>C</abbr><ex>aius</ex></expan> Saltius Victor <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="28"/><expan><abbr>C</abbr><ex>aius</ex></expan> Attius Fa<supplied reason="lost">ust</supplied>us <expan><abbr><supplied reason="lost">Ti</supplied>pas</abbr><ex>a</ex></expan> b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <expan><abbr>trib</abbr><ex>uni</ex></expan> <lb n="29"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Omidius Donatus <expan><abbr>Tham</abbr><ex>ugade</ex></expan> <expan><abbr>sig</abbr><ex>nifer</ex></expan> <lb n="30"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Felix <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="31"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Optatus <expan><abbr>Hipp</abbr><ex>one</ex></expan> <lb n="32"/><expan><abbr>T</abbr><ex>itus</ex></expan> Aonius Donatus Bagai <lb n="33"/><expan><abbr>C</abbr><ex>aius</ex></expan> Pinaeus <expan><abbr>Baric</abbr><ex>io</ex></expan> <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="34"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Flavius C<gap reason="lost" extent="unknown" unit="character"/>inus <expan><abbr>Calam</abbr><ex>a</ex></expan> <lb n="35"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Octavius Augustalis <expan><abbr>Kart</abbr><ex>hagine</ex></expan> <lb n="36"/><expan><abbr>C</abbr><ex>aius</ex></expan> Silicius Ianuarius <expan><abbr>cast</abbr><ex>ris</ex></expan> <lb n="37"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Mellonius Felix <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="38"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Lucius Antoninus <expan><abbr>Dian</abbr><ex>a</ex></expan> <lb n="39"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Lucceius Felix <expan><abbr>Thev</abbr><ex>este</ex></expan> <lb n="40"/><expan><abbr>C</abbr><ex>aius</ex></expan> Aelius Fortunatu<supplied reason="lost">s</supplied> <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="41"/><expan><abbr>C</abbr><ex>aius</ex></expan> Pomponius Feli<supplied reason="lost">x</supplied> N<gap reason="lost" extent="unknown" unit="character"/> <lb n="42"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Laberius O<supplied reason="lost">pt</supplied>atus <expan><abbr>Tipas</abbr><ex>a</ex></expan> <lb n="43"/><expan><abbr>C</abbr><ex>aius</ex></expan> Caecilius Ian<supplied reason="lost">uarius</supplied> <expan><abbr>Hipp</abbr><ex>one</ex></expan> <lb n="44"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Victo<supplied reason="lost">r</supplied> <expan><abbr>Cirt</abbr><ex>a</ex></expan> <lb n="45"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Magnius Gemellus <expan><abbr>Thusd</abbr><ex>ro</ex></expan> <note>sic</note> <lb n="46"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Appius Porcellus Oea <lb n="47"/></ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Datierung: nicht vor 198 oder 199 n. Chr., als Q. Anicius Faustus vermutlich Konsul wurde. Die Liste der Veteranen befindet sich, in 2 Kolumnen geschrieben, auf der linken Nebenseite der Basis.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

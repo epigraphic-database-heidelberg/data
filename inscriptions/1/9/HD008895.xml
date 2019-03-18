@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD008895</idno>
+                <idno type="TM">203550</idno><idno type="localID">HD008895</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Mauretania Caesariensis</placeName><placeName ref="http://www.trismegistos.org/place/020331">Auzia</placeName></origPlace>
+                            <origDate notBefore-custom="0200" notAfter-custom="0201" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">200 AD – 201 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2479161">Sour el Ghozlane</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Bouira</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2010-05-12" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 207, Nr.24b. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 09030. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) A 231. 
+                    </bibl>
+                    <bibl>
+                         H.-G. Pflaum, Les carrières procuratoriennes équestres sous le Haut-Empire romain (Paris 1960/61) 621-625, Nr. 233, 3. 
+                    </bibl>
+                    <bibl>
+                          
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(eratori) Caes(ari) L(ucio) Septimio Severo Pio Aug(usto) Arab(ico) Adiab(enico) Parth(ico) max(imo)] trib(unicia) pot(estate) VIIII imp(eratori) XI pont(ifici) maxim[o p(atri) p(atriae) et] / [Imp(eratori) Caes(ari) M(arco) Aurelio Antonino Aug(usto) trib(unicia) pot(estate) IIII et [[P(ublio) Septimio Getae Caes(ari)]]] et Iu[liae Aug(ustae)] / [- - - d?]um vivit T(itus) Ael(ius) Longinus fl(amen) p(er)p(etuus) om[nibus honoribus functus] / [- - - P(ublio) Ae]lio Peregrino procurator[e - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>L</abbr><ex>ucio</ex></expan> Septimio Severo Pio <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>Arab</abbr><ex>ico</ex></expan> <expan><abbr>Adiab</abbr><ex>enico</ex></expan> <expan><abbr>Parth</abbr><ex>ico</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan></supplied> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> VIIII <expan><abbr>imp</abbr><ex>eratori</ex></expan> XI <expan><abbr>pont</abbr><ex>ifici</ex></expan> maxim<supplied reason="lost">o <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> et</supplied> <lb n="2"/>[<expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio Antonino <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> IIII et <del rend="erasure"><expan><abbr>P</abbr><ex>ublio</ex></expan> Septimio Getae <expan><abbr>Caes</abbr><ex>ari</ex></expan></del>] et Iu<supplied reason="lost">liae <expan><abbr>Aug</abbr><ex>ustae</ex></expan></supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> d</supplied>um vivit <expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan> Longinus <expan><abbr>fl</abbr><ex>amen</ex></expan> p<expan><ex>er</ex><abbr>p</abbr><ex>etuus</ex></expan> om<supplied reason="lost">nibus honoribus functus</supplied> <lb n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>P</abbr><ex>ublio</ex></expan> Ae</supplied>lio Peregrino procurator<supplied reason="lost">e</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Zeilentrennung unsicher. Datierung: 10.12.200-9.12.201.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

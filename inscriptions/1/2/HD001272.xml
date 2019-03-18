@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Besitzer-/Herstellerinschrift auf Ziegel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001272</idno>
+                <idno type="TM">208729</idno><idno type="localID">HD001272</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Köln, Röm.-Germ. Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/147">Ziegel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>44</height>
+                                        <width>36</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/77">gestempelt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016530">Germania inferior</placeName><placeName ref="http://www.trismegistos.org/place/003258">Colonia Claudia Ara Agrippinensium</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1950">1950</date>
+                        <placeName ref="http://www.geonames.org/">Köln</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Nordrhein-Westfalen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/311">Besitzer-/Herstellerinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2006-09-26" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1984, 0695. 
+                    </bibl>
+                    <bibl>
+                         H.-O. Schnepper, in: EpStud 13 (Köln 1983) 87-89; Abb. 1 (Zeichnung). - AE 1984. 
+                    </bibl>
+                    <bibl>
+                         CIL 13, 6, p. 6, Nr. 99. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                SS(sesquipedales) in us(u)ris fel(i)c(ibus) Augu(sti) // leg(ionis) I M(inerviae) p(iae)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>SS</abbr><ex>sesquipedales</ex></expan> in us<expan><ex>u</ex><abbr>ris</abbr></expan> fel<expan><ex>i</ex><abbr>c</abbr><ex>ibus</ex></expan> <expan><abbr>Augu</abbr><ex>sti</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>M</abbr><ex>inerviae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Inschrift gestempelt. Es sind noch 5 weitere Exemplare dieses Typs bekannt. Y: Zugehörigkeit des Ziegels zu einer bestimmten Bauperiode nicht gesichert, daher eventuell auch spätere Datierung. (B): Leg(ionis) I M(inerviae) P(iae) Augussinus ris felc = Augus[t]i(s) n[o]s(t)ris fel(i)c(iter).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

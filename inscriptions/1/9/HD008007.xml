@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD008007</idno>
+                <idno type="TM">194018</idno><idno type="localID">HD008007</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Szentendre, Ferenczy Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-75</height>
+                                        <width>-61.2</width>
+                                        <depth>21.8</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4-5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/020126">Aquincum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 270 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1978">1978</date>
+                        <placeName ref="http://www.geonames.org/3046345">Pilisszántó</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Pest megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-04-05" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1986, 0584. 
+                    </bibl>
+                    <bibl>
+                         É. Maróti - Z. Mráv, StudComitat 28, 2004, 253-254, Nr. 6; kép. 12; kép. 13 (Zeichnung). - AE 2004. 
+                    </bibl>
+                    <bibl>
+                         TRHR (Suppl.) 144; Abb. 144 (Foto u. Zeichnung). 
+                    </bibl>
+                    <bibl>
+                         AE 2004, 1149. 
+                    </bibl>
+                    <bibl>
+                         É. Maróti, StudComitat 17, 1984, 161, Nr. 10. - AE 1986. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [D(is)] M(anibus) / [T(ito) Aur(elio) - - -]iano [vix(it)] / [ann(os) - - - s]tip(endiorum) X et T(ito) / [Aur(elio) - - - v]ix(it) ann(os) XXVIII / [et T(ito) Aur(elio) Va]lenti vix(it) / [ann(os) - - - s]tip(endiorum) VI duplari(u)s(!) / [- - -] Aurel(ius) Iustus vet(eranus) / [- - -] et Ael(ia) Quinta / [pa]rentes fili(i)s dulci/ssimis p(onendum) c(uraverunt)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><supplied reason="lost"><expan><abbr>T</abbr><ex>ito</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied>iano <supplied reason="lost"><expan><abbr>vix</abbr><ex>it</ex></expan></supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>ann</abbr><ex>os</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> s</supplied><expan><abbr>tip</abbr><ex>endiorum</ex></expan> X et <expan><abbr>T</abbr><ex>ito</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>Aur</abbr><ex>elio</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> v</supplied><expan><abbr>ix</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXVIII <lb n="5"/><supplied reason="lost">et <expan><abbr>T</abbr><ex>ito</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> Va</supplied>lenti <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="6"/><supplied reason="lost"><expan><abbr>ann</abbr><ex>os</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> s</supplied><expan><abbr>tip</abbr><ex>endiorum</ex></expan> VI duplari<expan><ex>u</ex><abbr>s</abbr></expan> <note>sic</note> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Aurel</abbr><ex>ius</ex></expan> Iustus <expan><abbr>vet</abbr><ex>eranus</ex></expan> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> et <expan><abbr>Ael</abbr><ex>ia</ex></expan> Quinta <lb n="9"/><supplied reason="lost">pa</supplied>rentes fili<expan><ex>i</ex><abbr>s</abbr></expan> dulci<lb break="no" n="10"/>ssimis <expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Lesung / Ergänzungen nach Maróti - Mráv.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

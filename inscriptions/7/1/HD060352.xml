@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD060352</idno>
+                <idno type="TM">212281</idno><idno type="localID">HD060352</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-1.7</height>
+                                        <width>60</width>
+                                        <depth>28</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>(Civitas Auderiensium)</placeName></origPlace>
+                            <origDate notBefore-custom="0249" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">249 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1816">1816</date>
+                        <placeName ref="http://www.geonames.org/11609528">Stockstadt/Main, aus?</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hessen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-12-27" who="osnabrügge">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 06658. 
+                    </bibl>
+                    <bibl>
+                         H. Lehner, BJ 129, 1924, 82, Nr. 189. 
+                    </bibl>
+                    <bibl>
+                         RSOR 015. 
+                    </bibl>
+                    <bibl>
+                         F. Drexel, in: Der obergermanisch-rätische Limes des Römerreiches B, III, 33 (Lieferung 33) (Heidelberg 1914) 61-62, Nr. 24; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         M. Mattern, römische Steindenkmäler aus Hessen südlich des Mains sowie vom bayerischen Teil des Mainlimes, CSIR Deutschland 2, 13 (Mainz 2005) 67-68, Nr. 59; Taf. 18, 59 (Zeichnung). 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) F 529. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) N 2. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [I(ovi) O(ptimo)] M(aximo) / Helio[p]oli[t]a/no V[e]ner[i F]/elici Merc/urio [A]ug(usto) [M(arcus)?] / Iulius Ma[rci] / fil(ius) Fa[bi]a Ru[f]/us Papi[nianus?] / Sentiu[s] Gem[el]/lus do[m]o B[eryt(o)] / prae[f(ectus)] c[oh(ortis) I] Aq[uit(anorum)] / castris E[- - -] id E[mi]/liano II et Aqu[ili]n[o co(n)s(ulibus)] / v(otum) s(olvit) l(ibens) l(aetus) m(erito)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan></supplied> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>Helio<supplied reason="lost">p</supplied>oli<supplied reason="lost">t</supplied>a<lb break="no" n="3"/>no V<supplied reason="lost">e</supplied>ner<supplied reason="lost">i F</supplied><lb break="no" n="4"/>elici Merc<lb break="no" n="5"/>urio <expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>usto</ex></expan> <supplied reason="lost" cert="low">M(arcus)</supplied> <lb n="6"/>Iulius Ma<supplied reason="lost">rci</supplied> <lb n="7"/><expan><abbr>fil</abbr><ex>ius</ex></expan> Fa<supplied reason="lost">bi</supplied>a Ru<supplied reason="lost">f</supplied><lb break="no" n="8"/>us Papi<supplied reason="lost" cert="low">nianus</supplied> <lb n="9"/>Sentiu<supplied reason="lost">s</supplied> Gem<supplied reason="lost">el</supplied><lb break="no" n="10"/>lus do<supplied reason="lost">m</supplied>o B<supplied reason="lost"><expan><abbr>eryt</abbr><ex>o</ex></expan></supplied> <lb n="11"/>prae<supplied reason="lost"><expan><abbr>f</abbr><ex>ectus</ex></expan></supplied> c<supplied reason="lost"><expan><abbr>oh</abbr><ex>ortis</ex></expan> I</supplied> Aq<supplied reason="lost"><expan><abbr>uit</abbr><ex>anorum</ex></expan></supplied> <lb n="12"/>castris E<gap reason="lost" extent="unknown" unit="character"/> id E<supplied reason="lost">mi</supplied><lb break="no" n="13"/>liano II et Aqu<supplied reason="lost">ili</supplied>n<supplied reason="lost">o <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="14"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Zwei Fragmente erhalten, vertikal mittig gebrochen. Die Fragmente wurden wahrscheinlich ursprünglich in Stockstadt gefunden und von dort verschleppt. Wohl Kriegsverlust. Der linke Zeil der letzten beiden Zeilen ist nach der Auffindung anscheinend verloren gegangen und auf der Zeichnung nicht mehr erkennbar, insbesondere der untere Teil ist handschriftlich sehr verschieden überliefert und die Lesung unsicher (vgl. den Eintrag im CIL). Datierung unsicher. Auf der linken Nebenseite Kranz und Axt, auf der rechten Nebenseite Palmzweig.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

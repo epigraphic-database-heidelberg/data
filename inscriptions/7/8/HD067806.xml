@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD067806</idno>
+                <idno type="TM">383808</idno><idno type="localID">HD067806</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>167</height>
+                                        <width>67</width>
+                                        <depth>62</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4-5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/002496">Asia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0289" notAfter-custom="0290" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">289 AD – 290 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/tr/">Türkei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-07-29" who="Cowey">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2008, 1341. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Bona Fortuna // Fortissimo ac Piissi[mo] / [I]mp(eratori) Caes(ari) Gaio Valerio / Diocletiano P(io) F(elici) Invict(o) / Aug(usto) pontifici maximo / tribuniciae potestatis VII / p(atri) p(atriae) procons(uli) restitutori orbis / M(arcus) Aurel(ius) Rusticus v(ir) p(erfectissimus) proc(urator) / [p]atrimoni(i) prov(inciae) Asiae d(evotus) n(umini) m(aiestatique) / eorum(!) // ἀγαθῇ τύχῃ
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Bona Fortuna </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Fortissimo ac Piissi<supplied reason="lost">mo</supplied> <lb n="2"/><expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> Gaio Valerio <lb n="3"/>Diocletiano <expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>F</abbr><ex>elici</ex></expan> <expan><abbr>Invict</abbr><ex>o</ex></expan> <lb n="4"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> pontifici maximo <lb n="5"/>tribuniciae potestatis VII <lb n="6"/><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>procons</abbr><ex>uli</ex></expan> restitutori orbis <lb n="7"/><expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aurel</abbr><ex>ius</ex></expan> Rusticus <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>p</abbr><ex>erfectissimus</ex></expan> <expan><abbr>proc</abbr><ex>urator</ex></expan> <lb n="8"/><expan><abbr><supplied reason="lost">p</supplied>atrimoni</abbr><ex>i</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan> Asiae <expan><abbr>d</abbr><ex>evotus</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan> <expan><abbr>m</abbr><ex>aiestatique</ex></expan> <lb n="9"/>eorum <note>sic</note> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> ἀγαθῇ τύχῃ
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

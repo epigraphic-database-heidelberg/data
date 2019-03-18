@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Besitzer-/Herstellerinschrift auf Instrumentum militare</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD004426</idno>
+                <idno type="TM">216552</idno><idno type="localID">HD004426</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">München, Arch. Staatsslg.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/141">Instrumentum militare</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>18.3</height>
+                                        <width>22.5</width>
+                                        <depth>31.4</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/145">gepunzt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003243">Raetia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="-0015" notAfter-custom="0009" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">15 BC – 9 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1959">1959</date>
+                        <placeName ref="http://www.geonames.org/2940976">Burlafingen, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Bayern</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/311">Besitzer-/Herstellerinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-11-10" who="osnabrügge">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1963, 0041. 
+                    </bibl>
+                    <bibl>
+                         AE 1978, 0580. (B) 
+                    </bibl>
+                    <bibl>
+                         U. Schillinger-Häfele, BRGK 58, 1977, 568-569, Nr. 231. (B) - AE 1978. 
+                    </bibl>
+                    <bibl>
+                         A. Radnóti, in: Aus Bayerns Frühzeit, Festschr. F. Wagner (München 1962) 157-173; Taf. 12-14. - AE 1963. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Le(gio) XVI // P(ubli) Aur(eli) IR(?)I // |(centuria) Arabi M(arci) Munati
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Le</abbr><ex>gio</ex></expan> XVI </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>Aur</abbr><ex>eli</ex></expan> <expan><abbr>IR</abbr><ex cert="low"/>I</expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Arabi <expan><abbr>M</abbr><ex>arci</ex></expan> Munati
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Helm des Hagenau-Typus mit Inschrift auf Oberseite des Nackenschutzes. Helm wechselt innerhalb der Legion den Besitzer. Text 2: zwischen Aur. und IR(?)I ein Zeichen mit ungeklärter Bedeutung: vielleicht Signifer? Statt R(?) auch P(?) möglich. Die Zeichenfolge IR(?)I bezeichnet vielleicht den Besitzer des Helms. Schreibtechnik: gepunzt. Y: Legio XVI bis 9 n.Chr. in Oberhausen bei Augsburg stationiert, von 14-43 n. Chr. in Mainz. (B): AE 1978, 580: Text 2 nicht wiedergegeben. (B): Schillinger-Häfele: Text 2 nicht wiedergegeben.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

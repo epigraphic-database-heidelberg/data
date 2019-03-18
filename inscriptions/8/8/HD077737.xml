@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD077737</idno>
+                <idno type="TM"/><idno type="localID">HD077737</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mannheim, Reiss-Engelhorn-Mus., Depot</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material>Kreide</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>54</height>
+                                        <width>28</width>
+                                        <depth>15</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.4-2.7</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016530">Germania inferior</placeName><placeName ref="http://www.trismegistos.org/place/019890">Colonia Ulpia Traiana, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1773">1773</date>
+                        <placeName ref="http://www.geonames.org/2948349">Xanten</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Nordrhein-Westfalen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-11-02" who="osnabrügge">
+             überprüft per Autopsie
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 08621. (B) 
+                    </bibl>
+                    <bibl>
+                         W. Brambach, Corpus inscriptionum Rhenanarum (Elberfeld 1867) 356, Nr. 2018. (B) 
+                    </bibl>
+                    <bibl>
+                         F. Haug, Die römischen Denksteine des Grossherzoglichen Antiquariums in Mannheim (Konstanz 1877) 12, Nr. 3. (B) 
+                    </bibl>
+                    <bibl>
+                         E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1. Corpus der griechischen und lateinischen Beneficiarier-Weihinschriften des Römischen Reiches (Stuttgart 1990) 84-85, Nr. 93. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                I(ovi) O(ptimo) M(aximo) / e[t] Gen(io) [l]oci / [C(aius) Va]l(erius) [Tert]i[us] / [et] M(arcus) Vitalinius / [Secundus] / [b(ene)f(iciarii) co(n)s(ularis) pro se] / [et suis v(otum) s(olverunt) l(ibentes) m(erito)]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>e<supplied reason="lost">t</supplied> <expan><abbr>Gen</abbr><ex>io</ex></expan> <supplied reason="lost">l</supplied>oci <lb n="3"/><supplied reason="lost"><expan><abbr>C</abbr><ex>aius</ex></expan> Va</supplied><expan><abbr>l</abbr><ex>erius</ex></expan> <supplied reason="lost">Tert</supplied>i<supplied reason="lost">us</supplied> <lb n="4"/><supplied reason="lost">et</supplied> <expan><abbr>M</abbr><ex>arcus</ex></expan> Vitalinius <lb n="5"/><supplied reason="lost">Secundus</supplied> <lb n="6"/><supplied reason="lost"><expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarii</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> pro se</supplied> <lb n="7"/><supplied reason="lost">et suis <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olverunt</ex></expan> <expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Kleiner Altar aus weichem Kreidestein. Durch die Auswirkungen des Zweiten Weltkrieges ist die Oberfläche des Inschriftfeldes stark beschädigt, in der Mitte und unten tief ausgebrochen, so dass sich die Inschrift stellenweise kaum noch lesen lässt. Der untere Teil ist heute verloren. Z. 2: ET-Ligatur; Z. 3: VA-Ligatur; Z. 4: ET-, NI-Ligaturen; Z. 6: BF-Ligatur; Z. 7: ET-Ligatur. (B): CIL 13, 08621; Brambach; Haug; Schallmayer u. a. geben den Zustand der Inschrift vor dem Zweiten Weltkrieg wieder, als Z. 5-7 noch lesbar waren.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

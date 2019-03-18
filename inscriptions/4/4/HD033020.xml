@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD033020</idno>
+                <idno type="TM">125274</idno><idno type="localID">HD033020</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>94</height>
+                                        <width>80</width>
+                                        <depth>167</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">10-6</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033155">Venetia et Histria (Regio X)</placeName><placeName ref="http://www.trismegistos.org/place/012317">Tergeste</placeName></origPlace>
+                            <origDate notBefore-custom="0138" notAfter-custom="0161" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">138 AD – 161 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Trieste</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2007-12-20" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/16161">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        G. Alföldy, Römische Statuen in Venetia et Histria. Epigraphische Qullen (Heidelberg 1984) 84, Nr. 30. 
+                    </bibl>
+                    <bibl>
+                         CIL 05, 00532. 
+                    </bibl>
+                    <bibl>
+                         ILS 6680. 
+                    </bibl>
+                    <bibl>
+                         InscrIt 10, 4, 0031; Fotos. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                L(ucio) Fabio [L(uci) f(filio)] / Pup(inia) Sev[e]ro / quaestor[i] / urbano / [de]cu[r(iones) et] plebs / T[ergesti]nor(um) // [Quod A]spanius Lentulus et / [- - -]s Nepos II vir(i) iur(e) dic(undo) v(erba) f(ecerunt) / [L(ucium) Fabium S]everum clarissimum vi/[rum m]ulta iam pridem in rem p(ublicam) nos/[tra]m beneficia contulisse ut qui a pri[ma] statim aetate id eger[it] uti in ad/[iuvan]da patria sua et dignitate et el[oq]uentia cres/[cer]et nam ita multas et magnificas causas publi/[ca]s aput(!) optimum principem Antoninum Aug(ustum) Pium / [a]dservisse egisse vicisse sine ullo quidem aerar[i] no[s]/[tr]i inpendio ut quamvis admodum adulescens [se]nili/[b]us tamen et perfectis operibus ac factis patriam suam nos/que insuper sibi universos obstinxerit nunc vero tam gr/andi beneficio tam salubri ingenio ta[m p]erpetua ut[il]itate rem / p(ublicam) n(ostram) adfecisse ut omnia praecedentia facta sua quamquam im/mensa et eximia s[int] facile su[per]ari[t] nam in hoc quoque mira/bilem esse c(larissimi) v(iri) virtutem quod cotidie in bene faciendo et in [p]a/tria sua tuenda ipse se vincat et idc[ir]co quamvis pro mensu/ra beneficiorum eius impares in referenda gratia simus inte/rim tamen pro tempore vel facultate ut adiuvet saepe factu/[r]us remunderandam esse c(larissimi) v(iri) benivolentiam non ut illum pro/niorem habeamus aliut enim vir ita natus non potest facere sed / ut nos iudicantibus gratos praebeamus et dignos tali decore ta/lique praesidio q(uid) f(ieri) p(laceret) d(e) e(a) r(e) i(ta) c(ensuerunt) primo censente Calpurnio Certo / cum Fabius Severu[s] vir amplissimus atque clarissimus tanta pietate tanta/que adfectione rem p(ublicam) n(ostram) amplexus sit itaque pro minimis ma/ximisque commodis e[i]us excubet atque omnem praestantiam / [s]uam [e]xerat ut manifestum sit id eum agere ut non modo nobis sed pro/ximis [q]uoque civitatibus declaratum velit esse non ali quam / patriae suae natum et civilia studia quae in eo quamvis admodum / invene iam sint peracta atque perf[e]cta ac senatoriam dig/nita[t]em hac maxime ex causa co[nc]upivisse uti patriam su/am cum orna[ta]m tum ab omnib[us] in[i]uriis tutam defensamque / praestaret interim aput(!) iudices a Cae[sa]re datos interim aput(!) ip/sum imperatorem causis publicis patroc[in]ando quas [c]um iusti/tia divini principis tum sua eximia ac [pru]denti[s]sima oration<e> / semper nobis cum victoria firmiores [rem]isit ex proximo vero // ut manifestatur cael[es]tibus litteris A[ntoni]/ni Aug(usti) Pii tam felicit[er] d[e]si[de]rium pu[blicum a]/put(!) eum sit prosecutus i[m]petrando u[ti Car]/ni Catalique attributi a divo Augusto [rei publi]/cae nostrae pro ut qui mer[u]issent vita atque ce[n]/su per aedilitatis gradum in cu[r]iam nostram admitt[e]/rentur ac per hoc civitatem R[o]manam apisere[n]/tur <quo> et aerarium nostrum ditavi[t et cu]riam complev[it] / et universam rem p(ublicam) n(ostram) cum fome[n]tis ampliavit ad[mit]tendo ad honorum commun[i]onem et usurpation[em] / Romanae civitatis et optimum et locupletissimum / quemque ut scilicet qui olim erant tantum in redit[u] / pecuniario nunc et in illo ipso <et> duplici quidem per / honorariae numerationem repperiantur et s[int] / cum quibus munera decurionatus iam ut paucis one/rosa honeste de pl[e]no compartiamur ad cuiu[s rei] gratiam habendam ut in saecula permans[uro eius]/modi beneficio oportuerat / quidem si fieri poss[et] ac / si verecundia clarissimi viri permitteret univer[s]os nos ire et gratias ei iuxta optimum principem agere sed / quoniam certum est nobis onerosum ei futurum [ta]le nostrum offic[i]um illut(!) certe proxime fieri opo[r]/tet{o} statuam ei auratam equestrem primo quoqu[e] / tempore in celeberrima fori nostri part[e] poni et [in] / basi eius hanc nostram consensionem a[t]que h[oc] / decretum inscribi uti ad posteros nostros tam vol[tus] / amplissimi viri quam facta permaneant petique a <Fa>/bio Vero egregio viro patre Severi uti quando q[ui]/dem et commentum hoc ipsius sit providentiae qua / rem publicam n(ostram) in[f]atigabili cura gubernat et in hoc / plus publici benefici quod talem [et] nobis et imperio civem [pro]/creavit a[t]que formavit cuius opera studioq(ue) et ornati[ores] / et tutiores in dies nos m[a]gis magisque sentiamus uti patiat[ur] / se in hanc rem ad fili[u]m suum l[e]gari mandarique si[bi] / uti gratias publice c[l]ariss[im]o viro mandatu no[s]/tro agat et gaudium universorum singulorumqu[e] / ac voluntatem ut mag[i]ster talium rerum in notiti[am] / eius perferat censuerunt
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Fabio <supplied reason="lost"><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>filio</ex></expan></supplied> <lb n="2"/><expan><abbr>Pup</abbr><ex>inia</ex></expan> Sev<supplied reason="lost">e</supplied>ro <lb n="3"/>quaestor<supplied reason="lost">i</supplied> <lb n="4"/>urbano <lb n="5"/><expan><abbr><supplied reason="lost">de</supplied>cu<supplied reason="lost">r</supplied></abbr><supplied reason="lost"><ex>iones</ex></supplied></expan> <supplied reason="lost">et</supplied> plebs <lb n="6"/><expan><abbr>T<supplied reason="lost">ergesti</supplied>nor</abbr><ex>um</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Quod A</supplied>spanius Lentulus et <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>s Nepos II <expan><abbr>vir</abbr><ex>i</ex></expan> <expan><abbr>iur</abbr><ex>e</ex></expan> <expan><abbr>dic</abbr><ex>undo</ex></expan> <expan><abbr>v</abbr><ex>erba</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan> <lb n="3"/><supplied reason="lost"><expan><abbr>L</abbr><ex>ucium</ex></expan> Fabium S</supplied>everum clarissimum vi<lb break="no" n="4"/><supplied reason="lost">rum m</supplied>ulta iam pridem in rem <expan><abbr>p</abbr><ex>ublicam</ex></expan> nos<lb break="no" n="5"/><supplied reason="lost">tra</supplied>m beneficia contulisse ut qui a pri<supplied reason="lost">ma</supplied> statim aetate id eger<supplied reason="lost">it</supplied> uti in ad<lb break="no" n="6"/><supplied reason="lost">iuvan</supplied>da patria sua et dignitate et el<supplied reason="lost">oq</supplied>uentia cres<lb break="no" n="7"/><supplied reason="lost">cer</supplied>et nam ita multas et magnificas causas publi<lb break="no" n="8"/><supplied reason="lost">ca</supplied>s aput <note>sic</note> optimum principem Antoninum <expan><abbr>Aug</abbr><ex>ustum</ex></expan> Pium <lb n="9"/><supplied reason="lost">a</supplied>dservisse egisse vicisse sine ullo quidem aerar<supplied reason="lost">i</supplied> no<supplied reason="lost">s</supplied><lb break="no" n="10"/><supplied reason="lost">tr</supplied>i inpendio ut quamvis admodum adulescens <supplied reason="lost">se</supplied>nili<lb break="no" n="11"/><supplied reason="lost">b</supplied>us tamen et perfectis operibus ac factis patriam suam nos<lb break="no" n="12"/>que insuper sibi universos obstinxerit nunc vero tam gr<lb break="no" n="13"/>andi beneficio tam salubri ingenio ta<supplied reason="lost">m p</supplied>erpetua ut<supplied reason="lost">il</supplied>itate rem <lb n="14"/><expan><abbr>p</abbr><ex>ublicam</ex></expan> <expan><abbr>n</abbr><ex>ostram</ex></expan> adfecisse ut omnia praecedentia facta sua quamquam im<lb break="no" n="15"/>mensa et eximia s<supplied reason="lost">int</supplied> facile su<supplied reason="lost">per</supplied>ari<supplied reason="lost">t</supplied> nam in hoc quoque mira<lb break="no" n="16"/>bilem esse <expan><abbr>c</abbr><ex>larissimi</ex></expan> <expan><abbr>v</abbr><ex>iri</ex></expan> virtutem quod cotidie in bene faciendo et in <supplied reason="lost">p</supplied>a<lb break="no" n="17"/>tria sua tuenda ipse se vincat et idc<supplied reason="lost">ir</supplied>co quamvis pro mensu<lb break="no" n="18"/>ra beneficiorum eius impares in referenda gratia simus inte<lb break="no" n="19"/>rim tamen pro tempore vel facultate ut adiuvet saepe factu<lb break="no" n="20"/><supplied reason="lost">r</supplied>us remunderandam esse <expan><abbr>c</abbr><ex>larissimi</ex></expan> <expan><abbr>v</abbr><ex>iri</ex></expan> benivolentiam non ut illum pro<lb break="no" n="21"/>niorem habeamus aliut enim vir ita natus non potest facere sed <lb n="22"/>ut nos iudicantibus gratos praebeamus et dignos tali decore ta<lb break="no" n="23"/>lique praesidio <expan><abbr>q</abbr><ex>uid</ex></expan> <expan><abbr>f</abbr><ex>ieri</ex></expan> <expan><abbr>p</abbr><ex>laceret</ex></expan> <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>e</abbr><ex>a</ex></expan> <expan><abbr>r</abbr><ex>e</ex></expan> <expan><abbr>i</abbr><ex>ta</ex></expan> <expan><abbr>c</abbr><ex>ensuerunt</ex></expan> primo censente Calpurnio Certo <lb n="24"/>cum Fabius Severu<supplied reason="lost">s</supplied> vir amplissimus atque clarissimus tanta pietate tanta<lb break="no" n="25"/>que adfectione rem <expan><abbr>p</abbr><ex>ublicam</ex></expan> <expan><abbr>n</abbr><ex>ostram</ex></expan> amplexus sit itaque pro minimis ma<lb break="no" n="26"/>ximisque commodis e<supplied reason="lost">i</supplied>us excubet atque omnem praestantiam <lb n="27"/><supplied reason="lost">s</supplied>uam <supplied reason="lost">e</supplied>xerat ut manifestum sit id eum agere ut non modo nobis sed pro<lb break="no" n="28"/>ximis <supplied reason="lost">q</supplied>uoque civitatibus declaratum velit esse non ali quam <lb n="29"/>patriae suae natum et civilia studia quae in eo quamvis admodum <lb n="30"/>invene iam sint peracta atque perf<supplied reason="lost">e</supplied>cta ac senatoriam dig<lb break="no" n="31"/>nita<supplied reason="lost">t</supplied>em hac maxime ex causa co<supplied reason="lost">nc</supplied>upivisse uti patriam su<lb break="no" n="32"/>am cum orna<supplied reason="lost">ta</supplied>m tum ab omnib<supplied reason="lost">us</supplied> in<supplied reason="lost">i</supplied>uriis tutam defensamque <lb n="33"/>praestaret interim aput <note>sic</note> iudices a Cae<supplied reason="lost">sa</supplied>re datos interim aput <note>sic</note> ip<lb break="no" n="34"/>sum imperatorem causis publicis patroc<supplied reason="lost">in</supplied>ando quas <supplied reason="lost">c</supplied>um iusti<lb break="no" n="35"/>tia divini principis tum sua eximia ac <supplied reason="lost">pru</supplied>denti<supplied reason="lost">s</supplied>sima oration<supplied reason="omitted">e</supplied> <lb n="36"/>semper nobis cum victoria firmiores <supplied reason="lost">rem</supplied>isit ex proximo vero </ab></div><div n="3" type="textpart"><ab><lb n="1"/> ut manifestatur cael<supplied reason="lost">es</supplied>tibus litteris A<supplied reason="lost">ntoni</supplied><lb break="no" n="2"/>ni <expan><abbr>Aug</abbr><ex>usti</ex></expan> Pii tam felicit<supplied reason="lost">er</supplied> d<supplied reason="lost">e</supplied>si<supplied reason="lost">de</supplied>rium pu<supplied reason="lost">blicum a</supplied><lb break="no" n="3"/>put <note>sic</note> eum sit prosecutus i<supplied reason="lost">m</supplied>petrando u<supplied reason="lost">ti Car</supplied><lb break="no" n="4"/>ni Catalique attributi a divo Augusto <supplied reason="lost">rei publi</supplied><lb break="no" n="5"/>cae nostrae pro ut qui mer<supplied reason="lost">u</supplied>issent vita atque ce<supplied reason="lost">n</supplied><lb break="no" n="6"/>su per aedilitatis gradum in cu<supplied reason="lost">r</supplied>iam nostram admitt<supplied reason="lost">e</supplied><lb break="no" n="7"/>rentur ac per hoc civitatem R<supplied reason="lost">o</supplied>manam apisere<supplied reason="lost">n</supplied><lb break="no" n="8"/>tur <supplied reason="omitted">quo</supplied> et aerarium nostrum ditavi<supplied reason="lost">t et cu</supplied>riam complev<supplied reason="lost">it</supplied> <lb n="9"/>et universam rem <expan><abbr>p</abbr><ex>ublicam</ex></expan> <expan><abbr>n</abbr><ex>ostram</ex></expan> cum fome<supplied reason="lost">n</supplied>tis ampliavit ad<supplied reason="lost">mit</supplied>tendo ad honorum commun<supplied reason="lost">i</supplied>onem et usurpation<supplied reason="lost">em</supplied> <lb n="10"/>Romanae civitatis et optimum et locupletissimum <lb n="11"/>quemque ut scilicet qui olim erant tantum in redit<supplied reason="lost">u</supplied> <lb n="12"/>pecuniario nunc et in illo ipso <supplied reason="omitted">et</supplied> duplici quidem per <lb n="13"/>honorariae numerationem repperiantur et s<supplied reason="lost">int</supplied> <lb n="14"/>cum quibus munera decurionatus iam ut paucis one<lb break="no" n="15"/>rosa honeste de pl<supplied reason="lost">e</supplied>no compartiamur ad cuiu<supplied reason="lost">s rei</supplied> gratiam habendam ut in saecula permans<supplied reason="lost">uro eius</supplied><lb break="no" n="16"/>modi beneficio oportuerat <lb n="17"/>quidem si fieri poss<supplied reason="lost">et</supplied> ac <lb n="18"/>si verecundia clarissimi viri permitteret univer<supplied reason="lost">s</supplied>os nos ire et gratias ei iuxta optimum principem agere sed <lb n="19"/>quoniam certum est nobis onerosum ei futurum <supplied reason="lost">ta</supplied>le nostrum offic<supplied reason="lost">i</supplied>um illut <note>sic</note> certe proxime fieri opo<supplied reason="lost">r</supplied><lb break="no" n="20"/>tet<surplus>o</surplus> statuam ei auratam equestrem primo quoqu<supplied reason="lost">e</supplied> <lb n="21"/>tempore in celeberrima fori nostri part<supplied reason="lost">e</supplied> poni et <supplied reason="lost">in</supplied> <lb n="22"/>basi eius hanc nostram consensionem a<supplied reason="lost">t</supplied>que h<supplied reason="lost">oc</supplied> <lb n="23"/>decretum inscribi uti ad posteros nostros tam vol<supplied reason="lost">tus</supplied> <lb n="24"/>amplissimi viri quam facta permaneant petique a <supplied reason="omitted">Fa</supplied><lb break="no" n="25"/>bio Vero egregio viro patre Severi uti quando q<supplied reason="lost">ui</supplied><lb break="no" n="26"/>dem et commentum hoc ipsius sit providentiae qua <lb n="27"/>rem publicam <expan><abbr>n</abbr><ex>ostram</ex></expan> in<supplied reason="lost">f</supplied>atigabili cura gubernat et in hoc <lb n="28"/>plus publici benefici quod talem <supplied reason="lost">et</supplied> nobis et imperio civem <supplied reason="lost">pro</supplied><lb break="no" n="29"/>creavit a<supplied reason="lost">t</supplied>que formavit cuius opera <expan><abbr>studioq</abbr><ex>ue</ex></expan> et ornati<supplied reason="lost">ores</supplied> <lb n="30"/>et tutiores in dies nos m<supplied reason="lost">a</supplied>gis magisque sentiamus uti patiat<supplied reason="lost">ur</supplied> <lb n="31"/>se in hanc rem ad fili<supplied reason="lost">u</supplied>m suum l<supplied reason="lost">e</supplied>gari mandarique si<supplied reason="lost">bi</supplied> <lb n="32"/>uti gratias publice c<supplied reason="lost">l</supplied>ariss<supplied reason="lost">im</supplied>o viro mandatu no<supplied reason="lost">s</supplied><lb break="no" n="33"/>tro agat et gaudium universorum singulorumqu<supplied reason="lost">e</supplied> <lb n="34"/>ac voluntatem ut mag<supplied reason="lost">i</supplied>ster talium rerum in notiti<supplied reason="lost">am</supplied> <lb n="35"/>eius perferat censuerunt
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Mittelteil der Basis einer Reiterstatue. Das Elogium befindet sich auf der rechten Nebenseite der Basis. Buchstabenhöhe: bezieht sich auf den Text der Vorderseite.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

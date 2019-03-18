@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD042010</idno>
+                <idno type="TM">191379</idno><idno type="localID">HD042010</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Tulcea, Muz. Deltei Dunării</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-75</height>
+                                        <width>-49</width>
+                                        <depth>13</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">7-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName ref="http://www.trismegistos.org/place/030035">Aegyssus, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD – 230 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/664518">Tulcea</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Tulcea</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-04-03" who="Garcia">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2004, 1281. 
+                    </bibl>
+                    <bibl>
+                         S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 183, Nr. 219. (B) - AE 2004. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [-] Fl(avio) R[- - -] / dec(urioni) ter(r)i(torii) A[eg(yssensis) v(ixit) ann(os)] / XL SSIATI[- - -] / dum vive[bat vic?]o / UrbIIN[- - -] / obitu[s ad? vil(l)am? s(uam)?] / f(ieri) i(ussit) IM[- - -] / ses[quiplicarius]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <expan><abbr>Fl</abbr><ex>avio</ex></expan> R<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>dec</abbr><ex>urioni</ex></expan> ter<expan><ex>r</ex><abbr>i</abbr><ex>torii</ex></expan> A<supplied reason="lost"><expan><abbr>eg</abbr><ex>yssensis</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>ann</abbr><ex>os</ex></expan></supplied> <lb n="3"/>XL SSIATI<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>dum vive<supplied reason="lost" cert="low">bat vic</supplied>o <lb n="5"/>UrbIIN<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>obitu<supplied reason="lost" cert="low">s ad? vil(l)am? s(uam)</supplied> <lb n="7"/><expan><abbr>f</abbr><ex>ieri</ex></expan> <expan><abbr>i</abbr><ex>ussit</ex></expan> IM<gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/>ses<supplied reason="lost">quiplicarius</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Oberhalb des Inschriftfeldes Darstellung eines Reiters. Conrad: Z. 3: s(upra) s(cript)i Ati[lianus sive -mianus]. (B): Conrad: Z. 2: ter&amp;lt;r&amp;gt;(itorii).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

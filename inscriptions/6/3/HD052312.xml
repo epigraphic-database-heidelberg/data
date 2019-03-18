@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD052312</idno>
+                <idno type="TM">201988</idno><idno type="localID">HD052312</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Ksar Lemsa</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>105</height>
+                                        <width>52</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.5-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/015771">Africa Proconsularis</placeName><placeName ref="http://www.trismegistos.org/place/017317">Limisa</placeName></origPlace>
+                            <origDate notBefore-custom="0208" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">208 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1967">1967</date>
+                        <placeName ref="http://www.geonames.org/">Ksar Lemsa</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/tn/">Tunesien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-11-03" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2004, 1676. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Iuliae Domnae Augustae / Imp(eratoris) Caes(aris) L(uci) Septimi Severi / Pii Pertinacis Aug(usti) pon/[t(ificis)] max(imi) Arab(ici) Adiab(enici) Par/[t(hici) max(imi) f]ortissimi et Fe/[licissimi c]oniugi ma/[tri Augg(ustorum)? et cas]trorum / [Imp(eratoris) Caes(aris) M(arci) Aur]eli Antoni/[ni Pii Felicis] Aug(usti) et / [[P(ubli) Septimi Getae Caes(aris) Aug(usti)?]] / [[co(n)s(ulis) II[- - -]]] / [municipiu]m Septimium / Aurelium Limisa devo/[tum] numini eorum d(ecreto) d(ecurionum) / p(ecunia) p(ublica)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Iuliae Domnae Augustae <lb n="2"/><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> Septimi Severi <lb n="3"/>Pii Pertinacis <expan><abbr>Aug</abbr><ex>usti</ex></expan> pon<lb break="no" n="4"/><supplied reason="lost"><expan><abbr>t</abbr><ex>ificis</ex></expan></supplied> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>Arab</abbr><ex>ici</ex></expan> <expan><abbr>Adiab</abbr><ex>enici</ex></expan> Par<lb break="no" n="5"/><supplied reason="lost"><expan><abbr>t</abbr><ex>hici</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> f</supplied>ortissimi et Fe<lb break="no" n="6"/><supplied reason="lost">licissimi c</supplied>oniugi ma<lb break="no" n="7"/><supplied reason="lost">tri <expan><abbr>Augg</abbr><ex>ustorum</ex></expan>? et cas</supplied>trorum <lb n="8"/><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> Aur</supplied>eli Antoni<lb break="no" n="9"/><supplied reason="lost">ni Pii Felicis</supplied> <expan><abbr>Aug</abbr><ex>usti</ex></expan> et <lb n="10"/><del rend="erasure"><expan><abbr>P</abbr><ex>ubli</ex></expan> Septimi Getae <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan>?</del> <lb n="11"/><del rend="erasure"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> II[<gap reason="lost" extent="unknown" unit="character"/></del>] <lb n="12"/><supplied reason="lost">municipiu</supplied>m Septimium <lb n="13"/>Aurelium Limisa devo<lb break="no" n="14"/><supplied reason="lost">tum</supplied> numini eorum <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <lb n="15"/><expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>p</abbr><ex>ublica</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

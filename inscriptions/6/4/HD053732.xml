@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verzeichnis auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD053732</idno>
+                <idno type="TM">121807</idno><idno type="localID">HD053732</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Véroia, Arch. Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>118</height>
+                                        <width>43</width>
+                                        <depth>18</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000161">Macedonia</placeName><placeName ref="http://www.trismegistos.org/place/012096">Beroia</placeName></origPlace>
+                            <origDate notBefore-custom="-0121" notAfter-custom="-0110" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">121 BC – 110 BC
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1980">1980</date>
+                        <placeName ref="http://www.geonames.org/733905">Véroia</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kentrikí Makedonía</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/108">Verzeichnis</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-11-22" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1993, 1385. 
+                    </bibl>
+                    <bibl>
+                         V. Allamani-Souri, in: Ancient Macedonia V. Papers read at the Fifth International Symposium held in Thessaloniki, October 1989 (Thessaloniki 1993) 77-107, Nr. 1; Fot. 1-7. - AE 1993. 
+                    </bibl>
+                    <bibl>
+                         SEG 43, 0382. 
+                    </bibl>
+                    <bibl>
+                         EKM 1, 134; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                ἔτους ἑβδόμου καὶ εἰκοστοῦ / στρατηγοῦντος Σέξστου / Πονπηίου πολιταρχούν/των Νικολάου τοῦ Λεοντο/μένου Κλεάνδρ[ου τοῦ] Νίκωνος / Καλλιμέδοντ[ος το]ῦ [Ἀμ]ύντου / Σωσιμένους τοῦ [- - -]ωνος / Ἀριστόνου τοῦ [- - -], κυνηγῶν / Φιλίππου τοῦ [- - -] τοῦ Ἰό[λ]λου / Ἁδύλου τοῦ [- - - τοῦ Ἀμ]ύντου / ἔτους ὀγ[δόου καὶ] εἰκοστοῦ / κυνηγοὶ / Ἀγέλαος Δημ[ητρ]ίου / Νικάνωρ Ἀν[τ]ιμάχου / ἔτ(ους) θʹ καὶ κʹ κυνηγοὶ / Βάκχιος Ο[- -]ΝΛΑΝΛΙΙΟΥ / Ἐπικράτης Νικολάο[υ] / Παράμονος Ἡρακλ[εί]δου / Ἰόλαος Κύτωνος ἱερητεύ/σαντες Ἡρακλεῖ Κυναγίδαι / ἔτους αʹ καὶ λʹ κυνηγοὶ / Ἀσκληπιάδης Ὀρέστου / Ζάνατος ΑΝΙΚΑΝΤΟΥ / ἔτους v βʹ καὶ [λʹ] κυνηγοὶ / Ὑβρίστας [- - -]του / Φίλιππος ΑΠΟ[- - -] / ἔτους γʹ καὶ λʹ κυνηγοὶ / Κλέων [- - -]Ο[- - -]ΝΙΟΥ / Ἐπίνικος [- - -]ΙΟΥ / ἔτους δʹ καὶ λʹ κυνηγοὶ / Ἀντίγονος Παραμόνου τοῦ Περίτου / Λυσίμαχος Πατερίνου ἱερητεύσας / Ἡρακλεῖ / ἔτους εʹ καὶ λʹ κυνηγοὶ / Λυσίμαχος Ἀσκληπιοδώρου / Κλεῖτος Βακχίδου / ἔτους ϛʹ καὶ λʹ κυνηγοὶ / Ποσιδώνιος [Μ]ε[ν]εκράτου / Δημήτριος Κλέωνος ἱερη/τεύσαντες Ἡρακλεῖ Κυναγί/δαι ἔτου<ς ζʹ> καὶ λʹ / Βοΐσκος Εὐκλέου[ς] / Κάσσανδρος Ἀντιγόνου / ἱερητεύσαντες Ἡρακλεῖ / Κυναγίδαι ἐκ τοῦ ἰδίου
+            --><div type="edition" xml:lang="grc"><head>Text</head><ab><lb n="1"/>
+                ἔτους ἑβδόμου καὶ εἰκοστοῦ <lb n="2"/>στρατηγοῦντος Σέξστου <lb n="3"/>Πονπηίου πολιταρχούν<lb break="no" n="4"/>των Νικολάου τοῦ Λεοντο<lb break="no" n="5"/>μένου Κλεάνδρ<supplied reason="lost">ου τοῦ</supplied> Νίκωνος <lb n="6"/>Καλλιμέδοντ<supplied reason="lost">ος το</supplied>ῦ <supplied reason="lost">Ἀμ</supplied>ύντου <lb n="7"/>Σωσιμένους τοῦ <gap reason="lost" extent="unknown" unit="character"/>ωνος <lb n="8"/>Ἀριστόνου τοῦ <gap reason="lost" extent="unknown" unit="character"/>, κυνηγῶν <lb n="9"/>Φιλίππου τοῦ <gap reason="lost" extent="unknown" unit="character"/> τοῦ Ἰό<supplied reason="lost">λ</supplied>λου <lb n="10"/>Ἁδύλου τοῦ <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> τοῦ Ἀμ</supplied>ύντου <lb n="11"/>ἔτους ὀγ<supplied reason="lost">δόου καὶ</supplied> εἰκοστοῦ <lb n="12"/>κυνηγοὶ <lb n="13"/>Ἀγέλαος Δημ<supplied reason="lost">ητρ</supplied>ίου <lb n="14"/>Νικάνωρ Ἀν<supplied reason="lost">τ</supplied>ιμάχου <lb n="15"/>ἔτ(ους) θʹ καὶ κʹ κυνηγοὶ <lb n="16"/>Βάκχιος Ο<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>ΝΛΑΝΛΙΙΟΥ <lb n="17"/>Ἐπικράτης Νικολάο<supplied reason="lost">υ</supplied> <lb n="18"/>Παράμονος Ἡρακλ<supplied reason="lost">εί</supplied>δου <lb n="19"/>Ἰόλαος Κύτωνος ἱερητεύ<lb break="no" n="20"/>σαντες Ἡρακλεῖ Κυναγίδαι <lb n="21"/>ἔτους αʹ καὶ λʹ κυνηγοὶ <lb n="22"/>Ἀσκληπιάδης Ὀρέστου <lb n="23"/>Ζάνατος ΑΝΙΚΑΝΤΟΥ <lb n="24"/>ἔτους v βʹ καὶ <supplied reason="lost">λʹ</supplied> κυνηγοὶ <lb n="25"/>Ὑβρίστας <gap reason="lost" extent="unknown" unit="character"/>του <lb n="26"/>Φίλιππος ΑΠΟ<gap reason="lost" extent="unknown" unit="character"/> <lb n="27"/>ἔτους γʹ καὶ λʹ κυνηγοὶ <lb n="28"/>Κλέων <gap reason="lost" extent="unknown" unit="character"/>Ο<gap reason="lost" extent="unknown" unit="character"/>ΝΙΟΥ <lb n="29"/>Ἐπίνικος <gap reason="lost" extent="unknown" unit="character"/>ΙΟΥ <lb n="30"/>ἔτους δʹ καὶ λʹ κυνηγοὶ <lb n="31"/>Ἀντίγονος Παραμόνου τοῦ Περίτου <lb n="32"/>Λυσίμαχος Πατερίνου ἱερητεύσας <lb n="33"/>Ἡρακλεῖ <lb n="34"/>ἔτους εʹ καὶ λʹ κυνηγοὶ <lb n="35"/>Λυσίμαχος Ἀσκληπιοδώρου <lb n="36"/>Κλεῖτος Βακχίδου <lb n="37"/>ἔτους ϛʹ καὶ λʹ κυνηγοὶ <lb n="38"/>Ποσιδώνιος <supplied reason="lost">Μ</supplied>ε<supplied reason="lost">ν</supplied>εκράτου <lb n="39"/>Δημήτριος Κλέωνος ἱερη<lb break="no" n="40"/>τεύσαντες Ἡρακλεῖ Κυναγί<lb break="no" n="41"/>δαι ἔτου&lt;ς ζʹ&gt; καὶ λʹ <lb n="42"/>Βοΐσκος Εὐκλέου<supplied reason="lost">ς</supplied> <lb n="43"/>Κάσσανδρος Ἀντιγόνου <lb n="44"/>ἱερητεύσαντες Ἡρακλεῖ <lb n="45"/>Κυναγίδαι ἐκ τοῦ ἰδίου
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

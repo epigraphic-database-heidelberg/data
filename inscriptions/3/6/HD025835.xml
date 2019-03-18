@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD025835</idno>
+                <idno type="TM">262255</idno><idno type="localID">HD025835</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Roma, Lap. For.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-30</height>
+                                        <width>-21</width>
+                                        <depth>9</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6.5-5.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000172">Roma</placeName><placeName ref="http://www.trismegistos.org/place/000172">Roma</placeName></origPlace>
+                            <origDate notBefore-custom="0195" notAfter-custom="0211" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">195 AD – 211 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Roma</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Lazio</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift?</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-07-28" who="Feraudi">
+             überprüft per Autopsie
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F010214">
+            <desc>F010214</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F026373">
+            <desc>F026373</desc>
+        </graphic>
+
+        <graphic url="http://cil-old.bbaw.de/test06/bilder/datenbank/PH0007340.jpg">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 06, 40596; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(eratori) Caes(ari) divi M(arci) Anto]nin[i Pii Germ(anici) Sarm(atici) f(ilio)] / [divi Com]mod[i fratri] / [divi Antonini Pii nepoti] divi [Hadriani pronepoti] / [divi Traiani P]arthi[ci abnepoti] / [divi Nervae adnepoti] / [L(ucio) Septimio Severo Pio Pertinaci Aug(usto)] / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> divi <expan><abbr>M</abbr><ex>arci</ex></expan> Anto</supplied>nin<supplied reason="lost">i Pii <expan><abbr>Germ</abbr><ex>anici</ex></expan> <expan><abbr>Sarm</abbr><ex>atici</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="2"/><supplied reason="lost">divi Com</supplied>mod<supplied reason="lost">i fratri</supplied> <lb n="3"/><supplied reason="lost">divi Antonini Pii nepoti</supplied> divi <supplied reason="lost">Hadriani pronepoti</supplied> <lb n="4"/><supplied reason="lost">divi Traiani P</supplied>arthi<supplied reason="lost">ci abnepoti</supplied> <lb n="5"/><supplied reason="lost">divi Nervae adnepoti</supplied> <lb n="6"/><supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan> Septimio Severo Pio Pertinaci <expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Autopsie und Ergänzungen G. Alföldy.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD057996</idno>
+                <idno type="TM">185430</idno><idno type="localID">HD057996</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/001750">Arba</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 150 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3192178">Rab</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Primorsko-goranska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-10-28" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 03115. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Matri Deum / porticus i<n=M>#i<n>#IM me/moriam su<o=P><r=E>[um](?)#su<o><r>[um](?)#SUPE / T(itus) Prus<i=T>us#Prus<i>us#PRUSTUS T(iti) f(ilius) Se<r=D>(gia)#Se<r>(gia)#SED Op[tatus t(estamento) p(oni) ius]/s[i]t <p=B>e<r=T>#<p>e<r>#BET Babria<m=N>#Babria<m>#BABRIAN T(iti) f(iliam) Ter[tullam] / sororem heredem[que]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Matri Deum <lb n="2"/>porticus i<choice><corr>n</corr><sic>M</sic></choice>#i<supplied reason="omitted">n</supplied>#IM me<lb break="no" n="3"/>moriam su<choice><corr>o</corr><sic>P</sic></choice><choice><corr>r</corr><sic>E</sic></choice><supplied reason="lost" cert="low">um</supplied>#su<supplied reason="omitted">o</supplied><supplied reason="omitted">r</supplied><supplied reason="lost" cert="low">um</supplied>#SUPE <lb n="4"/><expan><abbr>T</abbr><ex>itus</ex></expan> Prus<choice><corr>i</corr><sic>T</sic></choice>us#Prus<supplied reason="omitted">i</supplied>us#PRUSTUS <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Se<choice><corr>r</corr><sic>D</sic></choice>(gia)#Se<supplied reason="omitted">r</supplied>(gia)#SED Op<supplied reason="lost">tatus <expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>p</abbr><ex>oni</ex></expan> ius</supplied><lb break="no" n="5"/>s<supplied reason="lost">i</supplied>t <choice><corr>p</corr><sic>B</sic></choice>e<choice><corr>r</corr><sic>T</sic></choice>#<supplied reason="omitted">p</supplied>e<supplied reason="omitted">r</supplied>#BET Babria<choice><corr>m</corr><sic>N</sic></choice>#Babria<supplied reason="omitted">m</supplied>#BABRIAN <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>iliam</ex></expan> Ter<supplied reason="lost">tullam</supplied> <lb n="6"/>sororem heredem<supplied reason="lost">que</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Lesung und Ergänzung nach CIL III (auf Grundlage einer schwer leserlichen Handschrift).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

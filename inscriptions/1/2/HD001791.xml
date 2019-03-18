@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Block</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001791</idno>
+                <idno type="TM">214574</idno><idno type="localID">HD001791</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Villach, Mus. der Stadt Villach</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <material>Marmor, geädert / farbig</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>145</height>
+                                        <width>-116</width>
+                                        <depth>30</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">9-4.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003230">Noricum</placeName><placeName>Teurnia, aus?</placeName></origPlace>
+                            <origDate notBefore-custom="0051" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 130 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1982">1982</date>
+                        <placeName ref="http://www.geonames.org/2762372">Villach</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kärnten</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-04-11" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/2137">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1984, 0717. (B) 
+                    </bibl>
+                    <bibl>
+                         G. Piccottini, AustrRom 32, 1982, 34, Nr. 1. (B) - AE 1982. 
+                    </bibl>
+                    <bibl>
+                         G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 204-205, Nr. II 103; Taf. 24, II 103a. 
+                    </bibl>
+                    <bibl>
+                         G. Piccottini, JbMusVillach 48, 2011, 19-21; Abb. 6. 
+                    </bibl>
+                    <bibl>
+                         ILLPRON 0694. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Q(uintus) Vol(usius) / Secundinus / Vol(usio) Civi et / Anniae / Uttilae par(entibus) / et Vol(usio) Accepto / f(ilio) d(e)f(uncto) an(norum) XIII / v(ivus) f(ecit) et sibi / et Optatiae Ter/tullae / con(iugi)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uintus</ex></expan> <expan><abbr>Vol</abbr><ex>usius</ex></expan> <lb n="2"/>Secundinus <lb n="3"/><expan><abbr>Vol</abbr><ex>usio</ex></expan> Civi et <lb n="4"/>Anniae <lb n="5"/>Uttilae <expan><abbr>par</abbr><ex>entibus</ex></expan> <lb n="6"/>et <expan><abbr>Vol</abbr><ex>usio</ex></expan> Accepto <lb n="7"/><expan><abbr>f</abbr><ex>ilio</ex></expan> d<expan><ex>e</ex><abbr>f</abbr><ex>uncto</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XIII <lb n="8"/><expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> et sibi <lb n="9"/>et Optatiae Ter<lb break="no" n="10"/>tullae <lb n="11"/><expan><abbr>con</abbr><ex>iugi</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Gefunden etwa 100 m östlich der Stadtbrücke. Fundjahr: 1981/82. Material: lokaler gelb-weißer Marmor. Links noch der Rest eines gerahmten Bildfeldes erhalten; ein weiteres ursprünglich wohl auch rechts. Nach Kremer zusammen mit einem weiteren, nicht beschrifteten Block wohl vom Sockelgeschoss eines Grabdenkmals stammend. (B): AE 1984: Z. 8: fecit; Piccottini: Z. 9-11: Ter(tullae) / con(iugi); AE 1984: Z. 9-11: Ter(tiae) oder Ter(tullae) / con(iugi).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

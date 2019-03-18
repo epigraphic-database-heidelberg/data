@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD071208</idno>
+                <idno type="TM">156559</idno><idno type="localID">HD071208</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0212" notAfter-custom="0217" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">212 AD – 217 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1609">1609</date>
+                        <placeName ref="http://www.geonames.org/2654915">Brampton, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Cumbria</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-03-21" who="Cowey">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 07, 00875. 
+                    </bibl>
+                    <bibl>
+                         RIB 2066; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) C 1228. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Deae Nymphae Brig(antiae) / quod [vo]verat pro / sal[ute et incolumitate] / dom(ini) nostr(i) Invic(ti) / imp(eratoris) M(arci) Aurel(i) Severi / Antonini Pii Felic[i]s / Aug(usti) totiusque do/mus divinae eius / M(arcus) Cocceius Nigrinus / [pr]oc(urator) Aug(usti) n(ostri) devo/[tissim]us num[ini] / [maies]tatique eius v(otum) [s(olvit)] l(ibens) l(aetus) m(erito)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Deae Nymphae <expan><abbr>Brig</abbr><ex>antiae</ex></expan> <lb n="2"/>quod <supplied reason="lost">vo</supplied>verat pro <lb n="3"/>sal<supplied reason="lost">ute et incolumitate</supplied> <lb n="4"/><expan><abbr>dom</abbr><ex>ini</ex></expan> <expan><abbr>nostr</abbr><ex>i</ex></expan> <expan><abbr>Invic</abbr><ex>ti</ex></expan> <lb n="5"/><expan><abbr>imp</abbr><ex>eratoris</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Aurel</abbr><ex>i</ex></expan> Severi <lb n="6"/>Antonini Pii Felic<supplied reason="lost">i</supplied>s <lb n="7"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> totiusque do<lb break="no" n="8"/>mus divinae eius <lb n="9"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Cocceius Nigrinus <lb n="10"/><expan><abbr><supplied reason="lost">pr</supplied>oc</abbr><ex>urator</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> devo<lb break="no" n="11"/><supplied reason="lost">tissim</supplied>us num<supplied reason="lost">ini</supplied> <lb n="12"/><supplied reason="lost">maies</supplied>tatique eius <expan><abbr>v</abbr><ex>otum</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>olvit</ex></expan></supplied> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

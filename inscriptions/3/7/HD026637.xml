@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grenzmarkierung auf Cippus</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD026637</idno>
+                <idno type="TM">191256</idno><idno type="localID">HD026637</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Istria, Muzeul</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/85">Cippus</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-97</height>
+                                        <width>-45</width>
+                                        <depth>18</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4-4.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName>Istrus</placeName></origPlace>
+                            <origDate notBefore-custom="0198" notAfter-custom="0202" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">198 AD – 202 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1914">1914</date>
+                        <placeName ref="http://www.geonames.org/675471">Istria</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Constanța</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/293">Grenzmarkierung</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-07-05" who="Feraudi">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1919, 0014.(B) 
+                    </bibl>
+                    <bibl>
+                         V. Pârvan, MAR(H) 38, 1915/16, 633-637, Nr. 30; Zeichnung. (B) - AE 1919. 
+                    </bibl>
+                    <bibl>
+                         AE 1956, 0206b.(B) 
+                    </bibl>
+                    <bibl>
+                         I.I. Russu, StCercIstorV 6, 1955, 75-86; fig. b (Zeichnung). - AE 1956. 
+                    </bibl>
+                    <bibl>
+                         IScM 1, 360; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) O 191. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [I]ussu et ex de/[c]reto v(iri) c(larissimi) Ovini / [Te]rtulli co(n)s(ularis) ter/[mini] positi inter / [M]essiam Pude[n]/[til]lam et vicano[s] / [Bu]teridavenses / [per] Vindium Ve/[r]ianum praef(ectum) / cl(assis)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">I</supplied>ussu et ex de<lb break="no" n="2"/><supplied reason="lost">c</supplied>reto <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan> Ovini <lb n="3"/><supplied reason="lost">Te</supplied>rtulli co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> ter<lb break="no" n="4"/><supplied reason="lost">mini</supplied> positi inter <lb n="5"/><supplied reason="lost">M</supplied>essiam Pude<supplied reason="lost">n</supplied><lb break="no" n="6"/><supplied reason="lost">til</supplied>lam et vicano<supplied reason="lost">s</supplied> <lb n="7"/><supplied reason="lost">Bu</supplied>teridavenses <lb n="8"/><supplied reason="lost">per</supplied> Vindium Ve<lb break="no" n="9"/><supplied reason="lost">r</supplied>ianum <expan><abbr>praef</abbr><ex>ectum</ex></expan> <lb n="10"/><expan><abbr>cl</abbr><ex>assis</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): AE 1956: nur partielle Wiedergabe des Textes; Pârvan, AE 1991: abweichende Lesung / Ergänzungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

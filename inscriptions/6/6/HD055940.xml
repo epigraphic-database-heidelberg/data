@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD055940</idno>
+                <idno type="TM">211977</idno><idno type="localID">HD055940</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mainz, Landesmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/11">Granit</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum</placeName></origPlace>
+                            <origDate notBefore-custom="0105" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">105 AD – 150 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1821">1821</date>
+                        <placeName ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-09-27" who="gräf">
+             überprüft per Autopsie
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F015165">
+            <desc>F015165</desc>
+        </graphic>
+
+        <graphic url="http://www.lupa.at/27150">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 06883. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] / leg(ionis) VIII Aug(ustae) it[e]m / leg(ionis) II Tr<a=O>ian(a)e#Tr<a>ian(a)e#TROIANE / T(itus) Fl(avius) Aeternus et / T(itus) Fl(avius) Albinus et / T(itus) Fl(avius) Verecundus / L(?)V(?)I(?)I(?)[-]TI(?)I(?)F(?)P(?)O(?)V(?)F(?)S / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> VIII <expan><abbr>Aug</abbr><ex>ustae</ex></expan> it<supplied reason="lost">e</supplied>m <lb n="2"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> II Tr<choice><corr>a</corr><sic>O</sic></choice>ian<expan><ex>a</ex><abbr>e</abbr></expan>#Tr<supplied reason="omitted">a</supplied>ian<expan><ex>a</ex><abbr>e</abbr></expan>#TROIANE <lb n="3"/><expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Aeternus et <lb n="4"/><expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Albinus et <lb n="5"/><expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Verecundus <lb n="6"/><expan><abbr>L</abbr><ex cert="low"/>V</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>TI</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>F</abbr><ex cert="low"/>P</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>O</abbr><ex cert="low"/>V</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>F</abbr><ex cert="low"/>S</expan> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Autopsie R. Wiegels. Datierung: nicht vor 105 n. Chr., als die legio II Traiana ausgehoben wurde.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

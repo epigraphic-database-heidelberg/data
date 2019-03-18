@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Platte</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD033591</idno>
+                <idno type="TM">154776</idno><idno type="localID">HD033591</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Buxton, Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>76.2</height>
+                                        <width>142</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/013689">Navio</placeName></origPlace>
+                            <origDate notBefore-custom="0158" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">158 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1903">1903</date>
+                        <placeName ref="http://www.geonames.org/">Brough-on-Noe</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Derbyshire</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-04-03" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1904, 0229. (B) 
+                    </bibl>
+                    <bibl>
+                         F. Haverfield, DAJ 26, 1904, 197-203; pl. 8 u. 9. - AE 1904. 
+                    </bibl>
+                    <bibl>
+                         EphEp 9, p. 555 n. 1108.
+                    </bibl>
+                    <bibl>
+                         RIB 0283; Zeichnung. (B) 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) I 618. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(eratori) Caesari T(ito) [Ael(io) Hadr(iano)] / [An]tonino Au[g(usto) Pio p(atri) p(atriae)] / coh(ors) I Aquitan[orum] / sub Iulio V[ero leg(ato)] Aug(usti) / pr(o) pr(aetore) inst[ante] / [C]apitoni[o Pri]sco(?) prae(fecto)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesari <expan><abbr>T</abbr><ex>ito</ex></expan> <supplied reason="lost"><expan><abbr>Ael</abbr><ex>io</ex></expan> <expan><abbr>Hadr</abbr><ex>iano</ex></expan></supplied> <lb n="2"/><supplied reason="lost">An</supplied>tonino Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usto</ex></expan> Pio <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="3"/><expan><abbr>coh</abbr><ex>ors</ex></expan> I Aquitan<supplied reason="lost">orum</supplied> <lb n="4"/>sub Iulio V<supplied reason="lost">ero <expan><abbr>leg</abbr><ex>ato</ex></expan></supplied> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="5"/><expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> inst<supplied reason="lost">ante</supplied> <lb n="6"/><supplied reason="lost">C</supplied>apitoni<supplied reason="lost">o Pri</supplied><expan><abbr>sco</abbr><ex cert="low"/></expan> <expan><abbr>prae</abbr><ex>fecto</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Inschrift besteht aus 4 Fragmente, wovon 3 aneinanderpassen. (B): Zu den verschiedenen Vorschlägen zum Cognomen: [Fu]scus, [Pri]scus, [Etru]scus s. RIB 0283. Z. 1: Im(peratori) (AE) statt Imp(eratori). Z. 3 Aquita[norum] (AE) statt Aquitan[orum]. Z. 4 [A]ug(usti) (AE) statt Aug(usti). Z. 5 inst[ante] (AE) statt inst[ant]e. Z. 6 [Ca]piton[io] (AE) statt [C]apitoni[o].</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD066965</idno>
+                <idno type="TM">403919</idno><idno type="localID">HD066965</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Hudinja, S. Vid</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>56</height>
+                                        <width>50</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003230">Noricum</placeName><placeName ref="http://www.trismegistos.org/place/019892">Celeia, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1918">1918</date>
+                        <placeName ref="http://www.geonames.org/3199219">Vitanje</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Savinjska statistična regija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/si/">Slowenien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-04-08" who="Cowey">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/3601">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AIJ 014; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         ILJug 0369. 
+                    </bibl>
+                    <bibl>
+                         ILLPRON 1786. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Silvanus M/aximi f(ilius) a(nnorum) LXX / t(estamento) f(ieri) i(ussit) Bella v(iva) f(ecit) / c(oniugi) et f(ilio?)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Silvanus M<lb break="no" n="2"/>aximi <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>a</abbr><ex>nnorum</ex></expan> LXX <lb n="3"/><expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>f</abbr><ex>ieri</ex></expan> <expan><abbr>i</abbr><ex>ussit</ex></expan> Bella <expan><abbr>v</abbr><ex>iva</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <lb n="4"/><expan><abbr>c</abbr><ex>oniugi</ex></expan> et <expan><abbr>f</abbr><ex cert="low">ilio</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD066574</idno>
+                <idno type="TM">494923</idno><idno type="localID">HD066574</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Aosta, Mus. Arch.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>138</height>
+                                        <width>58</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.5-5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Transpadana (Regio XI)</placeName><placeName ref="http://www.trismegistos.org/place/003304">Augusta Praetoria, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1700">1700</date>
+                        <placeName ref="http://www.geonames.org/6535080">Villeneuve</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Valle d'Aosta</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-07-24" who="Masci">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 05, 06897. 
+                    </bibl>
+                    <bibl>
+                         E. Pais, Corporis inscriptionum Latinarum supplementa Italica I. Additamenta ad vol. V Galliae Cisalpinae (Roma 1884) 121, Nr. 923. 
+                    </bibl>
+                    <bibl>
+                         A.M. Cavallaro - G. Walser, Iscrizioni di Augusta Praetoria (Quart 1998) 118-119, Nr. 55. 
+                    </bibl>
+                    <bibl>
+                         InscrIt 11, 1, 0114. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Q(uintus) Avilius / Q(uinti) l(ibertus) Quartio / sibi et / Iuliae C(ai) f(iliae) Rufillae / uxori / Firmino (filio) et / Secundino fil(io)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uintus</ex></expan> Avilius <lb n="2"/><expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> Quartio <lb n="3"/>sibi et <lb n="4"/>Iuliae <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> Rufillae <lb n="5"/>uxori <lb n="6"/>Firmino (filio) et <lb n="7"/>Secundino <expan><abbr>fil</abbr><ex>io</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> The inscription was found in Villeneuve (AO), that is 10 km from Aosta and around 40 from Little Saint Bernard Pass, so it seems more pobable that the palace was still part of Transpadana.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

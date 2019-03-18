@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000021</idno>
+                <idno type="TM">220674</idno><idno type="localID">HD000021</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Los Palacios y Villafranca, Privatbesitz</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>91</height>
+                                        <width>59</width>
+                                        <depth>28</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.5-2.8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/026609">Siarum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0143" notAfter-custom="0145" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">143 AD – 145 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1978">1978</date>
+                        <placeName ref="http://www.geonames.org/2514553">Los Palacios y Villafranca</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Sevilla</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2007-05-16" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1983, 0517. (B) 
+                    </bibl>
+                    <bibl>
+                         J. González - A. Caballos Rufino, ZPE 52, 1983, 157-160; Taf. 5a. (A) - AE. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                M(arco) Messio M(arci) f(ilio) / Gal(eria) Rusticiano / Aemilio Lepido Iulio / Celso Balbino Arrio / Proculo trib(uno) pleb(is) desig(nato) / q(uaestori) Imp(eratoris) Caesaris Titi Aelii / Hadriani Antonini Aug(usti) / Pii p(atris) p(atriae) trib(uno) mil(itum) leg(ionis) XV Apol/linar(is) et leg(ionis) III Gallicae / praef(ecto) urbis feriar(um) Latinar(um) / co(n)s(ulatu) Aemili Papi patris / Burbulei Ligariani soceri / Xviro stlitibus iudicandis / res publica Siarensium / Aemilius Papus pater hono/re usus sua pecunia / posuit
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> Messio <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><expan><abbr>Gal</abbr><ex>eria</ex></expan> Rusticiano <lb n="3"/>Aemilio Lepido Iulio <lb n="4"/>Celso Balbino Arrio <lb n="5"/>Proculo <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>pleb</abbr><ex>is</ex></expan> <expan><abbr>desig</abbr><ex>nato</ex></expan> <lb n="6"/><expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Caesaris Titi Aelii <lb n="7"/>Hadriani Antonini <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="8"/>Pii <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XV Apol<lb break="no" n="9"/><expan><abbr>linar</abbr><ex>is</ex></expan> et <expan><abbr>leg</abbr><ex>ionis</ex></expan> III Gallicae <lb n="10"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> urbis <expan><abbr>feriar</abbr><ex>um</ex></expan> <expan><abbr>Latinar</abbr><ex>um</ex></expan> <lb n="11"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulatu</ex></expan> Aemili Papi patris <lb n="12"/>Burbulei Ligariani soceri <lb n="13"/>Xviro stlitibus iudicandis <lb n="14"/>res publica Siarensium <lb n="15"/>Aemilius Papus pater hono<lb break="no" n="16"/>re usus sua pecunia <lb n="17"/>posuit
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): AE: Z.4: Albino statt Balbino; Z.5: design(ato); Z.6: Aeli. (A): Schriftbild nicht actuaria, sondern rustica. Y: Amt des praefectus urbis feriarum Latinarum auf 136 durch Angabe der Konsuln datiert</p>
+            </div>
+        </body>
+    </text>
+</TEI>

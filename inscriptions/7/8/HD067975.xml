@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD067975</idno>
+                <idno type="TM">404834</idno><idno type="localID">HD067975</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Budapest, Aquincumi Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-55</height>
+                                        <width>47</width>
+                                        <depth>16</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6.5-5.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/020126">Aquincum</placeName></origPlace>
+                            <origDate notBefore-custom="0251" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">251 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1887">1887</date>
+                        <placeName ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Budapest</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-12-29" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/5009">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 10431. 
+                    </bibl>
+                    <bibl>
+                         ILS 3954. 
+                    </bibl>
+                    <bibl>
+                         TitAq 0193; Foto. 
+                    </bibl>
+                    <bibl>
+                         TitAq 0458; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [- - -]A / [- - - - - -] / [- - -]I(?) [- - -]I(?)[-] / [- - - - - -] / [- - - - - - // I(ovi) O(ptimo) M(aximo) / et Iunoni / et Ter(ra)e Mat{i}ri / [sa]cr(um) / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>A <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/></expan> <gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/></expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>et Iunoni <lb n="3"/>et Ter<expan><ex>ra</ex><abbr>e</abbr></expan> Mat<surplus>i</surplus>ri <lb n="4"/><expan><abbr><supplied reason="lost">sa</supplied>cr</abbr><ex>um</ex></expan> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die heute sichtbare Inschrift steht auf der Rasur einer Vorgängerinschrift, von der nur noch wenige Buchstabenreste zeugen (TitAq 0458; hier an erster Stelle wiedergegeben).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

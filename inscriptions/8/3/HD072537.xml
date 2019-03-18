@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD072537</idno>
+                <idno type="TM">660542</idno><idno type="localID">HD072537</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Šibenik, Gradski Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-115</height>
+                                        <width>-33</width>
+                                        <depth>11</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">8-6</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/029458">Rider</placeName></origPlace>
+                            <origDate notBefore-custom="0131" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="2000">2000</date>
+                        <placeName ref="http://www.geonames.org/3190941">Šibenik</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Šibensko-kninska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-12-16" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2011, 0935. (B) 
+                    </bibl>
+                    <bibl>
+                         I. Glavaš - R. Sekso, Diadora 25, 2011, 98-99; sl. 1. (B) - AE 2011. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                P(ublius) Coelius Pamphi/lus v(ivus) [f(ecit)] sibi et / Coeliae Muntil/lae f(iliae) def(unctae) an(norum) XXI / et P(ublio) Coelio Nici/phoro(!) f(ilio) def(uncto) / an(norum) XXVII / et Coel[i]ae Aresc[u]/sae ux[o]ri vivae
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublius</ex></expan> Coelius Pamphi<lb break="no" n="2"/>lus <expan><abbr>v</abbr><ex>ivus</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ecit</ex></expan></supplied> sibi et <lb n="3"/>Coeliae Muntil<lb break="no" n="4"/>lae <expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>def</abbr><ex>unctae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXI <lb n="5"/>et <expan><abbr>P</abbr><ex>ublio</ex></expan> Coelio Nici<lb break="no" n="6"/>phoro <note>sic</note> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>def</abbr><ex>uncto</ex></expan> <lb n="7"/><expan><abbr>an</abbr><ex>norum</ex></expan> XXVII <lb n="8"/>et Coel<supplied reason="lost">i</supplied>ae Aresc<supplied reason="lost">u</supplied><lb break="no" n="9"/>sae ux<supplied reason="lost">o</supplied>ri vivae
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Fundjahr: Mitte des 20. Jh. Zwei fast aneiananderpassende Fragmente erhalten; Maße beziehen sich auf den linken Teil; rechter Teil: (113) x (41,5) x 9 cm. (B): Glavaš - Sekso; AE 2011: Z. 3: Coeli[a]e; Z. 9: viva[e].</p>
+            </div>
+        </body>
+    </text>
+</TEI>

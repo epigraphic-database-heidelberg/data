@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD076253</idno>
+                <idno type="TM"/><idno type="localID">HD076253</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Köln, S. Gereon, Kirche</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-48</height>
+                                        <width>48.5</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016530">Germania inferior</placeName><placeName ref="http://www.trismegistos.org/place/003258">Colonia Claudia Ara Agrippinensium</placeName></origPlace>
+                            <origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 400 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1821">1821</date>
+                        <placeName ref="http://www.geonames.org/2886242">Köln</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Nordrhein-Westfalen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-06-27" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 08410. 
+                    </bibl>
+                    <bibl>
+                         CLE 0614. 
+                    </bibl>
+                    <bibl>
+                         B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln, IKöln (2. 
+                    </bibl>
+                    <bibl>
+                         Aufl.) (Mainz 2010) 439, Nr. 567; Foto. 
+                    </bibl>
+                    <bibl>
+                         P. Cugusi, Per un nuovo corpus dei Carmina Latina Epigraphica. Materiale e discussioni, MAL 22 (Roma 2007) 206. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Optate (h)ic nomen signa/tum carmine tristi / nomen dulce suis et lam/entabile semper Optatus / gen<it=TI>ur#gen<it>ur#GENTIUR et mater Nemesia / deflet iniqua o mise/ri fatorum sorte pa/rentes parvula quis rapta / est a<t=I>q(ue)#a<t>q(ue)#AIQ unica h(e)u male / mensis post decimum nonu(s) / clausit prop(e)rantia fata
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Optate <expan><ex>h</ex><abbr>ic</abbr></expan> nomen signa<lb break="no" n="2"/>tum carmine tristi <lb n="3"/>nomen dulce suis et lam<lb break="no" n="4"/>entabile semper Optatus <lb n="5"/>gen<supplied reason="omitted">it=TI</supplied>ur#gen<supplied reason="omitted">it</supplied>ur#GENTIUR et mater Nemesia <lb n="6"/>deflet iniqua o mise<lb break="no" n="7"/>ri fatorum sorte pa<lb break="no" n="8"/>rentes parvula quis rapta <lb n="9"/>est a<choice><corr>t</corr><sic>I</sic></choice><expan><abbr>q</abbr><ex>ue</ex></expan>#a<supplied reason="omitted">t</supplied><expan><abbr>q</abbr><ex>ue</ex></expan>#AIQ unica h<expan><ex>e</ex><abbr>u</abbr></expan> male <lb n="10"/>mensis post decimum <expan><abbr>nonu</abbr><ex>s</ex></expan> <lb n="11"/>clausit prop<expan><ex>e</ex><abbr>rantia</abbr></expan> fata
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

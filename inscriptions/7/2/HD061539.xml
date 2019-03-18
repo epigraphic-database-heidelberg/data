@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD061539</idno>
+                <idno type="TM">186602</idno><idno type="localID">HD061539</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Split, Arh. Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/015883">Salonae</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3186233">Solin</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Splitsko-dalmatinska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-05-07" who="Feraudi">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 14701; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 14702; Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) [s(acrum)] / Valerius As[iati]/cus(?) sagittar[ius qui] / v(ixit) an(nos) XXXV m(enses) II[- - -] / Valerius Va[lens] / f<e=I>cit#f<e>cit#FICIT mem[or(iam) fil(io)?] / suo infa[nti?] / <e=F>(t)#<e>(t)#F denari[um quin]/que mili[bus fecit] // RB
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>acrum</ex></expan></supplied> <lb n="2"/>Valerius As<supplied reason="lost">iati</supplied><lb break="no" n="3"/><expan><abbr>cus</abbr><ex cert="low"/></expan> sagittar<supplied reason="lost">ius qui</supplied> <lb n="4"/><expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XXXV <expan><abbr>m</abbr><ex>enses</ex></expan> II<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>Valerius Va<supplied reason="lost">lens</supplied> <lb n="6"/>f<choice><corr>e</corr><sic>I</sic></choice>cit#f<supplied reason="omitted">e</supplied>cit#FICIT mem<supplied reason="lost" cert="low">or(iam) fil(io)</supplied> <lb n="7"/>suo infa<supplied reason="lost" cert="low">nti</supplied> <lb n="8"/><choice><corr>e</corr><sic>F</sic></choice>(t)#<supplied reason="omitted">e</supplied>(t)#F denari<supplied reason="lost">um quin</supplied><lb break="no" n="9"/>que mili<supplied reason="lost">bus fecit</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> RB
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

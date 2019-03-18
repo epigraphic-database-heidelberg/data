@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Besitzer-/Herstellerinschrift auf Instrumentum domesticum</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD078617</idno>
+                <idno type="TM"/><idno type="localID">HD078617</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/140">Instrumentum domesticum</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-63</height>
+                                        <width>110</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution">gestempelt, geritzt / Graffito</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">12.5-1.6</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/028087">Vitudurum</placeName></origPlace>
+                            <origDate notBefore-custom="0031" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD – 50 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1982">1982</date>
+                        <placeName ref="http://www.geonames.org/6295536">Winterthur</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kanton Zürich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/311">Besitzer-/Herstellerinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-01-31" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        R. Frei-Stolba, Holzfässer. Studien zu den Holzfässern und ihren Inschriften im römischen Reich mit Neufunden und Neulesungen der Fassinschriften aus Oberwinterthur/Vitudurum (Zürich - Egg 2017) 100-106. 204; Nr. 1-7. 9. 71; Abb. 99-108; Fotos u. Zeichnungen. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                C(aii) Pl(- - -) Ac(- - -) // C(aii) Pl(- - -) Ac(- - -) // Q(uinti) A(tti) G(rati) // Q(uinti) Atti Grati // Q(uinti) // Baccus f(ecit) // I(?) VII I(?) // C(ai) Abro(ni) C[ar(- - -)]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aii</ex></expan> <abbr>Pl</abbr> <abbr>Ac</abbr> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>aii</ex></expan> <abbr>Pl</abbr> <abbr>Ac</abbr> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>A</abbr><ex>tti</ex></expan> <expan><abbr>G</abbr><ex>rati</ex></expan> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>Q</abbr><ex>uinti</ex></expan> Atti Grati </ab></div><div n="5" type="textpart"><ab><lb n="1"/> <expan><abbr>Q</abbr><ex>uinti</ex></expan> </ab></div><div n="6" type="textpart"><ab><lb n="1"/> Baccus <expan><abbr>f</abbr><ex>ecit</ex></expan> </ab></div><div n="7" type="textpart"><ab><lb n="1"/> <expan><abbr>I</abbr><ex cert="low"/></expan> VII <expan><abbr>I</abbr><ex cert="low"/></expan> </ab></div><div n="8" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>Abro</abbr><ex>ni</ex></expan> C<supplied reason="lost"><expan><abbr>ar</abbr><ex>3</ex></expan></supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Fass aus 19 Dauben, zu einem Bottich verkürzt und im Hinterhof eines vor 40/50 n. Chr. errichteten Gebäudes eingegraben. Material: Weißtanne; Fassreifen aus Haselruten; einige Bodenbretter aus Fichtenholz. Text 1 = Nr. 1 befindet sich auf der Innenseite einer Daube, auf dem Kopf stehend. Schreibtechnik: gestempelt. Schlagstempel. Text 2 = Nr. 2 befindet sich auf der Innenseite der selben Daube wie Text 1. Schreibtechnik: gestempelt. Schlagstempel. Text 3 = Nr. 3 befindet sich außen auf dem Fassboden. Schreibtechnik: gestempelt. Brandstempel. Text 4 = Nr. 4 befindet sich außen auf dem Fassboden. Schreibtechnik: gestempelt. Brandstempel. Zweimal leicht versetzt übereinander angesetzt. Text 5 = Nr. 5 befindet sich außen auf dem Fassboden, wohl zunächst weiter unten angesetzte und nicht weiter ausgeführte Fehlstempelung von Text 4. Text 6 = Nr. 6 befindet sich außen auf dem Fassboden, 90° nach rechts gedreht zu Text 5 und quer über diesen geschrieben. Schreibtechnik: geritzt. Text 7 = Nr. 8 befindet sich außen auf dem Fassboden. Schreibtechnik: geritzt. Text 8 = Nr. 9 befindet sich innen auf dem Fasboden. Schreibtechnik: gestempelt. Schlagstempel. Vgl. vom selben Fundort: https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD078617.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

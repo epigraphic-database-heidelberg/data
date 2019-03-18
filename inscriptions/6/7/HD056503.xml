@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD056503</idno>
+                <idno type="TM">215802</idno><idno type="localID">HD056503</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Klagenfurt/Wörthersee, Landesmus. Kärnten</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>60</height>
+                                        <width>-89</width>
+                                        <depth>22</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003230">Noricum</placeName><placeName ref="http://www.trismegistos.org/place/028432">Teurnia, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0071" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD – 150 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1879">1879</date>
+                        <placeName ref="http://www.geonames.org/2783013">Hohenthurn</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kärnten</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-10-18" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F012479">
+            <desc>F012479</desc>
+        </graphic>
+
+        <graphic url="http://lupa.at/2204">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        ILLPRON 0074. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 11481. 
+                    </bibl>
+                    <bibl>
+                         G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 160, Nr. 179. 
+                    </bibl>
+                    <bibl>
+                         G. Piccottini, Die Römersteinsammlung des Landesmuseums für Kärnten (Klagenfurt 1996) 143-144, Nr. 81. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Vitali Festi f(ilio) con(iugi) / et Atecto f(ilio) an(norum) XXX Aiiu / Macci f(ilia) et Priscus Vita/lis f(ilius) vivi fec(erunt) et sibi et [Hel(viae)?] / Bouniae et Hel(viae) Litun(a)e
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Vitali Festi <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>con</abbr><ex>iugi</ex></expan> <lb n="2"/>et Atecto <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXX Aiiu <lb n="3"/>Macci <expan><abbr>f</abbr><ex>ilia</ex></expan> et Priscus Vita<lb break="no" n="4"/>lis <expan><abbr>f</abbr><ex>ilius</ex></expan> vivi <expan><abbr>fec</abbr><ex>erunt</ex></expan> et sibi et <supplied reason="lost" cert="low">Hel(viae)</supplied> <lb n="5"/>Bouniae et <expan><abbr>Hel</abbr><ex>viae</ex></expan> Litun<expan><ex>a</ex><abbr>e</abbr></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Maßangaben nach Kremer (dagegen Piccottini: 60 x 59 x 14).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

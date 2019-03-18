@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Besitzer-/Herstellerinschrift auf Instrumentum domesticum</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD018258</idno>
+                <idno type="TM">210066</idno><idno type="localID">HD018258</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mainz, Landesmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/140">Instrumentum domesticum</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/41">Speckstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>4.5</height>
+                                        <width>4.3</width>
+                                        <depth>1.4</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum</placeName></origPlace>
+                            <origDate notBefore-custom="0051" notAfter-custom="0350" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 350 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1978">1978</date>
+                        <placeName ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/311">Besitzer-/Herstellerinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-11-13" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1989, 0565. 
+                    </bibl>
+                    <bibl>
+                         K.-V. Decker - A. Do Paço, AKB 10, 1980, 337-341; Taf. 57, 1; Abb. 2 (Zeichnung). - AE 1989. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                C(ai) Iul(i) Castrens(is) / diasmyrines(!) // C(ai) Iul(i) Castrens(is) / nardinum // C(ai) Iul(i) Castrens(is) / diapsporicum(!) // C(ai) Iul(i) Castrens(is) / euuodes // VQVOQVE // S // C(ai) Iul(i) Castr(ensis)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>Iul</abbr><ex>i</ex></expan> <expan><abbr>Castrens</abbr><ex>is</ex></expan> <lb n="2"/>diasmyrines <note>sic</note> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>Iul</abbr><ex>i</ex></expan> <expan><abbr>Castrens</abbr><ex>is</ex></expan> <lb n="2"/>nardinum </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>Iul</abbr><ex>i</ex></expan> <expan><abbr>Castrens</abbr><ex>is</ex></expan> <lb n="2"/>diapsporicum <note>sic</note> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>Iul</abbr><ex>i</ex></expan> <expan><abbr>Castrens</abbr><ex>is</ex></expan> <lb n="2"/>euuodes </ab></div><div n="5" type="textpart"><ab><lb n="1"/> VQVOQVE </ab></div><div n="6" type="textpart"><ab><lb n="1"/> S </ab></div><div n="7" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>Iul</abbr><ex>i</ex></expan> <expan><abbr>Castr</abbr><ex>ensis</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Augenarztstempel.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

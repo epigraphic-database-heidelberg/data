@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Block</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059741</idno>
+                <idno type="TM">203061</idno><idno type="localID">HD059741</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Ţarābulus (Tripoli), Festung (rechter Teil); İstanbul, Topkapı Sarayı, Çinili Köşk</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-38</height>
+                                        <width>-83.5</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3-2.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/015771">Africa Proconsularis</placeName><placeName ref="http://www.trismegistos.org/place/017000">Ghirza</placeName></origPlace>
+                            <origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 400 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1824">1824</date>
+                        <placeName ref="http://www.geonames.org/">Qirdah</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/ly/">Libyen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-07-09" who="Bodard">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IRT 900. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 10970. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 22661. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 00743. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                M(- - -) Fydel et F(- - -) Thesylgum / pater et mater M(- - -) Metusanis / qui eis hec(!) memoriam fecit / discussi ratiocinio ad ea erog/atum est sumptos mercedes / in numo follis m[- - -] milia / pr(a)eter cibarias o[perant]ibus / feliciter legan[t et] vissite/nt fil(i)os et nepotes meos / et tales faciant
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <abbr>M</abbr> Fydel et <abbr>F</abbr> Thesylgum <lb n="2"/>pater et mater <abbr>M</abbr> Metusanis <lb n="3"/>qui eis hec <note>sic</note> memoriam fecit <lb n="4"/>discussi ratiocinio ad ea erog<lb break="no" n="5"/>atum est sumptos mercedes <lb n="6"/>in numo follis m<gap reason="lost" extent="unknown" unit="character"/> milia <lb n="7"/>pr<expan><ex>a</ex><abbr>eter</abbr></expan> cibarias o<supplied reason="lost">perant</supplied>ibus <lb n="8"/>feliciter legan<supplied reason="lost">t et</supplied> vissite<lb break="no" n="9"/>nt fil<expan><ex>i</ex><abbr>os</abbr></expan> et nepotes meos <lb n="10"/>et tales faciant
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

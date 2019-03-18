@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Grabbau</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD035207</idno>
+                <idno type="TM">214897</idno><idno type="localID">HD035207</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Wels, Stadtmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/230">Grabbau</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>74</height>
+                                        <width>157</width>
+                                        <depth>-21</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6.6-5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003230">Noricum</placeName><placeName ref="http://www.trismegistos.org/place/028261">Ovilava, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2773718">Atzbach</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Oberösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-03-24" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F004552">
+            <desc>F004552</desc>
+        </graphic>
+
+        <graphic url="http://lupa.at/4526">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 05606. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 05606 add. p. 2328, 200. 
+                    </bibl>
+                    <bibl>
+                         ILLPRON 0941. 
+                    </bibl>
+                    <bibl>
+                         G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 228, Nr. 188. 
+                    </bibl>
+                    <bibl>
+                         R. Wedenig, Epigraphische Quellen zur städtischen Administration in Noricum (Klagenfurt 1997) 190-191, Nr. O 1. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) // [M(anibus)] // L(ucius) Saplius Agrippa dec(urio) e[t II vir] / col(oniae) Ovil(avensium) sibi et Primiae Hon[oratae] / coniugi et L(ucio) Saplio Optato d[ecur(ioni)] / col(oniae) s(upra) s(criptae) filio et L(ucio) Saplio Agrippa[e] / filio vivis fecit et L(ucio) Saplio Opt[ato] / aed(ili) col(oniae) s(upra) s(criptae) fratri @(obito) an(norum) L et L(ucio) Sap[lio] / Honorato mil(iti) praetor(iano) fil(io) @(obito) an(norum) XXI die[r(um) - - -] / Antiochia Syria et Sapliae Optatae n[epti?]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>ucius</ex></expan> Saplius Agrippa <expan><abbr>dec</abbr><ex>urio</ex></expan> e<supplied reason="lost">t II vir</supplied> <lb n="2"/><expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Ovil</abbr><ex>avensium</ex></expan> sibi et Primiae Hon<supplied reason="lost">oratae</supplied> <lb n="3"/>coniugi et <expan><abbr>L</abbr><ex>ucio</ex></expan> Saplio Optato d<supplied reason="lost"><expan><abbr>ecur</abbr><ex>ioni</ex></expan></supplied> <lb n="4"/><expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptae</ex></expan> filio et <expan><abbr>L</abbr><ex>ucio</ex></expan> Saplio Agrippa<supplied reason="lost">e</supplied> <lb n="5"/>filio vivis fecit et <expan><abbr>L</abbr><ex>ucio</ex></expan> Saplio Opt<supplied reason="lost">ato</supplied> <lb n="6"/><expan><abbr>aed</abbr><ex>ili</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptae</ex></expan> fratri @(obito) <expan><abbr>an</abbr><ex>norum</ex></expan> L et <expan><abbr>L</abbr><ex>ucio</ex></expan> Sap<supplied reason="lost">lio</supplied> <lb n="7"/>Honorato <expan><abbr>mil</abbr><ex>iti</ex></expan> <expan><abbr>praetor</abbr><ex>iano</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> @(obito) <expan><abbr>an</abbr><ex>norum</ex></expan> XXI die<supplied reason="lost"><expan><abbr>r</abbr><ex>um</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/>Antiochia Syria et Sapliae Optatae n<supplied reason="lost" cert="low">epti</supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Ursprüngliche Breite nach Kremer mindestens 28. Textwiedergabe nach Wedenig.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

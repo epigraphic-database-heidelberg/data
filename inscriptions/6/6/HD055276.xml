@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD055276</idno>
+                <idno type="TM">211856</idno><idno type="localID">HD055276</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mainz, Landesmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-15.5</height>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum</placeName></origPlace>
+                            <origDate notBefore-custom="0225" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">225 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1881">1881</date>
+                        <placeName ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-08-08" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F014955">
+            <desc>F014955</desc>
+        </graphic>
+
+        <graphic url="http://hdl.handle.net/11471/504.40.94">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 06744. (B) 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) M 137. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) C 261. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [In h(onorem) d(omus) d(ivinae) deo Mercur]/[io et Genio neg(otiatorum) pann]/[ariorum - - -] Optat[ius So]/[- - -] Arriania [Pa]/[terna? Op]tatius Pa[tern(us)] / [- - - Fus]co et Dex[tro] / [co(n)]s(ulibus)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> deo Mercur</supplied><lb break="no" n="2"/><supplied reason="lost">io et Genio <expan><abbr>neg</abbr><ex>otiatorum</ex></expan> pann</supplied><lb break="no" n="3"/><supplied reason="lost">ariorum</supplied><gap reason="lost" extent="unknown" unit="character"/> Optat<supplied reason="lost">ius So</supplied><lb break="no" n="4"/><gap reason="lost" extent="unknown" unit="character"/> Arriania <supplied reason="lost">Pa</supplied><lb break="no" n="5"/><supplied reason="lost">terna<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Op</supplied>tatius Pa<supplied reason="lost"><expan><abbr>tern</abbr><ex>us</ex></expan></supplied> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Fus</supplied>co et Dex<supplied reason="lost">tro</supplied> <lb n="7"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex></expan></supplied><expan><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Bei der Auffindung waren etwa die hinteren zwei Drittel aller Zeilen noch erhalten. Lesung / Ergänzung nach EPSG 125 (http://gams.uni-graz.at/o:epsg.125).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

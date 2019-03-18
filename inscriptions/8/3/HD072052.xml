@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD072052</idno>
+                <idno type="TM">692929</idno><idno type="localID">HD072052</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>150</height>
+                                        <width>227</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName ref="http://www.trismegistos.org/place/005216">Tomi</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1981">1981</date>
+                        <placeName ref="http://www.geonames.org/680963">Constanţa</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Constanța</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-08-08" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2011, 1143. 
+                    </bibl>
+                    <bibl>
+                         A. Avram - C.P. Jones, ZPE 178, 2011, 126-134; fig. 1 u. 2. - AE 2011. (B) 
+                    </bibl>
+                    <bibl>
+                         G. Staub, ZPE 179, 2011, 97-102; Abb. 1-3. - AE 2011. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Εἰναχίας γαίας προλιπὼν περιώνυμον / ἄστυ εἰόνιον τόδ' ἔβην ἱερὸν πέδον ἄστυ / Τόμοιο οὐ βραδὺς εἰς ἀρετὰν οὐδ' εἰς <σ>τε/φάνους ἀμύητος ἀλλ' ἐδάην μὲν ἐ/γὼ κροτάφοις ἐπ' ἐμοῖσι φορῆσαι στέμμαθ' ἅ μοι πόρε Μοῦσα θεὰ κατὰ γαῖαν ἅ/πασαν εὖ μὲν ἀπανγέλλων τραφικὸν στί/χον εὖ δὲ ἀείδων ἀλλ' ἐπὶ οὖν με πόλις / ξεινηδόχος ἔνθα κατέσχε δῶκεν δὲ / φιλίην ἄλοχον δῶκεν δὲ τέκνοιο γονήν μοι / καὶ βίον ἐξετέλεσσα ὅσον θέτο νήματα Μοιρῶν / τύμβον ἔχω δὲ θανὼν ἐρατῷ ἰδίῷ ἐνὶ χώρῳ / ἀνθεμόεντ' ἀνὰ χῶρον ὅπου καλὰ κλήμα/τα Βάχχου ἤλυθα δ' ες Ἀίδην προλιπὼν / ἐμὰ δώματα τέκνῳ / ὡς μή τίς με θανόντα κακῶς ῥέξειε πολείτης / λοιπὸν ἀνανκαίον σε μαθεῖν παροδεῖτα κράτιστε / οὔνομά μοι τί πότ' ἐστι πόλις δέ με γείνατο ποία / Εὐέλπιστον Σώσου με Βυζάντιον εἶπο<ν> ἅπαντες
+            --><div type="edition" xml:lang="grc"><head>Text</head><ab><lb n="1"/>
+                Εἰναχίας γαίας προλιπὼν περιώνυμον <lb n="2"/>ἄστυ εἰόνιον τόδ' ἔβην ἱερὸν πέδον ἄστυ <lb n="3"/>Τόμοιο οὐ βραδὺς εἰς ἀρετὰν οὐδ' εἰς <supplied reason="omitted">σ</supplied>τε<lb break="no" n="4"/>φάνους ἀμύητος ἀλλ' ἐδάην μὲν ἐ<lb break="no" n="5"/>γὼ κροτάφοις ἐπ' ἐμοῖσι φορῆσαι στέμμαθ' ἅ μοι πόρε Μοῦσα θεὰ κατὰ γαῖαν ἅ<lb break="no" n="6"/>πασαν εὖ μὲν ἀπανγέλλων τραφικὸν στί<lb break="no" n="7"/>χον εὖ δὲ ἀείδων ἀλλ' ἐπὶ οὖν με πόλις <lb n="8"/>ξεινηδόχος ἔνθα κατέσχε δῶκεν δὲ <lb n="9"/>φιλίην ἄλοχον δῶκεν δὲ τέκνοιο γονήν μοι <lb n="10"/>καὶ βίον ἐξετέλεσσα ὅσον θέτο νήματα Μοιρῶν <lb n="11"/>τύμβον ἔχω δὲ θανὼν ἐρατῷ ἰδίῷ ἐνὶ χώρῳ <lb n="12"/>ἀνθεμόεντ' ἀνὰ χῶρον ὅπου καλὰ κλήμα<lb break="no" n="13"/>τα Βάχχου ἤλυθα δ' ες Ἀίδην προλιπὼν <lb n="14"/>ἐμὰ δώματα τέκνῳ <lb n="15"/>ὡς μή τίς με θανόντα κακῶς ῥέξειε πολείτης <lb n="16"/>λοιπὸν ἀνανκαίον σε μαθεῖν παροδεῖτα κράτιστε <lb n="17"/>οὔνομά μοι τί πότ' ἐστι πόλις δέ με γείνατο ποία <lb n="18"/>Εὐέλπιστον Σώσου με Βυζάντιον εἶπο<supplied reason="omitted">ν</supplied> ἅπαντες
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 1-15 in einer tabula ansata geschrieben. Hexameter. (B): In Z. 1-4 (Vers 1-3) Lesungen die durch Staub verbessert worden sind.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

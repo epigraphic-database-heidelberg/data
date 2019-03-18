@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD069255</idno>
+                <idno type="TM">660149</idno><idno type="localID">HD069255</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/003201">Vindolanda</placeName></origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/6942442">Chesterholm</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Northumberland</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-03-02" who="Cowey">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2010, 0811. 
+                    </bibl>
+                    <bibl>
+                         A.K. Bowman - J.D. Thomas - R.S.O. Tomlin, Britannia 41, 1990, 204-210, Nr. 861; fig. 8 (Foto). - AE 2010. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                |(centuria) Ianuari / [C]rescens scuta(rius) / [- - -]aria |(denarium) I s(emis) / [- - -]ato / [- - -] |(denarios) [- - -] / [- - -]s / [- - -] |(denarium) I s(emis) / [- - - - - -] / [- - - - - -] / [- - -]s / [- - -] |(denarium) I II(asses) / Geu[- - -]us / [-]u[- - -]ria |(denarium) I s(emis) / C[- - -]s / [-]alabra |(denarios) [- - -] // A[-]m[- - -]tus / lanc[ea]s |(denarium) I II(asses) / Gova[- - -]us / men[- - -] |(denarios) II / lan[cea]s |(denarium) I / d(ebet) Alb[- - -]us / lan[cea]s |(denarium) I / d(ebet) Liber / sagum |(denarios) II / d(ebet) Tagomas vex<i=E>llarius#vex<i>llarius#VEXELLARIUS / lanceas |(denarium) I / d(ebet) Victor venator / lanceas |(denarios) V / d(ebet) Verrinus / [la]nceas |(denarios) [- - - - - - // N[-]dr[- - -]s / sagellum |(denarios) II / d(ebet) Neso / lancea[s] |(denarium) I / Tullio / d(ebet) sudariu[m] |(denarium) I / sum(ma) |(denarios) XXIX s(emis)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Ianuari <lb n="2"/><supplied reason="lost">C</supplied>rescens <expan><abbr>scuta</abbr><ex>rius</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>aria |(denarium) I <expan><abbr>s</abbr><ex>emis</ex></expan> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ato <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> |(denarios) <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>s <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> |(denarium) I <expan><abbr>s</abbr><ex>emis</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>s <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> |(denarium) I <expan><abbr>II</abbr><ex>asses</ex></expan> <lb n="10"/>Geu<gap reason="lost" extent="unknown" unit="character"/>us <lb n="11"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>u<gap reason="lost" extent="unknown" unit="character"/>ria |(denarium) I <expan><abbr>s</abbr><ex>emis</ex></expan> <lb n="12"/>C<gap reason="lost" extent="unknown" unit="character"/>s <lb n="13"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>alabra |(denarios) <gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> A<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>m<gap reason="lost" extent="unknown" unit="character"/>tus <lb n="2"/>lanc<supplied reason="lost">ea</supplied>s |(denarium) I <expan><abbr>II</abbr><ex>asses</ex></expan> <lb n="3"/>Gova<gap reason="lost" extent="unknown" unit="character"/>us <lb n="4"/>men<gap reason="lost" extent="unknown" unit="character"/> |(denarios) II <lb n="5"/>lan<supplied reason="lost">cea</supplied>s |(denarium) I <lb n="6"/><expan><abbr>d</abbr><ex>ebet</ex></expan> Alb<gap reason="lost" extent="unknown" unit="character"/>us <lb n="7"/>lan<supplied reason="lost">cea</supplied>s |(denarium) I <lb n="8"/><expan><abbr>d</abbr><ex>ebet</ex></expan> Liber <lb n="9"/>sagum |(denarios) II <lb n="10"/><expan><abbr>d</abbr><ex>ebet</ex></expan> Tagomas vex<choice><corr>i</corr><sic>E</sic></choice>llarius#vex<supplied reason="omitted">i</supplied>llarius#VEXELLARIUS <lb n="11"/>lanceas |(denarium) I <lb n="12"/><expan><abbr>d</abbr><ex>ebet</ex></expan> Victor venator <lb n="13"/>lanceas |(denarios) V <lb n="14"/><expan><abbr>d</abbr><ex>ebet</ex></expan> Verrinus <lb n="15"/><supplied reason="lost">la</supplied>nceas |(denarios)<gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> N<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>dr<gap reason="lost" extent="unknown" unit="character"/>s <lb n="2"/>sagellum |(denarios) II <lb n="3"/><expan><abbr>d</abbr><ex>ebet</ex></expan> Neso <lb n="4"/>lancea<supplied reason="lost">s</supplied> |(denarium) I <lb n="5"/>Tullio <lb n="6"/><expan><abbr>d</abbr><ex>ebet</ex></expan> sudariu<supplied reason="lost">m</supplied> |(denarium) I <lb n="7"/><expan><abbr>sum</abbr><ex>ma</ex></expan> |(denarios) XXIX <expan><abbr>s</abbr><ex>emis</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002105</idno>
+                <idno type="TM">214579</idno><idno type="localID">HD002105</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/73">Brekzie</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-21</height>
+                                        <width>-20.9</width>
+                                        <depth>3.9</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003230">Noricum</placeName><placeName ref="http://www.trismegistos.org/place/019906">Virunum?</placeName></origPlace>
+                            <origDate notBefore-custom="-0015" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">15 BC – 14 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1997">1997</date>
+                        <placeName ref="http://www.geonames.org/2772135">Magdalensberg</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kärnten</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-04-29" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2005, 1163. 
+                    </bibl>
+                    <bibl>
+                         G. Piccottini, in: F. Beutler - W. Hameter (Hrsg.), "Eine ganz normale Inschrift" ... und ähnliches zum Geburtstag von Ekkehard Weber. Festschrift zum 30. April 2005 (Wien 2005) 394. 397-399; Abb. 12 u. 13 (Fotos u. Zeichnungen); Abb. 14 (Zeichnung). - AE 2005. 
+                    </bibl>
+                    <bibl>
+                         M. Holzner - E. Weber, Tyche 23, 2008, 205-206, Nr. 168. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(eratori)? Caesari? Divi? f(ilio)?] / [Augusto?] / N[orici Ambilinei] / Amb[idr(avi) Uperaci Saev(ates)] / Laian[ci Ambisontes] / [(H)e]lv[eti(i)]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">Imp(eratori)? Caesari? Divi? f(ilio)</supplied> <lb n="2"/><supplied reason="lost" cert="low">Augusto</supplied> <lb n="3"/>N<supplied reason="lost">orici Ambilinei</supplied> <lb n="4"/>Amb<supplied reason="lost"><expan><abbr>idr</abbr><ex>avi</ex></expan> Uperaci <expan><abbr>Saev</abbr><ex>ates</ex></expan></supplied> <lb n="5"/>Laian<supplied reason="lost">ci Ambisontes</supplied> <lb n="6"/><supplied reason="lost">(H)e</supplied>lv<supplied reason="lost"><expan><abbr>eti</abbr><ex>i</ex></expan></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Zwei nicht aneiananderpassende Fragmente. Fundstelle und Maße beziehen sich auf Fragment a. Fragment b: gefunden westlich des AA-Komplexes, wohl in AA/17. Ergänzungsvorschlag nach Piccottini; rekonstruierte Breite: 63 cm. Wohl die Vorderseite einer Statuenbasis und zusammen mit ILLPRON 0236, AE 1953, 0105 = AE 1954, 0100 = ILLPRON 0235, AE 1952, 0212 = AE 1952, 0213 = AE 1952, 0214 = AE 1954, 0100 = ILLPRON 0234 und möglicherweise AE 2005, 1164 zu einer Statuengruppe gehörig. Datierung: nach 15 v. Chr. (Eingliederung von Noricum ins Römische Reich); wegen der vermutlichen Zusammengehörigkeit mit den genannten Inschriften und wegen der Paläographie nicht nach iulisch-claudischer Zeit; bei der vorgeschlagenen Ergänzung nicht nach 14 n. Chr. (Tod des Augustus). nach 14 n. Chr. (Tod des Augustus).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

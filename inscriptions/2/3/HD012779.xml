@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD012779</idno>
+                <idno type="TM">190916</idno><idno type="localID">HD012779</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>114</height>
+                                        <width>51</width>
+                                        <depth>38</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-2.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName>Municipium Montanensium</placeName></origPlace>
+                            <origDate notBefore-custom="0203-05-18" notAfter-custom="0203-05-18" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">18.5.203 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1969">1969</date>
+                        <placeName ref="http://www.geonames.org/729114">Montana (Mihajlovgrad)</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Montana﻿</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-05-10" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1987, 0877. (B) 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) F 554. 
+                    </bibl>
+                    <bibl>
+                         PIR S 326. 
+                    </bibl>
+                    <bibl>
+                         V. Božilova, Montana 1, 1987, 26-27, Nr. 11; obr. 10 a u. b. (B) - AE 1987. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Deanae // aram et sig(illum) / C(aius) Marius Vic/torinus |(centurio) leg(ionis) / I Ital(icae) ex voto // posuit // Dedicatum // XV Kal(endas) Iuni/as [[Plautiano II]] / [[et P(ublio) Septimio]] / [[Geta II]] co(n)s(ulibus)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Deanae </ab></div><div n="2" type="textpart"><ab><lb n="1"/> aram et <expan><abbr>sig</abbr><ex>illum</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Marius Vic<lb break="no" n="3"/>torinus |(centurio) <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="4"/>I <expan><abbr>Ital</abbr><ex>icae</ex></expan> ex voto </ab></div><div n="3" type="textpart"><ab><lb n="1"/> posuit </ab></div><div n="4" type="textpart"><ab><lb n="1"/> Dedicatum </ab></div><div n="5" type="textpart"><ab><lb n="1"/> XV <expan><abbr>Kal</abbr><ex>endas</ex></expan> Iuni<lb break="no" n="2"/>as <del rend="erasure">Plautiano II</del> <lb n="3"/><del rend="erasure">et <expan><abbr>P</abbr><ex>ublio</ex></expan> Septimio</del> <lb n="4"/><del rend="erasure">Geta II</del> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Inschriften auf der altarförmigen Basis erstrecken sich auf die Vorder- und Rückseite. (B): Božilova, AE 1987: Z. 5 (Rückseite): co(n)s(ulibus).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD046004</idno>
+                <idno type="TM">180760</idno><idno type="localID">HD046004</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/004366">Dacia</placeName><placeName>Colonia Ulpia Traiana Sarmizegetusa</placeName></origPlace>
+                            <origDate notBefore-custom="0142" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">142 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/667964">Sarmizegetusa</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hunedoara</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-01-11" who="Feraudi">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 01448. 
+                    </bibl>
+                    <bibl>
+                         IDR 3, 2, 072. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(eratori) Caesari] / [divi Hadriani fil(io)] / divi Tr[aiani Parth(ici)] / ne[p(oti)] divi [Nervae] / pron(epoti) T(ito) Ael(io) Had[riano] / Antonino Aug(usto) / Pio pont(ifici) max(imo) tr(ibunicia) / pot(estate) V co(n)s(uli) II[I] p(atri) p(atriae) / Q(uintus) Aurelius Q(uinti) f(ilius) / Ter[t]ius Pap(iria) Sarm(izegetusa) / dec(urio) col(oniae) ob honor(em) / flamoni et HS LXXX(milia) / n(ummum) ad annonam / dedit / l(ocus) d(atus) d(ecreto) d(ecurionum)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesari</supplied> <lb n="2"/><supplied reason="lost">divi Hadriani <expan><abbr>fil</abbr><ex>io</ex></expan></supplied> <lb n="3"/>divi Tr<supplied reason="lost">aiani <expan><abbr>Parth</abbr><ex>ici</ex></expan></supplied> <lb n="4"/>ne<supplied reason="lost"><expan><abbr>p</abbr><ex>oti</ex></expan></supplied> divi <supplied reason="lost">Nervae</supplied> <lb n="5"/><expan><abbr>pron</abbr><ex>epoti</ex></expan> <expan><abbr>T</abbr><ex>ito</ex></expan> <expan><abbr>Ael</abbr><ex>io</ex></expan> Had<supplied reason="lost">riano</supplied> <lb n="6"/>Antonino <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="7"/>Pio <expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <lb n="8"/><expan><abbr>pot</abbr><ex>estate</ex></expan> V co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II<supplied reason="lost">I</supplied> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="9"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Aurelius <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="10"/>Ter<supplied reason="lost">t</supplied>ius <expan><abbr>Pap</abbr><ex>iria</ex></expan> <expan><abbr>Sarm</abbr><ex>izegetusa</ex></expan> <lb n="11"/><expan><abbr>dec</abbr><ex>urio</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> ob <expan><abbr>honor</abbr><ex>em</ex></expan> <lb n="12"/>flamoni et HS <expan><abbr>LXXX</abbr><ex>milia</ex></expan> <lb n="13"/><expan><abbr>n</abbr><ex>ummum</ex></expan> ad annonam <lb n="14"/>dedit <lb n="15"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

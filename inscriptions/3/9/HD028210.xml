@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD028210</idno>
+                <idno type="TM">196121</idno><idno type="localID">HD028210</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mosonmagyaróvár, Hansági Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-71</height>
+                                        <width>-55</width>
+                                        <depth>17</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0070" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 AD – 130 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1899">1899</date>
+                        <placeName ref="http://www.geonames.org/2781373">Bruck/Leitha, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Niederösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-05-26" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/75">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1900, 0062. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 14359, 17. (B) 
+                    </bibl>
+                    <bibl>
+                         W. Kubitschek, JŒAI (Beibl.) 3, 1900, col. 10; fig. 4. (B) - AE 1900. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Bussuro At[t]/uae libertus / [ann(orum)? LXII? - - -] / [- - - - - -?
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Bussuro At<supplied reason="lost">t</supplied><lb break="no" n="2"/>uae libertus <lb n="3"/><supplied reason="lost"><expan><abbr>ann</abbr><ex>orum</ex></expan>? LXII<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Inschrift befindet sich unterhalb einer Rechtecknische mit dem Brustbild eines Mannes mit abgeschlagenem Gesicht. Die dritte Zeile ist heute nicht mehr erhalten, auf dem Foto bei Kubitschek lassen sich noch die oberen Reste der Buchstaben erkennen, jedoch aufgrund der Qualität der Aufnahme nicht mehr identifizieren. (B): Z. 3: ann(orum) LXII [---</p>
+            </div>
+        </body>
+    </text>
+</TEI>

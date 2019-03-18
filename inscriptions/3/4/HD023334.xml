@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Architekturteil</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD023334</idno>
+                <idno type="TM">247623</idno><idno type="localID">HD023334</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/35">Architekturteil</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>70</height>
+                                        <width>-165</width>
+                                        <depth>20</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Etruria (Regio VII)</placeName><placeName ref="http://www.trismegistos.org/place/002495">Luca</placeName></origPlace>
+                            <origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 150 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Lucca</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2004-07-06" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1937, 0131. 
+                    </bibl>
+                    <bibl>
+                         AE 1938, p. 12 s. n. 30. 
+                    </bibl>
+                    <bibl>
+                         A. Minto, NSA 14, 1936, 392-395; fig. 1 u. 2. - AE 1937. 
+                    </bibl>
+                    <bibl>
+                         A. Degrassi, Athenaeum 15, 1937, 284-286. - AE 1938. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                C(aius) Aquillius / Teophilus // L(ucius) Aetrius / Surus // C(aius) [- - -] / A[- - -] // [- - - - - -? // mag(istri) Merc(uriales?) d(ono) d(ant) de pe[cunia - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Aquillius <lb n="2"/>Teophilus </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>ucius</ex></expan> Aetrius <lb n="2"/>Surus </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>aius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>A<gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="4" type="textpart"><ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/> </ab></div><div n="5" type="textpart"><ab><lb n="1"/> <expan><abbr>mag</abbr><ex>istri</ex></expan> <expan><abbr>Merc</abbr><ex cert="low">uriales</ex></expan> <expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>ant</ex></expan> de pe<supplied reason="lost">cunia</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Der Block stammt vielleicht von einem Türsturz, da unterhalb der Inschrift ein profilierter Rahmen beginnt. Die Namen sind in Kolumnen angegeben, die letzte Zeile hingegen läuft unter diesen Kolumnen durch.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

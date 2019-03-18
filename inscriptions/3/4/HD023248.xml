@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Beischrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD023248</idno>
+                <idno type="TM">263702</idno><idno type="localID">HD023248</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000172">Roma</placeName><placeName ref="http://www.trismegistos.org/place/000172">Roma</placeName></origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Roma</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Roma</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/109">Beischrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-10-11" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1935, 0087. 
+                    </bibl>
+                    <bibl>
+                         L. Pollak, BCAR 61, 1933, 131-132; fig. 1-4. - AE 1935. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Bore/as // Circi/[u]s // Cho/rus // <F=E>avo/nius#<F>avo/nius#EAVONIUS // Afri/cus // Aust/rof/[ic]us // Aus/ter // Eur/us // Vul<t=I>u/r[n]u(s)#Vul<t>u/r[n]u(s)#VULIURU // Sola/nus // Aquil/onice
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Bore<lb break="no" n="2"/>as </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Circi<lb break="no" n="2"/><supplied reason="lost">u</supplied>s </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Cho<lb break="no" n="2"/>rus </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <choice><corr>F</corr><sic>E</sic></choice>avo<lb break="no" n="2"/>nius#<supplied reason="omitted">F</supplied>avo<lb break="no" n="3"/>nius#EAVONIUS </ab></div><div n="5" type="textpart"><ab><lb n="1"/> Afri<lb break="no" n="2"/>cus </ab></div><div n="6" type="textpart"><ab><lb n="1"/> Aust<lb break="no" n="2"/>rof<lb break="no" n="3"/><supplied reason="lost">ic</supplied>us </ab></div><div n="7" type="textpart"><ab><lb n="1"/> Aus<lb break="no" n="2"/>ter </ab></div><div n="8" type="textpart"><ab><lb n="1"/> Eur<lb break="no" n="2"/>us </ab></div><div n="9" type="textpart"><ab><lb n="1"/> Vul<choice><corr>t</corr><sic>I</sic></choice>u<lb break="no" n="2"/><expan><abbr>r<supplied reason="lost">n</supplied>u</abbr><ex>s</ex></expan>#Vul<supplied reason="omitted">t</supplied>u<lb break="no" n="3"/><expan><abbr>r<supplied reason="lost">n</supplied>u</abbr><ex>s</ex></expan>#VULIURU </ab></div><div n="10" type="textpart"><ab><lb n="1"/> Sola<lb break="no" n="2"/>nus </ab></div><div n="11" type="textpart"><ab><lb n="1"/> Aquil<lb break="no" n="2"/>onice
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

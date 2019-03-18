@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD036080</idno>
+                <idno type="TM">193523</idno><idno type="localID">HD036080</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-147</height>
+                                        <width>75</width>
+                                        <depth>22</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution">eingemeiÃ&#x9f;elt (mit Farbresten)</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-3.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029481">Moesia superior</placeName><placeName ref="http://www.trismegistos.org/place/029642">Viminacium</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/789210">Kostolac</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Centralna Srbija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/rs/">Serbien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-09-24" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IMS 2, 150; Foto. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [D(is) M(anibus)](?) / [- Petro]nius / [- - -]eter / [vix(it) an]n(os) LXV / [- - -]nia / M[a]rcia con/iugi et Petro/nius Cogita/tus Petronius / Fuscus Marcia / Marcellina P[e]/tronius Amyni/anus fili patri / bene merenti / posuerunt
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">D(is) M(anibus)</supplied> <lb n="2"/><gap reason="lost" quantity="1" unit="character"/><supplied reason="lost">Petro</supplied>nius <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>eter <lb n="4"/><supplied reason="lost"><expan><abbr>vix</abbr><ex>it</ex></expan> an</supplied><expan><abbr>n</abbr><ex>os</ex></expan> LXV <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>nia <lb n="6"/>M<supplied reason="lost">a</supplied>rcia con<lb break="no" n="7"/>iugi et Petro<lb break="no" n="8"/>nius Cogita<lb break="no" n="9"/>tus Petronius <lb n="10"/>Fuscus Marcia <lb n="11"/>Marcellina P<supplied reason="lost">e</supplied><lb break="no" n="12"/>tronius Amyni<lb break="no" n="13"/>anus fili patri <lb n="14"/>bene merenti <lb n="15"/>posuerunt
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Verschollen. 2 aneinanderpassende Teile; unterhalb des Inschriftfeldes leere tabula ansata. In den Buchstaben Reste roter Farbe. (B): IMS: Z. 1: [- Petron]ius.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

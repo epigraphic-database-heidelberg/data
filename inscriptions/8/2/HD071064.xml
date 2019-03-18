@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Platte</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD071064</idno>
+                <idno type="TM">156407</idno><idno type="localID">HD071064</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Newcastle upon Tyne, Great North Museum, Hancock</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>68.6</height>
+                                        <width>96.5</width>
+                                        <depth>16</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.3-5.6</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/014534">Banna</placeName></origPlace>
+                            <origDate notBefore-custom="0219" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">219 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1852">1852</date>
+                        <placeName ref="http://www.geonames.org/">Birdoswald</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Cumbria</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift?</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-04-16" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F009229">
+            <desc>F009229</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 07, 00838. 
+                    </bibl>
+                    <bibl>
+                         CIL 07, 00838, add. p. 310. 
+                    </bibl>
+                    <bibl>
+                         RIB 1914; Zeichnungen. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) M 667. 
+                    </bibl>
+                    <bibl>
+                         J.C. Coulston - E.J. Phillips, Hadrian's Wall west of the North Tyne, and Carlisle, CSIR Great Britain 1, 6 (Oxford 1988) 106, Nr. 266; Pl. 69, 266. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Sub Modio Iu/lio leg(ato) Aug(usti) pr(o) / pr(aetore) coh(ors) I Ael(ia) D(a)c(orum) / cui praeest M(arcus) / Cl(audius) Menander / trib(unus)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Sub Modio Iu<lb break="no" n="2"/>lio <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <lb n="3"/><expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>coh</abbr><ex>ors</ex></expan> I <expan><abbr>Ael</abbr><ex>ia</ex></expan> D<expan><ex>a</ex><abbr>c</abbr><ex>orum</ex></expan> <lb n="4"/>cui praeest <expan><abbr>M</abbr><ex>arcus</ex></expan> <lb n="5"/><expan><abbr>Cl</abbr><ex>audius</ex></expan> Menander <lb n="6"/><expan><abbr>trib</abbr><ex>unus</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meilen-/Leugenstein</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002719</idno>
+                <idno type="TM">237626</idno><idno type="localID">HD002719</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Pamplona, Mus. de Navarra</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugenstein</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>250</height>
+                                        <width>47</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">9.5-9</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016933">Hispania citerior</placeName><placeName>Caesaraugusta - Pompaelo, inter</placeName></origPlace>
+                            <origDate notBefore-custom="-0005" notAfter-custom="-0004" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">5 BC – 4 BC
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1934">1934</date>
+                        <placeName ref="http://www.geonames.org/3125827">Castiliscar</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Zaragoza</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-06-06" who="Garcia">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1984, 0585. (C) 
+                    </bibl>
+                    <bibl>
+                         M.C. Aguarod Otal - J. Lostal Pros, Caesaraugusta 55/56, 1982, 184-185, Nr. 7; lám. 3,1 u. 3,2. - AE. 
+                    </bibl>
+                    <bibl>
+                         J. Lostal Pros, Los miliarios de la provincia tarraconense (conventos tarraconense, cesaraugustano, cluniense y cartaginense) (Zaragoza 1992) 28-29, Nr. 20; fig. 14 (Zeichnung), lám. 12. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) [C]aesar Divi [f(ilius)] / Augu[s(tus)] co(n)s(ul) XII / trib[u]nic(ia) potes(tate) XV[IIII] / imp(erator) [XI]III pontifex / ma[x]su(mus)(!) l(egio) VI / m(ilia passuum) [L]XX
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <supplied reason="lost">C</supplied>aesar Divi <supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="2"/>Augu<supplied reason="lost"><expan><abbr>s</abbr><ex>tus</ex></expan></supplied> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> XII <lb n="3"/><expan><abbr>trib<supplied reason="lost">u</supplied>nic</abbr><ex>ia</ex></expan> <expan><abbr>potes</abbr><ex>tate</ex></expan> XV<supplied reason="lost">IIII</supplied> <lb n="4"/><expan><abbr>imp</abbr><ex>erator</ex></expan> <supplied reason="lost">XI</supplied>III pontifex <lb n="5"/><expan><abbr>ma<supplied reason="lost">x</supplied>su</abbr><ex>mus</ex></expan> <note>sic</note> <expan><abbr>l</abbr><ex>egio</ex></expan> VI <lb n="6"/><expan><abbr>m</abbr><ex>ilia passuum</ex></expan> <supplied reason="lost">L</supplied>XX
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Säule in zwei Teile zerbrochen. (C): Datierung: 9-8 v. Chr.; Lesevorschläge bei Zahlangaben nicht nachvollziehbar.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

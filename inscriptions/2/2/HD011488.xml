@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Block</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD011488</idno>
+                <idno type="TM">199088</idno><idno type="localID">HD011488</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-85</height>
+                                        <width>190</width>
+                                        <depth>44</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">20-13</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/015771">Africa Proconsularis</placeName><placeName ref="http://www.trismegistos.org/place/017181">Avedda</placeName></origPlace>
+                            <origDate notBefore-custom="0211" notAfter-custom="0217" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">211 AD – 217 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Hr. Bedd</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/tn/">Tunesien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2004-11-11" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1934, 0034. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 14369. 
+                    </bibl>
+                    <bibl>
+                         L. Poinssot, BCTH 1932/33, 495-497, Nr. 1. - AE 1934. 
+                    </bibl>
+                    <bibl>
+                         ILAfr 435. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Iov[i] O[pt(imo) Max(imo)] Iuno[ni Reginae Mi]nerv[ae Aug(ustae) sacrum] / [pro salute Imp(eratoris)] Caes(aris) divi L(uci) Se[pti]m[i Severi Pii Pert(inacis) Au]g(usti) Arab(ici) Adiab(enici) Par[th(ici) max(imi) Brit(annici) max(imi) fil(i) divi M(arci) Antonini Pii G]erm(anici) Sar[m(atici) nep(otis) divi Antonini Pii pronep(otis) divi Hadriani] / [abnep(otis) divi Trai]ani Parthici et div[i Nervae adnep(otis) M(arci) Aureli] Antonini Pii Fe[l(icis) Aug(usti) Parth(ici) max(imi) Brit(annici) max(imi) Germ(anici) max(imi) tr(ibunicia) p(otestate) X- - -] i[m]p(eratoris) [- -] p[atris patriae co(n)s(ulis) - - - proco(n)s(ulis) et] / [Iuliae Aug(ustae) matris A]ug(usti) et castrorum et [senatus et patriae muni]cipium Septimi[um Aurelium Aveddensium numini maiestatique eorum devotum d(ecreto) d(ecurionum) p(ecunia) p(ublica)]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Iov<supplied reason="lost">i</supplied> O<supplied reason="lost"><expan><abbr>pt</abbr><ex>imo</ex></expan> <expan><abbr>Max</abbr><ex>imo</ex></expan></supplied> Iuno<supplied reason="lost">ni Reginae Mi</supplied>nerv<supplied reason="lost">ae <expan><abbr>Aug</abbr><ex>ustae</ex></expan> sacrum</supplied> <lb n="2"/><supplied reason="lost">pro salute <expan><abbr>Imp</abbr><ex>eratoris</ex></expan></supplied> <expan><abbr>Caes</abbr><ex>aris</ex></expan> divi <expan><abbr>L</abbr><ex>uci</ex></expan> Se<supplied reason="lost">pti</supplied>m<supplied reason="lost">i Severi Pii <expan><abbr>Pert</abbr><ex>inacis</ex></expan> Au</supplied><expan><abbr>g</abbr><ex>usti</ex></expan> <expan><abbr>Arab</abbr><ex>ici</ex></expan> <expan><abbr>Adiab</abbr><ex>enici</ex></expan> Par<supplied reason="lost"><expan><abbr>th</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>Brit</abbr><ex>annici</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>fil</abbr><ex>i</ex></expan> divi <expan><abbr>M</abbr><ex>arci</ex></expan> Antonini Pii G</supplied><expan><abbr>erm</abbr><ex>anici</ex></expan> Sar<supplied reason="lost"><expan><abbr>m</abbr><ex>atici</ex></expan> <expan><abbr>nep</abbr><ex>otis</ex></expan> divi Antonini Pii <expan><abbr>pronep</abbr><ex>otis</ex></expan> divi Hadriani</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>abnep</abbr><ex>otis</ex></expan> divi Trai</supplied>ani Parthici et div<supplied reason="lost">i Nervae <expan><abbr>adnep</abbr><ex>otis</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> Aureli</supplied> Antonini Pii Fe<supplied reason="lost"><expan><abbr>l</abbr><ex>icis</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>Parth</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>Brit</abbr><ex>annici</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>Germ</abbr><ex>anici</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan> X<gap reason="lost" extent="unknown" unit="character"/></supplied> <expan><abbr>i<supplied reason="lost">m</supplied>p</abbr><ex>eratoris</ex></expan> <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> p<supplied reason="lost">atris patriae <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> et</supplied> <lb n="4"/><supplied reason="lost">Iuliae <expan><abbr>Aug</abbr><ex>ustae</ex></expan> matris A</supplied><expan><abbr>ug</abbr><ex>usti</ex></expan> et castrorum et <supplied reason="lost">senatus et patriae muni</supplied>cipium Septimi<supplied reason="lost">um Aurelium Aveddensium numini maiestatique eorum devotum <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>p</abbr><ex>ublica</ex></expan></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Inschrift lief ursprünglich über mehrere Blöcke hinweg, von denen 3 fragmentarisch erhalten sind; Maße beziehen sich auf Block a (CIL VIII 14369); Maße Block b (Poinssot): 86 x (183) cm; Block c: 85 x 135 cm (ILAfr). Z. 1: vor IVNO spatium von circa 100 cm Länge. Ergänzungsvorschlag nach Poinssot. Datierung: Wenn die Ergänzung zutrifft, nicht vor Ende September 213 n. Chr., als Caracalla den Siegerbeinamen Germanicus maximus erhielt.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

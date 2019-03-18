@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD073355</idno>
+                <idno type="TM"/><idno type="localID">HD073355</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-83</height>
+                                        <width>79</width>
+                                        <depth>19</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum</placeName></origPlace>
+                            <origDate notBefore-custom="0083" notAfter-custom="0091" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">83 AD – 91 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1969">1969</date>
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/">Niederösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-05-04" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F019449">
+            <desc>F019449</desc>
+        </graphic>
+
+        <graphic url="http://lupa.at/4561">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        E. Vorbeck, Militärinschriften aus Carnuntum (2. Aufl., Wien 1980) 75, Nr. 192. 
+                    </bibl>
+                    <bibl>
+                         M. Mosser, Die Steindenkmäler der legio XV Apollinaris (Wien 2003) 179, Nr. 29. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                C(aius) Longinius / Saturn[inu]s / Hierap[oli] mi[l(es)] / leg(ionis) X[V] Ap(?)[ol(linaris) stip(endiorum)] / XX ann(orum) [- - -] / [- - - - - -?
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Longinius <lb n="2"/>Saturn<supplied reason="lost">inu</supplied>s <lb n="3"/>Hierap<supplied reason="lost">oli</supplied> mi<supplied reason="lost"><expan><abbr>l</abbr><ex>es</ex></expan></supplied> <lb n="4"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> X<supplied reason="lost">V</supplied> <expan><abbr>Ap</abbr><ex cert="low"/></expan><supplied reason="lost"><expan><abbr>ol</abbr><ex>linaris</ex></expan> <expan><abbr>stip</abbr><ex>endiorum</ex></expan></supplied> <lb n="5"/>XX <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> In Zeile 3 links neben der Haste des I am Zeilenanfang gekrümmte Haste mit Öffnung nach rechts, zur Andeutung der Behauchung? Nach Mosser handelt es sich um das syrische Hierapolis am Euphrat. Nach Vorbeck auf den Giebelschrägen Delfine, auf dem Foto kaum zu erkennen. Die Oberfläche ist stellenweise stark beschädigt, die Inschrift dort kaum noch lesbar. In der Mitte von Z. 4 noch eine senkrechte Haste (P?), links daneben anscheinend noch der untere Ansatz der rechten Schräghaste eines A. (B): Z. 2: Vorbeck; Mosser: Satur[ninu]s; Z. 3: Hierapol(i) mi[les]; Z. 4: [V Apoll(inaris).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

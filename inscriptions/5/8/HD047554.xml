@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD047554</idno>
+                <idno type="TM">236225</idno><idno type="localID">HD047554</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>11</height>
+                                        <width>19</width>
+                                        <depth>0.1</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">1.5-0.3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016933">Hispania citerior</placeName><placeName ref="http://www.trismegistos.org/place/014134">Saguntum</placeName></origPlace>
+                            <origDate notBefore-custom="0051" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 130 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2511619">Sagunto</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/76">Defixio</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-03-10" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2000, 0795. 
+                    </bibl>
+                    <bibl>
+                         HEp 10, 2000, 0622. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Cr[y]se(?) ligo(!) auri po[ndo - - -]II / rogat et a(d) Iau dat pequnia(!) quae a / me accepit Heracla conservus meus / ut insttetur(!) (h)uius senus(!) o[c]elus(!) et / [v]ires q(u)icumqui sint(!) aride / [- - -]m do pequniam(!) (h)onori sacri/cola
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Cr<supplied reason="lost">y</supplied><expan><abbr>se</abbr><ex cert="low"/></expan> ligo <note>sic</note> auri po<supplied reason="lost">ndo</supplied><gap reason="lost" extent="unknown" unit="character"/>II <lb n="2"/>rogat et <expan><abbr>a</abbr><ex>d</ex></expan> Iau dat pequnia <note>sic</note> quae a <lb n="3"/>me accepit Heracla conservus meus <lb n="4"/>ut insttetur <note>sic</note> <expan><ex>h</ex><abbr>uius</abbr></expan> senus <note>sic</note> o<supplied reason="lost">c</supplied>elus <note>sic</note> et <lb n="5"/><supplied reason="lost">v</supplied>ires q<expan><ex>u</ex><abbr>icumqui</abbr></expan> sint <note>sic</note> aride <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>m do pequniam <note>sic</note> <expan><ex>h</ex><abbr>onori</abbr></expan> sacri<lb break="no" n="7"/>cola
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

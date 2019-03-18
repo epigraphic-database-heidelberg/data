@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rechtliche Verfügung, öffentlich auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD064270</idno>
+                <idno type="TM">192473</idno><idno type="localID">HD064270</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-60.8</height>
+                                        <width>41.3</width>
+                                        <depth>2.1</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+                                    <rs type="guidelines">GUIDELINES</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2.1-0.8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName>Durostorum, bei?</placeName></origPlace>
+                            <origDate notBefore-custom="0311-06-10" notAfter-custom="0311-06-10" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">10.6.311 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/727221">Silistra, bei?</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Silistra</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Rechtliche Verfügung, öffentlich</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-05-02" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2007, 1224. 
+                    </bibl>
+                    <bibl>
+                         L. Fezzi, ZPE 163, 2007, 269-275; Foto. (B) - AE 2007. 
+                    </bibl>
+                    <bibl>
+                         N. Sharankov, ArchBulg 13, 2, 2009, 61-67; Abb. 8-13. - AE 2007. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                E(xemplum) s(acrarum) l(itterarum) // Cum in omnibus pro devotione ac laboribus suis militum nos/trorum commodis adque(!) utilitatibus semper consultum esse / cupiamus in hoc etiam dispositionum nostrarum provisio/ne (e)isdem militibus nostris consulendum esse credidimus / Terti carissime unde intuentes labores eorundem militum / nostrorum quos pro rei publicae statu et commodis adsiduis / discursibus sustinent providendum ac disponendum esse credidi/mus ut et militiae suae tempore iucundis laborum suorum fructi/bus <e=F>x#<e>x#FX nostra provisione se perfrui gaud<e=F>ant#gaud<e>ant#GAUDFANT et post militia<m=E>#militia<m>#MILITIAE qui/eto otio et congrua securitate potiantur itaque devotioni tuae / significandum esse credidimus ut idem milites nostri / militiae quidem suae tempore quinque capita iuxta statutum / nostrum ex censu adque(!) a pr(a)estationibus sollemnibus an/nonariae pensitationis excusent eademque immunia ha/beant adque(!) cum conpletis(!) legitimis stipendiis hones/tam missionem idem fuerint consecuti sed et hii(!) qui licet / post viginti stipendia ad(a)eque honestam missionem adep/ti fuerint ab annonario titulo duo capita excusent id est / tam suum quam aetiam(!) uxoris suae ac si quis forte ex proeli/o vulnere causarius fuerit effectus etiam si intra viginti / stipendia ex ea causa rerum suarum vacationem fuerit / consecutus ad b<e=F>neficium#b<e>neficium#BFNEFICIUM eiusdem indulgentiae nostrae / p<e=F>rtineat#p<e>rtineat#PFRTINEAT ita ut et suum et uxoris suae caput ut supra dictum / est excuset adque(!) ut omni modo tam quietis suae securitati / quam aetiam(!) commodis consultum provisionis nostrae / beneficio idem milites gratulentur licet eiusmodi ante/hac consuaetudo(!) fuerit ut cum plurimi homines simul / honestam missionem a duce perciperent penes actuarium / missoria permanente exempla sibi singuli quique excipe/rent tamen volumus ut cum vel honestam vel causariam sicuti / supra dictum est missionem milites consecuntur singuli quique / specialem a duce in personam suam accipiant missionem quo pro/batione veritatis ac fidei aput(!) se permanente securitate sta/bili ac firmissima perfruantur pervidet sane dicatio tua / eos qui delicti sui gratia demittuntur at(!) beneficium legis / eiusdem pertinire(!) non posse cum utriusque rei rationem (h)abe/ri oporteat ac vitae probabilis instituta adque(!) honestam / missionem sed et merita militiae praemia a nobis con/digna perciper[e convenia]t ut [e]t e[i]usdem indulgentiae / nostrae ben[eficio perpetuo idem mili]tes perfruantur ac / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>E</abbr><ex>xemplum</ex></expan> <expan><abbr>s</abbr><ex>acrarum</ex></expan> <expan><abbr>l</abbr><ex>itterarum</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Cum in omnibus pro devotione ac laboribus suis militum nos<lb break="no" n="2"/>trorum commodis adque <note>sic</note> utilitatibus semper consultum esse <lb n="3"/>cupiamus in hoc etiam dispositionum nostrarum provisio<lb break="no" n="4"/>ne <expan><ex>e</ex><abbr>isdem</abbr></expan> militibus nostris consulendum esse credidimus <lb n="5"/>Terti carissime unde intuentes labores eorundem militum <lb n="6"/>nostrorum quos pro rei publicae statu et commodis adsiduis <lb n="7"/>discursibus sustinent providendum ac disponendum esse credidi<lb break="no" n="8"/>mus ut et militiae suae tempore iucundis laborum suorum fructi<lb break="no" n="9"/>bus <choice><corr>e</corr><sic>F</sic></choice>x#<supplied reason="omitted">e</supplied>x#FX nostra provisione se perfrui gaud<choice><corr>e</corr><sic>F</sic></choice>ant#gaud<supplied reason="omitted">e</supplied>ant#GAUDFANT et post militia<choice><corr>m</corr><sic>E</sic></choice>#militia<supplied reason="omitted">m</supplied>#MILITIAE qui<lb break="no" n="10"/>eto otio et congrua securitate potiantur itaque devotioni tuae <lb n="11"/>significandum esse credidimus ut idem milites nostri <lb n="12"/>militiae quidem suae tempore quinque capita iuxta statutum <lb n="13"/>nostrum ex censu adque <note>sic</note> a pr<expan><ex>a</ex><abbr>estationibus</abbr></expan> sollemnibus an<lb break="no" n="14"/>nonariae pensitationis excusent eademque immunia ha<lb break="no" n="15"/>beant adque <note>sic</note> cum conpletis <note>sic</note> legitimis stipendiis hones<lb break="no" n="16"/>tam missionem idem fuerint consecuti sed et hii <note>sic</note> qui licet <lb n="17"/>post viginti stipendia ad<expan><ex>a</ex><abbr>eque</abbr></expan> honestam missionem adep<lb break="no" n="18"/>ti fuerint ab annonario titulo duo capita excusent id est <lb n="19"/>tam suum quam aetiam <note>sic</note> uxoris suae ac si quis forte ex proeli<lb break="no" n="20"/>o vulnere causarius fuerit effectus etiam si intra viginti <lb n="21"/>stipendia ex ea causa rerum suarum vacationem fuerit <lb n="22"/>consecutus ad b<choice><corr>e</corr><sic>F</sic></choice>neficium#b<supplied reason="omitted">e</supplied>neficium#BFNEFICIUM eiusdem indulgentiae nostrae <lb n="23"/>p<choice><corr>e</corr><sic>F</sic></choice>rtineat#p<supplied reason="omitted">e</supplied>rtineat#PFRTINEAT ita ut et suum et uxoris suae caput ut supra dictum <lb n="24"/>est excuset adque <note>sic</note> ut omni modo tam quietis suae securitati <lb n="25"/>quam aetiam <note>sic</note> commodis consultum provisionis nostrae <lb n="26"/>beneficio idem milites gratulentur licet eiusmodi ante<lb break="no" n="27"/>hac consuaetudo <note>sic</note> fuerit ut cum plurimi homines simul <lb n="28"/>honestam missionem a duce perciperent penes actuarium <lb n="29"/>missoria permanente exempla sibi singuli quique excipe<lb break="no" n="30"/>rent tamen volumus ut cum vel honestam vel causariam sicuti <lb n="31"/>supra dictum est missionem milites consecuntur singuli quique <lb n="32"/>specialem a duce in personam suam accipiant missionem quo pro<lb break="no" n="33"/>batione veritatis ac fidei aput <note>sic</note> se permanente securitate sta<lb break="no" n="34"/>bili ac firmissima perfruantur pervidet sane dicatio tua <lb n="35"/>eos qui delicti sui gratia demittuntur at <note>sic</note> beneficium legis <lb n="36"/>eiusdem pertinire <note>sic</note> non posse cum utriusque rei rationem <expan><ex>h</ex><abbr>abe</abbr></expan><lb break="no" n="37"/>ri oporteat ac vitae probabilis instituta adque <note>sic</note> honestam <lb n="38"/>missionem sed et merita militiae praemia a nobis con<lb break="no" n="39"/>digna perciper<supplied reason="lost">e convenia</supplied>t ut <supplied reason="lost">e</supplied>t e<supplied reason="lost">i</supplied>usdem indulgentiae <lb n="40"/>nostrae ben<supplied reason="lost">eficio perpetuo idem mili</supplied>tes perfruantur ac <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Eine weitere Abschrift dieses Briefes wurde in Brigetio gefunden (AE 1937, 0158 = AE 1937, 0232 = AE 1951, 0027 = AE 1951, 0118 = AE 1955, 0114 =	AE 1956, 0258 = AE 1980, 0707 = AE 1995, 0032 = HD023595); Datierung entsprechend der Inschrift aus Brigetio. Oberer Abschluss mit Giebel und Akroterien; Z. 1 befindet sich im Giebelfeld; auf der Rückseite vier sternförmig übereinandergelegte Bronzestreifen zur Verstärkung. Hedera am Ende von Z. 22. An mehreren Stellen verschriebene Buchstaben korrigiert oder getilgt. (B): Fezzi: Leseabweichungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

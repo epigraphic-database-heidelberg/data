@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD003398</idno>
+                <idno type="TM">286508</idno><idno type="localID">HD003398</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Umbria (Regio VI)</placeName><placeName ref="http://www.trismegistos.org/place/014366">Sestinum</placeName></origPlace>
+                            <origDate notBefore-custom="0014" notAfter-custom="0037" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">14 AD – 37 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Sestino</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Toscana</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-09-21" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F011898">
+            <desc>F011898</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F030282">
+            <desc>F030282</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1985, 0375. 
+                    </bibl>
+                    <bibl>
+                         G. Firpo, Epigraphica 47, 1985, 21-33. - AE. 
+                    </bibl>
+                    <bibl>
+                         CIL 11, 06011. 
+                    </bibl>
+                    <bibl>
+                         ILS 2691. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                L(ucio) Voluseno / L(uci) f(ilio) Clu(stumina) Clementi / trib(uno) mil(itum) praef(ecto) / equit(um) praef(ecto) tir(onum) / Gall(iae) Na[rbonen]/sis it[em? in? Pan]/non[ia - - -] / accepit missus a / divo Aug(usto) hic cum / mitteretur a Ti(berio) Caes(are) Aug(usto) / in Aegypt(um) ad iur(is) dict(ionem) / decessit (in) provinc(ia) / Aquitania
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Voluseno <lb n="2"/><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Clu</abbr><ex>stumina</ex></expan> Clementi <lb n="3"/><expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <lb n="4"/><expan><abbr>equit</abbr><ex>um</ex></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>tir</abbr><ex>onum</ex></expan> <lb n="5"/><expan><abbr>Gall</abbr><ex>iae</ex></expan> Na<supplied reason="lost">rbonen</supplied><lb break="no" n="6"/>sis it<supplied reason="lost">em<certainty locus="name" match="preceding-sibling::text()" cert="low"/> in<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Pan</supplied><lb break="no" n="7"/>non<supplied reason="lost">ia</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/>accepit missus a <lb n="9"/>divo <expan><abbr>Aug</abbr><ex>usto</ex></expan> hic cum <lb n="10"/>mitteretur a <expan><abbr>Ti</abbr><ex>berio</ex></expan> <expan><abbr>Caes</abbr><ex>are</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="11"/>in <expan><abbr>Aegypt</abbr><ex>um</ex></expan> ad <expan><abbr>iur</abbr><ex>is</ex></expan> <expan><abbr>dict</abbr><ex>ionem</ex></expan> <lb n="12"/>decessit (in) <expan><abbr>provinc</abbr><ex>ia</ex></expan> <lb n="13"/>Aquitania
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Procurator Augusti für census Pannoniae unter Augustus.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

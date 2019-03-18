@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD045487</idno>
+                <idno type="TM">197132</idno><idno type="localID">HD045487</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-16.5</height>
+                                        <width>-7</width>
+                                        <depth>-3.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6-3.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum</placeName></origPlace>
+                            <origDate notBefore-custom="0203" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">203 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1974">1974</date>
+                        <placeName ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Niederösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-08-05" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2003, 1388. 
+                    </bibl>
+                    <bibl>
+                         F. Beutler - E. Weber, Tyche 18, 2003, 245, Nr. 57. - AE 2003. 
+                    </bibl>
+                    <bibl>
+                         I. Piso, Das Heiligtum des Jupiter Optimus Maximus auf dem Pfaffenberg/Carnuntum 1. Die Inschriften (Wien 2003) 29-30, Nr. 19; Foto u. Zeichnung. - AE 2003. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [I(ovi) O(ptimo)] M(aximo) / [pro salute I]m[pp(eratorum)] / [C]a[es(arum) L(uci) Septimi Severi Pii] / Per[t(inacis) Aug(usti) Arab(ici) Adiab(enici) Parth(ici)] / ma[x(imi) pont(ificis) max(imi) trib(unicia) potest(ate)] / XI [imp(eratoris) XI co(n)s(ulis) III et Imp(eratoris) Caes(aris) M(arci)] / Au[r(eli) Antonini Pii Felicis Aug(usti)] / tr[ib(unicia)] pot[est(ate) VI co(n)s(ulis) et [[P(ublii) Septimi]]] / [[[Getae]] nobilissimi Caes(aris) et Iuli]/ae Au[g(ustae) matri Aug[[g(ustorum)]] et castr(orum) et] / [[Fu[lviae Plautillae Augustae]]] / totiu[s]que d[omus divinae eorum?] / c(ives?) R(omani)(?) [consist(entes) Kar(nunti) intra leugam] / M(arcus) [- - -] / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan></supplied> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/><supplied reason="lost">pro salute I</supplied>m<supplied reason="lost"><expan><abbr>pp</abbr><ex>eratorum</ex></expan></supplied> <lb n="3"/><supplied reason="lost">C</supplied>a<supplied reason="lost"><expan><abbr>es</abbr><ex>arum</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> Septimi Severi Pii</supplied> <lb n="4"/>Per<supplied reason="lost"><expan><abbr>t</abbr><ex>inacis</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>Arab</abbr><ex>ici</ex></expan> <expan><abbr>Adiab</abbr><ex>enici</ex></expan> <expan><abbr>Parth</abbr><ex>ici</ex></expan></supplied> <lb n="5"/>ma<supplied reason="lost"><expan><abbr>x</abbr><ex>imi</ex></expan> <expan><abbr>pont</abbr><ex>ificis</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan></supplied> <lb n="6"/>XI <supplied reason="lost"><expan><abbr>imp</abbr><ex>eratoris</ex></expan> XI <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> III et <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan></supplied> <lb n="7"/>Au<supplied reason="lost"><expan><abbr>r</abbr><ex>eli</ex></expan> Antonini Pii Felicis <expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> <lb n="8"/>tr<supplied reason="lost"><expan><abbr>ib</abbr><ex>unicia</ex></expan></supplied> pot[<expan><abbr>est</abbr><ex>ate</ex></expan> VI co<expan><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> et <del rend="erasure"><expan><abbr>P</abbr><ex>ublii</ex></expan> Septimi</del>] <lb n="9"/><del rend="erasure">[Getae</del> nobilissimi <expan><abbr>Caes</abbr><ex>aris</ex></expan> et Iuli]<lb break="no" n="10"/>ae Au[<expan><abbr>g</abbr><ex>ustae</ex></expan> matri Aug<del rend="erasure"><expan><abbr>g</abbr><ex>ustorum</ex></expan></del> et <expan><abbr>castr</abbr><ex>orum</ex></expan> et] <lb n="11"/><del rend="erasure">Fu[lviae Plautillae Augustae</del>] <lb n="12"/>totiu<supplied reason="lost">s</supplied>que d<supplied reason="lost" cert="low">omus divinae eorum</supplied> <lb n="13"/><expan><abbr>c</abbr><ex cert="low">ives</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <supplied reason="lost"><expan><abbr>consist</abbr><ex>entes</ex></expan> <expan><abbr>Kar</abbr><ex>nunti</ex></expan> intra leugam</supplied> <lb n="14"/><expan><abbr>M</abbr><ex>arcus</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> 11 zum Teil aneinanderpassende Fragmente einer Statuenbasis. Z. 12: TI-, VE-Ligatur. Ergänzung nach Piso. Lesung und Ergänzung Z. 13 fraglich, möglicherweise stand hier auch ein Name wie C. I[ulius], da sich nicht einwandfrei entscheiden lässt, zu welchem Buchstaben die erhalten Vertikalhaste direkt an der Bruchlinie gehört. Die Maßangabe bezieht sich auf Fragment (a); Maße der übrigen Fragmente in cm: (b - 8 Stücke): Höhe: 75,0; Breite: 25,0; Tiefe: 12,0; (c): Höhe: 8,0; Breite: 8,0; Tiefe: 3,0; (d) Höhe: 14,0; Breite: 11,0; Tiefe: 5,5.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

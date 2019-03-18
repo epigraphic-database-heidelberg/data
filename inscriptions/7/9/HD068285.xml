@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD068285</idno>
+                <idno type="TM">404357</idno><idno type="localID">HD068285</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Budapest, Magyar Nemzeti Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-100</height>
+                                        <width>-41</width>
+                                        <depth>-26</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.9-2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/020126">Aquincum</placeName></origPlace>
+                            <origDate notBefore-custom="0305" notAfter-custom="0309" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">305 AD – 309 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Budapest</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-04-12" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/9733">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 03522. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 10384. 
+                    </bibl>
+                    <bibl>
+                         TitAq 0375a-b; Foto. 
+                    </bibl>
+                    <bibl>
+                         ILS 0658. 
+                    </bibl>
+                    <bibl>
+                         M. Nagy, Guide to the archaeological exhibitions in the Hungarian National Museum. Roman stones. Lapidarium (Budapest 2012) 163, Nr. 181; Foto. 
+                    </bibl>
+                    <bibl>
+                         P. Kovács, Die antiken Quellen zu Pannonien in der Spätantike. Teil I: 284-337 n. Chr. (Wien 2014) 169-170; Abb. 21. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $]] // [- - - - - -] / [p]ro salute dd(ominorum) / nn(ostrorum) / Maximiano / Iov(i)o Invict<o=I>#Invict<o>#INVICTI / Aug(usto) et Maximino / n(obilissimo) Caes(ari) / Iulius Valerianu/s et Aurel(ius) Maxim/us dd(uum)vv(iri) col(oniae) / Aq(uincensium)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>] </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost">p</supplied>ro salute <expan><abbr>d<am>d</am></abbr><ex>ominorum</ex></expan> <lb n="2"/><expan><abbr>n<am>n</am></abbr><ex>ostrorum</ex></expan> <lb n="3"/>Maximiano <lb n="4"/>Iov<expan><ex>i</ex><abbr>o</abbr></expan> Invict<choice><corr>o</corr><sic>I</sic></choice>#Invict<supplied reason="omitted">o</supplied>#INVICTI <lb n="5"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> et Maximino <lb n="6"/><expan><abbr>n</abbr><ex>obilissimo</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <lb n="7"/>Iulius Valerianu<lb break="no" n="8"/>s et <expan><abbr>Aurel</abbr><ex>ius</ex></expan> Maxim<lb break="no" n="9"/>us dd<expan><ex>uum</ex><abbr>vv</abbr><ex>iri</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <lb n="10"/><expan><abbr>Aq</abbr><ex>uincensium</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

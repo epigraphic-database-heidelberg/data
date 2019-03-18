@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD018548</idno>
+                <idno type="TM">216617</idno><idno type="localID">HD018548</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003243">Raetia</placeName><placeName ref="http://www.trismegistos.org/place/028220">Sorviodurum</placeName></origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2826099">Straubing</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Bayern</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-11-10" who="osnabrügge">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1953, 0115. 
+                    </bibl>
+                    <bibl>
+                         AE 1959, 0105. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(erator) Caes(ar) divi Hadri]ani f(ilius) divi Traian(i) Par/[thici nep(os) divi Nerv]ae prone(pos) T(itus) Aelius Hadri/[an(us) Antonin(us) Aug(ustus) Pius pon(tifex)] max(imus) tri(bunicia) pot(estate) XX imp(erator) II co(n)s(ul) IV p(ater) p(atriae) / [equit(ibus) et pedit(ibus) q]ui militaveru(nt) in alis IV / [quae appellantur I]I Fl(avia) |(miliaria) et I Hisp(anorum) An(uria)na / [et I Fl(avia) gemell(iana) et sin]g(ularium) c(ivium) R(omanorum) et coh(ortibus) XII(!) I Fl(avia) Can/[athenor(um) sagittar(ia) |(miliaria)] {EL} et I Breuc(orum) et I et II / [Raet(orum) et II Aquitan(orum)] et III Brac(ar)aug(ustanorum) et III Thr(acum) / [veter(ana) et III Thrac(um) c(ivium)] R(omanorum) et III Brit(tanorum) et IIII Gall(orum) / [et V Bracaraug(ustanorum) et] VI Lusit(anorum) et VIIII Batavor(um) / [et sunt in Raetia s]ub Vari(o) Clemente proc(uratore) / [quinque et vigin]ti stipendi(is) emerit(is) di/[missis honesta] missione quorum nomi/[na subscripta] sun(t) civitate(m) Romanam / [qui eorum no]n habere(n)t ded(it) et conu/[bium cum uxo]ribu(s) quas tunc habuis(s)ent / [cum est civita]s is dat(a) aut cum is quas pos/[tea duxissent] dumtaxat [singulis & // - - - - - -] et VI [Lusit(anorum) et VIIII] / [Batavor(um) et su]nt in Ra(e)tia su[b Vari(o) Clemente] / pro(curatore) XXV sti(pen)diis emeritis dim[issis honesta mis]/sione quo(r)um nomina sub[scripta sunt civi]/tatem Romanam qui eor[um non haberent] / dedit et conubium cum uxor[ibus quas tunc ha]/buissent cum est civitas [iis data aut cum] / iis quas postea duxissent d[umtaxat singu]/lis // [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi Hadri</supplied>ani <expan><abbr>f</abbr><ex>ilius</ex></expan> divi <expan><abbr>Traian</abbr><ex>i</ex></expan> Par<lb break="no" n="2"/><supplied reason="lost">thici <expan><abbr>nep</abbr><ex>os</ex></expan> divi Nerv</supplied>ae <expan><abbr>prone</abbr><ex>pos</ex></expan> <expan><abbr>T</abbr><ex>itus</ex></expan> Aelius Hadri<lb break="no" n="3"/><supplied reason="lost"><expan><abbr>an</abbr><ex>us</ex></expan> <expan><abbr>Antonin</abbr><ex>us</ex></expan> <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Pius <expan><abbr>pon</abbr><ex>tifex</ex></expan></supplied> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>tri</abbr><ex>bunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XX <expan><abbr>imp</abbr><ex>erator</ex></expan> II co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IV <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>equit</abbr><ex>ibus</ex></expan> et <expan><abbr>pedit</abbr><ex>ibus</ex></expan> q</supplied>ui <expan><abbr>militaveru</abbr><ex>nt</ex></expan> in alis IV <lb n="5"/><supplied reason="lost">quae appellantur I</supplied>I <expan><abbr>Fl</abbr><ex>avia</ex></expan> |(miliaria) et I <expan><abbr>Hisp</abbr><ex>anorum</ex></expan> An<expan><ex>uria</ex><abbr>na</abbr></expan> <lb n="6"/><supplied reason="lost">et I <expan><abbr>Fl</abbr><ex>avia</ex></expan> <expan><abbr>gemell</abbr><ex>iana</ex></expan> et sin</supplied><expan><abbr>g</abbr><ex>ularium</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et <expan><abbr>coh</abbr><ex>ortibus</ex></expan> XII <note>sic</note> I <expan><abbr>Fl</abbr><ex>avia</ex></expan> Can<lb break="no" n="7"/><supplied reason="lost"><expan><abbr>athenor</abbr><ex>um</ex></expan> <expan><abbr>sagittar</abbr><ex>ia</ex></expan> |(miliaria)</supplied> <surplus>EL</surplus> et I <expan><abbr>Breuc</abbr><ex>orum</ex></expan> et I et II <lb n="8"/><supplied reason="lost"><expan><abbr>Raet</abbr><ex>orum</ex></expan> et II <expan><abbr>Aquitan</abbr><ex>orum</ex></expan></supplied> et III Brac<expan><ex>ar</ex><abbr>aug</abbr><ex>ustanorum</ex></expan> et III <expan><abbr>Thr</abbr><ex>acum</ex></expan> <lb n="9"/><supplied reason="lost"><expan><abbr>veter</abbr><ex>ana</ex></expan> et III <expan><abbr>Thrac</abbr><ex>um</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan></supplied> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et III <expan><abbr>Brit</abbr><ex>tanorum</ex></expan> et IIII <expan><abbr>Gall</abbr><ex>orum</ex></expan> <lb n="10"/><supplied reason="lost">et V <expan><abbr>Bracaraug</abbr><ex>ustanorum</ex></expan> et</supplied> VI <expan><abbr>Lusit</abbr><ex>anorum</ex></expan> et VIIII <expan><abbr>Batavor</abbr><ex>um</ex></expan> <lb n="11"/><supplied reason="lost">et sunt in Raetia s</supplied>ub <expan><abbr>Vari</abbr><ex>o</ex></expan> Clemente <expan><abbr>proc</abbr><ex>uratore</ex></expan> <lb n="12"/><supplied reason="lost">quinque et vigin</supplied>ti <expan><abbr>stipendi</abbr><ex>is</ex></expan> <expan><abbr>emerit</abbr><ex>is</ex></expan> di<lb break="no" n="13"/><supplied reason="lost">missis honesta</supplied> missione quorum nomi<lb break="no" n="14"/><supplied reason="lost">na subscripta</supplied> <expan><abbr>sun</abbr><ex>t</ex></expan> <expan><abbr>civitate</abbr><ex>m</ex></expan> Romanam <lb n="15"/><supplied reason="lost">qui eorum no</supplied>n habere<expan><ex>n</ex><abbr>t</abbr></expan> <expan><abbr>ded</abbr><ex>it</ex></expan> et conu<lb break="no" n="16"/><supplied reason="lost">bium cum uxo</supplied><expan><abbr>ribu</abbr><ex>s</ex></expan> quas tunc habuis<expan><ex>s</ex><abbr>ent</abbr></expan> <lb n="17"/><supplied reason="lost">cum est civita</supplied>s is <expan><abbr>dat</abbr><ex>a</ex></expan> aut cum is quas pos<lb break="no" n="18"/><supplied reason="lost">tea duxissent</supplied> dumtaxat <supplied reason="lost">singulis</supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> et VI <supplied reason="lost"><expan><abbr>Lusit</abbr><ex>anorum</ex></expan> et VIIII</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>Batavor</abbr><ex>um</ex></expan> et su</supplied>nt in Ra<expan><ex>e</ex><abbr>tia</abbr></expan> su<supplied reason="lost">b <expan><abbr>Vari</abbr><ex>o</ex></expan> Clemente</supplied> <lb n="3"/><expan><abbr>pro</abbr><ex>curatore</ex></expan> XXV sti<expan><ex>pen</ex><abbr>diis</abbr></expan> emeritis dim<supplied reason="lost">issis honesta mis</supplied><lb break="no" n="4"/>sione quo<expan><ex>r</ex><abbr>um</abbr></expan> nomina sub<supplied reason="lost">scripta sunt civi</supplied><lb break="no" n="5"/>tatem Romanam qui eor<supplied reason="lost">um non haberent</supplied> <lb n="6"/>dedit et conubium cum uxor<supplied reason="lost">ibus quas tunc ha</supplied><lb break="no" n="7"/>buissent cum est civitas <supplied reason="lost">iis data aut cum</supplied> <lb n="8"/>iis quas postea duxissent d<supplied reason="lost">umtaxat singu</supplied><lb break="no" n="9"/>lis </ab></div><div n="3" type="textpart"><ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

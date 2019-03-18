@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD031522</idno>
+                <idno type="TM">205778</idno><idno type="localID">HD031522</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003344">Numidia</placeName><placeName ref="http://www.trismegistos.org/place/017465">Lambaesis</placeName></origPlace>
+                            <origDate notBefore-custom="0188" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">188 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2477528">Tazoult-Lambèse</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Batna</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-08-18" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 167, Nr. 45d. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) C 880. 
+                    </bibl>
+                    <bibl>
+                         AE 1992, 1860. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [[Im[p(eratori) Caes(ari) M(arco) Aure]]]/[[lio Com[modo]]] / [[Antonino]] [[[Pio Feli]]]/ci Aug(usto) Sar[m(atico) Germ(anico)] / max(imo) Brit(annico) [p(ontifici) m(aximo) p(atri) p(atriae)] / dedica[nte] / Ti(berio) Claudio [Gordia]/no leg(ato) Au[gusti] / Q(uintus) Pompo[nius - f(ilius) - - -] / Fla(vius) Sever[us - - -] / factus |(centurio) [ex corni]/cula[rio leg(ati)] / p(rimus) p(ilus) le[g(ionis) III Aug(ustae)]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure">Im[<expan><abbr>p</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> Aure</del>]<lb break="no" n="2"/><del rend="erasure">lio Com[modo</del>] <lb n="3"/><del rend="erasure">Antonino</del> <del rend="erasure">[Pio Feli</del>]<lb break="no" n="4"/>ci <expan><abbr>Aug</abbr><ex>usto</ex></expan> Sar<supplied reason="lost"><expan><abbr>m</abbr><ex>atico</ex></expan> <expan><abbr>Germ</abbr><ex>anico</ex></expan></supplied> <lb n="5"/><expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>Brit</abbr><ex>annico</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="6"/>dedica<supplied reason="lost">nte</supplied> <lb n="7"/><expan><abbr>Ti</abbr><ex>berio</ex></expan> Claudio <supplied reason="lost">Gordia</supplied><lb break="no" n="8"/>no <expan><abbr>leg</abbr><ex>ato</ex></expan> Au<supplied reason="lost">gusti</supplied> <lb n="9"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Pompo<supplied reason="lost">nius <gap reason="lost" quantity="1" unit="character"/> <expan><abbr>f</abbr><ex>ilius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="10"/><expan><abbr>Fla</abbr><ex>vius</ex></expan> Sever<supplied reason="lost">us</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="11"/>factus |(centurio) <supplied reason="lost">ex corni</supplied><lb break="no" n="12"/>cula<supplied reason="lost">rio <expan><abbr>leg</abbr><ex>ati</ex></expan></supplied> <lb n="13"/><expan><abbr>p</abbr><ex>rimus</ex></expan> <expan><abbr>p</abbr><ex>ilus</ex></expan> le<supplied reason="lost"><expan><abbr>g</abbr><ex>ionis</ex></expan> III <expan><abbr>Aug</abbr><ex>ustae</ex></expan></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Datierung: Ti. Claudius Gordianus war 188 n. Chr. kaiserlicher Legat in Numidien.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

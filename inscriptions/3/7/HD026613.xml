@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Basis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD026613</idno>
+                <idno type="TM">177170</idno><idno type="localID">HD026613</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/53">Basis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>40</height>
+                                        <width>53.5</width>
+                                        <depth>61</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.5-3.0</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000078">Achaia</placeName><placeName>Colonia Laus Iulia Corinthus?</placeName></origPlace>
+                            <origDate notBefore-custom="-0030" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC – 14 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1907">1907</date>
+                        <placeName ref="http://www.geonames.org/">Kórinthos?</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Pelopónissos</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-06-10" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1919, 0005. 
+                    </bibl>
+                    <bibl>
+                         A.B. West, Corinth. Results of excavations conducted by The American School of Classical Studies at Athens 8, 2. Latin inscriptions 1896-1926 (Cambridge [Mass.] 1931) 45-46, Nr. 65; Foto. 
+                    </bibl>
+                    <bibl>
+                         N. Schäfer, Die Einbeziehung der Provinzialen in den Reichsdienst in augusteischer Zeit (Stuttgart 2000) 111-112, Nr. 21. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) C 387. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                P(ublio) Caninio Alexiadae / f(ilio) Agrippae procur(atori) Caesa[r(is)] / Aug(usti) provinc(iae) Achaiae / Grania Quinta / bene de se(!) m<e=I>l<e=I>to(!)#m<e>l<e>to(!)#MILITO
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> Caninio Alexiadae <lb n="2"/><expan><abbr>f</abbr><ex>ilio</ex></expan> Agrippae <expan><abbr>procur</abbr><ex>atori</ex></expan> Caesa<supplied reason="lost"><expan><abbr>r</abbr><ex>is</ex></expan></supplied> <lb n="3"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>provinc</abbr><ex>iae</ex></expan> Achaiae <lb n="4"/>Grania Quinta <lb n="5"/>bene de se <note>sic</note> m<choice><corr>e</corr><sic>I</sic></choice>l<choice><corr>e</corr><sic>I</sic></choice>to <note>sic</note>#m<supplied reason="omitted">e</supplied>l<supplied reason="omitted">e</supplied>to <note>sic</note>#MILITO
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 5: griech. Delta statt D; merito: als 3. Buchstabe wurde Lambda eingemeißelt.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

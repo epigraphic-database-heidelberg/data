@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002727</idno>
+                <idno type="TM">175451</idno><idno type="localID">HD002727</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Olbia, Privatbesitz</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003239">Sardinia</placeName><placeName ref="http://www.trismegistos.org/place/000451">Olbia</placeName></origPlace>
+                            <origDate notBefore-custom="0401" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD – 600 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Olbia</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Sassari</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2006-08-31" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0440. 
+                    </bibl>
+                    <bibl>
+                         M. Bonello Lai, Atti del Ce. RDAC 10, 1978/79, 195-197. - AE. (unzugänglich). 
+                    </bibl>
+                    <bibl>
+                         CIL 10, 07976. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $ Victo]r S(anctae) E(cclesiae) m(inister) L[- - -] / [- - -]entades[- - -] baeatissi(!)[- - -] / [- - -]sia in ruin[- - -] aut virtuti [- - -] / [- - -]umque di[- - -] / [in nomine C]hri[s]ti Ti(beri) Iuli A[- - -] / [- - -]ce civitatis [- - -] / [- - -]rnci [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><supplied reason="lost">Victo</supplied>r <expan><abbr>S</abbr><ex>anctae</ex></expan> <expan><abbr>E</abbr><ex>cclesiae</ex></expan> <expan><abbr>m</abbr><ex>inister</ex></expan> L<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>entades<gap reason="lost" extent="unknown" unit="character"/> baeatissi <note>sic</note><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>sia in ruin<gap reason="lost" extent="unknown" unit="character"/> aut virtuti <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>umque di<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost">in nomine C</supplied>hri<supplied reason="lost">s</supplied>ti <expan><abbr>Ti</abbr><ex>beri</ex></expan> Iuli A<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>ce civitatis <gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>rnci <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z.1: Auch [defenso]r oder [ministe]r S(anctae) E(cclesiae) möglich. Von der Tafel sind 3 Fragmente erhalten. Inschrift auf der Vorderseite (= CIL 10, 7975) ist früher und stammt aus dem 4. Jh.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

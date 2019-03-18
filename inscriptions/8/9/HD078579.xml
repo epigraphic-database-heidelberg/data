@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Besitzer-/Herstellerinschrift auf Instrumentum domesticum</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD078579</idno>
+                <idno type="TM"/><idno type="localID">HD078579</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Dijon, Mus. Arch.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/140">Instrumentum domesticum</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/52">Schiefer</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>1.5</height>
+                                        <width>5.3</width>
+                                        <depth>5.3</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 100 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1833">1833</date>
+                        <placeName ref="http://www.geonames.org/3027773">Cessey-sur-Tille</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Bourgogne-Franche-Comté</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/311">Besitzer-/Herstellerinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-01-25" who="gräf">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 10021, 50. 
+                    </bibl>
+                    <bibl>
+                         É. Espérandieu, Signacula medicorum oculariorum (Parisiis 1905) 38, Nr. 50; tab. 60, 50 (Zeichnungen). 
+                    </bibl>
+                    <bibl>
+                         M. Provost, in: M. Provost u. a., La Côte-d'or d'Allerey à Normier, Carte archéologique de la Gaule 21, 2 (Paris 2009) 141. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                C(ai) Cl(audi) Primi diasmyrnes / post impet(um) lippitud(inis) // C(ai) Cl(audi) Primi terentianu(m) / croc(odes) ad asprit(udines) et cic(atrices) // [C(ai) C]l(audi) Primi turinum / [ad] suppurat(iones) oculor(um) // C(ai) Iul(i) Libyci diacho/les ad suppur(ationes) et vete(res) cicatr(ices)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Primi diasmyrnes <lb n="2"/>post <expan><abbr>impet</abbr><ex>um</ex></expan> <expan><abbr>lippitud</abbr><ex>inis</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Primi <expan><abbr>terentianu</abbr><ex>m</ex></expan> <lb n="2"/><expan><abbr>croc</abbr><ex>odes</ex></expan> ad <expan><abbr>asprit</abbr><ex>udines</ex></expan> et <expan><abbr>cic</abbr><ex>atrices</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>C</abbr><ex>ai</ex></expan> C</supplied><expan><abbr>l</abbr><ex>audi</ex></expan> Primi turinum <lb n="2"/><supplied reason="lost">ad</supplied> <expan><abbr>suppurat</abbr><ex>iones</ex></expan> <expan><abbr>oculor</abbr><ex>um</ex></expan> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>Iul</abbr><ex>i</ex></expan> Libyci diacho<lb break="no" n="2"/>les ad <expan><abbr>suppur</abbr><ex>ationes</ex></expan> et <expan><abbr>vete</abbr><ex>res</ex></expan> <expan><abbr>cicatr</abbr><ex>ices</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Augenarztstempel. Fundjahr: kurz vor 1833. (B): Provost, in: Provost u. a., La Côte-d'or d'Allerey à Normier: Z. 8 (Ende): cicatr(ices) nicht gelesen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

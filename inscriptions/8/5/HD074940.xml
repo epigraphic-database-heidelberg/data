@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD074940</idno>
+                <idno type="TM"/><idno type="localID">HD074940</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Zagreb, Arh. Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-74</height>
+                                        <width>77</width>
+                                        <depth>7.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/019940">Sirmium</placeName></origPlace>
+                            <origDate notBefore-custom="0351" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">351 AD – 400 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1883">1883</date>
+                        <placeName ref="http://www.geonames.org/3190103">Sremska Mitrovica</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Vojvodina</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/rs/">Serbien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-04-11" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/4349">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 10232; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         ILS 9205. 
+                    </bibl>
+                    <bibl>
+                         ILCV 2182. 
+                    </bibl>
+                    <bibl>
+                         P. Kovács, Die antiken Quellen zu Pannonien in der Spätantike. Teil I: 284-337 n. Chr. (Wien 2014) 125-126; Abb. 16. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [A] // ω / [ego Aur]elia Aminia po/[sui] titulum viro meo / [F]l(avio) Sancto ex n(umero) Iov(ianorum) pr(o)tec(tori) / bene meritus qui vixit / ann(os) pl(us) m(inus) L qui est defunc/tus civit(ate) Aquileia titulum / posuit ad beatu(m) Synerot<e=I>(m)#Synerot<e>(m)#SYNEROTI ma/rture(m)(!) et infan(t)e(m) filiam / suam nomine Ursicina / qui vixit annis n(umero) III
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">A</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ω <lb n="2"/><supplied reason="lost">ego Aur</supplied>elia Aminia po<lb break="no" n="3"/><supplied reason="lost">sui</supplied> titulum viro meo <lb n="4"/><expan><abbr><supplied reason="lost">F</supplied>l</abbr><ex>avio</ex></expan> Sancto ex <expan><abbr>n</abbr><ex>umero</ex></expan> <expan><abbr>Iov</abbr><ex>ianorum</ex></expan> pr<expan><ex>o</ex><abbr>tec</abbr><ex>tori</ex></expan> <lb n="5"/>bene meritus qui vixit <lb n="6"/><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> <expan><abbr>pl</abbr><ex>us</ex></expan> <expan><abbr>m</abbr><ex>inus</ex></expan> L qui est defunc<lb break="no" n="7"/>tus <expan><abbr>civit</abbr><ex>ate</ex></expan> Aquileia titulum <lb n="8"/>posuit ad <expan><abbr>beatu</abbr><ex>m</ex></expan> Synerot<choice><corr>e</corr><sic>I</sic></choice>(m)#Synerot<supplied reason="omitted">e</supplied>(m)#SYNEROTI ma<lb break="no" n="9"/><expan><abbr>rture</abbr><ex>m</ex></expan> <note>sic</note> et infan<expan><ex>t</ex><abbr>e</abbr><ex>m</ex></expan> filiam <lb n="10"/>suam nomine Ursicina <lb n="11"/>qui vixit annis <expan><abbr>n</abbr><ex>umero</ex></expan> III
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

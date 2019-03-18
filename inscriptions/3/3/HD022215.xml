@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Platte</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD022215</idno>
+                <idno type="TM">155920</idno><idno type="localID">HD022215</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Newcastle upon Tyne, Great North Museum, Hancock</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>91.5</height>
+                                        <width>-133</width>
+                                        <depth>19.6</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">8.7-7.8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/015149">Onnum</placeName></origPlace>
+                            <origDate notBefore-custom="0122" notAfter-custom="0126" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">122 AD – 126 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1936">1936</date>
+                        <placeName ref="http://www.geonames.org/">Halton Chesters</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Northumberland</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-04-20" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1938, 0116. (B) 
+                    </bibl>
+                    <bibl>
+                         R.G. Collingwood, JRS 27, 1937, 247, Nr. 6. - AE 1938. (B) 
+                    </bibl>
+                    <bibl>
+                         RIB 1427; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) P 449. 
+                    </bibl>
+                    <bibl>
+                         E.J. Phillips, Corbridge. Hadrian's Wall east of the North Tyne, CSIR Great Britain 1, 1 (Oxford 1977) 106, Nr. 292; Pl. 77, 292. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(eratori) Caes(ari) T[ra(iano) Hadriano] / Aug(usto) leg(io) VI v[ictrix p(ia) f(idelis)] / A(ulo) Platorio N[epote] / leg(ato) Aug(usti) pr(o) [pr(aetore)]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> T<supplied reason="lost"><expan><abbr>ra</abbr><ex>iano</ex></expan> Hadriano</supplied> <lb n="2"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>leg</abbr><ex>io</ex></expan> VI v<supplied reason="lost">ictrix <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan></supplied> <lb n="3"/><expan><abbr>A</abbr><ex>ulo</ex></expan> Platorio N<supplied reason="lost">epote</supplied> <lb n="4"/><expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <supplied reason="lost"><expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): In Z. 2 [victrix statt v[ictrix.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

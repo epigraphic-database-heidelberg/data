@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD044169</idno>
+                <idno type="TM">175364</idno><idno type="localID">HD044169</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>12.5</height>
+                                        <width>33</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">1.0-1.7</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000114">Creta</placeName><placeName ref="http://www.trismegistos.org/place/016070">Kisamos</placeName></origPlace>
+                            <origDate notBefore-custom="0371" notAfter-custom="0430" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">371 AD – 430 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Kastelli Kisamou</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2007-07-27" who="Hartmann">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2002, 1629. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Ἡ τῇ σῇ βουλῇ προσλημ/φθῖσα, Κ(ύρι)ε, Ζωσίμη, ἡ σὴ δού/λη ἐνθάδε κῖτε, ἥντινα κατά/ταξον εἰς τόπον, Κ(ύρι)ε, ἀνα/παύσεως, ἥτις φιλόπιστος / ἦν, φίλανδρος, φιλότε/κνος κὲ πρὸς σὲ κατέφυ/γεν, Κ(ύρι)ε, τὸν μόνον ἐλεήμο/να. ἀνεπαύσατο ἐν Χ(ριστ)ῷ τ ὑπ/ομνήσι τοῦ Ἁγίου Ἰωάννου.
+            --><div type="edition" xml:lang="grc"><head>Text</head><ab><lb n="1"/>
+                Ἡ τῇ σῇ βουλῇ προσλημ<lb break="no" n="2"/>φθῖσα, Κ(ύρι)ε, Ζωσίμη, ἡ σὴ δού<lb break="no" n="3"/>λη ἐνθάδε κῖτε, ἥντινα κατά<lb break="no" n="4"/>ταξον εἰς τόπον, Κ(ύρι)ε, ἀνα<lb break="no" n="5"/>παύσεως, ἥτις φιλόπιστος <lb n="6"/>ἦν, φίλανδρος, φιλότε<lb break="no" n="7"/>κνος κὲ πρὸς σὲ κατέφυ<lb break="no" n="8"/>γεν, Κ(ύρι)ε, τὸν μόνον ἐλεήμο<lb break="no" n="9"/>να. ἀνεπαύσατο ἐν Χ(ριστ)ῷ τ ὑπ<lb break="no" n="10"/>ομνήσι τοῦ Ἁγίου Ἰωάννου.
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

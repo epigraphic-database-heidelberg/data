@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD078474</idno>
+                <idno type="TM"/><idno type="localID">HD078474</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mainz, Landesmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>7.1</height>
+                                        <width>8</width>
+                                        <depth>7.4</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/23">eingraviert</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum</placeName></origPlace>
+                            <origDate notBefore-custom="0215" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">215 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1881">1881</date>
+                        <placeName ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-01-18" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 07261. (B) 
+                    </bibl>
+                    <bibl>
+                         ILS 7088. (B) 
+                    </bibl>
+                    <bibl>
+                         K. Körber, MZ 7, 1912, 22, Nr. 40; Foto. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) M 54. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) M 735. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                In h(onorem) d(omus) d(ivinae) // Genium(!) pla(teae) p(ost?) p(ortam?) / pr(a)et(oriam?) L(ucius) L(- - -) Vic/tor vet(eranus) leg(ionis) / XXII d(onum) d(edit) Laeto / et Ceriale co(n)s(ulibus)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Genium <note>sic</note> <expan><abbr>pla</abbr><ex>teae</ex></expan> <expan><abbr>p</abbr><ex cert="low">ost</ex></expan> <expan><abbr>p</abbr><ex cert="low">ortam</ex></expan> <lb n="2"/><expan><abbr>pr</abbr><ex>a</ex></expan><expan><abbr>et</abbr><ex cert="low">oriam</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> <abbr>L</abbr> Vic<lb break="no" n="3"/>tor <expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="4"/>XXII <expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan> Laeto <lb n="5"/>et Ceriale co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 1 befindet sich auf der corona. Schreibtechnik: eingraviert. (B): CIL 13, 07261; ILS: Z. 4 (Ende): le&amp;lt;g=C&amp;gt;(ionis).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

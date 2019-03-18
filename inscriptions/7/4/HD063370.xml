@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD063370</idno>
+                <idno type="TM">188088</idno><idno type="localID">HD063370</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Split, Arh. Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>55</height>
+                                        <width>46</width>
+                                        <depth>9</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/029359">Nareste</placeName></origPlace>
+                            <origDate notBefore-custom="0301" notAfter-custom="0350" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 350 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1882">1882</date>
+                        <placeName ref="http://www.geonames.org/3201021">Dugi Rat</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Splitsko-dalmatinska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-02-03" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F033461">
+            <desc>F033461</desc>
+        </graphic>
+
+        <graphic url="http://hdl.handle.net/11471/504.40.167">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 13917. 
+                    </bibl>
+                    <bibl>
+                         E. Marin u. a., Salona 4. Inscriptions de Salone chrétienne, IVe-VIIe siècles (Rome - Split 2010) 358-359, Nr. 134; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) [M(anibus)] / Aur(elius) Castinus / Aeli(ae) Iobin(a)e(!) uxori / infelicissim(a)e qu(a)e / vixxit(!) an(nos) XXVI si qu/is autem voluerit / super h(a)ec trea(!) cor/pora ponere {volu}/{erit} inf(e)rr(et) decr(eto) f(olles) |(mille) / curiae nostr(a)e
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Castinus <lb n="3"/><expan><abbr>Aeli</abbr><ex>ae</ex></expan> Iobin<expan><ex>a</ex><abbr>e</abbr></expan> <note>sic</note> uxori <lb n="4"/>infelicissim<expan><ex>a</ex><abbr>e</abbr></expan> qu<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="5"/>vixxit <note>sic</note> <expan><abbr>an</abbr><ex>nos</ex></expan> XXVI si qu<lb break="no" n="6"/>is autem voluerit <lb n="7"/>super h<expan><ex>a</ex><abbr>ec</abbr></expan> trea <note>sic</note> cor<lb break="no" n="8"/>pora ponere <surplus>volu</surplus><lb break="no" n="9"/><surplus>erit</surplus> inf<expan><ex>e</ex><abbr>rr</abbr><ex>et</ex></expan> <expan><abbr>decr</abbr><ex>eto</ex></expan> <expan><abbr>f</abbr><ex>olles</ex></expan> |(mille) <lb n="10"/>curiae nostr<expan><ex>a</ex><abbr>e</abbr></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 1: Buchstabe D auf dem linken, Buchstabe M ehemals sicher auf dem rechten Akroter. (B): CIL III 13917: Leseabweichungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

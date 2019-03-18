@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD037988</idno>
+                <idno type="TM">179306</idno><idno type="localID">HD037988</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/004366">Dacia</placeName><placeName ref="http://www.trismegistos.org/place/014481">Apulum</placeName></origPlace>
+                            <origDate notBefore-custom="0180" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">180 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hunedoara</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-04-11" who="Garcia">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/10971">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IDR 3, 5, 020; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 00986. 
+                    </bibl>
+                    <bibl>
+                         ILS 3848. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) Q 20. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) B 165. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Auribus Aesc[u]/lapi et Hygiae / et Apollini et / Dianae C(ai) Iu/lii Dius Far/nax Irenicus / fratres Aug(ustales) / munic(ipii) Aur(eli) Ap(u)li / p(ro) s(alute) s(ua) p(osuerunt) Pr(a)es(ente) / II et Condi(ano) co(n)s(ulibus)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Auribus Aesc<supplied reason="lost">u</supplied><lb break="no" n="2"/>lapi et Hygiae <lb n="3"/>et Apollini et <lb n="4"/>Dianae <expan><abbr>C</abbr><ex>ai</ex></expan> Iu<lb break="no" n="5"/>lii Dius Far<lb break="no" n="6"/>nax Irenicus <lb n="7"/>fratres <expan><abbr>Aug</abbr><ex>ustales</ex></expan> <lb n="8"/><expan><abbr>munic</abbr><ex>ipii</ex></expan> <expan><abbr>Aur</abbr><ex>eli</ex></expan> Ap<expan><ex>u</ex><abbr>li</abbr></expan> <lb n="9"/><expan><abbr>p</abbr><ex>ro</ex></expan> <expan><abbr>s</abbr><ex>alute</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>osuerunt</ex></expan> Pr<expan><ex>a</ex><abbr>es</abbr><ex>ente</ex></expan> <lb n="10"/>II et <expan><abbr>Condi</abbr><ex>ano</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Altar oder Statuenbasis. Hederae.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002845</idno>
+                <idno type="TM">258845</idno><idno type="localID">HD002845</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Albenga, Mus. Diocesano</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-16</height>
+                                        <width>-32</width>
+                                        <depth>5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2.5-3.8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Liguria (Regio IX)</placeName><placeName ref="http://www.trismegistos.org/place/031683">Albingaunum</placeName></origPlace>
+                            <origDate notBefore-custom="0571" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1.571 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1965">1965</date>
+                        <placeName ref="http://www.geonames.org/">Albenga</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Savona</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-10-11" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1984, 0415. (B) 
+                    </bibl>
+                    <bibl>
+                         G. Mennella - M. Tasso, Epigraphica 44, 1982, 221-223, Nr. 2; fig. 3. - AE 1984. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Hic requiesci[t in pa]/ce b(onae) m(emoriae) Donatus [diaco]/nus qui vixit in h[oc sae]/[c(u)l(o) an]nos p(lus) m(inus) XL d[ep(ositus) est] / [sub d(ie) - - - men(se) Ianua?]rio / [Imp(eratore) d(omino) n(ostro) Iustino?] p(er)p(etuo) Aug(usto) / [anno] VI
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Hic requiesci<supplied reason="lost">t in pa</supplied><lb break="no" n="2"/>ce <expan><abbr>b</abbr><ex>onae</ex></expan> <expan><abbr>m</abbr><ex>emoriae</ex></expan> Donatus <supplied reason="lost">diaco</supplied><lb break="no" n="3"/>nus qui vixit in h<supplied reason="lost">oc sae</supplied><lb break="no" n="4"/><supplied reason="lost"><expan><abbr>c</abbr><ex>u</ex><abbr>l</abbr><ex>o</ex></expan> an</supplied>nos <expan><abbr>p</abbr><ex>lus</ex></expan> <expan><abbr>m</abbr><ex>inus</ex></expan> XL d<supplied reason="lost"><expan><abbr>ep</abbr><ex>ositus</ex></expan> est</supplied> <lb n="5"/><supplied reason="lost" cert="low">sub d(ie) --- men(se) Ianua</supplied>rio <lb n="6"/><supplied reason="lost" cert="low">Imp(eratore) d(omino) n(ostro) Iustino</supplied> p<expan><ex>er</ex><abbr>p</abbr><ex>etuo</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="7"/><supplied reason="lost">anno</supplied> VI
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Drei teilweise aneinanderpassende Fragmente erhalten. Maße beziehen sich auf die zusammengesetzten Fragmente a u. b; Maße Fragment c: 12 x 15 x 5 cm. (B): AE 1984: Z. 4: dep(ositus) est. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

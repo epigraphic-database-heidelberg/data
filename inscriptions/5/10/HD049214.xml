@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD049214</idno>
+                <idno type="TM">201511</idno><idno type="localID">HD049214</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-58</height>
+                                        <width>-55</width>
+                                        <depth>10</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6-7</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/015771">Africa Proconsularis</placeName><placeName>Vicus Maracitanus</placeName></origPlace>
+                            <origDate notBefore-custom="0373" notAfter-custom="0374" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">373 AD – 374 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Ksar-Toual-Zouamel</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/tn/">Tunesien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-05-26" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1998, 1531. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Sal]vis ac toto orbe [vincentibus ddd(ominis) nnn(ostris) Valentiniano] / [Valente] et Gratiano triu[mfatoribus semper Auggg(ustis)] / [proconsulat]u Q(uinti) Aureli Symm[achi v(iri) c(larissimi) v(ice) s(acra) i(udicantis)? - - -] / [legato Nu]midiae eiusdem b[asilicam? vetustate conlapsam?] / [- - - I]ulius Caelia[nus fl(amen) p(er)p(etuus) cur(ator) r(ei) p(ublicae)?] / [cum amo]re atque adf[ectione? fecit] / [univer]sis c[ivibus]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Sal</supplied>vis ac toto orbe <supplied reason="lost">vincentibus <expan><abbr>ddd</abbr><ex>ominis</ex></expan> <expan><abbr>nnn</abbr><ex>ostris</ex></expan> Valentiniano</supplied> <lb n="2"/><supplied reason="lost">Valente</supplied> et Gratiano triu<supplied reason="lost">mfatoribus semper <expan><abbr>Auggg</abbr><ex>ustis</ex></expan></supplied> <lb n="3"/><supplied reason="lost">proconsulat</supplied>u <expan><abbr>Q</abbr><ex>uinti</ex></expan> Aureli Symm<supplied reason="lost">achi <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan> <expan><abbr>v</abbr><ex>ice</ex></expan> <expan><abbr>s</abbr><ex>acra</ex></expan> <expan><abbr>i</abbr><ex>udicantis</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/><supplied reason="lost">legato Nu</supplied>midiae eiusdem b<supplied reason="lost" cert="low">asilicam? vetustate conlapsam</supplied> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">I</supplied>ulius Caelia<supplied reason="lost" cert="low">nus fl(amen) p(er)p(etuus) cur(ator) r(ei) p(ublicae)</supplied> <lb n="6"/><supplied reason="lost">cum amo</supplied>re atque adf<supplied reason="lost">ectione<certainty locus="name" match="preceding-sibling::text()" cert="low"/> fecit</supplied> <lb n="7"/><supplied reason="lost">univer</supplied>sis c<supplied reason="lost">ivibus</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

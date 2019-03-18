@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD028222</idno>
+                <idno type="TM">196125</idno><idno type="localID">HD028222</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mosonmagyaróvár, Hansági Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>227</height>
+                                        <width>68</width>
+                                        <depth>17</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 100 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1900">1900</date>
+                        <placeName ref="http://www.geonames.org/2781373">Bruck/Leitha, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Burgenland</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-07-27" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/76">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1900, 0066. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 14359, 23. (B) 
+                    </bibl>
+                    <bibl>
+                         W. Kubitschek, JŒAI (Beibl.) 3, 1900, col. 16; Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Belatusa Cau/ti l(iberta) Boius pos/uit an(n)oru(m) XXX / hic sita / est
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Belatusa Cau<lb break="no" n="2"/>ti <expan><abbr>l</abbr><ex>iberta</ex></expan> Boius pos<lb break="no" n="3"/>uit an<expan><ex>n</ex><abbr>oru</abbr><ex>m</ex></expan> XXX <lb n="4"/>hic sita <lb n="5"/>est
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Schriftbild und Buchstaben unregelmäßig. Horizontaler Bruch Z. 4/5. Name der Verstorbenen in Zeile 1 ist unklar. Möglich wäre auch Bilatusa, jedoch ist im Gegensatz zu diesem Namen Belatussa auch anderweitig belegt. Der zweite Buchstabe in Z. 1 weist zudem eine deutlich ausgeprägte untere Querhaste auf, da eine solche auch beim folgenden T nur sehr schwach ausgeprägt ist und diese in der Zeichnung bei Kubitschek zu erkennen sind, ist an dieser Stelle wohl eher E zu lesen. Letztes A von Belatusa in Z. 1 nachträglich eingefügt. Die Inschrift befindet sich unterhalb einer Bogennische mit dem Brustbild einer Frau in einheimischer Tracht (Pelzhut, Flügelfibeln, Armreifen). (B): CIL 03, 14359, 23: Z. 5 fehlt.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

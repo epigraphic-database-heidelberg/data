@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD020654</idno>
+                <idno type="TM">233395</idno><idno type="localID">HD020654</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Cartagena, Mus. Arq. Mun.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>95</height>
+                                        <width>55.5</width>
+                                        <depth>57</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6.2-3.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016933">Hispania citerior</placeName><placeName ref="http://www.trismegistos.org/place/019857">Carthago Nova</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 150 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2520058">Cartagena</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Comunidad Autónoma de la Región de Murcia</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-04-14" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1908, 0149. 
+                    </bibl>
+                    <bibl>
+                         R. Wiegels, Die Tribusinschriften des römischen Hispanien (Berlin 1985) 103. - AE 1908. 
+                    </bibl>
+                    <bibl>
+                         J.M. Abascal Palazón - S.F. Ramallo Asensio, La ciudad de Carthago Nova: La documentación epigráfica (Murcia 1997) 202-206, Nr. 54; lám. 60. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                L(ucio) Numisio / Cn(aei) f(ilio) Ser(gia) Laeto / aed(ili) IIvir(o) et IIvir(o) / quinq(uennali) flam(ini) Au/gustor(um) pontif(ici) / praefec(to) cohort(is) / Musulamiorum / flamini pro/vinc(iae) H(ispaniae) c(iterioris) bis / d(ecreto) d(ecurionum)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Numisio <lb n="2"/><expan><abbr>Cn</abbr><ex>aei</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Ser</abbr><ex>gia</ex></expan> Laeto <lb n="3"/><expan><abbr>aed</abbr><ex>ili</ex></expan> <expan><abbr>IIvir</abbr><ex>o</ex></expan> et <expan><abbr>IIvir</abbr><ex>o</ex></expan> <lb n="4"/><expan><abbr>quinq</abbr><ex>uennali</ex></expan> <expan><abbr>flam</abbr><ex>ini</ex></expan> Au<lb break="no" n="5"/><expan><abbr>gustor</abbr><ex>um</ex></expan> <expan><abbr>pontif</abbr><ex>ici</ex></expan> <lb n="6"/><expan><abbr>praefec</abbr><ex>to</ex></expan> <expan><abbr>cohort</abbr><ex>is</ex></expan> <lb n="7"/>Musulamiorum <lb n="8"/>flamini pro<lb break="no" n="9"/><expan><abbr>vinc</abbr><ex>iae</ex></expan> <expan><abbr>H</abbr><ex>ispaniae</ex></expan> <expan><abbr>c</abbr><ex>iterioris</ex></expan> bis <lb n="10"/><expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Erhalten ist der Mittelteil der Statuenbasis.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002967</idno>
+                <idno type="TM">204718</idno><idno type="localID">HD002967</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-67</height>
+                                        <width>-136.5</width>
+                                        <depth>15</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003344">Numidia</placeName><placeName ref="http://www.trismegistos.org/place/018251">Thamugadi</placeName></origPlace>
+                            <origDate notBefore-custom="0174" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">174 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1954">1954</date>
+                        <placeName ref="http://www.geonames.org/2476409">Timgad</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Batna</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-08-12" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1985, 0880b. 
+                    </bibl>
+                    <bibl>
+                         M. Le Glay - S. Tourrenc, AntAfr 21, 1985, 127-128; Nr. 8, 2; Foto. - AE 1985. 
+                    </bibl>
+                    <bibl>
+                         B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 159, Nr. 39h. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Pro salute Imp(eratoris) Caes(aris) M(arci) Aureli Anto]/[nini Aug(usti) Armen(iaci) Parth(ici) max(imi) Med(ici) Germ(anici)] / [pontif(icis) max(imi) trib(uniciae) pot(estatis) XXVII imp(eratoris) VI?] / [co(n)s(ulis) III p(atris) p(atriae) proco(n)s(ulis) divi Antonini] / [Pii filii divi Veri Parth(ici) maximi] / fratris divi Hadriani nepotis / divi Traiani pronepotis divi Ner/vae abnepotis statuam equestrem / item opus basilicae / M(arcus) Aemilius Macer Saturninus / leg(atus) Aug(usti) p(ro) p(raetore) co(n)s(ul) desig(natus) patronus / col(oniae) dedicavit
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Pro salute <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> Aureli Anto</supplied><lb break="no" n="2"/><supplied reason="lost">nini <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>Armen</abbr><ex>iaci</ex></expan> <expan><abbr>Parth</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>Med</abbr><ex>ici</ex></expan> <expan><abbr>Germ</abbr><ex>anici</ex></expan></supplied> <lb n="3"/><supplied reason="lost" cert="low">pontif(icis) max(imi) trib(uniciae) pot(estatis) XXVII imp(eratoris) VI</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> III <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> divi Antonini</supplied> <lb n="5"/><supplied reason="lost">Pii filii divi Veri <expan><abbr>Parth</abbr><ex>ici</ex></expan> maximi</supplied> <lb n="6"/>fratris divi Hadriani nepotis <lb n="7"/>divi Traiani pronepotis divi Ner<lb break="no" n="8"/>vae abnepotis statuam equestrem <lb n="9"/>item opus basilicae <lb n="10"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Aemilius Macer Saturninus <lb n="11"/><expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>p</abbr><ex>ro</ex></expan> <expan><abbr>p</abbr><ex>raetore</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <expan><abbr>desig</abbr><ex>natus</ex></expan> patronus <lb n="12"/><expan><abbr>col</abbr><ex>oniae</ex></expan> dedicavit
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

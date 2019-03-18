@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000102</idno>
+                <idno type="TM">167635</idno><idno type="localID">HD000102</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Vindolanda, Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>5.9</height>
+                                        <width>4.1</width>
+                                        <depth>1</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/003201">Vindolanda</placeName></origPlace>
+                            <origDate notBefore-custom="0146" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">146 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1980">1980</date>
+                        <placeName ref="http://www.geonames.org/6942442">Chesterholm</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Northumberland</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-11-02" who="Cowey">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1983, 0639. (B) 
+                    </bibl>
+                    <bibl>
+                         M.W.C. Hassall - R.S.O. Tomlin, Britannia 14, 1983, 347-348, Nr. 40. (B) - AE 1983. 
+                    </bibl>
+                    <bibl>
+                         RMD 097; pl. 4a-c. (B) 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) C 1027. 
+                    </bibl>
+                    <bibl>
+                         AE 1985, 0640. 
+                    </bibl>
+                    <bibl>
+                         M.M. Roxan, The Roman Fort of Vindolanda at Chesterholm, Northumberland (Chesterholm 1980) 93-102. - AE 1985. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) E 96. 
+                    </bibl>
+                    <bibl>
+                         RIB 2401, 9. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(erator) Caesar divi Hadriani f(ilius) divi Traiani] / [Parth(ici) n(epos) divi Nervae pron(epos)] T(itus) Ae[lius] / [Hadrianus Antonin]us Aug(ustus) Pius p(ontifex) m(aximus) / [tr(ibunicia) pot(estate) VIIII imp(erator) II] co(n)s(ul) IIII p(ater) p(atriae) / [eq(uitibus) et ped(itibus) q(ui) m(ilitaverunt) in alis - - -] et coh(ortibus) VIII et su[nt] / [in Britannia sub Papirio Aeliano? quinque et viginti] / [stipend(iis) emerit(is) dimis(sis) honest(a) mission(e)] / [quor(um) nomin(a) subscript(a) sunt civit(atem) Roman(am)] // [qui eor(um)] non ha[ber(ent) dedit et conub(ium) cum] / [uxor(ibus)] quas tun[c habuis(sent) cum est civit(as)] / [is d]ata aut cum [is quas postea duxis(sent)] / [du]mtaxat sing[ulis - - -] / [Sex(to)] Eruc[io Claro II] / [Cn(aeo)] Claud[io Severo Arabiano co(n)s(ulibus)] / [co]h(ortis) I Tun[gror(um)? M(miliariae) cui prae(e)st] / [- - -] Paterniu[s - - -] / [ex - - -] / [- - -]MANDIO[- - -] / [desc]ript(um) et [recognit(um) ex tabul(a) aer]/[ea q]uae fi[xa est Romae in muro] / [post templ(um) divi Aug(usti) ad Minervam]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Hadriani <expan><abbr>f</abbr><ex>ilius</ex></expan> divi Traiani</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>Parth</abbr><ex>ici</ex></expan> <expan><abbr>n</abbr><ex>epos</ex></expan> divi Nervae <expan><abbr>pron</abbr><ex>epos</ex></expan></supplied> <expan><abbr>T</abbr><ex>itus</ex></expan> Ae<supplied reason="lost">lius</supplied> <lb n="3"/><supplied reason="lost">Hadrianus Antonin</supplied>us <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Pius <expan><abbr>p</abbr><ex>ontifex</ex></expan> <expan><abbr>m</abbr><ex>aximus</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> VIIII <expan><abbr>imp</abbr><ex>erator</ex></expan> II</supplied> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IIII <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/><supplied reason="lost"><expan><abbr>eq</abbr><ex>uitibus</ex></expan> et <expan><abbr>ped</abbr><ex>itibus</ex></expan> <expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>m</abbr><ex>ilitaverunt</ex></expan> in alis <gap reason="lost" extent="unknown" unit="character"/></supplied> et <expan><abbr>coh</abbr><ex>ortibus</ex></expan> VIII et su<supplied reason="lost">nt</supplied> <lb n="6"/><supplied reason="lost">in Britannia sub Papirio Aeliano<certainty locus="name" match="preceding-sibling::text()" cert="low"/> quinque et viginti</supplied> <lb n="7"/><supplied reason="lost"><expan><abbr>stipend</abbr><ex>iis</ex></expan> <expan><abbr>emerit</abbr><ex>is</ex></expan> <expan><abbr>dimis</abbr><ex>sis</ex></expan> <expan><abbr>honest</abbr><ex>a</ex></expan> <expan><abbr>mission</abbr><ex>e</ex></expan></supplied> <lb n="8"/><supplied reason="lost"><expan><abbr>quor</abbr><ex>um</ex></expan> <expan><abbr>nomin</abbr><ex>a</ex></expan> <expan><abbr>subscript</abbr><ex>a</ex></expan> sunt <expan><abbr>civit</abbr><ex>atem</ex></expan> <expan><abbr>Roman</abbr><ex>am</ex></expan></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">qui <expan><abbr>eor</abbr><ex>um</ex></expan></supplied> non ha<supplied reason="lost"><expan><abbr>ber</abbr><ex>ent</ex></expan> dedit et <expan><abbr>conub</abbr><ex>ium</ex></expan> cum</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>uxor</abbr><ex>ibus</ex></expan></supplied> quas tun<supplied reason="lost">c <expan><abbr>habuis</abbr><ex>sent</ex></expan> cum est <expan><abbr>civit</abbr><ex>as</ex></expan></supplied> <lb n="3"/><supplied reason="lost">is d</supplied>ata aut cum <supplied reason="lost">is quas postea <expan><abbr>duxis</abbr><ex>sent</ex></expan></supplied> <lb n="4"/><supplied reason="lost">du</supplied>mtaxat sing<supplied reason="lost">ulis</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost"><expan><abbr>Sex</abbr><ex>to</ex></expan></supplied> Eruc<supplied reason="lost">io Claro II</supplied> <lb n="6"/><supplied reason="lost"><expan><abbr>Cn</abbr><ex>aeo</ex></expan></supplied> Claud<supplied reason="lost">io Severo Arabiano <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="7"/><expan><abbr><supplied reason="lost">co</supplied>h</abbr><ex>ortis</ex></expan> I Tun<supplied reason="lost"><expan><abbr>gror</abbr><ex>um</ex></expan>? <expan><abbr>M</abbr><ex>miliariae</ex></expan> cui <expan><abbr>prae</abbr><ex>e</ex>st</expan></supplied> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> Paterniu<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/><supplied reason="lost">ex</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>MANDIO<gap reason="lost" extent="unknown" unit="character"/> <lb n="11"/><expan><abbr><supplied reason="lost">desc</supplied>ript</abbr><ex>um</ex></expan> et <supplied reason="lost"><expan><abbr>recognit</abbr><ex>um</ex></expan> ex <expan><abbr>tabul</abbr><ex>a</ex></expan> aer</supplied><lb break="no" n="12"/><supplied reason="lost">ea q</supplied>uae fi<supplied reason="lost">xa est Romae in muro</supplied> <lb n="13"/><supplied reason="lost">post <expan><abbr>templ</abbr><ex>um</ex></expan> divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad Minervam</supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Außenseite: Z.5: AE, Hassall: Ercu[io]; Z.10: [---]ANDIO[---]. Innenseite: Z. 3: AE, Hassall: p(ater) [p(atriae)]; Innenseite: Z. 5: Roxan: trib. pot. VIII statt trib. pot. VIIII. Tabella I ist aus 2 aneinander passenden Fragmenten zusammengesetzt. Y: terminus ante quem: Tod des Sex. Erucius Clarus im März 146.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002293</idno>
+                <idno type="TM">192569</idno><idno type="localID">HD002293</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Brunnen vor Haus des Bajram Nazir Ibraim, vermauert</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-199</height>
+                                        <width>91</width>
+                                        <depth>14</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">7-5.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029481">Moesia superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1957">1957</date>
+                        <placeName ref="http://www.geonames.org/788516">Lipkovo</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/mk/">Mazedonien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-04-13" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1984, 0790. 
+                    </bibl>
+                    <bibl>
+                         IMS 6, 241; Foto. 
+                    </bibl>
+                    <bibl>
+                         ILJug 0561. (B) 
+                    </bibl>
+                    <bibl>
+                         V. Sokolovska, ZborMuzSkopje 4/5, 1961-1966, 102, Nr. 1. (B) - AE 1984. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) // Flavia Severa / vix(it) an(nos) XXXV / M(arcus) Ulpius Bas/sus mil(es) leg(ionis) / IIII Fl(aviae) Ant(oninianae) strat(or) leg(ati) / co(n)iugi [pi]en/tissim(a)e po/suit / manu mea / scribsi(!)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Flavia Severa <lb n="2"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XXXV <lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Ulpius Bas<lb break="no" n="4"/>sus <expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="5"/>IIII <expan><abbr>Fl</abbr><ex>aviae</ex></expan> <expan><abbr>Ant</abbr><ex>oninianae</ex></expan> <expan><abbr>strat</abbr><ex>or</ex></expan> <expan><abbr>leg</abbr><ex>ati</ex></expan> <lb n="6"/>co<expan><ex>n</ex><abbr>iugi</abbr></expan> <supplied reason="lost">pi</supplied>en<lb break="no" n="7"/>tissim<expan><ex>a</ex><abbr>e</abbr></expan> po<lb break="no" n="8"/>suit <lb n="9"/>manu mea <lb n="10"/>scribsi <note>sic</note>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Stein für ein spätantikes Grab zweitverwendet. Z. 1 steht auf dem oberen Rahmen des Inschriftfeldes. (B): ILJug: Z. 5/6: leg(ionis) IIII; ILJug, Sokolovska: Z. 6: IIII Fl(aviae); Z. 7/8: pien/tissime; ILJug: Z. 10/11: mea scribsi. Datierung: Der Legionsbeiname Antoniana ist für die leg. IIII Flavia unter Septimius Severus und Caracalla sowie unter Elagabal bezeugt.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

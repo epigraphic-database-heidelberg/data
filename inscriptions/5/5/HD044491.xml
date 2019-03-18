@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD044491</idno>
+                <idno type="TM">197772</idno><idno type="localID">HD044491</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Paris, Mus. du Louvre</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>89</height>
+                                        <width>230</width>
+                                        <depth>23</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2.5-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000014">Thracia</placeName><placeName>Thasus</placeName></origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/734094">Thásos</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Anatolikí Makedonía, Thráki</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-03-27" who="Cowey">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IG 12, 08, 00506. 
+                    </bibl>
+                    <bibl>
+                         M. Šašel Kos, Inscriptiones Latinae in Graecia repertae. Additamenta ad CIL III (Faenza 1979) 105, Nr. 248. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Φολκίνιος Κα/πίτων προσφι/λὴς χαῖρε // Καλλίνε[ικο]ς καὶ Βερηκοῦνδα ἑαυτοῖς / καὶ τοῖς π[αισ]ί Τ(ίτος) Λάρτιος Βερηκοῦνδος / προσφιλὴ[ς χα]ῖρε / Ἀφροδείσιος Καλλινείκου / προσφιλὴς χαῖρε / Καλλίνε[ικος] / Μαξίμο[υ πρ]οσφιλὴς χαῖρε // h(oc) m(onumentum) s(e) v(ivo) d(edit) d(onavit) f(ilius) |(denarios) |(mille) // Ῥουφῖνα Καλλινεί[κου] / προσφιλὴς χαῖρε / Καλλείν<ει>κος <Π>αν[κ]τή/του χαῖρε / Πάνκτητος / χαῖρε / Καλλείνεικος / Καλλεινείκου / χαῖρε / Εὐτυχεία Φιλοκυρίου / Εἰδεία δὲ Καλλεινείκου / χαῖρε
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Φολκίνιος Κα<lb break="no" n="2"/>πίτων προσφι<lb break="no" n="3"/>λὴς χαῖρε </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Καλλίνε<supplied reason="lost">ικο</supplied>ς καὶ Βερηκοῦνδα ἑαυτοῖς <lb n="2"/>καὶ τοῖς π<supplied reason="lost">αισ</supplied>ί Τ(ίτος) Λάρτιος Βερηκοῦνδος <lb n="3"/>προσφιλὴ<supplied reason="lost">ς χα</supplied>ῖρε <lb n="4"/>Ἀφροδείσιος Καλλινείκου <lb n="5"/>προσφιλὴς χαῖρε <lb n="6"/>Καλλίνε<supplied reason="lost">ικος</supplied> <lb n="7"/>Μαξίμο<supplied reason="lost">υ πρ</supplied>οσφιλὴς χαῖρε </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>h</abbr><ex>oc</ex></expan> <expan><abbr>m</abbr><ex>onumentum</ex></expan> <expan><abbr>s</abbr><ex>e</ex></expan> <expan><abbr>v</abbr><ex>ivo</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan> <expan><abbr>d</abbr><ex>onavit</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> |(denarios) |(mille) </ab></div><div n="4" type="textpart"><ab><lb n="1"/> Ῥουφῖνα Καλλινεί<supplied reason="lost">κου</supplied> <lb n="2"/>προσφιλὴς χαῖρε <lb n="3"/>Καλλείν<supplied reason="omitted">ει</supplied>κος <supplied reason="omitted">Π</supplied>αν<supplied reason="lost">κ</supplied>τή<lb break="no" n="4"/>του χαῖρε <lb n="5"/>Πάνκτητος <lb n="6"/>χαῖρε <lb n="7"/>Καλλείνεικος <lb n="8"/>Καλλεινείκου <lb n="9"/>χαῖρε <lb n="10"/>Εὐτυχεία Φιλοκυρίου <lb n="11"/>Εἰδεία δὲ Καλλεινείκου <lb n="12"/>χαῖρε
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

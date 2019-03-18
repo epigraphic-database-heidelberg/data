@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Statue</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD060448</idno>
+                <idno type="TM">212306</idno><idno type="localID">HD060448</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Darmstadt, Hess. Landesmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/241">Statue</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/145">gepunzt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0260" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 260 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1888">1888</date>
+                        <placeName ref="http://www.geonames.org/3208053">Florstadt</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hessen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-08-16" who="gräf">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1903, 0380. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 13, 07425. (B) 
+                    </bibl>
+                    <bibl>
+                         CIMRM 1081. (B) 
+                    </bibl>
+                    <bibl>
+                         F. Kofler, in: Der obergermanisch-rätische Limes des Römerreiches B, II, 2, 19 (Lieferung 18) (Heidelberg 1914) 22, Nr. 1; Taf. 1, 24 u. 24a (Zeichnungen). (B) - AE 1903. 
+                    </bibl>
+                    <bibl>
+                         S.F. Pfahl, Instrumenta Latina et Graeca inscripta des Limesgebietes von 200 v. Chr. bis 600 n. Chr. (Weinstadt 2012) 164, Nr. 185; Taf. 22, 185 
+                    </bibl>
+                    <bibl>
+                         (Zeichnung). 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Vir{i?}tut(i) Vib<I=L>(us?)#Vib<I>(us?)#VIBL Leccus l(- - -) d(onum) d(edit)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Vir<surplus>i?</surplus><expan><abbr>tut</abbr><ex>i</ex></expan> Vib<choice><corr>I</corr><sic>L</sic></choice>(us<certainty match="preceding-sibling::node()" locus="value"/>#Vib<supplied reason="omitted">I</supplied>(us<certainty match="preceding-sibling::node()" locus="value"/>#VIBL Leccus <abbr>l</abbr> <expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Vier Fragmente vom Bronzehelm wohl einer Virtusstatuette; Schreibtechnik: gepunzt. (B): Kofler; AE 1903; CIL 13, 07425; CIMRM: Lesung abweichend / unvollständig.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

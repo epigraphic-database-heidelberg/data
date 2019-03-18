@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Basis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD039421</idno>
+                <idno type="TM">229136</idno><idno type="localID">HD039421</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/53">Basis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>130</height>
+                                        <width>70</width>
+                                        <depth>68</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016933">Hispania citerior</placeName><placeName ref="http://www.trismegistos.org/place/027402">Dianium</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 150 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2518878">Denia</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2006-01-17" who="Garcia">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        J. Corell, Inscripcions romanes d'Ilici, Lucentum, Allon, Dianium iels seus respectius territoris (Valencia 1999) 214-216, Nr. 122, Foto. (B). 
+                    </bibl>
+                    <bibl>
+                         CIL 02, 03580. 
+                    </bibl>
+                    <bibl>
+                         G. Alföldy, in: Las ciudades y los campos de Alicante en época romana, Canelobre 48 (Alicante 2003), 48. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Pro salute Aug(usti) / Veneri sacr(um) / Cn(aeus) Octavius / Florus IIIIIIvir / Aug(ustalis) municipio / d(ono) d(at) d(edicat) / l(oco) d(ato) ex d(ecreto) d(ecurionum)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Pro salute <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="2"/>Veneri <expan><abbr>sacr</abbr><ex>um</ex></expan> <lb n="3"/><expan><abbr>Cn</abbr><ex>aeus</ex></expan> Octavius <lb n="4"/>Florus IIIIIIvir <lb n="5"/><expan><abbr>Aug</abbr><ex>ustalis</ex></expan> municipio <lb n="6"/><expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>at</ex></expan> <expan><abbr>d</abbr><ex>edicat</ex></expan> <lb n="7"/><expan><abbr>l</abbr><ex>oco</ex></expan> <expan><abbr>d</abbr><ex>ato</ex></expan> ex <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 6-7: hederae. (B): Corell: Z. 6: D(ianensi) d(ono) d(edit). Rekonstruktion G. Alföldy.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

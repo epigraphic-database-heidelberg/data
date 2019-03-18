@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD030839</idno>
+                <idno type="TM">222684</idno><idno type="localID">HD030839</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>150</height>
+                                        <width>45</width>
+                                        <depth>25</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/026226">Ventippo, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD – 230 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Cerro de la Atalaya, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2000-02-14" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://cil-old.bbaw.de/test06/bilder/datenbank/PH0000059.jpg">
+        </graphic>
+        <graphic url="http://cil-old.bbaw.de/test06/bilder/datenbank/PH0000058.jpg">
+        </graphic>
+        <graphic url="http://cil-old.bbaw.de/test06/bilder/datenbank/PH0000060.jpg">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 02 (2. Aufl.) 05, 00920. 
+                    </bibl>
+                    <bibl>
+                         CIL 02, 01467. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) s(acrum) // Q(uintus) Equitius Q(uinti) lib(ertus) Pri/migenius Ventip(p)on/ensis ann(orum) LXX pius / in suis hic situs / est s(it) t(ibi) t(erra) l(evis) / Equitia Q(uinti) lib(erta) Fusca / Ventip(p)onensia / ann(orum) LX pia in / suis hic sita est / s(it) t(ibi) t(erra) l(evis)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>s</abbr><ex>acrum</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Q</abbr><ex>uintus</ex></expan> Equitius <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>lib</abbr><ex>ertus</ex></expan> Pri<lb break="no" n="2"/>migenius Ventip<expan><ex>p</ex><abbr>on</abbr></expan><lb break="no" n="3"/>ensis <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> LXX pius <lb n="4"/>in suis hic situs <lb n="5"/>est <expan><abbr>s</abbr><ex>it</ex></expan> <expan><abbr>t</abbr><ex>ibi</ex></expan> <expan><abbr>t</abbr><ex>erra</ex></expan> <expan><abbr>l</abbr><ex>evis</ex></expan> <lb n="6"/>Equitia <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>lib</abbr><ex>erta</ex></expan> Fusca <lb n="7"/>Ventip<expan><ex>p</ex><abbr>onensia</abbr></expan> <lb n="8"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> LX pia in <lb n="9"/>suis hic sita est <lb n="10"/><expan><abbr>s</abbr><ex>it</ex></expan> <expan><abbr>t</abbr><ex>ibi</ex></expan> <expan><abbr>t</abbr><ex>erra</ex></expan> <expan><abbr>l</abbr><ex>evis</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

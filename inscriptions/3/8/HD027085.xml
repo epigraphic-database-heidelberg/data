@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD027085</idno>
+                <idno type="TM">192831</idno><idno type="localID">HD027085</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-215</height>
+                                        <width>81</width>
+                                        <depth>29</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029481">Moesia superior</placeName><placeName ref="http://www.trismegistos.org/place/029294">Singidunum</placeName></origPlace>
+                            <origDate notBefore-custom="0251" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">251 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/865971">Beograd, Stari Grad</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Centralna Srbija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/rs/">Serbien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-05-03" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1934, 0213. 
+                    </bibl>
+                    <bibl>
+                         IMS 1, 045; Foto. 
+                    </bibl>
+                    <bibl>
+                         N. Vulić, Spomenik 77, 1934, 61, Nr. 73; Foto. - AE 1934. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Dibus Manibus / Infernis Nun/nio Prisciano / dec(urioni) col(oniae) Sing(iduni) qui / vix(it) ann(os) XXXVI / non dignus / c<e=I>lerius#c<e>lerius#CILERIUS / inf/<r=T>a#inf/<r>a#INFTA decessit / Aur(elius) Priscillianus / et Sept(imia) Lupercilla
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Dibus Manibus <lb n="2"/>Infernis Nun<lb break="no" n="3"/>nio Prisciano <lb n="4"/><expan><abbr>dec</abbr><ex>urioni</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Sing</abbr><ex>iduni</ex></expan> qui <lb n="5"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXXVI <lb n="6"/>non dignus <lb n="7"/>c<choice><corr>e</corr><sic>I</sic></choice>lerius#c<supplied reason="omitted">e</supplied>lerius#CILERIUS <lb n="8"/>inf<lb break="no" n="9"/><choice><corr>r</corr><sic>T</sic></choice>a#inf<lb break="no" n="10"/><supplied reason="omitted">r</supplied>a#INFTA decessit <lb n="11"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Priscillianus <lb n="12"/>et <expan><abbr>Sept</abbr><ex>imia</ex></expan> Lupercilla
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

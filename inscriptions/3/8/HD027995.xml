@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD027995</idno>
+                <idno type="TM">223553</idno><idno type="localID">HD027995</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-64</height>
+                                        <width>55</width>
+                                        <depth>15.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-1</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/026010">Sacili Martiale</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0030" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 30 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2512812">Pedro Abad</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="1999-01-26" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 02 (2. Aufl.) 07, 00199; tab. 6, 8. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Q(uintus) Cassius Nigr[i? f(ilius)] / Celtiber / ordine turbato maior sepelire min[o]rem / [debuit] et patria condere ab arce procu[l] / [- - -?]ID [- - -] triste C[- - - p]erdito / an VE[- - -] rapto terra nec [- - -] / mollius [i]n patria fuerat S[- - -]I / tu mi[hi so]la places sed [- - -]S / [i]llic mater eras F I[- - -]ONV[- - -]C[- - -]ITS[- - -] / muta[-]is spatio quo [- - -] I[- - -] / [t]e qua morte ratis [- - -]VT C[- - -] / unius et pueri [-]OT[- - -] / [- - -]VAE PROPERAS[- -]C[- - -] / [- - -]DC[- - -] / [- - - - - -] / [- - - - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uintus</ex></expan> Cassius Nigr<supplied reason="lost">i<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="2"/>Celtiber <lb n="3"/>ordine turbato maior sepelire min<supplied reason="lost">o</supplied>rem <lb n="4"/><supplied reason="lost">debuit</supplied> et patria condere ab arce procu<supplied reason="lost">l</supplied> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>ID <gap reason="lost" extent="unknown" unit="character"/> triste C<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">p</supplied>erdito <lb n="6"/>an VE<gap reason="lost" extent="unknown" unit="character"/> rapto terra nec <gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>mollius <supplied reason="lost">i</supplied>n patria fuerat S<gap reason="lost" extent="unknown" unit="character"/>I <lb n="8"/>tu mi<supplied reason="lost">hi so</supplied>la places sed <gap reason="lost" extent="unknown" unit="character"/>S <lb n="9"/><supplied reason="lost">i</supplied>llic mater eras F I<gap reason="lost" extent="unknown" unit="character"/>ONV<gap reason="lost" extent="unknown" unit="character"/>C<gap reason="lost" extent="unknown" unit="character"/>ITS<gap reason="lost" extent="unknown" unit="character"/> <lb n="10"/>muta<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>is spatio quo <gap reason="lost" extent="unknown" unit="character"/> I<gap reason="lost" extent="unknown" unit="character"/> <lb n="11"/><supplied reason="lost">t</supplied>e qua morte ratis <gap reason="lost" extent="unknown" unit="character"/>VT C<gap reason="lost" extent="unknown" unit="character"/> <lb n="12"/>unius et pueri <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>OT<gap reason="lost" extent="unknown" unit="character"/> <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/>VAE PROPERAS<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>C<gap reason="lost" extent="unknown" unit="character"/> <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/>DC<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD043349</idno>
+                <idno type="TM">192233</idno><idno type="localID">HD043349</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Constanţa, Muz. Ist. Naţ. Arh.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>85</height>
+                                        <width>58</width>
+                                        <depth>15</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName ref="http://www.trismegistos.org/place/030006">Cius</placeName></origPlace>
+                            <origDate notBefore-custom="0351" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">351 AD – 400 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/677175">Gârliciu, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Constanța</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-11-30" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F009306">
+            <desc>F009306</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 06159. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 07494. 
+                    </bibl>
+                    <bibl>
+                         ILS 0770. 
+                    </bibl>
+                    <bibl>
+                         E. Popescu, Inscripţiile greceşti şi latine din secolele IV-XIII descoperite în România (Bucureşti 1976) 241-244, Nr. 233; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [D(ominus) n(oster) invictissimus? princeps? Fl(avius) V]alens victor maximus triumfator(!) / [semper Aug(ustus) in fidem recepto rege Athan]arico(?) victis superatisque Gothis / [ingruente item in victorias illa]s tempore feliciter quinquennaliorum / [- - - hunc burgum] ob defensionem rei publicae extruxit / [labore - - - devotissi]morum militum suorum Primanorum / [et - - - commissor]um cur(a)e Marciani trib(uni) et Ursicini p(rae)p(ositi) semper vestri / [- - - ordinante Fl(avio) Ste]rcorio viro clarissimo duce
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>ominus</ex></expan> <expan><abbr>n</abbr><ex>oster</ex></expan> invictissimus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> princeps<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>Fl</abbr><ex>avius</ex></expan> V</supplied>alens victor maximus triumfator <note>sic</note> <lb n="2"/><supplied reason="lost">semper <expan><abbr>Aug</abbr><ex>ustus</ex></expan> in fidem recepto rege Athan</supplied><expan><abbr>arico</abbr><ex cert="low"/></expan> victis superatisque Gothis <lb n="3"/><supplied reason="lost">ingruente item in victorias illa</supplied>s tempore feliciter quinquennaliorum <lb n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> hunc burgum</supplied> ob defensionem rei publicae extruxit <lb n="5"/><supplied reason="lost">labore <gap reason="lost" extent="unknown" unit="character"/> devotissi</supplied>morum militum suorum Primanorum <lb n="6"/><supplied reason="lost">et <gap reason="lost" extent="unknown" unit="character"/> commissor</supplied>um cur<expan><ex>a</ex><abbr>e</abbr></expan> Marciani <expan><abbr>trib</abbr><ex>uni</ex></expan> et Ursicini p<expan><ex>rae</ex><abbr>p</abbr><ex>ositi</ex></expan> semper vestri <lb n="7"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> ordinante <expan><abbr>Fl</abbr><ex>avio</ex></expan> Ste</supplied>rcorio viro clarissimo duce
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Textwiedergabe nach CIL III 7494. Hederae. Z. 7: Text in den Rahmen eingemeißelt.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

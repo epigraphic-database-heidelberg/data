@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD068458</idno>
+                <idno type="TM">404908</idno><idno type="localID">HD068458</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Budapest, Aquincumi Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>65</height>
+                                        <width>206.5</width>
+                                        <depth>83</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.4-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/020126">Aquincum</placeName></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1881">1881</date>
+                        <placeName ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Budapest</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-06-07" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/3025">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 10501. 
+                    </bibl>
+                    <bibl>
+                         TitAq 0519; Fotos. 
+                    </bibl>
+                    <bibl>
+                         CLE 0489. 
+                    </bibl>
+                    <bibl>
+                         C. Méa, ZPE 181, 2012, Nr. 5. 
+                    </bibl>
+                    <bibl>
+                         B. Kuntić-Makvić, Latina et graeca 7, 1976, 54-55, Nr. 12; Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Clausa iacet lapidi coniunx pia cara Sabina / artibus edocta superabat sola maritu/m vox ei grata fuit pulsabat pollice cordas / set(!) <c=G>ito#<c>ito#GITO rapta silet ter denos duxerat annos he/u male quinque minus set(!) plus tres me(n)ses habebat / bis semptemque dies vixit h(a)ec ipsa superstes spectata in po/pulo hydraula grata regebat sis felix quicumque leges te / numina servent et pia voce cane Aelia Sabina vale T(itus) Ael(ius) Iustus // hydraularius salariarius leg(ionis) II ad(iutricis) coniugi faciendum curavit
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Clausa iacet lapidi coniunx pia cara Sabina <lb n="2"/>artibus edocta superabat sola maritu<lb break="no" n="3"/>m vox ei grata fuit pulsabat pollice cordas <lb n="4"/>set <note>sic</note> <choice><corr>c</corr><sic>G</sic></choice>ito#<supplied reason="omitted">c</supplied>ito#GITO rapta silet ter denos duxerat annos he<lb break="no" n="5"/>u male quinque minus set <note>sic</note> plus tres me<expan><ex>n</ex><abbr>ses</abbr></expan> habebat <lb n="6"/>bis semptemque dies vixit h<expan><ex>a</ex><abbr>ec</abbr></expan> ipsa superstes spectata in po<lb break="no" n="7"/>pulo hydraula grata regebat sis felix quicumque leges te <lb n="8"/>numina servent et pia voce cane Aelia Sabina vale <expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan> Iustus </ab></div><div n="2" type="textpart"><ab><lb n="1"/> hydraularius salariarius <expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>ad</abbr><ex>iutricis</ex></expan> coniugi faciendum curavit
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

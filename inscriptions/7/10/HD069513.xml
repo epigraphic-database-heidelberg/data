@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD069513</idno>
+                <idno type="TM">154696</idno><idno type="localID">HD069513</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Colchester, Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel?</objectType>
+                                    <material>Marmor, geädert / farbig</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-25.4</height>
+                                        <width>-22.9</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/014576">Camulodunum</placeName></origPlace>
+                            <origDate notBefore-custom="0071" notAfter-custom="0087" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD – 87 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1821">1821</date>
+                        <placeName ref="http://www.geonames.org/2652618">Colchester</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Essex</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-01-17" who="Cowey">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 07, 00091. 
+                    </bibl>
+                    <bibl>
+                         RIB 0203; Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [- - - leg(ionis) II a]diutr[icis - - -] / [- - -]ae bis |(centurio) [- - -] / [- - -] bis |(centurio) leg(ionis) [- - -] / [- - -] |(centurio) leg(ionis) III Au[g(ustae) - - -] / [- - - |(centurio)] leg(ionis) XX Val(eriae) V[ict(ricis)] / [oriu]ndus Nicaea [in Bi]/[thyn]ia militavi[t ann(os)] / [- - -] vixit ann(os) [- - -] / [- - -] obitum [- - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>leg</abbr><ex>ionis</ex></expan> II a</supplied>diutr<supplied reason="lost">icis</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ae bis |(centurio) <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> bis |(centurio) <expan><abbr>leg</abbr><ex>ionis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> |(centurio) <expan><abbr>leg</abbr><ex>ionis</ex></expan> III Au<supplied reason="lost"><expan><abbr>g</abbr><ex>ustae</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> |(centurio)</supplied> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XX <expan><abbr>Val</abbr><ex>eriae</ex></expan> V<supplied reason="lost"><expan><abbr>ict</abbr><ex>ricis</ex></expan></supplied> <lb n="6"/><supplied reason="lost">oriu</supplied>ndus Nicaea <supplied reason="lost">in Bi</supplied><lb break="no" n="7"/><supplied reason="lost">thyn</supplied>ia militavi<supplied reason="lost">t <expan><abbr>ann</abbr><ex>os</ex></expan></supplied> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> obitum <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

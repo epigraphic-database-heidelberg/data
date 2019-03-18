@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD060119</idno>
+                <idno type="TM">217271</idno><idno type="localID">HD060119</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Regensburg, Hist. Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material>Marmor, geädert / farbig</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-56</height>
+                                        <width>-85</width>
+                                        <depth>3.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003243">Raetia</placeName><placeName ref="http://www.trismegistos.org/place/003291">Castra Regina</placeName></origPlace>
+                            <origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD – 235 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1800">1800</date>
+                        <placeName ref="http://www.geonames.org/2849483">Regensburg</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Bayern</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-12-14" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F035312">
+            <desc>F035312</desc>
+        </graphic>
+
+        <graphic url="http://lupa.at/6581">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IBR 364; tab. 49, 364. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 05944. 
+                    </bibl>
+                    <bibl>
+                         K. Dietz - U. Osterhaus - S. Rieckhoff-Pauli - K. Spindler, Regensburg zur Römerzeit (Regensburg 1979) 389, Nr. I 2; Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Marti? et Vict]oriae / [pro? salute? Severi Al]exandri Aug(usti) / [- - -]I far(- - -) et Iul(io) Iulian(o) q(uaestore) // - - - - - -] / [- - -]I(?) / [- - -]natus / [- - -] Iulius / Aur(elius) Euvander / Aur(elius) Augustin(us) / Aur(elius) Silvinus / Cl(audius) Felician(us) / Iul(ius) Iulianus qu(a)estor / Iul(ius) Victor / [I]ul(ius) Victorian(us) / [- - -]ccius / [- - - - - - // [- - -]oninus / [- - -]lianus / [- - -] Victor / [I]ul(ius) Florinus / Iul(ius) Florianus / Iul(ius) Augustan(us) / Aur(elius) Gratus / Valentinus / Aur(elius) Secundan(us) / Aur(elius) Firmanus / Aur(elius) Quartin(us) / Iulianus vet(eranus) / Iul(ius) Iulianus / Aur(elius) Marcell(i)n(us) / Aur(elius) Severianus / Aur(elius) Pusinnio / Iucundus / Aur(elius) Victorian(us) / Aur(elius) Victorinus / [- - -]tus / [- - - - - - // Iul(ius) Tetricus / Iul(ius) Quartus / Iul(ius) Modestus / Iul(ius) Modestin(us) / Aur(elius) Severus / Cl(audius) Profutur(us) / Fl(avius) Martinus / Cl(audius) Ursulus / Sep(timius) Victor / Sep(timius) Victorin[us] / Aur(elius) Patrei[us] / Aur(elius) Patrin[- - -] / Tit(ius) Iust[- - -] / Aur(elius) Per[- - -] / Per(ennius?) Pe[- - -] / Per(ennius?) V[- - -] / Cas(sius) [- - -] / Aur(elius) [- - -] / Aur(elius) I[- - -] / Qual[- - -] / [- - - - - - // Ger(- - -) Victor / Ger(- - -) Candidian(us) / Veg(etius) Marcellin(us) / Ael(ius) Forti[s] / Ei(- - -) Mili[- - -] / Nas[- - -] / De[- - -] / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">Marti<certainty locus="name" match="preceding-sibling::text()" cert="low"/> et Vict</supplied>oriae <lb n="2"/><supplied reason="lost">pro<certainty locus="name" match="preceding-sibling::text()" cert="low"/> salute<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Severi Al</supplied>exandri <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>I <abbr>far</abbr> et <expan><abbr>Iul</abbr><ex>io</ex></expan> <expan><abbr>Iulian</abbr><ex>o</ex></expan> <expan><abbr>q</abbr><ex>uaestore</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>natus <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> Iulius <lb n="4"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Euvander <lb n="5"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> <expan><abbr>Augustin</abbr><ex>us</ex></expan> <lb n="6"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Silvinus <lb n="7"/><expan><abbr>Cl</abbr><ex>audius</ex></expan> <expan><abbr>Felician</abbr><ex>us</ex></expan> <lb n="8"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Iulianus qu<expan><ex>a</ex><abbr>estor</abbr></expan> <lb n="9"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Victor <lb n="10"/><expan><abbr><supplied reason="lost">I</supplied>ul</abbr><ex>ius</ex></expan> <expan><abbr>Victorian</abbr><ex>us</ex></expan> <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/>ccius <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/>oninus <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>lianus <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> Victor <lb n="4"/><expan><abbr><supplied reason="lost">I</supplied>ul</abbr><ex>ius</ex></expan> Florinus <lb n="5"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Florianus <lb n="6"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> <expan><abbr>Augustan</abbr><ex>us</ex></expan> <lb n="7"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Gratus <lb n="8"/>Valentinus <lb n="9"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> <expan><abbr>Secundan</abbr><ex>us</ex></expan> <lb n="10"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Firmanus <lb n="11"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> <expan><abbr>Quartin</abbr><ex>us</ex></expan> <lb n="12"/>Iulianus <expan><abbr>vet</abbr><ex>eranus</ex></expan> <lb n="13"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Iulianus <lb n="14"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Marcell<expan><ex>i</ex><abbr>n</abbr><ex>us</ex></expan> <lb n="15"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Severianus <lb n="16"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Pusinnio <lb n="17"/>Iucundus <lb n="18"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> <expan><abbr>Victorian</abbr><ex>us</ex></expan> <lb n="19"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Victorinus <lb n="20"/><gap reason="lost" extent="unknown" unit="character"/>tus <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Tetricus <lb n="2"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Quartus <lb n="3"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Modestus <lb n="4"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> <expan><abbr>Modestin</abbr><ex>us</ex></expan> <lb n="5"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Severus <lb n="6"/><expan><abbr>Cl</abbr><ex>audius</ex></expan> <expan><abbr>Profutur</abbr><ex>us</ex></expan> <lb n="7"/><expan><abbr>Fl</abbr><ex>avius</ex></expan> Martinus <lb n="8"/><expan><abbr>Cl</abbr><ex>audius</ex></expan> Ursulus <lb n="9"/><expan><abbr>Sep</abbr><ex>timius</ex></expan> Victor <lb n="10"/><expan><abbr>Sep</abbr><ex>timius</ex></expan> Victorin<supplied reason="lost">us</supplied> <lb n="11"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Patrei<supplied reason="lost">us</supplied> <lb n="12"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Patrin<gap reason="lost" extent="unknown" unit="character"/> <lb n="13"/><expan><abbr>Tit</abbr><ex>ius</ex></expan> Iust<gap reason="lost" extent="unknown" unit="character"/> <lb n="14"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Per<gap reason="lost" extent="unknown" unit="character"/> <lb n="15"/><expan><abbr>Per</abbr><ex cert="low">ennius</ex></expan> Pe<gap reason="lost" extent="unknown" unit="character"/> <lb n="16"/><expan><abbr>Per</abbr><ex cert="low">ennius</ex></expan> V<gap reason="lost" extent="unknown" unit="character"/> <lb n="17"/><expan><abbr>Cas</abbr><ex>sius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="18"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="19"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> I<gap reason="lost" extent="unknown" unit="character"/> <lb n="20"/>Qual<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="5" type="textpart"><ab><lb n="1"/> <abbr>Ger</abbr> Victor <lb n="2"/><abbr>Ger</abbr> <expan><abbr>Candidian</abbr><ex>us</ex></expan> <lb n="3"/><expan><abbr>Veg</abbr><ex>etius</ex></expan> <expan><abbr>Marcellin</abbr><ex>us</ex></expan> <lb n="4"/><expan><abbr>Ael</abbr><ex>ius</ex></expan> Forti<supplied reason="lost">s</supplied> <lb n="5"/><abbr>Ei</abbr> Mili<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>Nas<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>De<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Text 1 erstreckt sich über die gesamte Breite, die Texte 2-5 sind in Spalten darunter angeordnet. Text 1: Z. 2: zu Beginn noch der untere Ansatz des E; ND-, AV-Ligatur. Text 2 Z. 1: vom I(?) ist der untere Teil einer senkrechten Haste erhalten.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

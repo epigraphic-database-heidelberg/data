@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD044034</idno>
+                <idno type="TM">236556</idno><idno type="localID">HD044034</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Madrid, Mus. Arq. Nac.; Empúries, Mus. Arq.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-11</height>
+                                        <width>-13</width>
+                                        <depth>-5.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">1.8-2.4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016933">Hispania citerior</placeName><placeName ref="http://www.trismegistos.org/place/027282">Emporiae</placeName></origPlace>
+                            <origDate notBefore-custom="-0100" notAfter-custom="-0001" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">100 BC – 1 BC
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Empúries</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Cataluña</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-03-15" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IRC 3, 015; pl. 13, 15. 
+                    </bibl>
+                    <bibl>
+                         CIL 02, 06185. 
+                    </bibl>
+                    <bibl>
+                         ILER 0303. 
+                    </bibl>
+                    <bibl>
+                         IRC 5, p. 83. 
+                    </bibl>
+                    <bibl>
+                         AE 1991, 1116. 
+                    </bibl>
+                    <bibl>
+                         I. Rodà, BMusMadr 8, 1990, 79-80; Foto. - AE 1991 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Isidi Sera]pi aedem / [simulacr]a porticus / [Numas N]umeni f(ilius) / [Alexandri]nus / [devot]us faciu/[ndum cur(avit)] // [Εἴσιδι Σ]αράπι / [ναὸν χο]άνα / [στο]ὰν Νουμᾶς / [Νουμε]νίου Ἀλε/[ξαν]δρεὺς / [εὐσ]εβ<ὴ=Ε>ς∙#[εὐσ]εβ<ὴ>ς∙#εβΕς∙ ἐπόει
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">Isidi Sera</supplied>pi aedem <lb n="2"/><supplied reason="lost">simulacr</supplied>a porticus <lb n="3"/><supplied reason="lost">Numas N</supplied>umeni <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="4"/><supplied reason="lost">Alexandri</supplied>nus <lb n="5"/><supplied reason="lost">devot</supplied>us faciu<lb break="no" n="6"/><supplied reason="lost">ndum <expan><abbr>cur</abbr><ex>avit</ex></expan></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Εἴσιδι Σ</supplied>αράπι <lb n="2"/><supplied reason="lost">ναὸν χο</supplied>άνα <lb n="3"/><supplied reason="lost">στο</supplied>ὰν Νουμᾶς <lb n="4"/><supplied reason="lost">Νουμε</supplied>νίου Ἀλε<lb break="no" n="5"/><supplied reason="lost">ξαν</supplied>δρεὺς <lb n="6"/><supplied reason="lost">εὐσ</supplied>εβ<choice><corr>ὴ</corr><sic>Ε</sic></choice>ς∙#<supplied reason="lost">εὐσ</supplied>εβ<supplied reason="omitted">ὴ</supplied>ς∙#εβΕς∙ ἐπόει
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Iscrizione composta da due frammenti, a-b. Nel campo Fundstelle e Aufbewahrung la prima indicazione si riferisce al primo frammento, a, la seconda al secondo, b. Le misure del pezzo e delle lettere scritte sopra si riferiscono al frammento a. Fr. b: Höhe -19.7; Breite -18.4; Tiefe -6. Buchstabenhöhe fr. b: 1.8-2.3.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

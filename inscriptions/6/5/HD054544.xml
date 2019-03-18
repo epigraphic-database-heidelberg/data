@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD054544</idno>
+                <idno type="TM">184727</idno><idno type="localID">HD054544</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Split, Arh. Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>42</height>
+                                        <width>31</width>
+                                        <depth>7</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="guidelines">GUIDELINES</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/015883">Salonae</placeName></origPlace>
+                            <origDate notBefore-custom="0301" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 600 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1897">1897</date>
+                        <placeName ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Splitsko-dalmatinska županija?</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-02-09" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F033601">
+            <desc>F033601</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        S. Rinaldi Tufi, MAL 16, 1971, 106-107, Nr. 27; tav. 8, 4. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 08934. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) // Aur(elia) Messia fi/lio defun(c)to rap(t)u(s) / es{s}t p(o)s(i)t(um) arb(itratu) Q(uinti) Pr(- - -) / Ur(a?)ni Criscentioni(!) / in(fanti) an(norum) XI
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Aur</abbr><ex>elia</ex></expan> Messia fi<lb break="no" n="2"/>lio defun<expan><ex>c</ex><abbr>to</abbr></expan> rap<expan><ex>t</ex><abbr>u</abbr><ex>s</ex></expan> <lb n="3"/>es<surplus>s</surplus>t p<expan><ex>o</ex><abbr>s</abbr><ex>i</ex><abbr>t</abbr></expan>(um) <expan><abbr>arb</abbr><ex>itratu</ex></expan> <expan><abbr>Q</abbr><ex>uinti</ex></expan> <abbr>Pr</abbr> <lb n="4"/><expan><abbr>Ur</abbr><ex cert="low">a</ex>ni</expan> Criscentioni <note>sic</note> <lb n="5"/><expan><abbr>in</abbr><ex>fanti</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XI
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Oberhalb der Inschrift Büste eines Knaben. Z. 1: Buchstaben D und M stehen links und rechts der Büste. Zeilenlinien für die Beschriftung. (B): Rinaldi Tufi: Z. 4: est.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

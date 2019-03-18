@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002537</idno>
+                <idno type="TM">204712</idno><idno type="localID">HD002537</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth>11</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003344">Numidia</placeName><placeName ref="http://www.trismegistos.org/place/018251">Thamugadi</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0152" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 152 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2476409">Timgad</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Batna</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-03-15" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1985, 0876b. 
+                    </bibl>
+                    <bibl>
+                         M. Le Glay - S. Tourrenc, AntAfr 21, 1985, 116-117, Nr. 4,2; Foto; Zeichnungen. - AE. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 17854. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 17856. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imperatore! Caesar]e(!) d[ivi Hadriani fi]lio divi / [Tr]aiani Parthici nepote(!) [divi Nervae] pronepote(!) / T(ito) Aelio Hadriano Antonino Aug(usto) [Pio pont]ifice(!) / maximo trib(unicia) pot(estate) XV imperatore(!) [II consule! II]II p(atre)(!) p(atriae) / M(arcus) Valerius Etruscus leg(atus) Aug(usti) pro [pr(aetore) patron]us coloni/ae curiam renovatam et exornatam de[dicavit] dec(reto) dec(urionum) p(ecunia) p(ublica)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Imperatore! Caesar</supplied>e <note>sic</note> d<supplied reason="lost">ivi Hadriani fi</supplied>lio divi <lb n="2"/><supplied reason="lost">Tr</supplied>aiani Parthici nepote <note>sic</note> <supplied reason="lost">divi Nervae</supplied> pronepote <note>sic</note> <lb n="3"/><expan><abbr>T</abbr><ex>ito</ex></expan> Aelio Hadriano Antonino <expan><abbr>Aug</abbr><ex>usto</ex></expan> <supplied reason="lost">Pio pont</supplied>ifice <note>sic</note> <lb n="4"/>maximo <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XV imperatore <note>sic</note> <supplied reason="lost">II consule! II</supplied>II <expan><abbr>p</abbr><ex>atre</ex></expan> <note>sic</note> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Valerius Etruscus <expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> pro <supplied reason="lost"><expan><abbr>pr</abbr><ex>aetore</ex></expan> patron</supplied>us coloni<lb break="no" n="6"/>ae curiam renovatam et exornatam de<supplied reason="lost">dicavit</supplied> <expan><abbr>dec</abbr><ex>reto</ex></expan> <expan><abbr>dec</abbr><ex>urionum</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>p</abbr><ex>ublica</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Y: 10.12.151 - 9.12.152. (B): Zusammengehörigkeit d. Fragmente nicht erkannt; inzwischen sechs weitere Fragmente gefunden. Höhe nach CIL 8, 17856: 78 cm. Material: blauer Kalkstein.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

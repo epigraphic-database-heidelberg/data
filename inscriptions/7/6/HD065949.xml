@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD065949</idno>
+                <idno type="TM">494723</idno><idno type="localID">HD065949</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Briançonnet, Municipio</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>98</height>
+                                        <width>57</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.5-1.1</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/022359">Alpes Maritimae</placeName><placeName>Brigantio</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 130 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3030139">Briançonnet</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Provence-Alpes-Côte d’Azur</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-07-19" who="cimarosti">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 12, 00059. 
+                    </bibl>
+                    <bibl>
+                         CIL 12, 00059 add. p. 804. 
+                    </bibl>
+                    <bibl>
+                         S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 144-146, Nr. 43; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Mariae Mate/rni fil(iae) Lucillae / Marius Matern(us) / Iulia Materna / filiae / Mari(i) Patern/us et Iulianus / sorori carissi/mae / l(ocus) d(atus) d(ecreto) d(ecurionum) // Eundemq(ue) Maternum ob / honores IIvirat(us) et flamoni(i) / bene gestos patron(um) cooptar(unt) / Brig(antienses)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Mariae Mate<lb break="no" n="2"/>rni <expan><abbr>fil</abbr><ex>iae</ex></expan> Lucillae <lb n="3"/>Marius <expan><abbr>Matern</abbr><ex>us</ex></expan> <lb n="4"/>Iulia Materna <lb n="5"/>filiae <lb n="6"/><expan><abbr>Mari</abbr><ex>i</ex></expan> Patern<lb break="no" n="7"/>us et Iulianus <lb n="8"/>sorori carissi<lb break="no" n="9"/>mae <lb n="10"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Eundemq</abbr><ex>ue</ex></expan> Maternum ob <lb n="2"/>honores <expan><abbr>IIvirat</abbr><ex>us</ex></expan> et <expan><abbr>flamoni</abbr><ex>i</ex></expan> <lb n="3"/>bene gestos <expan><abbr>patron</abbr><ex>um</ex></expan> <expan><abbr>cooptar</abbr><ex>unt</ex></expan> <lb n="4"/><expan><abbr>Brig</abbr><ex>antienses</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Eingemeißelt. Bearbeiterin: V. Pettirossi.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

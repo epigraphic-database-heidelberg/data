@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD022033</idno>
+                <idno type="TM">176715</idno><idno type="localID">HD022033</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Kadirli, Ala-Moschee</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>96</height>
+                                        <width>50</width>
+                                        <depth>36</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000075">Cilicia</placeName><placeName ref="http://www.trismegistos.org/place/016497">Flaviopolis</placeName></origPlace>
+                            <origDate notBefore-custom="0069" notAfter-custom="0117" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">69 AD – 117 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/310892">Kadirli</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Osmaniye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/tr/">Türkei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-06-14" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1950, 0190. 
+                    </bibl>
+                    <bibl>
+                         AE 2006, 1553. 
+                    </bibl>
+                    <bibl>
+                         H.T. Bossert, Karatepe, Kadirli ve dohaylari (Istanbul 1947) 21-22; fig. 46 u. 49.- AE 1950. 
+                    </bibl>
+                    <bibl>
+                         J. Robert - L. Robert, REG 62, 1949, 146-147. - AE 1950. 
+                    </bibl>
+                    <bibl>
+                         SEG 28, 1269. 
+                    </bibl>
+                    <bibl>
+                         S. Pilhofer, Romanisierung in Kilikien? (München 2006) 134-135, Nr. Q 22. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                L(ucio) Conetanio L(uci) f(ilio) / Crust(umina) Proculo / Carsulas(!) vixit / an(nos) XXIII me(nses) XI d(ies) XX[VIII L(ucius)] / Coneta[nius] / [P]rocu[lus trib(unus) leg(ionis)] / VI ferra(tae) [filio] / piissimo // [Λ(ουκίῳ) Κ]ωνητανίῳ Λ(ουκίῳ) υἱῶι / Πρόκλῳ ἔζησεν ἔτη / [κγʹ] μῆν(ας) ιαʹ ἡμ(έρας) κηʹ Λ(ούκιος) Κω/[ν]ητάνιος Πρόκλος |(ἑκατοντάρχης) / υἱῷ εὐσεβαστάτωι
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Conetanio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><expan><abbr>Crust</abbr><ex>umina</ex></expan> Proculo <lb n="3"/>Carsulas <note>sic</note> vixit <lb n="4"/><expan><abbr>an</abbr><ex>nos</ex></expan> XXIII <expan><abbr>me</abbr><ex>nses</ex></expan> XI <expan><abbr>d</abbr><ex>ies</ex></expan> XX<supplied reason="lost">VIII <expan><abbr>L</abbr><ex>ucius</ex></expan></supplied> <lb n="5"/>Coneta<supplied reason="lost">nius</supplied> <lb n="6"/><supplied reason="lost">P</supplied>rocu<supplied reason="lost">lus <expan><abbr>trib</abbr><ex>unus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied> <lb n="7"/>VI <expan><abbr>ferra</abbr><ex>tae</ex></expan> <supplied reason="lost">filio</supplied> <lb n="8"/>piissimo </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Λ(ουκίῳ) Κ</supplied>ωνητανίῳ Λ(ουκίῳ) υἱῶι <lb n="2"/>Πρόκλῳ ἔζησεν ἔτη <lb n="3"/><supplied reason="lost">κγʹ</supplied> μῆν(ας) ιαʹ ἡμ(έρας) κηʹ Λ(ούκιος) Κω<lb break="no" n="4"/><supplied reason="lost">ν</supplied>ητάνιος Πρόκλος |(ἑκατοντάρχης) <lb n="5"/>υἱῷ εὐσεβαστάτωι
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Architekturteil</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001875</idno>
+                <idno type="TM">251220</idno><idno type="localID">HD001875</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Thermen ("terme occidentali")</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/35">Architekturteil</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>50</height>
+                                        <width>-360</width>
+                                        <depth>50</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033152">Latium et Campania (Regio I)</placeName><placeName ref="http://www.trismegistos.org/place/023504">Lavinium</placeName></origPlace>
+                            <origDate notBefore-custom="0313" notAfter-custom="0324" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">313 AD – 324 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1962">1962</date>
+                        <placeName ref="http://www.geonames.org/">Pomezia</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Lazio</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2010-10-06" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1984, 0151. 
+                    </bibl>
+                    <bibl>
+                         M.G. Granino Cecere, in: Epigrafia e ordine senatorio 1 (Roma 1982) 662-666, Nr. 41; tav. 25,1. - AE 1984. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Dd(omini) nn(ostri) Flavius Valerius Consta]ntinus Maximus et Valerius Licinianus Licinius Pii Felices Inv[i]cti semp[er Augusti] / [thermas - - -]i temporis deformatas Laurentibus suis addito cultu restituerunt curante Camilio Aspro v(iro) c(larissimo) cu[ratore - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Dd</abbr><ex>omini</ex></expan> <expan><abbr>nn</abbr><ex>ostri</ex></expan> Flavius Valerius Consta</supplied>ntinus Maximus et Valerius Licinianus Licinius Pii Felices Inv<supplied reason="lost">i</supplied>cti semp<supplied reason="lost">er Augusti</supplied> <lb n="2"/><supplied reason="lost">thermas</supplied><gap reason="lost" extent="unknown" unit="character"/>i temporis deformatas Laurentibus suis addito cultu restituerunt curante Camilio Aspro <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> cu<supplied reason="lost">ratore</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Architrav; mehrere zusammengehörige Fragmente erhalten. Er stammt aus einer früheren Bauphase der Thermen als die Inschrift. Y: AE erwägt eine Datierung vor dem 1. 3. 317, da 3 Caesares offensichtlich nicht genannt sind.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

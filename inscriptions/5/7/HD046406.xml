@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD046406</idno>
+                <idno type="TM">180858</idno><idno type="localID">HD046406</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Deva, Muz. Civil. Dac. şi Rom.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>97</height>
+                                        <width>96</width>
+                                        <depth>35</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">7-6</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/004366">Dacia</placeName><placeName>Colonia Ulpia Traiana Sarmizegetusa, aus</placeName></origPlace>
+                            <origDate notBefore-custom="0161" notAfter-custom="0180" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">161 AD – 180 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/679478">Densuş</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hunedoara</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-04-27" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/17704">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1993, 1344. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 01497. 
+                    </bibl>
+                    <bibl>
+                         IDR 3, 2, 107; fig. 85 (Zeichnung). 
+                    </bibl>
+                    <bibl>
+                         ILS 7133. 
+                    </bibl>
+                    <bibl>
+                         R. Ardevan, in: L. Mrozewicz - K. Ilski (Hrsg.), Prosopographica (Poznań 1993) 228, Nr. 3. (B) - AE 1993. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                M(arco) Comin(io) M(arci) f(ilio) / Pap(iria) Quinto / pontif(ici) col(oniae) Sar(mizegetusae) / et praef(ecto) q(uin)q(uennali) pro / Antonino Imp(eratore) / patr(ono) coll(egii) fab(rum) eq(uo) p(ublico) / ordo col(oniae) ob mer(ita) / ipsius
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Comin</abbr><ex>io</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><expan><abbr>Pap</abbr><ex>iria</ex></expan> Quinto <lb n="3"/><expan><abbr>pontif</abbr><ex>ici</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Sar</abbr><ex>mizegetusae</ex></expan> <lb n="4"/>et <expan><abbr>praef</abbr><ex>ecto</ex></expan> q<expan><ex>uin</ex><abbr>q</abbr><ex>uennali</ex></expan> pro <lb n="5"/>Antonino <expan><abbr>Imp</abbr><ex>eratore</ex></expan> <lb n="6"/><expan><abbr>patr</abbr><ex>ono</ex></expan> <expan><abbr>coll</abbr><ex>egii</ex></expan> <expan><abbr>fab</abbr><ex>rum</ex></expan> <expan><abbr>eq</abbr><ex>uo</ex></expan> <expan><abbr>p</abbr><ex>ublico</ex></expan> <lb n="7"/>ordo <expan><abbr>col</abbr><ex>oniae</ex></expan> ob <expan><abbr>mer</abbr><ex>ita</ex></expan> <lb n="8"/>ipsius
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Ardevan: Z. 2/3: Zeilenfall fehlt; Z. 6: fab(rum) / e(quo); Z. 7: mer[ita].</p>
+            </div>
+        </body>
+    </text>
+</TEI>

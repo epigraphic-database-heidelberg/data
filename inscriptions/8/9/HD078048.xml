@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD078048</idno>
+                <idno type="TM"/><idno type="localID">HD078048</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Wiesbaden, Mus. Wiesbaden</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>51</height>
+                                        <width>111</width>
+                                        <depth>52</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 230 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1837">1837</date>
+                        <placeName ref="http://www.geonames.org/2944180">Mainz</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-01-11" who="gräf">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 07239. (B) 
+                    </bibl>
+                    <bibl>
+                         K. Körber, MZ 7, 1912, 18-19, Nr. 34; Zeichnungen. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                M(arci) Maximi Victoris / iunioris / infantis dulcissimi / qui vixit an(num) I m(enses) II d(ies) XVIII / pater et mater f(aciendum) c(uraverunt) // [- - -]Ι[-]ΛΤΟΛΑ(?)[- - -] / [- - -]ΙΦΩ Αὐγυστι / [- - -]Χ(?)Α(?)Υ(?)Α(?) γλυκúτα/[τος? - - -]Χ(?)Ω Ε[- - -] / [- - -]Σ(?)εὐσε/[β- - -?]Α(?)Σ(?)[- - -]Ι(?)Ι(?)[- - -] / [- - - - - -](?) / Ι(?)Ι(?)[- -]Ι(?)Α(?)[- - -] / [- - - - - -](?) / [-]Ν(?)[- - -] / [- - - - - -](?)
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arci</ex></expan> Maximi Victoris <lb n="2"/>iunioris <lb n="3"/>infantis dulcissimi <lb n="4"/>qui vixit <expan><abbr>an</abbr><ex>num</ex></expan> I <expan><abbr>m</abbr><ex>enses</ex></expan> II <expan><abbr>d</abbr><ex>ies</ex></expan> XVIII <lb n="5"/>pater et mater <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/>Ι<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>ΛΤΟΛΑ<certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ΙΦΩ Αὐγυστι <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>Χ<certainty match="preceding-sibling::node()" locus="value"/>Α<certainty match="preceding-sibling::node()" locus="value"/>Υ<certainty match="preceding-sibling::node()" locus="value"/>Α<certainty match="preceding-sibling::node()" locus="value"/> γλυκúτα<lb break="no" n="4"/><supplied reason="lost">τος<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied>Χ<certainty match="preceding-sibling::node()" locus="value"/>Ω Ε<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>Σ<certainty match="preceding-sibling::node()" locus="value"/>εὐσε<lb break="no" n="6"/><supplied reason="lost" cert="low">β---</supplied>Α<certainty match="preceding-sibling::node()" locus="value"/>Σ<certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/>Ι<certainty match="preceding-sibling::node()" locus="value"/>Ι<certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name"/></gap> <lb n="7"/>Ι<certainty match="preceding-sibling::node()" locus="value"/>Ι<certainty match="preceding-sibling::node()" locus="value"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>Ι<certainty match="preceding-sibling::node()" locus="value"/>Α<certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name"/></gap> <lb n="8"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>Ν<certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name"/></gap>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die lateinische Inschrift befindet sich auf dem Sarkophagkasten; für den Deckel des Sarkophags wurde eine Tafel mit einer älteren griechischen Inschrift wiederverwendet und die griechische Inschrift eradiert. Maßangaben beziehen sich auf den Kasten; Maße des Deckels: 13 x 123 x 68 cm. (B): CIL 13, 07239: Z. 4 (Ende): XV h(oram) I.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

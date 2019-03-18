@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD028226</idno>
+                <idno type="TM">223638</idno><idno type="localID">HD028226</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Málaga, Museo</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-43</height>
+                                        <width>-67</width>
+                                        <depth>2.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.5-2.8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/019895">Corduba, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0096" notAfter-custom="0117" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">96 AD – 117 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1729">1729</date>
+                        <placeName ref="http://www.geonames.org/">Córdoba, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Andalucía</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift?</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-01-21" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 02 (2. Aufl.) 07, 00285; tab. 11, 4. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 02, 02213. (B) 
+                    </bibl>
+                    <bibl>
+                         AE 1992, 0979. (B) 
+                    </bibl>
+                    <bibl>
+                         S. Dardaine, ZPE 91, 1992, 185-191; Taf. 5 b. (B) - AE 1992. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [P(ublius)] Postumius A(uli) f(ilius) / Pap(iria) Acilianus / [p]raef(ectus) cohort(is) II Hi[sp(anorum)] miliar(iae) / [e]quit(atae) prim(us) pil(us) leg(ionis) XII fulm(inatae) / [p]roc(urator) provin[ciae Ach]aiae / procurator / [I]mp(eratoris) Nerva[e - - - Aug(usti)] / [provinc(iae) Baeticae?] / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>P</abbr><ex>ublius</ex></expan></supplied> Postumius <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/><expan><abbr>Pap</abbr><ex>iria</ex></expan> Acilianus <lb n="3"/><expan><abbr><supplied reason="lost">p</supplied>raef</abbr><ex>ectus</ex></expan> <expan><abbr>cohort</abbr><ex>is</ex></expan> II Hi<supplied reason="lost"><expan><abbr>sp</abbr><ex>anorum</ex></expan></supplied> <expan><abbr>miliar</abbr><ex>iae</ex></expan> <lb n="4"/><expan><abbr><supplied reason="lost">e</supplied>quit</abbr><ex>atae</ex></expan> <expan><abbr>prim</abbr><ex>us</ex></expan> <expan><abbr>pil</abbr><ex>us</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XII <expan><abbr>fulm</abbr><ex>inatae</ex></expan> <lb n="5"/><expan><abbr><supplied reason="lost">p</supplied>roc</abbr><ex>urator</ex></expan> provin<supplied reason="lost">ciae Ach</supplied>aiae <lb n="6"/>procurator <lb n="7"/><expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>eratoris</ex></expan> Nerva<supplied reason="lost">e <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> <lb n="8"/><supplied reason="lost" cert="low">provinc(iae) Baeticae</supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Rückseite der Tafel wiederverwendet für ein carmen sepulcrale für den 931 n. Chr. verstorbenen Bischof Martinus (IHC 223). (B): CIL II 2213: abweichende Lesung; CIL II (2. Aufl.) 7, 285, Dardaine, AE 1992: geringfügigere Leseabweichungen. Hauptdifferenz in Z. 7: Nerva[e] C[aesar(is) Aug(usti)] (= CIL II (2. Aufl.) 7, 285) bzw. Nervae [Traiani Aug(usti)] (= AE 1992).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

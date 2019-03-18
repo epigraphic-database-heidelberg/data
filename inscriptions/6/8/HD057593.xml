@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD057593</idno>
+                <idno type="TM">185257</idno><idno type="localID">HD057593</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Zadar, Arh. Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>86</height>
+                                        <width>61</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/028793">Asseria, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0171" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 171 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3204293">Benkovac, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Zadarska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-10-29" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/23221">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 09941. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 09941 add. p. 2272. 
+                    </bibl>
+                    <bibl>
+                         A. Kurilić, Asseria 4, 2006, 34-36, Nr. 9; sl. 20. (B) 
+                    </bibl>
+                    <bibl>
+                         P. Sticotti, AEM 16, 1893, 45. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) // T(ito) Publicio Sa<t=I>/urnino#Sa<t>/urnino#SAIURNINO <f=E>r(atri)#<f>r(atri)#ER om/n<i=L>bus#om/n<i>bus#OMNLBUS honor(ibus) / patri(a)e suae fun/c<t=I>o#fun/c<t>o#FUNCIO S<t=I>ennia#S<t>ennia#SIENNIA Fau/s<t=I>ina#Fau/s<t>ina#FAUSIINA soror
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>T</abbr><ex>ito</ex></expan> Publicio Sa<choice><corr>t</corr><sic>I</sic></choice><lb break="no" n="2"/>urnino#Sa<supplied reason="omitted">t</supplied><lb break="no" n="3"/>urnino#SAIURNINO <choice><corr>f</corr><sic>E</sic></choice><expan><abbr>r</abbr><ex>atri</ex></expan>#<supplied reason="omitted">f</supplied><expan><abbr>r</abbr><ex>atri</ex></expan>#ER om<lb break="no" n="4"/>n<choice><corr>i</corr><sic>L</sic></choice>bus#om<lb break="no" n="5"/>n<supplied reason="omitted">i</supplied>bus#OMNLBUS <expan><abbr>honor</abbr><ex>ibus</ex></expan> <lb n="6"/>patri<expan><ex>a</ex><abbr>e</abbr></expan> suae fun<lb break="no" n="7"/>c<choice><corr>t</corr><sic>I</sic></choice>o#fun<lb break="no" n="8"/>c<supplied reason="omitted">t</supplied>o#FUNCIO S<choice><corr>t</corr><sic>I</sic></choice>ennia#S<supplied reason="omitted">t</supplied>ennia#SIENNIA Fau<lb break="no" n="9"/>s<choice><corr>t</corr><sic>I</sic></choice>ina#Fau<lb break="no" n="10"/>s<supplied reason="omitted">t</supplied>ina#FAUSIINA soror
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Mittelteil eines Altars oder einer Statuenbasis. Z. 1 befindet sich auf dem oberen Rahmen des Inschriftfeldes. (B): Kurilić: kleinere Leseabweichungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

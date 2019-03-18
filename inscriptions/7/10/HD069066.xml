@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD069066</idno>
+                <idno type="TM">407242</idno><idno type="localID">HD069066</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Maribor, Pokrajinski Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material>Marmor, geädert / farbig</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>162</height>
+                                        <width>75</width>
+                                        <depth>14</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">7-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/029091">Poetovio</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1908">1908</date>
+                        <placeName ref="http://www.geonames.org/3190249">Hajdina</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Podravska statistična regija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/si/">Slowenien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-08-26" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/3089">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AIJ 402; Foto. (B) 
+                    </bibl>
+                    <bibl>
+                         AIJ 402 add. p. 5*. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) / C(aius) Ravi(u)s Restutus / sibi et parentibus / suis et co(n)iugi su(a)e / Vi(biae?) Marcel<l=I>inae#Marcel<l>inae#MARCELIINAE / et fili(i)s C(aio) Ravio / Restuto et Munatio / et f[i]li(i)s vivis
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Ravi<expan><ex>u</ex><abbr>s</abbr></expan> Restutus <lb n="3"/>sibi et parentibus <lb n="4"/>suis et co<expan><ex>n</ex><abbr>iugi</abbr></expan> su<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="5"/><expan><abbr>Vi</abbr><ex cert="low">biae</ex></expan> Marcel<choice><corr>l</corr><sic>I</sic></choice>inae#Marcel<supplied reason="omitted">l</supplied>inae#MARCELIINAE <lb n="6"/>et fili<expan><ex>i</ex><abbr>s</abbr></expan> <expan><abbr>C</abbr><ex>aio</ex></expan> Ravio <lb n="7"/>Restuto et Munatio <lb n="8"/>et <expan><abbr>f<supplied reason="lost">i</supplied>li</abbr><ex>i</ex>s</expan> vivis
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Material: grau-weißer Marmor. Inschriftfeld von Halbsäulen eingefasst; darüber Tierfries mit Jagdszene, Giebel mit Gorgoneion zwischen zwei Vögeln und über den Giebelschrägen Hippokampen; unterhalb des Inschriftfeldes Seeungeheuer. Buchstabe A ohne Querhaste. Z. 1: ein irrtümlich zunächst eingemeißeltes C wurde in D geändert. (B): AIJ 402: Z. 5: Marcel&amp;lt;l&amp;gt;in(a)e; AIJ 402 add. p. 5*: Marcellin(a)e.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

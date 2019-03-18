@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD044051</idno>
+                <idno type="TM">197755</idno><idno type="localID">HD044051</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Ihtiman, Stadtmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-61</height>
+                                        <width>-41</width>
+                                        <depth>23</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4-2.8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000014">Thracia</placeName><placeName ref="http://www.trismegistos.org/place/038498">Helice</placeName></origPlace>
+                            <origDate notBefore-custom="0061" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">61 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/730919">Ihtiman</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Sofija, oblast</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-04-27" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1999, 1397. 
+                    </bibl>
+                    <bibl>
+                         IGBulg 5691. 
+                    </bibl>
+                    <bibl>
+                         T. Ivanov, ArchPolon 14, 1973, 209-213; Abb. 1. - AE 1999. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) I 632. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [[Ner]]o Clau[dius] / divi Claud[i f(ilius)] / Germ(anici) Caesa[ris n(epos)] / Ti(beri) Caesaris A[ug(usti) pron(epos)] / divi Augusti abn(epos) C[aesar] / Aug(ustus) Germ(anicus) pon[tif(ex) max(imus)] / trib(unicia) pot(estate) VIII im[p(erator) VIII] / co(n)s(ul) IIII p(ater) [p(atriae)] / tabernas et pr[aetoria] / per vias [militares] / [fieri iussit per] / [T(itum) Iulium Ustum proc(uratorem)] / [provinciae Thraciae]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure">Ner</del>o Clau<supplied reason="lost">dius</supplied> <lb n="2"/>divi Claud<supplied reason="lost">i <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="3"/><expan><abbr>Germ</abbr><ex>anici</ex></expan> Caesa<supplied reason="lost">ris <expan><abbr>n</abbr><ex>epos</ex></expan></supplied> <lb n="4"/><expan><abbr>Ti</abbr><ex>beri</ex></expan> Caesaris A<supplied reason="lost"><expan><abbr>ug</abbr><ex>usti</ex></expan> <expan><abbr>pron</abbr><ex>epos</ex></expan></supplied> <lb n="5"/>divi Augusti <expan><abbr>abn</abbr><ex>epos</ex></expan> C<supplied reason="lost">aesar</supplied> <lb n="6"/><expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>Germ</abbr><ex>anicus</ex></expan> pon<supplied reason="lost"><expan><abbr>tif</abbr><ex>ex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan></supplied> <lb n="7"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> VIII im<supplied reason="lost"><expan><abbr>p</abbr><ex>erator</ex></expan> VIII</supplied> <lb n="8"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IIII <expan><abbr>p</abbr><ex>ater</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="9"/>tabernas et pr<supplied reason="lost">aetoria</supplied> <lb n="10"/>per vias <supplied reason="lost">militares</supplied> <lb n="11"/><supplied reason="lost">fieri iussit per</supplied> <lb n="12"/><supplied reason="lost"><expan><abbr>T</abbr><ex>itum</ex></expan> Iulium Ustum <expan><abbr>proc</abbr><ex>uratorem</ex></expan></supplied> <lb n="13"/><supplied reason="lost">provinciae Thraciae</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

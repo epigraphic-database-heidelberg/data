@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD066349</idno>
+                <idno type="TM">494553</idno><idno type="localID">HD066349</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/022359">Alpes Maritimae</placeName><placeName ref="http://www.trismegistos.org/place/019941">Cemenelum</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2990440">Nice</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Provence-Alpes-Côte d’Azur</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-07-19" who="cimarosti">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 05, 07917. 
+                    </bibl>
+                    <bibl>
+                         G. Laguerre, Inscriptions antiques de Nice-Cimiez (Cemenelum, ager Cemenelensis) (Paris 1975) 94. 
+                    </bibl>
+                    <bibl>
+                         S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 293-295, Nr. 186. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Memoriae sanctissimae / C(ai) Subri Secundini / flaminis et patroni provinciae / pietatis eloquentiae morum / magistri / C(aius) Subrius Severianus frater / inmatura eius morte deceptus // XXXX annis vixi[t - - -] / bis duo iungantur quos menses quattuor augent / [- - -] mortique dies felix si longior aetas / mansisset quam dura sibi fortuna negavit / o miseros homines(!) vivunt qui vivere nolunt / vivere qui debent fato moriuntur acerbo
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Memoriae sanctissimae <lb n="2"/><expan><abbr>C</abbr><ex>ai</ex></expan> Subri Secundini <lb n="3"/>flaminis et patroni provinciae <lb n="4"/>pietatis eloquentiae morum <lb n="5"/>magistri <lb n="6"/><expan><abbr>C</abbr><ex>aius</ex></expan> Subrius Severianus frater <lb n="7"/>inmatura eius morte deceptus </ab></div><div n="2" type="textpart"><ab><lb n="1"/> XXXX annis vixi<supplied reason="lost">t</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>bis duo iungantur quos menses quattuor augent <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> mortique dies felix si longior aetas <lb n="4"/>mansisset quam dura sibi fortuna negavit <lb n="5"/>o miseros homines <note>sic</note> vivunt qui vivere nolunt <lb n="6"/>vivere qui debent fato moriuntur acerbo
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Bearbeiterin: V. Pettirossi.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD006745</idno>
+                <idno type="TM">264750</idno><idno type="localID">HD006745</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Roma, S. Panfilo, Catac.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-48</height>
+                                        <width>-31</width>
+                                        <depth>3</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000172">Roma</placeName><placeName ref="http://www.trismegistos.org/place/000172">Roma</placeName></origPlace>
+                            <origDate notBefore-custom="0241" notAfter-custom="0244" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">241 AD – 244 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Roma</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Roma</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-02-17" who="Feraudi">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F010562">
+            <desc>F010562</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F026483">
+            <desc>F026483</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1975, 0065. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 06, 40692. 
+                    </bibl>
+                    <bibl>
+                         A. Ferrua, RAC 51, 1975, 31, Nr. 3. (B) - AE 1975. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] / [- - - - - -] // - - - - - -] / [p(atri)] p(atriae) restitutori or[bis] // [numini maiestati]que eoru[m devot- - -] / [curante Valerio? Alexan]dro v(iro) e(gregio) subpra[ef(ecto) vigilum] / [- - -]nus |(centurio) Hirrius Fes[tus? |(centurio)] / [- - -]us |(centurio) Aurelius Basili[us |(centurio)]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><supplied reason="lost"><expan><abbr>p</abbr><ex>atri</ex></expan></supplied> <expan><abbr>p</abbr><ex>atriae</ex></expan> restitutori or<supplied reason="lost">bis</supplied> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <supplied reason="lost">numini maiestati</supplied>que eoru<supplied reason="lost">m devot<gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><supplied reason="lost">curante Valerio<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Alexan</supplied>dro <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>e</abbr><ex>gregio</ex></expan> subpra<supplied reason="lost"><expan><abbr>ef</abbr><ex>ecto</ex></expan> vigilum</supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>nus |(centurio) Hirrius Fes<supplied reason="lost">tus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> |(centurio)</supplied> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>us |(centurio) Aurelius Basili<supplied reason="lost">us |(centurio)</supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Ferrua, AE 1975: abweichende Textwiedergabe.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

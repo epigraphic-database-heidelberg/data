@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD019096</idno>
+                <idno type="TM">191066</idno><idno type="localID">HD019096</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bucureşti, Muz. Naţ. Ant.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-149</height>
+                                        <width>60</width>
+                                        <depth>22</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6-5.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName ref="http://www.trismegistos.org/place/030006">Cius</placeName></origPlace>
+                            <origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD – 170 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/677175">Gârliciu, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Constanța</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-10-05" who="Garcia">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1960, 0357. (B) 
+                    </bibl>
+                    <bibl>
+                         S. Constantinescu, StCercIstorV 9, 1958, 349-354; fig. 1. (B) - AE 1960. 
+                    </bibl>
+                    <bibl>
+                         IScM 5, 123; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                I(ovi) O(ptimo) M(aximo) / et Iunoni Reg(inae) [p]/ro salu(te) Imp(eratoris) Au(gusti) / civit(as) et reg(io) His/tr(iae) cura(m) agent(ibus) / Cl(audio) Amando et Ulp(io) / Hectore et Aelio / [- - -]ge arch(ontibus) reg(ionis)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>et Iunoni <expan><abbr>Reg</abbr><ex>inae</ex></expan> <supplied reason="lost">p</supplied><lb break="no" n="3"/>ro <expan><abbr>salu</abbr><ex>te</ex></expan> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Au</abbr><ex>gusti</ex></expan> <lb n="4"/><expan><abbr>civit</abbr><ex>as</ex></expan> et <expan><abbr>reg</abbr><ex>io</ex></expan> His<lb break="no" n="5"/><expan><abbr>tr</abbr><ex>iae</ex></expan> <expan><abbr>cura</abbr><ex>m</ex></expan> <expan><abbr>agent</abbr><ex>ibus</ex></expan> <lb n="6"/><expan><abbr>Cl</abbr><ex>audio</ex></expan> Amando et <expan><abbr>Ulp</abbr><ex>io</ex></expan> <lb n="7"/>Hectore et Aelio <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>ge <expan><abbr>arch</abbr><ex>ontibus</ex></expan> <expan><abbr>reg</abbr><ex>ionis</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> In 2 Teile gebrochen. Hederae. Z. 3: möglicherweise VT-Ligatur. (B): Constantinescu; AE 1960: Leseabweichungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD067025</idno>
+                <idno type="TM">402554</idno><idno type="localID">HD067025</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Wien, Nationalbibl.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>71</height>
+                                        <width>190</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003230">Noricum</placeName><placeName ref="http://www.trismegistos.org/place/019892">Celeia</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 230 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1828">1828</date>
+                        <placeName ref="http://www.geonames.org/3202781">Celje</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Savinjska statistična regija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/si/">Slowenien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-11-05" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F011536">
+            <desc>F011536</desc>
+        </graphic>
+
+        <graphic url="http://lupa.at/4069">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 05225. (B) 
+                    </bibl>
+                    <bibl>
+                         ILLPRON 1685. (B) 
+                    </bibl>
+                    <bibl>
+                         R. Wedenig, Epigraphische Quellen zur städtischen Administration in Noricum (Klagenfurt 1997) 123-124, Nr. C 15; Taf. 2, C 15. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                C(aio) Atilio Secundi/ano aed(ili) Cl(audiae) Cel(eiae) an(norum) / LVIIII et Vepon(iae) Bellici/nae eius Atilius Se/cundus parentib(us) / et Calv(isiae?) Tutorinae / coni(ugi) pudicissimae an(norum) XXXII // et Ati[l(iae) Sec]undinae fil(iae) stolat(a)e an(norum) [- - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Atilio Secundi<lb break="no" n="2"/>ano <expan><abbr>aed</abbr><ex>ili</ex></expan> <expan><abbr>Cl</abbr><ex>audiae</ex></expan> <expan><abbr>Cel</abbr><ex>eiae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="3"/>LVIIII et <expan><abbr>Vepon</abbr><ex>iae</ex></expan> Bellici<lb break="no" n="4"/>nae eius Atilius Se<lb break="no" n="5"/>cundus <expan><abbr>parentib</abbr><ex>us</ex></expan> <lb n="6"/>et <expan><abbr>Calv</abbr><ex cert="low">isiae</ex></expan> Tutorinae <lb n="7"/><expan><abbr>coni</abbr><ex>ugi</ex></expan> pudicissimae <expan><abbr>an</abbr><ex>norum</ex></expan> XXXII </ab></div><div n="2" type="textpart"><ab><lb n="1"/> et Ati<supplied reason="lost"><expan><abbr>l</abbr><ex>iae</ex></expan> Sec</supplied>undinae <expan><abbr>fil</abbr><ex>iae</ex></expan> stolat<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Nach Wedenig Vorderseite eines Sarkophags oder einer Aschenkiste. Links und rechts des Inschriftfeldes je ein leeres gerahmtes Feld mit Volutenornament am oberen Rahmen. Z. 8 steht auf dem unteren Rahmen. (B): CIL III 5225; ILLPRON: Z. 8: At[il(iae) Secu]ndinae.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

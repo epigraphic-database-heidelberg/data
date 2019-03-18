@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Architekturteil</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD045628</idno>
+                <idno type="TM">242174</idno><idno type="localID">HD045628</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/35">Architekturteil</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-38</height>
+                                        <width>-172</width>
+                                        <depth>-20</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3-3.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/005531">Lusitania</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0271" notAfter-custom="0330" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">271 AD – 330 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Horta dos Revoredos</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Évora</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/pt/">Portugal</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2007-12-10" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2002, 0667. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Munnia Marciana ann(orum) XXV / h(ic) s(ita) e(st) s(it) t(ibi) t(erra) l(evis) Munnius Marcianus pat(er) / et Iulia Candida mat(er) filiae pientissi/m(a)e tetrastylum cum sign<o=V>#sign<o>#SIGNV Pi{a}etatis fecerunt // L(ucius) Munnius Marcianu[s] / ann(orum) LXXV Iulia Candid[a] / marito merentissimo / {i}statuam posuit // [- - -]tia Candida ann(orum) p(lus) LXX / [ar]am et sta[tu]am / mi(hi) posuit
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Munnia Marciana <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XXV <lb n="2"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>ita</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <expan><abbr>s</abbr><ex>it</ex></expan> <expan><abbr>t</abbr><ex>ibi</ex></expan> <expan><abbr>t</abbr><ex>erra</ex></expan> <expan><abbr>l</abbr><ex>evis</ex></expan> Munnius Marcianus <expan><abbr>pat</abbr><ex>er</ex></expan> <lb n="3"/>et Iulia Candida <expan><abbr>mat</abbr><ex>er</ex></expan> filiae pientissi<lb break="no" n="4"/>m<expan><ex>a</ex><abbr>e</abbr></expan> tetrastylum cum sign<choice><corr>o</corr><sic>V</sic></choice>#sign<supplied reason="omitted">o</supplied>#SIGNV Pi<surplus>a</surplus>etatis fecerunt </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>ucius</ex></expan> Munnius Marcianu<supplied reason="lost">s</supplied> <lb n="2"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> LXXV Iulia Candid<supplied reason="lost">a</supplied> <lb n="3"/>marito merentissimo <lb n="4"/><surplus>i</surplus>statuam posuit </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/>tia Candida <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> <expan><abbr>p</abbr><ex>lus</ex></expan> LXX <lb n="2"/><supplied reason="lost">ar</supplied>am et sta<supplied reason="lost">tu</supplied>am <lb n="3"/><expan><abbr>mi</abbr><ex>hi</ex></expan> posuit
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

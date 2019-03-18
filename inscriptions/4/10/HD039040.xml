@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD039040</idno>
+                <idno type="TM">215265</idno><idno type="localID">HD039040</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">S. Lambrecht, Stiftsmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>59</height>
+                                        <width>90</width>
+                                        <depth>41.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.0-2.0</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003230">Noricum</placeName><placeName>Municipium Claudium Virunum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2766615">S. Lambrecht</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Steiermark</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-02-05" who="böhm">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/1559">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        E. Weber, AustrRom 17, 1967, 19, Nr. 2. 
+                    </bibl>
+                    <bibl>
+                         E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 334-335, Nr. 279; Foto. 
+                    </bibl>
+                    <bibl>
+                         ILLPRON 1340. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Ce(n)sorinus A/diutoris et Iant/umara Finiti vi(vi) f(ecerunt) s(ibi) / et Ursino f(ilio) militi / in co(ho)rte Breucor(um) an(n)or(um) XXV // et Censorin[o fi]l(io) an(norum) XXX
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Ce<expan><ex>n</ex><abbr>sorinus</abbr></expan> A<lb break="no" n="2"/>diutoris et Iant<lb break="no" n="3"/>umara Finiti <expan><abbr>vi</abbr><ex>vi</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan> <expan><abbr>s</abbr><ex>ibi</ex></expan> <lb n="4"/>et Ursino <expan><abbr>f</abbr><ex>ilio</ex></expan> militi <lb n="5"/>in co<expan><ex>ho</ex><abbr>rte</abbr></expan> <expan><abbr>Breucor</abbr><ex>um</ex></expan> an<expan><ex>n</ex><abbr>or</abbr><ex>um</ex></expan> XXV </ab></div><div n="2" type="textpart"><ab><lb n="1"/> et Censorin<supplied reason="lost">o fi</supplied><expan><abbr>l</abbr><ex>io</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXX
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die letzte, auf der oberen Rahmenleiste stehende Zeile ist offenbar ein nachträglicher Zusatz. Zahlreiche Ligaturen: Z. 2: RI; Z. 3: DI, RI und ET; Z. 4: MA, FI, NI, TI; Z. 5: ET, LI und TI. Material nach lupa 1559. (B): Weber, AustrRom 17: kleinere Leseabweichungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

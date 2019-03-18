@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD036099</idno>
+                <idno type="TM">193542</idno><idno type="localID">HD036099</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>205</height>
+                                        <width>-73</width>
+                                        <depth>18</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029481">Moesia superior</placeName><placeName ref="http://www.trismegistos.org/place/029717">Scupi, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 150 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/792879">Skopje, Karpoš</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Skopski region</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/mk/">Mazedonien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-11-23" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://www.lupa.at/28137">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IMS 6, 119; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                M(anibus) D(is) // T(itus) Fl(avius) Fyr/mus(!) h(ic) s(itus) / frug<i=I>(?)#frug<i>(?)#FRUGI Vi/vidae / ama(tae?) aq(ua?) s(i)b(i)(?) <qu=C>o/d(?)#<qu>o/d(?)#COD c(upierat?) b(o)n(us?) v[i]/r v(ivens?) an(nos) LXXV / vivo si/bi p(o)s(uit) // hic p[ie]/tatis (h)o/nor (ha)ec [s]/unt p[ia] / d(o)n(a) m(ari)t(i) / qui m(e) / d(i)l(i)git / Val(eriae) co(n)i(u)g(i) vix(it) (a)n(nos) L / Fl(avius) Fyrmus(!) / [coniugi?] b(ene) m(erenti) / p(o)s(uit)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>D</abbr><ex>is</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Fyr<lb break="no" n="2"/>mus <note>sic</note> <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <lb n="3"/>frug<choice><corr>i</corr><sic>I</sic></choice><certainty match="preceding-sibling::node()" locus="value"/>#frug<supplied reason="omitted">i</supplied><certainty match="preceding-sibling::node()" locus="value"/>#FRUGI Vi<lb break="no" n="4"/>vidae <lb n="5"/><expan><abbr>ama</abbr><ex cert="low">tae</ex></expan> <expan><abbr>aq</abbr><ex cert="low">ua</ex></expan> s<expan><ex>i</ex><abbr>b</abbr><ex>i</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <supplied reason="omitted">qu=C</supplied>o<lb break="no" n="6"/><expan><abbr>d</abbr><ex cert="low"/></expan>#<supplied reason="omitted">qu</supplied>o<lb break="no" n="7"/><expan><abbr>d</abbr><ex cert="low"/></expan>#COD <expan><abbr>c</abbr><ex cert="low">upierat</ex></expan> <expan><abbr>b</abbr><ex>o</ex></expan><expan><abbr>n</abbr><ex cert="low">us</ex></expan> v<supplied reason="lost">i</supplied><lb break="no" n="8"/>r <expan><abbr>v</abbr><ex cert="low">ivens</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> LXXV <lb n="9"/>vivo si<lb break="no" n="10"/>bi p<expan><ex>o</ex><abbr>s</abbr><ex>uit</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> hic p<supplied reason="lost">ie</supplied><lb break="no" n="2"/>tatis <expan><ex>h</ex><abbr>o</abbr></expan><lb break="no" n="3"/>nor <expan><ex>ha</ex><abbr>ec</abbr></expan> <supplied reason="lost">s</supplied><lb break="no" n="4"/>unt p<supplied reason="lost">ia</supplied> <lb n="5"/>d<expan><ex>o</ex><abbr>n</abbr><ex>a</ex></expan> m<expan><ex>ari</ex><abbr>t</abbr><ex>i</ex></expan> <lb n="6"/>qui <expan><abbr>m</abbr><ex>e</ex></expan> <lb n="7"/>d<expan><ex>i</ex><abbr>l</abbr><ex>i</ex><abbr>git</abbr></expan> <lb n="8"/><expan><abbr>Val</abbr><ex>eriae</ex></expan> co<expan><ex>n</ex><abbr>i</abbr><ex>u</ex><abbr>g</abbr></expan>(i) <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><ex>a</ex><abbr>n</abbr><ex>nos</ex></expan> L <lb n="9"/><expan><abbr>Fl</abbr><ex>avius</ex></expan> Fyrmus <note>sic</note> <lb n="10"/><supplied reason="lost" cert="low">coniugi</supplied> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <lb n="11"/>p<expan><ex>o</ex><abbr>s</abbr><ex>uit</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> In mehrere Fragmente zerbrochen. Zwei nicht aneinander passende Fragmente erhalten.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

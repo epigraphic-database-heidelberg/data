@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD038142</idno>
+                <idno type="TM">196504</idno><idno type="localID">HD038142</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Budapest, Magyar Nemzeti Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>110</height>
+                                        <width>55</width>
+                                        <depth>38</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">8.4-2.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016277">Brigetio</placeName></origPlace>
+                            <origDate notBefore-custom="0303-07-15" notAfter-custom="0303-07-15" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">15.7.303 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3044294">Komárom</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Komárom-Esztergom megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-11-23" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F002758">
+            <desc>F002758</desc>
+        </graphic>
+
+        <graphic url="http://lupa.at/8953">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 10981. 
+                    </bibl>
+                    <bibl>
+                         RIU 0699; Abb. 699 (Foto u. Zeichnung). 
+                    </bibl>
+                    <bibl>
+                         M. Nagy, Guide to the archaeological exhibitions in the Hungarian National Museum. Roman stones. Lapidarium (Budapest 2012) 162-163, Nr. 180; Foto. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                I(ovi) O(ptimo) M(aximo) / Aur(elius) Ian/uarius t(ribunus?) / Bat(avorum?) v(ir) p(erfectissimus) dux / p(ro) s(alute) s(ua) v(otum) m(erito) l(ibens) s(olvit) // dd(ominis) nn(ostris) VIII et VII Augg(ustis) co(n)ss(ulibus) / die Id(uum) Iul(iarum)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Ian<lb break="no" n="3"/>uarius <expan><abbr>t</abbr><ex cert="low">ribunus</ex></expan> <lb n="4"/><expan><abbr>Bat</abbr><ex cert="low">avorum</ex></expan> <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>p</abbr><ex>erfectissimus</ex></expan> dux <lb n="5"/><expan><abbr>p</abbr><ex>ro</ex></expan> <expan><abbr>s</abbr><ex>alute</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>d<am>d</am></abbr><ex>ominis</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostris</ex></expan> VIII et VII <expan><abbr>Aug<am>g</am></abbr><ex>ustis</ex></expan> co<expan><ex>n</ex><abbr>ss</abbr><ex>ulibus</ex></expan> <lb n="2"/>die <expan><abbr>Id</abbr><ex>uum</ex></expan> <expan><abbr>Iul</abbr><ex>iarum</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 6 u. 7 befinden sich auf der crepido. (B): Nagy: Z. 3/4: II / &amp;lt;R=B&amp;gt;aet(ia)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

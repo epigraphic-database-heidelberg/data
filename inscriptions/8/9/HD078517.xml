@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD078517</idno>
+                <idno type="TM">448650</idno><idno type="localID">HD078517</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Trier, Rhein. Landesmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>41</height>
+                                        <width>49</width>
+                                        <depth>1.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2-2.7</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/023540">Belgica</placeName><placeName ref="http://www.trismegistos.org/place/013685">Augusta Treverorum</placeName></origPlace>
+                            <origDate notBefore-custom="0401" notAfter-custom="0430" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD – 430 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Trier</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-01-21" who="Cowey">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2007, 0992. 
+                    </bibl>
+                    <bibl>
+                         H. Merten, Die frühchristlichen Inschriften aus St. Maximin bei Trier (Trier 2018) 45-49, Nr. 5; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Quae iacet hoc saxo maternis moribus / aequa cunctorumque dolor casta Boethio/la nobiliter nata clarissima femina Amand/i coniunx consimilis qui posuit titulum / o quam saeva dies bissenos i<n=M>{p}tulit#i<n>{p}tulit#IMPTULIT ann/os qui(bu)s vixit sancte coniuge cum proprio / Boethiola c(larissima) f(emina) vixit anni/s(!) XXV et menses VIIII dies III quae fuit / [uxor] Amandi v(iri) c(larissimi) annos XII et dies XVIIII
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Quae iacet hoc saxo maternis moribus <lb n="2"/>aequa cunctorumque dolor casta Boethio<lb break="no" n="3"/>la nobiliter nata clarissima femina Amand<lb break="no" n="4"/>i coniunx consimilis qui posuit titulum <lb n="5"/>o quam saeva dies bissenos i<choice><corr>n</corr><sic>M</sic></choice><surplus>p</surplus>tulit#i<supplied reason="omitted">n</supplied><surplus>p</surplus>tulit#IMPTULIT ann<lb break="no" n="6"/>os qui<expan><ex>bu</ex><abbr>s</abbr></expan> vixit sancte coniuge cum proprio <lb n="7"/>Boethiola <expan><abbr>c</abbr><ex>larissima</ex></expan> <expan><abbr>f</abbr><ex>emina</ex></expan> vixit anni<lb break="no" n="8"/>s <note>sic</note> XXV et menses VIIII dies III quae fuit <lb n="9"/><supplied reason="lost">uxor</supplied> Amandi <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan> annos XII et dies XVIIII
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 1-6: elegische Disticha.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

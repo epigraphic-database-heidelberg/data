@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grenzmarkierung auf Cippus</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD027398</idno>
+                <idno type="TM">262447</idno><idno type="localID">HD027398</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/85">Cippus</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000172">Roma</placeName><placeName ref="http://www.trismegistos.org/place/000172">Roma</placeName></origPlace>
+                            <origDate notBefore-custom="0120" notAfter-custom="0121" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">120 AD – 121 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Roma</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Roma</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/293">Grenzmarkierung</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2010-12-07" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F010696">
+            <desc>F010696</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F026681">
+            <desc>F026681</desc>
+        </graphic>
+
+        <graphic url="http://cil-old.bbaw.de/test06/bilder/datenbank/PH0007637.jpg">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 06, 40864; Foto. 
+                    </bibl>
+                    <bibl>
+                         G. Cressedi, NSA 1956, 45; fig. 32. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Ex auctoritate / Imp(eratoris) Caesaris divi / Traiani Parthici f(ilii) / divi Nervae nepotis / Traiani Hadriani / Aug(usti) pontif(icis) max(imi) trib(unicia) / potest(ate) V imp(eratoris) IIII co(n)s(ulis) III / L(ucius) Messius Rusticus curator / alvei et riparum Tiberis et / cloacarum urbis r(ecto) r(igore) restituit / secundum praecedentem / terminationem proxim(i) cipp(i) / ped(es) XXIX s(emis)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Ex auctoritate <lb n="2"/><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Caesaris divi <lb n="3"/>Traiani Parthici <expan><abbr>f</abbr><ex>ilii</ex></expan> <lb n="4"/>divi Nervae nepotis <lb n="5"/>Traiani Hadriani <lb n="6"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pontif</abbr><ex>icis</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <lb n="7"/><expan><abbr>potest</abbr><ex>ate</ex></expan> V <expan><abbr>imp</abbr><ex>eratoris</ex></expan> IIII co<expan><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> III <lb n="8"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Messius Rusticus curator <lb n="9"/>alvei et riparum Tiberis et <lb n="10"/>cloacarum urbis <expan><abbr>r</abbr><ex>ecto</ex></expan> <expan><abbr>r</abbr><ex>igore</ex></expan> restituit <lb n="11"/>secundum praecedentem <lb n="12"/>terminationem <expan><abbr>proxim</abbr><ex>i</ex></expan> <expan><abbr>cipp</abbr><ex>i</ex></expan> <lb n="13"/><expan><abbr>ped</abbr><ex>es</ex></expan> XXIX <expan><abbr>s</abbr><ex>emis</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Datierung: zwischen dem 10. Dezember 120 n. Chr. und dem 9. Dezember 121 n. Chr. Terminalcippus.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

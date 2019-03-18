@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD069273</idno>
+                <idno type="TM">425589</idno><idno type="localID">HD069273</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mainz, Landesmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>60</height>
+                                        <width>70</width>
+                                        <depth>12</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Castellum Mattiacorum (Civitas Mattiacorum)</placeName></origPlace>
+                            <origDate notBefore-custom="0236-08-23" notAfter-custom="0236-08-23" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">23.8.236 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1809">1809</date>
+                        <placeName ref="http://www.geonames.org/2831194">Wiesbaden</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hessen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-03-03" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F015991">
+            <desc>F015991</desc>
+        </graphic>
+
+        <graphic url="http://www.lupa.at/27261">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 07281. (B) 
+                    </bibl>
+                    <bibl>
+                         ILS 3805. 
+                    </bibl>
+                    <bibl>
+                         CCCA 6, 049. (B) 
+                    </bibl>
+                    <bibl>
+                         W. Selzer, Römische Steindenkmäler. Mainz in römischer Zeit. Katalog zur Sammlung in der Steinhalle (Mainz 1988) 250-251, Nr. 285; Foto. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                In h(onorem) d(omus) d(ivinae) deae Virtuti Bello/n(a)e montem Vaticanum / vetustate conlabsum(!) / restituerun(t) hastiferi ci/vitatis Mattiacor(um) X Kal(endas) / Sep(tembres) Imp(eratore) [[d(omino) n(ostro) Maximino Au[g(usto)]]] / et Africano co(n)s(ulibus) hi quorum no/mina i(nfra) s(crip)ta sunt // G(aius) Meddignatius Severus cur(ator) bis / L(ucius) Levinius Qu(i)etus / T(itus) Vitalinius Peregrinus / Co(n)stantius Marcianus / Crixsius(!) Adnamatus / Giamillius Crescens / Titius Belatullus / Iulius Severus / I(?)[- -]cnius Co(n)sta(n)s / S[- - -]tatius Victor // Tertinius Abrosus / Ma{r}crinius Perpetu(u)s / Atregtius(!) Cupitianus / Perrius Iustinus pr(a)eopt(- - -) / Attonius Asclepius / Ursius Maturus / Statutius Secundinus / Servandius Senurus
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> deae Virtuti Bello<lb break="no" n="2"/>n<expan><ex>a</ex><abbr>e</abbr></expan> montem Vaticanum <lb n="3"/>vetustate conlabsum <note>sic</note> <lb n="4"/><expan><abbr>restituerun</abbr><ex>t</ex></expan> hastiferi ci<lb break="no" n="5"/>vitatis <expan><abbr>Mattiacor</abbr><ex>um</ex></expan> X <expan><abbr>Kal</abbr><ex>endas</ex></expan> <lb n="6"/><expan><abbr>Sep</abbr><ex>tembres</ex></expan> <expan><abbr>Imp</abbr><ex>eratore</ex></expan> <del rend="erasure"><expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> Maximino Au[<expan><abbr>g</abbr><ex>usto</ex></expan></del>] <lb n="7"/>et Africano co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> hi quorum no<lb break="no" n="8"/>mina <expan><abbr>i</abbr><ex>nfra</ex></expan> s<expan><ex>crip</ex><abbr>ta</abbr></expan> sunt </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>G</abbr><ex>aius</ex></expan> Meddignatius Severus <expan><abbr>cur</abbr><ex>ator</ex></expan> bis <lb n="2"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Levinius Qu<expan><ex>i</ex><abbr>etus</abbr></expan> <lb n="3"/><expan><abbr>T</abbr><ex>itus</ex></expan> Vitalinius Peregrinus <lb n="4"/>Co<expan><ex>n</ex><abbr>stantius</abbr></expan> Marcianus <lb n="5"/>Crixsius <note>sic</note> Adnamatus <lb n="6"/>Giamillius Crescens <lb n="7"/>Titius Belatullus <lb n="8"/>Iulius Severus <lb n="9"/><expan><abbr>I</abbr><ex cert="low"/></expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>cnius Co<expan><ex>n</ex><abbr>sta</abbr><ex>n</ex><abbr>s</abbr></expan> <lb n="10"/>S<gap reason="lost" extent="unknown" unit="character"/>tatius Victor </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Tertinius Abrosus <lb n="2"/>Ma<surplus>r</surplus>crinius Perpetu<expan><ex>u</ex><abbr>s</abbr></expan> <lb n="3"/>Atregtius <note>sic</note> Cupitianus <lb n="4"/>Perrius Iustinus <expan><abbr>pr</abbr><ex>a</ex></expan><abbr>eopt</abbr> <lb n="5"/>Attonius Asclepius <lb n="6"/>Ursius Maturus <lb n="7"/>Statutius Secundinus <lb n="8"/>Servandius Senurus
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Namensliste ab Z. 9 ist in zwei Kolumnen unterhalb von Z. 1-8 angeordnet. Z. 6: O sicher noch erkennbar (Autopsie Abklatsch). Z. 9: Buchstabe D mit mittlerer Querhaste. (B): CIL 13, 07281; CCCA; Selzer: kleinere Leseabweichungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

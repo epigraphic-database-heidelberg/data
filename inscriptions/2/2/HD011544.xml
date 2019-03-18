@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD011544</idno>
+                <idno type="TM">190857</idno><idno type="localID">HD011544</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>211</height>
+                                        <width>38.5</width>
+                                        <depth>36.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName ref="http://www.trismegistos.org/place/029831">Durostorum</placeName></origPlace>
+                            <origDate notBefore-custom="0197" notAfter-custom="0209" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">197 AD – 209 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/727221">Silistra</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Silistra</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-08-12" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1974, 0571. (B) 
+                    </bibl>
+                    <bibl>
+                         AE 1977, 0764. 
+                    </bibl>
+                    <bibl>
+                         P. Georgiev, BSAVarna 10, 1974, 97-102; Taf. 2, 3 u. 4. (B) - AE 1974. 
+                    </bibl>
+                    <bibl>
+                         B. Gerov, Klio 59, 1977, 302-305, Nr. 2; abb. 2a u. b. (B) - AE 1977. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Mercu/rio Sa/ncto / sacrum / pro salu/t(e) Augg(ustorum) / L(uci) Sep(timi) Se/veri et / [M(arci) Aur(eli) Ant]/[onini et] / [P(ubli) Sep(timi) Ge]/[tae Ca]e[s(aris)] / G(aius) Anton(ius) / Hercul/anus vet(eranus) / leg(ionis) XI Cl(audiae) / ex c(ustode) a(rmorum) / vet(eranis) con/sisten/tibus / hui{i}us / loci / d(onum) d(edit)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Mercu<lb break="no" n="2"/>rio Sa<lb break="no" n="3"/>ncto <lb n="4"/>sacrum <lb n="5"/>pro salu<lb break="no" n="6"/><expan><abbr>t</abbr><ex>e</ex></expan> <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <lb n="7"/><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>Sep</abbr><ex>timi</ex></expan> Se<lb break="no" n="8"/>veri et <lb n="9"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Aur</abbr><ex>eli</ex></expan> Ant</supplied><lb break="no" n="10"/><supplied reason="lost">onini et</supplied> <lb n="11"/><supplied reason="lost"><expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>Sep</abbr><ex>timi</ex></expan> Ge</supplied><lb break="no" n="12"/><supplied reason="lost">tae Ca</supplied>e<supplied reason="lost"><expan><abbr>s</abbr><ex>aris</ex></expan></supplied> <lb n="13"/><expan><abbr>G</abbr><ex>aius</ex></expan> <expan><abbr>Anton</abbr><ex>ius</ex></expan> <lb n="14"/>Hercul<lb break="no" n="15"/>anus <expan><abbr>vet</abbr><ex>eranus</ex></expan> <lb n="16"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>Cl</abbr><ex>audiae</ex></expan> <lb n="17"/>ex <expan><abbr>c</abbr><ex>ustode</ex></expan> <expan><abbr>a</abbr><ex>rmorum</ex></expan> <lb n="18"/><expan><abbr>vet</abbr><ex>eranis</ex></expan> con<lb break="no" n="19"/>sisten<lb break="no" n="20"/>tibus <lb n="21"/>hui<surplus>i</surplus>us <lb n="22"/>loci <lb n="23"/><expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Pfeilerartige Stele; in 2 Teile gebrochen. (B): AE 1974: Zeilenfall mehrfach nicht angegeben; Georgiev, AE 1974: Z. 13: C(aius); Gerov: Z. 21: huius. Z. 12: E ist auf der Fotografie kaum zu erahnen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

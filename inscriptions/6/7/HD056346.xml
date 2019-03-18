@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD056346</idno>
+                <idno type="TM">236712</idno><idno type="localID">HD056346</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Empúries, Mus. Arq.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-60</height>
+                                        <width>-34</width>
+                                        <depth>55</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016933">Hispania citerior</placeName><placeName ref="http://www.trismegistos.org/place/027282">Emporiae</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Empúries</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Cataluña</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-05-28" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IRC 3 (Suppl.) 203; pl. 32. 
+                    </bibl>
+                    <bibl>
+                         HEp 12, 2002, 0158. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] / [- - -]A(?) VIR / [- - -]O IN / [- - -]INO / [- - -]M(?)IN(?)[- - -?] / [- - -]V[-?]V(?)[-?] / [- - -]V(?)[- - -]I / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>A</abbr><ex cert="low"/></expan> VIR <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>O IN <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>INO <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>M</abbr><ex cert="low"/>IN</expan><certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>V<supplied reason="lost" cert="low">-</supplied><expan><abbr>V</abbr><ex cert="low"/></expan><supplied reason="lost" cert="low">-</supplied> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>V</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>I <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 1: vom A ist der äußere rechte Teil erhalten, vom I der untere Teil einer senkrechten Haste. Z. 4: vom M ist der rechte Teil erhalten, vom N ist auf der Fotografie nur der linke Teil erkennbar. Z. 5: statt V[1]V[1] auch VM möglich. Z. 6: vom V ist der obere Teil der linken Haste erhalten, vom I der obere Teil einer senkrechten Haste.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

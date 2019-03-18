@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Urne</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD068719</idno>
+                <idno type="TM">405277</idno><idno type="localID">HD068719</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Budapest, Aquincumi Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/78">Urne</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>57</height>
+                                        <width>121</width>
+                                        <depth>59</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3-3.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/020126">Aquincum</placeName></origPlace>
+                            <origDate notBefore-custom="0193" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">193 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1889">1889</date>
+                        <placeName ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Budapest</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-03-08" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/783">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 13374. 
+                    </bibl>
+                    <bibl>
+                         TitAq 0750; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] / domo Mursa vix(it) / an(nos) XXXVI stip(endiorum) XVIII Aurelia / Priscilla co<n=I>iux#co<n>iux#COIIUX eiu(s) / Prisca et Probilla filias(!) / et (h)eredes posuerunt qui / defunctus est Per<i=E>nt(h)<i=O>#Per<i>nt(h)<i>#PERENTO / et ossua(!) ei{i}us in (h)unc(!) loc(um)(!) / sunt
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/>domo Mursa <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="2"/><expan><abbr>an</abbr><ex>nos</ex></expan> XXXVI <expan><abbr>stip</abbr><ex>endiorum</ex></expan> XVIII Aurelia <lb n="3"/>Priscilla co<choice><corr>n</corr><sic>I</sic></choice>iux#co<supplied reason="omitted">n</supplied>iux#COIIUX <expan><abbr>eiu</abbr><ex>s</ex></expan> <lb n="4"/>Prisca et Probilla filias <note>sic</note> <lb n="5"/>et <expan><ex>h</ex><abbr>eredes</abbr></expan> posuerunt qui <lb n="6"/>defunctus est Per<choice><corr>i</corr><sic>E</sic></choice><expan><abbr>nt</abbr><ex>h</ex></expan><choice><corr>i</corr><sic>O</sic></choice>#Per<supplied reason="omitted">i</supplied><expan><abbr>nt</abbr><ex>h</ex></expan><supplied reason="omitted">i</supplied>#PERENTO <lb n="7"/>et ossua <note>sic</note> ei<surplus>i</surplus>us in <expan><ex>h</ex><abbr>unc</abbr></expan> <note>sic</note> <expan><abbr>loc</abbr><ex>um</ex></expan> <note>sic</note> <lb n="8"/>sunt
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Inschriftträger: (TitAq) Ossuarium. Heute aufliegender Deckel nicht zugehörig. Tod des Soldaten im Winter 193/194 in Perinth. Die Beisetzung der Knochen erfolgte später, vermutlich nach Rückkehr der legio II adiutrix 196 n. Chr. (s. TitAq).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Block</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD011577</idno>
+                <idno type="TM">120813</idno><idno type="localID">HD011577</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>103</height>
+                                        <width>208</width>
+                                        <depth>22</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4-4.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000161">Macedonia</placeName><placeName>Heraclea Lyncestis, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/785605">Bitola</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Pelagoniski region</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/mk/">Mazedonien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-07-12" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1974, 0587. (B) 
+                    </bibl>
+                    <bibl>
+                         ILJug 0454. 
+                    </bibl>
+                    <bibl>
+                         T. Janakievski, ZAnt 16, 1966, 259-261; Zeichnung. (B) - AE 1974. 
+                    </bibl>
+                    <bibl>
+                         H.-G. Pflaum, Chiron 4, 1974, 453-454, Nr. 1. (B) - AE 1974. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [-? Iul]ius Teres ex |(centurione) coh(ortis) I F[lav(iae)] / [Bes]sor(um) vivo sibi fecit et V[ale]/riae Artemini co(n)iugi carissim[ae] / et Iulio Iuliano equiti Romano / filio suo et Iuliae Artemini filiae // Ἰούλιος Τήρης ἐξ ἑκατο[ντάρχου] / σπείρης α Φλ(αουίας) Βέσ(σων) ζῶν ἑα[υτῷ] / ἡρόειον κατεσκεύασεν καὶ Οὐ/αλερίᾳ Ἀρτέμεινι τῇ εὐσεβεστά/τῃ γ[υ]ναικὶ καὶ Ἰουλίῳ Ἰουλιανῷ / ἱπ[πεῖ] Ῥωμαίων τῷ υἱῷ καὶ Ἰου[λίᾳ] / Ἀρτέμεινι τῇ θυγατρί
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/>? Iul</supplied>ius Teres ex |(centurione) <expan><abbr>coh</abbr><ex>ortis</ex></expan> I F<supplied reason="lost"><expan><abbr>lav</abbr><ex>iae</ex></expan></supplied> <lb n="2"/><expan><abbr><supplied reason="lost">Bes</supplied>sor</abbr><ex>um</ex></expan> vivo sibi fecit et V<supplied reason="lost">ale</supplied><lb break="no" n="3"/>riae Artemini co<expan><ex>n</ex><abbr>iugi</abbr></expan> carissim<supplied reason="lost">ae</supplied> <lb n="4"/>et Iulio Iuliano equiti Romano <lb n="5"/>filio suo et Iuliae Artemini filiae </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Ἰούλιος Τήρης ἐξ ἑκατο<supplied reason="lost">ντάρχου</supplied> <lb n="2"/>σπείρης α Φλ(αουίας) Βέσ(σων) ζῶν ἑα<supplied reason="lost">υτῷ</supplied> <lb n="3"/>ἡρόειον κατεσκεύασεν καὶ Οὐ<lb break="no" n="4"/>αλερίᾳ Ἀρτέμεινι τῇ εὐσεβεστά<lb break="no" n="5"/>τῃ γ<supplied reason="lost">υ</supplied>ναικὶ καὶ Ἰουλίῳ Ἰουλιανῷ <lb n="6"/>ἱπ<supplied reason="lost">πεῖ</supplied> Ῥωμαίων τῷ υἱῷ καὶ Ἰου<supplied reason="lost">λίᾳ</supplied> <lb n="7"/>Ἀρτέμεινι τῇ θυγατρί
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Der Text ist auf Griechisch und Lateinisch verfaßt und hierfür in zwei Kolumnen angeordnet. Z. 2: [q]uod in der Zeichnung von Janakievski nach ILJug fälschlich eingezeichnet. Z. 3: G in co(n)iugi entweder unvollständig erhalten oder irrtümlich als C geschrieben. (B): AE 1974: Z. 1/2: coh(ortis) / [Fl(aviae) Bess(orum)] quod; Pflaum: Z. 1: I [Fl(aviae) Bess(orum)] / quod; Janakievski: Z. 2 (Anfang): quod; Pflaum, AE 1974: Z. 4/5: Zeilenumbruch nicht angegeben.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

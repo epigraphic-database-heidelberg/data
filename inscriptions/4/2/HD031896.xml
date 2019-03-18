@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD031896</idno>
+                <idno type="TM">191327</idno><idno type="localID">HD031896</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName>Municipium Montanensium</placeName></origPlace>
+                            <origDate notBefore-custom="0051" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/729114">Montana (Mihajlovgrad)</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Montana</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2010-05-03" who="Feraudi">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1902, 0071. 
+                    </bibl>
+                    <bibl>
+                         AE 1941, p. 48 s. n. 148. 
+                    </bibl>
+                    <bibl>
+                         D. van Berchem, Les distributions de blé et d'argent à la plèbe romaine sous l'Empire (Genève 1938) 42-43. - AE 1941. 
+                    </bibl>
+                    <bibl>
+                         ILS 9275. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Cum primum / veni Monta/nis et numi[n]a / vidi deabus / votum vovi / ut potui pos/[u]i / Mallia Ae/miliana do/mo Roma fr[u]/mento [p]ubli/[co] cum fili[o] suo / restitui[t]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Cum primum <lb n="2"/>veni Monta<lb break="no" n="3"/>nis et numi<supplied reason="lost">n</supplied>a <lb n="4"/>vidi deabus <lb n="5"/>votum vovi <lb n="6"/>ut potui pos<lb break="no" n="7"/><supplied reason="lost">u</supplied>i <lb n="8"/>Mallia Ae<lb break="no" n="9"/>miliana do<lb break="no" n="10"/>mo Roma fr<supplied reason="lost">u</supplied><lb break="no" n="11"/>mento <supplied reason="lost">p</supplied>ubli<lb break="no" n="12"/><supplied reason="lost">co</supplied> cum fili<supplied reason="lost">o</supplied> suo <lb n="13"/>restitui<supplied reason="lost">t</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Textwiedergabe nach ILS.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

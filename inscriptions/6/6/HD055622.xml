@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD055622</idno>
+                <idno type="TM">177297</idno><idno type="localID">HD055622</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Kórinthos, Arch. Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>93</height>
+                                        <width>-29.3</width>
+                                        <depth>13.7</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6-3.2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000078">Achaia</placeName><placeName>Colonia Laus Iulia Corinthus</placeName></origPlace>
+                            <origDate notBefore-custom="-0030" notAfter-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC – 14 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1880">1880</date>
+                        <placeName ref="http://www.geonames.org/">Kórinthos</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Pelopónissos</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2010-04-13" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 06098. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 07271. (B) 
+                    </bibl>
+                    <bibl>
+                         J.H. Kent, Corinth. Results of excavations conducted by The American School of Classical Studies at Athens 8, 3. The inscriptions 1926-1950 (Princeton 1966) 61-62, Nr. 132; pl. 12,132. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Q(uinto) Fab[io] / Q(uinti) f(ilio) [- - -] / Carpet[ano] / proc(uratori) Aug(usti) prov[inc(iae)] / Achaiae prae[f(ecto) eq(uitum)] / trib(uno) milit(um) leg(ionis) [X gem(inae)] / curatori viae No[ment(anae)] / [- - - - - -] / CH[- - -] / [- - - - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uinto</ex></expan> Fab<supplied reason="lost">io</supplied> <lb n="2"/><expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Carpet<supplied reason="lost">ano</supplied> <lb n="4"/><expan><abbr>proc</abbr><ex>uratori</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> prov<supplied reason="lost"><expan><abbr>inc</abbr><ex>iae</ex></expan></supplied> <lb n="5"/>Achaiae prae<supplied reason="lost"><expan><abbr>f</abbr><ex>ecto</ex></expan> <expan><abbr>eq</abbr><ex>uitum</ex></expan></supplied> <lb n="6"/><expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>milit</abbr><ex>um</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <supplied reason="lost">X <expan><abbr>gem</abbr><ex>inae</ex></expan></supplied> <lb n="7"/>curatori viae No<supplied reason="lost"><expan><abbr>ment</abbr><ex>anae</ex></expan></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="8"/>CH<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Auf dem Foto sind die Buchstaben in Z. 5-10 kaum erkannbar. (B): Abweichende Textgestaltung in Z. 8 und 9.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

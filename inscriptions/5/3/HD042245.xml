@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD042245</idno>
+                <idno type="TM">229400</idno><idno type="localID">HD042245</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016933">Hispania citerior</placeName><placeName ref="http://www.trismegistos.org/place/003371">Tarraco</placeName></origPlace>
+                            <origDate notBefore-custom="0120" notAfter-custom="0180" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">120 AD – 180 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1825">1825</date>
+                        <placeName ref="http://www.geonames.org/3108288">Tarragona</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-06-05" who="Garcia">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        C. Veny, Corpus de las inscripciones baleáricas hasta la dominación árabe (Madrid 1965) 242, Apendix I, Nr. 4. 
+                    </bibl>
+                    <bibl>
+                         CIL 02, 04205. 
+                    </bibl>
+                    <bibl>
+                         ILS 6929. 
+                    </bibl>
+                    <bibl>
+                         R. Zucca, Insulae Baliares. Le isole Baleari sotto il dominio romano (Roma 1998) 271, Nr. 62. 
+                    </bibl>
+                    <bibl>
+                         RIT 0267. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                L(ucio) Clodio M(arci) f(ilio) / Vel(ina) Ingenuo / Palmensi / omnibus honoribus / in re publica sua perfunct(o) / [p]ra[ef(ecto)] fabrum / flamini Romae / divor(um) et August(orum) / p(rovinciae) H(ispaniae) c(iterioris) / p(rovincia) H(ispaniae) c(iterioris)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Clodio <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><expan><abbr>Vel</abbr><ex>ina</ex></expan> Ingenuo <lb n="3"/>Palmensi <lb n="4"/>omnibus honoribus <lb n="5"/>in re publica sua <expan><abbr>perfunct</abbr><ex>o</ex></expan> <lb n="6"/><expan><abbr><supplied reason="lost">p</supplied>ra<supplied reason="lost">ef</supplied></abbr><supplied reason="lost"><ex>ecto</ex></supplied></expan> <supplied reason="lost"/> fabrum <lb n="7"/>flamini Romae <lb n="8"/><expan><abbr>divor</abbr><ex>um</ex></expan> et <expan><abbr>August</abbr><ex>orum</ex></expan> <lb n="9"/><expan><abbr>p</abbr><ex>rovinciae</ex></expan> <expan><abbr>H</abbr><ex>ispaniae</ex></expan> <expan><abbr>c</abbr><ex>iterioris</ex></expan> <lb n="10"/><expan><abbr>p</abbr><ex>rovincia</ex></expan> <expan><abbr>H</abbr><ex>ispaniae</ex></expan> <expan><abbr>c</abbr><ex>iterioris</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Verschollen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD033526</idno>
+                <idno type="TM">201116</idno><idno type="localID">HD033526</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-52</height>
+                                        <width>-26</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.5-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/015771">Africa Proconsularis</placeName><placeName ref="http://www.trismegistos.org/place/016988">Cidamus</placeName></origPlace>
+                            <origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD – 235 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2217440">Ghadāmis</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/ly/">Libyen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-07-09" who="Bodard">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 183-184, Nr. 61b. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 10990. 
+                    </bibl>
+                    <bibl>
+                         IRT 908. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) F 29. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(eratori)] Caes(ari) M(arco) Aureli[o Severo] / [[[Ale]xandro]] Pio Fel[ici Aug(usto)] / [et Iuli]ae [[Mamaeae]] Aug(ustae) [matri Aug(usti) e]t castrorum sub Fa[bio] / [Fabiano l]eg(ato) Aug(usti) pr(o) pr(aetore) c(larissimo) v(iro) vexi[lla]/[tio leg(ionis) III Au]g(ustae) p(iae) v(indicis) Severianae per / [- - -]vum |(centurionem) leg(ionis) eiusdem / [- - -]fecit
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></supplied> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> Aureli<supplied reason="lost">o Severo</supplied> <lb n="2"/><del rend="erasure"><supplied reason="lost">Ale</supplied>xandro</del> Pio Fel<supplied reason="lost">ici <expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied> <lb n="3"/><supplied reason="lost">et Iuli</supplied>ae <del rend="erasure">Mamaeae</del> <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <supplied reason="lost">matri <expan><abbr>Aug</abbr><ex>usti</ex></expan> e</supplied>t castrorum sub Fa<supplied reason="lost">bio</supplied> <lb n="4"/><supplied reason="lost">Fabiano l</supplied><expan><abbr>eg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan> vexi<supplied reason="lost">lla</supplied><lb break="no" n="5"/><supplied reason="lost">tio <expan><abbr>leg</abbr><ex>ionis</ex></expan> III Au</supplied><expan><abbr>g</abbr><ex>ustae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>v</abbr><ex>indicis</ex></expan> Severianae per <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>vum |(centurionem) <expan><abbr>leg</abbr><ex>ionis</ex></expan> eiusdem <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>fecit
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Datierung: nach der Erhebung Iulia Mamaeas zur mater castrorum (vermutlich 224 n. Chr.); da Iulia Maesa nicht genannt ist wahrscheinlich erst nach deren Tod (226 n. Chr.).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD072344</idno>
+                <idno type="TM">407734</idno><idno type="localID">HD072344</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Sopron, Soproni Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-147</height>
+                                        <width>67</width>
+                                        <depth>12</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/019885">Savaria, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD – 130 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2770897">Neckenmarkt</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Burgenland</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-09-29" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/449">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 04255. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 04255 add. p. 1754. 
+                    </bibl>
+                    <bibl>
+                         M.-L. Krüger, Die Reliefs der Stadtgebiete von Scarbantia und Savaria, CSIR Österreich 1, 5 (Wien 1974) 36, Nr. 9; Taf. 4, 9. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Culcia C(ai) l(iberta) / Iucunda an(norum) / XXC Gemella C(ai) / Culci Secundi f(ilia) / an(ni) I h(ic) s(itae) s(unt) C(aius) Culcius / Ingenuos(!) C(aius) Cul/cius Primus C(aius) Cul/cius Secundus Culc(ia) / Prisca matri et nep/tia(e) posuerunt
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Culcia <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> <lb n="2"/>Iucunda <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="3"/>XXC Gemella <expan><abbr>C</abbr><ex>ai</ex></expan> <lb n="4"/>Culci Secundi <expan><abbr>f</abbr><ex>ilia</ex></expan> <lb n="5"/><expan><abbr>an</abbr><ex>ni</ex></expan> I <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itae</ex></expan> <expan><abbr>s</abbr><ex>unt</ex></expan> <expan><abbr>C</abbr><ex>aius</ex></expan> Culcius <lb n="6"/>Ingenuos <note>sic</note> <expan><abbr>C</abbr><ex>aius</ex></expan> Cul<lb break="no" n="7"/>cius Primus <expan><abbr>C</abbr><ex>aius</ex></expan> Cul<lb break="no" n="8"/>cius Secundus <expan><abbr>Culc</abbr><ex>ia</ex></expan> <lb n="9"/>Prisca matri et nep<lb break="no" n="10"/><expan><abbr>tia</abbr><ex>e</ex></expan> posuerunt
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Aufbewahrungsort nach lupa 449. Inschriftfeld von Pilastern eingefasst; oberhalb des Inschriftfeldes noch Reste zweier Büsten zwischen Halbsäulen. Krüger: Z. 9/10: nep/ti a(mantissimae).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

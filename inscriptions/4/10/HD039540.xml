@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD039540</idno>
+                <idno type="TM">196874</idno><idno type="localID">HD039540</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Pápa, Dunántúli Református Egyházkerület Egyháztörténeti és Egyházművészeti Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>46</height>
+                                        <width>118</width>
+                                        <depth>54</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016277">Brigetio</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3044294">Komárom</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Komárom-Esztergom megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-03-18" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1995, 1256. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 11033. (B) 
+                    </bibl>
+                    <bibl>
+                         RIU 0579. (B) 
+                    </bibl>
+                    <bibl>
+                         I. Tóth, ActaMusPap 5, 1995, 157-160. 166-167, Nr. 1; kép. 1, 3 u. 1, 4; kép. 1, 2 (Zeichnung). - AE 1995. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) // Sempronio qui Leon/tio filio carissim/o qui vixit an(nos) II men(ses) / III Sempron(ius) Romulus / cand(idatus) le[g(ionis) I a]d(iutricis) pater / f(aciendum) c(uravit)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Sempronio qui Leon<lb break="no" n="2"/>tio filio carissim<lb break="no" n="3"/>o qui vixit <expan><abbr>an</abbr><ex>nos</ex></expan> II <expan><abbr>men</abbr><ex>ses</ex></expan> <lb n="4"/>III <expan><abbr>Sempron</abbr><ex>ius</ex></expan> Romulus <lb n="5"/><expan><abbr>cand</abbr><ex>idatus</ex></expan> le<supplied reason="lost"><expan><abbr>g</abbr><ex>ionis</ex></expan> I a</supplied><expan><abbr>d</abbr><ex>iutricis</ex></expan> pater <lb n="6"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 1 auf dem Sarkophagdeckel (d. h. Buchstaben D und M auf den Akroteren), Z. 2-7 in einem gerahmten Inschriftfeld auf dem Kasten. Maße beziehen sich auf den Kasten; Deckel: 19 x 127 x 59 cm. Rahmen des Inschriftfeldes mit norisch-pannonischem Volutenornament. Lesung nach Tóth (jedoch abweichend von der Zeichnung bei Tóth). (B): CIL 03, 11033; RIU; AE 1995: Leseabweichungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

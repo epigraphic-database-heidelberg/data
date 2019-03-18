@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD072534</idno>
+                <idno type="TM">670432</idno><idno type="localID">HD072534</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-180</height>
+                                        <width>59</width>
+                                        <depth>26.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="guidelines">GUIDELINES</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.8-8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum</placeName></origPlace>
+                            <origDate notBefore-custom="0071" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD – 150 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="2009">2009</date>
+                        <placeName ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Niederösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-01-25" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2013, 1240. (B) 
+                    </bibl>
+                    <bibl>
+                         F. Beutler - G. Kremer, Tyche 28, 2013, 10-13; Abb. 2. (B) - AE 2013. 
+                    </bibl>
+                    <bibl>
+                         F. Beutler, Acta Carnuntina 5, 2, 2015, 42; Abb. 8. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                P(ublio) Aem[ilio - f(ilio)] / Verec[undo] / an(norum) LXXV [et?] / P(ublio) Aemilio P(ubli) [f(ilio) - - -]/vo an(norum) L fil(io) [eius?] / do(mo) Iud(a)ei [- - -] / P(ublius) Aemilius [- - -] / avoni(!) et p[atri] / p(arentibus) pientis(si)m[is] / p(osuit)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> Aem<supplied reason="lost">ilio <gap reason="lost" quantity="1" unit="character"/> <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="2"/>Verec<supplied reason="lost">undo</supplied> <lb n="3"/><expan><abbr>an</abbr><ex>norum</ex></expan> LXXV <supplied reason="lost" cert="low">et</supplied> <lb n="4"/><expan><abbr>P</abbr><ex>ublio</ex></expan> Aemilio <expan><abbr>P</abbr><ex>ubli</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="5"/>vo <expan><abbr>an</abbr><ex>norum</ex></expan> L <expan><abbr>fil</abbr><ex>io</ex></expan> <supplied reason="lost" cert="low">eius</supplied> <lb n="6"/><expan><abbr>do</abbr><ex>mo</ex></expan> Iud<expan><ex>a</ex><abbr>ei</abbr></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Aemilius <gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/>avoni <note>sic</note> et p<supplied reason="lost">atri</supplied> <lb n="9"/><expan><abbr>p</abbr><ex>arentibus</ex></expan> pientis<expan><ex>si</ex><abbr>m</abbr></expan><supplied reason="lost">is</supplied> <lb n="10"/><expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Drei nicht aneinanderpassende Fragmente erhalten. Oberhalb des Inschriftfeldes Volutenkrater mit Efeu, flankiert von Dattelpalmen; darüber Giebel mit Akanthus und Blüte. (B): Beutler - Kremer: Z. 1: (P(ublii) f(ilio)] AE 2013: Z. 1: P. f.; Z. 6: do(mo) Iud(a)ei[s ---]</p>
+            </div>
+        </body>
+    </text>
+</TEI>

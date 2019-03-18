@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Block</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001874</idno>
+                <idno type="TM">282498</idno><idno type="localID">HD001874</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>40</height>
+                                        <width>-50</width>
+                                        <depth>28</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Samnium (Regio IV)</placeName><placeName ref="http://www.trismegistos.org/place/014422">Superaequum</placeName></origPlace>
+                            <origDate notBefore-custom="0014" notAfter-custom="0037" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">14 AD – 37 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1898">1898</date>
+                        <placeName ref="http://www.geonames.org/">Castelvecchio Subequo</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Abruzzo</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-03-03" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1984, 0282. 
+                    </bibl>
+                    <bibl>
+                         F. van Wonterghem, Superaequum, Corfinium, Sulmo, Forma Italiae, Regio IV 1 (Firenze 1984) 83; fig. 39. - AE 1984. 
+                    </bibl>
+                    <bibl>
+                         A. De Nino, NSA 1898, 75. - AE 1898, AE 1984. 
+                    </bibl>
+                    <bibl>
+                         AE 1898, 0079. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Q(uintus) Octavius L(uci) f(ilius) S[agitta - - -] / sacras basilica[s - - -] / et novas facien[das - - -] / reficiendum viam [- - -] / Romae et Augusti Ca[esaris - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uintus</ex></expan> Octavius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> S<supplied reason="lost">agitta</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>sacras basilica<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>et novas facien<supplied reason="lost">das</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>reficiendum viam <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>Romae et Augusti Ca<supplied reason="lost">esaris</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Erhalten sind 2 anpassende Teile. Es handelt sich wahrscheinlich um dieselbe Person, die in Superaequum als quinquennalis II (CIL IX 3311 = ILS 6532) und III sowie als Ritter bezeugt ist (ILS 9007); vgl. AE 1977, 241; H.-G. Pflaum, Les carrières procuratoriennes équestres I 13-16, Nr. 1; III 957 add.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

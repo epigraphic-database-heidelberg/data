@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002944</idno>
+                <idno type="TM">251254</idno><idno type="localID">HD002944</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>61</height>
+                                        <width>73</width>
+                                        <depth>15</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033152">Latium et Campania (Regio I)</placeName><placeName ref="http://www.trismegistos.org/place/032416">Casilinum, aus</placeName></origPlace>
+                            <origDate notBefore-custom="-0102" notAfter-custom="-0098" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">102 BC – 98 BC
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Casoria</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Campania</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-03-12" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1984, 0190. 
+                    </bibl>
+                    <bibl>
+                         C. Ferone, in: MGR 9 (Roma 1984) 151-154; tav. 1. - AE 1984. 
+                    </bibl>
+                    <bibl>
+                         AE 1960, 0254. (B) 
+                    </bibl>
+                    <bibl>
+                         A. De Franciscis, NSA 1957, 369-370, Nr. 18. (B) - AE 1960. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                N(umerius) Vesvi(us) N(umeri) f(ilius) / M(arcus) Loli(us) Q(uinti) f(ilius) / Q(uintus) Sexti(us) C(ai) f(ilius) / L(ucius) Loli(us) L(uci) f(ilius) / C(aius) Stati(us) M(arci) f(ilius) / C(aius) Arri(us) V(ibi) f(ilius) // M(arcus) Egnati(us) M(arci) f(ilius) / N(umerius) Opius N(umeri) f(ilius) / M(arcus) Teroni(us) Ov(i) f(ilius) / C(aius) Vibius Q(uinti) f(ilius) / M(arcus) Nerius Ov(i) f(ilius) / Cn(aeus) Arri(us) Cn(aei) f(ilius) // heisce mag(istreis) hoc opus / faciendum couravere / eisdemque probavere
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>N</abbr><ex>umerius</ex></expan> <expan><abbr>Vesvi</abbr><ex>us</ex></expan> <expan><abbr>N</abbr><ex>umeri</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Loli</abbr><ex>us</ex></expan> <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="3"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> <expan><abbr>Sexti</abbr><ex>us</ex></expan> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="4"/><expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Loli</abbr><ex>us</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="5"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Stati</abbr><ex>us</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="6"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Arri</abbr><ex>us</ex></expan> <expan><abbr>V</abbr><ex>ibi</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Egnati</abbr><ex>us</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/><expan><abbr>N</abbr><ex>umerius</ex></expan> Opius <expan><abbr>N</abbr><ex>umeri</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Teroni</abbr><ex>us</ex></expan> <expan><abbr>Ov</abbr><ex>i</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="4"/><expan><abbr>C</abbr><ex>aius</ex></expan> Vibius <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="5"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Nerius <expan><abbr>Ov</abbr><ex>i</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="6"/><expan><abbr>Cn</abbr><ex>aeus</ex></expan> <expan><abbr>Arri</abbr><ex>us</ex></expan> <expan><abbr>Cn</abbr><ex>aei</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> heisce <expan><abbr>mag</abbr><ex>istreis</ex></expan> hoc opus <lb n="2"/>faciendum couravere <lb n="3"/>eisdemque probavere
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Tiefe wegen Vermauerung nicht feststellbar. Der Text ist identisch mit dem einer 1954 bei Mulino Parisi gefundenen Inschrift. Buchstaben nachträglich mit schwarzer Farbe nachgezogen. Y: Datierung nach De Franciscis um 100; die tituli magistrorum Campanorum stammen aus Zeit von 112-71 v. Chr. (B): AE 1960, De Franciscis: Kleinere Leseabweichungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD012791</idno>
+                <idno type="TM">190920</idno><idno type="localID">HD012791</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>108</height>
+                                        <width>29</width>
+                                        <depth>29</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4-3.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName>Municipium Montanensium</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1977">1977</date>
+                        <placeName ref="http://www.geonames.org/729114">Montana (Mihajlovgrad)</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Montana﻿</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-05-10" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1987, 0881. (B) 
+                    </bibl>
+                    <bibl>
+                         V. Božilova, Montana 1, 1987, 29, Nr. 15; obr. 14. (B) - AE 1987. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Diis Sanctis // Dianae Regi(n)ae / et Apollini / Phoebo / Iul(ius) Mucaze/nus b(ene)f(iciarius) co(n)s(ularis) leg(ionis) / I Ital(icae) ag(ens) t(erritorio) M(ontanensium) / pro sal(ute) sua / et Iuliae coniu(gis) / eius gratias / agens v(otum) s(olvit) l(ibens) m(erito)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Diis Sanctis </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Dianae Regi<expan><ex>n</ex><abbr>ae</abbr></expan> <lb n="2"/>et Apollini <lb n="3"/>Phoebo <lb n="4"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Mucaze<lb break="no" n="5"/>nus b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="6"/>I <expan><abbr>Ital</abbr><ex>icae</ex></expan> <expan><abbr>ag</abbr><ex>ens</ex></expan> <expan><abbr>t</abbr><ex>erritorio</ex></expan> <expan><abbr>M</abbr><ex>ontanensium</ex></expan> <lb n="7"/>pro <expan><abbr>sal</abbr><ex>ute</ex></expan> sua <lb n="8"/>et Iuliae <expan><abbr>coniu</abbr><ex>gis</ex></expan> <lb n="9"/>eius gratias <lb n="10"/>agens <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Božilova, AE 1987: Z. 2: reginae.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

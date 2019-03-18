@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD009901</idno>
+                <idno type="TM">190842</idno><idno type="localID">HD009901</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Constanţa, Muz. Ist. Naţ. Arh.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-172</height>
+                                        <width>71</width>
+                                        <depth>13</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">1.2-2.8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName>Callatis</placeName></origPlace>
+                            <origDate notBefore-custom="0238" notAfter-custom="0244" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">238 AD – 244 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1957">1957</date>
+                        <placeName ref="http://www.geonames.org/673921">Mangalia</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Constanța</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-10-10" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1972, 0545. 
+                    </bibl>
+                    <bibl>
+                         D.M. Pippidi, StudClas 14, 1972, 141-148; Foto. - AE 1972. 
+                    </bibl>
+                    <bibl>
+                         T. Sauciuc-Săveanu - A. Rădulescu, Pontice 1, 1968, 307-316; fig. 1. - AE 1972. 
+                    </bibl>
+                    <bibl>
+                         IScM 3, 074; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Pro sal(ute) Imp(eratoris) Caes(aris) M(arci) Ant(oni) Gord(iani) / Aug(usti) et Sabiniae Tranquilli/nae Aug(ustae) // Ἑρέννιος Ἀπολινάρ(ις) βενεφ(ικιάριος) ὑπατικ(οῦ) / τὸν ταλαμῶνα σὺν τῇ ἄρκ(υ) / φιλοκύνηγ(ος) ἐκ τῶν ἰδίων / τοῖς ὑποτεταγμέν(οις) δῶρον / τοῖς περὶ Π(όπλιον) Οὐαλέρ(ιον) Χάρητα / Θεόδωρον Ἡρέων(ος) Ἀσκληπιάδην / Ὑγιαίνοντος Ἡρέων(α) Ἰταλικοῦ / Μινικίους Ἀθανέων(α) καὶ Τρύφωνα / Αἰλ(ίους) Ἡφαιστόδωρον καὶ Ἀρχ(ίαν) Φρόντωνα / Καλλιστράτου Διονύσιον Καλλιστράτου / Αἰμίλι(ον) Αἰμιλιανοῦ Ἡρέων(α) Νουμηνίου / Ἰούλ(ιον) Φλάβιον Ἡρέων(α) Ἡ[ρ]έ[ων]ος / Ὑγιαίνων Ἡρέωνος / Διονύσιος βʹ / Ἀσκληπιάδης Θεοδώρου / Θεόδωρος Ἀσκλ<η>πιά<δ>ου / Ἡλιόδωρος Θεοδώρου / Εὐσέβης Εὐσέβους / Ἡλιόδωρος Φαρνάκου / Διονυσόδωρος Ἰταλικοῦ / Ἀσκληπιάδης Ἱερωνύμου / Ἀλέξανδρος Μαξίμου / Ἀρίστων Εὐπρέπους / Πομ<π>ηϊανὸς Ἡρακλείδου / Αἴλιος Ἰου<λ>ιανός / Ἀθανέων Βουκκη / Φλά(βιος) Ἡφαιστίων / Πανχάρις Διονυσίου / Ἡρακλέων Κορν(ηλίου) / Παννόνιον / γραμματεῖ<ς> / Σωκράτης Καλανδίων / ἔκδικον / Κάρπον Συντρόφου / φιλότειμον κάλλιστον / Ῥηγιλλιανὸν Ῥηγεῖνον / Καλλίνεικον Βάλεντα / Σεραπίωνα Ζώσιμον / Ἀσκληπιάδην Ἰούλι(ον) / Εὐτυχιανόν / Ῥόνοικον / Διοδώρου / Ἡρακλείδην Ὀπερα/ῖον
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Pro <expan><abbr>sal</abbr><ex>ute</ex></expan> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Ant</abbr><ex>oni</ex></expan> <expan><abbr>Gord</abbr><ex>iani</ex></expan> <lb n="2"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> et Sabiniae Tranquilli<lb break="no" n="3"/>nae <expan><abbr>Aug</abbr><ex>ustae</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Ἑρέννιος Ἀπολινάρ(ις) βενεφ(ικιάριος) ὑπατικ(οῦ) <lb n="2"/>τὸν ταλαμῶνα σὺν τῇ ἄρκ(υ) <lb n="3"/>φιλοκύνηγ(ος) ἐκ τῶν ἰδίων <lb n="4"/>τοῖς ὑποτεταγμέν(οις) δῶρον <lb n="5"/>τοῖς περὶ Π(όπλιον) Οὐαλέρ(ιον) Χάρητα <lb n="6"/>Θεόδωρον Ἡρέων(ος) Ἀσκληπιάδην <lb n="7"/>Ὑγιαίνοντος Ἡρέων(α) Ἰταλικοῦ <lb n="8"/>Μινικίους Ἀθανέων(α) καὶ Τρύφωνα <lb n="9"/>Αἰλ(ίους) Ἡφαιστόδωρον καὶ Ἀρχ(ίαν) Φρόντωνα <lb n="10"/>Καλλιστράτου Διονύσιον Καλλιστράτου <lb n="11"/>Αἰμίλι(ον) Αἰμιλιανοῦ Ἡρέων(α) Νουμηνίου <lb n="12"/>Ἰούλ(ιον) Φλάβιον Ἡρέων(α) Ἡ<supplied reason="lost">ρ</supplied>έ<supplied reason="lost">ων</supplied>ος <lb n="13"/>Ὑγιαίνων Ἡρέωνος <lb n="14"/>Διονύσιος βʹ <lb n="15"/>Ἀσκληπιάδης Θεοδώρου <lb n="16"/>Θεόδωρος Ἀσκλ<supplied reason="omitted">η</supplied>πιά<supplied reason="omitted">δ</supplied>ου <lb n="17"/>Ἡλιόδωρος Θεοδώρου <lb n="18"/>Εὐσέβης Εὐσέβους <lb n="19"/>Ἡλιόδωρος Φαρνάκου <lb n="20"/>Διονυσόδωρος Ἰταλικοῦ <lb n="21"/>Ἀσκληπιάδης Ἱερωνύμου <lb n="22"/>Ἀλέξανδρος Μαξίμου <lb n="23"/>Ἀρίστων Εὐπρέπους <lb n="24"/>Πομ<supplied reason="omitted">π</supplied>ηϊανὸς Ἡρακλείδου <lb n="25"/>Αἴλιος Ἰου<supplied reason="omitted">λ</supplied>ιανός <lb n="26"/>Ἀθανέων Βουκκη <lb n="27"/>Φλά(βιος) Ἡφαιστίων <lb n="28"/>Πανχάρις Διονυσίου <lb n="29"/>Ἡρακλέων Κορν(ηλίου) <lb n="30"/>Παννόνιον <lb n="31"/>γραμματεῖ<supplied reason="omitted">ς</supplied> <lb n="32"/>Σωκράτης Καλανδίων <lb n="33"/>ἔκδικον <lb n="34"/>Κάρπον Συντρόφου <lb n="35"/>φιλότειμον κάλλιστον <lb n="36"/>Ῥηγιλλιανὸν Ῥηγεῖνον <lb n="37"/>Καλλίνεικον Βάλεντα <lb n="38"/>Σεραπίωνα Ζώσιμον <lb n="39"/>Ἀσκληπιάδην Ἰούλι(ον) <lb n="40"/>Εὐτυχιανόν <lb n="41"/>Ῥόνοικον <lb n="42"/>Διοδώρου <lb n="43"/>Ἡρακλείδην Ὀπερα<lb break="no" n="44"/>ῖον
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

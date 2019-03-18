@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD032854</idno>
+                <idno type="TM">182228</idno><idno type="localID">HD032854</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Pljevlja, Velika Džamija</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-53</height>
+                                        <width>-49</width>
+                                        <depth>-38</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.5-2.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName>Municipium S[---], bei</placeName></origPlace>
+                            <origDate notBefore-custom="0138" notAfter-custom="0161" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">138 AD – 161 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1940">1940</date>
+                        <placeName ref="http://www.geonames.org/3193161">Pljevlja</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/me/">Montenegro</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-09-30" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        ILJug 0071. 
+                    </bibl>
+                    <bibl>
+                         D. Sergejevski, GlasSarajevo 53, 1941, 5-8, Nr. 1; sl. 3. 
+                    </bibl>
+                    <bibl>
+                         I. Bojanovski, GodAkSarajevo 25, 1987, 165-166, Nr. 10. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [L(ucio) Ael]io Aure/[lio C]ommodo / [co(n)s(uli) L(uci)] Aeli Caes(aris) p(atris) / [Imp(eratoris) Ant]onini Aug(usti) / [Pii fil(io) divi] Hadri/[ani nep(oti) &
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan> Ael</supplied>io Aure<lb break="no" n="2"/><supplied reason="lost">lio C</supplied>ommodo <lb n="3"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan></supplied> Aeli <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>p</abbr><ex>atris</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Ant</supplied>onini <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="5"/><supplied reason="lost">Pii <expan><abbr>fil</abbr><ex>io</ex></expan> divi</supplied> Hadri<lb break="no" n="6"/>[ani <expan><abbr>nep</abbr><ex>oti</ex></expan> &amp;
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Ergänzungen nach ILJug. Datierung: 25.2.138 (Adoption des L. Verus durch Antoninus Pius) bis 7.3.161 n. Chr. (Erhebung des L. Verus zum Augustus).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

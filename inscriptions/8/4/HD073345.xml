@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD073345</idno>
+                <idno type="TM"/><idno type="localID">HD073345</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>149</height>
+                                        <width>-58</width>
+                                        <depth>20</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">8.5-5.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum</placeName></origPlace>
+                            <origDate notBefore-custom="0081" notAfter-custom="0096" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">81 AD – 96 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1896">1896</date>
+                        <placeName ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Niederösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-05-11" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F019109">
+            <desc>F019109</desc>
+        </graphic>
+
+        <graphic url="http://lupa.at/243">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 14358, 14. 
+                    </bibl>
+                    <bibl>
+                         M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR Österreich 1, 4 (Wien 1972) 42, Nr. 522; Taf. 41, 522. 
+                    </bibl>
+                    <bibl>
+                         M. Mosser, Die Steindenkmäler der legio XV Apollinaris (Wien 2003) 176, Nr. 22; Taf. 5, 22. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                L(ucius) Cassius / Cla(udia) Alban/us Aeq(uiculis) mil(es) / leg(ionis) XV Apo(llinaris) / |(centuria) Salvi Mar/celli stip(endiorum) / XII an(norum) XXXV / Sex(tus) Val(erius) Ma/cer he(res) p(osuit)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Cassius <lb n="2"/><expan><abbr>Cla</abbr><ex>udia</ex></expan> Alban<lb break="no" n="3"/>us <expan><abbr>Aeq</abbr><ex>uiculis</ex></expan> <expan><abbr>mil</abbr><ex>es</ex></expan> <lb n="4"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XV <expan><abbr>Apo</abbr><ex>llinaris</ex></expan> <lb n="5"/><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Salvi Mar<lb break="no" n="6"/>celli <expan><abbr>stip</abbr><ex>endiorum</ex></expan> <lb n="7"/>XII <expan><abbr>an</abbr><ex>norum</ex></expan> XXXV <lb n="8"/><expan><abbr>Sex</abbr><ex>tus</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> Ma<lb break="no" n="9"/>cer <expan><abbr>he</abbr><ex>res</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Zeile 1: VS klein und übereinander geschrieben; Zeile 5: AR-Ligatur; Zeile 7: V klein zwischen die Schräghasten des X eingeschrieben.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

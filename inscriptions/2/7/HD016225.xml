@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD016225</idno>
+                <idno type="TM">190948</idno><idno type="localID">HD016225</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bucureşti, Muz. Naţ. Ant.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName ref="http://www.trismegistos.org/place/029865">Tropaeum Traiani, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/662136">Adamclisi</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Constanța</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift?</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-06-18" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1964, 0253. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 07484. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 12461. 
+                    </bibl>
+                    <bibl>
+                         ILS 7183. (B) 
+                    </bibl>
+                    <bibl>
+                         E. Popescu, StudClas 6, 1964, 200-202. - AE 1964. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Ordo spl[endi]/dissima(!) mun[ic(ipii)] / Trop(aei) per Tib(erium) Cla[ud(ium)] / Germanu(m) e[t] M(arcum) / Aur(elium) Flaviu(m) d[uu]/mveros(!) a(e)dile[s] / Val(erius) Valerianus e[t] / Iul(ius) Quirillus qu[a]/estores Ulp(ius) Hercu/lanus et Iul(ius) Hercula/[nus] s[crib]a Coc[ceius] / [po]s(uerunt)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Ordo spl<supplied reason="lost">endi</supplied><lb break="no" n="2"/>dissima <note>sic</note> mun<supplied reason="lost"><expan><abbr>ic</abbr><ex>ipii</ex></expan></supplied> <lb n="3"/><expan><abbr>Trop</abbr><ex>aei</ex></expan> per <expan><abbr>Tib</abbr><ex>erium</ex></expan> Cla<supplied reason="lost"><expan><abbr>ud</abbr><ex>ium</ex></expan></supplied> <lb n="4"/><expan><abbr>Germanu</abbr><ex>m</ex></expan> e<supplied reason="lost">t</supplied> <expan><abbr>M</abbr><ex>arcum</ex></expan> <lb n="5"/><expan><abbr>Aur</abbr><ex>elium</ex></expan> <expan><abbr>Flaviu</abbr><ex>m</ex></expan> d<supplied reason="lost">uu</supplied><lb break="no" n="6"/>mveros <note>sic</note> a<expan><ex>e</ex><abbr>dile</abbr></expan><supplied reason="lost">s</supplied> <lb n="7"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Valerianus e<supplied reason="lost">t</supplied> <lb n="8"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Quirillus qu<supplied reason="lost">a</supplied><lb break="no" n="9"/>estores <expan><abbr>Ulp</abbr><ex>ius</ex></expan> Hercu<lb break="no" n="10"/>lanus et <expan><abbr>Iul</abbr><ex>ius</ex></expan> Hercula<lb break="no" n="11"/><supplied reason="lost">nus</supplied> s<supplied reason="lost">crib</supplied>a Coc<supplied reason="lost">ceius</supplied> <lb n="12"/><expan><abbr><supplied reason="lost">po</supplied>s</abbr><ex>uerunt</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Hederae.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

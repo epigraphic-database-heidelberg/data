@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD051101</idno>
+                <idno type="TM">201829</idno><idno type="localID">HD051101</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>58</height>
+                                        <width>245</width>
+                                        <depth>28</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.9-4.2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/015771">Africa Proconsularis</placeName><placeName>Abthugnos</placeName></origPlace>
+                            <origDate notBefore-custom="0376" notAfter-custom="0377" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">376 AD – 377 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/tn/">Tunesien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-09-01" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1995, 1655. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Forum quod per annorum seriem turpi[ter iacebat ita ut pars quae frontem?] / moenium aspiciebat tantummodo remansisse[t restitutum est? beatissimo saeculo] / ddd(ominorum) nnn(ostrorum) Valentis Gratiani et Valentiniani invic[tissimorum semper Auggg(ustorum) et status eius?] / absertus(!) est ac melior proconsulatu Decimi Hesperi v(iri) c(larissimi) apu[d oculos omnium pro splendore patriae?] / esse cognoscitur adiuncto quoque statuarum ornatu una cuc[hlia - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Forum quod per annorum seriem turpi<supplied reason="lost" cert="low">ter iacebat ita ut pars quae frontem</supplied> <lb n="2"/>moenium aspiciebat tantummodo remansisse<supplied reason="lost">t restitutum est<certainty locus="name" match="preceding-sibling::text()" cert="low"/> beatissimo saeculo</supplied> <lb n="3"/><expan><abbr>d<am>dd</am></abbr><ex>ominorum</ex></expan> <expan><abbr>n<am>nn</am></abbr><ex>ostrorum</ex></expan> Valentis Gratiani et Valentiniani invic<supplied reason="lost" cert="low">tissimorum semper Auggg(ustorum) et status eius</supplied> <lb n="4"/>absertus <note>sic</note> est ac melior proconsulatu Decimi Hesperi <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan> apu<supplied reason="lost" cert="low">d oculos omnium pro splendore patriae</supplied> <lb n="5"/>esse cognoscitur adiuncto quoque statuarum ornatu una cuc<supplied reason="lost">hlia</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

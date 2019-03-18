@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059953</idno>
+                <idno type="TM">185865</idno><idno type="localID">HD059953</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Solin, Šuplja crkva</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>67</height>
+                                        <width>232</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/015883">Salonae, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0451-03-18" notAfter-custom="0451-03-18" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">18.3.451 AD – 600 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Splitsko-dalmatinska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-06-06" who="gräf">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1995, 1228. 
+                    </bibl>
+                    <bibl>
+                         E. Marin, in: E. Marin (Hrsg.), Salona Christiana. Starokršćanski Solin, Arheološki Muzej, Split 1994 (Split 1994) 74, Nr. 35; sl. 18 (Zeichnung). - AE 1995. 
+                    </bibl>
+                    <bibl>
+                         E. Marin u. a., Salona 4. Inscriptions de Salone chrétienne, IVe-VIIe siècles (Rome - Split 2010) 765-766, Nr. 425; Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Depositio ven(a)e(!) memoriae / A<u>gustae sub die XIIII K(a)l(endas) Aprilis(!) / ind(ictione) prima
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Depositio ven<expan><ex>a</ex><abbr>e</abbr></expan> <note>sic</note> memoriae <lb n="2"/>A<supplied reason="omitted">u</supplied>gustae sub die XIIII K<expan><ex>a</ex><abbr>l</abbr><ex>endas</ex></expan> Aprilis <note>sic</note> <lb n="3"/><expan><abbr>ind</abbr><ex>ictione</ex></expan> prima
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Inschrift befindet sich auf der Vorderseite eines Sarkophagkastens. Kreuzzeichen am Anfang von Z. 1 und am Ende von Z. 3. Buchstabe A mit spitz nach unten zeigender Querhaste. Z. 2: K(a)l(endas) nachträglich so zwischen Z. 1 u. 2 eingefügt, daß das obere Ende des Buchstabens A von Aprilis(!) zwischen K und L steht.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

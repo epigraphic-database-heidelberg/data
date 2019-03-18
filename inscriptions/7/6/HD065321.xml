@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD065321</idno>
+                <idno type="TM">197905</idno><idno type="localID">HD065321</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>184</height>
+                                        <width>66</width>
+                                        <depth>66</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.5-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000014">Thracia</placeName><placeName ref="http://www.trismegistos.org/place/015863">Philippopolis</placeName></origPlace>
+                            <origDate notBefore-custom="0235" notAfter-custom="0238" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">235 AD – 238 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/728193">Plovdiv</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Plovdiv</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-09-21" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2006, 1249. 
+                    </bibl>
+                    <bibl>
+                         N. Sharankov, BIAB 39, 2006, 237-238, Nr. 3; obr. 7. - AE 2006. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                ἀγαθῆι τύχηι / τὸν μέγιστον καὶ θειό/τατον Αὐτοκράτορα [[Γ(άιον) [Ἰούλιον]]] / [[[Οὐῆρον Μαξιμεῖνον? Εὐσεβῆ]]] Εὐτυχῆ Σεβ(αστὸν) ἡ λαμπρο/τάτη Θρᾳκῶν ἐπάρχει<α=Ο>ς#ἐπάρχει<α>ς#ἐπάρχειΟς / ἡγεμονεύοντος τῆς / [Θ]ρᾳκῶν ἐπαρχείας Γ(αίου) Οὐιβί[ου] / Γάλλου πρεσβ(ευτοῦ) Σεββ(αστῶν) ἀντι/στρατήγου / ἐπιμελουμένου Μάρκου Αὐρηλίου Στά/σονος Εἰάσονος θρᾳκάρχου / εὐτυχῶς
+            --><div type="edition" xml:lang="grc"><head>Text</head><ab><lb n="1"/>
+                ἀγαθῆι τύχηι <lb n="2"/>τὸν μέγιστον καὶ θειό<lb break="no" n="3"/>τατον Αὐτοκράτορα <del rend="erasure">Γ(άιον) [Ἰούλιον</del>] <lb n="4"/><del rend="erasure">[Οὐῆρον Μαξιμεῖνον<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Εὐσεβῆ</del>] Εὐτυχῆ Σεβ(αστὸν) ἡ λαμπρο<lb break="no" n="5"/>τάτη Θρᾳκῶν ἐπάρχει<choice><corr>α</corr><sic>Ο</sic></choice>ς#ἐπάρχει<supplied reason="omitted">α</supplied>ς#ἐπάρχειΟς <lb n="6"/>ἡγεμονεύοντος τῆς <lb n="7"/><supplied reason="lost">Θ</supplied>ρᾳκῶν ἐπαρχείας Γ(αίου) Οὐιβί<supplied reason="lost">ου</supplied> <lb n="8"/>Γάλλου πρεσβ(ευτοῦ) Σεββ(αστῶν) ἀντι<lb break="no" n="9"/>στρατήγου <lb n="10"/>ἐπιμελουμένου Μάρκου Αὐρηλίου Στά<lb break="no" n="11"/>σονος Εἰάσονος θρᾳκάρχου <lb n="12"/>εὐτυχῶς
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

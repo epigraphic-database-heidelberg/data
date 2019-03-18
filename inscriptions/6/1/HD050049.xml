@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD050049</idno>
+                <idno type="TM">121485</idno><idno type="localID">HD050049</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000161">Macedonia</placeName><placeName>Colonia Iulia Augusta Philippensium (= Philippi), bei</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/736618">Doxáto</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Anatolikí Makedonía, Thráki</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-11-18" who="Cowey">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 00645. (B) 
+                    </bibl>
+                    <bibl>
+                         P. Pilhofer, Philippi 2. Katalog der Inschriften von Philippi (Tübingen 2000) 420-421, Nr. 429. (B) 
+                    </bibl>
+                    <bibl>
+                         AE 2001, 1787 e. 
+                    </bibl>
+                    <bibl>
+                         H. Solin, Arctos 35, 2001, 233-234. - AE 2001. 
+                    </bibl>
+                    <bibl>
+                         P. Pilhofer, Philippi 2. Katalog der Inschriften von Philippi (2. Aufl. Tübingen 2009) 507-508, Nr. 429. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) / L(uci) Iuni Maxi/mi Me(cia) Neapol[i] / c(o)ho(rtis) III benef(iciarii) / praefectoru[m] / pr(aetorio) an(norum) XXXIII / h(ic) s(itus) curantib(us) / Albio Vero mil(ite) / et Diogan lib(erto)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>L</abbr><ex>uci</ex></expan> Iuni Maxi<lb break="no" n="3"/>mi <expan><abbr>Me</abbr><ex>cia</ex></expan> Neapol<supplied reason="lost">i</supplied> <lb n="4"/>c<expan><ex>o</ex><abbr>ho</abbr><ex>rtis</ex></expan> III <expan><abbr>benef</abbr><ex>iciarii</ex></expan> <lb n="5"/>praefectoru<supplied reason="lost">m</supplied> <lb n="6"/><expan><abbr>pr</abbr><ex>aetorio</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXXIII <lb n="7"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>curantib</abbr><ex>us</ex></expan> <lb n="8"/>Albio Vero <expan><abbr>mil</abbr><ex>ite</ex></expan> <lb n="9"/>et Diogan <expan><abbr>lib</abbr><ex>erto</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): In Z. 7 eher h(ic) s(itus) als h(ic) s(iti), so wie in CIL und Pilhofer. Der Name der in Z. 9 erscheinenden Person ist entweder Dioga (Solin) oder Diogas.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

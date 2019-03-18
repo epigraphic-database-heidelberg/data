@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD038895</idno>
+                <idno type="TM">215223</idno><idno type="localID">HD038895</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Geistthal, S. Jakob, Pfarrkirche, vermauert</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>34</height>
+                                        <width>206</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">7.5-4.0</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003230">Noricum</placeName><placeName ref="http://www.trismegistos.org/place/028344">Flavia Solva, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2778718">Geistthal</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Steiermark</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-12-10" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/1577">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 357-358, Nr. 301; Foto. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 05422 a. (B) 
+                    </bibl>
+                    <bibl>
+                         ILLPRON 1195. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Avitus Optati f(ilius) d(efunctus) an(norum) LV et / Covrun(a)e Ianuari f(iliae) con(iugi) op(timae) / e[t?] M(arco?) Ulp(io)(?) I(?)A(?)[- -]I(?)[- - -]I e[t?] DiC(?)maE(?)E(?)sae an(norum) XI et Hostili{i}a / [-]VE(?)NE(?)I(?)NA con(iux) [- -]I(?)I(?) e[t](?) M(arco) Ulp(io) Acili(o) fil(io) an(norum) XXII
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Avitus Optati <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>d</abbr><ex>efunctus</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> LV et <lb n="2"/>Covrun<expan><ex>a</ex><abbr>e</abbr></expan> Ianuari <expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>con</abbr><ex>iugi</ex></expan> <expan><abbr>op</abbr><ex>timae</ex></expan> <lb n="3"/>e<supplied reason="lost" cert="low">t</supplied> <expan><abbr>M</abbr><ex cert="low">arco</ex></expan> <expan><abbr>Ulp</abbr><ex>io</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>I</abbr><ex cert="low"/>A</expan><certainty match="preceding-sibling::node()" locus="value"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>I e<supplied reason="lost" cert="low">t</supplied> <expan><abbr>DiC</abbr><ex cert="low"/>maE</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>E</abbr><ex cert="low"/>sae</expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XI et Hostili<surplus>i</surplus>a <lb n="4"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>VE</abbr><ex cert="low"/>NE</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>I</abbr><ex cert="low"/>NA</expan> <expan><abbr>con</abbr><ex>iux</ex></expan> <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/> e<supplied reason="lost" cert="low">t</supplied> <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Ulp</abbr><ex>io</ex></expan> <expan><abbr>Acili</abbr><ex>o</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXII
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Lesung der Zeilen 3 und 4 fraglich. Z. 2: kein I-longa in Ianuarii, sondern eine Ligatur II. (B): CIL 03, 05422 a; Weber; ILLPRON: Lesung abweichend/unvollständig.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

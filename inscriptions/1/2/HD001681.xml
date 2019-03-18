@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001681</idno>
+                <idno type="TM">193974</idno><idno type="localID">HD001681</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Százhalombatta, Matrica Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-95</height>
+                                        <width>75</width>
+                                        <depth>24</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">8-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/029210">Matrica</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3044821">Százhalombatta</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Pest megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-12-12" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0814. (B) 
+                    </bibl>
+                    <bibl>
+                         J. Topál, The Southern Cemetry of Matrica (Százhalombatta - Dunafüred) (Budapest 1981) 99, Nr. 3; fig. 4 (Zeichnung). (B) - AE 1982. 
+                    </bibl>
+                    <bibl>
+                         RIU 1438; Abb. 1438 (Foto u. Zeichnung). (B) 
+                    </bibl>
+                    <bibl>
+                         G. Alföldy, SpNov 16, 2000, 63-64. - AE 2001. 
+                    </bibl>
+                    <bibl>
+                         AE 2001, 1685g. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $]/in(a)e vix[it] / ann(os) XXIII / coniugi mere/ntissim(a)e Cl(audius) Valeri/us mil(es) l[eg(ionis) I] It(alicae) et Cl(audio) / Valerino filio / et Cl(audiae) Valerin(a)e / fili(a)e vivis // o(pto) t(ibi) t(erram) l(evem)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="2"/>in<expan><ex>a</ex><abbr>e</abbr></expan> vix<supplied reason="lost">it</supplied> <lb n="3"/><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXIII <lb n="4"/>coniugi mere<lb break="no" n="5"/>ntissim<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>Cl</abbr><ex>audius</ex></expan> Valeri<lb break="no" n="6"/>us <expan><abbr>mil</abbr><ex>es</ex></expan> l<supplied reason="lost"><expan><abbr>eg</abbr><ex>ionis</ex></expan> I</supplied> <expan><abbr>It</abbr><ex>alicae</ex></expan> et <expan><abbr>Cl</abbr><ex>audio</ex></expan> <lb n="7"/>Valerino filio <lb n="8"/>et <expan><abbr>Cl</abbr><ex>audiae</ex></expan> Valerin<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="9"/>fili<expan><ex>a</ex><abbr>e</abbr></expan> vivis </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>o</abbr><ex>pto</ex></expan> <expan><abbr>t</abbr><ex>ibi</ex></expan> <expan><abbr>t</abbr><ex>erram</ex></expan> <expan><abbr>l</abbr><ex>evem</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z.5: Vorschlag Topál: mil(es) [leg(ionis) II] It(alicae), [coh(ortis)]I T(hracum). (B): Topál, Z.6: V f[i]lio; Z.5 et fehlt (in Umzeichnung vorhanden); Topál, AE: Z.8: vivi s(ibi); RIU: Z. 1: vixit, Z. 5: l(egionis) [II]. Die Schlußformel befindet sich in einem Kreis. Textwiedergabe nach RIU und Géza Alföldy (für Z. 1 und Z. 5).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

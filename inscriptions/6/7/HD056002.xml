@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD056002</idno>
+                <idno type="TM">217857</idno><idno type="localID">HD056002</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-4</height>
+                                        <width>-2.1</width>
+                                        <depth>0.1</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">0.3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">unbekannt</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0133" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">133 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries//">unbekannt</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-04-02" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2005, 1717. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $ conubiu]m cu[m uxorib(us) quas tunc habuis]sent cum est c[ivitas iis data aut si qu]i caelibes esse[nt cum iis quas postea] duxissent dum[taxat singuli singula]s a(nte) d(iem) V[- - - Q(uinto) F]lavio Te[rtullo Q(uinto) I]unio Ru[stico co(n)s(ulibus) & // $ sub Calpu]rnio Seneca [- - - stipendiis emeritis d]imiss(is) honest[a missione quorum nomina] subscript(a) su[nt ipsis liberis posteri]sq(ue) eorum civ[itatem dedit et conubium cum] uxorib(us) quas [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><supplied reason="lost">conubiu</supplied>m cu<supplied reason="lost">m <expan><abbr>uxorib</abbr><ex>us</ex></expan> quas tunc habuis</supplied>sent cum est c<supplied reason="lost">ivitas iis data aut si qu</supplied>i caelibes esse<supplied reason="lost">nt cum iis quas postea</supplied> duxissent dum<supplied reason="lost">taxat singuli singula</supplied>s <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> V<supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Q</abbr><ex>uinto</ex></expan> F</supplied>lavio Te<supplied reason="lost">rtullo <expan><abbr>Q</abbr><ex>uinto</ex></expan> I</supplied>unio Ru[stico co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> &amp; </ab></div><div n="2" type="textpart"><ab><lb n="1"/> $ sub Calpu]rnio Seneca <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> stipendiis emeritis d</supplied><expan><abbr>imiss</abbr><ex>is</ex></expan> honest<supplied reason="lost">a missione quorum nomina</supplied> <expan><abbr>subscript</abbr><ex>a</ex></expan> su<supplied reason="lost">nt ipsis liberis posteri</supplied><expan><abbr>sq</abbr><ex>ue</ex></expan> eorum civ<supplied reason="lost">itatem dedit et conubium cum</supplied> <expan><abbr>uxorib</abbr><ex>us</ex></expan> quas <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

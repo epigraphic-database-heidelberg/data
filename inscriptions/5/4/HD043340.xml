@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD043340</idno>
+                <idno type="TM">177230</idno><idno type="localID">HD043340</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000078">Achaia</placeName><placeName ref="http://www.trismegistos.org/place/008306">Delphi</placeName></origPlace>
+                            <origDate notBefore-custom="0150" notAfter-custom="0160" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">150 AD – 160 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/263219">Delphi</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Stereá Elláda</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-08-13" who="Cowey">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        N. Valmin, Fouilles de Delphes 3, 6 (Paris 1939) 129-130, Nr. 143. 
+                    </bibl>
+                    <bibl>
+                         TAM 4, 0034. 
+                    </bibl>
+                    <bibl>
+                         AE 2002, 1341. 
+                    </bibl>
+                    <bibl>
+                         J.-Y. Strasser, BCH 126, 2002, 104-109, Nr. 2. - AE 2002. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                ἡ μητρόπολις καὶ πρώτη Βειθυνίας Πόντου Ἁδριανὴ νεοκόρος / Νεικομήδεια, ἱερὰ καὶ ἄσυλος, φίλη καὶ σύμμαχος / [ἄνω]θεν τῷ δήμῳ τῷ Ῥωμαίων, / Τ(ίτον) Αἴλιον Αὐρήλιον [- - -]ν Θεόδοτον, τὸν ἴδιον πολίτην, τὸν καὶ Θηβαῖον καὶ Ἀθηναῖον καὶ Σμυρναῖον καὶ / Ἐφέσιον καὶ Περγαμηνὸν καὶ Ἀντιοχέα τῆς πρὸς Δάφνην, / [πυθ]ικὸν καὶ [κύκ]λιον αὐλητὴν παράδοξον, μόνον καὶ πρῶτον / τῶν ἀπ’ αἰῶνος <ἀνθρώπων> ἑκκαίδεκα ἐτῶν ἀρ<ξ>άμενον {ΑΠΟΡΟΘΙΩΝ} / τοὺς ἄνδρας ἀγωνίζεσθαι, καὶ στεφανωθέντα ἐν Ῥώμῃ / Καπετώλια πυθαύλας, καὶ Ποτιόλους Εὐσέβεια δίς, καὶ Νεάπολιν, / καὶ ἐν Σμύρνῃ κο<ιν>ὸ<ν Ἀσίας καὶ> Ἁδριανὰ(?) Ὀλύμπια, καὶ τ<ὰ> ἐν Ἀθήναις Ἁδριάνεια, / <καὶ> Ἄ<κτι>α καὶ Νέμεια, καὶ Ἴσθμια δίς, καὶ τὸ βʹ Ἄκτια κατὰ τὸ <ἑξῆς> / πυθαύλας καὶ χοραύλας, καὶ Πύθια πυθαύλας, χοραύλας, / κοινὸν τῆς Βειθυνίας ἐν Νεικομηδείᾳ πυθαύλας, χοραύλας / καὶ τὸν διὰ πάντων, κοινὸν Ἀσίας ἐν Σμύρνῃ πυθαύλας, / χοραύλας καὶ τὸν διὰ πάντων, κοινὸν Ἀσίας ἐν Περγάμῳ / πυθαύλας, χοραύλας καὶ τὸν διὰ πάντων, καὶ ἄλλους πλείσ/τους ἱερ<ού>ς τε <καὶ> θεματικοὺς ἀγῶνας, φιλοπονήσαντα ὑπὸ διδασκάλῳ / καὶ μελοποιῷ τῷ ἰδίῳ πατρὶ Ῥούφῳ Φιλαδέλφου, <ἀρετῆς καὶ τῆς π>ερὶ τὴν / δόξαν φιλοτειμίας ἕνεκεν.
+            --><div type="edition" xml:lang="grc"><head>Text</head><ab><lb n="1"/>
+                ἡ μητρόπολις καὶ πρώτη Βειθυνίας Πόντου Ἁδριανὴ νεοκόρος <lb n="2"/>Νεικομήδεια, ἱερὰ καὶ ἄσυλος, φίλη καὶ σύμμαχος <lb n="3"/><supplied reason="lost">ἄνω</supplied>θεν τῷ δήμῳ τῷ Ῥωμαίων, <lb n="4"/>Τ(ίτον) Αἴλιον Αὐρήλιον <gap reason="lost" extent="unknown" unit="character"/>ν Θεόδοτον, τὸν ἴδιον πολίτην, τὸν καὶ Θηβαῖον καὶ Ἀθηναῖον καὶ Σμυρναῖον καὶ <lb n="5"/>Ἐφέσιον καὶ Περγαμηνὸν καὶ Ἀντιοχέα τῆς πρὸς Δάφνην, <lb n="6"/><supplied reason="lost">πυθ</supplied>ικὸν καὶ <supplied reason="lost">κύκ</supplied>λιον αὐλητὴν παράδοξον, μόνον καὶ πρῶτον <lb n="7"/>τῶν ἀπ’ αἰῶνος <supplied reason="omitted">ἀνθρώπων</supplied> ἑκκαίδεκα ἐτῶν ἀρ<supplied reason="omitted">ξ</supplied>άμενον <surplus>ΑΠΟΡΟΘΙΩΝ</surplus> <lb n="8"/>τοὺς ἄνδρας ἀγωνίζεσθαι, καὶ στεφανωθέντα ἐν Ῥώμῃ <lb n="9"/>Καπετώλια πυθαύλας, καὶ Ποτιόλους Εὐσέβεια δίς, καὶ Νεάπολιν, <lb n="10"/>καὶ ἐν Σμύρνῃ κο<supplied reason="omitted">ιν</supplied>ὸ&lt;ν Ἀσίας καὶ&gt; Ἁδριανὰ<certainty match="preceding-sibling::node()" locus="value"/> Ὀλύμπια, καὶ τ<supplied reason="omitted">ὰ</supplied> ἐν Ἀθήναις Ἁδριάνεια, <lb n="11"/><supplied reason="omitted">καὶ</supplied> Ἄ<supplied reason="omitted">κτι</supplied>α καὶ Νέμεια, καὶ Ἴσθμια δίς, καὶ τὸ βʹ Ἄκτια κατὰ τὸ <supplied reason="omitted">ἑξῆς</supplied> <lb n="12"/>πυθαύλας καὶ χοραύλας, καὶ Πύθια πυθαύλας, χοραύλας, <lb n="13"/>κοινὸν τῆς Βειθυνίας ἐν Νεικομηδείᾳ πυθαύλας, χοραύλας <lb n="14"/>καὶ τὸν διὰ πάντων, κοινὸν Ἀσίας ἐν Σμύρνῃ πυθαύλας, <lb n="15"/>χοραύλας καὶ τὸν διὰ πάντων, κοινὸν Ἀσίας ἐν Περγάμῳ <lb n="16"/>πυθαύλας, χοραύλας καὶ τὸν διὰ πάντων, καὶ ἄλλους πλείσ<lb break="no" n="17"/>τους ἱερ<supplied reason="omitted">ού</supplied>ς τε <supplied reason="omitted">καὶ</supplied> θεματικοὺς ἀγῶνας, φιλοπονήσαντα ὑπὸ διδασκάλῳ <lb n="18"/>καὶ μελοποιῷ τῷ ἰδίῳ πατρὶ Ῥούφῳ Φιλαδέλφου, &lt;ἀρετῆς καὶ τῆς π&gt;ερὶ τὴν <lb n="19"/>δόξαν φιλοτειμίας ἕνεκεν.
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

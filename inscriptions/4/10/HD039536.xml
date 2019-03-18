@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD039536</idno>
+                <idno type="TM">196872</idno><idno type="localID">HD039536</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016277">Brigetio</placeName></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3044294">Komárom</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Komárom-Esztergom megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-03-24" who="osnabrügge">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        RIU 0577. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 11032. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Rutil(ius) Marcellinus pa/tri matri fratribus et / sororibus nepties(!) nepot[i]b(us) / et(?) Icaro(?) filius(!) Mario leg(ionis) [I] a(diutricis) / qui vix(it) ann(os) IXXX me(nses?) V di(es?) X SIF/C(?)IVS[-]L(?)IVS ann(os) m(e)n(ses?) I fili(!) meae(!) / [e]t M[ar]tiniano filiem(!) praes(entem?)(!) / qui vix(it) ann(os) XXXV me(n)s(es) V dies XIII / et Aur(e)l(ia)e co(n)iugi eius qui(!) vix(it) ann(os) / X me(n)s(es) IIII dies V parentes vivi po/suerunt
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Rutil</abbr><ex>ius</ex></expan> Marcellinus pa<lb break="no" n="2"/>tri matri fratribus et <lb n="3"/>sororibus nepties <note>sic</note> <expan><abbr>nepot<supplied reason="lost">i</supplied>b</abbr><ex>us</ex></expan> <lb n="4"/><expan><abbr>et</abbr><ex cert="low"/></expan> <expan><abbr>Icaro</abbr><ex cert="low"/></expan> filius <note>sic</note> Mario <expan><abbr>leg</abbr><ex>ionis</ex></expan> <supplied reason="lost">I</supplied> <expan><abbr>a</abbr><ex>diutricis</ex></expan> <lb n="5"/>qui <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> IXXX <expan><abbr>me</abbr><ex cert="low">nses</ex></expan> V <expan><abbr>di</abbr><ex cert="low">es</ex></expan> X SIF<lb break="no" n="6"/><expan><abbr>C</abbr><ex cert="low"/>IVS</expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>L</abbr><ex cert="low"/>IVS</expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> <expan><abbr>m</abbr><ex>e</ex></expan><expan><abbr>n</abbr><ex cert="low">ses</ex></expan> I fili <note>sic</note> meae <note>sic</note> <lb n="7"/><supplied reason="lost">e</supplied>t M<supplied reason="lost">ar</supplied>tiniano filiem <note>sic</note> <expan><abbr>praes</abbr><ex cert="low">entem</ex></expan> <note>sic</note> <lb n="8"/>qui <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXXV me<expan><ex>n</ex><abbr>s</abbr><ex>es</ex></expan> V dies XIII <lb n="9"/>et Aur<expan><ex>e</ex><abbr>l</abbr><ex>ia</ex><abbr>e</abbr></expan> co<expan><ex>n</ex><abbr>iugi</abbr></expan> eius qui <note>sic</note> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> <lb n="10"/>X me<expan><ex>n</ex><abbr>s</abbr><ex>es</ex></expan> IIII dies V parentes vivi po<lb break="no" n="11"/>suerunt
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Lesung unsicher (CIL III: "litteris malis"). Z. 4: ET-Ligatur zu Beginn oder Licaro? Die Deutung von Z. 4 ist unklar. MARIO als korrumpierte Chargenbezeichnung des Icarus/Licarus? Oder Icaro, filius(!) Mario(!)? Z. 6: [fi]lius? Z. 7: praec(edentem)(!)? Z. 10: Bemerkenswert wäre das niedrige Alter der Gattin des Martinianus mit 10 Jahren, sofern dieses richtig überliefert ist.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

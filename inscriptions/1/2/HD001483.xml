@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Aufschrift auf Tessera</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001483</idno>
+                <idno type="TM">195532</idno><idno type="localID">HD001483</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/276">Tessera</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>4.4</height>
+                                        <width>4.8</width>
+                                        <depth>0.1</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">0.7</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum</placeName></origPlace>
+                            <origDate notBefore-custom="0071-01-09" notAfter-custom="0071-01-09" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">9.1.71 AD – 100 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1968">1968</date>
+                        <placeName ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Niederösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/115">Aufschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-08-17" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0773. 
+                    </bibl>
+                    <bibl>
+                         E. Weber, in: M. Grünewald, Die Kleinfunde des Legionslagers von Carnuntum (Wien 1981) 29-31; Taf. 26, 1 u. 26, 2. - AE 1982. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Para[- -]M(?)[& // Pudes (denarios) LXX / scutel(l)a / cuparius // Cers(iaca?) s(aga?) (denarios) XV / (denarios) XV Noni/s Ianuaris / Monomaru(s)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Para<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>M</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Pudes (denarios) LXX <lb n="2"/>scutel<expan><ex>l</ex><abbr>a</abbr></expan> <lb n="3"/>cuparius </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>Cers</abbr><ex cert="low">iaca</ex></expan> <expan><abbr>s</abbr><ex cert="low">aga</ex></expan> (denarios) XV <lb n="2"/>(denarios) XV Noni<lb break="no" n="3"/>s Ianuaris <lb n="4"/><expan><abbr>Monomaru</abbr><ex>s</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Sinn der Texte auf Vorder- und Rückseite nicht eindeutig. Vorderseite: Ein cuparius mit Namen Pudens verrechnet 70 Denare für Lieferung einer oder mehrerer scutellae; oder: Ein gewisser Pudens hat einem nicht namentlich genannten cuparius 70 Denare zu zahlen. Rückseite: Notiz über zwei Geldbeträge von je 15 Denaren, Name des Schuldners, beides durchgestrichen (da die Schuld am fälligen Termin getilgt wurde. Z.1: CERS(iaca) SAG(a), d.h. Mäntel aus dem Land der Cersiaci (Bogaers bei Weber), möglicherweise CELIIC(?). 2 verschiedene Beschriftungen. Tilgung des älteren Textes auf Vorder- und Rückseite; neuer Text auf Vorderseite anscheinend von derselben Hand. Älterer Text zuerst angegeben.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

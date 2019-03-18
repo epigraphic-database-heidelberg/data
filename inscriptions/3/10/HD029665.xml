@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD029665</idno>
+                <idno type="TM">222187</idno><idno type="localID">HD029665</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-148</height>
+                                        <width>57</width>
+                                        <depth>-51.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.2-2.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/026015">Ipsca</placeName></origPlace>
+                            <origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD – 230 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3120288">Íscar</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="1999-09-10" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F020975">
+            <desc>F020975</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F020976">
+            <desc>F020976</desc>
+        </graphic>
+
+        <graphic url="http://cil-old.bbaw.de/test06/bilder/datenbank/PH0005349.jpg">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 02 (2. Aufl.) 05, 00387; Foto. 
+                    </bibl>
+                    <bibl>
+                         CIL 02, 01572. 
+                    </bibl>
+                    <bibl>
+                         ILS 6909. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Liciniae Q(uinti) f(iliae) / Rufinae / sacerdoti / perpetuae / in col(onia) C(laritate) Iul(ia) et in / munic(ipio) C(ontributensi) Ipsc(ensi) / et in munic(ipio) Flor(entino) / Iliberrit(ano) aman/tissimae civium / suorum / plebs Contrib(utensis) Ipsc(ensis) / ob merita eius / statuam aere con/lato d(ono) d(edit) / -Licinia Q(uinti) f(ilia) Rufina / honore accepto / impensam remisit
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Liciniae <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> <lb n="2"/>Rufinae <lb n="3"/>sacerdoti <lb n="4"/>perpetuae <lb n="5"/>in <expan><abbr>col</abbr><ex>onia</ex></expan> <expan><abbr>C</abbr><ex>laritate</ex></expan> <expan><abbr>Iul</abbr><ex>ia</ex></expan> et in <lb n="6"/><expan><abbr>munic</abbr><ex>ipio</ex></expan> <expan><abbr>C</abbr><ex>ontributensi</ex></expan> <expan><abbr>Ipsc</abbr><ex>ensi</ex></expan> <lb n="7"/>et in <expan><abbr>munic</abbr><ex>ipio</ex></expan> <expan><abbr>Flor</abbr><ex>entino</ex></expan> <lb n="8"/><expan><abbr>Iliberrit</abbr><ex>ano</ex></expan> aman<lb break="no" n="9"/>tissimae civium <lb n="10"/>suorum <lb n="11"/>plebs <expan><abbr>Contrib</abbr><ex>utensis</ex></expan> <expan><abbr>Ipsc</abbr><ex>ensis</ex></expan> <lb n="12"/>ob merita eius <lb n="13"/>statuam aere con<lb break="no" n="14"/>lato <expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan> <lb n="15"/>-Licinia <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> Rufina <lb n="16"/>honore accepto <lb n="17"/>impensam remisit
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Einzelne Buchstaben nur handschriftlich überliefert.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meilen-/Leugenstein</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002354</idno>
+                <idno type="TM">176778</idno><idno type="localID">HD002354</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mus. Boǧazköy, Hof</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugenstein</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/74">Konglomerat</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-114</height>
+                                        <width>40</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4-4.2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000691">Galatia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0198" notAfter-custom="0203" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">198 AD – 203 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Karakeçili, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Çorum?</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/tr/">Türkei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-03-15" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1985, 0810. (AB) 
+                    </bibl>
+                    <bibl>
+                         K. Bittel, Beobachtungen an und bei einer römischen Straße im östlichen Galatien (Heidenheim 1985) 13-14; Abb. 17a u. b. (B) - AE 1985. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) A 1331. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(erator) Caesar] / [L(ucius) Septimius Severus Pertinax Aug(ustus)] / [Arabicus Adiabenicus Parthicus pontifex] / [maximus trib(unicia) pot(estate) - - -] / [co(n)s(ul) - - - p(ater) p(atriae) proco(n)s(ul)] / [et Imp(erator) Caesar M(arcus) Aur(elius) Ant]/[oninus et P(ublius) Septim]/[ius Geta] / [Caesar restitu]/[eru]n[t] per Attic(ium) Stra/bonem legatum / Augg(ustorum) pr(o) p(raetore) / m(ilia) XIII // ιγ
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan> Septimius Severus Pertinax <expan><abbr>Aug</abbr><ex>ustus</ex></expan></supplied> <lb n="3"/><supplied reason="lost">Arabicus Adiabenicus Parthicus pontifex</supplied> <lb n="4"/><supplied reason="lost">maximus <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></supplied> <lb n="6"/><supplied reason="lost">et <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> Ant</supplied><lb break="no" n="7"/><supplied reason="lost">oninus et <expan><abbr>P</abbr><ex>ublius</ex></expan> Septim</supplied><lb break="no" n="8"/><supplied reason="lost">ius Geta</supplied> <lb n="9"/><supplied reason="lost">Caesar restitu</supplied><lb break="no" n="10"/><supplied reason="lost">eru</supplied>n<supplied reason="lost">t</supplied> per <expan><abbr>Attic</abbr><ex>ium</ex></expan> Stra<lb break="no" n="11"/>bonem legatum <lb n="12"/><expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>p</abbr><ex>raetore</ex></expan> <lb n="13"/><expan><abbr>m</abbr><ex>ilia</ex></expan> XIII </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ιγ
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> FO wie AE 1985, 0811. (A): Fundjahr falsch. (B): Bittel: keine praenomina; AE 1985: Wiedergabe von griechischen Zahlzeichen falsch (Meilenangabe auch mit griechischen Zahlzeichen). Material: hellgrau-rosa Konglomerat.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

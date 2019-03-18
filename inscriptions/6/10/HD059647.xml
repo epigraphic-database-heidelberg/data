@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059647</idno>
+                <idno type="TM">212199</idno><idno type="localID">HD059647</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-4.3</height>
+                                        <width>-2</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>(Civitas Port...?)</placeName></origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2814747">Walheim</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Baden-Württemberg</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-09-30" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2005, 1114. 
+                    </bibl>
+                    <bibl>
+                         AE 2012, 1011. 
+                    </bibl>
+                    <bibl>
+                         M. Scholz, AAusgrBadWürt 2005, 123-124; Abb. 109 u. 110. - AE 2005. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $ c(ives)] R(omani) essent [a(nte) d(iem) - - - F]ebr(uarias) [L(ucio) Cuspio Rufino L(ucio) Stat]io Quadrato co(n)s(ulibus) [- - -]m cui prae(e)st [- - - - - - // $ vigint(i) stip(endiis) emer(itis) di]m(issis) hon(esta) [miss(ione) quor(um) nom(ina) subcr(ipta) sunt c(ivitatem) R(omanam) qui eor(um) no]n hab(erent) [ded(it) et conub(ium) cum ux(oribus) q(uas) tunc hab(uissent) cum est civ(itas) i]is data [aut cum iis quas pos(tea) dux(issent) dumt(axat) singul(is)] praet(erea) p[raest(itit) ut liber(i) eor(um) quos praes(idi) prov(inciae) ex se] procr(eatos) [anteq(uam) in cast(ra) irent probaver(int) c(ives)] R(omani) essent
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                $ <expan><abbr>c</abbr><ex>ives</ex></expan>] <expan><abbr>R</abbr><ex>omani</ex></expan> essent <supplied reason="lost"><expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> F</supplied><expan><abbr>ebr</abbr><ex>uarias</ex></expan> <supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan> Cuspio Rufino <expan><abbr>L</abbr><ex>ucio</ex></expan> Stat</supplied>io Quadrato co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>m cui prae<expan><ex>e</ex><abbr>st</abbr></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> $ <expan><abbr>vigint</abbr><ex>i</ex></expan> <expan><abbr>stip</abbr><ex>endiis</ex></expan> <expan><abbr>emer</abbr><ex>itis</ex></expan> di]<expan><abbr>m</abbr><ex>issis</ex></expan> <expan><abbr>hon</abbr><ex>esta</ex></expan> <supplied reason="lost"><expan><abbr>miss</abbr><ex>ione</ex></expan> <expan><abbr>quor</abbr><ex>um</ex></expan> <expan><abbr>nom</abbr><ex>ina</ex></expan> <expan><abbr>subcr</abbr><ex>ipta</ex></expan> sunt <expan><abbr>c</abbr><ex>ivitatem</ex></expan> <expan><abbr>R</abbr><ex>omanam</ex></expan> qui <expan><abbr>eor</abbr><ex>um</ex></expan> no</supplied>n <expan><abbr>hab</abbr><ex>erent</ex></expan> <supplied reason="lost"><expan><abbr>ded</abbr><ex>it</ex></expan> et <expan><abbr>conub</abbr><ex>ium</ex></expan> cum <expan><abbr>ux</abbr><ex>oribus</ex></expan> <expan><abbr>q</abbr><ex>uas</ex></expan> tunc <expan><abbr>hab</abbr><ex>uissent</ex></expan> cum est <expan><abbr>civ</abbr><ex>itas</ex></expan> i</supplied>is data <supplied reason="lost">aut cum iis quas <expan><abbr>pos</abbr><ex>tea</ex></expan> <expan><abbr>dux</abbr><ex>issent</ex></expan> <expan><abbr>dumt</abbr><ex>axat</ex></expan> <expan><abbr>singul</abbr><ex>is</ex></expan></supplied> <expan><abbr>praet</abbr><ex>erea</ex></expan> p<supplied reason="lost"><expan><abbr>raest</abbr><ex>itit</ex></expan> ut <expan><abbr>liber</abbr><ex>i</ex></expan> <expan><abbr>eor</abbr><ex>um</ex></expan> quos <expan><abbr>praes</abbr><ex>idi</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan> ex se</supplied> <expan><abbr>procr</abbr><ex>eatos</ex></expan> <supplied reason="lost"><expan><abbr>anteq</abbr><ex>uam</ex></expan> in <expan><abbr>cast</abbr><ex>ra</ex></expan> irent <expan><abbr>probaver</abbr><ex>int</ex></expan> <expan><abbr>c</abbr><ex>ives</ex></expan></supplied> <expan><abbr>R</abbr><ex>omani</ex></expan> essent
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Fragment der tab. I. Tab. I ext.: Z. 1: noch die unteren Enden mehrerer Buchstaben erkennbar.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

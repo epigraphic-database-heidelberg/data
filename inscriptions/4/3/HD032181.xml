@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD032181</idno>
+                <idno type="TM">182215</idno><idno type="localID">HD032181</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>120</height>
+                                        <width>126</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0462-03-11" notAfter-custom="0462-03-11" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">11.3.462 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1901">1901</date>
+                        <placeName ref="http://www.geonames.org/3190641">Dubrovnik</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Dubrovačko-neretvanska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-02-09" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1902, 0208. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 14623. 
+                    </bibl>
+                    <bibl>
+                         ILCV 1174. 
+                    </bibl>
+                    <bibl>
+                         F. Bulić, BullArchCrist 7, 1901, 195-204. - AE 1902. 
+                    </bibl>
+                    <bibl>
+                         J. Dresken-Weiland, Repertorium der christlich-antiken Sarkophage 2 (Mainz 1998) 109, Nr. 310; Taf. 101, 3. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Dep(ositio) et requies s(an)c(t)i ac venera(ndi) / Anastasi pr(es)b(yteri) d(ie) V Id(us) Mart(ias) / indict(ione) XV post c(on)s(ulatum) Severini v(iri) c(larissimi)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Dep</abbr><ex>ositio</ex></expan> et requies s<expan><ex>an</ex><abbr>c</abbr><ex>t</ex><abbr>i</abbr></expan> ac <expan><abbr>venera</abbr><ex>ndi</ex></expan> <lb n="2"/>Anastasi pr<expan><ex>es</ex><abbr>b</abbr><ex>yteri</ex></expan> <expan><abbr>d</abbr><ex>ie</ex></expan> V <expan><abbr>Id</abbr><ex>us</ex></expan> <expan><abbr>Mart</abbr><ex>ias</ex></expan> <lb n="3"/><expan><abbr>indict</abbr><ex>ione</ex></expan> XV post c<expan><ex>on</ex><abbr>s</abbr><ex>ulatum</ex></expan> Severini <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Inschrift befindet sich auf dem Sarkophagkasten. Inschriftfeld in Form einer tabula ansata (46 x 101 cm); in den ansae je ein Kreuzzeichen. Hederae. (B): Dresken-Weiland; AE 1902: Z. 1 (Anfang): d(e)p(ositio).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grenzmarkierung auf Cippus</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD053662</idno>
+                <idno type="TM">184514</idno><idno type="localID">HD053662</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen?</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/85">Cippus?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/029309">Promona, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0037" notAfter-custom="0041" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">37 AD – 41 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1889">1889</date>
+                        <placeName ref="http://www.geonames.org/3194172">Promina</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Šibensko-kninska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/293">Grenzmarkierung?</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-05-05" who="Feraudi">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 09833. 
+                    </bibl>
+                    <bibl>
+                         A. Jagenteufel, Die Statthalter der römischen Provinz Dalmatia von Augustus bis Diokletian (Wien 1958) 17, Nr. 4, 7. 
+                    </bibl>
+                    <bibl>
+                         PIR V 661. 
+                    </bibl>
+                    <bibl>
+                         C. Patsch, WMBH 5, 1897, 212 s. n. 76. 
+                    </bibl>
+                    <bibl>
+                         J.J. Wilkes, AArchSlov 25, 1974, 263-264, Nr. 13. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [L(ucio)] Volus[io] / [Satu]rnino [leg(ato)] / [pr(o)] pr(aetore) C(ai) C[aes(aris)] / [Aug(usti) G]erm[anici]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan></supplied> Volus<supplied reason="lost">io</supplied> <lb n="2"/><supplied reason="lost">Satu</supplied>rnino <supplied reason="lost"><expan><abbr>leg</abbr><ex>ato</ex></expan></supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>pr</abbr><ex>o</ex></expan></supplied> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>C</abbr><ex>ai</ex></expan> C<supplied reason="lost"><expan><abbr>aes</abbr><ex>aris</ex></expan></supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan> G</supplied>erm<supplied reason="lost">anici</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

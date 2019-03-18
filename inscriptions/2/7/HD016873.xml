@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD016873</idno>
+                <idno type="TM">178835</idno><idno type="localID">HD016873</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>14.7</height>
+                                        <width>11.7</width>
+                                        <depth>0.1</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">0.35-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/004366">Dacia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0132" notAfter-custom="0133" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">132 AD – 133 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/677429">Gherla</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Cluj</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-12-12" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1962, 0255. 
+                    </bibl>
+                    <bibl>
+                         AE 1967, 0390. 
+                    </bibl>
+                    <bibl>
+                         RMD 035. 
+                    </bibl>
+                    <bibl>
+                         IDR 1, 011. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) Caesar divi Traiani Parthici f(ilius) [divi] / Nervae nepos Traianus Hadrianus A[ug(ustus)] / pont(ifex) max(imus) trib(unicia) potest(ate) XVII co(n)s(ul) III [p(ater) p(atriae)] / equitib(us) et peditib(us) qui militaver(unt) in [al(is) II] / et coh(ortibus) VI quae appell(antur) Silia(na) c(ivium) R(omanorum) et I Tungr[or(um)] / Fronton(iana) et I Ulp(ia) Britton(um) |(miliaria) et I Britann[ica] |(miliaria) / et I Hispan(orum) et I Batavor(um) |(miliaria) et I Aelia Gaesat(orum) / |(miliaria) et II Britton(um) |(miliaria) et sunt in Dacia Porolis(sensi) / sub Flavio Italico quin(is) et vicen(is) pluribus/ve stipend(iis) emeritis dimiss(is) hon(esta) mission(e) / quor(um) nomina subscripta sunt ipsis liber(is) / posterisq(ue) eor(um) civitat(em) dedit et conubium / cum uxorib(us) quas tunc habuissent / cum est civit(as) iis data aut si qui caelib(es) es/sent cum iis quas postea duxissent dum/taxat singuli singulas a(nte) d(iem) VI Non(as) Iul(ias) / Q(uinto) Flavio Tertullo Q(uinto) Iunio Rustico co(n)s(ulibus) / coh(ortis) I Britannicae |(miliariae) cui prae(e)st / Ti(berius) Claudius Fortis Capua / ex pedite / Sepenesto Rivi f(ilio) Cornon(- - -) / descriptum et recognitum ex tabula ae/nea quae fixa est Romae in muro post / templum divi Aug(usti) ad Minervam // Imp(erator) Caesar divi Traiani Parthici f(ilius) divi Ner/vae nepos Traianus Hadrianus Aug(ustus) pont(ifex) / max(imus) trib(unicia) potest(ate) XVII co(n)s(ul) III p(ater) p(atriae) / eq(uitibus) et ped(itibus) qui mil(itaverunt) in al(is) II et coh(ortibus) VI quae app(ellantur) / Sil(iana) c(ivium) R(omanorum) et I Tungr(orum) Front(oniana) et I Ulp(ia) Britton(um) |(miliaria) et I / Britan(nica) |(miliaria) et I Hisp(anorum) et II Batavor(um) |(miliaria) et I Ael(ia) Gaesa(torum) / |(miliaria) et II Britton(um) |(miliaria) et sunt in Dacia Porol(issensi) / sub Flavio Italico quin(is) et vic(enis) plurib(us)ve / stip(endiis) emer(itis) dimiss(is) hon(esta) missio(ne) quor(um) no/mina subscripta sunt ipsis lib(eris) posterisq(ue) / eor(um) civitat(em) ded(it) et conub(ium) cum uxorib(us) / quas tunc habuis(sent) cum est civit(as) iis data / [aut] siqui caelib(es) essent cum iis quas pos[tea] / [duxissent dumtaxat singuli &
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Traiani Parthici <expan><abbr>f</abbr><ex>ilius</ex></expan> <supplied reason="lost">divi</supplied> <lb n="2"/>Nervae nepos Traianus Hadrianus A<supplied reason="lost"><expan><abbr>ug</abbr><ex>ustus</ex></expan></supplied> <lb n="3"/><expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> XVII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <supplied reason="lost"><expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="4"/><expan><abbr>equitib</abbr><ex>us</ex></expan> et <expan><abbr>peditib</abbr><ex>us</ex></expan> qui <expan><abbr>militaver</abbr><ex>unt</ex></expan> in <supplied reason="lost"><expan><abbr>al</abbr><ex>is</ex></expan> II</supplied> <lb n="5"/>et <expan><abbr>coh</abbr><ex>ortibus</ex></expan> VI quae <expan><abbr>appell</abbr><ex>antur</ex></expan> <expan><abbr>Silia</abbr><ex>na</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I Tungr<supplied reason="lost"><expan><abbr>or</abbr><ex>um</ex></expan></supplied> <lb n="6"/><expan><abbr>Fronton</abbr><ex>iana</ex></expan> et I <expan><abbr>Ulp</abbr><ex>ia</ex></expan> <expan><abbr>Britton</abbr><ex>um</ex></expan> |(miliaria) et I Britann<supplied reason="lost">ica</supplied> |(miliaria) <lb n="7"/>et I <expan><abbr>Hispan</abbr><ex>orum</ex></expan> et I <expan><abbr>Batavor</abbr><ex>um</ex></expan> |(miliaria) et I Aelia <expan><abbr>Gaesat</abbr><ex>orum</ex></expan> <lb n="8"/>|(miliaria) et II <expan><abbr>Britton</abbr><ex>um</ex></expan> |(miliaria) et sunt in Dacia <expan><abbr>Porolis</abbr><ex>sensi</ex></expan> <lb n="9"/>sub Flavio Italico <expan><abbr>quin</abbr><ex>is</ex></expan> et <expan><abbr>vicen</abbr><ex>is</ex></expan> pluribus<lb break="no" n="10"/>ve <expan><abbr>stipend</abbr><ex>iis</ex></expan> emeritis <expan><abbr>dimiss</abbr><ex>is</ex></expan> <expan><abbr>hon</abbr><ex>esta</ex></expan> <expan><abbr>mission</abbr><ex>e</ex></expan> <lb n="11"/><expan><abbr>quor</abbr><ex>um</ex></expan> nomina subscripta sunt ipsis <expan><abbr>liber</abbr><ex>is</ex></expan> <lb n="12"/><expan><abbr>posterisq</abbr><ex>ue</ex></expan> <expan><abbr>eor</abbr><ex>um</ex></expan> <expan><abbr>civitat</abbr><ex>em</ex></expan> dedit et conubium <lb n="13"/>cum <expan><abbr>uxorib</abbr><ex>us</ex></expan> quas tunc habuissent <lb n="14"/>cum est <expan><abbr>civit</abbr><ex>as</ex></expan> iis data aut si qui <expan><abbr>caelib</abbr><ex>es</ex></expan> es<lb break="no" n="15"/>sent cum iis quas postea duxissent dum<lb break="no" n="16"/>taxat singuli singulas <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> VI <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Iul</abbr><ex>ias</ex></expan> <lb n="17"/><expan><abbr>Q</abbr><ex>uinto</ex></expan> Flavio Tertullo <expan><abbr>Q</abbr><ex>uinto</ex></expan> Iunio Rustico co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="18"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> I Britannicae |(miliariae) cui prae<expan><ex>e</ex><abbr>st</abbr></expan> <lb n="19"/><expan><abbr>Ti</abbr><ex>berius</ex></expan> Claudius Fortis Capua <lb n="20"/>ex pedite <lb n="21"/>Sepenesto Rivi <expan><abbr>f</abbr><ex>ilio</ex></expan> <abbr>Cornon</abbr> <lb n="22"/>descriptum et recognitum ex tabula ae<lb break="no" n="23"/>nea quae fixa est Romae in muro post <lb n="24"/>templum divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad Minervam </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Traiani Parthici <expan><abbr>f</abbr><ex>ilius</ex></expan> divi Ner<lb break="no" n="2"/>vae nepos Traianus Hadrianus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <lb n="3"/><expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> XVII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="4"/><expan><abbr>eq</abbr><ex>uitibus</ex></expan> et <expan><abbr>ped</abbr><ex>itibus</ex></expan> qui <expan><abbr>mil</abbr><ex>itaverunt</ex></expan> in <expan><abbr>al</abbr><ex>is</ex></expan> II et <expan><abbr>coh</abbr><ex>ortibus</ex></expan> VI quae <expan><abbr>app</abbr><ex>ellantur</ex></expan> <lb n="5"/><expan><abbr>Sil</abbr><ex>iana</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I <expan><abbr>Tungr</abbr><ex>orum</ex></expan> <expan><abbr>Front</abbr><ex>oniana</ex></expan> et I <expan><abbr>Ulp</abbr><ex>ia</ex></expan> <expan><abbr>Britton</abbr><ex>um</ex></expan> |(miliaria) et I <lb n="6"/><expan><abbr>Britan</abbr><ex>nica</ex></expan> |(miliaria) et I <expan><abbr>Hisp</abbr><ex>anorum</ex></expan> et II <expan><abbr>Batavor</abbr><ex>um</ex></expan> |(miliaria) et I <expan><abbr>Ael</abbr><ex>ia</ex></expan> <expan><abbr>Gaesa</abbr><ex>torum</ex></expan> <lb n="7"/>|(miliaria) et II <expan><abbr>Britton</abbr><ex>um</ex></expan> |(miliaria) et sunt in Dacia <expan><abbr>Porol</abbr><ex>issensi</ex></expan> <lb n="8"/>sub Flavio Italico <expan><abbr>quin</abbr><ex>is</ex></expan> et <expan><abbr>vic</abbr><ex>enis</ex></expan> plurib<expan><ex>us</ex><abbr>ve</abbr></expan> <lb n="9"/><expan><abbr>stip</abbr><ex>endiis</ex></expan> <expan><abbr>emer</abbr><ex>itis</ex></expan> <expan><abbr>dimiss</abbr><ex>is</ex></expan> <expan><abbr>hon</abbr><ex>esta</ex></expan> <expan><abbr>missio</abbr><ex>ne</ex></expan> <expan><abbr>quor</abbr><ex>um</ex></expan> no<lb break="no" n="10"/>mina subscripta sunt ipsis <expan><abbr>lib</abbr><ex>eris</ex></expan> <expan><abbr>posterisq</abbr><ex>ue</ex></expan> <lb n="11"/><expan><abbr>eor</abbr><ex>um</ex></expan> <expan><abbr>civitat</abbr><ex>em</ex></expan> <expan><abbr>ded</abbr><ex>it</ex></expan> et <expan><abbr>conub</abbr><ex>ium</ex></expan> cum <expan><abbr>uxorib</abbr><ex>us</ex></expan> <lb n="12"/>quas tunc <expan><abbr>habuis</abbr><ex>sent</ex></expan> cum est <expan><abbr>civit</abbr><ex>as</ex></expan> iis data <lb n="13"/><supplied reason="lost">aut</supplied> siqui <expan><abbr>caelib</abbr><ex>es</ex></expan> essent cum iis quas pos<supplied reason="lost">tea</supplied> <lb n="14"/>[duxissent dumtaxat singuli &amp;
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Dauer der trib. pot. XVII: 10. Dez. 132 - 9. Dez. 133.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

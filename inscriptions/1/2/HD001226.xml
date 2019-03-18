@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001226</idno>
+                <idno type="TM">195528</idno><idno type="localID">HD001226</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-4.1</height>
+                                        <width>-4.2</width>
+                                        <depth>0.1</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">0.4-0.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0098-02-20" notAfter-custom="0098-02-20" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">20.2.98 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1979">1979</date>
+                        <placeName ref="http://www.geonames.org/2769242">Parndorf, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Burgenland</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-05-06" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0788. (B) 
+                    </bibl>
+                    <bibl>
+                         E. Weber, RŒ 9/10, 1981/82, 221-223, Nr. 6; Taf. 18, 6; Zeichnungen. (B) - AE 1982. 
+                    </bibl>
+                    <bibl>
+                         RMD 081. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(erator) Caesar divi Nervae f(ilius) N]erva Traia/[nus Aug(ustus) Germanicus pontife]x maximus / [tribunic(ia) potestat(e) - - - c]o(n)s(ul) II / [equitibus et peditibus qui mil]itant in / [alis duabus? et cohortibus qu]attuor / [quae appellantur Frontoni]ana et I / [civium Romanorum et I M]ont[a]no/[rum & // $ et sunt in] / Panno[nia sub Cn(aeo) Pinario Aemilio Cica]/tricula P[ompeio Longino item di]/missis h[onesta missione qui quina] / et vicen[a plurave stipendia meruerunt &
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Nervae <expan><abbr>f</abbr><ex>ilius</ex></expan> N</supplied>erva Traia<lb break="no" n="2"/><supplied reason="lost">nus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Germanicus pontife</supplied>x maximus <lb n="3"/><supplied reason="lost"><expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>potestat</abbr><ex>e</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> c</supplied>o<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> II <lb n="4"/><supplied reason="lost">equitibus et peditibus qui mil</supplied>itant in <lb n="5"/><supplied reason="lost">alis duabus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> et cohortibus qu</supplied>attuor <lb n="6"/><supplied reason="lost">quae appellantur Frontoni</supplied>ana et I <lb n="7"/><supplied reason="lost">civium Romanorum et I M</supplied>ont<supplied reason="lost">a</supplied>no<lb break="no" n="8"/><supplied reason="lost">rum</supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> $ et sunt in] <lb n="2"/>Panno<supplied reason="lost">nia sub <expan><abbr>Cn</abbr><ex>aeo</ex></expan> Pinario Aemilio Cica</supplied><lb break="no" n="3"/>tricula P<supplied reason="lost">ompeio Longino item di</supplied><lb break="no" n="4"/>missis h<supplied reason="lost">onesta missione qui quina</supplied> <lb n="5"/>et vicen[a plurave stipendia meruerunt &amp;
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Fragment der tab. I. (B): Außenseite: AE 1982; Weber: Z. 6/7: [quae appellantur Sili]ana et I / [Augusta Ituraeorum et I M]ont[a]no/[rum ---]; Innenseite: Z. 3/4: AE 1982: P[ompeio Longino item di]missis fehlt; AE 1982; Weber: Z. 5: et vicen[a stipendia]. Datierung: Weber: Militärdiplom CIL 16, 00042 wurde unter demselben Statthalter am 20.2.98 ausgestellt; RMD: Ausstellung auch Anfang 99 möglich.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

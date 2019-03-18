@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD067018</idno>
+                <idno type="TM">402531</idno><idno type="localID">HD067018</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Celje, Glavni trg 11, vermauert</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-129</height>
+                                        <width>-55</width>
+                                        <depth>-38</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.5-1.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003230">Noricum</placeName><placeName ref="http://www.trismegistos.org/place/019892">Celeia</placeName></origPlace>
+                            <origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3202781">Celje</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Savinjska statistična regija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/si/">Slowenien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-09-02" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/5380">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 05191. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 05191 add. p. 1830. 
+                    </bibl>
+                    <bibl>
+                         ILLPRON 1652. 
+                    </bibl>
+                    <bibl>
+                         ILLPRON 1653. (B) 
+                    </bibl>
+                    <bibl>
+                         R. Wedenig, Epigraphische Quellen zur städtischen Administration in Noricum (Klagenfurt 1997) 118-119, Nr. C 10; Taf. 2, C 10. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                I(ovi) [O(ptimo) M(aximo)] / et cu[ltoribus? eius?] / C(aius) Rufiu[s - - -] / aram [cum? scr(ipturam)?] / d(onum) [d(edit)] // Sentonius Spectatus / Petronius Marcu[s] / Mamilius Respectin[us] / Antonius Saturnin[us] / Helvius Iustu[s] / Turravius Casto[r] / Auro Iantull[i] / Boto Noni / Verus Saturnin[i] / Sentonius Albuciu[s] / Pompeius Suru[s] / Publicius Callistu[s] / Mamilius Cresce(n)[s] / Petronius Cele[r] / Rufius Herm[a] / Claudius Maximu[s] / Restutus Saturnin[i] / Iantullus Orgete[i] / Maximianus Sever[i] // [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <supplied reason="lost"><expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></supplied> <lb n="2"/>et cu<supplied reason="lost" cert="low">ltoribus</supplied><supplied reason="lost">ltoribus</supplied> <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> Rufiu<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>aram <supplied reason="lost" cert="low">cum? scr(ipturam)</supplied> <lb n="5"/><expan><abbr>d</abbr><ex>onum</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>edit</ex></expan></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Sentonius Spectatus <lb n="2"/>Petronius Marcu<supplied reason="lost">s</supplied> <lb n="3"/>Mamilius Respectin<supplied reason="lost">us</supplied> <lb n="4"/>Antonius Saturnin<supplied reason="lost">us</supplied> <lb n="5"/>Helvius Iustu<supplied reason="lost">s</supplied> <lb n="6"/>Turravius Casto<supplied reason="lost">r</supplied> <lb n="7"/>Auro Iantull<supplied reason="lost">i</supplied> <lb n="8"/>Boto Noni <lb n="9"/>Verus Saturnin<supplied reason="lost">i</supplied> <lb n="10"/>Sentonius Albuciu<supplied reason="lost">s</supplied> <lb n="11"/>Pompeius Suru<supplied reason="lost">s</supplied> <lb n="12"/>Publicius Callistu<supplied reason="lost">s</supplied> <lb n="13"/>Mamilius <expan><abbr>Cresce</abbr><ex>n</ex></expan><supplied reason="lost">s</supplied> <lb n="14"/>Petronius Cele<supplied reason="lost">r</supplied> <lb n="15"/>Rufius Herm<supplied reason="lost">a</supplied> <lb n="16"/>Claudius Maximu<supplied reason="lost">s</supplied> <lb n="17"/>Restutus Saturnin<supplied reason="lost">i</supplied> <lb n="18"/>Iantullus Orgete<supplied reason="lost">i</supplied> <lb n="19"/>Maximianus Sever<supplied reason="lost">i</supplied> </ab></div><div n="3" type="textpart"><ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Maße nach CIL 03-neu (in Vorbereitung; Bearbeiterin: J. Visočnik). Autopsie J. Visočnik (2010). Höhenangabe bezieht sich auf den sichtbaren Teil. Auf der linken Nebenseite ein urceus. Z. 6-24 als Kolumne untereinandergeschrieben; wahrscheinlich stand rechts davon eine weitere Namenskolumne. Z. 4: der linke Teil des C hinter ARAM im CIL noch als lesbar angegeben. Z. 8 (Ende): V im CIL noch als lesbar angegeben. (B): CIL III 5191; ILLPRON 1653: Z. 12: Aur. Ciantull[us].</p>
+            </div>
+        </body>
+    </text>
+</TEI>

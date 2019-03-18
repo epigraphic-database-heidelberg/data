@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Akklamation auf Stadtbefestigung</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD023492</idno>
+                <idno type="TM">197635</idno><idno type="localID">HD023492</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/67">Stadtbefestigung</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000014">Thracia</placeName><placeName>Constantinopolis, murus Theodosii</placeName></origPlace>
+                            <origDate notBefore-custom="0371" notAfter-custom="0430" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">371 AD – 430 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/747158">İstanbul, Fatih</placeName><placeName type="modern_region" ref="http://www.geonames.org/">İstanbul</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/tr/">Türkei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/73">Akklamation</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-07-17" who="Cowey">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1907, 0062. 
+                    </bibl>
+                    <bibl>
+                         W.M. Ramsay, in: W.M. Ramsay (Hrsg.) Studies in the History and Art of the Eastern Provinces of the Roman Empire (Aberdeen 1906) 267-270, Nr. 10. (B) - AE 1907. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 07405. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                ὁ θ(εὸ)ς καλῶς ἤνεγκέν σε // [- - - n]u[m]eri militum primo sagit(t)ario[r]um leonum iuniorum // [- - - numeri militum cornutoru]m iuniorum // πολλὰ τὰ ἔτη τῶν βασιλέων // [- - - numeri militum primo sa]git(t)ariorum le[o]n[um iuniorum] // [- - - numeri] militum cor[n]uto[ru]m i[u]niorum
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                ὁ θ(εὸ)ς καλῶς ἤνεγκέν σε </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">n</supplied>u<supplied reason="lost">m</supplied>eri militum primo sagit<expan><ex>t</ex><abbr>ario</abbr></expan><supplied reason="lost">r</supplied>um leonum iuniorum </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> numeri militum cornutoru</supplied>m iuniorum </ab></div><div n="4" type="textpart"><ab><lb n="1"/> πολλὰ τὰ ἔτη τῶν βασιλέων </ab></div><div n="5" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> numeri militum primo sa</supplied>git<expan><ex>t</ex><abbr>ariorum</abbr></expan> le<supplied reason="lost">o</supplied>n<supplied reason="lost">um iuniorum</supplied> </ab></div><div n="6" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">numeri</supplied> militum cor<supplied reason="lost">n</supplied>uto<supplied reason="lost">ru</supplied>m i<supplied reason="lost">u</supplied>niorum
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Auf die Pfeiler, die das zentrale Tor des Goldenen Tores in Konstantinopel von den zwei flankenden, kleineren Toren trennen, wurde jeweils eine gleichlautende lateinische Inschrift mit schwarzer Farbe gemalt. Über diese Inschrift auf der rechten Seite wurde ein verziertes Kreuz mit nachfolgender griechischen Inschrift mit roter Farbe gemalt. Auf der linken Seite wurde ein Kreuz mit einer andereslautenden griechischen Inschrift ebenfalls über die lateinische Inschrift mit roter Farbe gemalt. (B): Die Inschriften können vielleicht um 400 datiert werden.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

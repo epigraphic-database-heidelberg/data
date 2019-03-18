@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD038470</idno>
+                <idno type="TM">195150</idno><idno type="localID">HD038470</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Szentendre, Ferenczy Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>90</height>
+                                        <width>42</width>
+                                        <depth>29</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.5-3.2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName>Ulcisia Castra</placeName></origPlace>
+                            <origDate notBefore-custom="0193" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">193 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3044681">Szentendre</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Pest megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-03-24" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F002907">
+            <desc>F002907</desc>
+        </graphic>
+
+        <graphic url="http://lupa.at/5968">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        RIU 0872; Abb. 872 (Foto u. Zeichnung). 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 15170. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 03640. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [I(ovi) O(ptimo)] M(aximo) // pro salu(te) / dd(ominorum) nn(ostrorum) T(itus) / [I]ul(ius) Vale(n)s / m(iles) coh(ortis) |(milliariae) n(ovae) / [S(everianae)] S(urorum) s(agittariorum) et suis / v(otum) s(olvit) l(ibens) m(erito)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan></supplied> <expan><abbr>M</abbr><ex>aximo</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> pro <expan><abbr>salu</abbr><ex>te</ex></expan> <lb n="2"/><expan><abbr>d<am>d</am></abbr><ex>ominorum</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostrorum</ex></expan> <expan><abbr>T</abbr><ex>itus</ex></expan> <lb n="3"/><expan><abbr><supplied reason="lost">I</supplied>ul</abbr><ex>ius</ex></expan> Vale<expan><ex>n</ex><abbr>s</abbr></expan> <lb n="4"/><expan><abbr>m</abbr><ex>iles</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> |(milliariae) <expan><abbr>n</abbr><ex>ovae</ex></expan> <lb n="5"/><supplied reason="lost"><expan><abbr>S</abbr><ex>everianae</ex></expan></supplied> <expan><abbr>S</abbr><ex>urorum</ex></expan> <expan><abbr>s</abbr><ex>agittariorum</ex></expan> et suis <lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 1 befindet sich auf der corona. (B): CIL III: Leseabweichungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

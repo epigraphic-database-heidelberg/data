@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD018321</idno>
+                <idno type="TM">181945</idno><idno type="localID">HD018321</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/015883">Salonae</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1986">1986</date>
+                        <placeName ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Splitsko-dalmatinska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-08-18" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1989, 0602. 
+                    </bibl>
+                    <bibl>
+                         J. Mardešić, APregl 27, 1986, 96-97. - AE 1989. 
+                    </bibl>
+                    <bibl>
+                         B. Kirigin - I. Lokošek - J. Mardešić - S. Bilić, BAHD 80, 1987, 36, Nr. 3. - AE 1989. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Deo P(h?)o(spho?)r(o?) / bono vo/tum po/suit Au<r=P>(elius)(?)#Au<r>(elius)(?)#AUP / Dar<d=I?>a(nus?)#Dar<d>a(nus?)#DARI?A BFN / RIB I FIXICI / FPI
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Deo <expan><abbr>P</abbr><ex cert="low">h</ex>o</expan>(spho<certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>r</abbr><ex cert="low">o</ex></expan> <lb n="2"/>bono vo<lb break="no" n="3"/>tum po<lb break="no" n="4"/>suit Au<choice><corr>r</corr><sic>P</sic></choice>(elius)<certainty match="preceding-sibling::node()" locus="value"/>#Au<supplied reason="omitted">r</supplied>(elius)<certainty match="preceding-sibling::node()" locus="value"/>#AUP <lb n="5"/>Dar&lt;d=I<certainty match="preceding-sibling::node()" locus="value"/>&gt;<expan><abbr>a</abbr><ex cert="low">nus</ex></expan>#Dar<supplied reason="omitted">d</supplied><expan><abbr>a</abbr><ex cert="low">nus</ex></expan>#DARI<certainty match="preceding-sibling::node()" locus="value"/>A BFN <lb n="6"/>RIB I FIXICI <lb n="7"/>FPI
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): AE 1989: Z. 6/7: Zeilenfall fehlt.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

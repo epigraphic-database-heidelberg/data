@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD027821</idno>
+                <idno type="TM">223488</idno><idno type="localID">HD027821</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>15</height>
+                                        <width>18</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2.8-1.8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/026156">Ucia, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0650-03-09" notAfter-custom="0650-03-09" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">9.3.650 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Marmolejo, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2006-08-03" who="Feraudi">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 02 (2. Aufl.) 07, 00136. 
+                    </bibl>
+                    <bibl>
+                          
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Maria fidelis PX(Christ)i in vita sua / h(u)nc diligens loc(u)m ibiq(u)e suum (h)uma(tu)m est c(o)rpus / q(u)atuor deni uno supervixit annos c(u)m pen(i)ten/tia rec(e)ssit in pace d(ie) VII Id(us) Martia(s) secundo R/eccisvint(h)i regnan(ti)s c(um) patr(e) pr(in)cipis anno
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Maria fidelis PX<expan><ex>Christ</ex><abbr>i</abbr></expan> in vita sua <lb n="2"/>h<expan><ex>u</ex><abbr>nc</abbr></expan> diligens loc<expan><ex>u</ex><abbr>m</abbr></expan> ibiq<expan><ex>u</ex><abbr>e</abbr></expan> suum <expan><ex>h</ex><abbr>uma</abbr><ex>tu</ex><abbr>m</abbr></expan> est c<expan><ex>o</ex><abbr>rpus</abbr></expan> <lb n="3"/>q<expan><ex>u</ex><abbr>atuor</abbr></expan> deni uno supervixit annos c<expan><ex>u</ex><abbr>m</abbr></expan> pen<expan><ex>i</ex><abbr>ten</abbr></expan><lb break="no" n="4"/>tia rec<expan><ex>e</ex><abbr>ssit</abbr></expan> in pace <expan><abbr>d</abbr><ex>ie</ex></expan> VII <expan><abbr>Id</abbr><ex>us</ex></expan> <expan><abbr>Martia</abbr><ex>s</ex></expan> secundo R<lb break="no" n="5"/>eccisvint<expan><ex>h</ex><abbr>i</abbr></expan> regnan<expan><ex>ti</ex><abbr>s</abbr></expan> <expan><abbr>c</abbr><ex>um</ex></expan> <expan><abbr>patr</abbr><ex>e</ex></expan> pr<expan><ex>in</ex><abbr>cipis</abbr></expan> anno
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD029157</idno>
+                <idno type="TM">210579</idno><idno type="localID">HD029157</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mainz, Landesmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-24</height>
+                                        <width/>
+                                        <depth>-11</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum</placeName></origPlace>
+                            <origDate notBefore-custom="0236" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">236 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1910">1910</date>
+                        <placeName ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-11-29" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F015519">
+            <desc>F015519</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1911, 0227. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 13, 11827. (B) 
+                    </bibl>
+                    <bibl>
+                         K. Körber, RGKB 4, 1911, 24-25, Nr. 4. (B) - AE 1911. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) P 1085. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] / [- - -]N(?)T(?)I(?)NA Mo[gont(iacensis)] / [v]ici naval(iorum) et Carin[ius] / Victor et Carini[a Ius]/tina fili(i) v(otum) s(olverunt) l(ibentes) l(aeti) [m(erito)] / Imp(eratore) d(omino) n(ostro) [[Maxim[ino]]] / Aug(usto) et Africa[no co(n)s(ulibus)]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>N</abbr><ex cert="low"/>T</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>I</abbr><ex cert="low"/>NA</expan> Mo<supplied reason="lost"><expan><abbr>gont</abbr><ex>iacensis</ex></expan></supplied> <lb n="2"/><supplied reason="lost">v</supplied>ici <expan><abbr>naval</abbr><ex>iorum</ex></expan> et Carin<supplied reason="lost">ius</supplied> <lb n="3"/>Victor et Carini<supplied reason="lost">a Ius</supplied><lb break="no" n="4"/>tina <expan><abbr>fili</abbr><ex>i</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olverunt</ex></expan> <expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>l</abbr><ex>aeti</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>erito</ex></expan></supplied> <lb n="5"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> <del rend="erasure">Maxim[ino</del>] <lb n="6"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> et Africa<supplied reason="lost">no <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Inschriftträger: wohl Mittelteil eines Altars oder einer Basis / Statuenbasis. Breite bei Auffindung: 45 cm. Z. 1: nur die unteren Buchstabenteile erhalten. Von den Zeilenenden war bei der Auffindung noch mehr erhalten. (B): CIL 13, 11827: Z. 2: vici; Körber; AE 1911; CIL 13, 11827: Z. 5: [[[Maximino]]].</p>
+            </div>
+        </body>
+    </text>
+</TEI>

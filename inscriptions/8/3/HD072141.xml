@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meilen-/Leugenstein</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD072141</idno>
+                <idno type="TM">410094</idno><idno type="localID">HD072141</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Zagreb, Arh. Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugenstein</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>218</height>
+                                        <width>47</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName>Siscia, bei?</placeName></origPlace>
+                            <origDate notBefore-custom="0236" notAfter-custom="0238" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">236 AD – 238 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1898">1898</date>
+                        <placeName ref="http://www.geonames.org/3204681">Hrvatska Dubica</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Sisačko-moslavačka županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-08-26" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 15203, 1. (B) 
+                    </bibl>
+                    <bibl>
+                         AIJ 604. (B) 
+                    </bibl>
+                    <bibl>
+                         AIJ 604 add. p. 6*. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [[Im[p(eratori) Caes(ari)]]] / [[C(aio) Iu[l(io) Vero Maximi]n[o]]] / [[Pi[o F]e[lici Aug(usto)]]] / [[t(ribunicia) p(otestate) co(n)s(uli) p(atri) p(atriae) proco(n)s(uli) et]] / [[C(aio) Iu[l(io)] V[ero Maximo]]] / [[nob(ilissimo) C(ae)s(ari)]] / [- - - - - -? // VIATVS
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <del rend="erasure">Im[<expan><abbr>p</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan></del>] <lb n="2"/><del rend="erasure"><expan><abbr>C</abbr><ex>aio</ex></expan> Iu<supplied reason="lost"><expan><abbr>l</abbr><ex>io</ex></expan> Vero Maximi</supplied>n[o</del>] <lb n="3"/><del rend="erasure">Pi<supplied reason="lost">o F</supplied>e[lici <expan><abbr>Aug</abbr><ex>usto</ex></expan></del>] <lb n="4"/><del rend="erasure"><expan><abbr>t</abbr><ex>ribunicia</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> et</del> <lb n="5"/><del rend="erasure"><expan><abbr>C</abbr><ex>aio</ex></expan> Iu<supplied reason="lost"><expan><abbr>l</abbr><ex>io</ex></expan></supplied> V[ero Maximo</del>] <lb n="6"/><del rend="erasure"><expan><abbr>nob</abbr><ex>ilissimo</ex></expan> <expan><abbr>C</abbr><ex>ae</ex><abbr>s</abbr><ex>ari</ex></expan></del> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> VIATVS
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 7: links außerhalb von Z. 1-6 und wohl nicht zu dazugehörig. (B): CIL 03, 15203, 1; AIJ 604: Lesung abweichend / unvollständig.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD072576</idno>
+                <idno type="TM">669409</idno><idno type="localID">HD072576</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>78.5</height>
+                                        <width>55</width>
+                                        <depth>55</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000161">Macedonia</placeName><placeName ref="http://www.trismegistos.org/place/012134">Byllis</placeName></origPlace>
+                            <origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 150 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Hekal</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Qarku i Fierit</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/al/">Albanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-01-26" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2011, 1171. (B) 
+                    </bibl>
+                    <bibl>
+                         N. Ceka - S. Muçai, Iliria 34, 2011, 113-115, Nr. 3; fig. 3. (B) - AE 2011. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                L(ucio) Domitio L(uci) f(ilio) Sal/lentino aedili IIviro / curatori alimentorum / et partis kalendari(i) publici / patrono coloniae optimo et / praestantissimo et civi/um suorum amantissimo cu/ius cura et auxilio et res / publica aucta / et omnibus / commodis municip(i)um pro/spectum est / decurionum decreto publice
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Domitio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Sal<lb break="no" n="2"/>lentino aedili IIviro <lb n="3"/>curatori alimentorum <lb n="4"/>et partis <expan><abbr>kalendari</abbr><ex>i</ex></expan> publici <lb n="5"/>patrono coloniae optimo et <lb n="6"/>praestantissimo et civi<lb break="no" n="7"/>um suorum amantissimo cu<lb break="no" n="8"/>ius cura et auxilio et res <lb n="9"/>publica aucta <lb n="10"/>et omnibus <lb n="11"/>commodis municip<expan><ex>i</ex><abbr>um</abbr></expan> pro<lb break="no" n="12"/>spectum est <lb n="13"/>decurionum decreto publice
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Mittelteil einer Statuenbasis (B): Ceka - Muçai: Z. 3: curator; AE 2011: Z. 6/7: civi/um; Z. 9: aucta / et; Ceka - Muçai: commonis munici(p)ium; AE 2011: Z. 12/13: Zeilenfall nicht angegeben.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

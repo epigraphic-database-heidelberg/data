@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD035385</idno>
+                <idno type="TM">183794</idno><idno type="localID">HD035385</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material>Gesteine unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/029458">Rider, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0401" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD – 600 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3190941">Šibenik</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Šibensko-kninska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-09-22" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        ILJug 2799. (B) 
+                    </bibl>
+                    <bibl>
+                         F. Bulić, BAHD 28, 1905, 49-51. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [De]positio Superi <e=I>x#<e>x#IX tabu<l=I>a/[rio]#tabu<l>a/[rio]#TABUIA civitatis Salonitana[e] / [ci]vis Salviata sub dia(e)(!) p(ridie) XI <K=P>al(endas)#<K>al(endas)#PAL / [Oc]tobris(!) ind(ictione) IIII <q=O>ui#<q>ui#OUI vixit ann/is plus minus XXXV
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">De</supplied>positio Superi <choice><corr>e</corr><sic>I</sic></choice>x#<supplied reason="omitted">e</supplied>x#IX tabu<choice><corr>l</corr><sic>I</sic></choice>a<lb break="no" n="2"/><supplied reason="lost">rio</supplied>#tabu<supplied reason="omitted">l</supplied>a<lb break="no" n="3"/><supplied reason="lost">rio</supplied>#TABUIA civitatis Salonitana<supplied reason="lost">e</supplied> <lb n="4"/><supplied reason="lost">ci</supplied>vis Salviata sub <expan><abbr>dia</abbr><ex>e</ex></expan> <note>sic</note> <expan><abbr>p</abbr><ex>ridie</ex></expan> XI <choice><corr>K</corr><sic>P</sic></choice><expan><abbr>al</abbr><ex>endas</ex></expan>#<supplied reason="omitted">K</supplied><expan><abbr>al</abbr><ex>endas</ex></expan>#PAL <lb n="5"/><supplied reason="lost">Oc</supplied>tobris <note>sic</note> <expan><abbr>ind</abbr><ex>ictione</ex></expan> IIII <choice><corr>q</corr><sic>O</sic></choice>ui#<supplied reason="omitted">q</supplied>ui#OUI vixit ann<lb break="no" n="6"/>is plus minus XXXV
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Das Stück ist seit der Zerstörung der S.-Rocchus-Kirche, wo es in den Boden eingelassen war, verschollen und nur durch Abschriften bekannt. (B): ILJug: Z. 4: qui.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

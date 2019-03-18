@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD009430</idno>
+                <idno type="TM">209918</idno><idno type="localID">HD009430</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Avenches, Mus. Rom.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth>10</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">21-18</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Aventicum (Civitas Helvetiorum)</placeName></origPlace>
+                            <origDate notBefore-custom="0138" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">138 AD – 150 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Avenches</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Canton de Vaud</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-11-02" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016892">
+            <desc>F016892</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016540">
+            <desc>F016540</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016541">
+            <desc>F016541</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016543">
+            <desc>F016543</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016544">
+            <desc>F016544</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016546">
+            <desc>F016546</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016796">
+            <desc>F016796</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016797">
+            <desc>F016797</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016798">
+            <desc>F016798</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016800">
+            <desc>F016800</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016801">
+            <desc>F016801</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016803">
+            <desc>F016803</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016804">
+            <desc>F016804</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016805">
+            <desc>F016805</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016807">
+            <desc>F016807</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016808">
+            <desc>F016808</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016809">
+            <desc>F016809</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016812">
+            <desc>F016812</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016813">
+            <desc>F016813</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016814">
+            <desc>F016814</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016816">
+            <desc>F016816</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016817">
+            <desc>F016817</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016818">
+            <desc>F016818</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016820">
+            <desc>F016820</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F015326">
+            <desc>F015326</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016542">
+            <desc>F016542</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016545">
+            <desc>F016545</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016829">
+            <desc>F016829</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016830">
+            <desc>F016830</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016832">
+            <desc>F016832</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016833">
+            <desc>F016833</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016834">
+            <desc>F016834</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016835">
+            <desc>F016835</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016837">
+            <desc>F016837</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016839">
+            <desc>F016839</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016840">
+            <desc>F016840</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016843">
+            <desc>F016843</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016844">
+            <desc>F016844</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016845">
+            <desc>F016845</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016847">
+            <desc>F016847</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016848">
+            <desc>F016848</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016849">
+            <desc>F016849</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016852">
+            <desc>F016852</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016853">
+            <desc>F016853</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016856">
+            <desc>F016856</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016857">
+            <desc>F016857</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016858">
+            <desc>F016858</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016860">
+            <desc>F016860</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016861">
+            <desc>F016861</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016862">
+            <desc>F016862</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016864">
+            <desc>F016864</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016865">
+            <desc>F016865</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016794">
+            <desc>F016794</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016795">
+            <desc>F016795</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016799">
+            <desc>F016799</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016802">
+            <desc>F016802</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016806">
+            <desc>F016806</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016810">
+            <desc>F016810</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016811">
+            <desc>F016811</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016889">
+            <desc>F016889</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016815">
+            <desc>F016815</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016819">
+            <desc>F016819</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016825">
+            <desc>F016825</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016828">
+            <desc>F016828</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016831">
+            <desc>F016831</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016836">
+            <desc>F016836</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016838">
+            <desc>F016838</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016890">
+            <desc>F016890</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016842">
+            <desc>F016842</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016846">
+            <desc>F016846</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016854">
+            <desc>F016854</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016855">
+            <desc>F016855</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016859">
+            <desc>F016859</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016863">
+            <desc>F016863</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016870">
+            <desc>F016870</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016871">
+            <desc>F016871</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016872">
+            <desc>F016872</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016873">
+            <desc>F016873</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016874">
+            <desc>F016874</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016876">
+            <desc>F016876</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016877">
+            <desc>F016877</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016878">
+            <desc>F016878</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016879">
+            <desc>F016879</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016880">
+            <desc>F016880</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016881">
+            <desc>F016881</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016882">
+            <desc>F016882</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016883">
+            <desc>F016883</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016884">
+            <desc>F016884</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016885">
+            <desc>F016885</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016886">
+            <desc>F016886</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016887">
+            <desc>F016887</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016841">
+            <desc>F016841</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016891">
+            <desc>F016891</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016893">
+            <desc>F016893</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016894">
+            <desc>F016894</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016895">
+            <desc>F016895</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016897">
+            <desc>F016897</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016898">
+            <desc>F016898</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016900">
+            <desc>F016900</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016901">
+            <desc>F016901</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016902">
+            <desc>F016902</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016903">
+            <desc>F016903</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016904">
+            <desc>F016904</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016905">
+            <desc>F016905</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016906">
+            <desc>F016906</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016907">
+            <desc>F016907</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016909">
+            <desc>F016909</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016910">
+            <desc>F016910</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016911">
+            <desc>F016911</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016947">
+            <desc>F016947</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016948">
+            <desc>F016948</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016949">
+            <desc>F016949</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016950">
+            <desc>F016950</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016956">
+            <desc>F016956</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016850">
+            <desc>F016850</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016851">
+            <desc>F016851</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016875">
+            <desc>F016875</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016888">
+            <desc>F016888</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016896">
+            <desc>F016896</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016899">
+            <desc>F016899</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016908">
+            <desc>F016908</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016957">
+            <desc>F016957</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F028121">
+            <desc>F028121</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F028122">
+            <desc>F028122</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1903, 0215. (B) 
+                    </bibl>
+                    <bibl>
+                         AE 1952, 0205. (B) 
+                    </bibl>
+                    <bibl>
+                         AE 1972, 0352. (B) 
+                    </bibl>
+                    <bibl>
+                         AE 1990, 0770. 
+                    </bibl>
+                    <bibl>
+                         AE 1995, 1141. 
+                    </bibl>
+                    <bibl>
+                         CIL 13, 11480. (B) 
+                    </bibl>
+                    <bibl>
+                         A. Alföldi, SP 16, 1952, 3-9; fig. 2; fig. 3 (Zeichnung). (B) 
+                    </bibl>
+                    <bibl>
+                         W. Wavre, ASA 4, 1902, 138-141, Nr. 1; fig. 12,4 (Zeichnung). (B) - AE 1903. 
+                    </bibl>
+                    <bibl>
+                         E. Howald - E. Meyer, Die römische Schweiz (Zürich 1940) 262-263, Nr. 212. (B) - AE 1952. 
+                    </bibl>
+                    <bibl>
+                         J. Reynolds, Pro Aventico 20, 1969, 53-57; pl. 14; pl. 15 u. 16 (Zeichnungen). (B) - AE 1972. 
+                    </bibl>
+                    <bibl>
+                         R. Frei-Stolba, in: P. Kneissl - V. Losemann (Hrsg.), Alte Geschichte und Wirtschaftsgeschichte (Darmstadt 1988) 186-201. (B) - AE 1990. 
+                    </bibl>
+                    <bibl>
+                         S. Oelschig, in: F.E. Koenig - S. Rebetez (Hrsg.), Arculiana. 
+                    </bibl>
+                    <bibl>
+                         Recueil d'hommages offerts à Hans Bögli (Avenches 1995) 47-60; Abb. 1-5. - AE 1995. 
+                    </bibl>
+                    <bibl>
+                         H.E. Herzig, JBM 53/54, 1973/74, 35-41; Abb. 3. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Q(uinto) Otacil[i]o Quir(ina) Pollino Q(uinti) Otac[ili] / Ceriali[s] filio omnibus honor[ibus] / apud suo[s] functo t[e]r immunit[ate] / a divo [H]adrian(o) don[at]o inquis[itor(i)] / II[I Gall]iar(um) pa[tro]no venal(iciorum) [corporis] / Cisal[p]ino[rum] et Transalpinorum / item [n]aut[a]r(um) Ar[ar]icor(um) [Rho]danicor(um) / ob [egre]g[i]a eius erga re[m pub]l(icam) ergaq(ue) / sin[gulos] un[i]verso[sque me]r[it]a / Helv[etii publ(ice) p]atron[o - - -]s et / [inscr?]ibti[on(es)?](!) [a]b qu[- - - d]e su[o]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uinto</ex></expan> Otacil<supplied reason="lost">i</supplied>o <expan><abbr>Quir</abbr><ex>ina</ex></expan> Pollino <expan><abbr>Q</abbr><ex>uinti</ex></expan> Otac<supplied reason="lost">ili</supplied> <lb n="2"/>Ceriali<supplied reason="lost">s</supplied> filio omnibus honor<supplied reason="lost">ibus</supplied> <lb n="3"/>apud suo<supplied reason="lost">s</supplied> functo t<supplied reason="lost">e</supplied>r immunit<supplied reason="lost">ate</supplied> <lb n="4"/>a divo <expan><abbr><supplied reason="lost">H</supplied>adrian</abbr><ex>o</ex></expan> don<supplied reason="lost">at</supplied>o inquis<supplied reason="lost"><expan><abbr>itor</abbr><ex>i</ex></expan></supplied> <lb n="5"/>II<supplied reason="lost">I Gall</supplied><expan><abbr>iar</abbr><ex>um</ex></expan> pa<supplied reason="lost">tro</supplied>no <expan><abbr>venal</abbr><ex>iciorum</ex></expan> <supplied reason="lost">corporis</supplied> <lb n="6"/>Cisal<supplied reason="lost">p</supplied>ino<supplied reason="lost">rum</supplied> et Transalpinorum <lb n="7"/>item <supplied reason="lost">n</supplied><expan><abbr>aut<supplied reason="lost">a</supplied>r</abbr><ex>um</ex></expan> <expan><abbr>Ar<supplied reason="lost">ar</supplied>icor</abbr><ex>um</ex></expan> <expan><abbr><supplied reason="lost">Rho</supplied>danicor</abbr><ex>um</ex></expan> <lb n="8"/>ob <supplied reason="lost">egre</supplied>g<supplied reason="lost">i</supplied>a eius erga re<supplied reason="lost">m pub</supplied><expan><abbr>l</abbr><ex>icam</ex></expan> <expan><abbr>ergaq</abbr><ex>ue</ex></expan> <lb n="9"/>sin<supplied reason="lost">gulos</supplied> un<supplied reason="lost">i</supplied>verso<supplied reason="lost">sque me</supplied>r<supplied reason="lost">it</supplied>a <lb n="10"/>Helv<supplied reason="lost">etii <expan><abbr>publ</abbr><ex>ice</ex></expan> p</supplied>atron<supplied reason="lost">o</supplied><gap reason="lost" extent="unknown" unit="character"/>s et <lb n="11"/><supplied reason="lost" cert="low">inscr</supplied>ibti<supplied reason="lost" cert="low">on(es)</supplied> <note>sic</note> <supplied reason="lost">a</supplied>b qu<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">d</supplied>e su<supplied reason="lost">o</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Zahlreiche, teils aneinanderpassende Fragmente; rekonstruierte Breite: ca. 6 m. Die Inschrift lief ursprünglich über 6 Platten von 90 cm Höhe und 3 m Breite hinweg, die an den Rändern Dübellöcher zur Verankerung an einer Wand aufweisen. Zu- und Anordung der Fragmente, Lesung und Ergänzung nach dem vorläufigen Vorschlag von Oelschig. (B): Wavre, AE 1903, Howald - Meyer, AE 1952, Reynolds, AE 1972, Frei-Stolba, AE 1990, Alföldi, Herzig: Abweichungen in Lesung und Ergänzung.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

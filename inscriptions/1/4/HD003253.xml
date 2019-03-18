@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD003253</idno>
+                <idno type="TM">223695</idno><idno type="localID">HD003253</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>48</height>
+                                        <width>-50</width>
+                                        <depth>8</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.4-5.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/019895">Corduba</placeName></origPlace>
+                            <origDate notBefore-custom="-0030" notAfter-custom="0030" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC – 30 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2519240">Córdoba</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Andalucía</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2010-02-23" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1981, 0502. 
+                    </bibl>
+                    <bibl>
+                         J. González Fernández, MCV 17, 1981, 51-52, Nr. 7; lám. 6. - AE 1981. 
+                    </bibl>
+                    <bibl>
+                         CIL 02 (2. Aufl.) 07, 00339. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                M(arcus) Latinius M(arci) [l(ibertus)? - - -] / L(ucius) Afinius L(uci) l(ibertus) Ata[- - -] / Latinia M(arci) l(iberta) T[- - -] / Demetrius fi[lius] / Latinia M(arci) l(iberta) Da[- - -] / sarcinatrix [- - -?]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Latinius <expan><abbr>M</abbr><ex>arci</ex></expan> <supplied reason="lost"><expan><abbr>l</abbr><ex>ibertus</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Afinius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> Ata<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Latinia <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> T<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>Demetrius fi<supplied reason="lost">lius</supplied> <lb n="5"/>Latinia <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> Da<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>sarcinatrix <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>

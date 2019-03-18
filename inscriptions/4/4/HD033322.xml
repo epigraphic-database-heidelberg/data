@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD033322</idno>
+                <idno type="TM">204184</idno><idno type="localID">HD033322</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Mauretania Caesariensis</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0198" notAfter-custom="0211" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">198 AD – 211 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Hr. Grimidi</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2010-05-12" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 210, Nr. 27d. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 20845. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) O 51. 
+                    </bibl>
+                    <bibl>
+                         H.-G. Pflaum, Les carrières équestres sous le Haut-Empire romain (Paris 1960/61) 703-705, Nr. 262a, 4. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(erator) Caes(ar) L(ucius) Septimius Severus Pius] Pertina[x] Aug(ustus) [A]ra[bic(us)] / [Adiabenic(us) Parthic(us) maximus pont(ifex) maxi]mus trib(unicia) [p]otes[t(ate)] imp(erator) [- - - co(n)s(ul)] / [- - - et Imp(erator) Caes(ar) M(arcus) Aureliu]s Antoninus Aug(ustus) [e]t / [L(ucius) Septimius Geta Caes(ar) - - - Mauret]aniae Caesariensis / [- - -] p[e]r [O]ctavium Pudentem / [procur(atorem) suum a] censibus
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> Septimius Severus Pius</supplied> Pertina<supplied reason="lost">x</supplied> <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr><supplied reason="lost">A</supplied>ra<supplied reason="lost">bic</supplied></abbr><supplied reason="lost"><ex>us</ex></supplied></expan> <supplied reason="lost"/> <lb n="2"/><supplied reason="lost"><expan><abbr>Adiabenic</abbr><ex>us</ex></expan> <expan><abbr>Parthic</abbr><ex>us</ex></expan> maximus <expan><abbr>pont</abbr><ex>ifex</ex></expan> maxi</supplied>mus <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr><supplied reason="lost">p</supplied>otes<supplied reason="lost">t</supplied></abbr><supplied reason="lost"><ex>ate</ex></supplied></expan> <supplied reason="lost"/> <expan><abbr>imp</abbr><ex>erator</ex></expan> <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></supplied> <lb n="3"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> et <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> Aureliu</supplied>s Antoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <supplied reason="lost">e</supplied>t <lb n="4"/><supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan> Septimius Geta <expan><abbr>Caes</abbr><ex>ar</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> Mauret</supplied>aniae Caesariensis <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> p<supplied reason="lost">e</supplied>r <supplied reason="lost">O</supplied>ctavium Pudentem <lb n="6"/><supplied reason="lost"><expan><abbr>procur</abbr><ex>atorem</ex></expan> suum a</supplied> censibus
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

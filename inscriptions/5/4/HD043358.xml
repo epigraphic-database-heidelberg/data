@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD043358</idno>
+                <idno type="TM">192242</idno><idno type="localID">HD043358</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bucureşti, Muz. Naţ. Ant.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-55</height>
+                                        <width>-42</width>
+                                        <depth>6</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName ref="http://www.trismegistos.org/place/005216">Tomi</placeName></origPlace>
+                            <origDate notBefore-custom="0201" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/680963">Constanţa</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Constanța</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-06-13" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 07540. 
+                    </bibl>
+                    <bibl>
+                         IScM 2, 084; Foto. (B) 
+                    </bibl>
+                    <bibl>
+                         G.G. Točilescu, AEM 6, 1882, 13-14, Nr. 23. 
+                    </bibl>
+                    <bibl>
+                         G.G. Točilescu, AEM 11, 1887, 65, Nr. 136. 
+                    </bibl>
+                    <bibl>
+                         IGR 1, 0612. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) O 191. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(eratori) Caes(ari) divi M(arci) Antonini Pii Germ(anici) Sarm(atici) fil(io) divi Commodi fratri divi Antonini Pii nep(oti) divi Hadriani pronep(oti) d]ivi Traiani Part[hici abnep(oti) divi Nervae adnep(oti)] / [L(ucio) Septimio Severo Pio Pertinaci Augusto Arabico Adiabenico Parthico maximo pont(ifici) max(imo) trib(unicia) pot(estate)] VIIII imp(eratori) XI co(n)s(uli) II [p(atri) p(atriae) proco(n)s(uli)] / [et Imp(eratori) Caes(ari) L(uci) Septimi Severi Pii Pertinacis Aug(usti) Arab(ici) Adiab(enici) Parth(ici) max(imi) fil(io) divi M(arci) Antonini Pii Germ(anici) Sarm(atici) nep(oti) divi] Antonini Pii pro[nep(oti) divi Hadriani abnep(oti)] / [divi Traiani Parthici et divi Nervae adnep(oti) M(arco) Aurelio Antonino Pio Fel(ici) Aug(usto) trib(unicia) pot(estate) IV proco(n)s(uli) et P(ublio) Septimio Getae nob(ilissimo) Caes(ari) Aug(usto) Severi Aug(usti) fil(io) Antonini A]ug(usti) [[fratri]] et Iulia[e Domnae Aug(ustae) matri] / [castr(orum) et Augg(ustorum) Imperatoris L(uci) Septimi Severi Aug(usti) coniugi res publica Tomitanorum per C(aium) Ovinium Tertullum leg(atum) Au]gg(ustorum) pr(o) pr(aetore) // [Αὐτοκρ(άτορα) Καίσ(αρα) θεοῦ Μ(άρκου) Ἀντωνείνου Εὐσεβοῦς Γερ(μανικοῦ) Σαρματ(ικοῦ) υἱὸν θεοῦ Κομμόδου ἀδελφὸν θεοῦ Ἀντωνείνου Εὐσεβοῦς υἱωνὸν θε]οῦ Ἁδριανοῦ ἔκ[γονον θεοῦ Τραιανοῦ Παρθικοῦ καὶ] / [θεοῦ Νέρουα ἀπόγονον Λ(ούκιον) Σεπτίμιον Σεουῆρον Εὐσεβῆ Περτίνακα Σεβ(αστὸν) Ἀραβ(ικὸν) Ἀδιαβ(ηνικὸν) Παρθ(ικὸν) Μέγιστον ἀρχιερέα μέγιστον δημαρχικῆς ἐξουσίας θʹ Αὐτοκρ]άτορα ιαʹ ὕπ[ατον βʹ π(ατέρα) π(ατρίδος) ἀνθύπατον καὶ] / [Αὐτοκρ(άτορα) Καίσ(αρα) Λ(ουκίου) Σεπτιμίου Σεουήρου Εὐσεβοῦς Περτίνακος Σεβ(αστοῦ) Ἀραβ(ικοῦ) Ἀδιαβ(ηνικοῦ) Παρθ(ικοῦ) μεγίστου υἱὸν θεοῦ Μ(άρκου) Ἀντωνείνου Εὐσεβοῦς Γερ(μανικοῦ) Σαρμα]τικ(οῦ) υἱωνὸν θε[οῦ Ἀντωνείνου Εὐσεβοῦς ἔκγονον]/ [θεοῦ Ἁδριανοῦ ἀπόγονον Μ(ᾶρκον) Αὐρήλιον Ἀντωνεῖνον Εὐσεβῆ Εὐτυχῆ Σεβ(αστόν) δημαρχικῆς ἐξουσίας δʹ ἀνθύπατον καὶ Π(ούπλιον) Σεπτίμιον Γέταν Καίσ(αρα) Σεβασ]τὸν υἱὸν τοῦ [Αὐτοκράτορος καὶ Ἰουλίαν Δόμναν] / [μητέρα στρατοπέδων καὶ Σεβαστῶν γυναῖκα τοῦ Αὐτοκρ(άτορος) Λ(ουκίου) Σεπτιμίου Σεουήρου Σεβ(αστοῦ) ἡ βουλὴ καὶ ὁ δῆμος Τομειτῶν ἀνέθηκεν· Γ(άϊος) Οὐίνιος Τέρτυλλος πρεσβευτὴς Σεβαστῶν καὶ ἀντιστράτηγος καθιέρωσεν]
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> divi <expan><abbr>M</abbr><ex>arci</ex></expan> Antonini Pii <expan><abbr>Germ</abbr><ex>anici</ex></expan> <expan><abbr>Sarm</abbr><ex>atici</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> divi Commodi fratri divi Antonini Pii <expan><abbr>nep</abbr><ex>oti</ex></expan> divi Hadriani <expan><abbr>pronep</abbr><ex>oti</ex></expan> d</supplied>ivi Traiani Part<supplied reason="lost">hici <expan><abbr>abnep</abbr><ex>oti</ex></expan> divi Nervae <expan><abbr>adnep</abbr><ex>oti</ex></expan></supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan> Septimio Severo Pio Pertinaci Augusto Arabico Adiabenico Parthico maximo <expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan></supplied> VIIII <expan><abbr>imp</abbr><ex>eratori</ex></expan> XI co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II <supplied reason="lost"><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></supplied> <lb n="3"/><supplied reason="lost">et <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> Septimi Severi Pii Pertinacis <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>Arab</abbr><ex>ici</ex></expan> <expan><abbr>Adiab</abbr><ex>enici</ex></expan> <expan><abbr>Parth</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> divi <expan><abbr>M</abbr><ex>arci</ex></expan> Antonini Pii <expan><abbr>Germ</abbr><ex>anici</ex></expan> <expan><abbr>Sarm</abbr><ex>atici</ex></expan> <expan><abbr>nep</abbr><ex>oti</ex></expan> divi</supplied> Antonini Pii pro<supplied reason="lost"><expan><abbr>nep</abbr><ex>oti</ex></expan> divi Hadriani <expan><abbr>abnep</abbr><ex>oti</ex></expan></supplied> <lb n="4"/><supplied reason="lost">divi Traiani Parthici et divi Nervae <expan><abbr>adnep</abbr><ex>oti</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio Antonino Pio <expan><abbr>Fel</abbr><ex>ici</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> IV <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> et <expan><abbr>P</abbr><ex>ublio</ex></expan> Septimio Getae <expan><abbr>nob</abbr><ex>ilissimo</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> Severi <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> Antonini A</supplied><expan><abbr>ug</abbr><ex>usti</ex></expan> <del rend="erasure">fratri</del> et Iulia<supplied reason="lost">e Domnae <expan><abbr>Aug</abbr><ex>ustae</ex></expan> matri</supplied> <lb n="5"/><supplied reason="lost"><expan><abbr>castr</abbr><ex>orum</ex></expan> et <expan><abbr>Augg</abbr><ex>ustorum</ex></expan> Imperatoris <expan><abbr>L</abbr><ex>uci</ex></expan> Septimi Severi <expan><abbr>Aug</abbr><ex>usti</ex></expan> coniugi res publica Tomitanorum per <expan><abbr>C</abbr><ex>aium</ex></expan> Ovinium Tertullum <expan><abbr>leg</abbr><ex>atum</ex></expan> Au</supplied><expan><abbr>gg</abbr><ex>ustorum</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Αὐτοκρ(άτορα) Καίσ(αρα) θεοῦ Μ(άρκου) Ἀντωνείνου Εὐσεβοῦς Γερ(μανικοῦ) Σαρματ(ικοῦ) υἱὸν θεοῦ Κομμόδου ἀδελφὸν θεοῦ Ἀντωνείνου Εὐσεβοῦς υἱωνὸν θε</supplied>οῦ Ἁδριανοῦ ἔκ<supplied reason="lost">γονον θεοῦ Τραιανοῦ Παρθικοῦ καὶ</supplied> <lb n="2"/><supplied reason="lost">θεοῦ Νέρουα ἀπόγονον Λ(ούκιον) Σεπτίμιον Σεουῆρον Εὐσεβῆ Περτίνακα Σεβ(αστὸν) Ἀραβ(ικὸν) Ἀδιαβ(ηνικὸν) Παρθ(ικὸν) Μέγιστον ἀρχιερέα μέγιστον δημαρχικῆς ἐξουσίας θʹ Αὐτοκρ</supplied>άτορα ιαʹ ὕπ<supplied reason="lost">ατον βʹ π(ατέρα) π(ατρίδος) ἀνθύπατον καὶ</supplied> <lb n="3"/><supplied reason="lost">Αὐτοκρ(άτορα) Καίσ(αρα) Λ(ουκίου) Σεπτιμίου Σεουήρου Εὐσεβοῦς Περτίνακος Σεβ(αστοῦ) Ἀραβ(ικοῦ) Ἀδιαβ(ηνικοῦ) Παρθ(ικοῦ) μεγίστου υἱὸν θεοῦ Μ(άρκου) Ἀντωνείνου Εὐσεβοῦς Γερ(μανικοῦ) Σαρμα</supplied>τικ(οῦ) υἱωνὸν θε<supplied reason="lost">οῦ Ἀντωνείνου Εὐσεβοῦς ἔκγονον</supplied> <lb n="4"/><supplied reason="lost">θεοῦ Ἁδριανοῦ ἀπόγονον Μ(ᾶρκον) Αὐρήλιον Ἀντωνεῖνον Εὐσεβῆ Εὐτυχῆ Σεβ(αστόν) δημαρχικῆς ἐξουσίας δʹ ἀνθύπατον καὶ Π(ούπλιον) Σεπτίμιον Γέταν Καίσ(αρα) Σεβασ</supplied>τὸν υἱὸν τοῦ <supplied reason="lost">Αὐτοκράτορος καὶ Ἰουλίαν Δόμναν</supplied> <lb n="5"/><supplied reason="lost">μητέρα στρατοπέδων καὶ Σεβαστῶν γυναῖκα τοῦ Αὐτοκρ(άτορος) Λ(ουκίου) Σεπτιμίου Σεουήρου Σεβ(αστοῦ) ἡ βουλὴ καὶ ὁ δῆμος Τομειτῶν ἀνέθηκεν· Γ(άϊος) Οὐίνιος Τέρτυλλος πρεσβευτὴς Σεβαστῶν καὶ ἀντιστράτηγος καθιέρωσεν</supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die ursprüngliche Breite wird auf etwa 4 m geschätzt. (B): Bei der Textgestaltung der Z. 1 von IScM 2, 84 fehlt vor M. Antonini irrtümlicherweise das Wort divi.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

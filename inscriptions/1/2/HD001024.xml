@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio auf Tessera</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001024</idno>
+                <idno type="TM">168728</idno><idno type="localID">HD001024</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/276">Tessera</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei, Zinn</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-5.4</height>
+                                        <width>-9.5</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName>Aquae Sulis</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 400 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1979">1979</date>
+                        <placeName ref="http://www.geonames.org/2656173">Bath</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Somerset</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/76">Defixio</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-02-22" who="Cowey">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0658. (AB) 
+                    </bibl>
+                    <bibl>
+                         M.W.C. Hassall - R.S.O. Tomlin, Britannia 12, 1981, 370-372, Nr. 6; fig. 19 (Zeichnung). (AB) - AE 1982. 
+                    </bibl>
+                    <bibl>
+                         AE 1992, 1117. 
+                    </bibl>
+                    <bibl>
+                         J.N. Adams, Britannia 23, 1992, 14. - AE 1992. 
+                    </bibl>
+                    <bibl>
+                         A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 3.2/8. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [D]eae Suli donavi [- - - arg]/[e]ntiolos sex quos perd[idi] / a nomin[i]bus infrascript[is] / deae exactura est / Senicianus(!) et Saturni{i}nus se[d] / et Ann[i]ola carta picta perscri[pta] / An(n)[i]ola / Senicianus(!) / Saturninus
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">D</supplied>eae Suli donavi <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">arg</supplied><lb break="no" n="2"/><supplied reason="lost">e</supplied>ntiolos sex quos perd<supplied reason="lost">idi</supplied> <lb n="3"/>a nomin<supplied reason="lost">i</supplied>bus infrascript<supplied reason="lost">is</supplied> <lb n="4"/>deae exactura est <lb n="5"/>Senicianus <note>sic</note> et Saturni<surplus>i</surplus>nus se<supplied reason="lost">d</supplied> <lb n="6"/>et Ann<supplied reason="lost">i</supplied>ola carta picta perscri<supplied reason="lost">pta</supplied> <lb n="7"/><expan><abbr>An</abbr><ex>n</ex></expan><supplied reason="lost">i</supplied>ola <lb n="8"/>Senicianus <note>sic</note> <lb n="9"/>Saturninus
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Material: Blei-Zinn-Legierung. (B): Hassall - Tomlin: Z. 5: &amp;lt;sed&amp;gt;; AE 1982: Z. 5: sed.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

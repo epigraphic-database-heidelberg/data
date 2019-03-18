@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059361</idno>
+                <idno type="TM">202685</idno><idno type="localID">HD059361</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Al Khums, Lepcis Magna Museum (Altes Museum)</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-97</height>
+                                        <width>-45</width>
+                                        <depth>-45</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-6</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/015771">Africa Proconsularis</placeName><placeName>Lepcis Magna</placeName></origPlace>
+                            <origDate notBefore-custom="0283" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">283 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2219905">Al Khums</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/ly/">Libyen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-05-20" who="Bigi">
+             überprüft per Autopsie
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F033045">
+            <desc>F033045</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IRT 461. 
+                    </bibl>
+                    <bibl>
+                         I. Tantillo - F. Bigi (Hrsg.), Leptis Magna. Una città e le sue iscrizioni in epoca tardoromana (Cassino 2010) 315-316, Nr. 1; fig. 10.1. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(eratori) Caes(ari) / M(arco) Aurelio / Caro Pio Fel(ici) / invicto Aug(usto) / pont(ifici) max(imo) t(ribunicia) p(otestate) / II co(n)s(uli) II p(atri) p(atriae) proco(n)s(uli) / L(ucius) Iul(ius) Paulinus / v(ir) c(larissimus) proco(n)s(ul) / [- - - - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio <lb n="3"/>Caro Pio <expan><abbr>Fel</abbr><ex>ici</ex></expan> <lb n="4"/>invicto <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="5"/><expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>t</abbr><ex>ribunicia</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan> <lb n="6"/>II co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> proco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <lb n="7"/><expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Paulinus <lb n="8"/><expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> proco<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Datierung: zwischen Januar und August.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

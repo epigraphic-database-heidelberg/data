@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000958</idno>
+                <idno type="TM">120766</idno><idno type="localID">HD000958</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000655">Epirus</placeName><placeName>Paramythia, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0069" notAfter-custom="0096" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">69 AD – 96 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1890">1890</date>
+                        <placeName ref="http://www.geonames.org/255760">Paramithía, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Ípeiros</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-06-29" who="Ehmig">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 12299. (B) 
+                    </bibl>
+                    <bibl>
+                         AE 1890, 0083. (B) 
+                    </bibl>
+                    <bibl>
+                         G. Forni, AFLM 15, 1982, 700-701, Nr. 4. (B) - AE 1983. 
+                    </bibl>
+                    <bibl>
+                         AE 1983, 0896. (B) 
+                    </bibl>
+                    <bibl>
+                         D.K. Samsari, I romaiki apoikia tis Photikis sti Thesprotia tis Ipeirou (Ioannina 1994) 117-118, Nr. 3. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Sex(to) Po[m]peio / Sex(ti)(?) f(ilio) <C>o[l(lina?)] / Sabin[o] / praef(ecto) a[la]e Taur(ianae) / proc(uratori) A[u]g(usti) Epiri / [or?]do Photic(ensis) ex pecunia / viritim conlat(a) / ob m[e]rit[a]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Sex</abbr><ex>to</ex></expan> Po<supplied reason="lost">m</supplied>peio <lb n="2"/><expan><abbr>Sex</abbr><ex>ti</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>f</abbr><ex>ilio</ex></expan> <supplied reason="omitted">C</supplied>o<supplied reason="lost"><expan><abbr>l</abbr><ex cert="low">lina</ex></expan></supplied> <lb n="3"/>Sabin<supplied reason="lost">o</supplied> <lb n="4"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> a<supplied reason="lost">la</supplied>e <expan><abbr>Taur</abbr><ex>ianae</ex></expan> <lb n="5"/><expan><abbr>proc</abbr><ex>uratori</ex></expan> <expan><abbr>A<supplied reason="lost">u</supplied>g</abbr><ex>usti</ex></expan> Epiri <lb n="6"/><supplied reason="lost" cert="low">or</supplied>do <expan><abbr>Photic</abbr><ex>ensis</ex></expan> ex pecunia <lb n="7"/>viritim <expan><abbr>conlat</abbr><ex>a</ex></expan> <lb n="8"/>ob m<supplied reason="lost">e</supplied>rit<supplied reason="lost">a</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 2: Sex(ti) f(ilio) nach Vorschlag Alföldy. (B): AE 1890: zahlreiche Leseabweichungen; CIL III: Z. 2: Sp(uri) [f(ilio) P]o[l(lia)?]; Forni; AE 1983: Z. 2: Sp(uri) f(ilio) &amp;lt;C&amp;gt;o[l(lina)?].</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002932</idno>
+                <idno type="TM">126170</idno><idno type="localID">HD002932</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Aquileia, Mus. Arch.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>144</height>
+                                        <width>66</width>
+                                        <depth>68</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">8-4.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033155">Venetia et Histria (Regio X)</placeName><placeName ref="http://www.trismegistos.org/place/003327">Aquileia</placeName></origPlace>
+                            <origDate notBefore-custom="0244" notAfter-custom="0246" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">244 AD – 246 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1876">1876</date>
+                        <placeName ref="http://www.geonames.org/">Aquileia</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Friuli-Venezia Giulia</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-12-23" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1984, 0433. 
+                    </bibl>
+                    <bibl>
+                         G. Alföldy, in: I Musei di Aquileia. Antichità Altoadriatiche 24 (Udine 1984) 247-251, Nr. 2; fig. 2. - AE. 
+                    </bibl>
+                    <bibl>
+                         CIL 05, 08971. (B). 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [[[M(arco) I]uli[o]]] / [[Ph[i]l[i]p[po]]] / [[Caesari]] / [[[n]o[bilis]s[imo]]] / [[[fi]l[io] I[mp(eratoris)] C[ae]s(aris)]] / [[[M(arci) I[uli]]]] / [[[Philippi Pii]]] / Felicis Aug(usti) / Aquileienses / devoti numin(i) / maiestatiq(ue) eius
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure"><supplied reason="lost"><expan><abbr>M</abbr><ex>arco</ex></expan> I</supplied>uli[o</del>] <lb n="2"/><del rend="erasure">Ph<supplied reason="lost">i</supplied>l<supplied reason="lost">i</supplied>p[po</del>] <lb n="3"/><del rend="erasure">Caesari</del> <lb n="4"/><del rend="erasure"><supplied reason="lost">n</supplied>o<supplied reason="lost">bilis</supplied>s[imo</del>] <lb n="5"/><del rend="erasure"><supplied reason="lost">fi</supplied>l<supplied reason="lost">io</supplied> I<supplied reason="lost"><expan><abbr>mp</abbr><ex>eratoris</ex></expan></supplied> C<supplied reason="lost">ae</supplied><expan><abbr>s</abbr><ex>aris</ex></expan></del> <lb n="6"/><del rend="erasure">[<expan><abbr>M</abbr><ex>arci</ex></expan> I[uli</del>]] <lb n="7"/><del rend="erasure">[Philippi Pii</del>] <lb n="8"/>Felicis <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="9"/>Aquileienses <lb n="10"/>devoti <expan><abbr>numin</abbr><ex>i</ex></expan> <lb n="11"/><expan><abbr>maiestatiq</abbr><ex>ue</ex></expan> eius
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Auf dieser Statuenbasis ist noch eine frühere Inschrift zu lesen. Rasur von Z. 1-7: 249 als Folge des Bürgerkrieges gegen Decius. (B): Z. 1-7: falsche Lesung der in den eradierten Zeilen noch teilweise erkennbaren Buchstaben, keine Ergänzungsvorschläge. Material: grauer Kalkstein.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

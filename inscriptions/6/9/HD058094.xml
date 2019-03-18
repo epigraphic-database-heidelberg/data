@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD058094</idno>
+                <idno type="TM">216936</idno><idno type="localID">HD058094</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Egweil, Kirche, vermauert</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>100</height>
+                                        <width>70</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003243">Raetia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1949">1949</date>
+                        <placeName ref="http://www.geonames.org/2932952">Egweil</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Bayern</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-11-15" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/15466">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        F. Wagner, BRGK 37/38, 1956/57, 234, Nr. 72; Taf. 19, 72. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) / T(itus) Fl(avius) Paternus / vet(eranus) al(ae) I Fl[a]vi<a=V>e#Fl[a]vi<a>e#FLVIVE s(ingularium) / Batav(us) [- - -]S / et / Pomp(oniae) [I]ucun/dae Onesi/mi filiae / coni[u]gi pien/tissimae vi[x(it)] / an(nos) XXXXV / viv(u)s sibi et / co(n)iugi fecit / H[- - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Paternus <lb n="3"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>al</abbr><ex>ae</ex></expan> I Fl<supplied reason="lost">a</supplied>vi<choice><corr>a</corr><sic>V</sic></choice>e#Fl<supplied reason="lost">a</supplied>vi<supplied reason="omitted">a</supplied>e#FLVIVE <expan><abbr>s</abbr><ex>ingularium</ex></expan> <lb n="4"/><expan><abbr>Batav</abbr><ex>us</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>S <lb n="5"/>et <lb n="6"/><expan><abbr>Pomp</abbr><ex>oniae</ex></expan> <supplied reason="lost">I</supplied>ucun<lb break="no" n="7"/>dae Onesi<lb break="no" n="8"/>mi filiae <lb n="9"/>coni<supplied reason="lost">u</supplied>gi pien<lb break="no" n="10"/>tissimae vi<supplied reason="lost"><expan><abbr>x</abbr><ex>it</ex></expan></supplied> <lb n="11"/><expan><abbr>an</abbr><ex>nos</ex></expan> XXXXV <lb n="12"/>viv<expan><ex>u</ex><abbr>s</abbr></expan> sibi et <lb n="13"/>co<expan><ex>n</ex><abbr>iugi</abbr></expan> fecit <lb n="14"/>H<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Vielleicht auch Mittelteil eines Grabaltars? Oberfläche stark verwittert und stellenweise nur schwer lesbar. Z. 4: möglicherweise Batav[u]s oder s(ibi), der Abstand könnte von einer antiken Verletzung des Steines herrühren. Z. 13: IT ist klein in den Bogen des C eingeschrieben. Z. 14: das H scheint nicht so tief gearbeitet zu sein wie die anderen Buchstaben, was vielleicht auch Ergebnis der Erosion sein kann. (B): Wagner: Abweichungen in Lesung/Ergänzung.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

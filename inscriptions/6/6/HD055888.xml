@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD055888</idno>
+                <idno type="TM">217803</idno><idno type="localID">HD055888</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>13.6</height>
+                                        <width>10.7</width>
+                                        <depth>0.1</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">0.3-0.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">unbekannt</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0148" notAfter-custom="0153" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">148 AD – 153 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries//">unbekannt</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-04-02" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1997, 1778. 
+                    </bibl>
+                    <bibl>
+                         RMD 412. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Coh(ortis) I Cilic(um) sag(ittariorum) cui praefuit / Q(uintus) Castricius Manilianus Car<th=HI>ag(ine)#Car<th>ag(ine)#CARHIAG / ex pedite / Valerio Longi f(ilio) Longo Isauro // M(arci) Servili Getae / L(uci) Pulli Chresimi / M(arci) Sentili Iasi / Ti(beri) Iuli Felicis / C(ai) Iuli Silvani / L(uci) Pulli Velocis / P(ubli) Ocili Pris[ci]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Coh</abbr><ex>ortis</ex></expan> I <expan><abbr>Cilic</abbr><ex>um</ex></expan> <expan><abbr>sag</abbr><ex>ittariorum</ex></expan> cui praefuit <lb n="2"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Castricius Manilianus Car<supplied reason="omitted">th=HI</supplied><expan><abbr>ag</abbr><ex>ine</ex></expan>#Car<supplied reason="omitted">th</supplied><expan><abbr>ag</abbr><ex>ine</ex></expan>#CARHIAG <lb n="3"/>ex pedite <lb n="4"/>Valerio Longi <expan><abbr>f</abbr><ex>ilio</ex></expan> Longo Isauro </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>M</abbr><ex>arci</ex></expan> Servili Getae <lb n="2"/><expan><abbr>L</abbr><ex>uci</ex></expan> Pulli Chresimi <lb n="3"/><expan><abbr>M</abbr><ex>arci</ex></expan> Sentili Iasi <lb n="4"/><expan><abbr>Ti</abbr><ex>beri</ex></expan> Iuli Felicis <lb n="5"/><expan><abbr>C</abbr><ex>ai</ex></expan> Iuli Silvani <lb n="6"/><expan><abbr>L</abbr><ex>uci</ex></expan> Pulli Velocis <lb n="7"/><expan><abbr>P</abbr><ex>ubli</ex></expan> Ocili Pris<supplied reason="lost">ci</supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

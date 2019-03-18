@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD021838</idno>
+                <idno type="TM">200032</idno><idno type="localID">HD021838</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>78</height>
+                                        <width>57</width>
+                                        <depth>60</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/015771">Africa Proconsularis</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0198" notAfter-custom="0210" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">198 AD – 210 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Aïn-Wif</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/ly/">Libyen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-07-16" who="Bodard">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1950, 0126. 
+                    </bibl>
+                    <bibl>
+                         AE 1954, p. 55 s. n. 193. 
+                    </bibl>
+                    <bibl>
+                         IRT 868. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [I(ovi)] O(ptimo) M(aximo) D(olicheno) / [pr]o salute et victoria [dom]/inor(um) nostror(um) Imp(eratorum) L(uci) Sep[t(imi)] / Severi Pii Pert(inacis) Aug(usti) et M(arci) Aurel[i] / Antonin(i) Aug(usti) Aug(usti) n(ostri) f(ilii) et [[[P(ubli)]]] / [S[[eptimi Getae]]] Aug(usti) Aug(usti) / n(ostri) fil(ii) Aug(usti) n(ostri) fratr(is) et Iuliae / Aug(ustae) matr(is) castr(orum) M(arcus) Caninius / Adiutor Faustinianus praef(ectus) / coh(ortis) II H(a)m(iorum?) praep(ositus) vex(illatione) [leg(ionis)] / [[III]] Aug(ustae) p(iae) v(indicis) aram po[su]/it et dedicavit
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan></supplied> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <expan><abbr>D</abbr><ex>olicheno</ex></expan> <lb n="2"/><supplied reason="lost">pr</supplied>o salute et victoria <supplied reason="lost">dom</supplied><lb break="no" n="3"/><expan><abbr>inor</abbr><ex>um</ex></expan> <expan><abbr>nostror</abbr><ex>um</ex></expan> <expan><abbr>Imp</abbr><ex>eratorum</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> Sep<supplied reason="lost"><expan><abbr>t</abbr><ex>imi</ex></expan></supplied> <lb n="4"/>Severi Pii <expan><abbr>Pert</abbr><ex>inacis</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> et <expan><abbr>M</abbr><ex>arci</ex></expan> Aurel<supplied reason="lost">i</supplied> <lb n="5"/><expan><abbr>Antonin</abbr><ex>i</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> <expan><abbr>f</abbr><ex>ilii</ex></expan> et <del rend="erasure">[<expan><abbr>P</abbr><ex>ubli</ex></expan></del>] <lb n="6"/>[S<del rend="erasure">eptimi Getae</del>] <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="7"/><expan><abbr>n</abbr><ex>ostri</ex></expan> <expan><abbr>fil</abbr><ex>ii</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> <expan><abbr>fratr</abbr><ex>is</ex></expan> et Iuliae <lb n="8"/><expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>matr</abbr><ex>is</ex></expan> <expan><abbr>castr</abbr><ex>orum</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> Caninius <lb n="9"/>Adiutor Faustinianus <expan><abbr>praef</abbr><ex>ectus</ex></expan> <lb n="10"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> II <expan><abbr>H</abbr><ex>a</ex></expan><expan><abbr>m</abbr><ex cert="low">iorum</ex></expan> <expan><abbr>praep</abbr><ex>ositus</ex></expan> <expan><abbr>vex</abbr><ex>illatione</ex></expan> <supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied> <lb n="11"/><del rend="erasure">III</del> <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>v</abbr><ex>indicis</ex></expan> aram po<supplied reason="lost">su</supplied><lb break="no" n="12"/>it et dedicavit
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

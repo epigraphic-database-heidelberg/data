@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD013178</idno>
+                <idno type="TM">204439</idno><idno type="localID">HD013178</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material>Marmor, geädert / farbig</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-44</height>
+                                        <width>54.5</width>
+                                        <depth>1.8</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.8-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Mauretania Tingitana</placeName><placeName ref="http://www.trismegistos.org/place/015593">Volubilis</placeName></origPlace>
+                            <origDate notBefore-custom="0238" notAfter-custom="0241" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">238 AD – 241 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2541805">Moulay Idriss</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/ma/">Marokko</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-10-23" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1922, 0057. (B) 
+                    </bibl>
+                    <bibl>
+                         AE 1987, 1090b. 
+                    </bibl>
+                    <bibl>
+                         IAM 2, 404; Foto. 
+                    </bibl>
+                    <bibl>
+                         ILAfr 614. 
+                    </bibl>
+                    <bibl>
+                         ILM 074. 
+                    </bibl>
+                    <bibl>
+                         L. Chatelain, CRAI 1922, 29-30. (B) - AE 1922. 
+                    </bibl>
+                    <bibl>
+                         G. Di Vita-Evrard, ZPE 68, 1987, 193-195. - AE 1987. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) Caes(ar) M(arcus) Antonius / Gordianus Pius Felix Invictus / Augustus domum cum balineo /vetustate conlapsam / a solo restituit curante / M(arco) Ulpio Victore v(ivo) e(gregio) proc(uratore) / pro legato
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> Antonius <lb n="2"/>Gordianus Pius Felix Invictus <lb n="3"/>Augustus domum cum balineo <lb n="4"/>vetustate conlapsam <lb n="5"/>a solo restituit curante <lb n="6"/><expan><abbr>M</abbr><ex>arco</ex></expan> Ulpio Victore <expan><abbr>v</abbr><ex>ivo</ex></expan> <expan><abbr>e</abbr><ex>gregio</ex></expan> <expan><abbr>proc</abbr><ex>uratore</ex></expan> <lb n="7"/>pro legato
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Tafel ist in 6 Teile gebrochen. Material: grauer Marmor. (B): Chatelain, AE 1922: Z. 6 (Ende): PORC(!).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

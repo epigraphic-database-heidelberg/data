@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD033275</idno>
+                <idno type="TM">125073</idno><idno type="localID">HD033275</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Portogruaro, Mus. Naz. Concord.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>136</height>
+                                        <width>72</width>
+                                        <depth>30</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.5-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033155">Venetia et Histria (Regio X)</placeName><placeName>Iulia Concordia</placeName></origPlace>
+                            <origDate notBefore-custom="0180" notAfter-custom="0190" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">180 AD – 190 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3178203">Concordia Sagittaria</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-01-17" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F000787">
+            <desc>F000787</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        G. Alföldy, Römische Statuen in Venetia et Histria. Epigraphische Quellen (Heidelberg 1984) 108-109, Nr. 125. 
+                    </bibl>
+                    <bibl>
+                         CIL 05, 08659. 
+                    </bibl>
+                    <bibl>
+                         ILS 1412. 
+                    </bibl>
+                    <bibl>
+                         H.-G. Pflaum, Les carrières procuratoriennes équestres sous le Haut-Empire romain (Paris 1960/61) 501-504, Nr. 184, 1. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                P(ublio) Cominio P(ubli) f(ilio) / Cl(audia) Clementi / praef(ecto) classium praet(oriarum) / Misenens(is) et Ravenn(atis) / praeposito a cens(ibus) proc(uratori) / Aug(usti) XX her(editatium) proc(uratori) Aug(usti) pro/vinc(iae) Lusitan(iae) proc(uratori) Aug(usti) / prov(inciae) Daciae Apolensis(!) / subpraef(ecto) ann(onae) proc(uratori) Aug(usti) / ad famil(iam) glad(iatoriam) Transpa(danam) / proc(uratori) Aug(usti) XX her(editatium) per Hisp(aniam) / citer(iorem) omnib(us) equestrib(us) / milit(iis) funct(o) pontif(ici) pa/tron(o) coloniar(um) Conc(ordiensium) / Aquil(eiensium) Parmens(ium) Venafr(anorum) / ordo Conc(ordiensium)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> Cominio <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><expan><abbr>Cl</abbr><ex>audia</ex></expan> Clementi <lb n="3"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> classium <expan><abbr>praet</abbr><ex>oriarum</ex></expan> <lb n="4"/><expan><abbr>Misenens</abbr><ex>is</ex></expan> et <expan><abbr>n<am>n</am></abbr><ex>atis</ex></expan> <lb n="5"/>praeposito a <expan><abbr>cens</abbr><ex>ibus</ex></expan> <expan><abbr>proc</abbr><ex>uratori</ex></expan> <lb n="6"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> XX <expan><abbr>her</abbr><ex>editatium</ex></expan> <expan><abbr>proc</abbr><ex>uratori</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> pro<lb break="no" n="7"/><expan><abbr>vinc</abbr><ex>iae</ex></expan> <expan><abbr>Lusitan</abbr><ex>iae</ex></expan> <expan><abbr>proc</abbr><ex>uratori</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="8"/><expan><abbr>prov</abbr><ex>inciae</ex></expan> Daciae Apolensis <note>sic</note> <lb n="9"/><expan><abbr>subpraef</abbr><ex>ecto</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>onae</ex></expan> <expan><abbr>proc</abbr><ex>uratori</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="10"/>ad <expan><abbr>famil</abbr><ex>iam</ex></expan> <expan><abbr>glad</abbr><ex>iatoriam</ex></expan> <expan><abbr>Transpa</abbr><ex>danam</ex></expan> <lb n="11"/><expan><abbr>proc</abbr><ex>uratori</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> XX <expan><abbr>her</abbr><ex>editatium</ex></expan> per <expan><abbr>Hisp</abbr><ex>aniam</ex></expan> <lb n="12"/><expan><abbr>citer</abbr><ex>iorem</ex></expan> <expan><abbr>omnib</abbr><ex>us</ex></expan> <expan><abbr>equestrib</abbr><ex>us</ex></expan> <lb n="13"/><expan><abbr>milit</abbr><ex>iis</ex></expan> <expan><abbr>funct</abbr><ex>o</ex></expan> <expan><abbr>pontif</abbr><ex>ici</ex></expan> pa<lb break="no" n="14"/><expan><abbr>tron</abbr><ex>o</ex></expan> <expan><abbr>coloniar</abbr><ex>um</ex></expan> <expan><abbr>Conc</abbr><ex>ordiensium</ex></expan> <lb n="15"/><expan><abbr>Aquil</abbr><ex>eiensium</ex></expan> <expan><abbr>Parmens</abbr><ex>ium</ex></expan> <expan><abbr>Venafr</abbr><ex>anorum</ex></expan> <lb n="16"/>ordo <expan><abbr>Conc</abbr><ex>ordiensium</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

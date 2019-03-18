@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD039811</idno>
+                <idno type="TM">183948</idno><idno type="localID">HD039811</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Ljubuški, Humac, Museum (Franziskanerkloster)</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-26.5</height>
+                                        <width>-38.5</width>
+                                        <depth>15</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3-3.8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/029496">Bigeste</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3288712">Ljubuški</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Zapadnohercegovački kanton</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ba/">Bosnien und Herzegowina</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-01-09" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2000, 1177. 
+                    </bibl>
+                    <bibl>
+                         E. Marin - M. Mayer - G. Paci - I. Rodà, in: Y. Le Bohec - C. Wolff (Hrsg.), Les légions de Rome sous le Haut-Empire 2, Actes du Congrès de Lyon 1998 (Lyon 2000) 511, Nr. 4. - AE 2000. 
+                    </bibl>
+                    <bibl>
+                         A. Škegro, OpuscArchZagreb 21, 1997, 87-88, Nr. 12. (B) 
+                    </bibl>
+                    <bibl>
+                         V. Atanacković-Salčić, Naše starine 14/15, 1981, 273-274, Nr. 15; sl. 15; cr. 12 (Zeichnung). 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] / [- - -]AG[- - -]A / [- - - e]q(ues?) coh(ortis) I Bel(garum) / [ar]m(orum) custos / [tur(ma)?] Maximi / [an(norum)? - - -] stip(endiorum) XXIII / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>AG<gap reason="lost" extent="unknown" unit="character"/>A <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">e</supplied><expan><abbr>q</abbr><ex cert="low">ues</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> I <expan><abbr>Bel</abbr><ex>garum</ex></expan> <lb n="3"/><expan><abbr><supplied reason="lost">ar</supplied>m</abbr><ex>orum</ex></expan> custos <lb n="4"/><supplied reason="lost" cert="low">tur(ma)</supplied> Maximi <lb n="5"/><supplied reason="lost"><expan><abbr>an</abbr><ex>norum</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/></supplied> <expan><abbr>stip</abbr><ex>endiorum</ex></expan> XXIII <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Atanacković-Salčić, Škegro: abweichende Lesungen/Ergänzungen. Lesung von Z. 2 bleibt unklar.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

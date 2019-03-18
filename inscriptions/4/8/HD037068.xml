@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD037068</idno>
+                <idno type="TM">176528</idno><idno type="localID">HD037068</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016280">Bithynia et Pontus</placeName><placeName ref="http://www.trismegistos.org/place/001087">Kios</placeName></origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/746958">Gemlik</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/tr/">Türkei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-09-09" who="Cowey">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 00333 add. p. 976. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 13649a. 
+                    </bibl>
+                    <bibl>
+                         ILS 1539. 
+                    </bibl>
+                    <bibl>
+                         CIG 3738. 
+                    </bibl>
+                    <bibl>
+                         IGR 3, 0025. 
+                    </bibl>
+                    <bibl>
+                         IK 29, 046. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Dis Manibus / Flaviae Sophen<i=E>#Sophen<i>#SOPHENE / [Ge]n<i=E>alis#[Ge]n<i>alis#NEALIS Caesaris Aug(usti) / [se]rvos(!) verna dispens(ator) / [ad] frumentum carae / coniugi et amanti / bene merenti fecit / [vix(it)] an(nis) XXXII m(ensibus) VII // [Φλ]αβία Σόφη γυνὴ Γενεάλ/[ιος] Καίσαρος δούλου οἰκο/νόμου ἐπὶ τοῦ σ<ί=ΕΙ>του#σ<ί>του#σΕΙτου / [ζή]σασα κοσμίως ἔτη [λβ] / [μῆ]νας ζ χαῖρε
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Dis Manibus <lb n="2"/>Flaviae Sophen<choice><corr>i</corr><sic>E</sic></choice>#Sophen<supplied reason="omitted">i</supplied>#SOPHENE <lb n="3"/><supplied reason="lost">Ge</supplied>n<choice><corr>i</corr><sic>E</sic></choice>alis#<supplied reason="lost">Ge</supplied>n<supplied reason="omitted">i</supplied>alis#NEALIS Caesaris <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="4"/><supplied reason="lost">se</supplied>rvos <note>sic</note> verna <expan><abbr>dispens</abbr><ex>ator</ex></expan> <lb n="5"/><supplied reason="lost">ad</supplied> frumentum carae <lb n="6"/>coniugi et amanti <lb n="7"/>bene merenti fecit <lb n="8"/><supplied reason="lost"><expan><abbr>vix</abbr><ex>it</ex></expan></supplied> <expan><abbr>an</abbr><ex>nis</ex></expan> XXXII <expan><abbr>m</abbr><ex>ensibus</ex></expan> VII </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Φλ</supplied>αβία Σόφη γυνὴ Γενεάλ<lb break="no" n="2"/><supplied reason="lost">ιος</supplied> Καίσαρος δούλου οἰκο<lb break="no" n="3"/>νόμου ἐπὶ τοῦ σ<supplied reason="omitted">ί=ΕΙ</supplied>του#σ<supplied reason="omitted">ί</supplied>του#σΕΙτου <lb n="4"/><supplied reason="lost">ζή</supplied>σασα κοσμίως ἔτη <supplied reason="lost">λβ</supplied> <lb n="5"/><supplied reason="lost">μῆ</supplied>νας ζ χαῖρε
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> In Z. 8-9 steht in IK 29, 046 οἰκο/νόμου. Da aber kein Foto des Steins existiert und CIL, ILS, CIG und IGR alle οἰκο/[νό]μου bieten. liegt es nahe, daß am Anfang der Z. 9 in IK 29, 046 ein kleines Versehen vorliegt.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

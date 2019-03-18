@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Architekturteil</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD069460</idno>
+                <idno type="TM">154634</idno><idno type="localID">HD069460</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bath, Roman Baths Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/35">Architekturteil</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/70">Oolith</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-31.8</height>
+                                        <width>-150</width>
+                                        <depth>30</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName>Aquae Sulis</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1895">1895</date>
+                        <placeName ref="http://www.geonames.org/2656173">Bath</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Somerset</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-12-18" who="Cowey">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 07, 00039c. 
+                    </bibl>
+                    <bibl>
+                         CIL 07, 00039c, add. p. 306. 
+                    </bibl>
+                    <bibl>
+                         CIL 07, 00039d. 
+                    </bibl>
+                    <bibl>
+                         CIL 07, 00039e. 
+                    </bibl>
+                    <bibl>
+                         RIB 0141; Zeichnungen. 
+                    </bibl>
+                    <bibl>
+                         B.W. Cunliffe - M.G. Fulford, Bath and the rest of Wessex, CSIR Great Britain 1, 2 (Oxford 1982) 6-8, Nr. 4-19; Fig. 1 u. Pl. 3-5, 4-19. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [- - - C]laud[i]us Ligur [- - -] / [- - -]ae nimia vetust[ate - - -] // [- - - c]olegio longa seria [annorum - - -] / [- - - sua pec]unia refici et repingi cur[avit - - -] // G(aius) Protaciu[s - - -] / deae Sulis M[inervae] // EPEPAM
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">C</supplied>laud<supplied reason="lost">i</supplied>us Ligur <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ae nimia vetust<supplied reason="lost">ate</supplied><gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">c</supplied>olegio longa seria <supplied reason="lost">annorum</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> sua pec</supplied>unia refici et repingi cur<supplied reason="lost">avit</supplied><gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>G</abbr><ex>aius</ex></expan> Protaciu<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>deae Sulis M<supplied reason="lost">inervae</supplied> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> EPEPAM
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Inschrift besteht aus 5 Fragmente, wovon 2 aneinanderpassen. Die Masse von Fr. a) sind: Höhe: -31.8; Breite: -91.4; Die Masse von Fr. d) sind: Höhe: -22.9; Breite: -58.4; Die Masse von Fr. e) sind: Höhe: -25.4; Breite: -117.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

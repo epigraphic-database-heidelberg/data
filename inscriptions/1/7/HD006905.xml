@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD006905</idno>
+                <idno type="TM">190777</idno><idno type="localID">HD006905</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-70</height>
+                                        <width>-45</width>
+                                        <depth>20</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName ref="http://www.trismegistos.org/place/030031">Ibida</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/666738">Slava Cercheză</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Tulcea</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2007-10-16" who="gräf">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1980, 0826. (B) 
+                    </bibl>
+                    <bibl>
+                         D. Tudor, MatCercA 2, 1956, 594-595, Nr. 73; fig. 4a (Zeichnung). - AE 1980. 
+                    </bibl>
+                    <bibl>
+                         IScM 5, 230. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) [M(anibus)] / Ulp(ius) Fla[- - - vix(it) an]/nis XL[- - -]/stites [- - -] / qui tu[mulum? cum? sep]/ulcro h[oc? loco? - - -] / posuit [resta? viat?]/or co[ntempla? tumulu?]/m et s[epulcrum? meum?]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/><expan><abbr>Ulp</abbr><ex>ius</ex></expan> Fla<supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>vix</abbr><ex>it</ex></expan> an</supplied><lb break="no" n="3"/>nis XL<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="4"/>stites <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>qui tu<supplied reason="lost">mulum<certainty locus="name" match="preceding-sibling::text()" cert="low"/> cum<certainty locus="name" match="preceding-sibling::text()" cert="low"/> sep</supplied><lb break="no" n="6"/>ulcro h<supplied reason="lost">oc<certainty locus="name" match="preceding-sibling::text()" cert="low"/> loco<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="7"/>posuit <supplied reason="lost" cert="low">resta</supplied><supplied reason="lost">resta</supplied><lb break="no" n="8"/>or co<supplied reason="lost" cert="low">ntempla</supplied><supplied reason="lost">ntempla</supplied><lb break="no" n="9"/>m et s<supplied reason="lost" cert="low">epulcrum</supplied><supplied reason="lost">epulcrum</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): AE 1980: Z. 1: D(is) M(anibus); Z. 2/3: an]nis.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

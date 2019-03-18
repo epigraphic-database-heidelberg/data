@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD068936</idno>
+                <idno type="TM">407652</idno><idno type="localID">HD068936</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Ptuj, Pokrajinski Muz. Ptuj-Ormož</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-53</height>
+                                        <width>-50</width>
+                                        <depth>22</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2-1</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/029091">Poetovio</placeName></origPlace>
+                            <origDate notBefore-custom="0187" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">187 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1854">1854</date>
+                        <placeName ref="http://www.geonames.org/3192241">Ptuj</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Podravska statistična regija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/si/">Slowenien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-03-01" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://hdl.handle.net/11471/504.40.690">
+        </graphic>
+        <graphic url="http://lupa.at/9377">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 04051. (B) 
+                    </bibl>
+                    <bibl>
+                         AIJ 350; Foto. (B) 
+                    </bibl>
+                    <bibl>
+                         B. Jevremov, Vodnik po lapidariju 1 (Ptuj 1988) 122-123, Nr. 147. (B) 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) B 169. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) R 91. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] / [- - -]O(?)[- - -] / [M]arciae Maxi[mae] / filioru[m] / v(otum) s(olvit) l(ibens) m(erito) // Crispino et Aeliano co(n)s(ulibus) I[- - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>O</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><supplied reason="lost">M</supplied>arciae Maxi<supplied reason="lost">mae</supplied> <lb n="3"/>filioru<supplied reason="lost">m</supplied> <lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Crispino et Aeliano co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> I<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Altar oder Basis. Z. 5 befindet sich auf dem unteren Rahmen. Z. 1: nur der untere Bogen des O(?) erhalten; auch C, G oder Q möglich. (B): CIL 03, 04051; Jevremov: Z. 1: nicht gelesen; AIJ; Jevremov: Z. 2: Max[imae; CIL 03, 04051: Z. 5: COS K[---].</p>
+            </div>
+        </body>
+    </text>
+</TEI>

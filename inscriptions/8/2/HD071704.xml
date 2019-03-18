@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD071704</idno>
+                <idno type="TM">404375</idno><idno type="localID">HD071704</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Budapest, Magyar Nemzeti Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>124</height>
+                                        <width>254</width>
+                                        <depth>131</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.5-4.8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName>Aquincum, aus?</placeName></origPlace>
+                            <origDate notBefore-custom="0213" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">213 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1813">1813</date>
+                        <placeName ref="http://www.geonames.org/3043293">Vác</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Pest megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-12-08" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F011873">
+            <desc>F011873</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F011872">
+            <desc>F011872</desc>
+        </graphic>
+
+        <graphic url="http://lupa.at/3006">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 03543 add. p. 1691. 
+                    </bibl>
+                    <bibl>
+                         ILS 2391. 
+                    </bibl>
+                    <bibl>
+                         TitAq 0990; Fotos. 
+                    </bibl>
+                    <bibl>
+                         E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 342, Nr. 443; Abb. 443. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                L(ucio) Cassio Pudenti quond(am) / mil(iti) leg(ionis) II ad(iutricis) adiutori offici(i) / corniculariorum co(n)s(ularis) / stip(endiorum) XIII qui vixit ann(os) XXXII / L(ucius) Cassius Regulianus vet(eranus) / leg(ionis) II ad(iutricis) ex b(ene)f(iciario) co(n)s(ularis) pater infe/licis(s)imus filio piissimo f(aciendum) c(uravit)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Cassio Pudenti <expan><abbr>quond</abbr><ex>am</ex></expan> <lb n="2"/><expan><abbr>mil</abbr><ex>iti</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>ad</abbr><ex>iutricis</ex></expan> adiutori <expan><abbr>offici</abbr><ex>i</ex></expan> <lb n="3"/>corniculariorum co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <lb n="4"/><expan><abbr>stip</abbr><ex>endiorum</ex></expan> XIII qui vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXXII <lb n="5"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Cassius Regulianus <expan><abbr>vet</abbr><ex>eranus</ex></expan> <lb n="6"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>ad</abbr><ex>iutricis</ex></expan> ex b<expan><ex>ene</ex><abbr>f</abbr><ex>iciario</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> pater infe<lb break="no" n="7"/>licis<expan><ex>s</ex><abbr>imus</abbr></expan> filio piissimo <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Inschriftträger: Arca (TitAq).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

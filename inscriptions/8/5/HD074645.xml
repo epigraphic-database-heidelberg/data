@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD074645</idno>
+                <idno type="TM"/><idno type="localID">HD074645</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD – 170 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2780501">Ebreichsdorf</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Niederösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-02-23" who="gräf">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 04593. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 04593 add. p. 1045. 
+                    </bibl>
+                    <bibl>
+                         W. Kubitschek, JbAltertumskunde 6, 1912, 134-135; Abb. 17 Zeichnung) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [-] Merasius L(uci) f(ilius) d/[omo] Ticino Vita[lis] / [- le]g(ionis) IIII F(laviae) f(elicis) de/[func(tus)] an(norum) LXXV et / [- - -] Novel[l?]ae / [- - -] P[- -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Merasius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> d<lb break="no" n="2"/><supplied reason="lost">omo</supplied> Ticino Vita<supplied reason="lost">lis</supplied> <lb n="3"/><gap reason="lost" quantity="1" unit="character"/><expan><abbr><supplied reason="lost">le</supplied>g</abbr><ex>ionis</ex></expan> IIII <expan><abbr>F</abbr><ex>laviae</ex></expan> <expan><abbr>f</abbr><ex>elicis</ex></expan> de<lb break="no" n="4"/><supplied reason="lost"><expan><abbr>func</abbr><ex>tus</ex></expan></supplied> <expan><abbr>an</abbr><ex>norum</ex></expan> LXXV et <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> Novel<supplied reason="lost" cert="low">l</supplied>ae <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> P<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Oberhalb des Inschriftfeldes Kranz mit Halbmond; in drei Teile gebrochen. Z. 5: nach der Zeichnung bei Kubitschek war noch eine senkrechte Haste zwischen E und A erkennbar. (B): CIL 03, 04593. Z. 5: Nove[ll]ae.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

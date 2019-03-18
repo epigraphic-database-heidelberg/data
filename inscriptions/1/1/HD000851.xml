@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Block</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000851</idno>
+                <idno type="TM">282485</idno><idno type="localID">HD000851</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-70</height>
+                                        <width>-113</width>
+                                        <depth>35</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.5-4.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Samnium (Regio IV)</placeName><placeName ref="http://www.trismegistos.org/place/032771">Amiternum</placeName></origPlace>
+                            <origDate notBefore-custom="0161" notAfter-custom="0169" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">161 AD – 169 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">L'Aquila</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Abruzzo</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-01-11" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://cil-old.bbaw.de/test06/bilder/datenbank/PH0002358.jpg">
+        </graphic>
+        <graphic url="http://cil-old.bbaw.de/test06/bilder/datenbank/PH0002359.jpg">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1983, 0325. 
+                    </bibl>
+                    <bibl>
+                         S. Segenni, Epigraphica 42, 1980, 65-76, Nr. 1; fig. 1. - AE 1983. 
+                    </bibl>
+                    <bibl>
+                         J. Spaul, Cohors². The evidence for and a short history of the auxiliary infantry units of the imperial Roman army (Oxford 2000) 195-197. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] / [procura]tori Imper[atorum] Antonini et Veri / [Augusto]r(um) provinciae Galatiae item procur[atori] / [ad dilect(um)] in Mauretania Caesariensi misso ab / [divo Anto]nino Aug(usto) Pio p(atre) p(atriae) praef(ecto) alae Thracum tribuno / [coh(ortis) I mili]ariae Brittonum praef(ecto) coh(ortis) equitatae / [- - -]norum [- - -] curatori q(uin)q(uennali) summo magistro / [Septaquis? - - -] / [- - - - - -] / [- - -]T decurion[es? vi]ritim ae[r]e conlato
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><supplied reason="lost">procura</supplied>tori Imper<supplied reason="lost">atorum</supplied> Antonini et Veri <lb n="2"/><expan><abbr><supplied reason="lost">Augusto</supplied>r</abbr><ex>um</ex></expan> provinciae Galatiae item procur<supplied reason="lost">atori</supplied> <lb n="3"/><supplied reason="lost">ad <expan><abbr>dilect</abbr><ex>um</ex></expan></supplied> in Mauretania Caesariensi misso ab <lb n="4"/><supplied reason="lost">divo Anto</supplied>nino <expan><abbr>Aug</abbr><ex>usto</ex></expan> Pio <expan><abbr>p</abbr><ex>atre</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan> alae Thracum tribuno <lb n="5"/><supplied reason="lost"><expan><abbr>coh</abbr><ex>ortis</ex></expan> I mili</supplied>ariae Brittonum <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> equitatae <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>norum <gap reason="lost" extent="unknown" unit="character"/> curatori q<expan><ex>uin</ex><abbr>q</abbr><ex>uennali</ex></expan> summo magistro <lb n="7"/><supplied reason="lost">Septaquis<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>T decurion<supplied reason="lost">es<certainty locus="name" match="preceding-sibling::text()" cert="low"/> vi</supplied>ritim ae<supplied reason="lost">r</supplied>e conlato
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Inschrift verteilte sich ursprünglich auf zwei Blöcke, von denen nur der rechte erhalten ist. Datierung: 161-169: procurator von Galatia unter Marcus und Verus. Letzte Zeile: Reste eines I, T oder M erkennbar.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

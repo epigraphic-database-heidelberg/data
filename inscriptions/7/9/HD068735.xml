@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD068735</idno>
+                <idno type="TM">404435</idno><idno type="localID">HD068735</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele?</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-90</height>
+                                        <width>90</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/020126">Aquincum</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1700">1700</date>
+                        <placeName ref="http://www.geonames.org/7284844">Budapest</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Budapest</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-05-10" who="Feraudi">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 03609. 
+                    </bibl>
+                    <bibl>
+                         TitAq 0765; Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                M GAV[-]AL[- -]I Ae/[l(ia?)] Higia(!) <p=E>ie(n)t(issima)#<p>ie(n)t(issima)#EIET coni[ux] / [et - - - fil(iae?)] / suae an(norum) XXX(?) Laleae / [ma]tri <p=R>i{a}en(tissimae)#<p>i{a}en(tissimae)#RIAEN ac <f=L>il/[iae]#<f>il/[iae]#LIL suae [- - -] an(norum) X
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                M GAV<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>AL<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>I Ae<lb break="no" n="2"/><supplied reason="lost"><expan><abbr>l</abbr><ex cert="low">ia</ex></expan></supplied> Higia <note>sic</note> <choice><corr>p</corr><sic>E</sic></choice>ie<expan><ex>n</ex><abbr>t</abbr><ex>issima</ex></expan>#<supplied reason="omitted">p</supplied>ie<expan><ex>n</ex><abbr>t</abbr><ex>issima</ex></expan>#EIET coni<supplied reason="lost">ux</supplied> <lb n="3"/><supplied reason="lost">et <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>fil</abbr><ex cert="low">iae</ex></expan></supplied> <lb n="4"/>suae <expan><abbr>an</abbr><ex>norum</ex></expan> <expan><abbr>XXX</abbr><ex cert="low"/></expan> Laleae <lb n="5"/><supplied reason="lost">ma</supplied>tri <choice><corr>p</corr><sic>R</sic></choice>i<surplus>a</surplus><expan><abbr>en</abbr><ex>tissimae</ex></expan>#<supplied reason="omitted">p</supplied>i<surplus>a</surplus><expan><abbr>en</abbr><ex>tissimae</ex></expan>#RIAEN ac <choice><corr>f</corr><sic>L</sic></choice>il<lb break="no" n="6"/><supplied reason="lost">iae</supplied>#<supplied reason="omitted">f</supplied>il<lb break="no" n="7"/><supplied reason="lost">iae</supplied>#LIL suae <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>an</abbr><ex>norum</ex></expan> X
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Inschriftträger: (TitAq) unklar ob Tafel oder Stele.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

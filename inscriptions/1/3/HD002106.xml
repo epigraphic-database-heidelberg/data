@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002106</idno>
+                <idno type="TM">192548</idno><idno type="localID">HD002106</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Skopje, Arh. Muz. Mak.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-192</height>
+                                        <width>83</width>
+                                        <depth>30</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.5-4.2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029481">Moesia superior</placeName><placeName ref="http://www.trismegistos.org/place/029717">Scupi, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1953">1953</date>
+                        <placeName ref="http://www.geonames.org/791131">Skopje, Kisela Voda</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Skopski region</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/mk/">Mazedonien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-10-23" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1984, 0769. (B) 
+                    </bibl>
+                    <bibl>
+                         IMS 6, 131; Foto. (B) 
+                    </bibl>
+                    <bibl>
+                         ILJug 0045. 
+                    </bibl>
+                    <bibl>
+                         B. Josifovska, ZAnt 6, 1956, 283-286, Nr. 3; sl. 4. - AE 1984. 
+                    </bibl>
+                    <bibl>
+                          
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) // Maria Maxi/ma vix(it) an(nos) / L M(arcus) Marius / Blicities l(ibertus) e(x) t(estamento) / e(ius) p(onendum) c(uravit) et Val(erii) Sa/binianus et / Maximianu/s f(ilii) m(onumentum) p(arenti) b(ene) m(erenti) f(ecerunt)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Maria Maxi<lb break="no" n="2"/>ma <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> <lb n="3"/>L <expan><abbr>M</abbr><ex>arcus</ex></expan> Marius <lb n="4"/>Blicities <expan><abbr>l</abbr><ex>ibertus</ex></expan> <expan><abbr>e</abbr><ex>x</ex></expan> <expan><abbr>t</abbr><ex>estamento</ex></expan> <lb n="5"/><expan><abbr>e</abbr><ex>ius</ex></expan> <expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan> et <expan><abbr>Val</abbr><ex>erii</ex></expan> Sa<lb break="no" n="6"/>binianus et <lb n="7"/>Maximianu<lb break="no" n="8"/>s <expan><abbr>f</abbr><ex>ilii</ex></expan> <expan><abbr>m</abbr><ex>onumentum</ex></expan> <expan><abbr>p</abbr><ex>arenti</ex></expan> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Gefunden an der Stelle Pintija in Zweitverwendung für ein spätantikes Grab. Zwei aneinanderpassende Teile erhalten. Oberhalb der Inschrift Reliefdarstellung mit Korb und Spiegel; Z. 1 befindet sich zwischen diesem Relief und dem Inschriftfeld. (B): IMS: Z. 3/4 und 7/8: Zeilenfall nicht angegeben; AE 1984: Z. 9: f(ilii) p(arenti).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

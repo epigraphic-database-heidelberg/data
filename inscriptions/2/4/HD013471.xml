@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD013471</idno>
+                <idno type="TM">155105</idno><idno type="localID">HD013471</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Lancaster, Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-102</height>
+                                        <width>-152</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1967">1967</date>
+                        <placeName ref="http://www.geonames.org/">Overborough</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Lancashire</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-09-19" who="Cowey">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        EphEp 7, p. 303-304 n. 947. (B) 
+                    </bibl>
+                    <bibl>
+                         RIB 0612; Zeichnungen. (B) 
+                    </bibl>
+                    <bibl>
+                         AE 1969/70, 0293. 
+                    </bibl>
+                    <bibl>
+                         R.P. Wright, JRS 59, 1969, 236-237, Nr. 6. - AE 1969/70. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) / M(anibus) s(acrum) / et perpetu(a)e sec/uritati Aur(eli) Pus[i]nni civ[is - - -] vix(it) / an(nos) LIIII mili[tavit an(nos)] XXXVI / Aur(eliae) Eubiae con[iugis] ei{i}us vix(it) / an(nos) XXXVII Aur(elius) Pr[o]p[inquus f]il(io) karissim(o)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>s</abbr><ex>acrum</ex></expan> <lb n="3"/>et perpetu<expan><ex>a</ex><abbr>e</abbr></expan> sec<lb break="no" n="4"/>uritati <expan><abbr>Aur</abbr><ex>eli</ex></expan> Pus<supplied reason="lost">i</supplied>nni civ<supplied reason="lost">is</supplied><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="5"/><expan><abbr>an</abbr><ex>nos</ex></expan> LIIII mili<supplied reason="lost">tavit <expan><abbr>an</abbr><ex>nos</ex></expan></supplied> XXXVI <lb n="6"/><expan><abbr>Aur</abbr><ex>eliae</ex></expan> Eubiae con<supplied reason="lost">iugis</supplied> ei<surplus>i</surplus>us <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="7"/><expan><abbr>an</abbr><ex>nos</ex></expan> XXXVII <expan><abbr>Aur</abbr><ex>elius</ex></expan> Pr<supplied reason="lost">o</supplied>p<supplied reason="lost">inquus f</supplied><expan><abbr>il</abbr><ex>io</ex></expan> <expan><abbr>karissim</abbr><ex>o</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Inschrift besteht aus 3 aneinanderpassenden Fragmenten. (B): Zu den Leseabweichungen s. RIB 0612.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

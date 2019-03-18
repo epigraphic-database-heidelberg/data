@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000378</idno>
+                <idno type="TM">241564</idno><idno type="localID">HD000378</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mérida, Mus. Arq.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>75.5</height>
+                                        <width>90</width>
+                                        <depth>6</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-3.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/005531">Lusitania</placeName><placeName>Emerita Augusta</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 50 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2513917">Mérida</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Extremadura</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-12-11" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1983, 0494. (BC) 
+                    </bibl>
+                    <bibl>
+                         L. García Iglesias, RevEstExtremeños 39, 1983, 586-588; lám. 6. (B) - AE 1983. 
+                    </bibl>
+                    <bibl>
+                         ILER 3669. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                P(ublio) Vario Q(uinti) f(ilio) Pap(iria) Ligu[ri] / Liciniae C(ai) l(ibertae) Thelid[i] / P(ublio) Vario P(ubli) f(ilio) Pap(iria) Severo / Variae P(ubli) f(iliae) Avitae d(e) s(uo) f(aciendum) c(uravit) / [[[Q(uintus) Iulius - - -]]] / socero socrui socerino / uxsori(!) [[[dedicavit]]] / Iulia Q(uinti) f(ilia) Severa / h(oc) m(onumentum) s(ive) s(epulcrum) e(xterum) h(eredem) n(on) s(equetur)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> Vario <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Pap</abbr><ex>iria</ex></expan> Ligu<supplied reason="lost">ri</supplied> <lb n="2"/>Liciniae <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>l</abbr><ex>ibertae</ex></expan> Thelid<supplied reason="lost">i</supplied> <lb n="3"/><expan><abbr>P</abbr><ex>ublio</ex></expan> Vario <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Pap</abbr><ex>iria</ex></expan> Severo <lb n="4"/>Variae <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> Avitae <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>uo</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan> <lb n="5"/><del rend="erasure">[<expan><abbr>Q</abbr><ex>uintus</ex></expan> Iulius <gap reason="lost" extent="unknown" unit="character"/></del>] <lb n="6"/>socero socrui socerino <lb n="7"/>uxsori <note>sic</note> <del rend="erasure">[dedicavit</del>] <lb n="8"/>Iulia <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> Severa <lb n="9"/><expan><abbr>h</abbr><ex>oc</ex></expan> <expan><abbr>m</abbr><ex>onumentum</ex></expan> <expan><abbr>s</abbr><ex>ive</ex></expan> <expan><abbr>s</abbr><ex>epulcrum</ex></expan> <expan><abbr>e</abbr><ex>xterum</ex></expan> <expan><abbr>h</abbr><ex>eredem</ex></expan> <expan><abbr>n</abbr><ex>on</ex></expan> <expan><abbr>s</abbr><ex>equetur</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Z.2: Abweichungen in Lesung und Ergänzung. (C): P. Varius Q.f. Ligur (García Iglesias). Verwandte des Schwiegervaters in Italien mit hohem soz. Rang bekannt (cf. Tac., Ann. 4,42,3; 6,30,1; ILS 171; Dio 60,23,3). Socerinus als hapax. Ergänzungsvorschlag für gründliche Rasur: [[Q(uintus) Iulius ---]], [[dedicavit]] (vgl. Rasur bei CIL II 1660).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

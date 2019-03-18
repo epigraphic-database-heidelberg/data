@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001235</idno>
+                <idno type="TM">247115</idno><idno type="localID">HD001235</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mus. Paestum</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>122</height>
+                                        <width>58.4</width>
+                                        <depth>6</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-9.3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033153">Bruttium et Lucania (Regio III)</placeName><placeName ref="http://www.trismegistos.org/place/014483">Paestum</placeName></origPlace>
+                            <origDate notBefore-custom="0401" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD – 600 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1967">1967</date>
+                        <placeName ref="http://www.geonames.org/">Capaccio</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Salerno</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="1997-08-15" who="Niquet">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0222. 
+                    </bibl>
+                    <bibl>
+                         M. Mello, VetChr 19, 1982, 86-89, Nr. 1; Foto. - AE 1982, AE 1984. 
+                    </bibl>
+                    <bibl>
+                         AE 1984, 0263. (C) 
+                    </bibl>
+                    <bibl>
+                         M. Mello, AFLL 5, 1969-1971, 144-147; tav. 17. - AE 1982. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Hic posita est / Petronia qu(a)e / recessit V Id(us) / Aug(ustas) et Adeo/data reces/sit Non(is) Mart(iis)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Hic posita est <lb n="2"/>Petronia qu<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="3"/>recessit V <expan><abbr>Id</abbr><ex>us</ex></expan> <lb n="4"/><expan><abbr>Aug</abbr><ex>ustas</ex></expan> et Adeo<lb break="no" n="5"/>data reces<lb break="no" n="6"/>sit <expan><abbr>Non</abbr><ex>is</ex></expan> <expan><abbr>Mart</abbr><ex>iis</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Tafel besteht aus 5 zusammenhängenden Fragmenten. Verwendung der Tafel als Türschwelle. Y: Todestage: 9.8. und 7.3. (C): wohl 5. Jh.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

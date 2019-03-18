@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD019445</idno>
+                <idno type="TM">285360</idno><idno type="localID">HD019445</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-67</height>
+                                        <width>45</width>
+                                        <depth>9.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Transpadana (Regio XI)</placeName><placeName ref="http://www.trismegistos.org/place/003308">Mediolanum</placeName></origPlace>
+                            <origDate notBefore-custom="0523-01-14" notAfter-custom="0523-01-14" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">14.1.523 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Milano</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Lombardia</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-10-12" who="Feraudi">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1947, 0068. (B) 
+                    </bibl>
+                    <bibl>
+                         A. Calderini, Aevum 19, 1945, 4, Nr.2. - AE 1947. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] / [- - - cuiu]s in occasu / [- - -]s mors discrimena(!) sentit cum n[- - -] / vita perit cui lux mutata sepulc(h)ris et / superest in morte dies quem sorte su/prema ultima bis quinis peremerunt / tempora lustris dep(ositus?) su(b) d(ie) XVIIII Kal(endas) / Febr(uarias) Maximo v(iro) c(larissimo) cons(ule) // $]ceviola / [- - -]uno / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">cuiu</supplied>s in occasu <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>s mors discrimena <note>sic</note> sentit cum n<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>vita perit cui lux mutata sepulc<expan><ex>h</ex><abbr>ris</abbr></expan> et <lb n="4"/>superest in morte dies quem sorte su<lb break="no" n="5"/>prema ultima bis quinis peremerunt <lb n="6"/>tempora lustris <expan><abbr>dep</abbr><ex cert="low">ositus</ex></expan> <expan><abbr>su</abbr><ex>b</ex></expan> <expan><abbr>d</abbr><ex>ie</ex></expan> XVIIII <expan><abbr>Kal</abbr><ex>endas</ex></expan> <lb n="7"/><expan><abbr>Febr</abbr><ex>uarias</ex></expan> Maximo <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>cons</abbr><ex>ule</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ceviola <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>uno <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Metrische Inschrift. Zwischen den Versen hakenförmige Trennzeichen. Die Tafel trug eine weitere Inschrift, von der jedoch nur einige wenige Buchstaben erhalten sind. (B): AE 1947. Z. 1: cuius; Z. 2: [---] mors, sentit //; Z. 2/3: n[il] vita; Z. 3: sepulcris // et; Z. 4/5: sortes suprema //; Z. 5/6: peremerunt tempora lustri //; Z. 6: XVIII; Z. 6/7: kal. Febr.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059902</idno>
+                <idno type="TM">177660</idno><idno type="localID">HD059902</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-61</height>
+                                        <width>-42.5</width>
+                                        <depth>15.7</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6.6</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000078">Achaia</placeName><placeName>Colonia Laus Iulia Corinthus</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1928">1928</date>
+                        <placeName ref="http://www.geonames.org/">Kórinthos</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Pelopónissos</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2010-03-23" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        J.H. Kent, Corinth. Results of excavations conducted by The American School of Classical Studies at Athens 8, 3. The inscriptions 1926-1950 (Princeton 1966) 37, Nr. 66; pl. 54,629a u. b. 
+                    </bibl>
+                    <bibl>
+                         J.H. Kent, Corinth. Results of excavations conducted by The American School of Classical Studies at Athens 8, 3. The inscriptions 1926-1950 (Princeton 1966) 194, Nr. 629; pl. 54,629a u. b. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [[[Genio Sanc]tissimo [Aug(usti)]]] / [[[- - -]S[- - -]S[- - -]]] // ἔνθα κα[τάκιτε - - -] / ἡ κοσμ<ι>ο[τάτη κ(αὶ) πενθου]μέν[η διακό]/[ν]εσσα(?) [- - -] κ(αὶ) <ἐ>τε[λεύτη]/[σε δ]ὲ κ(αὶ) μ[η(νὶ) - - - ἡμ(έρᾳ)] ε ἰνδ[(ικτιῶνος) -ʹ]
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <del rend="erasure"><supplied reason="lost">Genio Sanc</supplied>tissimo [<expan><abbr>Aug</abbr><ex>usti</ex></expan></del>] <lb n="2"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/>S<gap reason="lost" extent="unknown" unit="character"/>S[<gap reason="lost" extent="unknown" unit="character"/></del>] </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ἔνθα κα<supplied reason="lost">τάκιτε <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/>ἡ κοσμ<supplied reason="omitted">ι</supplied>ο<supplied reason="lost">τάτη κ(αὶ) πενθου</supplied>μέν<supplied reason="lost">η διακό</supplied><lb break="no" n="3"/><supplied reason="lost">ν</supplied>εσσα<certainty match="preceding-sibling::node()" locus="value"/> <gap reason="lost" extent="unknown" unit="character"/> κ(αὶ) <supplied reason="omitted">ἐ</supplied>τε<supplied reason="lost">λεύτη</supplied><lb break="no" n="4"/><supplied reason="lost">σε δ</supplied>ὲ κ(αὶ) μ<supplied reason="lost">η(νὶ) <gap reason="lost" extent="unknown" unit="character"/> ἡμ(έρᾳ)</supplied> ε ἰνδ<supplied reason="lost">(ικτιῶνος) <gap reason="lost" quantity="1" unit="character"/>ʹ</supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Inschrift besteht aus zwei Fragmenten. Die Maße des kleineren Fragments sind: Höhe: 31; Breite: 14.7; Tiefe: 15.1. Die griechische Inschrift ist deutlich später zu datieren als die lateinische. Sie stammt vermutlich aus dem fünften Jhr. n. Chr.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

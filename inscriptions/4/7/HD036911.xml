@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD036911</idno>
+                <idno type="TM">211127</idno><idno type="localID">HD036911</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Stuttgart, Württ. Landesmus.?</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>145</height>
+                                        <width>47</width>
+                                        <depth>31</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6.5-3.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>(Arae Flaviae, bei)</placeName></origPlace>
+                            <origDate notBefore-custom="0089" notAfter-custom="0096" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">89 AD – 96 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1825">1825</date>
+                        <placeName ref="http://www.geonames.org/2844451">Aichhalden</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Baden-Württemberg</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-04-20" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 06357. 
+                    </bibl>
+                    <bibl>
+                         ILS 3914. 
+                    </bibl>
+                    <bibl>
+                         F. Haug - G. Sixt, Die römischen Inschriften und Bildwerke Württembergs (Stuttgart 1900) 68-70, Nr. 100; Abb. 34. 
+                    </bibl>
+                    <bibl>
+                         AE 2001, 1529. 
+                    </bibl>
+                    <bibl>
+                         J.-C. Wulfmeier, in: G. Brands u. a. (Hrsg.), Rom und die Provinzen. 
+                    </bibl>
+                    <bibl>
+                         Gedenkschrift für Hanns Gabelmann (München 2001) 180-181. 
+                    </bibl>
+                    <bibl>
+                         R. Wiegels, AW 13, 1982, 41-43. - AE 1984. 
+                    </bibl>
+                    <bibl>
+                         AE 1984, 0701. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Abnobae / Q(uintus) Antonius / Silo |(centurio) leg(ionis) I a/diutricis et / leg(ionis) II adiutri/cis et leg(ionis) III Aug(ustae) / et leg(ionis) IIII F(laviae) f(elicis) / et leg(ionis) XI C(laudiae) p(iae) f(idelis) / et leg(ionis) XXII p(iae) f(idelis) D(omitianae) / v(otum) s(olvit) l(ibens) l(aetus) m(erito)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Abnobae <lb n="2"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Antonius <lb n="3"/>Silo |(centurio) <expan><abbr>leg</abbr><ex>ionis</ex></expan> I a<lb break="no" n="4"/>diutricis et <lb n="5"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> II adiutri<lb break="no" n="6"/>cis et <expan><abbr>leg</abbr><ex>ionis</ex></expan> III <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <lb n="7"/>et <expan><abbr>leg</abbr><ex>ionis</ex></expan> IIII <expan><abbr>F</abbr><ex>laviae</ex></expan> <expan><abbr>f</abbr><ex>elicis</ex></expan> <lb n="8"/>et <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <lb n="9"/>et <expan><abbr>leg</abbr><ex>ionis</ex></expan> XXII <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <expan><abbr>D</abbr><ex>omitianae</ex></expan> <lb n="10"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

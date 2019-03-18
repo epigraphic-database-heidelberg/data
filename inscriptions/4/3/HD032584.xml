@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD032584</idno>
+                <idno type="TM">249651</idno><idno type="localID">HD032584</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>91</height>
+                                        <width>230</width>
+                                        <depth>4</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">13-7.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033152">Latium et Campania (Regio I)</placeName><placeName ref="http://www.trismegistos.org/place/014513">Nuceria Alfaterna</placeName></origPlace>
+                            <origDate notBefore-custom="0082" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">82 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Nocera Inferiore</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Salerno</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2007-01-08" who="Feraudi">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        M. Horster, Bauinschriften römischer Kaiser (Stuttgart 2001) 82. 288, Nr. Ib 7. (B) 
+                    </bibl>
+                    <bibl>
+                         AE 1994, 0404. (B) 
+                    </bibl>
+                    <bibl>
+                         G. Alföldy, Epigraphica 64, 2002, 127-128, Nr. 18. - AE 2002. 
+                    </bibl>
+                    <bibl>
+                         AE 2002, 0337. 
+                    </bibl>
+                    <bibl>
+                         W. Johannowsky, in: C.A. Livadie (Hrsg.), Tremblements de terre, éruptions volcaniques et vie des hommes dans la Campanie antique (Naples 1986) 91-93; pl. 54, 1 (Zeichnung). (B) - AE 1994. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(erator) Ca]esa[r] divi Vespasiani f[il(ius)] / [[[Domitianus]]] Aug(ustus) pont(ifex) ma[x(imus)] trib(unicia) potest(ate) / [II imp(erator) II co(n)s(ul) VIII] designat(us) VIII[I p(ater) p(atriae) th]eat[r- - -] / [- - -]us terrae m[ot]ibu[s - - -] / [restit]uit
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Ca</supplied>esa<supplied reason="lost">r</supplied> divi Vespasiani f<supplied reason="lost"><expan><abbr>il</abbr><ex>ius</ex></expan></supplied> <lb n="2"/><del rend="erasure">[Domitianus</del>] <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> ma<supplied reason="lost"><expan><abbr>x</abbr><ex>imus</ex></expan></supplied> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> <lb n="3"/><supplied reason="lost">II <expan><abbr>imp</abbr><ex>erator</ex></expan> II <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> VIII</supplied> <expan><abbr>designat</abbr><ex>us</ex></expan> VIII<supplied reason="lost">I <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> th</supplied>eat<supplied reason="lost">r</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>us terrae m<supplied reason="lost">ot</supplied>ibu<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost">restit</supplied>uit
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Textwiedergabe nach G. Alföldy. (B): Horster: abweichende Textwiedergabe; 82: Z. 3. VIIII; Johannowsky: abweichende Ergänzungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

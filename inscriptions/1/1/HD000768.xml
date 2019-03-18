@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Block</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000768</idno>
+                <idno type="TM">204694</idno><idno type="localID">HD000768</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003344">Numidia</placeName><placeName ref="http://www.trismegistos.org/place/017020">Mascula</placeName></origPlace>
+                            <origDate notBefore-custom="0337" notAfter-custom="0378" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">337 AD – 378 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1898">1898</date>
+                        <placeName ref="http://www.geonames.org/2491889">Khenchela</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Batna</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="1990-12-06" who="Wesch">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0959. (C) 
+                    </bibl>
+                    <bibl>
+                         C. Lepelley, Les cités de l'Afrique romaine au Bas-Empire (Paris 1981) II 434, Anm. 9. - AE. 
+                    </bibl>
+                    <bibl>
+                         C. Lepelley, ZPE 43, 1981, 190, Nr. 5. (C) - AE. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Saec]ulo feli[cissimo dd(ominorum) nn(ostrorum) victoriosissimorum? - - -] / [- - -]ntis perpet[uorum Augg(ustorum) - - -] / [- - - ve]tustate co[nlaps(- - -) - - -] / [cum om?]n(i) deco[re - - -] / [sumptu? o]rdini[s - - -] / [curator] rei publicae [restituit et dedicavit?]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Saec</supplied>ulo feli<supplied reason="lost">cissimo <expan><abbr>dd</abbr><ex>ominorum</ex></expan> <expan><abbr>nn</abbr><ex>ostrorum</ex></expan> victoriosissimorum<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ntis perpet<supplied reason="lost">uorum <expan><abbr>Augg</abbr><ex>ustorum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ve</supplied>tustate co<supplied reason="lost"><expan><abbr>nlaps</abbr><ex>3</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/><supplied reason="lost" cert="low">cum om</supplied><expan><abbr>n</abbr><ex>i</ex></expan> deco<supplied reason="lost">re</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost">sumptu<certainty locus="name" match="preceding-sibling::text()" cert="low"/> o</supplied>rdini<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><supplied reason="lost">curator</supplied> rei publicae <supplied reason="lost" cert="low">restituit et dedicavit</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Y: Aufgrund der erhaltenen Genitivendung -ntis kommen zwei Kaiser in Frage: Constans (337-350) oder Valens (364-378) mit den entsprechenden Mitkaisern. (C): AE und Lepelley halten es für wahrscheinlich, daß die Inschrift Valentinian und Valens zuzuweisen ist (364-367).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

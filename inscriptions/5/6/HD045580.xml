@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD045580</idno>
+                <idno type="TM">195258</idno><idno type="localID">HD045580</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bölcske, Múzeum, Lapidarium</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-132</height>
+                                        <width>-53</width>
+                                        <depth>-45</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3-2.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/020126">Aquincum, aus</placeName></origPlace>
+                            <origDate notBefore-custom="0282-06-11" notAfter-custom="0282-06-11" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">11.6.282 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3054853">Bölcske</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Tolna megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-06-28" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/10298">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2003, 1419. 
+                    </bibl>
+                    <bibl>
+                         J. Beszédes - Z Mráv - E. Tóth, in: Á. Szabó - E. Tóth (Hrsg.) Bölcske. 
+                    </bibl>
+                    <bibl>
+                         Römische Inschriften und Funde (Budapest 2003) 119-120, Nr. 12; Foto u. Zeichnung. - AE 2003. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) V 628. 
+                    </bibl>
+                    <bibl>
+                         B. Lőrincz, in: P. Kovács (Hrsg.), Az ókori Pannonia forrásia. Kr. u. 235 és 284 között, Fontes Pannoniae Antiquae 5 (Budapest 2008) 135, Nr. 45. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [I(ovi) O(ptimo) M(aximo) Teutano] // [[pro sal(ute) adque incolu]]/[[mitate Imp(eratoris) Caes(aris) Aur(eli)]] / [[Probi Pii Fel(icis) Inv(icti)]] / Aug(usti) totiusque / domus divinae / et civitatis Eravis/corum Iul(ius) / Domitianus et / Cl(audius) Di(v)es IIvv(iri) / col(oniae) Aq(uincensium) dedica/verunt / III Idus / Iunias [[Imp(eratore) Probo]] / [[Augusto V et]] / Victorino co(n)s(ulibus)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> Teutano</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <del rend="erasure">pro <expan><abbr>sal</abbr><ex>ute</ex></expan> adque incolu</del><lb break="no" n="2"/><del rend="erasure">mitate <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>Aur</abbr><ex>eli</ex></expan></del> <lb n="3"/><del rend="erasure">Probi Pii <expan><abbr>Fel</abbr><ex>icis</ex></expan> <expan><abbr>Inv</abbr><ex>icti</ex></expan></del> <lb n="4"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> totiusque <lb n="5"/>domus divinae <lb n="6"/>et civitatis Eravis<lb break="no" n="7"/>corum <expan><abbr>Iul</abbr><ex>ius</ex></expan> <lb n="8"/>Domitianus et <lb n="9"/><expan><abbr>Cl</abbr><ex>audius</ex></expan> Di<expan><ex>v</ex><abbr>es</abbr></expan> <expan><abbr>IIvv</abbr><ex>iri</ex></expan> <lb n="10"/><expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Aq</abbr><ex>uincensium</ex></expan> dedica<lb break="no" n="11"/>verunt <lb n="12"/>III Idus <lb n="13"/>Iunias <del rend="erasure"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> Probo</del> <lb n="14"/><del rend="erasure">Augusto V et</del> <lb n="15"/>Victorino co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Ursprünglicher Aufstellungsort in Aquincum vermutlich auf dem Gellérthegy. Der heute sichtbare Text ist in das eradierte Inschriftfeld einer nicht mehr lesbaren Vorgängerinschrift eingemeißelt worden.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

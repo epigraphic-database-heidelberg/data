@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001209</idno>
+                <idno type="TM">248006</idno><idno type="localID">HD001209</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>63</height>
+                                        <width>59</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.2-3.1</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Etruria (Regio VII)</placeName><placeName ref="http://www.trismegistos.org/place/022972">Cosa</placeName></origPlace>
+                            <origDate notBefore-custom="0236" notAfter-custom="0238" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">236 AD – 238 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1970">1970</date>
+                        <placeName ref="http://www.geonames.org/">Ansedonia</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Grosseto</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-05-07" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F015943">
+            <desc>F015943</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0325. 
+                    </bibl>
+                    <bibl>
+                         R.T. Scott, Chiron 11, 1981, 309-314; pl. 18. - AE 1982. 
+                    </bibl>
+                    <bibl>
+                         M. Horster, Bauinschriften römischer Kaiser (Stuttgart 2001) 98. 317- 319, Nr. VII 1,2. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) Caes(ar) C(aius) Iulius Ve/rus Maximinus In/victus Aug(ustus) et C(aius) Iulius / Verus Maximus nobil(issimus) / Caes(ar) opus porticus fori / et aedibus cum hodio(!) / vetust(ate) dilapsum pec(unia) pub(lica) / Cosanor(um) rest(itui) iusserunt / cur(am) agente C(aio) Rufio C(ai) f(ilio) / Proculo c(larissimo) v(iro)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Ve<lb break="no" n="2"/>rus Maximinus In<lb break="no" n="3"/>victus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> et <expan><abbr>C</abbr><ex>aius</ex></expan> Iulius <lb n="4"/>Verus Maximus <expan><abbr>nobil</abbr><ex>issimus</ex></expan> <lb n="5"/><expan><abbr>Caes</abbr><ex>ar</ex></expan> opus porticus fori <lb n="6"/>et aedibus cum hodio <note>sic</note> <lb n="7"/><expan><abbr>vetust</abbr><ex>ate</ex></expan> dilapsum <expan><abbr>pec</abbr><ex>unia</ex></expan> <expan><abbr>pub</abbr><ex>lica</ex></expan> <lb n="8"/><expan><abbr>Cosanor</abbr><ex>um</ex></expan> <expan><abbr>rest</abbr><ex>itui</ex></expan> iusserunt <lb n="9"/><expan><abbr>cur</abbr><ex>am</ex></expan> agente <expan><abbr>C</abbr><ex>aio</ex></expan> Rufio <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="10"/>Proculo <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Tafel besteht aus vielen Fragmenten. Zum Vater des Senators s. CIL XI 2997; XV 7525. Die Tafel stammt ursprünglich vom Forum. Für odeo steht hodio. Datierung: nach der Zeit zwischen dem 7.1. und 16.5.236 n. Chr. (Maximus zum Caesar erhoben) und Mitte Januar 238 n. Chr. (Maximinus Thrax und Maximus zu hostes erklärt). Material: lunensischer Marmor.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

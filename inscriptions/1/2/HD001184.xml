@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001184</idno>
+                <idno type="TM">251044</idno><idno type="localID">HD001184</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mentana, Privatbesitz</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>56</height>
+                                        <width>-43</width>
+                                        <depth>9</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033152">Latium et Campania (Regio I)</placeName><placeName ref="http://www.trismegistos.org/place/002988">Ostia</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Roma, Ostia</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Lazio</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-02-11" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0133. 
+                    </bibl>
+                    <bibl>
+                         G. Barbieri, in: G. Barbieri (Hrsg.), Il lapidario Zeri di Mentana (Roma 1982) 72-82, Nr. 32; tav. 29. - AE 1982. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                M(arcus) Ulpius P[- - -] / sevir Augus[t(alis) idem quinquenn(alis)] / anabolica[rius - - -] / Aufidiae Tryph[aenae? uxori et] / Ulpis Quin[tiano? et Poly?]/timo filis et [lib(ertis) libertab(us)] / poster[isq(ue) eorum] // in fr(onte) p(edes) [- - - in agr(o) p(edes) - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Ulpius P<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>sevir Augus<supplied reason="lost"><expan><abbr>t</abbr><ex>alis</ex></expan> idem <expan><abbr>quinquenn</abbr><ex>alis</ex></expan></supplied> <lb n="3"/>anabolica<supplied reason="lost">rius</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>Aufidiae Tryph<supplied reason="lost">aenae<certainty locus="name" match="preceding-sibling::text()" cert="low"/> uxori et</supplied> <lb n="5"/>Ulpis Quin<supplied reason="lost" cert="low">tiano? et Poly</supplied><lb break="no" n="6"/>timo filis et <supplied reason="lost"><expan><abbr>lib</abbr><ex>ertis</ex></expan> <expan><abbr>libertab</abbr><ex>us</ex></expan></supplied> <lb n="7"/>poster<supplied reason="lost"><expan><abbr>isq</abbr><ex>ue</ex></expan> eorum</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> in <expan><abbr>fr</abbr><ex>onte</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> in <expan><abbr>agr</abbr><ex>o</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Mögliche Ergänzungen des Cognomens von Aufidia: Tryph[aena], Tryph[era], Tryph[osa], des Cognomens des 2. Sohnes: [Poly]timus, [Philo]timus.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

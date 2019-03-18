@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD055845</idno>
+                <idno type="TM">193914</idno><idno type="localID">HD055845</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Požarevac, Narod. Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>9.5</height>
+                                        <width>-6.2</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">0.4-0.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029481">Moesia superior</placeName><placeName ref="http://www.trismegistos.org/place/029642">Viminacium</placeName></origPlace>
+                            <origDate notBefore-custom="0144" notAfter-custom="0146" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">144 AD – 146 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1992">1992</date>
+                        <placeName ref="http://www.geonames.org/789210">Kostolac, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Centralna Srbija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/rs/">Serbien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-10-20" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1999, 1313. 
+                    </bibl>
+                    <bibl>
+                         RMD 402. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Alae Ga<l=C>l(orum)#Ga<l>l(orum)#GACL [Flavian(ae)? cui prae(e)st] Ti(berius) Claudiu[s - - - ex gregale] / Tidi Thi[- - - f(ilio) - - -] et Mammae Poss[- - - fil(iae) uxori eius & // P(ubli) Atti [Severi] / L(uci) Pulli [Daphni] / M(arci) Servili [Getae] / L(uci) Pulli [Chresimi] / M(arci) Sentili [Iasi] / Ti(beri) Iuli [ Felicis] / C(ai) Iuli [Silvani]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Alae Ga<choice><corr>l</corr><sic>C</sic></choice><expan><abbr>l</abbr><ex>orum</ex></expan>#Ga<supplied reason="omitted">l</supplied><expan><abbr>l</abbr><ex>orum</ex></expan>#GACL <supplied reason="lost"><expan><abbr>Flavian</abbr><ex>ae</ex></expan>? cui <expan><abbr>prae</abbr><ex>e</ex>st</expan></supplied> <expan><abbr>Ti</abbr><ex>berius</ex></expan> Claudiu<supplied reason="lost">s <gap reason="lost" extent="unknown" unit="character"/> ex gregale</supplied> <lb n="2"/>Tidi Thi<supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>f</abbr><ex>ilio</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> et Mammae Poss[--- <expan><abbr>fil</abbr><ex>iae</ex></expan> uxori eius &amp; </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>P</abbr><ex>ubli</ex></expan> Atti <supplied reason="lost">Severi</supplied> <lb n="2"/><expan><abbr>L</abbr><ex>uci</ex></expan> Pulli <supplied reason="lost">Daphni</supplied> <lb n="3"/><expan><abbr>M</abbr><ex>arci</ex></expan> Servili <supplied reason="lost">Getae</supplied> <lb n="4"/><expan><abbr>L</abbr><ex>uci</ex></expan> Pulli <supplied reason="lost">Chresimi</supplied> <lb n="5"/><expan><abbr>M</abbr><ex>arci</ex></expan> Sentili <supplied reason="lost">Iasi</supplied> <lb n="6"/><expan><abbr>Ti</abbr><ex>beri</ex></expan> Iuli <supplied reason="lost"> Felicis</supplied> <lb n="7"/><expan><abbr>C</abbr><ex>ai</ex></expan> Iuli <supplied reason="lost">Silvani</supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

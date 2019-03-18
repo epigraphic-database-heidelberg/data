@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD072684</idno>
+                <idno type="TM">670434</idno><idno type="localID">HD072684</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>16.1</height>
+                                        <width>12.7</width>
+                                        <depth>0.1</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0115-07-05" notAfter-custom="0115-07-05" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">5.7.115 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3046488">Pér, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Győr-Moson-Sopron megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-02-24" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2012, 1128. 
+                    </bibl>
+                    <bibl>
+                         W. Eck - A. Pangerl, ZPE 180, 2012, 287-294; Fotos. - AE 2012. 
+                    </bibl>
+                    <bibl>
+                         Z. Mráv - I. Vida, FolA 55, 2011-2013, 89-110; kép. 1-5. - AE 2012. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) Caesar divi Nervae f(ilius) Traianus / Optimus Aug(ustus) Germ(anicus) Dacicus pontif(ex) maxim(us) / tribun(icia) potest(ate) XVIII<I> imp(erator) VIIII co(n)s(ul) VI p(ater) p(atriae) / equitibus et peditibus qui militaverunt / in alis quinque et cohortibus tribus quae / appellantur I Batavorum |(milliaria) c(ivium) R(omanorum) p(ia) f(idelis) et I Thra/cum veterana et I Cann<a=E>nefatium#Cann<a>nefatium#CANNENEFATIUM c(ivium) R(omanorum) et I / Aravacor(um) et Hispanor(um) et I Bosporanor(um) et / I et II Batavor(um) |(milliaria) c(ivium) R(omanorum) p(ia) f(idelis) et V Callaecor(um) Lu/censium quae sunt in Pannonia superiore / sub L(ucio) Minicio Natale quinis et vicenis plu/ribusve stipendi(i)s emeritis dimissis hones/ta missione quorum nomina subscripta / sunt ipsis liberis posterisq(ue) eorum civi/tatem dedit et conubium cum uxoribus / quas tunc habuissent cum civitas iis / data aut si qui caelibes essent cum iis / quas postea duxissent dumtaxat singu/li singulas a(nte) d(iem) III Non(as) Iul(ias) / // P(ublio) Iuventio Celso / L(ucio) Iulio Frugi // co(n)s(ulibus) // alae I Batavor(um) |(milliariae) c(ivium) R(omanorum) p(iae) f(idelis) cui praefuit / Q(uintus) Iulius Bovius Avitus / ex gregale / M(arco) Ulpio Celsi f(ilio) Victori Batav(o) / et Proculae fil(iae) eius et Festae fil(iae) eius / descriptum et recognitum ex tabula ae/nea quae fixa est Romae in muro post / templ(um) divi Aug(usti) ad Minervam // Imp(erator) Caesar divi Nervae f(ilius) Nerva Traianus Opti/mus Aug(ustus) Germ(anicus) Dacic(us) pontif(ex) maxim(us) tribun(icia) / potest(ate) XVIII<I> imp(erator) VIIII co(n)s(ul) VI p(ater) p(atriae) / equitibus et peditibus qui militaverunt in / alis quinque et cohortibus tribus quae / appellantur I Batavorum |(milliaria) c(ivium) R(omanorum) p(ia) f(idelis) et I Thrac(um) / veterana et I Cann<an>efatium c(ivium) R(omanorum) et I Ara/vacor(um) et Hispan(orum) et I Bosporanor(um) et I et II / Batavor(um) |(milliaria) c(ivium) R(omanorum) p(ia) f(idelis) et V Callaecor(um) Lucensi/um quae sunt in Pannonia superiore / sub L(ucio) Minicio Natale quinis et vicenis / pluribusve stipendi(i)s emeritis dimis/sis honesta missione quorum no/mina subscripta sunt ipsis liberis / posterisq(ue) eorum civitatem dedit et co/nubium cum uxoribus quas tunc habu//issent cum est civitas iis data aut si qui / caelibes essent cum iis quas postea duxis/sent dumtaxat singuli singulas / a(nte) d(iem) III Non(as) Iul(ias) // P(ublio) Iuventio Celso / L(ucio) Iulio Frugi // co(n)s(ulibus) // alae I Batavor(um) |(milliariae) c(ivium) R(omanorum) p(iae) f(idelis) cui praefuit / Q(uintus) Iulius Bovius Avitus / ex gregale / M(arco) Ulpio Celsi f(ilio) Victori Batav(o) / et Proculae fil(iae) eius et Festae fil(iae) eius // L(uci) Pulli Verecundi / P(ubli) Cauli Vitalis / P(ubli) Atini Crescentis / C(ai) Vettieni Hermetis / L(uci) Pulli Charitonis / A(uli) Cascelli Proculi / C(ai) Tuticani Crescentis
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Nervae <expan><abbr>f</abbr><ex>ilius</ex></expan> Traianus <lb n="2"/>Optimus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>Germ</abbr><ex>anicus</ex></expan> Dacicus <expan><abbr>pontif</abbr><ex>ex</ex></expan> <expan><abbr>maxim</abbr><ex>us</ex></expan> <lb n="3"/><expan><abbr>tribun</abbr><ex>icia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> XVIII<supplied reason="omitted">I</supplied> <expan><abbr>imp</abbr><ex>erator</ex></expan> VIIII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> VI <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="4"/>equitibus et peditibus qui militaverunt <lb n="5"/>in alis quinque et cohortibus tribus quae <lb n="6"/>appellantur I Batavorum |(milliaria) <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> et I Thra<lb break="no" n="7"/>cum veterana et I Cann<choice><corr>a</corr><sic>E</sic></choice>nefatium#Cann<supplied reason="omitted">a</supplied>nefatium#CANNENEFATIUM <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I <lb n="8"/><expan><abbr>Aravacor</abbr><ex>um</ex></expan> et <expan><abbr>Hispanor</abbr><ex>um</ex></expan> et I <expan><abbr>Bosporanor</abbr><ex>um</ex></expan> et <lb n="9"/>I et II <expan><abbr>Batavor</abbr><ex>um</ex></expan> |(milliaria) <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> et V <expan><abbr>Callaecor</abbr><ex>um</ex></expan> Lu<lb break="no" n="10"/>censium quae sunt in Pannonia superiore <lb n="11"/>sub <expan><abbr>L</abbr><ex>ucio</ex></expan> Minicio Natale quinis et vicenis plu<lb break="no" n="12"/>ribusve stipendi<expan><ex>i</ex><abbr>s</abbr></expan> emeritis dimissis hones<lb break="no" n="13"/>ta missione quorum nomina subscripta <lb n="14"/>sunt ipsis liberis <expan><abbr>posterisq</abbr><ex>ue</ex></expan> eorum civi<lb break="no" n="15"/>tatem dedit et conubium cum uxoribus <lb n="16"/>quas tunc habuissent cum civitas iis <lb n="17"/>data aut si qui caelibes essent cum iis <lb n="18"/>quas postea duxissent dumtaxat singu<lb break="no" n="19"/>li singulas <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> III <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Iul</abbr><ex>ias</ex></expan> <lb n="20"/></ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>P</abbr><ex>ublio</ex></expan> Iuventio Celso <lb n="2"/><expan><abbr>L</abbr><ex>ucio</ex></expan> Iulio Frugi </ab></div><div n="3" type="textpart"><ab><lb n="1"/> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> alae I <expan><abbr>Batavor</abbr><ex>um</ex></expan> |(milliariae) <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> cui praefuit <lb n="2"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Iulius Bovius Avitus <lb n="3"/>ex gregale <lb n="4"/><expan><abbr>M</abbr><ex>arco</ex></expan> Ulpio Celsi <expan><abbr>f</abbr><ex>ilio</ex></expan> Victori <expan><abbr>Batav</abbr><ex>o</ex></expan> <lb n="5"/>et Proculae <expan><abbr>fil</abbr><ex>iae</ex></expan> eius et Festae <expan><abbr>fil</abbr><ex>iae</ex></expan> eius <lb n="6"/>descriptum et recognitum ex tabula ae<lb break="no" n="7"/>nea quae fixa est Romae in muro post <lb n="8"/><expan><abbr>templ</abbr><ex>um</ex></expan> divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad Minervam </ab></div><div n="5" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Nervae <expan><abbr>f</abbr><ex>ilius</ex></expan> Nerva Traianus Opti<lb break="no" n="2"/>mus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>Germ</abbr><ex>anicus</ex></expan> <expan><abbr>Dacic</abbr><ex>us</ex></expan> <expan><abbr>pontif</abbr><ex>ex</ex></expan> <expan><abbr>maxim</abbr><ex>us</ex></expan> <expan><abbr>tribun</abbr><ex>icia</ex></expan> <lb n="3"/><expan><abbr>potest</abbr><ex>ate</ex></expan> XVIII<supplied reason="omitted">I</supplied> <expan><abbr>imp</abbr><ex>erator</ex></expan> VIIII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> VI <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="4"/>equitibus et peditibus qui militaverunt in <lb n="5"/>alis quinque et cohortibus tribus quae <lb n="6"/>appellantur I Batavorum |(milliaria) <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> et I <expan><abbr>Thrac</abbr><ex>um</ex></expan> <lb n="7"/>veterana et I Cann<supplied reason="omitted">an</supplied>efatium <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I Ara<lb break="no" n="8"/><expan><abbr>vacor</abbr><ex>um</ex></expan> et <expan><abbr>Hispan</abbr><ex>orum</ex></expan> et I <expan><abbr>Bosporanor</abbr><ex>um</ex></expan> et I et II <lb n="9"/><expan><abbr>Batavor</abbr><ex>um</ex></expan> |(milliaria) <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> et V <expan><abbr>Callaecor</abbr><ex>um</ex></expan> Lucensi<lb break="no" n="10"/>um quae sunt in Pannonia superiore <lb n="11"/>sub <expan><abbr>L</abbr><ex>ucio</ex></expan> Minicio Natale quinis et vicenis <lb n="12"/>pluribusve stipendi<expan><ex>i</ex><abbr>s</abbr></expan> emeritis dimis<lb break="no" n="13"/>sis honesta missione quorum no<lb break="no" n="14"/>mina subscripta sunt ipsis liberis <lb n="15"/><expan><abbr>posterisq</abbr><ex>ue</ex></expan> eorum civitatem dedit et co<lb break="no" n="16"/>nubium cum uxoribus quas tunc habu</ab></div><div n="6" type="textpart"><ab><lb n="1"/>issent cum est civitas iis data aut si qui <lb n="2"/>caelibes essent cum iis quas postea duxis<lb break="no" n="3"/>sent dumtaxat singuli singulas <lb n="4"/><expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> III <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Iul</abbr><ex>ias</ex></expan> </ab></div><div n="7" type="textpart"><ab><lb n="1"/> <expan><abbr>P</abbr><ex>ublio</ex></expan> Iuventio Celso <lb n="2"/><expan><abbr>L</abbr><ex>ucio</ex></expan> Iulio Frugi </ab></div><div n="8" type="textpart"><ab><lb n="1"/> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> </ab></div><div n="9" type="textpart"><ab><lb n="1"/> alae I <expan><abbr>Batavor</abbr><ex>um</ex></expan> |(milliariae) <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> cui praefuit <lb n="2"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Iulius Bovius Avitus <lb n="3"/>ex gregale <lb n="4"/><expan><abbr>M</abbr><ex>arco</ex></expan> Ulpio Celsi <expan><abbr>f</abbr><ex>ilio</ex></expan> Victori <expan><abbr>Batav</abbr><ex>o</ex></expan> <lb n="5"/>et Proculae <expan><abbr>fil</abbr><ex>iae</ex></expan> eius et Festae <expan><abbr>fil</abbr><ex>iae</ex></expan> eius </ab></div><div n="10" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>uci</ex></expan> Pulli Verecundi <lb n="2"/><expan><abbr>P</abbr><ex>ubli</ex></expan> Cauli Vitalis <lb n="3"/><expan><abbr>P</abbr><ex>ubli</ex></expan> Atini Crescentis <lb n="4"/><expan><abbr>C</abbr><ex>ai</ex></expan> Vettieni Hermetis <lb n="5"/><expan><abbr>L</abbr><ex>uci</ex></expan> Pulli Charitonis <lb n="6"/><expan><abbr>A</abbr><ex>uli</ex></expan> Cascelli Proculi <lb n="7"/><expan><abbr>C</abbr><ex>ai</ex></expan> Tuticani Crescentis
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Beide Tafeln sowie das Bronzeband zum Zusammenschnüren erhalten.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

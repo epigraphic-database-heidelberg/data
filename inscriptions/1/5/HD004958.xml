@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD004958</idno>
+                <idno type="TM">222164</idno><idno type="localID">HD004958</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>212</height>
+                                        <width>60</width>
+                                        <depth>9</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4-2.8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/026022">Igabrum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0651" notAfter-custom="0700" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">651 AD – 700 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Villanueva la Baja</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-04-13" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://cil-old.bbaw.de/test06/bilder/datenbank/PH0005328.jpg">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1978, 0424. (B) 
+                    </bibl>
+                    <bibl>
+                         J. Gil - J. González, Habis 8, 1977, 455-461. (B) - AE 1978. 
+                    </bibl>
+                    <bibl>
+                         CIL 02 (2. Aufl.) 05, 00337; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Q(uae) / tibi ante la[eta] / et lucida contul[it] / vita nunc tulerunt / fata tulit et morta/lis catena / hic cubans inpe/{e}rio [i]ussu decreto/q(ue) divino Euresi / corpus{pus} pulve/re{e} pre{pre}sso piu(m) / ter denos quo/q(ue) et octo sup(er)/atitos(!) annos / explevit vitam fu/neris sorte rap/tus
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uae</ex></expan> <lb n="2"/>tibi ante la<supplied reason="lost">eta</supplied> <lb n="3"/>et lucida contul<supplied reason="lost">it</supplied> <lb n="4"/>vita nunc tulerunt <lb n="5"/>fata tulit et morta<lb break="no" n="6"/>lis catena <lb n="7"/>hic cubans inpe<lb break="no" n="8"/><surplus>e</surplus>rio <supplied reason="lost">i</supplied>ussu decreto<lb break="no" n="9"/><expan><abbr>q</abbr><ex>ue</ex></expan> divino Euresi <lb n="10"/>corpus<surplus>pus</surplus> pulve<lb break="no" n="11"/>re<surplus>e</surplus> pre<surplus>pre</surplus>sso <expan><abbr>piu</abbr><ex>m</ex></expan> <lb n="12"/>ter denos quo<lb break="no" n="13"/><expan><abbr>q</abbr><ex>ue</ex></expan> et octo <expan><abbr>sup</abbr><ex>er</ex></expan><lb break="no" n="14"/>atitos <note>sic</note> annos <lb n="15"/>explevit vitam fu<lb break="no" n="16"/>neris sorte rap<lb break="no" n="17"/>tus
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Stele ist in 7 Teile gebrochen. In AE 1978 keine Zeilenumbrüche wiedergegeben. (B): Gil - González, AE 1978: Z. 1: nicht gelesen; Z. 2/3: l[eta an]/te; Z. 4: tuler[u]nt; Z. 5/6: m[o]rta/lis; Gil - González: Z. 7/8: inpe/ri[o]; AE 1978: Z. 7/8: imperio iussu; Z. 10/11: corpus pulvere presso; Z. 14 (Anfang): a&amp;lt;dd&amp;gt;itos.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

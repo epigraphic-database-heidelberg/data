@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD060363</idno>
+                <idno type="TM">212288</idno><idno type="localID">HD060363</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Niddatal, Assenheim, Schlossmus. (Privatbesitz); Aalen, Limesmus. (Kopie)</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-87</height>
+                                        <width>71</width>
+                                        <depth>16</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Nida (Civitas Taunensium)</placeName></origPlace>
+                            <origDate notBefore-custom="0234" notAfter-custom="0236" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">234 AD – 236 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1882">1882</date>
+                        <placeName ref="http://www.geonames.org/2846092">Frankfurt/Main</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hessen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-03-29" who="Esch">
+             überprüft per Autopsie
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F027203">
+            <desc>F027203</desc>
+        </graphic>
+
+        <graphic url="http://lupa.at/10361">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 07323. 
+                    </bibl>
+                    <bibl>
+                         ILS 9148. 
+                    </bibl>
+                    <bibl>
+                         H. Lehner, BJ 129, 1924, 71, Nr. 30. 
+                    </bibl>
+                    <bibl>
+                         W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (Köln 1998) 106, Nr. 44. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Memoriae Bi/ribam Absei dec(urionis) a[l]/ae firmae cata<f=E>r/act(ariae)#cata<f>r/act(ariae)#CATAERACT bello desider/ati oriundo(!) ex pr/ovincia Moesopo/[ta]miae(!) domo RaC(?)[-]/[&
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Memoriae Bi<lb break="no" n="2"/>ribam Absei <expan><abbr>dec</abbr><ex>urionis</ex></expan> a<supplied reason="lost">l</supplied><lb break="no" n="3"/>ae firmae cata<choice><corr>f</corr><sic>E</sic></choice>r<lb break="no" n="4"/><expan><abbr>act</abbr><ex>ariae</ex></expan>#cata<supplied reason="omitted">f</supplied>r<lb break="no" n="5"/><expan><abbr>act</abbr><ex>ariae</ex></expan>#CATAERACT bello desider<lb break="no" n="6"/>ati oriundo <note>sic</note> ex pr<lb break="no" n="7"/>ovincia Moesopo<lb break="no" n="8"/><supplied reason="lost">ta</supplied>miae <note>sic</note> domo <expan><abbr>RaC</abbr><ex cert="low"/></expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><lb break="no" n="9"/><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Autopsie R. Wiegels. Z. 6/7: auf der Kopie im Limesmuseum Aalen: Moesopo/[t]amiae. Z. 7 (Ende): statt C auch G möglich. (B): Lehner: Z. 2/3: al/ae; Z. 3/4: catafr/act(ariae); Z. 6/7: Moesopo/tamiae; Faust: Z. 7 (Ende): Ra[---.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

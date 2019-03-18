@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD031238</idno>
+                <idno type="TM">222880</idno><idno type="localID">HD031238</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-68</height>
+                                        <width>-24</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3-4.6</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/026191">Nescania</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Valle de Abdalajís</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Málaga</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2000-02-10" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://cil-old.bbaw.de/test06/bilder/datenbank/PH0005954.jpg">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 02 (2. Aufl.) 05, 00838; Foto. 
+                    </bibl>
+                    <bibl>
+                         CIL 02, 02006. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Genio munici/pi Nescaniensis / L(ucius) Postumius Gly/con Nescaniensi[s] / signum caprae pe/cunia sua t(estamento?) ex HS / M(iliaria) n(ummum) fieri et Nes/caniae in foro po/ni iussit quot do/num ut consum/mari posset M(arcus) Cor/nelius Niger Nesc(aniensis) / h(eres) eius adiectis de / suo ad impensas / operis HS C n(ummum) / dedicavit
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Genio munici<lb break="no" n="2"/>pi Nescaniensis <lb n="3"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Postumius Gly<lb break="no" n="4"/>con Nescaniensi<supplied reason="lost">s</supplied> <lb n="5"/>signum caprae pe<lb break="no" n="6"/>cunia sua <expan><abbr>t</abbr><ex cert="low">estamento</ex></expan> ex HS <lb n="7"/><expan><abbr>M</abbr><ex>iliaria</ex></expan> <expan><abbr>n</abbr><ex>ummum</ex></expan> fieri et Nes<lb break="no" n="8"/>caniae in foro po<lb break="no" n="9"/>ni iussit quot do<lb break="no" n="10"/>num ut consum<lb break="no" n="11"/>mari posset <expan><abbr>M</abbr><ex>arcus</ex></expan> Cor<lb break="no" n="12"/>nelius Niger <expan><abbr>Nesc</abbr><ex>aniensis</ex></expan> <lb n="13"/><expan><abbr>h</abbr><ex>eres</ex></expan> eius adiectis de <lb n="14"/>suo ad impensas <lb n="15"/>operis HS C <expan><abbr>n</abbr><ex>ummum</ex></expan> <lb n="16"/>dedicavit
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>

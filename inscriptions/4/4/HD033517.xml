@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD033517</idno>
+                <idno type="TM">205860</idno><idno type="localID">HD033517</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Constantine</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003344">Numidia</placeName><placeName ref="http://www.trismegistos.org/place/011833">Cirta</placeName></origPlace>
+                            <origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD – 235 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2501152">Constantine</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2007-08-20" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F000499">
+            <desc>F000499</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 183, Nr. 60a. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 07049. 
+                    </bibl>
+                    <bibl>
+                         ILS 1177. 
+                    </bibl>
+                    <bibl>
+                         ILAlg 2, 0633. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) I 369. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                P(ublio) Iulio Iuniano Martialiano c(larissimo) v(iro) / co(n)s(uli) quaest(ori) provinciae Asiae trib(uno) / plebei(!) praetori curatori civitatis Ca/lenorum curatori viarum Clodiae / Cassiae et Ciminiae praefecto aerari mili/taris proconsuli provinciae Macedoniae / legato [[leg(ionis) III]] Aug(ustae) Severianae [[Alexandrianae]] / praesidi et patrono res publica Cirtensium de/creto ordinis dedit dedicavitque
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> Iulio Iuniano Martialiano <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan> <lb n="2"/>co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>quaest</abbr><ex>ori</ex></expan> provinciae Asiae <expan><abbr>trib</abbr><ex>uno</ex></expan> <lb n="3"/>plebei <note>sic</note> praetori curatori civitatis Ca<lb break="no" n="4"/>lenorum curatori viarum Clodiae <lb n="5"/>Cassiae et Ciminiae praefecto aerari mili<lb break="no" n="6"/>taris proconsuli provinciae Macedoniae <lb n="7"/>legato <del rend="erasure"><expan><abbr>leg</abbr><ex>ionis</ex></expan> III</del> <expan><abbr>Aug</abbr><ex>ustae</ex></expan> Severianae <del rend="erasure">Alexandrianae</del> <lb n="8"/>praesidi et patrono res publica Cirtensium de<lb break="no" n="9"/>creto ordinis dedit dedicavitque
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 7: Eradiertes nachträglich wieder eingemeißelt. Datierung: Der Geehrte war unter Severus Alexander Statthalter von Numidien.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

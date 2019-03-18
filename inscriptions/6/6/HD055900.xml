@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD055900</idno>
+                <idno type="TM">195433</idno><idno type="localID">HD055900</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-3.5</height>
+                                        <width>-3</width>
+                                        <depth>0.1</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/029253">Lugio</placeName></origPlace>
+                            <origDate notBefore-custom="0141" notAfter-custom="0144" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">141 AD – 144 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1994">1994</date>
+                        <placeName ref="http://www.geonames.org/3053454">Dunaszekcső</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Baranya megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-04-29" who="Lopez">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1996, 1257. 
+                    </bibl>
+                    <bibl>
+                         RMD 268. 
+                    </bibl>
+                    <bibl>
+                         B. Lőrincz, ZPE 111, 1996, 261-265, Nr. 2; Taf. 7,3 u. 7,4. - AE 1996. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] Vit[- - -] / [e]x equite / [- - -] Dasentis [f(ilio) - - -] / [descript(um) et r]ecognit(um) e[x tabula aerea] / [quae fixa es]t Romae i[n muro post] / [templ(um) divi Au]g(usti) ad M[inervam] // $ et II Aug(usta) T]hr(acum) et I [Mon(tanorum) et sunt in Pann(onia) inf(eriore) sub Po]ntio Laelia[no XXV item class(icis) XXVI st(ipendiis) em(eritis) di]m(issis) hon(esta) mi[s(sione) quor(um) nom(ina) subscr(ipta) sunt civ(itatem) R]om(anam) [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Vit<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><supplied reason="lost">e</supplied>x equite <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> Dasentis <supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><supplied reason="lost"><expan><abbr>descript</abbr><ex>um</ex></expan> et r</supplied><expan><abbr>ecognit</abbr><ex>um</ex></expan> e<supplied reason="lost">x tabula aerea</supplied> <lb n="5"/><supplied reason="lost">quae fixa es</supplied>t Romae i<supplied reason="lost">n muro post</supplied> <lb n="6"/><supplied reason="lost"><expan><abbr>templ</abbr><ex>um</ex></expan> divi Au</supplied><expan><abbr>g</abbr><ex>usti</ex></expan> ad M<supplied reason="lost">inervam</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> $ et II <expan><abbr>Aug</abbr><ex>usta</ex></expan> T]<expan><abbr>hr</abbr><ex>acum</ex></expan> et I <supplied reason="lost"><expan><abbr>Mon</abbr><ex>tanorum</ex></expan> et sunt in <expan><abbr>Pann</abbr><ex>onia</ex></expan> <expan><abbr>inf</abbr><ex>eriore</ex></expan> sub Po</supplied>ntio Laelia<supplied reason="lost">no XXV item <expan><abbr>class</abbr><ex>icis</ex></expan> XXVI <expan><abbr>st</abbr><ex>ipendiis</ex></expan> <expan><abbr>em</abbr><ex>eritis</ex></expan> di</supplied><expan><abbr>m</abbr><ex>issis</ex></expan> <expan><abbr>hon</abbr><ex>esta</ex></expan> mi<supplied reason="lost"><expan><abbr>s</abbr><ex>sione</ex></expan> <expan><abbr>quor</abbr><ex>um</ex></expan> <expan><abbr>nom</abbr><ex>ina</ex></expan> <expan><abbr>subscr</abbr><ex>ipta</ex></expan> sunt <expan><abbr>civ</abbr><ex>itatem</ex></expan> R</supplied><expan><abbr>om</abbr><ex>anam</ex></expan><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

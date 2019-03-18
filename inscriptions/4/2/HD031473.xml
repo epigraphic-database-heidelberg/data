@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD031473</idno>
+                <idno type="TM">192898</idno><idno type="localID">HD031473</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-68</height>
+                                        <width>-71</width>
+                                        <depth>13</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.5-2.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029481">Moesia superior</placeName><placeName ref="http://www.trismegistos.org/place/029683">Timacum Minus, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0271" notAfter-custom="0330" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">271 AD – 330 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/786413">Knjaževac</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Centralna Srbija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/rs/">Serbien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-11-15" who="Feraudi">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1903, 0291. 
+                    </bibl>
+                    <bibl>
+                         ILJug 1310. 
+                    </bibl>
+                    <bibl>
+                         IMS 3, 2, 053; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         A. von Premerstein - N. Vulić, JŒAI (Beibl.) 6, 1903, 47-48, Nr. 54; Zeichnung. - AE 1903. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) I(nferis) M(anibus) Valerius Iovinus [ex] / ducenar[io? equitum] promo/tor(um) q(ui) vix(it) [ann(os) - - -]agin[ta] / d(u)os patr[ono impro]miscuae / fide(i) Ne[stori? sui] temp(oris) moribus / bene cognito iu[sto] of(f)icios(o) opero/so Vibia Sicca et Va(leria) Marcella et Fla/via Iovina [ob ab]ste[mi]e nob(iliter)q(ue) / facta memor[ia]m [fe]c(erunt)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>I</abbr><ex>nferis</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> Valerius Iovinus <supplied reason="lost">ex</supplied> <lb n="2"/>ducenar<supplied reason="lost">io<certainty locus="name" match="preceding-sibling::text()" cert="low"/> equitum</supplied> promo<lb break="no" n="3"/><expan><abbr>tor</abbr><ex>um</ex></expan> <expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <supplied reason="lost"><expan><abbr>ann</abbr><ex>os</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/>agin<supplied reason="lost">ta</supplied> <lb n="4"/>d<expan><ex>u</ex><abbr>os</abbr></expan> patr<supplied reason="lost">ono impro</supplied>miscuae <lb n="5"/><expan><abbr>fide</abbr><ex>i</ex></expan> Ne<supplied reason="lost">stori<certainty locus="name" match="preceding-sibling::text()" cert="low"/> sui</supplied> <expan><abbr>temp</abbr><ex>oris</ex></expan> moribus <lb n="6"/>bene cognito iu<supplied reason="lost">sto</supplied> of<expan><ex>f</ex><abbr>icios</abbr><ex>o</ex></expan> opero<lb break="no" n="7"/>so Vibia Sicca et <expan><abbr>Va</abbr><ex>leria</ex></expan> Marcella et Fla<lb break="no" n="8"/>via Iovina <supplied reason="lost">ob ab</supplied>ste<supplied reason="lost">mi</supplied>e nob<expan><ex>iliter</ex><abbr>q</abbr><ex>ue</ex></expan> <lb n="9"/>facta memor<supplied reason="lost">ia</supplied>m <expan><abbr><supplied reason="lost">fe</supplied>c</abbr><ex>erunt</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

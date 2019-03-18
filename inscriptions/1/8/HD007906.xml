@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD007906</idno>
+                <idno type="TM">244271</idno><idno type="localID">HD007906</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>148</height>
+                                        <width>84</width>
+                                        <depth>84</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.8-3.8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Aemilia (Regio VIII)</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Comacchio, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2000-06-16" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1979, 0290. 
+                    </bibl>
+                    <bibl>
+                         G. Uggeri, AeR 22, 1977, 126-132, Nr. 1; fig. 1. - AE 1979. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(eratori) Caes(ari) - - -] / P(io) F(elici) Invicto A[ug(usto)] / pontif(ici) max(imo) trib(unicia) / pot(estate) II co(n)s(uli) proco(n)s(uli) / Voltinius Saloninus v(ir) p(erfectissimus) praef(ectus) / class(is) praet(oriae) Ravenn(atis) / devotus numini / maiestatiq(ue) eius
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>F</abbr><ex>elici</ex></expan> Invicto A<supplied reason="lost"><expan><abbr>ug</abbr><ex>usto</ex></expan></supplied> <lb n="3"/><expan><abbr>pontif</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <lb n="4"/><expan><abbr>pot</abbr><ex>estate</ex></expan> II co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> proco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <lb n="5"/>Voltinius Saloninus <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>p</abbr><ex>erfectissimus</ex></expan> <expan><abbr>praef</abbr><ex>ectus</ex></expan> <lb n="6"/><expan><abbr>class</abbr><ex>is</ex></expan> <expan><abbr>praet</abbr><ex>oriae</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>atis</ex></expan> <lb n="7"/>devotus numini <lb n="8"/><expan><abbr>maiestatiq</abbr><ex>ue</ex></expan> eius
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Auf der Oberseite der Basis Dübellöcher zur Befestigung der Bronzestatue.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

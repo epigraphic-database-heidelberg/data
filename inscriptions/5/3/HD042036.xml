@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD042036</idno>
+                <idno type="TM">191399</idno><idno type="localID">HD042036</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>243</height>
+                                        <width>74</width>
+                                        <depth>24</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.7</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName ref="http://www.trismegistos.org/place/029865">Tropaeum Traiani</placeName></origPlace>
+                            <origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD – 170 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/686688">Adamclisi</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Constanța</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-04-03" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/15226">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        S. Conrad, Die Grabstelen aus Moesia inferior. Untersuchungen zu Chronologie, Typologie und Ikonographie (Leipzig 2004) 197, Nr. 264; Taf. 68, 4. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 14214, 9. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) [M(anibus)] / [-] Arto(rius) [Sa]/[tur(ninus)] Sisc(ia) / ex d(uplicario) vet(eranus) / c(o)ho(rtis) I Lus(itanorum) / vix(it) an(nos) XL / mil(itavit) an(nos) XX / h(ic) s(itus) e(st) C(aius) Arto(rius) / et Roscia / Satur(nina) et / Art(orius) Satur(ninus) / f(ilii) p(atri) p(ientissimo) posuer(unt)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <expan><abbr>Arto</abbr><ex>rius</ex></expan> <supplied reason="lost">Sa</supplied><lb break="no" n="3"/><supplied reason="lost"><expan><abbr>tur</abbr><ex>ninus</ex></expan></supplied> <expan><abbr>Sisc</abbr><ex>ia</ex></expan> <lb n="4"/>ex <expan><abbr>d</abbr><ex>uplicario</ex></expan> <expan><abbr>vet</abbr><ex>eranus</ex></expan> <lb n="5"/>c<expan><ex>o</ex><abbr>ho</abbr><ex>rtis</ex></expan> I <expan><abbr>Lus</abbr><ex>itanorum</ex></expan> <lb n="6"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XL <lb n="7"/><expan><abbr>mil</abbr><ex>itavit</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XX <lb n="8"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Arto</abbr><ex>rius</ex></expan> <lb n="9"/>et Roscia <lb n="10"/><expan><abbr>Satur</abbr><ex>nina</ex></expan> et <lb n="11"/><expan><abbr>Art</abbr><ex>orius</ex></expan> <expan><abbr>Satur</abbr><ex>ninus</ex></expan> <lb n="12"/><expan><abbr>f</abbr><ex>ilii</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>ientissimo</ex></expan> <expan><abbr>posuer</abbr><ex>unt</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Als Kanalabdeckung wiederverwendet; in 3 Teile gebrochen. Inschrifttext auf der Abbildung bei Conrad teilweise schwer lesbar. CIL III: Z. 2/3: [C(aio)?] Art(orio) Sa/tur(nino); Z. 6: XLV; Z. 7: XXV.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

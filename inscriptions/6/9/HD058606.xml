@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD058606</idno>
+                <idno type="TM">217095</idno><idno type="localID">HD058606</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Augsburg, Peutingerhaus, vermauert</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>102</height>
+                                        <width>40</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003243">Raetia</placeName><placeName>Augusta Vindelicorum</placeName></origPlace>
+                            <origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1520">1520</date>
+                        <placeName ref="http://www.geonames.org/2954172">Augsburg</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Bayern</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-12-14" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F035380">
+            <desc>F035380</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F035381">
+            <desc>F035381</desc>
+        </graphic>
+
+        <graphic url="http://lupa.at/6466">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IBR 145; tab. 21, 145. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 05834. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) // et perpetuae se/curitati Tib(erio) Ac/utianio Ursacio / Veteranicino / qui vix(it) annos XX/VII mens(es) sex dies / [V]III [h]oc faciend[u]/m curavit Sim[p]/[l]icia pientis[s]/[i]ma coniugi b[e]/ne merenti / fecit // t(itulum) / uxs(or)(!) / m(erenti) // p(ientissima) // f(ecit)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> et perpetuae se<lb break="no" n="2"/>curitati <expan><abbr>Tib</abbr><ex>erio</ex></expan> Ac<lb break="no" n="3"/>utianio Ursacio <lb n="4"/>Veteranicino <lb n="5"/>qui <expan><abbr>vix</abbr><ex>it</ex></expan> annos XX<lb break="no" n="6"/>VII <expan><abbr>mens</abbr><ex>es</ex></expan> sex dies <lb n="7"/><supplied reason="lost">V</supplied>III <supplied reason="lost">h</supplied>oc faciend<supplied reason="lost">u</supplied><lb break="no" n="8"/>m curavit Sim<supplied reason="lost">p</supplied><lb break="no" n="9"/><supplied reason="lost">l</supplied>icia pientis<supplied reason="lost">s</supplied><lb break="no" n="10"/><supplied reason="lost">i</supplied>ma coniugi b<supplied reason="lost">e</supplied><lb break="no" n="11"/>ne merenti <lb n="12"/>fecit </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>t</abbr><ex>itulum</ex></expan> <lb n="2"/><expan><abbr>uxs</abbr><ex>or</ex></expan> <note>sic</note> <lb n="3"/><expan><abbr>m</abbr><ex>erenti</ex></expan> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>p</abbr><ex>ientissima</ex></expan> </ab></div><div n="5" type="textpart"><ab><lb n="1"/> <expan><abbr>f</abbr><ex>ecit</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die ergänzten Stellen waren früher noch lesbar. Text 1 steht auf dem Profil über dem Inschriftenfeld. Text 2 befindet sich unter der Hauptinschrift, kreuzförmig in einem Kreis angeordnet. Von der Unterseite des Kreises verlaufen zu den Seiten nach oben geschwungen zwei Linien, an deren Enden sich jeweils in einem Oval die Texte 4 (links) und 5 (rechts) befinden. Die Oberfläche ist stark verwittert und stellenweise kaum noch lesbar.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD061351</idno>
+                <idno type="TM">195460</idno><idno type="localID">HD061351</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Budapest, Magyar Nemzeti Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-74</height>
+                                        <width>-100</width>
+                                        <depth>17</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.1-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/029210">Matrica</placeName></origPlace>
+                            <origDate notBefore-custom="0185" notAfter-custom="0191" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">185 AD – 191 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3044821">Százhalombatta</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Pest megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-02-17" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/8156">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 03385. 
+                    </bibl>
+                    <bibl>
+                         RIU 1426. (B) 
+                    </bibl>
+                    <bibl>
+                         ILS 0395 AE 2001, 1685b. 
+                    </bibl>
+                    <bibl>
+                         G. Alföldy, SpNov 16, 2000, 62. - AE 2001. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) C 1359. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) Caes(ar) M(arcus) [Aur(elius) [Commodus] An]/toninus Aug(ustus) Pius [Sarm(aticus) Ger(manicus)] / Brit(annicus) pont(ifex) max(imus) trib(unicia) pot(estate) V[I imp(erator) IIII] / co(n)s(ul) IIII p(ater) p(atriae) ripam omnen bu[rgis] / a solo extructis item praes[i]/dis per loca opportuna ad / clandestinos latrunculo/rum transitus oppositis / munivit per [[L(ucium) C[ornelium]]] / [[F[elicem Pl]ot[ian]u[m leg(atum) pr(o) pr(aetore)]]]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> <supplied reason="lost"><expan><abbr>Aur</abbr><ex>elius</ex></expan> [Commodus</supplied> An]<lb break="no" n="2"/>toninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Pius <supplied reason="lost"><expan><abbr>Sarm</abbr><ex>aticus</ex></expan> <expan><abbr>Ger</abbr><ex>manicus</ex></expan></supplied> <lb n="3"/><expan><abbr>Brit</abbr><ex>annicus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> V<supplied reason="lost">I <expan><abbr>imp</abbr><ex>erator</ex></expan> IIII</supplied> <lb n="4"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IIII <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> ripam omnen bu<supplied reason="lost">rgis</supplied> <lb n="5"/>a solo extructis item praes<supplied reason="lost">i</supplied><lb break="no" n="6"/>dis per loca opportuna ad <lb n="7"/>clandestinos latrunculo<lb break="no" n="8"/>rum transitus oppositis <lb n="9"/>munivit per <del rend="erasure"><expan><abbr>L</abbr><ex>ucium</ex></expan> C[ornelium</del>] <lb n="10"/><del rend="erasure">F<supplied reason="lost">elicem Pl</supplied>ot<supplied reason="lost">ian</supplied>u[m <expan><abbr>leg</abbr><ex>atum</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan></del>]
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): RIU: geringfügig abweichende Lesung. Textwiedergabe nach Alföldy.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD003231</idno>
+                <idno type="TM">247888</idno><idno type="localID">HD003231</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>21.7</height>
+                                        <width>29.5</width>
+                                        <depth>15</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">1-1.3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Etruria (Regio VII)</placeName><placeName ref="http://www.trismegistos.org/place/014354">Rusellae</placeName></origPlace>
+                            <origDate notBefore-custom="0043" notAfter-custom="0054" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">43 AD – 54 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Roselle</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Toscana</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-09-23" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016009">
+            <desc>F016009</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1980, 0458. (B) 
+                    </bibl>
+                    <bibl>
+                         V. Saladino, ZPE 39, 1980, 232-233, Nr. 25; Taf. 11, 25. (B) - AE 1980. 
+                    </bibl>
+                    <bibl>
+                         S. Conti, SupplIt 16 (Roma 1998) 110-111, Nr. 4; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Ex voto suscepto / [p]ro salute Ti(beri) Claudi Caesaris / Aug(usti) f(ili) Brittannici / A(ulus) Vicirius A(uli) f(ilius) Proculus / tr(ibunus) mil(itum) flamen [A]ugustalis / posu[it]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Ex voto suscepto <lb n="2"/><supplied reason="lost">p</supplied>ro salute <expan><abbr>Ti</abbr><ex>beri</ex></expan> Claudi Caesaris <lb n="3"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>f</abbr><ex>ili</ex></expan> Brittannici <lb n="4"/><expan><abbr>A</abbr><ex>ulus</ex></expan> Vicirius <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Proculus <lb n="5"/><expan><abbr>tr</abbr><ex>ibunus</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> flamen <supplied reason="lost">A</supplied>ugustalis <lb n="6"/>posu<supplied reason="lost">it</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> 2 aneinanderpassende Fragmente (vom Mittelteil?) einer Statuenbasis erhalten; auf der Oberseite Spuren von der Verdübelung einer Statuette oder einer gesondert gearbeiteten corona. Datierung: Herbst 43 n. Chr. (Verleihung des Namens Britannicus an den Sohn des Claudius) bis 13.10.54 n. Chr. (Tod des Claudius); vermutlich aber 45/46 n. Chr. gesetzt wie AE 1980, 457. (B): Saladino, AE 1980: Z. 1: [e]x; AE 1980: Z. 6: posuit.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

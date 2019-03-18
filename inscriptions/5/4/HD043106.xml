@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD043106</idno>
+                <idno type="TM">177211</idno><idno type="localID">HD043106</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>102</height>
+                                        <width>74</width>
+                                        <depth>71</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">1-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000078">Achaia</placeName><placeName ref="http://www.trismegistos.org/place/002801">Messene</placeName></origPlace>
+                            <origDate notBefore-custom="0098" notAfter-custom="0138" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">98 AD – 138 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1998">1998</date>
+                        <placeName ref="http://www.geonames.org/257539">Mavrommáti</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Pelopónissos</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-11-06" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2002, 1314a. 
+                    </bibl>
+                    <bibl>
+                         P.G. Themelis, PAAH 155, 2000, 76-82; pin. 43-44. - AE 2002. 
+                    </bibl>
+                    <bibl>
+                         SEG 51, 0458A. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Ἀ[γ]α[θῇ Τύχῃ] / ΘΙ[- - -] / Ἐπειδὴ Κλαύδιος Σαιθίδα[ς - - -] / ἡμῶν ἀρχιερεὺς τῶν Σεβα[στῶν - - -] / καὶ Ἑλλαδάρχης, ἀνὴρ [- -]ΙΟ[- - -]/μενος ὢν τὴν ἀληθῆ φύ[σιν - - -] / τοῦ βίου πατρός τε πλεισ[- - -]/σαντος καὶ βαλανεῖα δὲ ἀνα[- - -] / τῶν ἱερῶν, τὸ δὲ ἐπὶ τῆς πόλ[εως - - -] / λαμπροτάτας ἅτινα δῶρα οὐ [- - -]/τεύσατο μητρός τε πρωτε[- - -]/η τὴν ἰδίαν ἀξίαν καὶ μεγαλοφρ[οσύνην - - -] / τὸ μὲν ἔμψυχον ἀνάθημα καὶ [- - -] / τὸν ἀρχιερέα σὺν δὲ αὐτῷ καὶ Π[- - -] / μέγιστον ὁ πᾶς ὁ πρὸ ἡμῶν χρό[νος - - -]/σαι κατηρειμμένον τὸ προσκήνιον [- - -] / τὴν ἐπανγελίαν ὑπέσχετο ε[- - -] / τέκνῳ δὲ τὴν ἐλπίδα τῆς με[- - -]/αν χάριν ἔτι ζῶσα καὶ ἐπιγραψ[- - -] / τις ἡγούμενος βεβαιότερον ει[- - -]/τα καὶ πράττειν καὶ λέγειν ΟΔΕΗΓΟ[- - -] / ἡλικίας γυμνάσια νομίσας γραμμ[- - -]/ας πλήρη διαδεξάμενος ΟΥΧΟΥ[- - -] / ἔργον ἐφιλοτιμήθη πρὸς τὰ μεγ[- - -]/μενος, τοῖς δὲ ἐρίσας οὐδεμιᾶς [- - -] / δῶρον ὅσην εἶχεν ἰσχὺν ἐπιστι[- - -]/γον ὡς μηδενὸς ΕΣΤΟΧΑΣΟΑΔΟΚΕ[- - - πε]/ριφανὲς ὡς ἀπαρκεῖν καὶ ΜΙΑΜΕ[-]ΑΣΞΕΙ[- - -] / τε ποικιλωτάτων ἀπὸ πάσης ὡς εἰπεῖν [- - -] / τέχνης ἐντελοῦς αὐτὰ διαθείσης ΩΣΟ[- - -] / πλέον ὧν ὁρᾶσθαι καὶ ἀνάλωμα καὶ μέγεθο[ς - - -] / ὑπάρχειν οὐδὲ ψηφίσαι τήν χάριτα καὶ ΟΥΚ[- - -] / δῶρον, ἀλλὰ αἰδούμενος τοῦ θ[εάτ]ρου τὴν ὑπὸ τῷ προσκην[ίῳ - - -] / εὐτυχῶς ὑμεῖν καὶ κατ' εὐχ[ὴν γε]γεννηκὼς ἐκ γυναικὸ[ς - - -] / Φροντείνης τὸν Τιβέριον [Κλ]αύδιον [-] ΑΚΑ[- -]ΡΟΝΙ[- - -]/νον ὑπὲρ αὐτὸν ὐπέσ[χε]το ΤΙ[- - -]ΡΑΝ[- - -]/ην καὶ πεπόηκεν ἀνδρῶν [- -]ΔΗΤΕ[- - -]/σαν ὥσπερ δὲ πρὸς ἄλλο[- - -] / καθ' ἕκαστον ἀγωνιζόμεν[ον - - -]/κὼς οὐ μόνον ἱερωσύνην [- - -] / ἀλλὰ καὶ τὴν τῆς Ἑλλάδος ἐπεθυ[- - -]
+            --><div type="edition" xml:lang="grc"><head>Text</head><ab><lb n="1"/>
+                Ἀ<supplied reason="lost">γ</supplied>α<supplied reason="lost">θῇ Τύχῃ</supplied> <lb n="2"/>ΘΙ<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Ἐπειδὴ Κλαύδιος Σαιθίδα<supplied reason="lost">ς <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/>ἡμῶν ἀρχιερεὺς τῶν Σεβα<supplied reason="lost">στῶν <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/>καὶ Ἑλλαδάρχης, ἀνὴρ <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>ΙΟ<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="6"/>μενος ὢν τὴν ἀληθῆ φύ<supplied reason="lost">σιν <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="7"/>τοῦ βίου πατρός τε πλεισ<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="8"/>σαντος καὶ βαλανεῖα δὲ ἀνα<gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/>τῶν ἱερῶν, τὸ δὲ ἐπὶ τῆς πόλ<supplied reason="lost">εως <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="10"/>λαμπροτάτας ἅτινα δῶρα οὐ <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="11"/>τεύσατο μητρός τε πρωτε<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="12"/>η τὴν ἰδίαν ἀξίαν καὶ μεγαλοφρ<supplied reason="lost">οσύνην <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="13"/>τὸ μὲν ἔμψυχον ἀνάθημα καὶ <gap reason="lost" extent="unknown" unit="character"/> <lb n="14"/>τὸν ἀρχιερέα σὺν δὲ αὐτῷ καὶ Π<gap reason="lost" extent="unknown" unit="character"/> <lb n="15"/>μέγιστον ὁ πᾶς ὁ πρὸ ἡμῶν χρό<supplied reason="lost">νος <gap reason="lost" extent="unknown" unit="character"/></supplied><lb break="no" n="16"/>σαι κατηρειμμένον τὸ προσκήνιον <gap reason="lost" extent="unknown" unit="character"/> <lb n="17"/>τὴν ἐπανγελίαν ὑπέσχετο ε<gap reason="lost" extent="unknown" unit="character"/> <lb n="18"/>τέκνῳ δὲ τὴν ἐλπίδα τῆς με<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="19"/>αν χάριν ἔτι ζῶσα καὶ ἐπιγραψ<gap reason="lost" extent="unknown" unit="character"/> <lb n="20"/>τις ἡγούμενος βεβαιότερον ει<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="21"/>τα καὶ πράττειν καὶ λέγειν ΟΔΕΗΓΟ<gap reason="lost" extent="unknown" unit="character"/> <lb n="22"/>ἡλικίας γυμνάσια νομίσας γραμμ<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="23"/>ας πλήρη διαδεξάμενος ΟΥΧΟΥ<gap reason="lost" extent="unknown" unit="character"/> <lb n="24"/>ἔργον ἐφιλοτιμήθη πρὸς τὰ μεγ<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="25"/>μενος, τοῖς δὲ ἐρίσας οὐδεμιᾶς <gap reason="lost" extent="unknown" unit="character"/> <lb n="26"/>δῶρον ὅσην εἶχεν ἰσχὺν ἐπιστι<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="27"/>γον ὡς μηδενὸς ΕΣΤΟΧΑΣΟΑΔΟΚΕ<supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> πε</supplied><lb break="no" n="28"/>ριφανὲς ὡς ἀπαρκεῖν καὶ ΜΙΑΜΕ<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>ΑΣΞΕΙ<gap reason="lost" extent="unknown" unit="character"/> <lb n="29"/>τε ποικιλωτάτων ἀπὸ πάσης ὡς εἰπεῖν <gap reason="lost" extent="unknown" unit="character"/> <lb n="30"/>τέχνης ἐντελοῦς αὐτὰ διαθείσης ΩΣΟ<gap reason="lost" extent="unknown" unit="character"/> <lb n="31"/>πλέον ὧν ὁρᾶσθαι καὶ ἀνάλωμα καὶ μέγεθο<supplied reason="lost">ς <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="32"/>ὑπάρχειν οὐδὲ ψηφίσαι τήν χάριτα καὶ ΟΥΚ<gap reason="lost" extent="unknown" unit="character"/> <lb n="33"/>δῶρον, ἀλλὰ αἰδούμενος τοῦ θ<supplied reason="lost">εάτ</supplied>ρου τὴν ὑπὸ τῷ προσκην<supplied reason="lost">ίῳ <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="34"/>εὐτυχῶς ὑμεῖν καὶ κατ' εὐχ<supplied reason="lost">ὴν γε</supplied>γεννηκὼς ἐκ γυναικὸ<supplied reason="lost">ς <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="35"/>Φροντείνης τὸν Τιβέριον <supplied reason="lost">Κλ</supplied>αύδιον <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> ΑΚΑ<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>ΡΟΝΙ<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="36"/>νον ὑπὲρ αὐτὸν ὐπέσ<supplied reason="lost">χε</supplied>το ΤΙ<gap reason="lost" extent="unknown" unit="character"/>ΡΑΝ<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="37"/>ην καὶ πεπόηκεν ἀνδρῶν <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>ΔΗΤΕ<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="38"/>σαν ὥσπερ δὲ πρὸς ἄλλο<gap reason="lost" extent="unknown" unit="character"/> <lb n="39"/>καθ' ἕκαστον ἀγωνιζόμεν<supplied reason="lost">ον <gap reason="lost" extent="unknown" unit="character"/></supplied><lb break="no" n="40"/>κὼς οὐ μόνον ἱερωσύνην <gap reason="lost" extent="unknown" unit="character"/> <lb n="41"/>ἀλλὰ καὶ τὴν τῆς Ἑλλάδος ἐπεθυ<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

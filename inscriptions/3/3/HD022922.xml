@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD022922</idno>
+                <idno type="TM">210288</idno><idno type="localID">HD022922</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Neuenstein, Schloßmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-56</height>
+                                        <width>45</width>
+                                        <depth>22</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.5-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Vicus Aurelianus (Civitas Aurelia G...?)</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1881">1881</date>
+                        <placeName ref="http://www.geonames.org/2865557">Öhringen</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Baden-Württemberg</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-04-27" who="osnabrügge">
+             überprüft per Autopsie
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1897, 0149. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 13, 06540. 
+                    </bibl>
+                    <bibl>
+                         F. Haug - G. Sixt, Die römischen Inschriften und Bildwerke Württembergs (Stuttgart 1900) 336-337, Nr. 441; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         E. Herzog, in: Der obergermanisch-rätische Limes des Römerreiches B, IV, 42 (Lieferung 5) (Berlin - Leipzig 1929) 21, Nr. 2. (B) - AE 1897. 
+                    </bibl>
+                    <bibl>
+                         CIL 13, 06540 add. p. 100. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [S]ig[num Fortunae](?) Re/[d]ucis(?) [et] / [g]enium c[um] bas[i ve]/[te]ranis et per[eg]/rinis herede[s - - -]/VN(?)ARIS Luc(- - -)(?) iu[ssu](?) / [p]atris [p]osue[runt]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">S</supplied>ig<supplied reason="lost" cert="low">num Fortunae</supplied> Re<lb break="no" n="2"/><supplied reason="lost">d</supplied><expan><abbr>ucis</abbr><ex cert="low"/></expan> <supplied reason="lost">et</supplied> <lb n="3"/><supplied reason="lost">g</supplied>enium c<supplied reason="lost">um</supplied> bas<supplied reason="lost">i ve</supplied><lb break="no" n="4"/><supplied reason="lost">te</supplied>ranis et per<supplied reason="lost">eg</supplied><lb break="no" n="5"/>rinis herede<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="6"/><expan><abbr>VN</abbr><ex cert="low"/>ARIS</expan> <abbr>Luc</abbr><certainty match="preceding-sibling::node()" locus="value"/> iu<supplied reason="lost" cert="low">ssu</supplied> <lb n="7"/><supplied reason="lost">p</supplied>atris <supplied reason="lost">p</supplied>osue<supplied reason="lost">runt</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Lesung unsicher. (B): Herzog, AE 1897: geringfügig abweichende Textwiedergabe. Autopsie R. Wiegels. Hauptbearbeiterin B. Esch.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD033278</idno>
+                <idno type="TM">125110</idno><idno type="localID">HD033278</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Portogruaro, Mus. Naz. Concord.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>150</height>
+                                        <width>107</width>
+                                        <depth>31</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">8.5-2.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033155">Venetia et Histria (Regio X)</placeName><placeName>Iulia Concordia</placeName></origPlace>
+                            <origDate notBefore-custom="0166" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">166 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3178203">Concordia Sagittaria</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-05-24" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F000789">
+            <desc>F000789</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        G. Alföldy, Römische Statuen in Venetia et Histria. Epigraphische Quellen (Heidelberg 1984) 109-110, Nr. 127. 
+                    </bibl>
+                    <bibl>
+                         CIL 05, 08660. 
+                    </bibl>
+                    <bibl>
+                         ILS 1364. 
+                    </bibl>
+                    <bibl>
+                         H.-G. Pflaum, Les carrières procuratoriennes équestres sous le Haut-Empire romain (Paris 1960/61) 409-411, Nr.167, 1. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                T(ito) Desticio T(iti)f(ilio) / Cla(udia) Severo p(rimo) p(ilo) leg(ionis) / X gem(inae) subpraef(ecto) vigil(um) / proc(uratori) Aug(usti) prov(inciae) Daciae / superior(is) proc(uratori) provinc(iae) / Cappadoc(iae) item Ponti medi/terran(ei) et Arme[ni]ae minor(is) et Ly/caon(iae) An[tiochi]an(ae) proc(uratori) prov(ineiae) Rae/tiae flam[ini divi Ha]driani pontifici / [patrono] coloniae / ala[e II Fl(aviae) - - - Ge]rmanus Martial(ius) Titianus / Fro[ntin(ius) - - -]an(us) alae I Fl(aviae) Iul(ius) Memorinus / Iul(ius) D[- - -]s Fl(avius) Speratus alae I sing(ularium) Aelius / Sever[us Pe]tron(ius) Iulianus decurion(es) exerc(itus) / Raetici / praesidi optimo et sanctissimo / l(ocus) d(atus) d(ecreto) d(ecurionum)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>ito</ex></expan> Desticio T<expan><ex>iti</ex><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><expan><abbr>Cla</abbr><ex>udia</ex></expan> Severo <expan><abbr>p</abbr><ex>rimo</ex></expan> <expan><abbr>p</abbr><ex>ilo</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="3"/>X <expan><abbr>gem</abbr><ex>inae</ex></expan> <expan><abbr>subpraef</abbr><ex>ecto</ex></expan> <expan><abbr>vigil</abbr><ex>um</ex></expan> <lb n="4"/><expan><abbr>proc</abbr><ex>uratori</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan> Daciae <lb n="5"/><expan><abbr>superior</abbr><ex>is</ex></expan> <expan><abbr>proc</abbr><ex>uratori</ex></expan> <expan><abbr>provinc</abbr><ex>iae</ex></expan> <lb n="6"/><expan><abbr>Cappadoc</abbr><ex>iae</ex></expan> item Ponti medi<lb break="no" n="7"/><expan><abbr>terran</abbr><ex>ei</ex></expan> et Arme<supplied reason="lost">ni</supplied>ae <expan><abbr>minor</abbr><ex>is</ex></expan> et Ly<lb break="no" n="8"/><expan><abbr>caon</abbr><ex>iae</ex></expan> <expan><abbr>An<supplied reason="lost">tiochi</supplied>an</abbr><ex>ae</ex></expan> <expan><abbr>proc</abbr><ex>uratori</ex></expan> <expan><abbr>prov</abbr><ex>ineiae</ex></expan> Rae<lb break="no" n="9"/>tiae flam<supplied reason="lost">ini divi Ha</supplied>driani pontifici <lb n="10"/><supplied reason="lost">patrono</supplied> coloniae <lb n="11"/>ala<supplied reason="lost">e II <expan><abbr>Fl</abbr><ex>aviae</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> Ge</supplied>rmanus <expan><abbr>Martial</abbr><ex>ius</ex></expan> Titianus <lb n="12"/>Fro<supplied reason="lost"><expan><abbr>ntin</abbr><ex>ius</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>an</abbr><ex>us</ex></expan> alae I <expan><abbr>Fl</abbr><ex>aviae</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Memorinus <lb n="13"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> D<gap reason="lost" extent="unknown" unit="character"/>s <expan><abbr>Fl</abbr><ex>avius</ex></expan> Speratus alae I <expan><abbr>sing</abbr><ex>ularium</ex></expan> Aelius <lb n="14"/>Sever<supplied reason="lost">us Pe</supplied><expan><abbr>tron</abbr><ex>ius</ex></expan> Iulianus <expan><abbr>decurion</abbr><ex>es</ex></expan> <expan><abbr>exerc</abbr><ex>itus</ex></expan> <lb n="15"/>Raetici <lb n="16"/>praesidi optimo et sanctissimo <lb n="17"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> In 2 Fragmente gebrochen. Lesung nach G. Alföldy. Datierung: kurz nach 166 n. Chr. (Statthalterschaft des Geehrten in Raetia).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

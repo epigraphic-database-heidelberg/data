@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD067854</idno>
+                <idno type="TM">404356</idno><idno type="localID">HD067854</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Budapest, Magyar Nemzeti Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>146</height>
+                                        <width>80</width>
+                                        <depth>56</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-4.3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/020126">Aquincum</placeName></origPlace>
+                            <origDate notBefore-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">270 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1780">1780</date>
+                        <placeName ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Budapest</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-07-25" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://hdl.handle.net/11471/504.40.114">
+        </graphic>
+        <graphic url="http://lupa.at/9729">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 03521. 
+                    </bibl>
+                    <bibl>
+                         TitAq 0026; Foto. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) A 1626. 
+                    </bibl>
+                    <bibl>
+                         B. Lőrincz, in: P. Kovács (Hrsg.), Az ókori Pannonia forrásia. Kr. u. 235 és 284 között, Fontes Pannoniae Antiquae 5 (Budapest 2008) 132-133, Nr. 40. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(eratori) Caes(ari) M(arco) / Aurel(io) Claudio / Germanico / P(io) F(elici) Invicto / Aug(usto) pont(ifici) max(imo) / trib(unicia) potest(ate) / III co(n)s(uli) pro/co(n)s(uli) p(atri) p(atriae) leg(io) II / [a]di(utrix) VI p(ia) VI f(idelis) / [co]nstans / [C]laudiana / numini ma/iestatique / eius / dicatissima
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> <lb n="2"/><expan><abbr>Aurel</abbr><ex>io</ex></expan> Claudio <lb n="3"/>Germanico <lb n="4"/><expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>F</abbr><ex>elici</ex></expan> Invicto <lb n="5"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <lb n="6"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> <lb n="7"/>III co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> pro<lb break="no" n="8"/>co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>leg</abbr><ex>io</ex></expan> II <lb n="9"/><expan><abbr><supplied reason="lost">a</supplied>di</abbr><ex>utrix</ex></expan> VI <expan><abbr>p</abbr><ex>ia</ex></expan> VI <expan><abbr>f</abbr><ex>idelis</ex></expan> <lb n="10"/><supplied reason="lost">co</supplied>nstans <lb n="11"/><supplied reason="lost">C</supplied>laudiana <lb n="12"/>numini ma<lb break="no" n="13"/>iestatique <lb n="14"/>eius <lb n="15"/>dicatissima
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

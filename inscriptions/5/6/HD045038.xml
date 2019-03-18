@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD045038</idno>
+                <idno type="TM">180386</idno><idno type="localID">HD045038</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Veţel, Mintia</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>86</height>
+                                        <width>133</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/004366">Dacia</placeName><placeName ref="http://www.trismegistos.org/place/030049">Micia</placeName></origPlace>
+                            <origDate notBefore-custom="0198" notAfter-custom="0209" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">198 AD – 209 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1850">1850</date>
+                        <placeName ref="http://www.geonames.org/673180">Veţel</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hunedoara</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-01-07" who="gräf">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/11702">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IDR 3, 3, 056; fig. 44 (Foto u. Zeichnung). 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 01377. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) M 582. 
+                    </bibl>
+                    <bibl>
+                         I. Piso, Fasti provinciae Daciae 1. Die senatorischen Amtsträger (Bonn 1993) 156-159, Nr. 32, 2. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(eratori) Caes(ari) L(uci) Septimi Severi / Pii Pertinacis Aug(usti) Arabici / Adiabenici Parthici maximi / filio divi Marci Antonini Pii / Germanici Sarmatici nepoti / divi Antonini Pii pronepoti / divi Hadriani abnepoti divi / Traiani Parthici et divi Nervae / adnepoti M(arco) Aur(elio) Antonino / Aug(usto) eq(uites) alae Campagonum / dedicante Mevio Suro co(n)s(ulari)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> Septimi Severi <lb n="2"/>Pii Pertinacis <expan><abbr>Aug</abbr><ex>usti</ex></expan> Arabici <lb n="3"/>Adiabenici Parthici maximi <lb n="4"/>filio divi Marci Antonini Pii <lb n="5"/>Germanici Sarmatici nepoti <lb n="6"/>divi Antonini Pii pronepoti <lb n="7"/>divi Hadriani abnepoti divi <lb n="8"/>Traiani Parthici et divi Nervae <lb n="9"/>adnepoti <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> Antonino <lb n="10"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>eq</abbr><ex>uites</ex></expan> alae Campagonum <lb n="11"/>dedicante Mevio Suro co<expan><ex>n</ex><abbr>s</abbr><ex>ulari</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Datierung: nach Piso wahrscheinlich 198/199 n. Chr.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

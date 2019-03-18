@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD007479</idno>
+                <idno type="TM">222135</idno><idno type="localID">HD007479</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>88</height>
+                                        <width>58</width>
+                                        <depth>58</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.8-6.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/026022">Igabrum</placeName></origPlace>
+                            <origDate notBefore-custom="0075" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">75 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Cabra</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-10-11" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://cil-old.bbaw.de/test06/bilder/datenbank/PH0005320.jpg">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1986, 0334d. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 02 (2. Aufl.) 05, 00308; Foto. 
+                    </bibl>
+                    <bibl>
+                         CIL 02, 01610. (B) 
+                    </bibl>
+                    <bibl>
+                         ILS 1981. (B) 
+                    </bibl>
+                    <bibl>
+                         A. U. Stylow, Gerión 4, 1986, 296-301; Foto. (B) - AE 1986. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Apollini Aug(usto) / municipii Igabrensis / beneficio Imp(eratoris) Caesaris Aug(usti) Vespasiani / c(ivitatem) R(omanam) c(onsecutus) cum suis per hono[r]em / Vespasiano VI co(n)s(ule) / M(arcus) Aelius M(arci) fil(ius) Niger aed(ilis) / d(edit) d(edicavit)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Apollini <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="2"/>municipii Igabrensis <lb n="3"/>beneficio <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Caesaris <expan><abbr>Aug</abbr><ex>usti</ex></expan> Vespasiani <lb n="4"/><expan><abbr>c</abbr><ex>ivitatem</ex></expan> <expan><abbr>R</abbr><ex>omanam</ex></expan> <expan><abbr>c</abbr><ex>onsecutus</ex></expan> cum suis per hono<supplied reason="lost">r</supplied>em <lb n="5"/>Vespasiano VI co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> <lb n="6"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Aelius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>fil</abbr><ex>ius</ex></expan> Niger <expan><abbr>aed</abbr><ex>ilis</ex></expan> <lb n="7"/><expan><abbr>d</abbr><ex>edit</ex></expan> <expan><abbr>d</abbr><ex>edicavit</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Erhalten ist der Mittelteil ohne die ehemals separat gearbeitete crepido und corona. Z. 2: Die Buchstaben IPII im Wort municipii sind nur noch handschriftlich überliefert. (B): CIL II 1610, ILS 1981: Z. 2: municip[es] Igabrenses; Stylow, AE 1986: Z. 4: Caes(aris); CIL II 1610: Z. 5: suis I(?)I(?)[---]M; ILS 1981: Z. 5: suis per h[onore]m.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

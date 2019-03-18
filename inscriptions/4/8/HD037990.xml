@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD037990</idno>
+                <idno type="TM">179307</idno><idno type="localID">HD037990</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/004366">Dacia</placeName><placeName ref="http://www.trismegistos.org/place/014481">Apulum</placeName></origPlace>
+                            <origDate notBefore-custom="0180" notAfter-custom="0211" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">180 AD – 211 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Alba</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-06-26" who="Garcia">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IDR 3, 5, 021. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 00987. 
+                    </bibl>
+                    <bibl>
+                         ILS 3847. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Aesculapio / et Hygiae ce/terisq(ue) diis dea/busq(ue) huiusq(ue) / loci salutarib(us) / C(aius) Iul(ius) Fronto/nianus vet(eranus) ex / b(ene)f(iciario) co(n)s(ularis) leg(ionis) V M(acedonicae) p(iae) / redditis sibi lumi/nibus grat(ias) age(ns) ex / viso pro se et Carteia / Maxima coniug(e) et Iul(ia) / Frontina filia / v(otum) s(olvit) l(ibens) m(erito)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Aesculapio <lb n="2"/>et Hygiae ce<lb break="no" n="3"/><expan><abbr>terisq</abbr><ex>ue</ex></expan> diis dea<lb break="no" n="4"/><expan><abbr>busq</abbr><ex>ue</ex></expan> <expan><abbr>huiusq</abbr><ex>ue</ex></expan> <lb n="5"/>loci <expan><abbr>salutarib</abbr><ex>us</ex></expan> <lb n="6"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Fronto<lb break="no" n="7"/>nianus <expan><abbr>vet</abbr><ex>eranus</ex></expan> ex <lb n="8"/>b<expan><ex>ene</ex><abbr>f</abbr><ex>iciario</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> V <expan><abbr>M</abbr><ex>acedonicae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <lb n="9"/>redditis sibi lumi<lb break="no" n="10"/>nibus <expan><abbr>grat</abbr><ex>ias</ex></expan> <expan><abbr>age</abbr><ex>ns</ex></expan> ex <lb n="11"/>viso pro se et Carteia <lb n="12"/>Maxima <expan><abbr>coniug</abbr><ex>e</ex></expan> et <expan><abbr>Iul</abbr><ex>ia</ex></expan> <lb n="13"/>Frontina filia <lb n="14"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Altar oder Statuenbasis.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

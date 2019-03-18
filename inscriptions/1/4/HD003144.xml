@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Ziegel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD003144</idno>
+                <idno type="TM">244312</idno><idno type="localID">HD003144</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/147">Ziegel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>58.5</height>
+                                        <width>61</width>
+                                        <depth>6</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Aemilia (Regio VIII)</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0530" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">3.530 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">S. Arcangelo</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-09-08" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1985, 0396. 
+                    </bibl>
+                    <bibl>
+                         M.G. Maioli, in: P. Delbianco (Hrsg.), Culture figurative e materiali tra Emilia e Marche. Studi in memoria di Mario Zuffa (Rimini 1984) 472-473; tav. 3. (B) - AE 1985. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Hic requiescet(!) in pace Iust[u]s v(ir) hone(stus) / vixit annis LXXX <m=P>ens(ibus)(!)#<m>ens(ibus)(!)#PENS [- - -] d(iebus) [- - -] / depusutus(!) est sub d(ie) X[- - - K]al(endas) April(es) / Lam[pad]io et Hurestu(!) vv(iris) cc(larissimis) cons(u)l(ibus) / indic(tione) VIII
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Hic requiescet <note>sic</note> in pace Iust<supplied reason="lost">u</supplied>s <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>hone</abbr><ex>stus</ex></expan> <lb n="2"/>vixit annis LXXX <choice><corr>m</corr><sic>P</sic></choice><expan><abbr>ens</abbr><ex>ibus</ex></expan> <note>sic</note>#<supplied reason="omitted">m</supplied><expan><abbr>ens</abbr><ex>ibus</ex></expan> <note>sic</note>#PENS <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>d</abbr><ex>iebus</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>depusutus <note>sic</note> est sub <expan><abbr>d</abbr><ex>ie</ex></expan> X<gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">K</supplied>al</abbr><ex>endas</ex></expan> <expan><abbr>April</abbr><ex>es</ex></expan> <lb n="4"/>Lam<supplied reason="lost">pad</supplied>io et Hurestu <note>sic</note> <expan><abbr>vv</abbr><ex>iris</ex></expan> <expan><abbr>cc</abbr><ex>larissimis</ex></expan> cons<expan><ex>u</ex><abbr>l</abbr><ex>ibus</ex></expan> <lb n="5"/><expan><abbr>indic</abbr><ex>tione</ex></expan> VIII
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Ziegel von einem Ziegelgrab; in zahlreiche Fragmente gebrochen. Datierung: zwischen dem 16. und 22. März 530 n. Chr. (B): Maioli: Z. 3: depuisutus; Z. 4: Hurestiio cccons(u)l(ibus).  </p>
+            </div>
+        </body>
+    </text>
+</TEI>

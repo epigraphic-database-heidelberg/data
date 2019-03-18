@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Architekturteil</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD054373</idno>
+                <idno type="TM">184700</idno><idno type="localID">HD054373</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/35">Architekturteil</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth>48</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">7.5-6</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/015780">Doclea</placeName></origPlace>
+                            <origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD – 130 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1892">1892</date>
+                        <placeName ref="http://www.geonames.org/3193044">Podgorica</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/me/">Montenegro</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-03-12" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F036393">
+            <desc>F036393</desc>
+        </graphic>
+
+        <graphic url="http://hdl.handle.net/11471/504.40.438">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 13819. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 12692; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 08287 a-d. 
+                    </bibl>
+                    <bibl>
+                         P. Sticotti, Die römische Stadt Doclea in Montenegro (Wien 1913) 164-165, Nr. 22; Fig. 115 (Zeichnung). 
+                    </bibl>
+                    <bibl>
+                         J.J. Martinović, Antički natpisi u Crnoj Gori. Corpus inscriptionum Latinarum et Graecarum Montenegri (Kotor 2011) 126-127, Nr. 103; Foto u. Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [M(arco)] Fl(avio) M(arci) f(ilio) Q[uir(ina) Ba]lbino huic defunc(to) ordo Docl(eatium) honore[s] omnes et statuam / equestr(em) [dec]r(evit) Fl(avius) Fronto et Fl(avia) Tertulla fil(ii) // M(arco) Fl(avio) M(arci) f(ilio) Quir(ina) Balbino [huic defun]c(to) ordo Docl(eatium) honores omnes et statuam / equestr(em) decr(evit) [Fl(avius) Fronto e]t Fl(avia) Tertulla parentes inauraverunt // [M(arco)] Fl(avio) T(iti) f(ilio) Quir(ina) Frontoni praef(ecto) [fabrum - - -] / pontif(ici) flam(ini) divi [Titi & // [M(arco) Fl(avio) M(arci) f(ilio) Quir(ina) Balbino huic defunc(to) ordo Doc]l(eatium) honores omnes et statuam equestr(em) / [decr(evit) Fl(avius) Fronto et Fl(avia) Tertulla parentes] inauraverunt
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>M</abbr><ex>arco</ex></expan></supplied> <expan><abbr>Fl</abbr><ex>avio</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Q<supplied reason="lost"><expan><abbr>uir</abbr><ex>ina</ex></expan> Ba</supplied>lbino huic <expan><abbr>defunc</abbr><ex>to</ex></expan> ordo <expan><abbr>Docl</abbr><ex>eatium</ex></expan> honore<supplied reason="lost">s</supplied> omnes et statuam <lb n="2"/><expan><abbr>equestr</abbr><ex>em</ex></expan> <expan><abbr><supplied reason="lost">dec</supplied>r</abbr><ex>evit</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Fronto et <expan><abbr>Fl</abbr><ex>avia</ex></expan> Tertulla <expan><abbr>fil</abbr><ex>ii</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Fl</abbr><ex>avio</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Quir</abbr><ex>ina</ex></expan> Balbino <supplied reason="lost">huic defun</supplied><expan><abbr>c</abbr><ex>to</ex></expan> ordo <expan><abbr>Docl</abbr><ex>eatium</ex></expan> honores omnes et statuam <lb n="2"/><expan><abbr>equestr</abbr><ex>em</ex></expan> <expan><abbr>decr</abbr><ex>evit</ex></expan> <supplied reason="lost"><expan><abbr>Fl</abbr><ex>avius</ex></expan> Fronto e</supplied>t <expan><abbr>Fl</abbr><ex>avia</ex></expan> Tertulla parentes inauraverunt </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>M</abbr><ex>arco</ex></expan></supplied> <expan><abbr>Fl</abbr><ex>avio</ex></expan> <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Quir</abbr><ex>ina</ex></expan> Frontoni <expan><abbr>praef</abbr><ex>ecto</ex></expan> <supplied reason="lost">fabrum</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>pontif</abbr><ex>ici</ex></expan> <expan><abbr>flam</abbr><ex>ini</ex></expan> divi <supplied reason="lost">Titi</supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Fl</abbr><ex>avio</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Quir</abbr><ex>ina</ex></expan> Balbino huic <expan><abbr>defunc</abbr><ex>to</ex></expan> ordo Doc</supplied><expan><abbr>l</abbr><ex>eatium</ex></expan> honores omnes et statuam <expan><abbr>equestr</abbr><ex>em</ex></expan> <lb n="2"/><supplied reason="lost"><expan><abbr>decr</abbr><ex>evit</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Fronto et <expan><abbr>Fl</abbr><ex>avia</ex></expan> Tertulla parentes</supplied> inauraverunt
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Fragmente von vier Architraven von der Ostfassade der Basilica (Sticotti). Textwiedergabe nach Sticotti.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

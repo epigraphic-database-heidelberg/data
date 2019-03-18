@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Block</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001970</idno>
+                <idno type="TM">226735</idno><idno type="localID">HD001970</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>79</height>
+                                        <width>41</width>
+                                        <depth>44</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-2.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016933">Hispania citerior</placeName><placeName ref="http://www.trismegistos.org/place/026585">Tutugi</placeName></origPlace>
+                            <origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD – 235 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1956">1956</date>
+                        <placeName ref="http://www.geonames.org/2517432">Galera</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Granada</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-03-15" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1984, 0598. 
+                    </bibl>
+                    <bibl>
+                         J. Alvar, HAnt 9/10, 1979/80, 242-244, Nr. 8; Foto. - AE 1984. 
+                    </bibl>
+                    <bibl>
+                         AE 1983, 0608. (B) 
+                    </bibl>
+                    <bibl>
+                         J. González, Mainake 2, 1980, 135-137, Nr. 6; lám. 3. (AB) - AE 1983. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [D]ivo An[to]/[ni]no Mag/[no] patri do/[min]i nostri / [Im]p(eratoris) M(arci) Aureli / [Se]veri [[Alexan]]/[dri] Pii Felicis / Aug(usti) / res p(ublica) Tutug(itanorum)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">D</supplied>ivo An<supplied reason="lost">to</supplied><lb break="no" n="2"/><supplied reason="lost">ni</supplied>no Mag<lb break="no" n="3"/><supplied reason="lost">no</supplied> patri do<lb break="no" n="4"/><supplied reason="lost">min</supplied>i nostri <lb n="5"/><expan><abbr><supplied reason="lost">Im</supplied>p</abbr><ex>eratoris</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> Aureli <lb n="6"/><supplied reason="lost">Se</supplied>veri <del rend="erasure">Alexan</del><lb break="no" n="7"/><supplied reason="lost">dri</supplied> Pii Felicis <lb n="8"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="9"/>res <expan><abbr>p</abbr><ex>ublica</ex></expan> <expan><abbr>Tutug</abbr><ex>itanorum</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Z.1/2: [Div]o; An[tonin]o; Z.5: Aure&amp;lt;l&amp;gt;i; Z.7: Fe&amp;lt;l&amp;gt;icis - González. - AE 1983. (A): Denkt an Ehreninschrift, Postament. Block wurde vermutlich sek. verwendet. Material: weißlicher Kalkstein.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

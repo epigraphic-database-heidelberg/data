@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Block</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000762</idno>
+                <idno type="TM">204693</idno><idno type="localID">HD000762</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-52</height>
+                                        <width>-38</width>
+                                        <depth>27</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003344">Numidia</placeName><placeName ref="http://www.trismegistos.org/place/018866">Tfilzi?</placeName></origPlace>
+                            <origDate notBefore-custom="0195" notAfter-custom="0197" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">195 AD – 197 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1973">1973</date>
+                        <placeName ref="http://www.geonames.org/2488193">Menaa</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Batna</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-12-27" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1988, 1127. 
+                    </bibl>
+                    <bibl>
+                         AE 1982, 0962. (B) 
+                    </bibl>
+                    <bibl>
+                         AE 1979, 0671. (B) 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) I 557. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) T 223. 
+                    </bibl>
+                    <bibl>
+                         P. Morizot, CRAI 1979, 315-317; fig. 1-3. (B) - AE 1979. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Iovi Opt(imo) Max(imo) conser]/vat[ori domini n(ostri)] / Imp(eratoris) C[aes(aris) L(uci) Sept(imi) Sever(i) Pii] / Pertina[cis Aug(usti) et] / Q(uinti) Anici F[austi leg(ati) Aug(usti) p(ro) p(raetore) - - -] // AED(?) IPAN(?) / Sever(o) et Heren(niano) co(n)s(ulibus) / Acilius Felix / Imp(eratore) Com(modo) II et Vero co(n)s(ulibus) / Iulius Sa[- - -]im[- - -] / Imp(eratore) Com(modo) V co(n)s(ule) / Aemil(ius) Saturninus / Falc(o) et Clar(o) co(n)s(ulibus) / Iulius Donatus / Geminius Emer(itus) / Tertul(lo) et Cle(mente) co(n)s(ulibus) / Arrius [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">Iovi <expan><abbr>Opt</abbr><ex>imo</ex></expan> <expan><abbr>Max</abbr><ex>imo</ex></expan> conser</supplied><lb break="no" n="2"/>vat<supplied reason="lost">ori domini <expan><abbr>n</abbr><ex>ostri</ex></expan></supplied> <lb n="3"/><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> C<supplied reason="lost"><expan><abbr>aes</abbr><ex>aris</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>Sept</abbr><ex>imi</ex></expan> <expan><abbr>Sever</abbr><ex>i</ex></expan> Pii</supplied> <lb n="4"/>Pertina<supplied reason="lost">cis <expan><abbr>Aug</abbr><ex>usti</ex></expan> et</supplied> <lb n="5"/><expan><abbr>Q</abbr><ex>uinti</ex></expan> Anici F<supplied reason="lost">austi <expan><abbr>leg</abbr><ex>ati</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>p</abbr><ex>ro</ex></expan> <expan><abbr>p</abbr><ex>raetore</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>AED</abbr><ex cert="low"/></expan> <expan><abbr>IPAN</abbr><ex cert="low"/></expan> <lb n="2"/><expan><abbr>Sever</abbr><ex>o</ex></expan> et <expan><abbr>Heren</abbr><ex>niano</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="3"/>Acilius Felix <lb n="4"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>Com</abbr><ex>modo</ex></expan> II et Vero co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="5"/>Iulius Sa<gap reason="lost" extent="unknown" unit="character"/>im<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>Com</abbr><ex>modo</ex></expan> V co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> <lb n="7"/><expan><abbr>Aemil</abbr><ex>ius</ex></expan> Saturninus <lb n="8"/><expan><abbr>Falc</abbr><ex>o</ex></expan> et <expan><abbr>Clar</abbr><ex>o</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="9"/>Iulius Donatus <lb n="10"/>Geminius <expan><abbr>Emer</abbr><ex>itus</ex></expan> <lb n="11"/><expan><abbr>Tertul</abbr><ex>lo</ex></expan> et <expan><abbr>Cle</abbr><ex>mente</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="12"/>Arrius <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Inschrift weist größte Ähnlichkeit mit CIL VIII 2464 auf, doch wohl nicht mit dieser identisch. Vgl. auch CIL VIII 2465f. Diese Inschriften können dank des Neufundes weiter ergänzt / korrigiert werden. Datierung: Als letztes Datum ist 195 auf der Inschrift gesichert, doch vermutlich wie CIL 8, 2464 im Jahre 197 n.Chr. erstellt. Es handelt sich um Soldatenlisten.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

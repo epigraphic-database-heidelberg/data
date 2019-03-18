@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD072444</idno>
+                <idno type="TM">670280</idno><idno type="localID">HD072444</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Szentendre, Ferenczy Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>66</height>
+                                        <width>31</width>
+                                        <depth>24</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName>Vicus Teutonis(?), bei</placeName></origPlace>
+                            <origDate notBefore-custom="0253" notAfter-custom="0263" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">253 AD – 263 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="2008">2008</date>
+                        <placeName ref="http://www.geonames.org/3054646">Budaörs</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Pest megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-02-02" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2010, 1348. 
+                    </bibl>
+                    <bibl>
+                         L. Borhy - D. Bartus - M Stibrányi, ACD 48, 2012, 135-139, Nr. 2; fig. 7 u. 8; fig. 9 (Zeichnung). - AE 2010. 
+                    </bibl>
+                    <bibl>
+                         M. Stibrányi, Régészeti kutatások Magyarszágon (Budapest 2010) 153, Nr. 73. - AE 2010. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Libero Pa/tri et L<i=L>b/erae#L<i>b/erae#LLBERAE pro sa/lute sua et / {sua et} suo/rum Aurel(ius) / Valens m/il(es) leg(ionis) II adi(utricis) <Imp(eratore) Volusian>(?)o / II et Maxim(o) / co(n)s(ulibus)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Libero Pa<lb break="no" n="2"/>tri et L<choice><corr>i</corr><sic>L</sic></choice>b<lb break="no" n="3"/>erae#L<supplied reason="omitted">i</supplied>b<lb break="no" n="4"/>erae#LLBERAE pro sa<lb break="no" n="5"/>lute sua et <lb n="6"/><surplus>sua et</surplus> suo<lb break="no" n="7"/>rum <expan><abbr>Aurel</abbr><ex>ius</ex></expan> <lb n="8"/>Valens m<lb break="no" n="9"/><expan><abbr>il</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>adi</abbr><ex>utricis</ex></expan> &lt;<expan><abbr>Imp</abbr><ex>eratore</ex></expan> Volusian&gt;<certainty match="preceding-sibling::node()" locus="value"/>o <lb n="10"/>II et <expan><abbr>Maxim</abbr><ex>o</ex></expan> <lb n="11"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 8: Ergänzung fraglich; laut Borhy - Bartus - Stibrányi 138: &amp;lt;Imp. Volusian&amp;gt;o (cos. 253 n. Chr.) oder &amp;lt;Nummi&amp;gt;o (cos. 263 n. Chr.) denkbar.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD032403</idno>
+                <idno type="TM">191346</idno><idno type="localID">HD032403</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bucureşti, Muz. Naţ. Ant.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-115</height>
+                                        <width>-44</width>
+                                        <depth>-35</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName ref="http://www.trismegistos.org/place/030024">Ulmetum</placeName></origPlace>
+                            <origDate notBefore-custom="0140" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">140 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/671381">Pantelimon</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-01-12" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1901, 0045. (B) 
+                    </bibl>
+                    <bibl>
+                         IScM 5, 062; Foto. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 14214, 26. 
+                    </bibl>
+                    <bibl>
+                         G.G. Točilescu, Fouilles et recherches archéologiques en Roumanie (Bucarest 1900) 111-112, Nr. 6. - AE 1901. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                I(ovi) O(ptimo) M(aximo) / et Iunoni / Regin(a)e c(ives) R(omani) / et Bessi con/sistentes vi/co Ulmeto p/ro salute Imp(eratoris) / Ael(i) Antonini Ca/es(aris) per mag(istrum) L(ucium) Val(erium) / Maxellius(!) pos/suit(!) de suo v(otum) s(olvit) l(ibens) / Imp(eratore) Antonino / III co(n)s(ule)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>et Iunoni <lb n="3"/>Regin<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>c</abbr><ex>ives</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan> <lb n="4"/>et Bessi con<lb break="no" n="5"/>sistentes vi<lb break="no" n="6"/>co Ulmeto p<lb break="no" n="7"/>ro salute <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <lb n="8"/><expan><abbr>Ael</abbr><ex>i</ex></expan> Antonini Ca<lb break="no" n="9"/><expan><abbr>es</abbr><ex>aris</ex></expan> per <expan><abbr>mag</abbr><ex>istrum</ex></expan> <expan><abbr>L</abbr><ex>ucium</ex></expan> <expan><abbr>Val</abbr><ex>erium</ex></expan> <lb n="10"/>Maxellius <note>sic</note> pos<lb break="no" n="11"/>suit <note>sic</note> de suo <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <lb n="12"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> Antonino <lb n="13"/>III co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Točilescu, AE 1901: Z. 10/11: pos/uit.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

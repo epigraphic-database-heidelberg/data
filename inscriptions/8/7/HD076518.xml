@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio auf Tessera</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD076518</idno>
+                <idno type="TM"/><idno type="localID">HD076518</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Worms, Stadtmus. im Andreasstift</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/276">Tessera</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>4.5</height>
+                                        <width>5.5</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/88">geritzt / Graffito</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Cruciniacum (Civitas Vangionum?)</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1866">1866</date>
+                        <placeName ref="http://www.geonames.org/2953416">Bad Kreuznach</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/76">Defixio</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-01-30" who="osnabrügge">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 07555, II. (B) 
+                    </bibl>
+                    <bibl>
+                         A. Audollent, Defixionum tabellae (Parisiis 1904, ND Frankfurt/Main 1967) 149, Nr. 95. (B) 
+                    </bibl>
+                    <bibl>
+                         A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 5.1.4/2. 
+                    </bibl>
+                    <bibl>
+                         J. Blänsdorf, Die Defixionum tabellae des Mainzer Isis- und Mater Magna-Heiligtums (Klagenfurt 2008) 187. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Fructus(!) Gra/cilis(!) et Aur(e)um(?) / Adi(u)torium / def[ero] / i[nfer]/is // Sic non pos/sit respo[nde]/re qua(e)s[tionibus]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Fructus <note>sic</note> Gra<lb break="no" n="2"/>cilis <note>sic</note> et Aur<expan><ex>e</ex><abbr>um</abbr></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="3"/>Adi<expan><ex>u</ex><abbr>torium</abbr></expan> <lb n="4"/>def<supplied reason="lost">ero</supplied> <lb n="5"/>i<supplied reason="lost">nfer</supplied><lb break="no" n="6"/>is </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Sic non pos<lb break="no" n="2"/>sit respo<supplied reason="lost">nde</supplied><lb break="no" n="3"/>re qua<expan><ex>e</ex><abbr>s</abbr></expan><supplied reason="lost">tionibus</supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Fragment eines bleiernen Fluchtäfelchens. Beidseitig beschriftet. Schreibtechnik: geritzt. Kursive Schrift. Die selben Namen erscheinen auch auf dem Fluchtäfelchen http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD076517. (B): Audollent: Text 2: sic non ius/sit resto / RH quas. (B): CIL 13, 07555, II; Blänsdorf: Text 1, Z. 2: et aurum.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD062483</idno>
+                <idno type="TM">187264</idno><idno type="localID">HD062483</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName>Salonae, aus?</placeName></origPlace>
+                            <origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 400 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3198210">Kaštela?</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Splitsko-dalmatinska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-06-07" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 02616. 
+                    </bibl>
+                    <bibl>
+                         CLE 0644. 
+                    </bibl>
+                    <bibl>
+                         E. Marin u. a., Salona 4. Inscriptions de Salone chrétienne, IVe-VIIe siècles (Rome - Split 2010) 771-774, Nr. 429. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Condidit hic natum infelix B/ocontia(!) mater functa EEPQVON / nimis SVOSSOCIVM magno <d=A>olore#<d>olore#AOLORE no/mine et ips{u}o <hic> situs est Bocontius(!) i(nfans?) / qui tulit bis binos <me=VF>(n)s<e=F>s#<me>(n)s<e>s#VFSFS {Q} / qua<t=E>tu<or=E>que#qua<t>tu<or>que#QUAETUEQUE {I} <di=IN>es#<di>es#INES qu<e=L>#qu<e>#QUL / effecit HVLASTISBATI suae do/m(u) <n=V>e#<n>e#VE ulla <c=V>orpo<ra=CR>#<c>orpo<ra>#VORPOCR <iac=T>ent#<iac>ent#TENT
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Condidit hic natum infelix B<lb break="no" n="2"/>ocontia <note>sic</note> mater functa EEPQVON <lb n="3"/>nimis SVOSSOCIVM magno <choice><corr>d</corr><sic>A</sic></choice>olore#<supplied reason="omitted">d</supplied>olore#AOLORE no<lb break="no" n="4"/>mine et ips<surplus>u</surplus>o <supplied reason="omitted">hic</supplied> situs est Bocontius <note>sic</note> <expan><abbr>i</abbr><ex cert="low">nfans</ex></expan> <lb n="5"/>qui tulit bis binos <supplied reason="omitted">me=VF</supplied><expan><ex>n</ex><abbr>s</abbr></expan><choice><corr>e</corr><sic>F</sic></choice>s#<supplied reason="omitted">me</supplied><expan><ex>n</ex><abbr>s</abbr></expan><supplied reason="omitted">e</supplied>s#VFSFS <surplus>Q</surplus> <lb n="6"/>qua<choice><corr>t</corr><sic>E</sic></choice>tu<supplied reason="omitted">or=E</supplied>que#qua<supplied reason="omitted">t</supplied>tu<supplied reason="omitted">or</supplied>que#QUAETUEQUE <surplus>I</surplus> <supplied reason="omitted">di=IN</supplied>es#<supplied reason="omitted">di</supplied>es#INES qu<choice><corr>e</corr><sic>L</sic></choice>#qu<supplied reason="omitted">e</supplied>#QUL <lb n="7"/>effecit HVLASTISBATI suae do<lb break="no" n="8"/><expan><abbr>m</abbr><ex>u</ex></expan> <choice><corr>n</corr><sic>V</sic></choice>e#<supplied reason="omitted">n</supplied>e#VE ulla <choice><corr>c</corr><sic>V</sic></choice>orpo<supplied reason="omitted">ra=CR</supplied>#<supplied reason="omitted">c</supplied>orpo<supplied reason="omitted">ra</supplied>#VORPOCR <supplied reason="omitted">iac=T</supplied>ent#<supplied reason="omitted">iac</supplied>ent#TENT
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Wahrscheinlich ein Sarkophagkasten. Links der Inschrift Weinranken, rechts Genius mit gesenkter Fackel. Metrik: Hexameter. Lesungsvorschlag nach Marin u. a. Z. 2: Buchstabe Q steht im Zeilenabstand zwischen Z. 1 u. 2.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

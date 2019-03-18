@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gebet auf Tessera</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD035239</idno>
+                <idno type="TM">183690</idno><idno type="localID">HD035239</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Zagreb, Arh. Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/276">Tessera</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>12</height>
+                                        <width>9</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/029369">Tragurium, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0501" notAfter-custom="0700" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">501 AD – 700 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1869">1869</date>
+                        <placeName ref="http://www.geonames.org/3188763">Trogir, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Splitsko-dalmatinska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/85">Gebet</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-09-22" who="gräf">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        ILJug 2792. 
+                    </bibl>
+                    <bibl>
+                         ILCV 2389. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, p. 961 n. 26; Zeichnungen. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 13352. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Qui (h)oc port]ent / in nom(ine) d(omi)ni Ieso Cri[s]/ti denontio(!) tibi inmon/dissime(!) spirete(!) tarta/ruce quem angelus Gabriel / de catenis igneis religa[vit] / qui habet decem milia barbar(orum) / post resurrectione(m) vinist[i](!) / in Galilea ubi te ordinavit [ut] / silvestria loca collemontia op/teneres(!) / ut ne hominebus(!) [vel fulg]ore / aut tu ne demum / grandene(!) nuoceres(!) vede(!) ergo / inmondissime(!) spirete(!) tartaruce / ut ubiconqua(!) nomen d(omi)ni audive/res(!) vel scriptura cognoveres(!) non // ubi velles n[o]cere / [a]nte habes [Iorda]nis fluvio / [q]uem transire n[on] potuisti / [r]equesitus(!) qu[a]r[e t]ransire non / [po]tuisti dixisti quia ibi ign[is] / [a]ra[n]ea ignefera(!) corret(!) et ubi/conqua(!) semper tib[i] ignis ar[a]nea / [i]gnefera(!) c[or]rat(!) denontio(!) tibi / [pe]r domino(!) meum cave te
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">Qui (h)oc port</supplied>ent <lb n="2"/>in <expan><abbr>nom</abbr><ex>ine</ex></expan> d<expan><ex>omi</ex><abbr>ni</abbr></expan> Ieso Cri<supplied reason="lost">s</supplied><lb break="no" n="3"/>ti denontio <note>sic</note> tibi inmon<lb break="no" n="4"/>dissime <note>sic</note> spirete <note>sic</note> tarta<lb break="no" n="5"/>ruce quem angelus Gabriel <lb n="6"/>de catenis igneis religa<supplied reason="lost">vit</supplied> <lb n="7"/>qui habet decem milia <expan><abbr>barbar</abbr><ex>orum</ex></expan> <lb n="8"/>post <expan><abbr>resurrectione</abbr><ex>m</ex></expan> vinist<supplied reason="lost">i</supplied> <note>sic</note> <lb n="9"/>in Galilea ubi te ordinavit <supplied reason="lost">ut</supplied> <lb n="10"/>silvestria loca collemontia op<lb break="no" n="11"/>teneres <note>sic</note> <lb n="12"/>ut ne hominebus <note>sic</note> <supplied reason="lost">vel fulg</supplied>ore <lb n="13"/>aut tu ne demum <lb n="14"/>grandene <note>sic</note> nuoceres <note>sic</note> vede <note>sic</note> ergo <lb n="15"/>inmondissime <note>sic</note> spirete <note>sic</note> tartaruce <lb n="16"/>ut ubiconqua <note>sic</note> nomen d<expan><ex>omi</ex><abbr>ni</abbr></expan> audive<lb break="no" n="17"/>res <note>sic</note> vel scriptura cognoveres <note>sic</note> non </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ubi velles n<supplied reason="lost">o</supplied>cere <lb n="2"/><supplied reason="lost">a</supplied>nte habes <supplied reason="lost">Iorda</supplied>nis fluvio <lb n="3"/><supplied reason="lost">q</supplied>uem transire n<supplied reason="lost">on</supplied> potuisti <lb n="4"/><supplied reason="lost">r</supplied>equesitus <note>sic</note> qu<supplied reason="lost">a</supplied>r<supplied reason="lost">e t</supplied>ransire non <lb n="5"/><supplied reason="lost">po</supplied>tuisti dixisti quia ibi ign<supplied reason="lost">is</supplied> <lb n="6"/><supplied reason="lost">a</supplied>ra<supplied reason="lost">n</supplied>ea ignefera <note>sic</note> corret <note>sic</note> et ubi<lb break="no" n="7"/>conqua <note>sic</note> semper tib<supplied reason="lost">i</supplied> ignis ar<supplied reason="lost">a</supplied>nea <lb n="8"/><supplied reason="lost">i</supplied>gnefera <note>sic</note> c<supplied reason="lost">or</supplied>rat <note>sic</note> denontio <note>sic</note> tibi <lb n="9"/><supplied reason="lost">pe</supplied>r domino <note>sic</note> meum cave te
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Sogenannte Tabella Traguriensis. Beidseitig mit kursiven Buchstaben beschrieben; links oben und unten je ein kleines Loch zum Durchziehen einer Schnur, wohl um das Bleitäfelchen als Amulett tragen zu können. Vom einstmals noch lesbaren Text ist heute manches verloren, da die Oberfläche stark korrodiert ist. Lesung nach ILJug. Z. 10a (ut....[vel fulg]ore) ist zwischen Z. 10 und 11 mit kleineren Buchstaben eingeschoben und zwischen op/teneres (Z.10/11) und aut (Z. 11) zu lesen. Je ein Kreuzzeichen am Anfang von Z. 1, 3 und 12 sowie am Ende von Z. 15, zwei Kreuzzeichen am Anfang von Z. 2 und drei am Ende von Z. 24. Z. 9: decemilia mit einem überstrichenen M geschrieben. (B): ILCV, CIL III, p. 961 n. 26: kleinere Abweichungen in der Lesung.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

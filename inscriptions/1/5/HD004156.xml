@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD004156</idno>
+                <idno type="TM">212685</idno><idno type="localID">HD004156</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/019858">Lugdunensis</placeName><placeName ref="http://www.trismegistos.org/place/003272">Lugdunum</placeName></origPlace>
+                            <origDate notBefore-custom="0039" notAfter-custom="0040" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">39 AD – 40 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2996944">Lyon</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="1992-05-20" who="Scheithauer">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1980, 0638. 
+                    </bibl>
+                    <bibl>
+                         J. Lesfargues - M. Le Glay, CRAI 1980, 407-410, Nr. 2; fig. 2. - AE. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [C(aius)? Caesar? Augustus? Germanicus? Germanici? Caesaris? f(ilius)? Ti(beri)? Caesaris? Aug(usti)? n(epos)? divi? Augusti? pron(epos)? Divi? Iuli? adn(epos)? co(n)s(ul) II? tribu]nicia [potestate III? imperator pontifex maximus pater patriae] / [- - - Augusta? Iuli?]a / [Drusi] f(ilia) / Ti(berius) Cla[udius] / Dru[si f(ilius) &
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>C</abbr><ex>aius</ex></expan>? Caesar<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Augustus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Germanicus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Germanici<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Caesaris<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>f</abbr><ex>ilius</ex></expan>? <expan><abbr>Ti</abbr><ex>beri</ex></expan>? Caesaris<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>Aug</abbr><ex>usti</ex></expan>? <expan><abbr>n</abbr><ex>epos</ex></expan>? divi<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Augusti<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>pron</abbr><ex>epos</ex></expan>? Divi<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Iuli<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>adn</abbr><ex>epos</ex></expan>? <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> II<certainty locus="name" match="preceding-sibling::text()" cert="low"/> tribu</supplied>nicia <supplied reason="lost">potestate III<certainty locus="name" match="preceding-sibling::text()" cert="low"/> imperator pontifex maximus pater patriae</supplied> <lb n="2"/><supplied reason="lost" cert="low">--- Augusta? Iuli</supplied>a <lb n="3"/><supplied reason="lost">Drusi</supplied> <expan><abbr>f</abbr><ex>ilia</ex></expan> <lb n="4"/><expan><abbr>Ti</abbr><ex>berius</ex></expan> Cla<supplied reason="lost">udius</supplied> <lb n="5"/>Dru[si <expan><abbr>f</abbr><ex>ilius</ex></expan> &amp;
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Y: 39: 1., 40: 2. Aufenthalt Caligulas in Lugdunum. trib.pot. III: 18.3.39 - 17.3.40; cos. II: 1. - 30.1.39; cos. III: 1. - 13.1.40. Person 2: Livia, Iulia Drusilla, Iulia Agrippina, weniger wahrscheinlich: Milonia Caesonia.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

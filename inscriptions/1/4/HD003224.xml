@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD003224</idno>
+                <idno type="TM">222201</idno><idno type="localID">HD003224</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-49</height>
+                                        <width>22</width>
+                                        <depth>10</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.9-1.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 100 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2519697">Castro del Río</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-10-11" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://cil-old.bbaw.de/test06/bilder/datenbank/PH0005351.jpg">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1985, 0561. (B) 
+                    </bibl>
+                    <bibl>
+                         C. Puerta - A.U. Stylow, Gerión 3, 1985, 319-323, Nr. 2; fig. 2. - AE 1985. 
+                    </bibl>
+                    <bibl>
+                         CIL 02, 01580. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 02 (2. Aufl.) 05, 00399; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Te lapis / optestor le/viter super / ossa residas / ne nostro dole/at conditus offi/cio / Graeca ser(va) hic / sita est vale / Iacchus vir et / [- - -] d(e) s(uo) d(at)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Te lapis <lb n="2"/>optestor le<lb break="no" n="3"/>viter super <lb n="4"/>ossa residas <lb n="5"/>ne nostro dole<lb break="no" n="6"/>at conditus offi<lb break="no" n="7"/>cio <lb n="8"/>Graeca <expan><abbr>ser</abbr><ex>va</ex></expan> hic <lb n="9"/>sita est vale <lb n="10"/>Iacchus vir et <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>uo</ex></expan> <expan><abbr>d</abbr><ex>at</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Das E im Wort te (Z. 1) und das S am Ende von Z. 4 sind nur handschriftlich überliefert. Z. 11 (Anfang): noch zwei nicht mehr identifizierbare Buchstabenreste. (B): In AE 1985 nur Z. 1-7 wiedergegeben. In CIL II 1580 Zeilenumbrüche nach Z. 2, 3, 5, 6, 8 und 10 nicht wiedergegeben. CIL II 1580: Z. 9: est / vale; Z. 10: Iaccus vir d. d.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

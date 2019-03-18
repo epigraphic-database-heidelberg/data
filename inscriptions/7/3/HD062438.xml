@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD062438</idno>
+                <idno type="TM">187231</idno><idno type="localID">HD062438</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/015883">Salonae, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0443-11-28" notAfter-custom="0443-11-28" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">28.11.443 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1750">1750</date>
+                        <placeName ref="http://www.geonames.org/3190261">Split</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Splitsko-dalmatinska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-05-16" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 02659. 
+                    </bibl>
+                    <bibl>
+                         ILCV 0245. 
+                    </bibl>
+                    <bibl>
+                         ILCV 2, 0245 add. p. 507. 
+                    </bibl>
+                    <bibl>
+                         E. Marin u. a., Salona 4. Inscriptions de Salone chrétienne, IVe-VIIe siècles (Rome - Split 2010) 475-477, Nr. 208. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Depos(itio) b(onae) m(emoriae) Audenti adul(es)c(entis) / to<g=C>(ati)#to<g>(ati)#TOC fori Dalm(atici) die IIII Kal(endas) Decemb(re)s / qu<i=H>#qu<i>#QUH vix(it) an(nos) XXIII m(enses) IIII d(ies) XXV / Maximo II et Patherio(!) v(iris) c(larissimis) c(onsulibus) / ind(ictione) XII
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Depos</abbr><ex>itio</ex></expan> <expan><abbr>b</abbr><ex>onae</ex></expan> <expan><abbr>m</abbr><ex>emoriae</ex></expan> Audenti adul<expan><ex>es</ex><abbr>c</abbr><ex>entis</ex></expan> <lb n="2"/>to<choice><corr>g</corr><sic>C</sic></choice>(ati)#to<supplied reason="omitted">g</supplied>(ati)#TOC fori <expan><abbr>Dalm</abbr><ex>atici</ex></expan> die IIII <expan><abbr>Kal</abbr><ex>endas</ex></expan> Decemb<expan><ex>re</ex><abbr>s</abbr></expan> <lb n="3"/>qu<choice><corr>i</corr><sic>H</sic></choice>#qu<supplied reason="omitted">i</supplied>#QUH <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XXIII <expan><abbr>m</abbr><ex>enses</ex></expan> IIII <expan><abbr>d</abbr><ex>ies</ex></expan> XXV <lb n="4"/>Maximo II et Patherio <note>sic</note> <expan><abbr>v</abbr><ex>iris</ex></expan> <expan><abbr>c</abbr><ex>larissimis</ex></expan> <expan><abbr>c</abbr><ex>onsulibus</ex></expan> <lb n="5"/><expan><abbr>ind</abbr><ex>ictione</ex></expan> XII
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Nach Marin u. a. vermutlich Vorderseite eines Sarkophagkastens. Z. 1: Kreuzzeichen vor und hinter AVDENTI. Z. 5: Kreuzzeichen am Anfang und Ende der Zeile.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

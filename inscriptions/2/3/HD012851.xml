@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD012851</idno>
+                <idno type="TM">203731</idno><idno type="localID">HD012851</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Mauretania Caesariensis</placeName><placeName>Castellum Thib[---]</placeName></origPlace>
+                            <origDate notBefore-custom="0190" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">190 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2001-11-19" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 207, Nr. 22. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 08702. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(eratori) Caes(ari) M(arco) Aur(elio) Commo/do Antonino Aug(usto) Pio Feli/ci Sarmatico Germani/co maximo Brittanico / ponti[fi]ci max(imo) trib(unicia) po/test(ate) XV imp(eratori) VIII co(n)s(uli) VI / p(atri) p(atriae) indulgentissimo / {princi}principi divi / M(arci) Antonini Pii fil(io) divi / Pii nepoti divi Hadria/ni pronepoti divi Traiani / Parthici abnepoti divi / Nervae adnepoti <p=F?>e[r?]#<p>e[r?]#F?E / [- - - patro?]num splend(idissimarum) colon<i=M?>ar(um)#colon<i>ar(um)#COLONM?AR procu(ratorem) / Aug(usti) coloni domini n(ostri) posuerunt
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> Commo<lb break="no" n="2"/>do Antonino <expan><abbr>Aug</abbr><ex>usto</ex></expan> Pio Feli<lb break="no" n="3"/>ci Sarmatico Germani<lb break="no" n="4"/>co maximo Brittanico <lb n="5"/>ponti<supplied reason="lost">fi</supplied>ci <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> po<lb break="no" n="6"/><expan><abbr>test</abbr><ex>ate</ex></expan> XV <expan><abbr>imp</abbr><ex>eratori</ex></expan> VIII co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> VI <lb n="7"/><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> indulgentissimo <lb n="8"/><surplus>princi</surplus>principi divi <lb n="9"/><expan><abbr>M</abbr><ex>arci</ex></expan> Antonini Pii <expan><abbr>fil</abbr><ex>io</ex></expan> divi <lb n="10"/>Pii nepoti divi Hadria<lb break="no" n="11"/>ni pronepoti divi Traiani <lb n="12"/>Parthici abnepoti divi <lb n="13"/>Nervae adnepoti &lt;p=F<certainty match="preceding-sibling::node()" locus="value"/>&gt;e<supplied reason="lost" cert="low">r</supplied>#<supplied reason="omitted">p</supplied>e<supplied reason="lost" cert="low">r</supplied>#F<certainty match="preceding-sibling::node()" locus="value"/>E <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> patro</supplied>num <expan><abbr>splend</abbr><ex>idissimarum</ex></expan> colon&lt;i=M<certainty match="preceding-sibling::node()" locus="value"/>&gt;<expan><abbr>ar</abbr><ex>um</ex></expan>#colon<supplied reason="omitted">i</supplied><expan><abbr>ar</abbr><ex>um</ex></expan>#COLONM<certainty match="preceding-sibling::node()" locus="value"/>AR <expan><abbr>procu</abbr><ex>ratorem</ex></expan> <lb n="15"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> coloni domini <expan><abbr>n</abbr><ex>ostri</ex></expan> posuerunt
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Datierung: 1.1.-9.12.190 n. Chr.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

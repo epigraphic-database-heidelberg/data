@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Block</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002734</idno>
+                <idno type="TM">197489</idno><idno type="localID">HD002734</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mus. Kherson</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-118</height>
+                                        <width>-50</width>
+                                        <depth>47.9</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.8-5.4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Regnum Bospori</placeName><placeName>Chersonesus Taurica</placeName></origPlace>
+                            <origDate notBefore-custom="0367" notAfter-custom="0375" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">367 AD – 375 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1905">1905</date>
+                        <placeName ref="http://www.geonames.org/">Kherson</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kherson</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ua/">Ukraine</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-08-12" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1984, 0804. (B) 
+                    </bibl>
+                    <bibl>
+                         AE 1908, 0178. (B) 
+                    </bibl>
+                    <bibl>
+                         AE 1907, 0164. (B) 
+                    </bibl>
+                    <bibl>
+                         G. Alföldy, Gnomon 56, 1984, 786, Nr. 3. - AE 1984. 
+                    </bibl>
+                    <bibl>
+                         E.J. Solomonik, Latin Inscriptions of Chersonesus Tauric (Moskva 1983) 28-30, Nr. 3; Foto 3. (B) - AE 1984. 
+                    </bibl>
+                    <bibl>
+                         IOSPE 1 (2. Aufl.) 449; Zeichnung. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Triumphato]rib[u]s f[o]rti[ssi]/[mis ac glorio]sissimis princip[i]/[bus Valentini]ano victorios[is]/[simo d(omino) n(ostro) et Va]lentem(!) fratre[m](!) / [eius d(omino) n(ostro) - - -] maxim(o) et Grati[a]/[no - - - d(omino)] n(ostro) nepoti Valenti[s] / [semper Augustis] Dom(itius) M[o]destus vir / [clarissimus praef]ectus pr(a)etorio / [et - - -] vi[r] clar(i)ssimus co/[mes et magister n]umini magistatique(!) / [eorum devoti - - -]xante disponent[e] / [- - -]m decemprimo / [praeposito - - -]n[- - -]orum S(- - -) T(- - -) V(- - -) bal/[listariorum per - - -]m v(irum) p(erfectissimum) pat(ronum)(?) removi[t] / [et &
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Triumphato</supplied>rib<supplied reason="lost">u</supplied>s f<supplied reason="lost">o</supplied>rti<supplied reason="lost">ssi</supplied><lb break="no" n="2"/><supplied reason="lost">mis ac glorio</supplied>sissimis princip<supplied reason="lost">i</supplied><lb break="no" n="3"/><supplied reason="lost">bus Valentini</supplied>ano victorios<supplied reason="lost">is</supplied><lb break="no" n="4"/><supplied reason="lost">simo <expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> et Va</supplied>lentem <note>sic</note> fratre<supplied reason="lost">m</supplied> <note>sic</note> <lb n="5"/><supplied reason="lost">eius <expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <expan><abbr>maxim</abbr><ex>o</ex></expan> et Grati<supplied reason="lost">a</supplied><lb break="no" n="6"/><supplied reason="lost">no <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>d</abbr><ex>omino</ex></expan></supplied> <expan><abbr>n</abbr><ex>ostro</ex></expan> nepoti Valenti<supplied reason="lost">s</supplied> <lb n="7"/><supplied reason="lost">semper Augustis</supplied> <expan><abbr>Dom</abbr><ex>itius</ex></expan> M<supplied reason="lost">o</supplied>destus vir <lb n="8"/><supplied reason="lost">clarissimus praef</supplied>ectus pr<expan><ex>a</ex><abbr>etorio</abbr></expan> <lb n="9"/><supplied reason="lost">et</supplied><gap reason="lost" extent="unknown" unit="character"/> vi<supplied reason="lost">r</supplied> clar<expan><ex>i</ex><abbr>ssimus</abbr></expan> co<lb break="no" n="10"/><supplied reason="lost">mes et magister n</supplied>umini magistatique <note>sic</note> <lb n="11"/><supplied reason="lost">eorum devoti <gap reason="lost" extent="unknown" unit="character"/></supplied>xante disponent<supplied reason="lost">e</supplied> <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/>m decemprimo <lb n="13"/><supplied reason="lost">praeposito</supplied><gap reason="lost" extent="unknown" unit="character"/>n<gap reason="lost" extent="unknown" unit="character"/>orum <abbr>S</abbr> <abbr>T</abbr> <abbr>V</abbr> bal<lb break="no" n="14"/><supplied reason="lost">listariorum per <gap reason="lost" extent="unknown" unit="character"/></supplied>m <expan><abbr>v</abbr><ex>irum</ex></expan> <expan><abbr>p</abbr><ex>erfectissimum</ex></expan> <expan><abbr>pat</abbr><ex>ronum</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> removi<supplied reason="lost">t</supplied> <lb n="15"/><supplied reason="lost">et</supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Weitgehend völlig neuer Ergänzungsvorschlag Alföldys. Gratianus als nepos (im vulgärlateinischen Sinn) des Valens bezeichnet. (B): IOSPE; Solomonik; AE 1907; AE 1908: Abweichungen in Lesung und Ergänzung.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

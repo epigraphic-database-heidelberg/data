@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD068118</idno>
+                <idno type="TM">483531</idno><idno type="localID">HD068118</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/019858">Lugdunensis</placeName><placeName ref="http://www.trismegistos.org/place/003272">Lugdunum</placeName></origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2996944">Lyon</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-09-25" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2006, 0820. 
+                    </bibl>
+                    <bibl>
+                         F. Bérard, in: I. Champeaux - M. Chassignet (Hrsg.), Aere perennius. Hommage à Hubert Zehnacker (Paris 2006) 24-28; Foto. - AE 2006 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Diis(!) Manibus // et qu[ieti ae]tern(ae) / Facun[dinia?]e Ger/manae quae vixit / annis XVIII mensib(us) / II diebus XVI cuius / anima et species / simul et aetas dul/cius melle fuit / memoriam quam solam defunctae / praestar(e) potui titu/lum litteris honoravi / coniugi karissimae / C(aius) Secundin(ius) Hylas et / sibi viv(u)s f(ecit) et sub a(scia) ded(icavit)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Diis <note>sic</note> Manibus </ab></div><div n="2" type="textpart"><ab><lb n="1"/> et qu<supplied reason="lost">ieti ae</supplied><expan><abbr>tern</abbr><ex>ae</ex></expan> <lb n="2"/>Facun<supplied reason="lost" cert="low">dinia</supplied>e Ger<lb break="no" n="3"/>manae quae vixit <lb n="4"/>annis XVIII <expan><abbr>mensib</abbr><ex>us</ex></expan> <lb n="5"/>II diebus XVI cuius <lb n="6"/>anima et species <lb n="7"/>simul et aetas dul<lb break="no" n="8"/>cius melle fuit <lb n="9"/>memoriam quam solam defunctae <lb n="10"/><expan><abbr>praestar</abbr><ex>e</ex></expan> potui titu<lb break="no" n="11"/>lum litteris honoravi <lb n="12"/>coniugi karissimae <lb n="13"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Secundin</abbr><ex>ius</ex></expan> Hylas et <lb n="14"/>sibi viv<expan><ex>u</ex><abbr>s</abbr></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> et sub <expan><abbr>a</abbr><ex>scia</ex></expan> <expan><abbr>ded</abbr><ex>icavit</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD007699</idno>
+                <idno type="TM">250856</idno><idno type="localID">HD007699</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>108</height>
+                                        <width>70</width>
+                                        <depth>73</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033152">Latium et Campania (Regio I)</placeName><placeName ref="http://www.trismegistos.org/place/032456">Fabrateria Vetus</placeName></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Ceccano</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Lazio</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-10-11" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1979, 0141. 
+                    </bibl>
+                    <bibl>
+                         F. Barbieri, in: MGR 6 (Roma 1978) 471-473, Nr. 4; fig. 7. - AE 1979. 
+                    </bibl>
+                    <bibl>
+                         N.G. Brancato, Il "caso Ceccano" (Roma 1994) 53-58, Nr. 4; fig. 4. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                C(aio) Mollio C(ai) f(ilio) Trom(entina) Secundino / IIvir(o) m(unicipi) F(abrateriae) v(eteris) curat(ori) pec(uniae) leg(endae) et ann(onae) / sodal(es) Herculei pat(rono) dign(issimo) ob me/rita aere coll(ato) merenti posue/runt ob cuius dedicationem / singil(latim) n(ummos) divisit et donavit his / HS XX m(ilia) n(ummum) ut ex usuris eorum diae(!) / VI Non(as) Mai(as) col(legio) s(upra) s(cripto) sport(ulae) dividant(ur)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Mollio <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Trom</abbr><ex>entina</ex></expan> Secundino <lb n="2"/><expan><abbr>IIvir</abbr><ex>o</ex></expan> <expan><abbr>m</abbr><ex>unicipi</ex></expan> <expan><abbr>F</abbr><ex>abrateriae</ex></expan> <expan><abbr>v</abbr><ex>eteris</ex></expan> <expan><abbr>curat</abbr><ex>ori</ex></expan> <expan><abbr>pec</abbr><ex>uniae</ex></expan> <expan><abbr>leg</abbr><ex>endae</ex></expan> et <expan><abbr>n<am>n</am></abbr><ex>onae</ex></expan> <lb n="3"/><expan><abbr>sodal</abbr><ex>es</ex></expan> Herculei <expan><abbr>pat</abbr><ex>rono</ex></expan> <expan><abbr>dign</abbr><ex>issimo</ex></expan> ob me<lb break="no" n="4"/>rita aere <expan><abbr>coll</abbr><ex>ato</ex></expan> merenti posue<lb break="no" n="5"/>runt ob cuius dedicationem <lb n="6"/><expan><abbr>singil</abbr><ex>latim</ex></expan> <expan><abbr>n</abbr><ex>ummos</ex></expan> divisit et donavit his <lb n="7"/>HS XX <expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>n</abbr><ex>ummum</ex></expan> ut ex usuris eorum diae <note>sic</note> <lb n="8"/>VI <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Mai</abbr><ex>as</ex></expan> <expan><abbr>col</abbr><ex>legio</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>cripto</ex></expan> <expan><abbr>sport</abbr><ex>ulae</ex></expan> <expan><abbr>dividant</abbr><ex>ur</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD024115</idno>
+                <idno type="TM">194437</idno><idno type="localID">HD024115</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Szentendre, Ferenczy Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>81</height>
+                                        <width>45.5</width>
+                                        <depth>33</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/88">geritzt / Graffito</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.2-2.1</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName>Ulcisia Castra</placeName></origPlace>
+                            <origDate notBefore-custom="0297" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">297 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3044681">Szentendre</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Pest megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-04-19" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/5969">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1926, 0072. (B) 
+                    </bibl>
+                    <bibl>
+                         G. von Finály, AA 1925, 288-289; Abb. 1. (B) - AE 1926. 
+                    </bibl>
+                    <bibl>
+                         RIU 0876; Abb. 876 (Foto u. Zeichnung). 
+                    </bibl>
+                    <bibl>
+                         P. Kovács, Die antiken Quellen zu Pannonien in der Spätantike. Teil I: 284-337 n. Chr. (Wien 2014) 115; Abb. 10. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                I(nvicto) O(ptimo) M(aximo) / Patrio // Iunoni Reg(inae) // pro salute sua / suorumq(ue) omnium / Aur(elius) Marcellus qu/od miles vota/vit vet(eranus) solvit / IImmpp(eratoribus) / dd(ominis) nn(ostris) Maximiano / Aug(usto) V et Maximia/no nob(ilissimo) Caes(are) II co(n)s(ulibus) // v(otum) l(ibens) s(olvit)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>nvicto</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>Patrio </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Iunoni <expan><abbr>Reg</abbr><ex>inae</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> pro salute sua <lb n="2"/><expan><abbr>suorumq</abbr><ex>ue</ex></expan> omnium <lb n="3"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Marcellus qu<lb break="no" n="4"/>od miles vota<lb break="no" n="5"/>vit <expan><abbr>vet</abbr><ex>eranus</ex></expan> solvit <lb n="6"/><expan><abbr>IImmpp</abbr><ex>eratoribus</ex></expan> <lb n="7"/><expan><abbr>d<am>d</am></abbr><ex>ominis</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostris</ex></expan> Maximiano <lb n="8"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> V et Maximia<lb break="no" n="9"/>no <expan><abbr>nob</abbr><ex>ilissimo</ex></expan> <expan><abbr>Caes</abbr><ex>are</ex></expan> II co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 1-3 befinden sich auf der corona (davon Z. 3 auf dem Profil), Z. 13 auf der crepido. Die rechte obere Ecke des Altars mit dem vollständigen Text der Zeilen 1-4 war früher noch vorhanden. (B): Finály, AE 1926: Z. 1: I(nvicto) M(ithrae) oder I(ovi) [O(ptimo)] M(aximo); Z. 7/8: vo/vit. Am linken Rand der Corona ein eingeritzter Palmzweig.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

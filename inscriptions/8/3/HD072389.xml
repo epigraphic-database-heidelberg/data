@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD072389</idno>
+                <idno type="TM">407126</idno><idno type="localID">HD072389</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Privatbesitz</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>8.2</height>
+                                        <width>6.1</width>
+                                        <depth>0.1</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">0.3-0.4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum</placeName></origPlace>
+                            <origDate notBefore-custom="0150" notAfter-custom="0151" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">150 AD – 151 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg / Petronell-Carnuntum</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Niederösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-11-10" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2009, 1070. (B) 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) T 40. 
+                    </bibl>
+                    <bibl>
+                         F. Beutler, Chiron 39, 2009, 11-17; Fotos. - AE 2009. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(erator) Caes(ar) divi Ha]driani f(ilius) divi Traia/[ni Parthici n(epos) di]vi Nervae pronep(os) / [T(itus) Aelius Hadrianu]s Antoninus Aug(ustus) Pi/[us pont(ifex) max(imus) tr(ibunicia) pot(estate)] XIV imp(erator) II co(n)s(ul) IV p(ater) p(atriae) / [iis qui militaver]unt in classe prae/[toria Ravennate] quae est sub Tattio / [Maximo sex et] viginti stipendi(i)s / [emeritis dimis]sis honesta mis/[sione quorum n]omina subscri<p=C>(ta)#subscri<p>(ta)#SUBSCRIC / [sunt ipsis libe]ris posterisque / [eorum civitatem Rom]anam dedit / [et conubium cum uxo]ribus quas / [tunc habuissent cum est] / civitas [iis data & // - - - - - -] / [n]omin[a subscript(a) sunt] / ipsis liberis [posterisque eor(um) civ(itatem) Rom(anam)] / ded(it) et con(ubium) cum ux(oribus) [quas tunc habuis(sent) cum] / est civ(itas) i(i)s dat(a) aut si [qui(s) cael(ibes) ess(ent) cum i(i)s] / quas post(ea) duxis(sent) dum[taxat sin]/guli singulas
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi Ha</supplied>driani <expan><abbr>f</abbr><ex>ilius</ex></expan> divi Traia<lb break="no" n="2"/><supplied reason="lost">ni Parthici <expan><abbr>n</abbr><ex>epos</ex></expan> di</supplied>vi Nervae <expan><abbr>pronep</abbr><ex>os</ex></expan> <lb n="3"/><supplied reason="lost"><expan><abbr>T</abbr><ex>itus</ex></expan> Aelius Hadrianu</supplied>s Antoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Pi<lb break="no" n="4"/><supplied reason="lost">us <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan></supplied> XIV <expan><abbr>imp</abbr><ex>erator</ex></expan> II co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IV <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/><supplied reason="lost">iis qui militaver</supplied>unt in classe prae<lb break="no" n="6"/><supplied reason="lost">toria Ravennate</supplied> quae est sub Tattio <lb n="7"/><supplied reason="lost">Maximo sex et</supplied> viginti stipendi<expan><ex>i</ex><abbr>s</abbr></expan> <lb n="8"/><supplied reason="lost">emeritis dimis</supplied>sis honesta mis<lb break="no" n="9"/><supplied reason="lost">sione quorum n</supplied>omina subscri<choice><corr>p</corr><sic>C</sic></choice>(ta)#subscri<supplied reason="omitted">p</supplied>(ta)#SUBSCRIC <lb n="10"/><supplied reason="lost">sunt ipsis libe</supplied>ris posterisque <lb n="11"/><supplied reason="lost">eorum civitatem Rom</supplied>anam dedit <lb n="12"/><supplied reason="lost">et conubium cum uxo</supplied>ribus quas <lb n="13"/><supplied reason="lost">tunc habuissent cum est</supplied> <lb n="14"/>civitas [iis data &amp; </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><supplied reason="lost">n</supplied>omin<supplied reason="lost">a <expan><abbr>subscript</abbr><ex>a</ex></expan> sunt</supplied> <lb n="2"/>ipsis liberis <supplied reason="lost">posterisque <expan><abbr>eor</abbr><ex>um</ex></expan> <expan><abbr>civ</abbr><ex>itatem</ex></expan> <expan><abbr>Rom</abbr><ex>anam</ex></expan></supplied> <lb n="3"/><expan><abbr>ded</abbr><ex>it</ex></expan> et <expan><abbr>con</abbr><ex>ubium</ex></expan> cum <expan><abbr>ux</abbr><ex>oribus</ex></expan> <supplied reason="lost">quas tunc <expan><abbr>habuis</abbr><ex>sent</ex></expan> cum</supplied> <lb n="4"/>est <expan><abbr>civ</abbr><ex>itas</ex></expan> i<expan><ex>i</ex><abbr>s</abbr></expan> <expan><abbr>dat</abbr><ex>a</ex></expan> aut si <supplied reason="lost"><expan><abbr>qui</abbr><ex>s</ex></expan> <expan><abbr>cael</abbr><ex>ibes</ex></expan> <expan><abbr>ess</abbr><ex>ent</ex></expan> cum <expan><abbr>i</abbr><ex>i</ex>s</expan></supplied> <lb n="5"/>quas <expan><abbr>post</abbr><ex>ea</ex></expan> <expan><abbr>duxis</abbr><ex>sent</ex></expan> dum<supplied reason="lost">taxat sin</supplied><lb break="no" n="6"/>guli singulas
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Fragment der tab. I. Buchstabenhöhe: 0,3 cm außen, 0,4 cm innen (B): AE 2009: Zeilenfall nicht angegeben; Leseabweichungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

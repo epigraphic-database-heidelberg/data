@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD037568</idno>
+                <idno type="TM">195055</idno><idno type="localID">HD037568</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Szekszárd, Balogh Ádám Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>60</height>
+                                        <width>183</width>
+                                        <depth>16</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3054853">Bölcske</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Tolna megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-10-24" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/822">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        RIU 1018; Abb. 1018 (Foto u. Zeichnung). 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 03319. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 10299. (B) 
+                    </bibl>
+                    <bibl>
+                         A.S. Burger, Die Skulpturen des Stadtgebietes von Sopianae und des Gebietes zwischen der Drau und der Limesstrecke Lussonium - Altinum, CSIR Ungarn 7 (Budapest 1991) 60, Nr. 95; Taf. 50, 1. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) // L(ucius) Sep(timius) Tatulo vet(eranus) ex optione coh(ortis) / I T(h)racu(m) Germ(anicae) et Aurel(ia) / Verina coniux L(ucius) Aurel(ius) qui / et Sep(timius) Constans filius mil(es) / coh(ortis) s(upra) s(criptae) Aur(elius) qui et Septi(mius) / Constantinus fil(ius) mil(es) leg(ionis) I ad(iutricis) / Aur(elius) qui et Sep(timius) Victorinus f(i)l(ius) Aur(elius) qui / et Sep(timius) Verin[us f(i)l(ius)] Aur(eli-) q(u-) et S(eptimi-) (A)emil(i-) f(i)l(i-) Mereccusae // mater(!) vix(it) an(nos) LXX vivi s(ibi) fec(erunt)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Sep</abbr><ex>timius</ex></expan> Tatulo <expan><abbr>vet</abbr><ex>eranus</ex></expan> ex optione <expan><abbr>coh</abbr><ex>ortis</ex></expan> <lb n="2"/>I T<expan><ex>h</ex><abbr>racu</abbr><ex>m</ex></expan> <expan><abbr>Germ</abbr><ex>anicae</ex></expan> et <expan><abbr>Aurel</abbr><ex>ia</ex></expan> <lb n="3"/>Verina coniux <expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Aurel</abbr><ex>ius</ex></expan> qui <lb n="4"/>et <expan><abbr>Sep</abbr><ex>timius</ex></expan> Constans filius <expan><abbr>mil</abbr><ex>es</ex></expan> <lb n="5"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptae</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> qui et <expan><abbr>Septi</abbr><ex>mius</ex></expan> <lb n="6"/>Constantinus <expan><abbr>fil</abbr><ex>ius</ex></expan> <expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>ad</abbr><ex>iutricis</ex></expan> <lb n="7"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> qui et <expan><abbr>Sep</abbr><ex>timius</ex></expan> Victorinus f<expan><ex>i</ex><abbr>l</abbr><ex>ius</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> qui <lb n="8"/>et <expan><abbr>Sep</abbr><ex>timius</ex></expan> Verin<supplied reason="lost">us <expan><abbr>f</abbr><ex>i</ex><abbr>l</abbr><ex>ius</ex></expan></supplied> <expan><abbr>Aur</abbr><ex>eli-</ex></expan> <expan><abbr>q</abbr><ex>u-</ex></expan> et <expan><abbr>S</abbr><ex>eptimi-</ex></expan> <expan><ex>A</ex><abbr>emil</abbr><ex>i</ex></expan>-) f<expan><ex>i</ex><abbr>l</abbr><ex>i</ex></expan>-) Mereccusae </ab></div><div n="3" type="textpart"><ab><lb n="1"/> mater <note>sic</note> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> LXX vivi <expan><abbr>s</abbr><ex>ibi</ex></expan> <expan><abbr>fec</abbr><ex>erunt</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Front eines Sarkophagkastens; zu beiden Seiten des Inschriftfeldes je ein Eros mit Fackel; Reste roter Bemalung in den Buchstaben; Z. 1 und 10 befinden sich oberhalb bzw. unterhalb des Inschriftfeldes. (B): CIL III 3319. 10299: Abweichungen in der Lesung.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

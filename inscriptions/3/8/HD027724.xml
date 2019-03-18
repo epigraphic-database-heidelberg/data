@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD027724</idno>
+                <idno type="TM">214871</idno><idno type="localID">HD027724</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Graz, Landesmus. Joanneum, Lapidarium Schloß Eggenberg</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>131.5</height>
+                                        <width>73.5</width>
+                                        <depth>55.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution">eingemeiÃ&#x9f;elt (mit Farbresten)</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">8-5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003230">Noricum</placeName><placeName ref="http://www.trismegistos.org/place/028344">Flavia Solva</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 170 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2762109">Wagna</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Steiermark</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-03-13" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/6107">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1921, 0061. (B) 
+                    </bibl>
+                    <bibl>
+                         W. Schmid, JŒAI (Beibl.) 19/20, 1919, 144-145; Abb. 63. (B) - AE 1921. 
+                    </bibl>
+                    <bibl>
+                         ILLPRON 1449. 
+                    </bibl>
+                    <bibl>
+                         E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 197-199, Nr. 148; Foto. 
+                    </bibl>
+                    <bibl>
+                         E. Hudeczek, Die Römersteinsammlung des Landesmuseums Joanneum (Graz 2004) 101, Nr. 77; Fotos. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Genio / Attiorum / Marciani et / Vitelliani / Marcellus / libertus // Genio / [A]ttiorum / [M]arciani e[t] / Vitellia[ni] / Marcell[us] / libertus
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Genio <lb n="2"/>Attiorum <lb n="3"/>Marciani et <lb n="4"/>Vitelliani <lb n="5"/>Marcellus <lb n="6"/>libertus </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Genio <lb n="2"/><supplied reason="lost">A</supplied>ttiorum <lb n="3"/><supplied reason="lost">M</supplied>arciani e<supplied reason="lost">t</supplied> <lb n="4"/>Vitellia<supplied reason="lost">ni</supplied> <lb n="5"/>Marcell<supplied reason="lost">us</supplied> <lb n="6"/>libertus
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die beiden gleichlautenden Inschriften verteilen sich auf die Vorder- und Rückseite des Mittelteils. Reste von roter Farbe in den Buchstaben. (B): Schmid; AE 1921: Z. 3/4; Marciani / et / Vitelliani.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

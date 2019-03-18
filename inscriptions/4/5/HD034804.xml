@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD034804</idno>
+                <idno type="TM">183376</idno><idno type="localID">HD034804</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Split, Arh. Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width>-78</width>
+                                        <depth>15</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">1.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/015883">Salonae</placeName></origPlace>
+                            <origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 400 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1884">1884</date>
+                        <placeName ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Splitsko-dalmatinska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-11-09" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        ILJug 2420. 
+                    </bibl>
+                    <bibl>
+                         R. Egger, Der altchristliche Friedhof Manastirine nach dem Materiale Fr. 
+                    </bibl>
+                    <bibl>
+                         Bulić', Forschungen in Salona 2 (Wien 1926) 88, Nr. 142. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 09632. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 09632 add. p. 2326. 
+                    </bibl>
+                    <bibl>
+                         E. Marin u. a., Salona 4. Inscriptions de Salone chrétienne, IVe-VIIe siècles (Rome - Split 2010) 991-995, Nr. 618; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Heu q]uamquam las[si cunctamur] / sca[lpere versus] / utpote qui [maesto funere con]/[ficimur] idcircoque [omni luctus renovatur in] / ictu / audemus tamen haec [edere cum] / gemitu / ex iu[- - -] / [- - - - - -] / [- - - g]e[n]itam / [huic placidam requiem tri]buat deus omni/[pote]ns rex / [insontique animae s]it bene post obitum / [multa tulit nimis adversi]s incommoda rebus / [infelix misero e]st fine perempta quoq(ue) / [quadraginta a]nnos postquam trans/[egit in aevo] / [fu]nesto gravis heu triste puerperio / nequivit miserum partu depromere fetu(m) / hausta qui nondum luce peremptus abiit / adque ita tum geminas g[e]mino cum corpore / praeceps / letum ferali [transtu]lit hora an[imas] / at nos maerentes coniux natique / generque / carmen cum lacrim[is] hoc tib[i condidimus]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Heu q</supplied>uamquam las<supplied reason="lost">si cunctamur</supplied> <lb n="2"/>sca<supplied reason="lost">lpere versus</supplied> <lb n="3"/>utpote qui <supplied reason="lost">maesto funere con</supplied><lb break="no" n="4"/><supplied reason="lost">ficimur</supplied> idcircoque <supplied reason="lost">omni luctus renovatur in</supplied> <lb n="5"/>ictu <lb n="6"/>audemus tamen haec <supplied reason="lost">edere cum</supplied> <lb n="7"/>gemitu <lb n="8"/>ex iu<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">g</supplied>e<supplied reason="lost">n</supplied>itam <lb n="10"/><supplied reason="lost">huic placidam requiem tri</supplied>buat deus omni<lb break="no" n="11"/><supplied reason="lost">pote</supplied>ns rex <lb n="12"/><supplied reason="lost">insontique animae s</supplied>it bene post obitum <lb n="13"/><supplied reason="lost">multa tulit nimis adversi</supplied>s incommoda rebus <lb n="14"/><supplied reason="lost">infelix misero e</supplied>st fine perempta <expan><abbr>quoq</abbr><ex>ue</ex></expan> <lb n="15"/><supplied reason="lost">quadraginta a</supplied>nnos postquam trans<lb break="no" n="16"/><supplied reason="lost">egit in aevo</supplied> <lb n="17"/><supplied reason="lost">fu</supplied>nesto gravis heu triste puerperio <lb n="18"/>nequivit miserum partu depromere <expan><abbr>fetu</abbr><ex>m</ex></expan> <lb n="19"/>hausta qui nondum luce peremptus abiit <lb n="20"/>adque ita tum geminas g<supplied reason="lost">e</supplied>mino cum corpore <lb n="21"/>praeceps <lb n="22"/>letum ferali <supplied reason="lost">transtu</supplied>lit hora an<supplied reason="lost">imas</supplied> <lb n="23"/>at nos maerentes coniux natique <lb n="24"/>generque <lb n="25"/>carmen cum lacrim<supplied reason="lost">is</supplied> hoc tib<supplied reason="lost">i condidimus</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Sieben teilweise aneinander passende Fragmente eines Sarkophagkastens erhalten. Einzelabmessungen der Fragmente: a: (10) x (12.5) x 13, b: (13.5) x (23) x 13, c: (8.5) x (26) x 13.5, d: (18.5) x (42.5), e: (11.5) x (44) x 14, f: (9.5) x (35.5) x 15, g: (8) x (39.5) x 14. Textwiedergabe nach Egger. Marin u. a. mit geringfügigen Leseabweichungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

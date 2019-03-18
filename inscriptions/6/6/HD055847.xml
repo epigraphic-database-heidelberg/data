@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD055847</idno>
+                <idno type="TM">184895</idno><idno type="localID">HD055847</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName>Domavium</placeName></origPlace>
+                            <origDate notBefore-custom="0274" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">274 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1891">1891</date>
+                        <placeName ref="http://www.geonames.org/3211629">Srebrenica</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Republika Srpska</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ba/">Bosnien und Herzegowina</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-04-08" who="gräf">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1893, 0131. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 12736. 
+                    </bibl>
+                    <bibl>
+                         W. Radimský, WMBH 1, 1893, 245; Fig. 52 (Zeichnung). - AE 1893. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [[[Imp(eratore) Caes(are) L(ucio)] D[o]m[iti]o [Au]re[li]ano [A]u[g(usto)]]] / II et Capitolino co(n)s(ulibus) / Aur(elius) Verecundus v(ir) e(gregius) pro(curator) / argentariarum balneum / vetustate conlapsum / ad pristinam faciem re/formare curavit
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>Caes</abbr><ex>are</ex></expan> <expan><abbr>L</abbr><ex>ucio</ex></expan></supplied> D<supplied reason="lost">o</supplied>m<supplied reason="lost">iti</supplied>o <supplied reason="lost">Au</supplied>re<supplied reason="lost">li</supplied>ano <supplied reason="lost">A</supplied>u[<expan><abbr>g</abbr><ex>usto</ex></expan></del>] <lb n="2"/>II et Capitolino co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="3"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Verecundus <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>e</abbr><ex>gregius</ex></expan> <expan><abbr>pro</abbr><ex>curator</ex></expan> <lb n="4"/>argentariarum balneum <lb n="5"/>vetustate conlapsum <lb n="6"/>ad pristinam faciem re<lb break="no" n="7"/>formare curavit
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Buchstabe A mit spitz nach unten zeigender Querhaste. (B): AE 1893: Z. 1: Buchstabenreste nicht wiedergegeben.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

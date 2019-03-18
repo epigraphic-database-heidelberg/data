@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD015970</idno>
+                <idno type="TM">167321</idno><idno type="localID">HD015970</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Ambleside, Armitt Museum and Library</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/52">Schiefer</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>150</height>
+                                        <width>74</width>
+                                        <depth>4.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/015532">Galava</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1962">1962</date>
+                        <placeName ref="http://www.geonames.org/2657360">Ambleside</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Cumbria</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-09-12" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1964, 0169. 
+                    </bibl>
+                    <bibl>
+                         R.P. Wright, JRS 53, 1963, 160, Nr. 4. - AE 1964. 
+                    </bibl>
+                    <bibl>
+                         RIB 3218; Foto u. Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) b(onis?) M(anibus) / Fla(vius) Fuscinus eme(ritus) / ex ordi(nato) vi<x=S>i(t)#vi<x>i(t)#VISI an(n)is LV // D(is) b(onis?) M(anibus) / Fla(vius) Romanus act(arius) / vixit anni(s) XXXV / in cas(tris) inter(fectus) ab hosti(bus)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>b</abbr><ex cert="low">onis</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Fla</abbr><ex>vius</ex></expan> Fuscinus <expan><abbr>eme</abbr><ex>ritus</ex></expan> <lb n="3"/>ex <expan><abbr>ordi</abbr><ex>nato</ex></expan> vi<choice><corr>x</corr><sic>S</sic></choice><expan><abbr>i</abbr><ex>t</ex></expan>#vi<supplied reason="omitted">x</supplied><expan><abbr>i</abbr><ex>t</ex></expan>#VISI an<expan><ex>n</ex><abbr>is</abbr></expan> LV </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>b</abbr><ex cert="low">onis</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Fla</abbr><ex>vius</ex></expan> Romanus <expan><abbr>act</abbr><ex>arius</ex></expan> <lb n="3"/>vixit <expan><abbr>n<am>n</am></abbr><ex>s</ex></expan> XXXV <lb n="4"/>in <expan><abbr>cas</abbr><ex>tris</ex></expan> <expan><abbr>inter</abbr><ex>fectus</ex></expan> ab <expan><abbr>hosti</abbr><ex>bus</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> In Z. 1 u. 4 D B M ist vielleicht eher als D(is Manibus) b(onae) m(emoriae) zu deuten als D(is) b(onis) (Manibus).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

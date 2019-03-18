@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Basis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD018200</idno>
+                <idno type="TM">199558</idno><idno type="localID">HD018200</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/53">Basis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>145</height>
+                                        <width>69</width>
+                                        <depth>69</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/015771">Africa Proconsularis</placeName><placeName>Lepcis Magna</placeName></origPlace>
+                            <origDate notBefore-custom="0378" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">378 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2219905">Al Khums</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/ly/">Libyen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-05-21" who="Bigi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1954, 0201f. (B) 
+                    </bibl>
+                    <bibl>
+                         IRT 526. 
+                    </bibl>
+                    <bibl>
+                         I. Tantillo - F. Bigi (Hrsg.), Leptis Magna. Una città e le sue iscrizioni in epoca tardoromana (Cassino 2010) 350-353, Nr. 23; fig. 10.27. 
+                    </bibl>
+                    <bibl>
+                         PLRE 1 Hesperius 2. 
+                    </bibl>
+                    <bibl>
+                         J. Guey, REA 55, 1953, 345. - AE 1954. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                (H)esperii v(iri) c(larissimi) // Decimio (H)esperio v(iro) c(larissimo) ex procon/sule provin(ciae) Africae iudici / sacrarum cognitionum / prosapiae dignitat<e=V>m#dignitat<e>m#DIGNITATVM <ac=ET>crescenti#<ac>crescenti#ETCRESCENTI / per gradus et merita gloriar(um) / ob honor<e=I>m#honor<e>m#HONORIM iustitiae quam / causae Tripolitanorum / deligatae(!) sacro iudici(o) / exhibuit praestanti / patro(no) Lepcimagnen/sis cliens semper ordo / cum populo conlocavit
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><ex>H</ex><abbr>esperii</abbr></expan> <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Decimio <expan><ex>H</ex><abbr>esperio</abbr></expan> <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> ex procon<lb break="no" n="2"/>sule <expan><abbr>provin</abbr><ex>ciae</ex></expan> Africae iudici <lb n="3"/>sacrarum cognitionum <lb n="4"/>prosapiae dignitat<choice><corr>e</corr><sic>V</sic></choice>m#dignitat<supplied reason="omitted">e</supplied>m#DIGNITATVM <supplied reason="omitted">ac=ET</supplied>crescenti#<supplied reason="omitted">ac</supplied>crescenti#ETCRESCENTI <lb n="5"/>per gradus et merita <expan><abbr>gloriar</abbr><ex>um</ex></expan> <lb n="6"/>ob honor<choice><corr>e</corr><sic>I</sic></choice>m#honor<supplied reason="omitted">e</supplied>m#HONORIM iustitiae quam <lb n="7"/>causae Tripolitanorum <lb n="8"/>deligatae <note>sic</note> sacro <expan><abbr>iudici</abbr><ex>o</ex></expan> <lb n="9"/>exhibuit praestanti <lb n="10"/><expan><abbr>patro</abbr><ex>no</ex></expan> Lepcimagnen<lb break="no" n="11"/>sis cliens semper ordo <lb n="12"/>cum populo conlocavit
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): AE 1954: Z. 5: et crescenti.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

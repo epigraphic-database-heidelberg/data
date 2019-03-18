@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD074383</idno>
+                <idno type="TM"/><idno type="localID">HD074383</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/029115">Siscia, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 150 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3194212">Sisak</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Sisačko-moslavačka županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-01-19" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 03978. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Q(uintus) Idimiu[s - - -] / LIFEG VL IAR[- - -] / AVO[-] an(norum) X(?)XIII F[- - -] / IPLM SYR[-]A[-]NIT[- - -] / Q(uinto?) Idimi[o? - - -] Q[- - -]I[-]II[- - -] / PATERO[- -] an[- - -]T[- - -] / Q(uinto?) Idim[i- - -] fil[- -] [- - -] / viator [v]ale(?) / liber(tis) liber<t=F>ab(us)q(ue)#liber<t>ab(us)q(ue)#LIBERFABQ / posterisq(ue) suis / h(oc) m(onumentum) <h=L>(eredem)(?)#<h>(eredem)(?)#L n(on) s(equetur)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uintus</ex></expan> Idimiu<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>LIFEG VL IAR<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>AVO<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <expan><abbr>an</abbr><ex>norum</ex></expan> <expan><abbr>X</abbr><ex cert="low"/>XIII</expan> F<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>IPLM SYR<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>A<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>NIT<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><expan><abbr>Q</abbr><ex cert="low">uinto</ex></expan> Idimi<supplied reason="lost">o<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> Q<gap reason="lost" extent="unknown" unit="character"/>I<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>II<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>PATERO<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> an<gap reason="lost" extent="unknown" unit="character"/>T<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><expan><abbr>Q</abbr><ex cert="low">uinto</ex></expan> Idim<supplied reason="lost">i</supplied><gap reason="lost" extent="unknown" unit="character"/> fil<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> <gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/>viator <supplied reason="lost">v</supplied><expan><abbr>ale</abbr><ex cert="low"/></expan> <lb n="9"/><expan><abbr>liber</abbr><ex>tis</ex></expan> liber<choice><corr>t</corr><sic>F</sic></choice>ab<expan><ex>us</ex><abbr>q</abbr><ex>ue</ex></expan>#liber<supplied reason="omitted">t</supplied>ab<expan><ex>us</ex><abbr>q</abbr><ex>ue</ex></expan>#LIBERFABQ <lb n="10"/><expan><abbr>posterisq</abbr><ex>ue</ex></expan> suis <lb n="11"/><expan><abbr>h</abbr><ex>oc</ex></expan> <expan><abbr>m</abbr><ex>onumentum</ex></expan> <choice><corr>h</corr><sic>L</sic></choice>(eredem)<certainty match="preceding-sibling::node()" locus="value"/>#<supplied reason="omitted">h</supplied>(eredem)<certainty match="preceding-sibling::node()" locus="value"/>#L <expan><abbr>n</abbr><ex>on</ex></expan> <expan><abbr>s</abbr><ex>equetur</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 8: überliefert ist [-]A[-]III.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

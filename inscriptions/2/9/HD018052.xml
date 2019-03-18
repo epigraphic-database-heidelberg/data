@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD018052</idno>
+                <idno type="TM">249642</idno><idno type="localID">HD018052</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>170</height>
+                                        <width>88</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">7</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033152">Latium et Campania (Regio I)</placeName><placeName ref="http://www.trismegistos.org/place/014431">Anagnia</placeName></origPlace>
+                            <origDate notBefore-custom="0207" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">207 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Anagni</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2005-03-22" who="Feraudi">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        M. Horster, Bauinschriften römischer Kaiser (Stuttgart 2001) 253, Nr. Ia 1. 
+                    </bibl>
+                    <bibl>
+                         CIL 10, 05909. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) Caesar divi Marci / Antonini Pii German(ici) Sarmatici / filius divi Commodi frater divi / Antonini Pii nepos divi Hadriani / pronepos divi Traiani Parthici / abn(epos) divi Nervae adnep(os) / L(ucius) Septimius Severus Pius Perti/nax Aug(ustus) Arab(icus) Adiab(enicus) Parth(icus) max(imus) / pontif(ex) max(imus) trib(unicia) pot(estate) XV imp(erator) XII co(n)s(ul) III p(ater) p(atriae) et / Imp(erator) Caesar Imp(eratoris) Caesaris L(uci) Septimi / Severi Pii Pertinacis Aug(usti) Arabici / Adiab(enici) Part(hici) max(imi) fil(ius) divi Marci Anto/nini Pii pronepos divi Hadriani / abnepos divi Traiani Parth(ici) adnep(os) / M(arcus) Aurelius Antoninus Aug(ustus) / Pius Felix pontif(ex) trib(unicia) pot(estate) X imp(erator) II co(n)s(ul) III des(ignatus) / fortissimus ac super / omnes felicissimus / princeps / viam quae ducit in Villam Magnam / silice sua pecunia straverunt
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Marci <lb n="2"/>Antonini Pii <expan><abbr>German</abbr><ex>ici</ex></expan> Sarmatici <lb n="3"/>filius divi Commodi frater divi <lb n="4"/>Antonini Pii nepos divi Hadriani <lb n="5"/>pronepos divi Traiani Parthici <lb n="6"/><expan><abbr>abn</abbr><ex>epos</ex></expan> divi Nervae <expan><abbr>adnep</abbr><ex>os</ex></expan> <lb n="7"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Septimius Severus Pius Perti<lb break="no" n="8"/>nax <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>Arab</abbr><ex>icus</ex></expan> <expan><abbr>Adiab</abbr><ex>enicus</ex></expan> <expan><abbr>Parth</abbr><ex>icus</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <lb n="9"/><expan><abbr>pontif</abbr><ex>ex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XV <expan><abbr>imp</abbr><ex>erator</ex></expan> XII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> et <lb n="10"/><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Caesaris <expan><abbr>L</abbr><ex>uci</ex></expan> Septimi <lb n="11"/>Severi Pii Pertinacis <expan><abbr>Aug</abbr><ex>usti</ex></expan> Arabici <lb n="12"/><expan><abbr>Adiab</abbr><ex>enici</ex></expan> <expan><abbr>Part</abbr><ex>hici</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>fil</abbr><ex>ius</ex></expan> divi Marci Anto<lb break="no" n="13"/>nini Pii pronepos divi Hadriani <lb n="14"/>abnepos divi Traiani <expan><abbr>Parth</abbr><ex>ici</ex></expan> <expan><abbr>adnep</abbr><ex>os</ex></expan> <lb n="15"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Aurelius Antoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <lb n="16"/>Pius Felix <expan><abbr>pontif</abbr><ex>ex</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> X <expan><abbr>imp</abbr><ex>erator</ex></expan> II co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <expan><abbr>des</abbr><ex>ignatus</ex></expan> <lb n="17"/>fortissimus ac super <lb n="18"/>omnes felicissimus <lb n="19"/>princeps <lb n="20"/>viam quae ducit in Villam Magnam <lb n="21"/>silice sua pecunia straverunt
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

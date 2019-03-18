@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD056464</idno>
+                <idno type="TM">212138</idno><idno type="localID">HD056464</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 50 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-12-08" who="Esch">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 07088. 
+                    </bibl>
+                    <bibl>
+                         W. Boppert, Zivile Grabsteine aus Mainz und Umgebung, CSIR Deutschland 2, 6 (Mainz 1992) 88-89, Nr. 39; Taf. 29, 39 (Zeichnung). 
+                    </bibl>
+                    <bibl>
+                         A. Kakoschke, Ortsfremde in den römischen Provinzen Germania inferior und Germania superior: Eine Untersuchung zur Mobilität in den germanischen Provinzen anhand der Inschriften des 1. bis 3. Jahrhunderts n. Chr. (Möhnesee 2002) 41, Nr. 1. 89. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) A 971. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Cir(r)ata Iulia / Annai(!) f(ilia) natio/ne Nervia an/no(rum) XXVIII in/munis(!) benefici(o) A/proni / h(ic) s(ita) e(st) / Rufus Iulius / pro pietate po/suit
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Cir<expan><ex>r</ex><abbr>ata</abbr></expan> Iulia <lb n="2"/>Annai <note>sic</note> <expan><abbr>f</abbr><ex>ilia</ex></expan> natio<lb break="no" n="3"/>ne Nervia an<lb break="no" n="4"/><expan><abbr>no</abbr><ex>rum</ex></expan> XXVIII in<lb break="no" n="5"/>munis <note>sic</note> <expan><abbr>benefici</abbr><ex>o</ex></expan> A<lb break="no" n="6"/>proni <lb n="7"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>ita</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="8"/>Rufus Iulius <lb n="9"/>pro pietate po<lb break="no" n="10"/>suit
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Nur handschriftlich in verschiedenen Versionen überliefert. Textwiedergabe nach Zeichnung von J. Huttich.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD055745</idno>
+                <idno type="TM">217733</idno><idno type="localID">HD055745</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-3.2</height>
+                                        <width>-7.8</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">0.55</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">unbekannt</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0224-01-07" notAfter-custom="0224-01-07" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">7.1.224 AD – 225 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries//">unbekannt</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-04-06" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2002, 1739. 
+                    </bibl>
+                    <bibl>
+                         RMD 465. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(erator) C]aes(ar) divi Antonin[i Magni] / Pii filius di[vi Severi Pii nepos] / M(arcus) Aurellius(!) Sev[erus Alexander Pius Fe]/lix Aug(ustus) ponti[f(ex) max(imus) trib(unicia) pot(estate) - - - co(n)s(ul) - - - p(ater) p(atriae)] / nomina [militum & // $ milita]v/[er(unt) in cohor(tibus) pr(aetoriis) Sever(ianis) X piis vindi]c/[ibus qui pie et fortiter militia f]un/[cti sunt ius tribui conubii du]m/[taxat cum singulis et primis uxo]r/[ibus ut etiam si peregrini iuris f]e/[minas in matrimonio suo] iunxe/[rint proinde liberos to]llant / [ac si ex duobus civibus Romanis] natos
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> C</supplied><expan><abbr>aes</abbr><ex>ar</ex></expan> divi Antonin<supplied reason="lost">i Magni</supplied> <lb n="2"/>Pii filius di<supplied reason="lost">vi Severi Pii nepos</supplied> <lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Aurellius <note>sic</note> Sev<supplied reason="lost">erus Alexander Pius Fe</supplied><lb break="no" n="4"/>lix <expan><abbr>Aug</abbr><ex>ustus</ex></expan> ponti<supplied reason="lost"><expan><abbr>f</abbr><ex>ex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="5"/>nomina <supplied reason="lost">militum</supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><supplied reason="lost">milita</supplied>v<lb break="no" n="2"/><supplied reason="lost"><expan><abbr>er</abbr><ex>unt</ex></expan> in <expan><abbr>cohor</abbr><ex>tibus</ex></expan> <expan><abbr>pr</abbr><ex>aetoriis</ex></expan> <expan><abbr>Sever</abbr><ex>ianis</ex></expan> X piis vindi</supplied>c<lb break="no" n="3"/><supplied reason="lost">ibus qui pie et fortiter militia f</supplied>un<lb break="no" n="4"/><supplied reason="lost">cti sunt ius tribui conubii du</supplied>m<lb break="no" n="5"/><supplied reason="lost">taxat cum singulis et primis uxo</supplied>r<lb break="no" n="6"/><supplied reason="lost">ibus ut etiam si peregrini iuris f</supplied>e<lb break="no" n="7"/><supplied reason="lost">minas in matrimonio suo</supplied> iunxe<lb break="no" n="8"/><supplied reason="lost">rint proinde liberos to</supplied>llant <lb n="9"/><supplied reason="lost">ac si ex duobus civibus Romanis</supplied> natos
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

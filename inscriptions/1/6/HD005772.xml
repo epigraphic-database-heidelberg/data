@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD005772</idno>
+                <idno type="TM">208813</idno><idno type="localID">HD005772</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Köln, Röm.-Germ. Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>44</height>
+                                        <width>60.5</width>
+                                        <depth>10.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016530">Germania inferior</placeName><placeName ref="http://www.trismegistos.org/place/003258">Colonia Claudia Ara Agrippinensium</placeName></origPlace>
+                            <origDate notBefore-custom="0301" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 500 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1977">1977</date>
+                        <placeName ref="http://www.geonames.org/2886242">Köln</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Nordrhein-Westfalen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-06-21" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1981, 0673. 
+                    </bibl>
+                    <bibl>
+                         B. Galsterer - H. Galsterer, in: EpStud 12 (Köln 1981) 255-257, Nr. 20; Abb. 21. - AE 1981. 
+                    </bibl>
+                    <bibl>
+                         AE 1995, 1114. 
+                    </bibl>
+                    <bibl>
+                         B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln, IKöln (2. 
+                    </bibl>
+                    <bibl>
+                         Aufl.) (Mainz 2010) 507, Nr. 755; Foto. 
+                    </bibl>
+                    <bibl>
+                         W. Schmitz, KJ 28, 1995, 655-658, Nr. 2; Abb. 5. - AE 1995. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Heu seni Tornato dat / tristi{ti}a dona supe(r)stis(!) / quosque sibi solvi spera/bat reddit honores / o mater lusus pueri risus/que recordans ingemi<t=E>#ingemi<t>#INGEMIE / et dulcis recui(r)it(!) luc/tamina lingu(a)e Catulus / huic nomen terdeni in / lumine mensis
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Heu seni Tornato dat <lb n="2"/>tristi<surplus>ti</surplus>a dona supe<expan><ex>r</ex><abbr>stis</abbr></expan> <note>sic</note> <lb n="3"/>quosque sibi solvi spera<lb break="no" n="4"/>bat reddit honores <lb n="5"/>o mater lusus pueri risus<lb break="no" n="6"/>que recordans ingemi<choice><corr>t</corr><sic>E</sic></choice>#ingemi<supplied reason="omitted">t</supplied>#INGEMIE <lb n="7"/>et dulcis recui<expan><ex>r</ex><abbr>it</abbr></expan> <note>sic</note> luc<lb break="no" n="8"/>tamina lingu<expan><ex>a</ex><abbr>e</abbr></expan> Catulus <lb n="9"/>huic nomen terdeni in <lb n="10"/>lumine mensis
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

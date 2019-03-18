@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD032417</idno>
+                <idno type="TM">265371</idno><idno type="localID">HD032417</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Leiden, Nat. Mus. Arch. (Rijksmus.)</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-30</height>
+                                        <width>97</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.2-3.4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000172">Roma</placeName><placeName ref="http://www.trismegistos.org/place/000172">Roma</placeName></origPlace>
+                            <origDate notBefore-custom="0275" notAfter-custom="0306" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">275 AD – 306 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Roma</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-06-12" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F010933">
+            <desc>F010933</desc>
+        </graphic>
+
+        <graphic url="http://cil-old.bbaw.de/test06/bilder/datenbank/PH0008049.jpg">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 06, 41224; Foto. 
+                    </bibl>
+                    <bibl>
+                         CIL 06, 01419. 
+                    </bibl>
+                    <bibl>
+                         CIL 06, 01419 add. p. 3141. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [T(ito) Fl(avio) Postumio Quieto v(iro) c(larissimo)] / [co(n)s(uli) ordina]rio curatori viae / [- - -] et alimentorum / [curatori r]ei publicae Aeclanensium / [item Oc]riculanorum / [leg(ato) pr(o) pr(aetore) p]rovinciae Asiae / [pr(aetori) k(andidato) tutel]ario q(uaestori) k(andidato) flamini / [- - - - - - // [T(ito) Fl(avio) Postumio Titiano v(iro) c(larissimo) co(n)s(uli) II] / proco(n)s(uli) prov(inciae) Afri[cae praef(ecto) urbi] / co(n)s(ulari) aquarum et M[iniciae corr(ectori) Campaniae] / electo ad iudicand(as) sacr(as) [appellation(es)? cor]/rectori Italiae reg(ionis) Tra[nspadanae - - -?] / curatori coloniar(um) sple[ndidissimar(um)] / Lugdunensium Cam[panor(um) - - -] / Calenor(um) XIIvir(o) Rom[ae - - -] / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>T</abbr><ex>ito</ex></expan> <expan><abbr>Fl</abbr><ex>avio</ex></expan> Postumio Quieto <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan></supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> ordina</supplied>rio curatori viae <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> et alimentorum <lb n="4"/><supplied reason="lost">curatori r</supplied>ei publicae Aeclanensium <lb n="5"/><supplied reason="lost">item Oc</supplied>riculanorum <lb n="6"/><supplied reason="lost"><expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> p</supplied>rovinciae Asiae <lb n="7"/><supplied reason="lost"><expan><abbr>pr</abbr><ex>aetori</ex></expan> <expan><abbr>k</abbr><ex>andidato</ex></expan> tutel</supplied>ario <expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>k</abbr><ex>andidato</ex></expan> flamini <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>T</abbr><ex>ito</ex></expan> <expan><abbr>Fl</abbr><ex>avio</ex></expan> Postumio Titiano <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II</supplied> <lb n="2"/>proco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan> Afri<supplied reason="lost">cae <expan><abbr>praef</abbr><ex>ecto</ex></expan> urbi</supplied> <lb n="3"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulari</ex></expan> aquarum et M<supplied reason="lost">iniciae <expan><abbr>corr</abbr><ex>ectori</ex></expan> Campaniae</supplied> <lb n="4"/>electo ad <expan><abbr>iudicand</abbr><ex>as</ex></expan> <expan><abbr>sacr</abbr><ex>as</ex></expan> <supplied reason="lost"><expan><abbr>appellation</abbr><ex>es</ex></expan>? cor</supplied><lb break="no" n="5"/>rectori Italiae <expan><abbr>reg</abbr><ex>ionis</ex></expan> Tra<supplied reason="lost" cert="low">nspadanae ---</supplied> <lb n="6"/>curatori <expan><abbr>coloniar</abbr><ex>um</ex></expan> sple<supplied reason="lost"><expan><abbr>ndidissimar</abbr><ex>um</ex></expan></supplied> <lb n="7"/>Lugdunensium Cam<supplied reason="lost"><expan><abbr>panor</abbr><ex>um</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/><expan><abbr>Calenor</abbr><ex>um</ex></expan> <expan><abbr>XIIvir</abbr><ex>o</ex></expan> Rom<supplied reason="lost">ae</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Tafel ist in 2 Teile gebrochen. Der Text ist in 2 Spalten angeordnet (I u. II). Datierung: I: ca. 275/285 n. Chr.; II: 306 n. Chr. oder bald danach.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

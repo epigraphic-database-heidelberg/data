@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001204</idno>
+                <idno type="TM">203294</idno><idno type="localID">HD001204</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Mauretania Caesariensis</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0184" notAfter-custom="0192" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">184 AD – 192 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Bou-Tlébis</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2010-05-12" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 206, Nr. 21a. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 21662. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) F 366. 
+                    </bibl>
+                    <bibl>
+                         H.-G. Pflaum, Les carrières procuratoriennes équestres sous le Haut-Empire romain (Paris 1960/61) 772-777, Nr. 298. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(eratore) Caes(are) M(arco) / Aurelio [[[Commodo]]] / Pio Fel[ic]e Aug(usto) / t(ribunicia) p(otestate) p(atre) [p(atriae)] pon[t]if(ice) [max(imo)] / burgum i[n]stitu[tum] / per T(itum) Fla[v]ium / Serenum [p]ro(curatorem) su[um]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>Caes</abbr><ex>are</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> <lb n="2"/>Aurelio <del rend="erasure">[Commodo</del>] <lb n="3"/>Pio Fel<supplied reason="lost">ic</supplied>e <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="4"/><expan><abbr>t</abbr><ex>ribunicia</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan> <expan><abbr>p</abbr><ex>atre</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <expan><abbr>pon<supplied reason="lost">t</supplied>if</abbr><ex>ice</ex></expan> <supplied reason="lost"><expan><abbr>max</abbr><ex>imo</ex></expan></supplied> <lb n="5"/>burgum i<supplied reason="lost">n</supplied>stitu<supplied reason="lost">tum</supplied> <lb n="6"/>per <expan><abbr>T</abbr><ex>itum</ex></expan> Fla<supplied reason="lost">v</supplied>ium <lb n="7"/>Serenum <expan><abbr><supplied reason="lost">p</supplied>ro</abbr><ex>curatorem</ex></expan> su<supplied reason="lost">um</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Datierung: nach 184 n. Chr. (Annahme des Beinamen Felix durch Commodus).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

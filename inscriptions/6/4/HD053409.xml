@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Adnuntiatio auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD053409</idno>
+                <idno type="TM">121762</idno><idno type="localID">HD053409</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Thessaloníki, Arch. Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000161">Macedonia</placeName><placeName>Thessalonica</placeName></origPlace>
+                            <origDate notBefore-custom="0260-09-19" notAfter-custom="0260-09-19" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">19.9.260 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Thessaloníki</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kentrikí Makedonía</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/113">Adnuntiatio</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-08-14" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1999, 1427. 
+                    </bibl>
+                    <bibl>
+                         G. Velenis, in: Ancient Macedonia VI. Papers read at the Sixth International Symposium, Thessaloniki 1996 (Thessaloniki 1999) 1321-1323, γ; fig. 1. - AE 1999. 
+                    </bibl>
+                    <bibl>
+                         SEG 49, 0817. 
+                    </bibl>
+                    <bibl>
+                         AE 2000, 1312. 
+                    </bibl>
+                    <bibl>
+                         AE 2006, 1273. 
+                    </bibl>
+                    <bibl>
+                         P.M. Nigdelis, Epigraphika Thessalonikeia. Symboli stin politiki kai koinoniki historia tis archaias Thessalonikis (Thessaloniki 2006) 75-76, Nr. 10c; ar. 20 u. 21. - AE 2006. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                ἀγαθῆι τύχηι / ὑπὲρ ὑγείας καὶ σωτηρίας καὶ νείκης καὶ αἰωνίου διαμονῆς τῶν μεγίστω[ν] καὶ θειοτ[άτων] κυρίων ἡμῶν ἀη[ττήτων Αὐ]/τοκρατόρων [[- - -]] Εὐσεβοῦς Εὐτυχοῦς Σεβαστοῦ καὶ [[- - -]] [Εὐσεβοῦς] / Εὐτυχοῦς Σεβαστοῦ κα[ὶ] [[- - -]] τοῦ ἐπιφανεστάτου Καί[σα]ρος / καὶ τοῦ σύνπαντος θείου οἴκου αὐτῶν καὶ ἱερᾶς συνκλήτου καὶ ἱερῶν στρατευμάτων καὶ δήμου Ῥωμαίων καὶ τῶν ἐξοχωτάτων ἐπά[ρχων τοῦ ἱεροῦ πραιτωρίου] / Τιβ(έριος) Κλ(αύδιος) Ῥούφριος Μένων ὁ κρ(άτιστος) ἱεροφάντης τοῦ ἁγιωτάτου θεοῦ Καβείρου καὶ διὰ βίου ἀγωνοθέτης [τοῦ κοινοῦ τῶν Μακεδόνων] / καὶ μακεδονιάρχης καὶ β ἀρχιερεὺς τῶν Σεβαστῶν καὶ ἀγωνοθέτης τῆς λαμπρᾶς Θεσσαλονεικαίων μητροπόλεως καὶ κολωνείας καὶ βʹ [νε]ωκόρου ἀγ[ῶνος ἱερ]οῦ οἰκουμε/νικοῦ εἰσελαστικοῦ τῶν μεγάλων Καισαρείων Ἐπινεικίων Καβειρίων Πυθίων καὶ Βαιβία Μάγνα ἡ γυνὴ αὐτοῦ ἡ ἀξ(ιολογωτάτη) μ[ακεδονιάρχι]σσα καὶ β ἀρχιέρεια ἐπιτελέσουσιν [φιλοτιμί]αν ἐν τῇ λαμ/προτάτῃ Θεσσαλονικ[έ]ων μητροπόλει καὶ κολωνείᾳ καὶ β νεωκόρῳ ἐκ θείας δωρεᾶς [κ(αὶ) εἰς?] μνήμην Σεβαστῶν κυνηγεσίων τε κ[αὶ μονομαχιῶν] ἡμέραν μίαν εἰσάγο[ντε]ς καὶ ζῶα ἅπ[αντα] τὸν ἀριθμὸν ἓξ / λεοπάρδου κ(αὶ) ὑαίνης καὶ λακ[α]ίνα<ς> καὶ ἀποσφάζοντες τῶν ἐνχωρίων ζώων ἑκάστου εἴδους τέσσαρα ὁμοί(ως) εἰσάγοντες [καὶ ζε]ύγη δύο [μονο]μάχων περὶ / ψυχῆς ἀγωνιούμενα ἄρξονται δὲ τὰς φιλοτειμίας Σεκουλαρίῳ τῷ β καὶ Δονάτῳ τῷ β ὑπάτ(οις) τῇ πρὸ ιβʹ καλανδῶν Ὀκτωβρίων / Ἑλληνικῇ δὲ ἔτους αϟσ σεβαστοῦ καὶ τοῦ ζυʹ / Ὑπερβερτα[ί]ου κʹ / εὐτυχεῖτε
+            --><div type="edition" xml:lang="grc"><head>Text</head><ab><lb n="1"/>
+                ἀγαθῆι τύχηι <lb n="2"/>ὑπὲρ ὑγείας καὶ σωτηρίας καὶ νείκης καὶ αἰωνίου διαμονῆς τῶν μεγίστω<supplied reason="lost">ν</supplied> καὶ θειοτ<supplied reason="lost">άτων</supplied> κυρίων ἡμῶν ἀη<supplied reason="lost">ττήτων Αὐ</supplied><lb break="no" n="3"/>τοκρατόρων <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del> Εὐσεβοῦς Εὐτυχοῦς Σεβαστοῦ καὶ <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del> <supplied reason="lost">Εὐσεβοῦς</supplied> <lb n="4"/>Εὐτυχοῦς Σεβαστοῦ κα<supplied reason="lost">ὶ</supplied> <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del> τοῦ ἐπιφανεστάτου Καί<supplied reason="lost">σα</supplied>ρος <lb n="5"/>καὶ τοῦ σύνπαντος θείου οἴκου αὐτῶν καὶ ἱερᾶς συνκλήτου καὶ ἱερῶν στρατευμάτων καὶ δήμου Ῥωμαίων καὶ τῶν ἐξοχωτάτων ἐπά<supplied reason="lost">ρχων τοῦ ἱεροῦ πραιτωρίου</supplied> <lb n="6"/>Τιβ(έριος) Κλ(αύδιος) Ῥούφριος Μένων ὁ κρ(άτιστος) ἱεροφάντης τοῦ ἁγιωτάτου θεοῦ Καβείρου καὶ διὰ βίου ἀγωνοθέτης <supplied reason="lost">τοῦ κοινοῦ τῶν Μακεδόνων</supplied> <lb n="7"/>καὶ μακεδονιάρχης καὶ β ἀρχιερεὺς τῶν Σεβαστῶν καὶ ἀγωνοθέτης τῆς λαμπρᾶς Θεσσαλονεικαίων μητροπόλεως καὶ κολωνείας καὶ βʹ <supplied reason="lost">νε</supplied>ωκόρου ἀγ<supplied reason="lost">ῶνος ἱερ</supplied>οῦ οἰκουμε<lb break="no" n="8"/>νικοῦ εἰσελαστικοῦ τῶν μεγάλων Καισαρείων Ἐπινεικίων Καβειρίων Πυθίων καὶ Βαιβία Μάγνα ἡ γυνὴ αὐτοῦ ἡ ἀξ(ιολογωτάτη) μ<supplied reason="lost">ακεδονιάρχι</supplied>σσα καὶ β ἀρχιέρεια ἐπιτελέσουσιν <supplied reason="lost">φιλοτιμί</supplied>αν ἐν τῇ λαμ<lb break="no" n="9"/>προτάτῃ Θεσσαλονικ<supplied reason="lost">έ</supplied>ων μητροπόλει καὶ κολωνείᾳ καὶ β νεωκόρῳ ἐκ θείας δωρεᾶς <supplied reason="lost" cert="low">κ(αὶ) εἰς</supplied> μνήμην Σεβαστῶν κυνηγεσίων τε κ<supplied reason="lost">αὶ μονομαχιῶν</supplied> ἡμέραν μίαν εἰσάγο<supplied reason="lost">ντε</supplied>ς καὶ ζῶα ἅπ<supplied reason="lost">αντα</supplied> τὸν ἀριθμὸν ἓξ <lb n="10"/>λεοπάρδου κ(αὶ) ὑαίνης καὶ λακ<supplied reason="lost">α</supplied>ίνα<supplied reason="omitted">ς</supplied> καὶ ἀποσφάζοντες τῶν ἐνχωρίων ζώων ἑκάστου εἴδους τέσσαρα ὁμοί(ως) εἰσάγοντες <supplied reason="lost">καὶ ζε</supplied>ύγη δύο <supplied reason="lost">μονο</supplied>μάχων περὶ <lb n="11"/>ψυχῆς ἀγωνιούμενα ἄρξονται δὲ τὰς φιλοτειμίας Σεκουλαρίῳ τῷ β καὶ Δονάτῳ τῷ β ὑπάτ(οις) τῇ πρὸ ιβʹ καλανδῶν Ὀκτωβρίων <lb n="12"/>Ἑλληνικῇ δὲ ἔτους αϟσ σεβαστοῦ καὶ τοῦ ζυʹ <lb n="13"/>Ὑπερβερτα<supplied reason="lost">ί</supplied>ου κʹ <lb n="14"/>εὐτυχεῖτε
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

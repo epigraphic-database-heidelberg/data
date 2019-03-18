@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Platte</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD070650</idno>
+                <idno type="TM">155958</idno><idno type="localID">HD070650</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Chesters, Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>81.3</height>
+                                        <width>-96.5</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/015322">Cilurnum</placeName></origPlace>
+                            <origDate notBefore-custom="0221-10-30" notAfter-custom="0221-10-30" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30.10.221 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1798">1798</date>
+                        <placeName ref="http://www.geonames.org/">Chesters</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Northumberland</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-09-18" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F018642">
+            <desc>F018642</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 07, 00585. (B) 
+                    </bibl>
+                    <bibl>
+                         RIB 1465; Zeichnungen. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) M 321. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) Caes[a]r M(arcus) Aurel(ius) [[Antoninus P(ius) F(elix)]] / A[ug(ustus)] [[sacerdos ampliss(imus) dei Invicti Solis]] / [[Elagabali]] p(ontifex) [m(aximus) tr]ib(unicia) p(otestate) [[IIII]] co(n)s(ul) [[III]] p(ater) p(atriae) div[i Anton(ini) f(ilius)] / divi Sever(i) nep(os) et M(arcus) [Aur]el(ius) [[Alexander nobiliss(imus)]] / Caesar imper[[i]] [[et sacerdoti consors]] [- - -] / alae II Astur(um) [[Anton(inianae)]] v[et]ustate [dilapsum restitu]/erunt per Marium Valer[ianum leg(atum) Aug(ustorum) pr(o) pr(aetore)] / instante Septimio Ni[l]o prae[f(ecto) equitum] / dedicatum III Kal(endas) Novem(bres) Gr[at]o et Sele[uco co(n)s(ulibus)]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caes<supplied reason="lost">a</supplied>r <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aurel</abbr><ex>ius</ex></expan> <del rend="erasure">Antoninus <expan><abbr>P</abbr><ex>ius</ex></expan> <expan><abbr>F</abbr><ex>elix</ex></expan></del> <lb n="2"/>A<supplied reason="lost"><expan><abbr>ug</abbr><ex>ustus</ex></expan></supplied> <del rend="erasure">sacerdos <expan><abbr>ampliss</abbr><ex>imus</ex></expan> dei Invicti Solis</del> <lb n="3"/><del rend="erasure">Elagabali</del> <expan><abbr>p</abbr><ex>ontifex</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>aximus</ex></expan> tr</supplied><expan><abbr>ib</abbr><ex>unicia</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan> <del rend="erasure">IIII</del> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <del rend="erasure">III</del> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> div<supplied reason="lost">i <expan><abbr>Anton</abbr><ex>ini</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="4"/>divi <expan><abbr>Sever</abbr><ex>i</ex></expan> <expan><abbr>nep</abbr><ex>os</ex></expan> et <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr><supplied reason="lost">Aur</supplied>el</abbr><ex>ius</ex></expan> <del rend="erasure">Alexander <expan><abbr>nobiliss</abbr><ex>imus</ex></expan></del> <lb n="5"/>Caesar imper<del rend="erasure">i</del> <del rend="erasure">et sacerdoti consors</del> <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>alae II <expan><abbr>Astur</abbr><ex>um</ex></expan> <del rend="erasure"><expan><abbr>Anton</abbr><ex>inianae</ex></expan></del> v<supplied reason="lost">et</supplied>ustate <supplied reason="lost">dilapsum restitu</supplied><lb break="no" n="7"/>erunt per Marium Valer<supplied reason="lost">ianum <expan><abbr>leg</abbr><ex>atum</ex></expan> <expan><abbr>Aug</abbr><ex>ustorum</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied> <lb n="8"/>instante Septimio Ni<supplied reason="lost">l</supplied>o prae<supplied reason="lost"><expan><abbr>f</abbr><ex>ecto</ex></expan> equitum</supplied> <lb n="9"/>dedicatum III <expan><abbr>Kal</abbr><ex>endas</ex></expan> <expan><abbr>Novem</abbr><ex>bres</ex></expan> Gr<supplied reason="lost">at</supplied>o et Sele<supplied reason="lost">uco <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Zu den Leseabweichungen s. RIB 1465.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

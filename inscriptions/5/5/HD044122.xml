@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meilen-/Leugenstein</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD044122</idno>
+                <idno type="TM">198248</idno><idno type="localID">HD044122</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugenstein</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>157</height>
+                                        <width>60</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000936">Iudaea</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0181" notAfter-custom="0182" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">181 AD – 182 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1995">1995</date>
+                        <placeName ref="http://www.geonames.org/">Dhirar</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/jo/">Jordanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2007-07-25" who="Hartmann">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2002, 1559. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) / [C]aesar / [- - -]ia / L(ucius) Aurel(ius) Co[m]/modus Anto/ninus Aug(ustus) Ger[m(anicus)] / [S]arm(aticus), trib(uniciae) po<t=D>(estatis)#po<t>(estatis)#POD / VII, co(n)s(ul) III, divi / Anton(ini) [f]il(ius), divi Pii / nep(os), divi Hadriani pronepos, p(ater) [p(atriae)], / ἀπὸ Γαδώ[ρ]ων / μέχρι ὧδε, μείλ[ια] / ιζʹ.
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <lb n="2"/><supplied reason="lost">C</supplied>aesar <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ia <lb n="4"/><expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Aurel</abbr><ex>ius</ex></expan> Co<supplied reason="lost">m</supplied><lb break="no" n="5"/>modus Anto<lb break="no" n="6"/>ninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Ger<supplied reason="lost"><expan><abbr>m</abbr><ex>anicus</ex></expan></supplied> <lb n="7"/><expan><abbr><supplied reason="lost">S</supplied>arm</abbr><ex>aticus</ex></expan>, <expan><abbr>trib</abbr><ex>uniciae</ex></expan> po<choice><corr>t</corr><sic>D</sic></choice>(estatis)#po<supplied reason="omitted">t</supplied>(estatis)#POD <lb n="8"/>VII, co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III, divi <lb n="9"/><expan><abbr>Anton</abbr><ex>ini</ex></expan> <expan><abbr><supplied reason="lost">f</supplied>il</abbr><ex>ius</ex></expan>, divi Pii <lb n="10"/><expan><abbr>nep</abbr><ex>os</ex></expan>, divi Hadriani pronepos, <expan><abbr>p</abbr><ex>ater</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>atriae</ex></expan></supplied>, <lb n="11"/>ἀπὸ Γαδώ<supplied reason="lost">ρ</supplied>ων <lb n="12"/>μέχρι ὧδε, μείλ<supplied reason="lost">ια</supplied> <lb n="13"/>ιζʹ.
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

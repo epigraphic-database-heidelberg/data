@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD055757</idno>
+                <idno type="TM">217745</idno><idno type="localID">HD055757</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>13.6</height>
+                                        <width>10</width>
+                                        <depth>0.1</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">0.4-0.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">unbekannt</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0248-01-07" notAfter-custom="0248-01-07" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">7.1.248 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries//">unbekannt</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-04-06" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2002, 1756. 
+                    </bibl>
+                    <bibl>
+                         RMD 474. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) Caes(ar) M(arcus) Iulius Philippus Pius Fe/lix Aug(ustus) pont(ifex) max(imus) tr(ibunicia) pot(estate) V co(n)s(ul) III p(ater) p(atriae) proc(onsul) / et Imp(erator) Caes(ar) M(arcus) Iulius Philippus Pius / Fel(ix) Aug(ustus) pont(ifex) max(imus) tr(ibunicia) pot(estate) II co(n)s(ul) II p(ater) p(atriae) / nomina militum qui militaverunt in / cohortib(us) praetor(iis) Philippianis de/cem I II III IIII V VI VII VIII VIIII X piis vindi/cibus qui pi<e=I>#pi<e>#PII et fortiter militia func/ti sunt ius tribui(mus) conubii dumtaxat / cum singulis et primis uxorib(us) ut eti/amsi peregrini iuris femin(as) in ma/trimonio suo iunxer(int) proinde libe/ros tollant ac si ex duobus civib(us) / Romanis natos a(nte) d(iem) VII Id(us) Ian(uarias) / Imp(eratore) M(arco) Iulio Philippo Pio Fel(ice) Aug(usto) III et / Imp(eratore) M(arco) Iulio Philippo Pio Fel(ice) Aug(usto) II co(n)s(ulibus) / coh(ors) VIIII pr(aetoria) Philippian(a) p(ia) v(index) / M(arco) Aurelio M(arci) f(ilio) Muciano / Ulp(ia) {Muciano} Nicop(oli) / descript(um) et recognit(um) ex tabul(a) aer(ea) qu(a)e fix(a) est / Rom(ae) i<n=M>#i<n>#IM muro pos(t) templ(um) divi Aug(usti) ad Miner/vam // Imp(erator) Ca(e)s(ar) M(arcus) Iulius Philippus Pius Fel(ix) Aug(ustus) / pont(ifex) max(imus) trib(unicia) po{s}t(estate) V co(n)s(ul) III {des(ignatus)} p(ater) p(atriae) proc(onsul) / et Imp(erator) Caes(ar) M(arcus) Iulius Philippus Pius Fel(ix) Au[g(ustus)] / pont(ifex) max(imus) trib(unicia) po{s}t(estate) II co(n)s(ul) II {des(ignatus)} p(ater) p(atriae) nomina / militum qui militaverunt in cohortib(us) pra(e)tor(iis) / Philippian(is) decem I II III IIII V VI VII VIII VIIII X pii[s] / vindicibus qui pi{a}e et fortiter militia fun[c]/ti sunt {i sunt} ius tribuimus conubi{b}i dum/taxa(t) cum singulis et (p)ri(mis) uxoribus ut {a}e/tia(m)si peregrini iuris feminas {in ma} / {cum singulis et primis uxor(ibus) si peregri} / in matrim(onio) suo [- - -]RI proi[nde - - -] Rom(anis) n(atos) // A(nte) d(iem) VII Id(us) Ian(uarias) / Imp(eratore) Philippo Pio Fel(ice) Aug(usto) III et / Imp(eratore) Philippo Pio Fel(ice) Aug(usto) IIII {et} / coh(ors) VIIII pr(aetoria) Philippian(a) p(ia) v(index) / M(arco) Aurelio M(arci) f(ilio) Muciano / Ulp(ia) {Muciano} / descriptu(m) et recognitu(m) ex tabula ae/re(a) q(uae) {f[-]} fix(a) est i<n=M>#i<n>#IM muro pos(t) I[- - -] // L(uci) Corneli Aviti / M(arci) Aureli Mestriani / C(ai) Valeri Maximi / L(uci) Lupponi Severiani / T(iti) Romani Domitiani / M(arci) Aureli Liccavi / L(uci) Septimi Amandi
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> Iulius Philippus Pius Fe<lb break="no" n="2"/>lix <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> V co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>proc</abbr><ex>onsul</ex></expan> <lb n="3"/>et <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> Iulius Philippus Pius <lb n="4"/><expan><abbr>Fel</abbr><ex>ix</ex></expan> <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> II co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> II <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/>nomina militum qui militaverunt in <lb n="6"/><expan><abbr>cohortib</abbr><ex>us</ex></expan> <expan><abbr>praetor</abbr><ex>iis</ex></expan> Philippianis de<lb break="no" n="7"/>cem I II III IIII V VI VII VIII VIIII X piis vindi<lb break="no" n="8"/>cibus qui pi<choice><corr>e</corr><sic>I</sic></choice>#pi<supplied reason="omitted">e</supplied>#PII et fortiter militia func<lb break="no" n="9"/>ti sunt ius <expan><abbr>tribui</abbr><ex>mus</ex></expan> conubii dumtaxat <lb n="10"/>cum singulis et primis <expan><abbr>uxorib</abbr><ex>us</ex></expan> ut eti<lb break="no" n="11"/>amsi peregrini iuris <expan><abbr>femin</abbr><ex>as</ex></expan> in ma<lb break="no" n="12"/>trimonio suo <expan><abbr>iunxer</abbr><ex>int</ex></expan> proinde libe<lb break="no" n="13"/>ros tollant ac si ex duobus <expan><abbr>civib</abbr><ex>us</ex></expan> <lb n="14"/>Romanis natos <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> VII <expan><abbr>Id</abbr><ex>us</ex></expan> <expan><abbr>Ian</abbr><ex>uarias</ex></expan> <lb n="15"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> Iulio Philippo Pio <expan><abbr>Fel</abbr><ex>ice</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> III et <lb n="16"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> Iulio Philippo Pio <expan><abbr>Fel</abbr><ex>ice</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> II co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="17"/><expan><abbr>coh</abbr><ex>ors</ex></expan> VIIII <expan><abbr>pr</abbr><ex>aetoria</ex></expan> <expan><abbr>Philippian</abbr><ex>a</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>v</abbr><ex>index</ex></expan> <lb n="18"/><expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Muciano <lb n="19"/><expan><abbr>Ulp</abbr><ex>ia</ex></expan> <surplus>Muciano</surplus> <expan><abbr>Nicop</abbr><ex>oli</ex></expan> <lb n="20"/><expan><abbr>descript</abbr><ex>um</ex></expan> et <expan><abbr>recognit</abbr><ex>um</ex></expan> ex <expan><abbr>tabul</abbr><ex>a</ex></expan> <expan><abbr>aer</abbr><ex>ea</ex></expan> qu<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>fix</abbr><ex>a</ex></expan> est <lb n="21"/><expan><abbr>Rom</abbr><ex>ae</ex></expan> i<choice><corr>n</corr><sic>M</sic></choice>#i<supplied reason="omitted">n</supplied>#IM muro <expan><abbr>pos</abbr><ex>t</ex></expan> <expan><abbr>templ</abbr><ex>um</ex></expan> divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad Miner<lb break="no" n="22"/>vam </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> Ca<expan><ex>e</ex><abbr>s</abbr><ex>ar</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> Iulius Philippus Pius <expan><abbr>Fel</abbr><ex>ix</ex></expan> <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <lb n="2"/><expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> po<surplus>s</surplus><expan><abbr>t</abbr><ex>estate</ex></expan> V co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <surplus>des(ignatus)</surplus> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>proc</abbr><ex>onsul</ex></expan> <lb n="3"/>et <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> Iulius Philippus Pius <expan><abbr>Fel</abbr><ex>ix</ex></expan> Au<supplied reason="lost"><expan><abbr>g</abbr><ex>ustus</ex></expan></supplied> <lb n="4"/><expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> po<surplus>s</surplus><expan><abbr>t</abbr><ex>estate</ex></expan> II co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> II <surplus>des(ignatus)</surplus> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> nomina <lb n="5"/>militum qui militaverunt in <expan><abbr>cohortib</abbr><ex>us</ex></expan> pra<expan><ex>e</ex><abbr>tor</abbr><ex>iis</ex></expan> <lb n="6"/><expan><abbr>Philippian</abbr><ex>is</ex></expan> decem I II III IIII V VI VII VIII VIIII X pii<supplied reason="lost">s</supplied> <lb n="7"/>vindicibus qui pi<surplus>a</surplus>e et fortiter militia fun<supplied reason="lost">c</supplied><lb break="no" n="8"/>ti sunt <surplus>i sunt</surplus> ius tribuimus conubi<surplus>b</surplus>i dum<lb break="no" n="9"/><expan><abbr>taxa</abbr><ex>t</ex></expan> cum singulis et <expan><ex>p</ex><abbr>ri</abbr><ex>mis</ex></expan> uxoribus ut <surplus>a</surplus>e<lb break="no" n="10"/>tia<expan><ex>m</ex><abbr>si</abbr></expan> peregrini iuris feminas <surplus>in ma</surplus> <lb n="11"/><surplus>cum singulis et primis uxor(ibus) si peregri</surplus> <lb n="12"/>in <expan><abbr>matrim</abbr><ex>onio</ex></expan> suo <gap reason="lost" extent="unknown" unit="character"/>RI proi<supplied reason="lost">nde</supplied><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Rom</abbr><ex>anis</ex></expan> <expan><abbr>n</abbr><ex>atos</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>A</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> VII <expan><abbr>Id</abbr><ex>us</ex></expan> <expan><abbr>Ian</abbr><ex>uarias</ex></expan> <lb n="2"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> Philippo Pio <expan><abbr>Fel</abbr><ex>ice</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> III et <lb n="3"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> Philippo Pio <expan><abbr>Fel</abbr><ex>ice</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> IIII <surplus>et</surplus> <lb n="4"/><expan><abbr>coh</abbr><ex>ors</ex></expan> VIIII <expan><abbr>pr</abbr><ex>aetoria</ex></expan> <expan><abbr>Philippian</abbr><ex>a</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>v</abbr><ex>index</ex></expan> <lb n="5"/><expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Muciano <lb n="6"/><expan><abbr>Ulp</abbr><ex>ia</ex></expan> <surplus>Muciano</surplus> <lb n="7"/><expan><abbr>descriptu</abbr><ex>m</ex></expan> et <expan><abbr>recognitu</abbr><ex>m</ex></expan> ex tabula ae<lb break="no" n="8"/><expan><abbr>re</abbr><ex>a</ex></expan> <expan><abbr>q</abbr><ex>uae</ex></expan> <surplus>f[-]</surplus> <expan><abbr>fix</abbr><ex>a</ex></expan> est i<choice><corr>n</corr><sic>M</sic></choice>#i<supplied reason="omitted">n</supplied>#IM muro <expan><abbr>pos</abbr><ex>t</ex></expan> I<gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>uci</ex></expan> Corneli Aviti <lb n="2"/><expan><abbr>M</abbr><ex>arci</ex></expan> Aureli Mestriani <lb n="3"/><expan><abbr>C</abbr><ex>ai</ex></expan> Valeri Maximi <lb n="4"/><expan><abbr>L</abbr><ex>uci</ex></expan> Lupponi Severiani <lb n="5"/><expan><abbr>T</abbr><ex>iti</ex></expan> Romani Domitiani <lb n="6"/><expan><abbr>M</abbr><ex>arci</ex></expan> Aureli Liccavi <lb n="7"/><expan><abbr>L</abbr><ex>uci</ex></expan> Septimi Amandi
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

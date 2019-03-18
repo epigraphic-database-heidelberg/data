@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD072502</idno>
+                <idno type="TM">700061</idno><idno type="localID">HD072502</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Solin</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-108</height>
+                                        <width>-43</width>
+                                        <depth>-39</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.5-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/015883">Salonae</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 230 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1997">1997</date>
+                        <placeName ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Splitsko-dalmatinska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-12-28" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F036275">
+            <desc>F036275</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2012, 1103. 
+                    </bibl>
+                    <bibl>
+                         I. Matijević, Tusculum 5, 2012, 59-70. - AE 2012. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [D(is)] M(anibus) // [Aurel(ius)? Te]rminal/[is et Aurel(ius)?] Quintili/[anu?]s avuncu/[lo suo? B]asilide / [et Aure?]l(io) Feroci / [- - - mil(iti)? l]eg(ionis) II adi/[utr(icis) patr]i p(ro) p(ietate) et Metro/[dor(a)e pare]/ntib(us) pien/[tis(simis) et b(ene)] / m(erentibus) pp(osuerunt)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>Aurel</abbr><ex>ius</ex></expan>? Te</supplied>rminal<lb break="no" n="2"/><supplied reason="lost" cert="low">is et Aurel(ius)</supplied> Quintili<lb break="no" n="3"/><supplied reason="lost" cert="low">anu</supplied>s avuncu<lb break="no" n="4"/><supplied reason="lost">lo suo<certainty locus="name" match="preceding-sibling::text()" cert="low"/> B</supplied>asilide <lb n="5"/><supplied reason="lost" cert="low">et Aure</supplied><expan><abbr>l</abbr><ex>io</ex></expan> Feroci <lb n="6"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>mil</abbr><ex>iti</ex></expan>? l</supplied><expan><abbr>eg</abbr><ex>ionis</ex></expan> II adi<lb break="no" n="7"/><supplied reason="lost"><expan><abbr>utr</abbr><ex>icis</ex></expan> patr</supplied>i <expan><abbr>p</abbr><ex>ro</ex></expan> <expan><abbr>p</abbr><ex>ietate</ex></expan> et Metro<lb break="no" n="8"/><supplied reason="lost"><expan><abbr>dor</abbr><ex>a</ex>e</expan> pare</supplied><lb break="no" n="9"/><expan><abbr>ntib</abbr><ex>us</ex></expan> pien<lb break="no" n="10"/><supplied reason="lost"><expan><abbr>tis</abbr><ex>simis</ex></expan> et <expan><abbr>b</abbr><ex>ene</ex></expan></supplied> <lb n="11"/><expan><abbr>m</abbr><ex>erentibus</ex></expan> <expan><abbr>pp</abbr><ex>osuerunt</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

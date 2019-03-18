@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002970</idno>
+                <idno type="TM">204720</idno><idno type="localID">HD002970</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>82</height>
+                                        <width/>
+                                        <depth>24</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">7-5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003344">Numidia</placeName><placeName ref="http://www.trismegistos.org/place/018251">Thamugadi</placeName></origPlace>
+                            <origDate notBefore-custom="0198" notAfter-custom="0199" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">198 AD – 199 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1953">1953</date>
+                        <placeName ref="http://www.geonames.org/2476409">Timgad</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Batna</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2006-09-26" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1985, 0881a. (B) 
+                    </bibl>
+                    <bibl>
+                         M. Le Glay - S. Tourrenc, AntAfr 21, 1985, 129-131, Nr. 9,1; Zeichnung. (B) - AE. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 02437. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Pro salute Imp(eratoris) Caes(aris) divi M(arci)] Antonin[i Pii] Germani[ci Sarmatici fili di]vi Commo/di fratris divi Antonini nepotis divi Hadriani pronepotis divi Traian[i Pa]rthici abnepotis div[i Nervae adnepotis] / L(uci) Septimi Severi Pii Pertinacis Aug(usti) Arabici Adiabenici Parthici maxim[i] fortissimique pri[ncipis pontif(icis) max(imi) trib(uniciae) pot(estatis) VII i]mp(eratoris) XI co(n)s(ulis) II p(atris) p(atriae) proc(onsulis) / et Imp(eratoris) Caes(aris) Imp(eratoris) Caes(aris) L(uci) Septimi Severi Pii Pertinacis Aug(usti) Arabici Adiabenici Parthici [maximi felicissimique principis] / fili divi M(arci) Antonini Pii Germanici Sarmatici nepot(is) divi Antonini pronepot(is) divi Ha[driani abnepot(is)] divi Traiani Pa[rt]hici / et divi Nervae adnepot(is) [[[- - -]]] tribunic(iae) potest(atis) bis procon(sulis) [M(arci) Aureli] Antonini Au[g(usti) et] / Imp(eratoris) Caes(aris) L(uci) Septimi Severi Pii Pertinacis Aug(usti) Arabici Adiabenici Par[thici m]aximi fortissim[i feli]cissimiq(ue) principis [i]uvent(utis) / Imp(eratoris) Caes(aris) M(arci) Aureli Antonini Aug(usti) [[[fratris P(ubli) Septimi Getae nob(ilissimi) Caes(aris) Aug(usti)]]] dedican[te Q(uinto) A]nicio Fausto leg(ato) Augg[[[g(ustorum)]]] pro pr(aetore) [c]ons(ule) ampl(issimo) / patr(ono) col(oniae) et Saevinio Proculo trib(uno) laticlavio curator(e) r(ei) p(ublicae) d(ecreto) d(ecurionum) p(ecunia) p(ublica)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Pro salute <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> divi <expan><abbr>M</abbr><ex>arci</ex></expan></supplied> Antonin<supplied reason="lost">i Pii</supplied> Germani<supplied reason="lost">ci Sarmatici fili di</supplied>vi Commo<lb break="no" n="2"/>di fratris divi Antonini nepotis divi Hadriani pronepotis divi Traian<supplied reason="lost">i Pa</supplied>rthici abnepotis div<supplied reason="lost">i Nervae adnepotis</supplied> <lb n="3"/><expan><abbr>L</abbr><ex>uci</ex></expan> Septimi Severi Pii Pertinacis <expan><abbr>Aug</abbr><ex>usti</ex></expan> Arabici Adiabenici Parthici maxim<supplied reason="lost">i</supplied> fortissimique pri<supplied reason="lost">ncipis <expan><abbr>pontif</abbr><ex>icis</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>trib</abbr><ex>uniciae</ex></expan> <expan><abbr>pot</abbr><ex>estatis</ex></expan> VII i</supplied><expan><abbr>mp</abbr><ex>eratoris</ex></expan> XI co<expan><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> II <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>proc</abbr><ex>onsulis</ex></expan> <lb n="4"/>et <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> Septimi Severi Pii Pertinacis <expan><abbr>Aug</abbr><ex>usti</ex></expan> Arabici Adiabenici Parthici <supplied reason="lost">maximi felicissimique principis</supplied> <lb n="5"/>fili divi <expan><abbr>M</abbr><ex>arci</ex></expan> Antonini Pii Germanici Sarmatici <expan><abbr>nepot</abbr><ex>is</ex></expan> divi Antonini <expan><abbr>pronepot</abbr><ex>is</ex></expan> divi Ha<supplied reason="lost">driani <expan><abbr>abnepot</abbr><ex>is</ex></expan></supplied> divi Traiani Pa<supplied reason="lost">rt</supplied>hici <lb n="6"/>et divi Nervae <expan><abbr>adnepot</abbr><ex>is</ex></expan> <del rend="erasure">[<gap reason="lost" extent="unknown" unit="character"/></del>] <expan><abbr>tribunic</abbr><ex>iae</ex></expan> <expan><abbr>potest</abbr><ex>atis</ex></expan> bis <expan><abbr>procon</abbr><ex>sulis</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>arci</ex></expan> Aureli</supplied> Antonini Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usti</ex></expan> et</supplied> <lb n="7"/><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> Septimi Severi Pii Pertinacis <expan><abbr>Aug</abbr><ex>usti</ex></expan> Arabici Adiabenici Par<supplied reason="lost">thici m</supplied>aximi fortissim<supplied reason="lost">i feli</supplied><expan><abbr>cissimiq</abbr><ex>ue</ex></expan> principis <expan><abbr><supplied reason="lost">i</supplied>uvent</abbr><ex>utis</ex></expan> <lb n="8"/><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> Aureli Antonini <expan><abbr>Aug</abbr><ex>usti</ex></expan> <del rend="erasure">[fratris <expan><abbr>P</abbr><ex>ubli</ex></expan> Septimi Getae <expan><abbr>nob</abbr><ex>ilissimi</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan></del>] dedican<supplied reason="lost">te <expan><abbr>Q</abbr><ex>uinto</ex></expan> A</supplied>nicio Fausto <expan><abbr>leg</abbr><ex>ato</ex></expan> Augg<del rend="erasure">[<expan><abbr>g</abbr><ex>ustorum</ex></expan></del>] pro <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr><supplied reason="lost">c</supplied>ons</abbr><ex>ule</ex></expan> <expan><abbr>ampl</abbr><ex>issimo</ex></expan> <lb n="9"/><expan><abbr>patr</abbr><ex>ono</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> et Saevinio Proculo <expan><abbr>trib</abbr><ex>uno</ex></expan> laticlavio <expan><abbr>curator</abbr><ex>e</ex></expan> <expan><abbr>r</abbr><ex>ei</ex></expan> <expan><abbr>p</abbr><ex>ublicae</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>p</abbr><ex>ublica</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Y: 10. Dez. 198 - 9. Dez. 199. (B): Z.9: Augg[[(ustorum)]] - AE, Le Glay. Die rechte Hälfte des Textes (= CIL 8, 2437; 1876 beschrieben) konnte um 5 Fragmente ergänzt und teilweise berichtigt werden. Über Rasur Z.8 eingaviert: PARTH MAX BRIT MAX GER MAX. Ursprüngliche Breite der Tafel: mehr als 3 m.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

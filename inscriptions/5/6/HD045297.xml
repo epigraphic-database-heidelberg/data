@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grenzmarkierung auf Cippus</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD045297</idno>
+                <idno type="TM">121166</idno><idno type="localID">HD045297</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/85">Cippus</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>174</height>
+                                        <width>44</width>
+                                        <depth>26</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.5-5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000161">Macedonia</placeName><placeName>Colonia Iulia Augusta Diensis</placeName></origPlace>
+                            <origDate notBefore-custom="0101" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/735342">Dion</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kentrikí Makedonía</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/293">Grenzmarkierung</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-04-16" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 00591. 
+                    </bibl>
+                    <bibl>
+                         ILS 5954. 
+                    </bibl>
+                    <bibl>
+                         M. Šašel Kos, Inscriptiones Latinae in Graecia repertae. Additamenta ad CIL III (Faenza 1979) 77-78, Nr. 174. 
+                    </bibl>
+                    <bibl>
+                         AE 2001, 1755. 
+                    </bibl>
+                    <bibl>
+                         D. Pantermalis, in: Agalma. Meletes gia tin archaia plastiki pros timin tou Giorgou Despini (Thessaloniki 2001) 411-412, eik. 2. (B) - AE 2001. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [I]mp(eratori) Aug(usto) / [fin]es dere[cti] / [int]er Diens[es] / [et] Olossoni[os] / [ex] convention[e] / ipsorum / [Im]p(eratore) Nerva Tra[ia]/no Ca[es]are / Aug(usto) German(ico) / IIII co(n)s(ule)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>eratori</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="2"/><supplied reason="lost">fin</supplied>es dere<supplied reason="lost">cti</supplied> <lb n="3"/><supplied reason="lost">int</supplied>er Diens<supplied reason="lost">es</supplied> <lb n="4"/><supplied reason="lost">et</supplied> Olossoni<supplied reason="lost">os</supplied> <lb n="5"/><supplied reason="lost">ex</supplied> convention<supplied reason="lost">e</supplied> <lb n="6"/>ipsorum <lb n="7"/><expan><abbr><supplied reason="lost">Im</supplied>p</abbr><ex>eratore</ex></expan> Nerva Tra<supplied reason="lost">ia</supplied><lb break="no" n="8"/>no Ca<supplied reason="lost">es</supplied>are <lb n="9"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>German</abbr><ex>ico</ex></expan> <lb n="10"/>IIII co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Auf der Abbildung in dem Artikel von D. Pantermalis sind die ersten zwei Buchstaben von Z. 1 nicht zu erkennen. Ein kleines Stück von der Oberfläche des Steins scheint an dieser Stelle verloren gegangen zu sein.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

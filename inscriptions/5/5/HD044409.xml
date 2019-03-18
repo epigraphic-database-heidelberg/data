@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meilen-/Leugenstein</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD044409</idno>
+                <idno type="TM">236443</idno><idno type="localID">HD044409</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Vic, Mus. Episc.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugenstein</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>205</height>
+                                        <width>55</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">9-6</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016933">Hispania citerior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0305" notAfter-custom="0311" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">305 AD – 311 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3125442">Centelles</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Cataluña</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-10-11" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IRC 1, 172; pl. 60 u. pl. 61 (Zeichnungen). 
+                    </bibl>
+                    <bibl>
+                         IRC 5, p. 27. 
+                    </bibl>
+                    <bibl>
+                         CIL 02, 06345. 
+                    </bibl>
+                    <bibl>
+                         ILER 1992. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(omino) N(ostro) G(alerio) Va/lerio Ma/ximiano / nob(ilissimo) Caes(ari) / Pio [Felici] / Aug(usto) [- - -] / [- - - - - - // - - - - - -] / [- - -? pr?]inci[pi? - - -?] / [- - - - - - // - - - - - -] / p(ontifici) max(imo) / co(n)s(uli) proc(onsuli) / [- - - - - - // $](?) / [- - -](?) CAEXI[- - -](?) / [- - -](?)II I[- - -](?) / [- - -](?)AACAES[- - -](?) / [- - -](?)XIIE[- - -](?) / [- - -](?)VO[- - -](?) / [- - - - - -?
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>omino</ex></expan> <expan><abbr>N</abbr><ex>ostro</ex></expan> <expan><abbr>G</abbr><ex>alerio</ex></expan> Va<lb break="no" n="2"/>lerio Ma<lb break="no" n="3"/>ximiano <lb n="4"/><expan><abbr>nob</abbr><ex>ilissimo</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <lb n="5"/>Pio <supplied reason="lost">Felici</supplied> <lb n="6"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><supplied reason="lost" cert="low">---? pr</supplied>inci<supplied reason="lost" cert="low">pi? ---</supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="3" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <lb n="2"/>co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>proc</abbr><ex>onsuli</ex></expan> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> CAEXI<gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/>II I<gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/>AACAES<gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/>XIIE<gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/>VO<gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Meilenstein mit vier zeitlich aufeinanderfolgenden Inschriften. Literaturangaben, Buchstabenhöhe und Datierung beziehen sich auf Text 1. Die Chronologie ist nicht durchgängig sicher zu ermitteln, am wahrscheinlichsten ist nach IRC aber die (absteigende) Reihenfolge: Text 1 (305-311 n. Chr.), Text 2 (?), Text 3 (171-250 n. Chr.), Text 4 (hohe Kaiserzeit?). Buchstabenhöhe Text 2: 7 cm; Text 3: 6,5 cm; Text 4: 5,1-4,5 cm. Lesung anhand der Fotografien nur teilweise überprüfbar. Die Wiedergabe von Text 4 geht zum Teil auf eine ältere Lesung zurück.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

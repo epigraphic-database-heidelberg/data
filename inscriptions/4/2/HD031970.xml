@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD031970</idno>
+                <idno type="TM">223221</idno><idno type="localID">HD031970</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/025963">Astigi</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 130 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2518770">Écija</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-01-28" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2000, 0733. 
+                    </bibl>
+                    <bibl>
+                         T. López, Diccionario geográfico de Andalucía: Sevilla (Sevilla 1989) 80. - AE 2000. 
+                    </bibl>
+                    <bibl>
+                         S. Ordóñez Agulla, Habis 24, 1993, 311-315. (B) - AE 2000. 
+                    </bibl>
+                    <bibl>
+                         HEp 05, 1995, 0701. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 02 (2. Aufl.) 05, 01201. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Cor(nelia) P(ubli) li[b(erta)] / Philotim[a an(norum) - - -] / hic sita e[st] / Cor(nelia) P(ubli) lib(erta) [- - - in f(ronte) p(edes) - - -] / in a(gro) p(edes) XIII E(?)[- - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Cor</abbr><ex>nelia</ex></expan> <expan><abbr>P</abbr><ex>ubli</ex></expan> li<supplied reason="lost"><expan><abbr>b</abbr><ex>erta</ex></expan></supplied> <lb n="2"/>Philotim<supplied reason="lost">a <expan><abbr>an</abbr><ex>norum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/>hic sita e<supplied reason="lost">st</supplied> <lb n="4"/><expan><abbr>Cor</abbr><ex>nelia</ex></expan> <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>lib</abbr><ex>erta</ex></expan> <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> in <expan><abbr>f</abbr><ex>ronte</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/>in <expan><abbr>a</abbr><ex>gro</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> XIII <expan><abbr>E</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Lesungs- und Ergänzungsvorschlag nach CIL II (2. Aufl.) 5, 1201. Handschriftliche Überlieferung: CORPII / FHILOIIM / HIC SITA E(?) / CORPHII / IN A P XIII E. (B): Ordóñez Agulla; HEp 5: Z. 1: Corneli[a]; Z. 2: Philotima; Ordóñez Agulla: Z. 5: agro.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

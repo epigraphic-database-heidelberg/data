@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD004159</idno>
+                <idno type="TM">203410</idno><idno type="localID">HD004159</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Mauretania Caesariensis</placeName><placeName ref="http://www.trismegistos.org/place/003116">Caesarea</placeName></origPlace>
+                            <origDate notBefore-custom="0031" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD – 100 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2501440">Cherchell</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Tipaza</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-10-20" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1980, 0961. 
+                    </bibl>
+                    <bibl>
+                         P. Leveau, BAA 6, 1975/76, 83, Nr. 1; fig. 1 u. 2. - AE 1980. 
+                    </bibl>
+                    <bibl>
+                         AE 1966, 0595. (B) 
+                    </bibl>
+                    <bibl>
+                         M. Le Glay, in: Mélanges d'archéologie, d'épigraphie et d'histoire offerts à J. Carcopino ( Vendôme 1966) 629-640; Foto u. Zeichnung. (B) - AE 1966. 
+                    </bibl>
+                    <bibl>
+                         AE 1988, 1129. 
+                    </bibl>
+                    <bibl>
+                         AE 1998, 1594. 
+                    </bibl>
+                    <bibl>
+                         AE 1998, 1590. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Veneri [signum] / cum duabu[s statuis] / Iubae et Ptol[emaei pro]/batoriis quat[tuor insignibus] / ornatis Serg(ius) Sul[picius? - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Veneri <supplied reason="lost">signum</supplied> <lb n="2"/>cum duabu<supplied reason="lost">s statuis</supplied> <lb n="3"/>Iubae et Ptol<supplied reason="lost">emaei pro</supplied><lb break="no" n="4"/>batoriis quat<supplied reason="lost">tuor insignibus</supplied> <lb n="5"/>ornatis <expan><abbr>Serg</abbr><ex>ius</ex></expan> Sul<supplied reason="lost">picius<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Vielleicht handelt es sich beim Dedikanten um Serg. Sulpicius Galba. (B): Z. 3/4: [impe]/ratoriis; Z. 5: [or]natis.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

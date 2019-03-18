@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD030473</idno>
+                <idno type="TM">222470</idno><idno type="localID">HD030473</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/014135">Iliberri Florentia?</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0131" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 131 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Granada?</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift?</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="1999-12-17" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 02 (2. Aufl.) 05, 00630. 
+                    </bibl>
+                    <bibl>
+                         CIL 02, 02081. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                L(ucio) Galerio L(uci) f(ilio) Ga<l=IO>(eria)#Ga<l>(eria)#GAIO / Valeriano IIvir(o) [po]<nt=VI>(ifici)#[po]<nt>(ifici)#VI / perpe[t(uo)] <muni=NN>c<ip=LL>i#<muni>c<ip>i#NNCLLI <fl=TT>or(entini)#<fl>or(entini)#TTOR <I=P>lib<e=F>/[ritani#<I>lib<e>/[ritani#PLIBF - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Galerio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Ga<supplied reason="omitted">l=IO</supplied>(eria)#Ga<supplied reason="omitted">l</supplied>(eria)#GAIO <lb n="2"/>Valeriano <expan><abbr>IIvir</abbr><ex>o</ex></expan> <supplied reason="lost">po</supplied><supplied reason="omitted">nt=VI</supplied>(ifici)#<supplied reason="lost">po</supplied><supplied reason="omitted">nt</supplied>(ifici)#VI <lb n="3"/>perpe<supplied reason="lost"><expan><abbr>t</abbr><ex>uo</ex></expan></supplied> <supplied reason="omitted">muni=NN</supplied>c<supplied reason="omitted">ip=LL</supplied>i#<supplied reason="omitted">muni</supplied>c<supplied reason="omitted">ip</supplied>i#NNCLLI <supplied reason="omitted">fl=TT</supplied><expan><abbr>or</abbr><ex>entini</ex></expan>#<supplied reason="omitted">fl</supplied><expan><abbr>or</abbr><ex>entini</ex></expan>#TTOR <choice><corr>I</corr><sic>P</sic></choice>lib<choice><corr>e</corr><sic>F</sic></choice><lb break="no" n="4"/>[ritani#<supplied reason="omitted">I</supplied>lib<supplied reason="omitted">e</supplied><lb break="no" n="5"/><supplied reason="lost">ritani#PLIBF <gap reason="lost" extent="unknown" unit="character"/></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Das Stück ist heute verschollen. Lesungsvorschlag nach M. Pastor Muñoz.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

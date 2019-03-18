@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD032687</idno>
+                <idno type="TM">262836</idno><idno type="localID">HD032687</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Roma, S. Sebastiano, Bas.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>71</height>
+                                        <width>212</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2.5-1.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000172">Roma</placeName><placeName ref="http://www.trismegistos.org/place/000172">Roma</placeName></origPlace>
+                            <origDate notBefore-custom="0389-10-04" notAfter-custom="0389-10-04" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">4.10.389 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Roma</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-01-02" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F011161">
+            <desc>F011161</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F011287">
+            <desc>F011287</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 06, 41342; fig. α u. β. 
+                    </bibl>
+                    <bibl>
+                         ICUR n. s. 13355. 
+                    </bibl>
+                    <bibl>
+                         PLRE 1 Viventius. 
+                    </bibl>
+                    <bibl>
+                         PLRE 1 Timasius. 
+                    </bibl>
+                    <bibl>
+                         PLRE 1 Promotus. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Maximilla poten[s servare f(o)edera C]rhisti(!) propositumque fidem mors abstulit omnia vitae sed melius vivit vitam C(h)risti(!) qui sperat (a)eternam si animo recolat fidem / datam omn[ibus] unam tunc poterit mors ipsa mori cum tempore toto vita perennis eri<t=I>#eri<t>#ERII veniam dabit omnibus unam sed meritis / [ve]<g=C>etans#[ve]<g>etans#CETANS su[per h]anc Lucceia fecisti nam m<e=I>mor#m<e>mor#MIMOR ipsa tui cum reddis vota sepulcrhi(!) ostend<i=E>s#ostend<i>s#OSTENDES mentem religiosa vita repleta<m> mirae fide(i) / et innocentiae optimique propositi Maximilla virgo ancilla Dei civis Pannonia qu(a)e / vixit annis n(umero) L huic sepulturae condita est a {L}(?) Lucceia c(larissima) f(emina) filia Viventi c(larissimae) r(ecordationis) v(iri) ex praefecto / pr(a)etorio et urbis aeternae propt<e=I>r#propt<e>r#PROPTIR amicitiam sibi coniun(c)tam qu(a)e diem clusit una cum matre / sua pariter Nunita qu(a)e fuit matrona diaconis(!) et vixit annis n(umero) LXX die IIII Non(as) Octobr(es) FFll(aviis) / Timasio et Promoto vv(viris) cc(larissimis) conss(ulibus)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Maximilla poten<supplied reason="lost">s servare <expan><abbr>f</abbr><ex>o</ex>edera</expan> C</supplied>rhisti <note>sic</note> propositumque fidem mors abstulit omnia vitae sed melius vivit vitam C<expan><ex>h</ex><abbr>risti</abbr></expan> <note>sic</note> qui sperat <expan><ex>a</ex><abbr>eternam</abbr></expan> si animo recolat fidem <lb n="2"/>datam omn<supplied reason="lost">ibus</supplied> unam tunc poterit mors ipsa mori cum tempore toto vita perennis eri<choice><corr>t</corr><sic>I</sic></choice>#eri<supplied reason="omitted">t</supplied>#ERII veniam dabit omnibus unam sed meritis <lb n="3"/><supplied reason="lost">ve</supplied><choice><corr>g</corr><sic>C</sic></choice>etans#<supplied reason="lost">ve</supplied><supplied reason="omitted">g</supplied>etans#CETANS su<supplied reason="lost">per h</supplied>anc Lucceia fecisti nam m<choice><corr>e</corr><sic>I</sic></choice>mor#m<supplied reason="omitted">e</supplied>mor#MIMOR ipsa tui cum reddis vota sepulcrhi <note>sic</note> ostend<choice><corr>i</corr><sic>E</sic></choice>s#ostend<supplied reason="omitted">i</supplied>s#OSTENDES mentem religiosa vita repleta<supplied reason="omitted">m</supplied> mirae <expan><abbr>fide</abbr><ex>i</ex></expan> <lb n="4"/>et innocentiae optimique propositi Maximilla virgo ancilla Dei civis Pannonia qu<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="5"/>vixit annis <expan><abbr>n</abbr><ex>umero</ex></expan> L huic sepulturae condita est a <surplus>L</surplus><certainty match="preceding-sibling::node()" locus="value"/> Lucceia <expan><abbr>c</abbr><ex>larissima</ex></expan> <expan><abbr>f</abbr><ex>emina</ex></expan> filia Viventi <expan><abbr>c</abbr><ex>larissimae</ex></expan> <expan><abbr>r</abbr><ex>ecordationis</ex></expan> <expan><abbr>v</abbr><ex>iri</ex></expan> ex praefecto <lb n="6"/>pr<expan><ex>a</ex><abbr>etorio</abbr></expan> et urbis aeternae propt<choice><corr>e</corr><sic>I</sic></choice>r#propt<supplied reason="omitted">e</supplied>r#PROPTIR amicitiam sibi coniun<expan><ex>c</ex><abbr>tam</abbr></expan> qu<expan><ex>a</ex><abbr>e</abbr></expan> diem clusit una cum matre <lb n="7"/>sua pariter Nunita qu<expan><ex>a</ex><abbr>e</abbr></expan> fuit matrona diaconis <note>sic</note> et vixit annis <expan><abbr>n</abbr><ex>umero</ex></expan> LXX die IIII <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Octobr</abbr><ex>es</ex></expan> <expan><abbr>FFll</abbr><ex>aviis</ex></expan> <lb n="8"/>Timasio et Promoto <expan><abbr>vv</abbr><ex>viris</ex></expan> <expan><abbr>cc</abbr><ex>larissimis</ex></expan> <expan><abbr>conss</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Inschrift verteilt sich auf Deckel und Kasten des Sarkophags; Maße beziehen sich auf den Kasten; Maße des Deckels: 14,5 x 214 x 5 cm (vermauert).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

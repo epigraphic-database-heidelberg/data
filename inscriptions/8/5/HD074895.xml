@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meilen-/Leugenstein</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD074895</idno>
+                <idno type="TM"/><idno type="localID">HD074895</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Budapest, Magyar Nemzeti Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugenstein</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/020126">Aquincum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0237" notAfter-custom="0238" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">237 AD – 238 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1807">1807</date>
+                        <placeName ref="http://www.geonames.org/3044103">Tárnok, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Pest megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-03-21" who="Feraudi">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 03722; Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(eratori) Cae[[[s(ari) C(aio) Iulio]]] / [[[V]er[o Maximino]]] / P(io) F(elici) Aug(usto) German(ico) / [[[ma]x(imo)]] Sarma[[[t(ico) max(imo)]]] / [[[D]acico [ma]x(imo)]] trib(unicia) pot(estate) / [i]mp(eratori) V co(n)s(ul) p(atri) p(atriae) proco(n)s(uli) / [et [[C(aio) Iulio Vero Maximo]]] / [G]erman(ico) [[max(imo)]] Sarmat(ico) / [[[max(imo)]]] Dacico [[max(imo)]] / [[[nobilissimo Caesari]]] / [[[filio]]] Aug(usti) n(ostri) / [p]ontif(ici) max(imo) / ab Aq(uinco) m(ilia) p(assuum) / XXXIIII
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> Cae<del rend="erasure">[<expan><abbr>s</abbr><ex>ari</ex></expan> <expan><abbr>C</abbr><ex>aio</ex></expan> Iulio</del>] <lb n="2"/><del rend="erasure"><supplied reason="lost">V</supplied>er[o Maximino</del>] <lb n="3"/><expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>F</abbr><ex>elici</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>German</abbr><ex>ico</ex></expan> <lb n="4"/><del rend="erasure"><supplied reason="lost">ma</supplied><expan><abbr>x</abbr><ex>imo</ex></expan></del> Sarma<del rend="erasure">[<expan><abbr>t</abbr><ex>ico</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan></del>] <lb n="5"/><del rend="erasure"><supplied reason="lost">D</supplied>acico <supplied reason="lost">ma</supplied><expan><abbr>x</abbr><ex>imo</ex></expan></del> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <lb n="6"/><expan><abbr><supplied reason="lost">i</supplied>mp</abbr><ex>eratori</ex></expan> V co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> proco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <lb n="7"/>[et <del rend="erasure"><expan><abbr>C</abbr><ex>aio</ex></expan> Iulio Vero Maximo</del>] <lb n="8"/><expan><abbr><supplied reason="lost">G</supplied>erman</abbr><ex>ico</ex></expan> <del rend="erasure"><expan><abbr>max</abbr><ex>imo</ex></expan></del> <expan><abbr>Sarmat</abbr><ex>ico</ex></expan> <lb n="9"/><del rend="erasure">[<expan><abbr>max</abbr><ex>imo</ex></expan></del>] Dacico <del rend="erasure"><expan><abbr>max</abbr><ex>imo</ex></expan></del> <lb n="10"/><del rend="erasure">[nobilissimo Caesari</del>] <lb n="11"/><del rend="erasure">[filio</del>] <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> <lb n="12"/><expan><abbr><supplied reason="lost">p</supplied>ontif</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <lb n="13"/>ab <expan><abbr>Aq</abbr><ex>uinco</ex></expan> <expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> <lb n="14"/>XXXIIII
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

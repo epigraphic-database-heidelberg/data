@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD069618</idno>
+                <idno type="TM">154817</idno><idno type="localID">HD069618</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Caerleon, Nat. Rom. Leg. Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/70">Oolith</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-79.5</height>
+                                        <width>50</width>
+                                        <depth>24</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2.1-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName>Isca Silurum</placeName></origPlace>
+                            <origDate notBefore-custom="0071" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1845">1845</date>
+                        <placeName ref="http://www.geonames.org/2654093">Caerleon</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Gwent</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-04-09" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F009149">
+            <desc>F009149</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 07, 00100. (B) 
+                    </bibl>
+                    <bibl>
+                         RIB 0324; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         R.J. Brewer, Wales, CSIR Great Britain 1, 5 (Oxford 1986) 6-7, Nr. 6; Pl. 2, 6. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Saluti Re/ginae P(ublius) Sal/lienius P(ubli) f(ilius) / Maecia Tha[la]/mus Had[ria] / pr(a)ef(ectus) leg(ionis) II A[ug(ustae)] / cum fili(i)s suis / Ampeiano et Lu/ciliano d(ono) d(edit)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Saluti Re<lb break="no" n="2"/>ginae <expan><abbr>P</abbr><ex>ublius</ex></expan> Sal<lb break="no" n="3"/>lienius <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="4"/>Maecia Tha<supplied reason="lost">la</supplied><lb break="no" n="5"/>mus Had<supplied reason="lost">ria</supplied> <lb n="6"/>pr<expan><ex>a</ex><abbr>ef</abbr><ex>ectus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> II A<supplied reason="lost"><expan><abbr>ug</abbr><ex>ustae</ex></expan></supplied> <lb n="7"/>cum fili<expan><ex>i</ex><abbr>s</abbr></expan> suis <lb n="8"/>Ampeiano et Lu<lb break="no" n="9"/>ciliano <expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): In Z. 2-3 Sal/tienius statt Sal/lienius. Die Inschrift besteht aus 3 nicht aneinanderpassenden Fragmenten.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

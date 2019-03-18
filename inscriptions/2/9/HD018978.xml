@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD018978</idno>
+                <idno type="TM">209114</idno><idno type="localID">HD018978</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Köln, Röm.-Germ. Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>73</height>
+                                        <width>240</width>
+                                        <depth>93</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016530">Germania inferior</placeName><placeName ref="http://www.trismegistos.org/place/003258">Colonia Claudia Ara Agrippinensium</placeName></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1934">1934</date>
+                        <placeName ref="http://www.geonames.org/2886242">Köln</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Nordrhein-Westfalen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-01-31" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1956, 0252. 
+                    </bibl>
+                    <bibl>
+                         F. Fremersdorf, KJ 1, 1955, 30-31, Nr. 21; Abb. 6 (Zeichnung). - AE 1956. 
+                    </bibl>
+                    <bibl>
+                         B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln, IKöln (2. 
+                    </bibl>
+                    <bibl>
+                         Aufl.) (Mainz 2010) 238-239, Nr. 281; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Ha[ve] Taurici salv(u)s sis homo bon[e] quoniam me salutasti / perlege et dicam tibi C(aio) Tauricio Vero vet(erano) ex b(ene)f(iciario) co(n)s(ularis) eques/tris militiae petitori Tauriciu[s Ver]ulus filius et heres / et Iulia Ingenua coniux ex vo[lunta]te testamenti / faciundum curaverunt heredes et amici hic / ego vos specto [bene valete - - -]NTE
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Ha<supplied reason="lost">ve</supplied> Taurici salv<expan><ex>u</ex><abbr>s</abbr></expan> sis homo bon<supplied reason="lost">e</supplied> quoniam me salutasti <lb n="2"/>perlege et dicam tibi <expan><abbr>C</abbr><ex>aio</ex></expan> Tauricio Vero <expan><abbr>vet</abbr><ex>erano</ex></expan> ex b<expan><ex>ene</ex><abbr>f</abbr><ex>iciario</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> eques<lb break="no" n="3"/>tris militiae petitori Tauriciu<supplied reason="lost">s Ver</supplied>ulus filius et heres <lb n="4"/>et Iulia Ingenua coniux ex vo<supplied reason="lost">lunta</supplied>te testamenti <lb n="5"/>faciundum curaverunt heredes et amici hic <lb n="6"/>ego vos specto <supplied reason="lost">bene valete <gap reason="lost" extent="unknown" unit="character"/></supplied>NTE
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 1: Fremersdorf: Salussis. Frontseite eines Sarkophagkastens. Die Abmessungen beziehen sich auf den Kasten.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

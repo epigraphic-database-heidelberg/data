@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio auf Tessera</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD076476</idno>
+                <idno type="TM"/><idno type="localID">HD076476</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Worms, Stadtmus. im Andreasstift; Bad Kreuznach, Kopie</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/276">Tessera</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>8</height>
+                                        <width>13</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/88">geritzt / Graffito</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Cruciniacum (Civitas Vangionum?)</placeName></origPlace>
+                            <origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 100 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1886">1886</date>
+                        <placeName ref="http://www.geonames.org/2953416">Bad Kreuznach</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/76">Defixio</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-06-27" who="osnabrügge">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 07554. 
+                    </bibl>
+                    <bibl>
+                         A. Audollent, Defixionum tabellae (Parisiis 1904, ND Frankfurt/Main 1967) 151-153, Nr. 98. (B) 
+                    </bibl>
+                    <bibl>
+                         A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 5.1.4/5. (B) 
+                    </bibl>
+                    <bibl>
+                         J. Blänsdorf, Die Defixionum tabellae des Mainzer Isis- und Mater Magna-Heiligtums (Klagenfurt 2008) 186. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Vale(n)tis(!) Sinto sive alii inimici / Valentinus(!) Sinto inim(i)cus sic <qu=C>om(o)d<o=I>#<qu>om(o)d<o>#COMDI plumbum / subsid<i=E>t#subsid<i>t#SUBSIDET sic Sintonem et Martialem Sinto[nis] / et Adiutorium Sintonis et quisquis contra / Rubrium fr[atre]m et me Quartionem / si qui(s) contravenerit Sintonem et Adiuto/rium eius Sintonis defero ad infero(s) / sic nusquam contra nos [inve]nisse respon[sio]/nis cum loquantur inimici sic [d]esumat / non parentem tanquam(!) inferos
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Vale<expan><ex>n</ex><abbr>tis</abbr></expan> <note>sic</note> Sinto sive alii inimici <lb n="2"/>Valentinus <note>sic</note> Sinto inim<expan><ex>i</ex><abbr>cus</abbr></expan> sic <supplied reason="omitted">qu=C</supplied>om<expan><ex>o</ex><abbr>d</abbr></expan><choice><corr>o</corr><sic>I</sic></choice>#<supplied reason="omitted">qu</supplied>om<expan><ex>o</ex><abbr>d</abbr></expan><supplied reason="omitted">o</supplied>#COMDI plumbum <lb n="3"/>subsid<choice><corr>i</corr><sic>E</sic></choice>t#subsid<supplied reason="omitted">i</supplied>t#SUBSIDET sic Sintonem et Martialem Sinto<supplied reason="lost">nis</supplied> <lb n="4"/>et Adiutorium Sintonis et quisquis contra <lb n="5"/>Rubrium fr<supplied reason="lost">atre</supplied>m et me Quartionem <lb n="6"/>si <expan><abbr>qui</abbr><ex>s</ex></expan> contravenerit Sintonem et Adiuto<lb break="no" n="7"/>rium eius Sintonis defero ad <expan><abbr>infero</abbr><ex>s</ex></expan> <lb n="8"/>sic nusquam contra nos <supplied reason="lost">inve</supplied>nisse respon<supplied reason="lost">sio</supplied><lb break="no" n="9"/>nis cum loquantur inimici sic <supplied reason="lost">d</supplied>esumat <lb n="10"/>non parentem tanquam <note>sic</note> inferos
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Fluchtäfelchen aus Blei. In Z. 1 Vale(n)tis nachträglich am linken Rand hinzugefügt, ebenso Valentinus in Z. 2 (vielleicht ist in Z. 2 auch 'Valentis' gemeint). Rechts von Z. 1 noch durchgestrichene Buchstabenreste, RMD[-]VS(?). Schreibtechnik: geritzt. Kursive Schrift. (B): Blänsdorf: Z. 2: Sinto Valentis; Kropp: Z. 10: infero&amp;lt;s&amp;gt;(!); Audullent: Z. 5: F[r]o[ntonis]; Z. 8: contra nos [---] si respond[---]; Z. 9/10: loquantur inferis sic ollumus / non paventem tamquam inferos.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

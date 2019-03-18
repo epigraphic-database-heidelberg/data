@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD022407</idno>
+                <idno type="TM">179106</idno><idno type="localID">HD022407</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Caracal, Muz. Rom.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>56</height>
+                                        <width>56</width>
+                                        <depth>11</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/004366">Dacia</placeName><placeName ref="http://www.trismegistos.org/place/029109">Romula</placeName></origPlace>
+                            <origDate notBefore-custom="0247" notAfter-custom="0249" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">247 AD – 249 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1918">1918</date>
+                        <placeName ref="http://www.geonames.org/668958">Dobrosloveni</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Olt</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-07-31" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1939, 0028. (B) 
+                    </bibl>
+                    <bibl>
+                         IDR 2, 327; Foto u. Zeichnung. (B) 
+                    </bibl>
+                    <bibl>
+                         ILD 136. 
+                    </bibl>
+                    <bibl>
+                         D. Tudor, BCM 28, 1935, 115-116, Nr. 110; fig. 28 (Zeichnung). (B) - AE 1939. 
+                    </bibl>
+                    <bibl>
+                         M.P. Speidel, ZPE 30, 1978, 118-122; Zeichnung. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Salvi]s dd(ominis) nn(ostris) / [[Ph[ili]ppis]] Aug/g(ustis) felix leg(io) VII / Cl(audia) p(ia) f(idelis) vestra / |(centuriae) VI ha[st(atorum) pr(ioris)] et / post(erioris) d[ev(otae) n(umini)] m(aiestatique) / eorum // [-]RNS[-](?)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">Salvi</supplied>s <expan><abbr>d<am>d</am></abbr><ex>ominis</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostris</ex></expan> <lb n="2"/><del rend="erasure">Ph<supplied reason="lost">ili</supplied>ppis</del> Aug<lb break="no" n="3"/><expan><abbr>g</abbr><ex>ustis</ex></expan> felix <expan><abbr>leg</abbr><ex>io</ex></expan> VII <lb n="4"/><expan><abbr>Cl</abbr><ex>audia</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> vestra <lb n="5"/>|(centuriae) VI ha<supplied reason="lost"><expan><abbr>st</abbr><ex>atorum</ex></expan> <expan><abbr>pr</abbr><ex>ioris</ex></expan></supplied> et <lb n="6"/><expan><abbr>post</abbr><ex>erioris</ex></expan> d<supplied reason="lost"><expan><abbr>ev</abbr><ex>otae</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan></supplied> <expan><abbr>m</abbr><ex>aiestatique</ex></expan> <lb n="7"/>eorum </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>RNS<supplied reason="lost" cert="low">-</supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Mehrere aneinanderpassende Fragmente erhalten. Hederae. Z. 8 auf dem unteren Rahmen (dieses Fragment ist inzwischen verschollen). (B): Tudor; AE 1939; IDR II; Speidel: Abweichungen in Lesung und Ergänzung.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

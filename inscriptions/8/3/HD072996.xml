@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD072996</idno>
+                <idno type="TM"/><idno type="localID">HD072996</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Petronell-Carnuntum, Privatbesitz</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-30</height>
+                                        <width>-19</width>
+                                        <depth>23</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="guidelines">GUIDELINES</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.7-4.8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1890">1890</date>
+                        <placeName ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Niederösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-10-21" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 14090. 
+                    </bibl>
+                    <bibl>
+                         E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 25, Nr. 96. 
+                    </bibl>
+                    <bibl>
+                         G. Kremer, Götterdarstellungen, Kult- und Weihedenkmäler aus Carnuntum, CSIR Österreich Carnuntum (Suppl.) 1 (Wien 2012) 214, Nr. 435; Taf. 141, 435. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Sil]vano / [Do]mes/[tico? sa]c(rum?) // [- - - - - -]/ius Rufus / v(otum) s(olvit) l(ibens) l(aetus) m(erito)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">Sil</supplied>vano <lb n="2"/><supplied reason="lost">Do</supplied>mes<lb break="no" n="3"/><supplied reason="lost">tico<certainty locus="name" match="preceding-sibling::text()" cert="low"/> sa</supplied><expan><abbr>c</abbr><ex cert="low">rum</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/><lb break="no" n="1"/>ius Rufus <lb n="2"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Inschrift besteht aus drei nicht direkt aneinanderpassenden Fragmenten (nach der Zeichnung im CIL), von denen heute nur noch zwei erhalten sind. Zeile 1-3 befinden sich auf Fragment (a), Zeile 4-6 je etwa zur Hälfte auf den Fragmenten (b) und (c), von denen (c), die rechte untere Ecke, verschollen ist. Die Maßangabe bezieht sich auf Fragment (a). Maße Fragment (b) in cm: Höhe erh. 32; Breite erh. 26,5; Tiefe erh. 24. Lesung nach der Zeichnung in CIL 03, 14090. Zeile 2: ME-Ligatur. (B): Kremer: Z. 2-5: [Do]mes(tico) [sa]c(rum) / Q(uintus) [Iul?]/ius Rufus. Fehlender Zeilenfall Z. 2/3. (B): Vorbeck: Z. 2-5: [Do]mes(tico) [sa]c(rum) / [--- Iul]/ius Rufus. Fehlender Zeilenfall Z. 2/3.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD073138</idno>
+                <idno type="TM"/><idno type="localID">HD073138</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>172</height>
+                                        <width>75.5</width>
+                                        <depth>20</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="guidelines">GUIDELINES</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4-4.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum</placeName></origPlace>
+                            <origDate notBefore-custom="0236" notAfter-custom="0238" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">236 AD – 238 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1883">1883</date>
+                        <placeName ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Niederösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-06-09" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F019578">
+            <desc>F019578</desc>
+        </graphic>
+
+        <graphic url="http://lupa.at/14784">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 11189. (B) 
+                    </bibl>
+                    <bibl>
+                         M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR Österreich 1, 4 (Wien 1972) 38, Nr. 503; Taf. 37, 503. 
+                    </bibl>
+                    <bibl>
+                         G. Kremer, Götterdarstellungen, Kult- und Weihedenkmäler aus Carnuntum, CSIR Österreich Carnuntum (Suppl.) 1 (Wien 2012) 268-269, Nr. 618; Taf. 181, 618. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [- - - - - -] // pro salute dd(ominorum) nn(ostrorum) Imp(eratorum) / [[- - - - - -]] / [[- - - - - -]] / [[- - - - - -]] / [[- - -]] Augg(ustorum) to/tiusque domus divi/nae in honorem col(legii) / conveter(anorum) L(ucius) Cass(ius) Flore/ntinus vet(eranus) leg(ionis) XIIII gem(inae) / [[M[aximini]anae]] ex c(ustode) a(rmorum) / mag(ister) coll(egii) s(upra) s(cripti) devotus / numini maies{s}tati
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> pro salute <expan><abbr>d<am>d</am></abbr><ex>ominorum</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostrorum</ex></expan> <expan><abbr>Imp</abbr><ex>eratorum</ex></expan> <lb n="0"/>[<gap reason="lost" quantity="1" unit="line"/>] <lb n="0"/>[<gap reason="lost" quantity="1" unit="line"/>] <lb n="0"/>[<gap reason="lost" quantity="1" unit="line"/>] <lb n="2"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del> <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> to<lb break="no" n="3"/>tiusque domus divi<lb break="no" n="4"/>nae in honorem <expan><abbr>col</abbr><ex>legii</ex></expan> <lb n="5"/><expan><abbr>conveter</abbr><ex>anorum</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Cass</abbr><ex>ius</ex></expan> Flore<lb break="no" n="6"/>ntinus <expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XIIII <expan><abbr>gem</abbr><ex>inae</ex></expan> <lb n="7"/><del rend="erasure">M<supplied reason="lost">aximini</supplied>anae</del> ex <expan><abbr>c</abbr><ex>ustode</ex></expan> <expan><abbr>a</abbr><ex>rmorum</ex></expan> <lb n="8"/><expan><abbr>mag</abbr><ex>ister</ex></expan> <expan><abbr>coll</abbr><ex>egii</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>cripti</ex></expan> devotus <lb n="9"/>numini maies<surplus>s</surplus>tati
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Altar oder Basis? Die Oberfläche ist stark beschädigt und nur schwer lesbar. Auf der corona befand sich wohl noch eine Weihung. Zeile 2: VTE-Ligatur; Zeile 9 VE- und TE-Ligatur; Zeile 10: NT- und VET-Ligatur; Zeile 12: TV-Ligatur. In Zeile 9 möglicherweise RE-Ligatur, jedoch auf dem Foto nicht eindeutig zu erkennen. In Zeile 3-6 befanden sich die Namen und Titel des Maximinus Thrax und des Maximus, jedoch ist unklar, in welcher Form. (B): CIL 03, 11189: Beginnt mit Zeile 2. Z. 2: Imp[p(eratorum)]; Z. 12: devotu[s]. (B): Kremer: Z. 8: col[l(egii)].</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002382</idno>
+                <idno type="TM">208775</idno><idno type="localID">HD002382</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bonn, Rhein. Landesmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>44</height>
+                                        <width>48.5</width>
+                                        <depth>6.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016530">Germania inferior</placeName><placeName ref="http://www.trismegistos.org/place/020927">Bonna</placeName></origPlace>
+                            <origDate notBefore-custom="0211" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">211 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1880">1880</date>
+                        <placeName ref="http://www.geonames.org/2946447">Bonn</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Nordrhein-Westfalen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-04-07" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F018382">
+            <desc>F018382</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1985, 0683. 
+                    </bibl>
+                    <bibl>
+                         W. Eck, BJ 185, 1985, 41-45; Abb. 1; Abb. 2 (Zeichnung). - AE 1985. 
+                    </bibl>
+                    <bibl>
+                         CIL 13, 08050. 
+                    </bibl>
+                    <bibl>
+                         H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 13, Nr. 20. (B) - AE 1985. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp[[p]](eratori) Caes[[s]](ari) M(arco) Aurelio Antonino Pio Aug(usto) [[et]] Par]t(hico) max(imo) Brit(annico) m[ax(imo) Pio Aug(usto) et Iuliae Augustae matri Augg(ustorum) et castr(orum)] / [dedicantibus L(ucio)? Lucceio? Martino? leg(ato) Au]gg(ustorum) pr(o) pr(aetore) et [[C(aio)? Fabi[o? Agrippino?]] leg(ato) leg(ionis) I Minerviae piae fidelis] // [- - - - - -] // [- - - - - -] // [- - - - - -] // [- - - - - -] // Iul(ius) Placidus / Cassi(us) Avitus / Dassiu(s) Gelli(us) / Luciu(s) Octavius / [Pl]ot(ius) Faustinus / [- - -]ca Augustus // Ius[- - -] / Ru[- - -] / Pri[- - -] / Fir[- - -] / Vit[- - -] / Se[- - -] // [- - - - - -] // [- - - - - -] // [- - - - - -] // [- - - - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                [Imp<del rend="erasure">p</del>(eratori) Caes<del rend="erasure">s</del>(ari) <expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio Antonino Pio <expan><abbr>Aug</abbr><ex>usto</ex></expan> <del rend="erasure">et</del> Par]<expan><abbr>t</abbr><ex>hico</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>Brit</abbr><ex>annico</ex></expan> m<supplied reason="lost"><expan><abbr>ax</abbr><ex>imo</ex></expan> Pio <expan><abbr>Aug</abbr><ex>usto</ex></expan> et Iuliae Augustae matri <expan><abbr>Augg</abbr><ex>ustorum</ex></expan> et <expan><abbr>castr</abbr><ex>orum</ex></expan></supplied> <lb n="2"/><supplied reason="lost">dedicantibus <expan><abbr>L</abbr><ex>ucio</ex></expan>? Lucceio<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Martino<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>leg</abbr><ex>ato</ex></expan> Au</supplied><expan><abbr>gg</abbr><ex>ustorum</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> et <del rend="erasure"><expan><abbr>C</abbr><ex>aio</ex></expan>? Fabi<supplied reason="lost">o<certainty locus="name" match="preceding-sibling::text()" cert="low"/></supplied>[o</del> <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> I Minerviae piae fidelis] </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="3" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="4" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="5" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="6" type="textpart"><ab><lb n="1"/> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Placidus <lb n="2"/><expan><abbr>Cassi</abbr><ex>us</ex></expan> Avitus <lb n="3"/><expan><abbr>Dassiu</abbr><ex>s</ex></expan> <expan><abbr>Gelli</abbr><ex>us</ex></expan> <lb n="4"/><expan><abbr>Luciu</abbr><ex>s</ex></expan> Octavius <lb n="5"/><expan><abbr><supplied reason="lost">Pl</supplied>ot</abbr><ex>ius</ex></expan> Faustinus <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>ca Augustus </ab></div><div n="7" type="textpart"><ab><lb n="1"/> Ius<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>Ru<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Pri<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>Fir<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>Vit<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>Se<gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="8" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="9" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="10" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="11" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Wohl Teil von der vorderen Verkleidung einer Basis für eine Statuengruppe; die Dedikanten (Centurionen der Legion) waren in 10 Kolumnen angeordnet. Rekonstruktion: W. Eck. Z. 1: [Par]t(hico) max(imo) Brit(annico) m[ax(imo)] steht auf eradiertem Text, der sich [[[et P(ublio) Septimio Getae]]] ergänzen läßt. (B): Lehner: Z. 2: [[C. Basi[---]]].</p>
+            </div>
+        </body>
+    </text>
+</TEI>

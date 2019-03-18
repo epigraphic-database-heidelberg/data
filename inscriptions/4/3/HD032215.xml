@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD032215</idno>
+                <idno type="TM">194654</idno><idno type="localID">HD032215</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Budapest, Magyar Nemzeti Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-45</height>
+                                        <width>-60</width>
+                                        <depth>24</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/029251">Intercisa</placeName></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3053438">Dunaújváros</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Fejér megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-10-06" who="Feraudi">
+             überprüft per Autopsie
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/8171">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        RIU 1552a; Abb. 1552a (Foto u. Zeichnung). (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 03336. 
+                    </bibl>
+                    <bibl>
+                         G. Alföldy, SpNov 16, 2000, 61-62, Nr. 23. - AE 2001. 
+                    </bibl>
+                    <bibl>
+                         AE 2001, 1669. 
+                    </bibl>
+                    <bibl>
+                         IDRE 285. 
+                    </bibl>
+                    <bibl>
+                         G. Erdélyi - F. Fülep, in: L. Barkóczi u. a., Intercisa I. (Dunapentele - Sztálinváros). Geschichte der Stadt in der Römerzeit (Budapest 1954) 282, Nr. 27; Taf. 46, 4. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [- - - Satur?]n(?)in(us) q(uon)d(am) armat[ura] / leg(ionis) II ad(iutricis) stip(endiorum) XVI o[r]/iundus ex regio/ne Bassiane(n)si desi/deratus in Dacia qu(ondam) / qui vixit ann(os) XXXIIII / Sept(imius) Maximi[a]n[us - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> Satur</supplied><expan><abbr>n</abbr><ex cert="low"/>in</expan>(us) q<expan><ex>uon</ex><abbr>d</abbr><ex>am</ex></expan> armat<supplied reason="lost">ura</supplied> <lb n="2"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>ad</abbr><ex>iutricis</ex></expan> <expan><abbr>stip</abbr><ex>endiorum</ex></expan> XVI o<supplied reason="lost">r</supplied><lb break="no" n="3"/>iundus ex regio<lb break="no" n="4"/>ne Bassiane<expan><ex>n</ex><abbr>si</abbr></expan> desi<lb break="no" n="5"/>deratus in Dacia <expan><abbr>qu</abbr><ex>ondam</ex></expan> <lb n="6"/>qui vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXXIIII <lb n="7"/><expan><abbr>Sept</abbr><ex>imius</ex></expan> Maximi<supplied reason="lost">a</supplied>n<supplied reason="lost">us</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Lesung nach Á. Szabó (Autopsie) und G. Alföldy. (B): RIU: abweichende Textwiedergabe.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

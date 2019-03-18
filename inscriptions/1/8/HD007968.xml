@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD007968</idno>
+                <idno type="TM">195603</idno><idno type="localID">HD007968</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Ptuj, Pokrajinski Muz. Ptuj-Ormož</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>153</height>
+                                        <width>60</width>
+                                        <depth>27</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/029091">Poetovio</placeName></origPlace>
+                            <origDate notBefore-custom="0231" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">231 AD – 270 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1983">1983</date>
+                        <placeName ref="http://www.geonames.org/3192241">Ptuj</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Podravska statistična regija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/si/">Slowenien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-11-02" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/4250">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1986, 0570. (B) 
+                    </bibl>
+                    <bibl>
+                         I. Tušek, AArchSlov 37, 1986, 350-352. 368; t. 10. - AE 1986. 
+                    </bibl>
+                    <bibl>
+                         J. Mander, Portraits of children on Roman funerary monuments (Cambridge 2013) 288, Nr. 614. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Memoriae // Iuliae Cupitae / obsequentissi/mae et rarissim(a)e / propter pietatem / coniugi quae / vixit ann(os) XX mens(es) / VIIII d(ies) XIII Apul(eius) / Lupus mil(es) leg(ionis) XIIII / gem(inae) et Iulia Fec(u)la / filia superstis(!) / et Tiberi(a) Domitiana / mater et s(ibi) vivi f(aciendum) c(uraverunt)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Memoriae </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Iuliae Cupitae <lb n="2"/>obsequentissi<lb break="no" n="3"/>mae et rarissim<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="4"/>propter pietatem <lb n="5"/>coniugi quae <lb n="6"/>vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XX <expan><abbr>mens</abbr><ex>es</ex></expan> <lb n="7"/>VIIII <expan><abbr>d</abbr><ex>ies</ex></expan> XIII <expan><abbr>Apul</abbr><ex>eius</ex></expan> <lb n="8"/>Lupus <expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XIIII <lb n="9"/><expan><abbr>gem</abbr><ex>inae</ex></expan> et Iulia Fec<expan><ex>u</ex><abbr>la</abbr></expan> <lb n="10"/>filia superstis <note>sic</note> <lb n="11"/>et <expan><abbr>Tiberi</abbr><ex>a</ex></expan> Domitiana <lb n="12"/>mater et <expan><abbr>s</abbr><ex>ibi</ex></expan> vivi <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Oberhalb des Inschriftfeldes die Büsten einer Frau, eines Knaben und eines Mannes. Z. 6 (Ende): Buchstabe S steht auf dem Rahmen. (B): AE 1986; Mander: Z. 8/9: Zeilenfall nicht angegeben.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

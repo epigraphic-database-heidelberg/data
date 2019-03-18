@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD064227</idno>
+                <idno type="TM">178220</idno><idno type="localID">HD064227</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-40</height>
+                                        <width/>
+                                        <depth>-21</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.5-0.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000078">Achaia</placeName><placeName>Athenae</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0089" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 89 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Athínai</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Attikí</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-09-26" who="Cowey">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        M.C.J. Miller, Inscriptiones Atticae. Supplementum inscriptionum Atticarum 6 (Chicago 1992) 108-111, Nr. 78. 
+                    </bibl>
+                    <bibl>
+                         W. Peek, Attische Grabschriften 2 (Berlin 1958) 29-30, Nr. 90; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         SEG 29, 0244. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [D(is) M(anibus) - - -] M(arci) f(ilius) V(oltinia) [Valens] / [mil(es) leg(ionis) X] gem(inae) |(centuria) Ru[tuli] / [vix(it) ann(os) - - - mil(itavit) an]n(os) IIX Atilius [- - -] / [fac(iendum) cur(avit)] ex t(estamento) // [θ(εοῖς) κ(αταχθονίοις) - - - Μά]ρκου υἱὸς Βά[λης στρατιώτης] / [λεγεῶν]ος ιʹ γεμίνη κ[εντουρείας Ῥουτιλίου] / [ἔζησεν ἔτη -] ἐστράτευσ[εν ἔτη ηʹ ἐποίησεν] / [Ἀτίλιος στρα]τιώτης τῆ[ς αὐτῆς λεγεῶνος] / [διατιθεμένο]υ αὐτοῦ
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>V</abbr><ex>oltinia</ex></expan> <supplied reason="lost">Valens</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> X</supplied> <expan><abbr>gem</abbr><ex>inae</ex></expan> <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Ru<supplied reason="lost">tuli</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>ann</abbr><ex>os</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>mil</abbr><ex>itavit</ex></expan> an</supplied><expan><abbr>n</abbr><ex>os</ex></expan> IIX Atilius <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><supplied reason="lost"><expan><abbr>fac</abbr><ex>iendum</ex></expan> <expan><abbr>cur</abbr><ex>avit</ex></expan></supplied> ex <expan><abbr>t</abbr><ex>estamento</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">θ(εοῖς) κ(αταχθονίοις) <gap reason="lost" extent="unknown" unit="character"/> Μά</supplied>ρκου υἱὸς Βά<supplied reason="lost">λης στρατιώτης</supplied> <lb n="2"/><supplied reason="lost">λεγεῶν</supplied>ος ιʹ γεμίνη κ<supplied reason="lost">εντουρείας Ῥουτιλίου</supplied> <lb n="3"/><supplied reason="lost">ἔζησεν ἔτη <gap reason="lost" quantity="1" unit="character"/></supplied> ἐστράτευσ<supplied reason="lost">εν ἔτη ηʹ ἐποίησεν</supplied> <lb n="4"/><supplied reason="lost">Ἀτίλιος στρα</supplied>τιώτης τῆ<supplied reason="lost">ς αὐτῆς λεγεῶνος</supplied> <lb n="5"/><supplied reason="lost">διατιθεμένο</supplied>υ αὐτοῦ
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

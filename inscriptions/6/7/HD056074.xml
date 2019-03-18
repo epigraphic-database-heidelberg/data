@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD056074</idno>
+                <idno type="TM">192452</idno><idno type="localID">HD056074</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>15.8</height>
+                                        <width>12.4</width>
+                                        <depth>0.1</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">0.45</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName ref="http://www.trismegistos.org/place/029860">Sexaginta Prista</placeName></origPlace>
+                            <origDate notBefore-custom="0105-05-13" notAfter-custom="0105-05-13" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">13.5.105 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/727523">Ruse</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Ruse</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-11-18" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2004, 1256. 
+                    </bibl>
+                    <bibl>
+                         R. Petrovszky, MHistVerPfalz 102, 2004, 7-64. - AE 2004 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) Caesar divi Nervae f(ilius) Nerva Traia/nus Augustus Germanicus Dacicus / pontifex maximus tribunic(ia) potes/tat(e) VIIII imp(erator) IIII co(n)s(ul) V p(ater) p(atriae) / equitibus et peditibus qui militant in alis / tribus et cohortibus septem quae appel/lantur I Flavia Gaetulorum et I Astu/rum et II Hispanorum et Arvacorum et / I Lepidiana c(ivium) R(omanorum) et I Bracaraugustanorum / et I Sugambrorum tironum et II Mattia/corum et II Chalcidenorum et II Flavia / Brittonum et Ubiorum et sunt in Moe/sia inferiore sub A(ulo) Caecilio Faustino / qui quina et vicena plurave stipendia / meruerunt item dimissis honesta / missione quorum nomina subscripta / sunt ipsis liberis posterisque eorum / civitatem dedit et conubium cum / uxoribus quas tunc habuissent cum / civitas iis data aut si qui caelibes es/sent cum iis quas postea duxissent dum/taxat singuli singulas a(nte) d(iem) III Idus Mai(as) / C(aio) Iulio Basso Cn(aeo) Afranio Dextro co(n)s(ulibus) / alae II Hispanorum et Arvacorum cui / prae(e)st L(ucius) Fabius L(uci) f(ilius) Pal(atina) Fabullus / gregali / Atrecto Capitonis f(ilio) Nemet(i) / descriptum et recognitum ex tabula / aenea quae fixa est Romae in muro / post templum divi Aug(usti) ad Minerva(m) // Imp(erator) Caesar divi Nervae f(ilius) Nerva Traianus August(us) / Germanicus pontifex maximus tribunic(ia) / potestat(e) VIIII imp(erator) IIII / co(n)s(ul) V p(ater) p(atriae) / equitibus et peditibus qui militant in alis / tribus et cohortibus septem quae ap(p)ellantur / I Flavia Gaetulorum et I Asturum et II Hispano/rum et Arvacorum et I Lepidiana c(ivium) R(omanorum) et I Braca/raugustanorum et I Sugambrorum tironum / et II Mattiacorum et II Chalcidenorum et / II Flavia Brittannorum et Ubiorum et sunt / in Moesia inferiore sub A(ulo) Caecilio Faustino / qui quina et vicena plurave stipendia / meruerunt item dimissis honesta missione
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Nervae <expan><abbr>f</abbr><ex>ilius</ex></expan> Nerva Traia<lb break="no" n="2"/>nus Augustus Germanicus Dacicus <lb n="3"/>pontifex maximus <expan><abbr>tribunic</abbr><ex>ia</ex></expan> potes<lb break="no" n="4"/><expan><abbr>tat</abbr><ex>e</ex></expan> VIIII <expan><abbr>imp</abbr><ex>erator</ex></expan> IIII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> V <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/>equitibus et peditibus qui militant in alis <lb n="6"/>tribus et cohortibus septem quae appel<lb break="no" n="7"/>lantur I Flavia Gaetulorum et I Astu<lb break="no" n="8"/>rum et II Hispanorum et Arvacorum et <lb n="9"/>I Lepidiana <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I Bracaraugustanorum <lb n="10"/>et I Sugambrorum tironum et II Mattia<lb break="no" n="11"/>corum et II Chalcidenorum et II Flavia <lb n="12"/>Brittonum et Ubiorum et sunt in Moe<lb break="no" n="13"/>sia inferiore sub <expan><abbr>A</abbr><ex>ulo</ex></expan> Caecilio Faustino <lb n="14"/>qui quina et vicena plurave stipendia <lb n="15"/>meruerunt item dimissis honesta <lb n="16"/>missione quorum nomina subscripta <lb n="17"/>sunt ipsis liberis posterisque eorum <lb n="18"/>civitatem dedit et conubium cum <lb n="19"/>uxoribus quas tunc habuissent cum <lb n="20"/>civitas iis data aut si qui caelibes es<lb break="no" n="21"/>sent cum iis quas postea duxissent dum<lb break="no" n="22"/>taxat singuli singulas <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> III Idus <expan><abbr>Mai</abbr><ex>as</ex></expan> <lb n="23"/><expan><abbr>C</abbr><ex>aio</ex></expan> Iulio Basso <expan><abbr>Cn</abbr><ex>aeo</ex></expan> Afranio Dextro co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="24"/>alae II Hispanorum et Arvacorum cui <lb n="25"/>prae<expan><ex>e</ex><abbr>st</abbr></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> Fabius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Pal</abbr><ex>atina</ex></expan> Fabullus <lb n="26"/>gregali <lb n="27"/>Atrecto Capitonis <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Nemet</abbr><ex>i</ex></expan> <lb n="28"/>descriptum et recognitum ex tabula <lb n="29"/>aenea quae fixa est Romae in muro <lb n="30"/>post templum divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad <expan><abbr>Minerva</abbr><ex>m</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Nervae <expan><abbr>f</abbr><ex>ilius</ex></expan> Nerva Traianus <expan><abbr>August</abbr><ex>us</ex></expan> <lb n="2"/>Germanicus pontifex maximus <expan><abbr>tribunic</abbr><ex>ia</ex></expan> <lb n="3"/><expan><abbr>potestat</abbr><ex>e</ex></expan> VIIII <expan><abbr>imp</abbr><ex>erator</ex></expan> IIII <lb n="4"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> V <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/>equitibus et peditibus qui militant in alis <lb n="6"/>tribus et cohortibus septem quae ap<expan><ex>p</ex><abbr>ellantur</abbr></expan> <lb n="7"/>I Flavia Gaetulorum et I Asturum et II Hispano<lb break="no" n="8"/>rum et Arvacorum et I Lepidiana <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I Braca<lb break="no" n="9"/>raugustanorum et I Sugambrorum tironum <lb n="10"/>et II Mattiacorum et II Chalcidenorum et <lb n="11"/>II Flavia Brittannorum et Ubiorum et sunt <lb n="12"/>in Moesia inferiore sub <expan><abbr>A</abbr><ex>ulo</ex></expan> Caecilio Faustino <lb n="13"/>qui quina et vicena plurave stipendia <lb n="14"/>meruerunt item dimissis honesta missione
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

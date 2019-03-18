@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000833</idno>
+                <idno type="TM">286447</idno><idno type="localID">HD000833</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Roma, Collez. Albani</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Umbria (Regio VI)</placeName><placeName ref="http://www.trismegistos.org/place/032219">Ocriculum</placeName></origPlace>
+                            <origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 150 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1733">1733</date>
+                        <placeName ref="http://www.geonames.org/">Otricoli</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Umbria</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-11-15" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1983, 0335. 
+                    </bibl>
+                    <bibl>
+                         C. Pietrangeli, Epigraphica 3, 1941, 144-145 u. 152, Nr. 16. (B) - AE 1983. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Q(uintus) Paccius C(ai) f(ilius) Arn(ensis) Bassus / IIIIvir aed(ilis) sibi et Aufidiae <L=I>(uci)#<L>(uci)#I f(iliae) / matri arbitr(atu) / <L=I>(uci)#<L>(uci)#I Manlii [-] f(ili) Rufini et C(ai) Aufidi / Anthioci
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uintus</ex></expan> Paccius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Arn</abbr><ex>ensis</ex></expan> Bassus <lb n="2"/>IIIIvir <expan><abbr>aed</abbr><ex>ilis</ex></expan> sibi et Aufidiae <choice><corr>L</corr><sic>I</sic></choice>(uci)#<supplied reason="omitted">L</supplied>(uci)#I <expan><abbr>f</abbr><ex>iliae</ex></expan> <lb n="3"/>matri <expan><abbr>arbitr</abbr><ex>atu</ex></expan> <lb n="4"/><choice><corr>L</corr><sic>I</sic></choice>(uci)#<supplied reason="omitted">L</supplied>(uci)#I Manlii <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <expan><abbr>f</abbr><ex>ili</ex></expan> Rufini et <expan><abbr>C</abbr><ex>ai</ex></expan> Aufidi <lb n="5"/>Anthioci
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Früher wurde der Stein im Haus des I. Nuzzi im Territorio Ortano aufbewahrt. (B): Pietrangeli: Z. 2: Aufidiae I.f.; Z.4/5: I. Manlii f. Rufine I. Caufidi / Anni Ioci.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

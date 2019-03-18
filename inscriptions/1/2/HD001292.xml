@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001292</idno>
+                <idno type="TM">286441</idno><idno type="localID">HD001292</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mus. Oliveriano</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>70.5</height>
+                                        <width>-124</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">12.5-7</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Umbria (Regio VI)</placeName><placeName ref="http://www.trismegistos.org/place/014364">Pisaurum</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 230 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1913">1913</date>
+                        <placeName ref="http://www.geonames.org/">Pesaro</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Marche</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-02-13" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0264. (AB) 
+                    </bibl>
+                    <bibl>
+                         G. Mennella - G. Cresci Marrone, SupplIt 1 (Roma 1981) 88-89, Nr. 6; Foto. (AB) - AE. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                L(ucius) Turpilius [L(uci) f(ilius)] / Cam(ilia) Maximus et T[urpilia] / Maximina fil(ia) schol(am) co[llegi] / fecerunt quam vi ignis am[issam] / colleg(ium) fabr(um) p(ecunia) s(ua) res[tituit]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Turpilius <supplied reason="lost"><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="2"/><expan><abbr>Cam</abbr><ex>ilia</ex></expan> Maximus et T<supplied reason="lost">urpilia</supplied> <lb n="3"/>Maximina <expan><abbr>fil</abbr><ex>ia</ex></expan> <expan><abbr>schol</abbr><ex>am</ex></expan> co<supplied reason="lost">llegi</supplied> <lb n="4"/>fecerunt quam vi ignis am<supplied reason="lost">issam</supplied> <lb n="5"/><expan><abbr>colleg</abbr><ex>ium</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan> res<supplied reason="lost">tituit</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Tafel besteht aus mehreren zusammengehörigen Fragmenten. Da sie vermauert ist, nur 1,5 cm Tiefe meßbar. (A): falsche Reihenfolge der Buchstabenhöhe. (B): Z. 3: AE: f(ilia) statt fil(ia); Z. 5: AE, Mennella - Cresci Marrone: fab(rum) statt fabr(um). Erwähnung der schola fabrum von Pisaurum in CIL XI 6335.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

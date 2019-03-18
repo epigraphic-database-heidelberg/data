@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Basis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD059331</idno>
+                <idno type="TM">202655</idno><idno type="localID">HD059331</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/53">Basis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-91</height>
+                                        <width>53</width>
+                                        <depth>53</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/015771">Africa Proconsularis</placeName><placeName>Lepcis Magna</placeName></origPlace>
+                            <origDate notBefore-custom="0203" notAfter-custom="0204" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">203 AD – 204 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2219905">Al Khums</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/ly/">Libyen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-05-06" who="Bigi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F009744">
+            <desc>F009744</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F032745">
+            <desc>F032745</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IRT 424. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(eratori) Caes(ari) Severi Aug(usti) f(ilio) divi] / Marci [Antonini Pii Ger(manici)] / Sarm(atici) nep[(oti) divi Antonini] / Pii pronepoti [divi Hadri]/ani abnepoti di[ui Traiani] / Parth(ici) et divi Ner[u]ae ad/nepoti M(arco) Aurelio / Antoni[no Pi]o Felici / trib(unicia) potest(ate) VII co(n)s(uli) des(i)g(nato) II / proco(n)s(uli) propagatori imp(eri) / ob caelestem in se / indulgentiam eius / D(ecimus) Clodius Galba proc(urator) reg(ionis) / Thevestinae et Hipponen/sis et proc(urator) rationis pri/vatae per Flaminiam / Aemiliam Liguriam
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> Severi <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> divi</supplied> <lb n="2"/>Marci <supplied reason="lost">Antonini Pii <expan><abbr>Ger</abbr><ex>manici</ex></expan></supplied> <lb n="3"/><expan><abbr>Sarm</abbr><ex>atici</ex></expan> nep<supplied reason="lost">(oti) divi Antonini</supplied> <lb n="4"/>Pii pronepoti <supplied reason="lost">divi Hadri</supplied><lb break="no" n="5"/>ani abnepoti di<supplied reason="lost">ui Traiani</supplied> <lb n="6"/><expan><abbr>Parth</abbr><ex>ici</ex></expan> et divi Ner<supplied reason="lost">u</supplied>ae ad<lb break="no" n="7"/>nepoti <expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio <lb n="8"/>Antoni<supplied reason="lost">no Pi</supplied>o Felici <lb n="9"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> VII co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> des<expan><ex>i</ex><abbr>g</abbr><ex>nato</ex></expan> II <lb n="10"/>proco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> propagatori <expan><abbr>imp</abbr><ex>eri</ex></expan> <lb n="11"/>ob caelestem in se <lb n="12"/>indulgentiam eius <lb n="13"/><expan><abbr>D</abbr><ex>ecimus</ex></expan> Clodius Galba <expan><abbr>proc</abbr><ex>urator</ex></expan> <expan><abbr>reg</abbr><ex>ionis</ex></expan> <lb n="14"/>Thevestinae et Hipponen<lb break="no" n="15"/>sis et <expan><abbr>proc</abbr><ex>urator</ex></expan> rationis pri<lb break="no" n="16"/>vatae per Flaminiam <lb n="17"/>Aemiliam Liguriam
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Datierung: zwischen 10. Dezember 203 und 9. Dezember 204. Mittel und Unterteil einer Statuenbasis.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

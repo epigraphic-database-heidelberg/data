@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Block</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD024681</idno>
+                <idno type="TM">210457</idno><idno type="localID">HD024681</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Speyer, Hist. Mus. der Pfalz, Depot</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>53.5</height>
+                                        <width>147</width>
+                                        <depth>23</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.2-5.2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Noviomagus (Civitas Nemetum)</placeName></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1967">1967</date>
+                        <placeName ref="http://www.geonames.org/2830582">Speyer</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-10-18" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/26580">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1990, 0757. (B) 
+                    </bibl>
+                    <bibl>
+                         R. Wiegels, MHistVerPfalz 86, 1988, 5-16; Abb. 1-5; Abb. 6 (Zeichnung). (B) - AE 1990. 
+                    </bibl>
+                    <bibl>
+                         AE 1990, 0756. 
+                    </bibl>
+                    <bibl>
+                         M. Bernhard, MHistVerPfalz 81, 1983, 141, Nr. 285. (B) - AE 1990. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Deo In]victo Myt(h)r(a)e(!) Pompeianius / [- - - har]uspex / [- - -]ius E/[- - -]I(?)ni Hos/[- - -]t / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Deo In</supplied>victo Myt<expan><ex>h</ex><abbr>r</abbr><ex>a</ex><abbr>e</abbr></expan> <note>sic</note> Pompeianius <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">har</supplied>uspex <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ius E<lb break="no" n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>ni</expan> Hos<lb break="no" n="5"/><gap reason="lost" extent="unknown" unit="character"/>t <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Block, vielleicht Architekturteil. Zur Sekundärverwendung als Türschwelle wurde das Inschriftfeld größtenteils abgearbeitet. Links noch der Rahmen des Feldes mit Peltenhenkeln. Der genaue Fundort des Steines lässt sich nicht mehr ermitteln. Gefunden unter angeliefertem Schüttsand, wobei nicht mehr geklärt werden konnte, ob sich der Block bereits zum Zeitpunkt der Anlieferung darin befand. (B): Wiegels, AE 1990: Z. 4: [---]ni; Bernhard, AE 1990: unvollständige Lesung.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

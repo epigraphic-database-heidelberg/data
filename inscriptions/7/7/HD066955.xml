@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD066955</idno>
+                <idno type="TM">402996</idno><idno type="localID">HD066955</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Graz, Landesmus. Joanneum, Lapidarium Schloß Eggenberg</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>65</height>
+                                        <width>62</width>
+                                        <depth>8</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6.5-2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003230">Noricum</placeName><placeName ref="http://www.trismegistos.org/place/019892">Celeia, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0071" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1891">1891</date>
+                        <placeName ref="http://www.geonames.org/8988008">Slovenska Bistrica</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Podravska statistična regija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/si/">Slowenien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-11-12" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/1686">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 11711. (B) 
+                    </bibl>
+                    <bibl>
+                         AIJ 089. (B) 
+                    </bibl>
+                    <bibl>
+                         AIJ 089 add. p. 4*. 
+                    </bibl>
+                    <bibl>
+                         E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 418-419, Nr. 375. 
+                    </bibl>
+                    <bibl>
+                         ILLPRON 1794. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                M[a]ximus Masculi an(norum) LX / et Amat(ia?) Kalandina con(iux) // Excingomaro / Valentis f(ilio) a(nnorum) C / et Tertiae Co/mati f(iliae) ux(ori) a(nnorum) LX / Masculus Excin(gomari) / f(ilius) a(nnorum) LXXX Ecouta Sex(ti) / a(nnorum) LXX Maximilla f(ilia) / Adiutus Excingomar[i] / a(nnorum) LXXX // Marcianus Masc(u)li an(norum) L // Excingom/ari et Ter(t)ia / et Maxum(i)l(l)a
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                M<supplied reason="lost">a</supplied>ximus Masculi <expan><abbr>an</abbr><ex>norum</ex></expan> LX <lb n="2"/>et <expan><abbr>Amat</abbr><ex cert="low">ia</ex></expan> Kalandina <expan><abbr>con</abbr><ex>iux</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Excingomaro <lb n="2"/>Valentis <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>a</abbr><ex>nnorum</ex></expan> C <lb n="3"/>et Tertiae Co<lb break="no" n="4"/>mati <expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>ux</abbr><ex>ori</ex></expan> <expan><abbr>a</abbr><ex>nnorum</ex></expan> LX <lb n="5"/>Masculus <expan><abbr>Excin</abbr><ex>gomari</ex></expan> <lb n="6"/><expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>a</abbr><ex>nnorum</ex></expan> LXXX Ecouta <expan><abbr>Sex</abbr><ex>ti</ex></expan> <lb n="7"/><expan><abbr>a</abbr><ex>nnorum</ex></expan> LXX Maximilla <expan><abbr>f</abbr><ex>ilia</ex></expan> <lb n="8"/>Adiutus Excingomar<supplied reason="lost">i</supplied> <lb n="9"/><expan><abbr>a</abbr><ex>nnorum</ex></expan> LXXX </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Marcianus Masc<expan><ex>u</ex><abbr>li</abbr></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> L </ab></div><div n="4" type="textpart"><ab><lb n="1"/> Excingom<lb break="no" n="2"/>ari et Ter<expan><ex>t</ex><abbr>ia</abbr></expan> <lb n="3"/>et Maxum<expan><ex>i</ex><abbr>l</abbr><ex>l</ex><abbr>a</abbr></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 1-2: nachträglich auf dem dafür abgearbeiteten oberen Rahmen hinzugefügt; von den Buchstaben in Z. 1 teilweise nur noch der untere Teil erhalten. Z. 3-9: innerhalb des Inschriftfeldes bis auf einelne Buchstaben am Zeilenanfang (F in Z. 8) oder -ende (N in Z. 7; X in Z. 8; F in Z. 9; AR[I] in Z. 10) sowie Teilen der Buchstaben in Z. 11. Z. 12: auf dem unteren Rahmen; möglicherweise nachträglich hinzugefügt; stark verrieben. Z. 13-15: Reste vom Anfang einer älteren, fehlerhaften Version der Grabinschrift innerhalb des Inschriftfeldes an Stelle der späteren Z. 3-6. (B): CIL III 11711; AIJ 089; ILLPRON: Leseung abweichend / unvollständig.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

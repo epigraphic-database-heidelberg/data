@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD035327</idno>
+                <idno type="TM">214919</idno><idno type="localID">HD035327</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Wernstein/Inn, S. Georg, Kirche</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>90</height>
+                                        <width>45</width>
+                                        <depth>28</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4-4.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003230">Noricum</placeName><placeName ref="http://www.trismegistos.org/place/028261">Ovilava, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0230-05-14" notAfter-custom="0230-05-14" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">14.5.230 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1862">1862</date>
+                        <placeName ref="http://www.geonames.org/2761467">Wernstein/Inn</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Oberösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-05-19" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/6706">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 05690. 
+                    </bibl>
+                    <bibl>
+                         PIR V 476. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) C 564. 
+                    </bibl>
+                    <bibl>
+                         ILLPRON 1030. 
+                    </bibl>
+                    <bibl>
+                         H. Petrovitsch, Legio II Italica (Linz 2006) 74-75, Nr. No.05; Foto u. Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 229-230, Nr. 272*; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                I(ovi) O(ptimo) M(aximo) / M(arcus) Rustius / Iunianus b(ene)f(icarius) co(nsularis) / leg(ionis) II Ital(icae) p(iae) f(idelis) / [Se]ve[ri]a[n]ae / [- - - - - -] / pro sal(ute) sua / suorumque / v(otum) s(olvit) l(ibens) m(erito) / Agricola et Clementino co(n)[s](ulibus) // pr(idie) Id(us) Mai(a)s
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Rustius <lb n="3"/>Iunianus b<expan><ex>ene</ex><abbr>f</abbr><ex>icarius</ex></expan> <expan><abbr>co</abbr><ex>nsularis</ex></expan> <lb n="4"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>Ital</abbr><ex>icae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <lb n="5"/><supplied reason="lost">Se</supplied>ve<supplied reason="lost">ri</supplied>a<supplied reason="lost">n</supplied>ae <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="6"/>pro <expan><abbr>sal</abbr><ex>ute</ex></expan> sua <lb n="7"/>suorumque <lb n="8"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <lb n="9"/>Agricola et Clementino <expan><abbr>co</abbr><ex>n</ex></expan><expan><abbr><supplied reason="lost">s</supplied></abbr><ex>ulibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>pr</abbr><ex>idie</ex></expan> <expan><abbr>Id</abbr><ex>us</ex></expan> Mai<expan><ex>a</ex><abbr>s</abbr></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

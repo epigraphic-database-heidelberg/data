@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Ehren-/Votivbogen</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD032500</idno>
+                <idno type="TM">260173</idno><idno type="localID">HD032500</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/20">Ehren-/Votivbogen</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Picenum (Regio V)</placeName><placeName ref="http://www.trismegistos.org/place/003362">Ancona</placeName></origPlace>
+                            <origDate notBefore-custom="0115" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">115 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Ancona</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2004-07-07" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        M. Horster, Bauinschriften römischer Kaiser (Stuttgart 2001) 300-302, Nr. V 1. 
+                    </bibl>
+                    <bibl>
+                         CIL 09, 05894. 
+                    </bibl>
+                    <bibl>
+                         ILS 0298. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Plotinae / Aug(ustae) / coniugi Aug(usti) // Imp(eratori) Caesari divi Nervae f(ilio) Nervae / Traiano optimo Aug(usto) Germanic(o) / Dacico pont(ifici) max(imo) tr(ibunicia) pot(estate) XVIIII imp(eratori) IX / co(n)s(uli) VI p(atri) p(atriae) providentissimo principi / senatus p(opulus)q(ue) R(omanus) quod accessum / Italiae hoc etiam addito ex pecunia sua / portu tutiorem navigantibus reddiderit // Divae / Marcianae / Aug(ustae) / sorori Aug(usti)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Plotinae <lb n="2"/><expan><abbr>Aug</abbr><ex>ustae</ex></expan> <lb n="3"/>coniugi <expan><abbr>Aug</abbr><ex>usti</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesari divi Nervae <expan><abbr>f</abbr><ex>ilio</ex></expan> Nervae <lb n="2"/>Traiano optimo <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>Germanic</abbr><ex>o</ex></expan> <lb n="3"/>Dacico <expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XVIIII <expan><abbr>imp</abbr><ex>eratori</ex></expan> IX <lb n="4"/>co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> VI <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> providentissimo principi <lb n="5"/>senatus p<expan><ex>opulus</ex><abbr>q</abbr><ex>ue</ex></expan> <expan><abbr>R</abbr><ex>omanus</ex></expan> quod accessum <lb n="6"/>Italiae hoc etiam addito ex pecunia sua <lb n="7"/>portu tutiorem navigantibus reddiderit </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Divae <lb n="2"/>Marcianae <lb n="3"/><expan><abbr>Aug</abbr><ex>ustae</ex></expan> <lb n="4"/>sorori <expan><abbr>Aug</abbr><ex>usti</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Inschrift befindet sich auf der zur Stadt gewandten Seite des Bogens. Bronzene Buchstaben. Die Inschrift für Plotina steht links, diejenige für Marciana rechts der Trajansinschrift. Datierung: 115 n. Chr. (9. Imperatorakklamation Trajans), nicht nach dem 9.12. (Ende der trib. pot. XVIIII Trajans).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD078218</idno>
+                <idno type="TM">415146</idno><idno type="localID">HD078218</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bonn, Rhein. Landesmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>221</height>
+                                        <width>74</width>
+                                        <depth>35</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6.4-2.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016530">Germania inferior</placeName><placeName ref="http://www.trismegistos.org/place/020927">Bonna</placeName></origPlace>
+                            <origDate notBefore-custom="0031" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD – 70 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1892">1892</date>
+                        <placeName ref="http://www.geonames.org/2946447">Bonn</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Nordrhein-Westfalen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-01-17" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://www.lupa.at/15523">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 08094; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 257-258, Nr. 650; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         G. Bauchhenß, Germania inferior. Bonn und Umgebung. Militärische Grabdenkmäler, CSIR Deutschland 3, 1 (Bonn 1978) 32-33, Nr. 12; Taf. 15. 
+                    </bibl>
+                    <bibl>
+                         AE 1892, 0126. 
+                    </bibl>
+                    <bibl>
+                         (Bonner Zeitung), KWDZ 11, 1892, 65-66, Nr. 44. - AE 1892. 
+                    </bibl>
+                    <bibl>
+                         G. Alföldy, Die Hilfstruppen der römischen Provinz Germania Inferior, EpStud 6 (Düsseldorf 1968) 177, Nr. 36. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Vellaunus Nonni / f(ilius) Biturix eques / ala Longiniana / turma L(uci) Iuli Reguli / an(norum) XXXVIII stipendio/rum XVIII h(ic) s(itus) e(st) / ex testamento factu(m) / cura(ve)runt L(ucius) Iulius Reg/ulus decurio et Macer Aspadi / f(ilius) eiusde(m) turma // L C T
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Vellaunus Nonni <lb n="2"/><expan><abbr>f</abbr><ex>ilius</ex></expan> Biturix eques <lb n="3"/>ala Longiniana <lb n="4"/>turma <expan><abbr>L</abbr><ex>uci</ex></expan> Iuli Reguli <lb n="5"/><expan><abbr>an</abbr><ex>norum</ex></expan> XXXVIII stipendio<lb break="no" n="6"/>rum XVIII <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="7"/>ex testamento <expan><abbr>factu</abbr><ex>m</ex></expan> <lb n="8"/>cura<expan><ex>ve</ex><abbr>runt</abbr></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> Iulius Reg<lb break="no" n="9"/>ulus decurio et Macer Aspadi <lb n="10"/><expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>eiusde</abbr><ex>m</ex></expan> turma </ab></div><div n="2" type="textpart"><ab><lb n="1"/> L C T
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Auf der Bodenfläche der Stele sind die Buchstaben L C T eingemeißelt (Lehner).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

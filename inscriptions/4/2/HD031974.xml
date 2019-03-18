@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD031974</idno>
+                <idno type="TM">191329</idno><idno type="localID">HD031974</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Sofija, Nac. Arh. Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material>Gesteine</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-200</height>
+                                        <width>-85</width>
+                                        <depth>-85</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">7-6</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName>Nicopolis ad Istrum</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/728777">Veliko Târnovo</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Veliko Târnovo</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-11-22" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1902, 0119. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 14427, 1. (B) 
+                    </bibl>
+                    <bibl>
+                         ILBulg 361; tab. 67, 361. 
+                    </bibl>
+                    <bibl>
+                         V. Dobrusky, SborNarodSofia 18, 1901, 738-739; fig. 31. (B) - AE 1902. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) // [et] memoriae / [T(ito) Iu]l(io) T(iti) lib(erto) Sote/[rich]o C(aius) Iul(ius) Sa/[- - - co]nd(uctor) p(ublici) p(ortorii) / [- - - Th]r(aciae) pag(i) Ni[copol(itani) here]s fra/[tri piissim]o(?) / [f(aciendum) c(uravit)]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">et</supplied> memoriae <lb n="2"/><supplied reason="lost"><expan><abbr>T</abbr><ex>ito</ex></expan> Iu</supplied><expan><abbr>l</abbr><ex>io</ex></expan> <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>lib</abbr><ex>erto</ex></expan> Sote<lb break="no" n="3"/><supplied reason="lost">rich</supplied>o <expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Sa<lb break="no" n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">co</supplied>nd</abbr><ex>uctor</ex></expan> <expan><abbr>p</abbr><ex>ublici</ex></expan> <expan><abbr>p</abbr><ex>ortorii</ex></expan> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">Th</supplied>r</abbr><ex>aciae</ex></expan> <expan><abbr>pag</abbr><ex>i</ex></expan> Ni<supplied reason="lost"><expan><abbr>copol</abbr><ex>itani</ex></expan> here</supplied>s fra<lb break="no" n="6"/><supplied reason="lost">tri piissim</supplied><expan><abbr>o</abbr><ex cert="low"/></expan> <lb n="7"/><supplied reason="lost"><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan></supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Dobrusky, AE 1902, CIL: abweichende Textwiedergaben. Auf der Basis eine Pyramide sowie halbplastisch ausgebildete Löwen an Stelle der Akrotere.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD031171</idno>
+                <idno type="TM">247465</idno><idno type="localID">HD031171</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Etruria (Regio VII)</placeName><placeName ref="http://www.trismegistos.org/place/032028">Alsium</placeName></origPlace>
+                            <origDate notBefore-custom="0121" notAfter-custom="0123" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">121 AD – 123 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2001-11-16" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 142-143, Nr. 21a. 
+                    </bibl>
+                    <bibl>
+                         CIL 11, 03718. 
+                    </bibl>
+                    <bibl>
+                         ILS 1053. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                P(ublio) Metilio P(ubli) f(ilio) Cla(udia) Secundo Pon[- - - co(n)s(uli)] / fratri Arvali leg(ato) Augusti pro [pr(aetore) - - -] / curatori operum locorumq(ue) public(orum) [legato] / Imp(eratoris) Caesaris Traiani Hadriani Aug(usti) [pro pr(aetore)] / leg(ionis) III Aug(ustae) et exercitus Africani leg[ato] / Aug(usti) leg(ionis) [X]I Cla(udiae) p(iae) et f(idelis) pr[a]eto[r]i trib(uno) [pleb(is) quaest(ori)] / Imp(eratoris) Caesaris Nervae Traiani Aug(usti) G[e]rmanic[i Dacici] / seviro equitum Romano[r(um) trib]uno m[ilitum leg(ionis)] / [X] geminae p(iae) f(idelis) tri[umviro - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> Metilio <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Cla</abbr><ex>udia</ex></expan> Secundo Pon<supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></supplied> <lb n="2"/>fratri Arvali <expan><abbr>leg</abbr><ex>ato</ex></expan> Augusti pro <supplied reason="lost"><expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>curatori operum <expan><abbr>locorumq</abbr><ex>ue</ex></expan> <expan><abbr>public</abbr><ex>orum</ex></expan> <supplied reason="lost">legato</supplied> <lb n="4"/><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Caesaris Traiani Hadriani <expan><abbr>Aug</abbr><ex>usti</ex></expan> <supplied reason="lost">pro <expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied> <lb n="5"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> III <expan><abbr>Aug</abbr><ex>ustae</ex></expan> et exercitus Africani leg<supplied reason="lost">ato</supplied> <lb n="6"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <supplied reason="lost">X</supplied>I <expan><abbr>Cla</abbr><ex>udiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> et <expan><abbr>f</abbr><ex>idelis</ex></expan> pr<supplied reason="lost">a</supplied>eto<supplied reason="lost">r</supplied>i <expan><abbr>trib</abbr><ex>uno</ex></expan> <supplied reason="lost"><expan><abbr>pleb</abbr><ex>is</ex></expan> <expan><abbr>quaest</abbr><ex>ori</ex></expan></supplied> <lb n="7"/><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Caesaris Nervae Traiani <expan><abbr>Aug</abbr><ex>usti</ex></expan> G<supplied reason="lost">e</supplied>rmanic<supplied reason="lost">i Dacici</supplied> <lb n="8"/>seviro equitum Romano<supplied reason="lost"><expan><abbr>r</abbr><ex>um</ex></expan> trib</supplied>uno m<supplied reason="lost">ilitum <expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied> <lb n="9"/><supplied reason="lost">X</supplied> geminae <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> tri<supplied reason="lost">umviro</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001869</idno>
+                <idno type="TM">251253</idno><idno type="localID">HD001869</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Napoli, Mus. Arch. Naz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-35</height>
+                                        <width>-26.2</width>
+                                        <depth>4</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-5.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033152">Latium et Campania (Regio I)</placeName><placeName ref="http://www.trismegistos.org/place/032416">Casilinum</placeName></origPlace>
+                            <origDate notBefore-custom="0074" notAfter-custom="0079" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">74 AD – 79 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Capua</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Campania</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-10-11" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F007246">
+            <desc>F007246</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1984, 0189. 
+                    </bibl>
+                    <bibl>
+                         R. Palmieri, in: MGR 9 (Roma 1984) 163-169; tav. 1. - AE 1984. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [T(ito) Clodio M(arci) f(ilio) Fal(erna)] / [Eprio Marcello] / [co(n)s(uli) II auguri] / [cu]rio[ni maximo] / sodal[i Augustali] / pr(aetori) per(egrino) [proco(n)s(uli)] / As[iae III] / [provincia Cyprus]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>T</abbr><ex>ito</ex></expan> Clodio <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Fal</abbr><ex>erna</ex></expan></supplied> <lb n="2"/><supplied reason="lost">Eprio Marcello</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II auguri</supplied> <lb n="4"/><supplied reason="lost">cu</supplied>rio<supplied reason="lost">ni maximo</supplied> <lb n="5"/>sodal<supplied reason="lost">i Augustali</supplied> <lb n="6"/><expan><abbr>pr</abbr><ex>aetori</ex></expan> <expan><abbr>per</abbr><ex>egrino</ex></expan> <supplied reason="lost"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></supplied> <lb n="7"/>As<supplied reason="lost">iae III</supplied> <lb n="8"/><supplied reason="lost">provincia Cyprus</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Y: 74: Clodius Eprius Marcellus cos. II; 79: Selbstmord. Das Fragment ist ein weiteres Exemplar der in CIL X 3853 = ILS 992 publizierten Inschrift. Identische Inschriften des bedeutenden Mannes wurden an verschiedenen Orten der Stadt aufgestellt. Es handelt sich um den berühmten Redner T. Clodius Eprius Marcellus. Ergänzung der Inschrift nach CIL X 3853.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

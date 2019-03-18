@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verzeichnis auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD043117</idno>
+                <idno type="TM">192044</idno><idno type="localID">HD043117</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Sofija, Nac. Arh. Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-778</height>
+                                        <width>-50</width>
+                                        <depth>25</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName>Municipium Montanensium</placeName></origPlace>
+                            <origDate notBefore-custom="0155" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">155 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1880">1880</date>
+                        <placeName ref="http://www.geonames.org/729114">Montana (Mihajlovgrad)</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Montana</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/108">Verzeichnis</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-09-06" who="Feraudi">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 07449. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) F 305. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) I 574. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) I 811. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $ T(iti) Flavi] / Longini leg(ati) Aug(usti) pr(o) pr(aetore) / vexillat(io) leg(ionis) XI Cl(audiae) / sub cura Fl(avi) Maximi |(centurionis) leg(ionis) / eiusdem Severo et Sabiniano / b(ene)f(icarius) co(n)s(ularis) Ulpius co(n)s(ulibus) Alexander / principales tes(serarius) Iul(ius) Aeternalis / tub(icen) Aurelius Postumus cornice<n=M>#cornice<n>#CORNICEM / Valerius Rufus med(icus) Aurel(ius) Artemo / im(m)unes ven(atores) Iulius Longinus et Fl(avius) / Valerius c(o)hor(tis) I Calpurn(ius) Tertianus / Val(erius) Felix Fla(vius) Valens Aurel(ius) Pedo Fla(vius) (H)ercl(a) / Aurel(ius) Tiberinus / Iul(ius) Marcus Aurelius / Cerfonius c(o)hor(tis) II Aurelius Appianus Fla(vius) / Reginus Aurel(ius) C(h)aireas / Val(erius) Fronto Iulius / Claudianus c(o)hor(tis) III Iuliu(s) Horte(n)sis Aelius / Martial<i=E>s#Martial<i>s#MARTIALES Val(erius) Valens Anton(iu)s Valens / Ponti(us) Pontianus Val(erius) Antonius Val(erius) Rufus / Clau(dius) Ianuarius c(o)hor(tis) IIII Ael(ius) Paulus Aur(elius)/ Germanus Aurel(ius) Sanc(tus) Val(erius) Maximus / Anto(nius) Valens Iul(ius) Valens Val(erius) Longus Ulp(ius)/ Bassus Fl(avius) Primus c(o)hor(tis) V Ael(ius) Apollodoru(s) / Aeli(us) Sabinus Iul(ius) Flaccus Aur(elius) Helenus / Aur(elius) Artemo Cocceius Long(us?) Atil(ius) Crispus / Aur(elius) Quadratus Ael(ius) Apelles Fl(avius) Alexander Iul(ius) / Nigrinus Ael(ius) Antullinus Ael(ius) Victorinus Cervius / Maximus Val(erius) Firmus Ael(ius) Flavinus Petro(nius) Valens / [Au]r(elius) Longinus Val(erius) Valens Iul(ius) Alexander Aur(elius) Agatho/[c]les Iul(ius) C[a]pito Umi(dius) Quadratus Mum(mius) Celer Tri[- - -] Valen(s) / [F]l(avius) Tertius Aur(elius) [Te]rtullinus Fl(avius) Po[n]tianus Mu[m(mius)] Niger / Val(erius) Valens Fl(avius) Lon[g]inus Iul(ius) V[- - -] / Aur(elius) Vindex Aur(elius) Decimus [- - - Q]uintus Val(erius) [- - -]E[- - -] / decurio Pompon[ius H]erculanus ex / eq(uite) leg(ionis) XI Cl(audiae)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                $ <expan><abbr>T</abbr><ex>iti</ex></expan> Flavi] <lb n="2"/>Longini <expan><abbr>leg</abbr><ex>ati</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <lb n="3"/><expan><abbr>vexillat</abbr><ex>io</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>Cl</abbr><ex>audiae</ex></expan> <lb n="4"/>sub cura <expan><abbr>Fl</abbr><ex>avi</ex></expan> Maximi |(centurionis) <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="5"/>eiusdem Severo et Sabiniano <lb n="6"/>b<expan><ex>ene</ex><abbr>f</abbr><ex>icarius</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> Ulpius co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> Alexander <lb n="7"/>principales <expan><abbr>tes</abbr><ex>serarius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Aeternalis <lb n="8"/><expan><abbr>tub</abbr><ex>icen</ex></expan> Aurelius Postumus cornice<choice><corr>n</corr><sic>M</sic></choice>#cornice<supplied reason="omitted">n</supplied>#CORNICEM <lb n="9"/>Valerius Rufus <expan><abbr>med</abbr><ex>icus</ex></expan> <expan><abbr>Aurel</abbr><ex>ius</ex></expan> Artemo <lb n="10"/>im<expan><ex>m</ex><abbr>unes</abbr></expan> <expan><abbr>ven</abbr><ex>atores</ex></expan> Iulius Longinus et <expan><abbr>Fl</abbr><ex>avius</ex></expan> <lb n="11"/>Valerius c<expan><ex>o</ex><abbr>hor</abbr><ex>tis</ex></expan> I <expan><abbr>Calpurn</abbr><ex>ius</ex></expan> Tertianus <lb n="12"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Felix <expan><abbr>Fla</abbr><ex>vius</ex></expan> Valens <expan><abbr>Aurel</abbr><ex>ius</ex></expan> Pedo <expan><abbr>Fla</abbr><ex>vius</ex></expan> <expan><ex>H</ex><abbr>ercl</abbr><ex>a</ex></expan> <lb n="13"/><expan><abbr>Aurel</abbr><ex>ius</ex></expan> Tiberinus <lb n="14"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Marcus Aurelius <lb n="15"/>Cerfonius c<expan><ex>o</ex><abbr>hor</abbr><ex>tis</ex></expan> II Aurelius Appianus <expan><abbr>Fla</abbr><ex>vius</ex></expan> <lb n="16"/>Reginus <expan><abbr>Aurel</abbr><ex>ius</ex></expan> C<expan><ex>h</ex><abbr>aireas</abbr></expan> <lb n="17"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Fronto Iulius <lb n="18"/>Claudianus c<expan><ex>o</ex><abbr>hor</abbr><ex>tis</ex></expan> III <expan><abbr>Iuliu</abbr><ex>s</ex></expan> Horte<expan><ex>n</ex><abbr>sis</abbr></expan> Aelius <lb n="19"/>Martial<choice><corr>i</corr><sic>E</sic></choice>s#Martial<supplied reason="omitted">i</supplied>s#MARTIALES <expan><abbr>Val</abbr><ex>erius</ex></expan> Valens Anton<expan><ex>iu</ex><abbr>s</abbr></expan> Valens <lb n="20"/><expan><abbr>Ponti</abbr><ex>us</ex></expan> Pontianus <expan><abbr>Val</abbr><ex>erius</ex></expan> Antonius <expan><abbr>Val</abbr><ex>erius</ex></expan> Rufus <lb n="21"/><expan><abbr>Clau</abbr><ex>dius</ex></expan> Ianuarius c<expan><ex>o</ex><abbr>hor</abbr><ex>tis</ex></expan> IIII <expan><abbr>Ael</abbr><ex>ius</ex></expan> Paulus <expan><abbr>Aur</abbr><ex>elius</ex></expan> <lb n="22"/>Germanus <expan><abbr>Aurel</abbr><ex>ius</ex></expan> <expan><abbr>Sanc</abbr><ex>tus</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> Maximus <lb n="23"/><expan><abbr>Anto</abbr><ex>nius</ex></expan> Valens <expan><abbr>Iul</abbr><ex>ius</ex></expan> Valens <expan><abbr>Val</abbr><ex>erius</ex></expan> Longus <expan><abbr>Ulp</abbr><ex>ius</ex></expan> <lb n="24"/>Bassus <expan><abbr>Fl</abbr><ex>avius</ex></expan> Primus c<expan><ex>o</ex><abbr>hor</abbr><ex>tis</ex></expan> V <expan><abbr>Ael</abbr><ex>ius</ex></expan> <expan><abbr>Apollodoru</abbr><ex>s</ex></expan> <lb n="25"/><expan><abbr>Aeli</abbr><ex>us</ex></expan> Sabinus <expan><abbr>Iul</abbr><ex>ius</ex></expan> Flaccus <expan><abbr>Aur</abbr><ex>elius</ex></expan> Helenus <lb n="26"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Artemo Cocceius <expan><abbr>Long</abbr><ex cert="low">us</ex></expan> <expan><abbr>Atil</abbr><ex>ius</ex></expan> Crispus <lb n="27"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Quadratus <expan><abbr>Ael</abbr><ex>ius</ex></expan> Apelles <expan><abbr>Fl</abbr><ex>avius</ex></expan> Alexander <expan><abbr>Iul</abbr><ex>ius</ex></expan> <lb n="28"/>Nigrinus <expan><abbr>Ael</abbr><ex>ius</ex></expan> Antullinus <expan><abbr>Ael</abbr><ex>ius</ex></expan> Victorinus Cervius <lb n="29"/>Maximus <expan><abbr>Val</abbr><ex>erius</ex></expan> Firmus <expan><abbr>Ael</abbr><ex>ius</ex></expan> Flavinus <expan><abbr>Petro</abbr><ex>nius</ex></expan> Valens <lb n="30"/><expan><abbr><supplied reason="lost">Au</supplied>r</abbr><ex>elius</ex></expan> Longinus <expan><abbr>Val</abbr><ex>erius</ex></expan> Valens <expan><abbr>Iul</abbr><ex>ius</ex></expan> Alexander <expan><abbr>Aur</abbr><ex>elius</ex></expan> Agatho<lb break="no" n="31"/><supplied reason="lost">c</supplied>les <expan><abbr>Iul</abbr><ex>ius</ex></expan> C<supplied reason="lost">a</supplied>pito <expan><abbr>Umi</abbr><ex>dius</ex></expan> Quadratus <expan><abbr>Mum</abbr><ex>mius</ex></expan> Celer Tri<gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Valen</abbr><ex>s</ex></expan> <lb n="32"/><expan><abbr><supplied reason="lost">F</supplied>l</abbr><ex>avius</ex></expan> Tertius <expan><abbr>Aur</abbr><ex>elius</ex></expan> <supplied reason="lost">Te</supplied>rtullinus <expan><abbr>Fl</abbr><ex>avius</ex></expan> Po<supplied reason="lost">n</supplied>tianus Mu<supplied reason="lost"><expan><abbr>m</abbr><ex>mius</ex></expan></supplied> Niger <lb n="33"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Valens <expan><abbr>Fl</abbr><ex>avius</ex></expan> Lon<supplied reason="lost">g</supplied>inus <expan><abbr>Iul</abbr><ex>ius</ex></expan> V<gap reason="lost" extent="unknown" unit="character"/> <lb n="34"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Vindex <expan><abbr>Aur</abbr><ex>elius</ex></expan> Decimus <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Q</supplied>uintus <expan><abbr>Val</abbr><ex>erius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>E<gap reason="lost" extent="unknown" unit="character"/> <lb n="35"/>decurio Pompon<supplied reason="lost">ius H</supplied>erculanus ex <lb n="36"/><expan><abbr>eq</abbr><ex>uite</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>Cl</abbr><ex>audiae</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Verzeichnis der Mitglieder einer vexillatio der legio XI Claudia. Z. 5: COS zwischen Ulpius und Alexander bezieht sich auf Severo et Sabiniano in Z. 4.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

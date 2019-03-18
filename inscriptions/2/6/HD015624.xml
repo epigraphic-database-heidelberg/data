@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD015624</idno>
+                <idno type="TM">167551</idno><idno type="localID">HD015624</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Carlisle Castle, De Ireby's Tower</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-98</height>
+                                        <width>-45</width>
+                                        <depth>25</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/014300">Luguvalium</placeName></origPlace>
+                            <origDate notBefore-custom="0213" notAfter-custom="0222" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">213 AD – 222 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1987">1987</date>
+                        <placeName ref="http://www.geonames.org/2653775">Carlisle</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Cumbria</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-03-14" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1989, 0489. (B) 
+                    </bibl>
+                    <bibl>
+                         M.W.C. Hassall - R.S.O. Tomlin, Britannia 20, 1989, 331-333, Nr. 5; fig. 3 (Zeichnung). - AE 1989. (B) 
+                    </bibl>
+                    <bibl>
+                         RIB 3460; Fotos u. Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                I(ovi) O(ptimo) [M(aximo)] / Iunon[i Reginae] / Miner[vae Aug(ustae)] / Marti P[atri Vic]toriae c[eteris] / diis dea[busque] / omnibus [M(arcus) Aur(elius)] / M(arci) f(ilius) Ulp(ia) Syrio [Nico]/poli ex [p]rov(incia) Trh[ac(ia)](!) / trib(unus) mil(itum) leg(ionis) XX V(aleriae) v(ictricis) / Antoninianae / [v(otum) s(olvit) l(ibens) m(erito)]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>aximo</ex></expan></supplied> <lb n="2"/>Iunon<supplied reason="lost">i Reginae</supplied> <lb n="3"/>Miner<supplied reason="lost">vae <expan><abbr>Aug</abbr><ex>ustae</ex></expan></supplied> <lb n="4"/>Marti P<supplied reason="lost">atri Vic</supplied>toriae c<supplied reason="lost">eteris</supplied> <lb n="5"/>diis dea<supplied reason="lost">busque</supplied> <lb n="6"/>omnibus <supplied reason="lost"><expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan></supplied> <lb n="7"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Ulp</abbr><ex>ia</ex></expan> Syrio <supplied reason="lost">Nico</supplied><lb break="no" n="8"/>poli ex <expan><abbr><supplied reason="lost">p</supplied>rov</abbr><ex>incia</ex></expan> Trh<supplied reason="lost"><expan><abbr>ac</abbr><ex>ia</ex></expan></supplied> <note>sic</note> <lb n="9"/><expan><abbr>trib</abbr><ex>unus</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XX <expan><abbr>V</abbr><ex>aleriae</ex></expan> <expan><abbr>v</abbr><ex>ictricis</ex></expan> <lb n="10"/>Antoninianae <lb n="11"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Es fehlt Z. 12.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002113</idno>
+                <idno type="TM">247941</idno><idno type="localID">HD002113</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Sede comunale di Capena</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>110</height>
+                                        <width>72</width>
+                                        <depth>51</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Etruria (Regio VII)</placeName><placeName ref="http://www.trismegistos.org/place/014404">Capena</placeName></origPlace>
+                            <origDate notBefore-custom="0186-02-24" notAfter-custom="0186-02-24" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">24.2.186 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1931">1931</date>
+                        <placeName ref="http://www.geonames.org/">Capena</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-10-20" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0267. 
+                    </bibl>
+                    <bibl>
+                         M. Dondin-Payre, Epigraphica 43, 1981, 224-226; Foto. - AE 1982. 
+                    </bibl>
+                    <bibl>
+                         AE 1954, 0165. (B) 
+                    </bibl>
+                    <bibl>
+                         G. Mancini, NSA 1953, 21-22, Nr. 3; fig. 3. (B) - AE 1954. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Iuliae Ti(beri) fil(iae) Paulinae / sacerdoti Cereris municip(ii) / Capenatium foederatorum / ob honorem sacerdotalem / honestissimis caerimoniis / praebitum decuriones / item municipes / et postea sacerdoti Veneris / bis epulum et sportulas decur(ionibus) / et municipibus praebuit / l(ocus) d(atus) d(ecreto) d(ecurionum) // dedicata VI Kal(endas) Mar(tias) / Glabrione II [co(n)s(ule)] / curat(ore) L(ucio) Mucio Mucia[no] / marito eius
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Iuliae <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>fil</abbr><ex>iae</ex></expan> Paulinae <lb n="2"/>sacerdoti Cereris <expan><abbr>municip</abbr><ex>ii</ex></expan> <lb n="3"/>Capenatium foederatorum <lb n="4"/>ob honorem sacerdotalem <lb n="5"/>honestissimis caerimoniis <lb n="6"/>praebitum decuriones <lb n="7"/>item municipes <lb n="8"/>et postea sacerdoti Veneris <lb n="9"/>bis epulum et sportulas <expan><abbr>decur</abbr><ex>ionibus</ex></expan> <lb n="10"/>et municipibus praebuit <lb n="11"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> dedicata VI <expan><abbr>Kal</abbr><ex>endas</ex></expan> <expan><abbr>Mar</abbr><ex>tias</ex></expan> <lb n="2"/>Glabrione II <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></supplied> <lb n="3"/><expan><abbr>curat</abbr><ex>ore</ex></expan> <expan><abbr>L</abbr><ex>ucio</ex></expan> Mucio Mucia<supplied reason="lost">no</supplied> <lb n="4"/>marito eius
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Mancini, AE 1954: Z. 13: et Maximo coss.; Z. 14: Muciano.      </p>
+            </div>
+        </body>
+    </text>
+</TEI>

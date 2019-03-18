@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Basis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD036247</idno>
+                <idno type="TM">193686</idno><idno type="localID">HD036247</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/53">Basis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029481">Moesia superior</placeName><placeName ref="http://www.trismegistos.org/place/029649">Margum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0151-09-13" notAfter-custom="0151-09-13" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">13.9.151 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/785756">Smederevo</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Centralna Srbija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/rs/">Serbien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-12-08" who="gräf">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IMS 2, 317; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 01647. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 08140. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] / splendidissu/mi(!) bect(igalis)(!) Ill<y=V>r(ici)/#Ill<y>r(ici)/#ILLVR sub cura Iu[c]u[n]/di Marci v(iri) e(gregii)(?) / proc(uratoris) Aug[ust]i / Be<ll=IE>icus#Be<ll>icus#BEIEICUS Caesa/r[is] n(ostri) ver(na) / vil(icus) Idib(us) Sep(tembribus) FANA LI
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/>splendidissu<lb break="no" n="2"/>mi <note>sic</note> <expan><abbr>bect</abbr><ex>igalis</ex></expan> <note>sic</note> Ill<choice><corr>y</corr><sic>V</sic></choice><expan><abbr>r</abbr><ex>ici</ex></expan><lb break="no" n="3"/>#Ill<supplied reason="omitted">y</supplied><expan><abbr>r</abbr><ex>ici</ex></expan><lb break="no" n="4"/>#ILLVR sub cura Iu<supplied reason="lost">c</supplied>u<supplied reason="lost">n</supplied><lb break="no" n="5"/>di Marci <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>e</abbr><ex>gregii</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="6"/><expan><abbr>proc</abbr><ex>uratoris</ex></expan> Aug<supplied reason="lost">ust</supplied>i <lb n="7"/>Be<supplied reason="omitted">ll=IE</supplied>icus#Be<supplied reason="omitted">ll</supplied>icus#BEIEICUS Caesa<lb break="no" n="8"/>r<supplied reason="lost">is</supplied> <expan><abbr>n</abbr><ex>ostri</ex></expan> <expan><abbr>ver</abbr><ex>na</ex></expan> <lb n="9"/><expan><abbr>vil</abbr><ex>icus</ex></expan> <expan><abbr>Idib</abbr><ex>us</ex></expan> <expan><abbr>Sep</abbr><ex>tembribus</ex></expan> FANA LI
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Verschollen. Basis für eine Säule; da der Einweihungstag auf den Gründungstag des Kapitolstempels fällt, handelte es sich nach IMS vielleicht um eine Weihung an Iuppiter Optimus Maximus und den Genius des vectigal Illyrici. Z. 8 (Ende): wohl Konsuldatierung.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

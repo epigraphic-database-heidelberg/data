@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD031699</idno>
+                <idno type="TM">249518</idno><idno type="localID">HD031699</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>125</height>
+                                        <width>72</width>
+                                        <depth>66</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3-1.7</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033152">Latium et Campania (Regio I)</placeName><placeName ref="http://www.trismegistos.org/place/023504">Lavinium</placeName></origPlace>
+                            <origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Pomezia</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Lazio</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-12-14" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        D. Nonnis, RPAA 68, 1995/96, 235-247; fig. 2-7. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                L(ucio) Valerio L(uci) fil(io) Publicolae / Messal(a)e H<e>lbi<di>o(!) Thraseae Prisco / Minicio Natali co(n)s(uli) VIIviro / epulonum salio collino III/viro aere auro argento flando / feriundo tribuno mili<t>um legionis / secund(a)e adiutricis qu(a)estori Augg(ustorum) / atlecto(!) inter praetorios / seviro equitum Romanorum / legato{rum} a<d> census / provinciae Belgic(a)e et / curatori aquarum item / et at(!) fraudis Minici(a)e / patrono et curatori / rei p(ublicae) L(aurentium) L(avinatium) / m(u)n(i)c(ipes)(?) s(tatuam) p(ublice?) p(onendam?) s(tatuerunt)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Valerio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> Publicolae <lb n="2"/>Messal<expan><ex>a</ex><abbr>e</abbr></expan> H<supplied reason="omitted">e</supplied>lbi<supplied reason="omitted">di</supplied>o <note>sic</note> Thraseae Prisco <lb n="3"/>Minicio Natali co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> VIIviro <lb n="4"/>epulonum salio collino III<lb break="no" n="5"/>viro aere auro argento flando <lb n="6"/>feriundo tribuno mili<supplied reason="omitted">t</supplied>um legionis <lb n="7"/>secund<expan><ex>a</ex><abbr>e</abbr></expan> adiutricis qu<expan><ex>a</ex><abbr>estori</abbr></expan> <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <lb n="8"/>atlecto <note>sic</note> inter praetorios <lb n="9"/>seviro equitum Romanorum <lb n="10"/>legato<surplus>rum</surplus> a<supplied reason="omitted">d</supplied> census <lb n="11"/>provinciae Belgic<expan><ex>a</ex><abbr>e</abbr></expan> et <lb n="12"/>curatori aquarum item <lb n="13"/>et at <note>sic</note> fraudis Minici<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="14"/>patrono et curatori <lb n="15"/>rei <expan><abbr>p</abbr><ex>ublicae</ex></expan> <expan><abbr>L</abbr><ex>aurentium</ex></expan> <expan><abbr>L</abbr><ex>avinatium</ex></expan> <lb n="16"/>m<expan><ex>u</ex><abbr>n</abbr><ex>i</ex><abbr>c</abbr></expan>(ipes)<certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>s</abbr><ex>tatuam</ex></expan> <expan><abbr>p</abbr><ex cert="low">ublice</ex></expan> <expan><abbr>p</abbr><ex cert="low">onendam</ex></expan> <expan><abbr>s</abbr><ex>tatuerunt</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Basis aus einem Architekturteil wiederverwendet.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

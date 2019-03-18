@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD031051</idno>
+                <idno type="TM">200992</idno><idno type="localID">HD031051</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/015771">Africa Proconsularis</placeName><placeName ref="http://www.trismegistos.org/place/017297">Thibiuca</placeName></origPlace>
+                            <origDate notBefore-custom="0131" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD – 150 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Hr. Zouitine</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/tn/">Tunesien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2001-11-09" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 128, Nr. 6. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 14291. 
+                    </bibl>
+                    <bibl>
+                         ILS 1096. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Q(uinto) Caecilio Q(uinti) f(ilio) Arn(ensi) Mar/cello Dentiliano Xviro stli/tib(us) iudic(andis) trib(uno) mil(itum) leg(ionis) XI Cl(audiae) piae fid(elis) / [quaest(ori)] provinc(iae) Afric(ae) aed(ili) cur(uli) candi/dato divi Hadriani pr(aetori) candidato / eiusdem leg(ato) provinc(iae) Cretae Cy/renar(um) leg(ato) provinc(iae) Hispan(iae) proco(n)s(uli) / provinc(iae) Cretae Cyrenar(um) leg(ato) leg(ionis) / XII fulminatae leg(ato) Aug(usti) pr(o) pr(aetore) pro/vinciae Galliae Aquitanicae / col[oniae] patrono / Thibiucenses aere conlato
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uinto</ex></expan> Caecilio <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Arn</abbr><ex>ensi</ex></expan> Mar<lb break="no" n="2"/>cello Dentiliano Xviro stli<lb break="no" n="3"/><expan><abbr>tib</abbr><ex>us</ex></expan> <expan><abbr>iudic</abbr><ex>andis</ex></expan> <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>Cl</abbr><ex>audiae</ex></expan> piae <expan><abbr>fid</abbr><ex>elis</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>quaest</abbr><ex>ori</ex></expan></supplied> <expan><abbr>provinc</abbr><ex>iae</ex></expan> <expan><abbr>Afric</abbr><ex>ae</ex></expan> <expan><abbr>aed</abbr><ex>ili</ex></expan> <expan><abbr>cur</abbr><ex>uli</ex></expan> candi<lb break="no" n="5"/>dato divi Hadriani <expan><abbr>pr</abbr><ex>aetori</ex></expan> candidato <lb n="6"/>eiusdem <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>provinc</abbr><ex>iae</ex></expan> Cretae Cy<lb break="no" n="7"/><expan><abbr>renar</abbr><ex>um</ex></expan> <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>provinc</abbr><ex>iae</ex></expan> <expan><abbr>Hispan</abbr><ex>iae</ex></expan> proco<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <lb n="8"/><expan><abbr>provinc</abbr><ex>iae</ex></expan> Cretae <expan><abbr>Cyrenar</abbr><ex>um</ex></expan> <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="9"/>XII fulminatae <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> pro<lb break="no" n="10"/>vinciae Galliae Aquitanicae <lb n="11"/>col<supplied reason="lost">oniae</supplied> patrono <lb n="12"/>Thibiucenses aere conlato
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

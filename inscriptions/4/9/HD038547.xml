@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD038547</idno>
+                <idno type="TM">195188</idno><idno type="localID">HD038547</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Budapest, Aquincumi Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>91</height>
+                                        <width>-71</width>
+                                        <depth>16</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Barbaricum</placeName><placeName ref="http://www.trismegistos.org/place/020126">Aquincum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0183" notAfter-custom="0185" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">183 AD – 185 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1914">1914</date>
+                        <placeName ref="http://www.geonames.org/3045965">Budapest</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Budapest</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-11-03" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        TRHR (Suppl.) 239; Abb. 239 (Foto u. Zeichnung). 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) C 1359. 
+                    </bibl>
+                    <bibl>
+                         P. Kovács - B. Lőrincz, in: P. Kovács (Hrsg.), in: Fontes Pannoniae Antiquae 3 (Budapest 2006) 179, Nr. 33. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(erator) Caes(ar) M(arcus) Aur(elius) [[Commodus]]] / [Antoninus Aug(ustus) Pius Sarm(aticus) G]erm(anicus) Britt(annicus) / [pont(ifex) max(imus) trib(unicia) pot(estate) X imp(erator) VII co(n)s(ul) IIII p(ater)] p(atriae) ripam om/[nem burgis a solo ext]ructis [item praesidiis pe]r loca oppor/[tuna ad clandes]tinos latrun/[culorum transit]us oppositis / [munivit per [[L(ucium) Corne]lium Felicem]] / [[[Plotianum leg(atum)] pr(o) pr(aetore)]]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                [<expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> <del rend="erasure">Commodus</del>] <lb n="2"/><supplied reason="lost">Antoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Pius <expan><abbr>Sarm</abbr><ex>aticus</ex></expan> G</supplied><expan><abbr>erm</abbr><ex>anicus</ex></expan> <expan><abbr>Britt</abbr><ex>annicus</ex></expan> <lb n="3"/><supplied reason="lost"><expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> X <expan><abbr>imp</abbr><ex>erator</ex></expan> VII <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IIII <expan><abbr>p</abbr><ex>ater</ex></expan></supplied> <expan><abbr>p</abbr><ex>atriae</ex></expan> ripam om<lb break="no" n="4"/><supplied reason="lost">nem burgis a solo ext</supplied>ructis <supplied reason="lost">item praesidiis pe</supplied>r loca oppor<lb break="no" n="5"/><supplied reason="lost">tuna ad clandes</supplied>tinos latrun<lb break="no" n="6"/><supplied reason="lost">culorum transit</supplied>us oppositis <lb n="7"/>[munivit per <del rend="erasure"><expan><abbr>L</abbr><ex>ucium</ex></expan> Corne]lium Felicem</del> <lb n="8"/><del rend="erasure"><supplied reason="lost">Plotianum <expan><abbr>leg</abbr><ex>atum</ex></expan></supplied> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan></del>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Datierung nach Kovács - Lőrincz.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

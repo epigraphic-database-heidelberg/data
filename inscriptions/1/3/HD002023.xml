@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD002023</idno>
+                <idno type="TM">123435</idno><idno type="localID">HD002023</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mus. Paleocristiano</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>37.5</height>
+                                        <width>40.5</width>
+                                        <depth>2.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
+
+                                    <rs type="guidelines">GUIDELINES</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033155">Venetia et Histria (Regio X)</placeName><placeName ref="http://www.trismegistos.org/place/003327">Aquileia</placeName></origPlace>
+                            <origDate notBefore-custom="0352-07-28" notAfter-custom="0352-07-28" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">28.7.352 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1937">1937</date>
+                        <placeName ref="http://www.geonames.org/">Aquileia</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Friuli-Venezia Giulia</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-12-27" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0383. (B) 
+                    </bibl>
+                    <bibl>
+                         B. Forlati Tamaro, in: Atti del III Congresso Nazionale di Archeologia cristiana, Aquileia 1972 (Trieste 1974) 205-206, Nr. 2; fig. 4. - AE 1982. 
+                    </bibl>
+                    <bibl>
+                         G. Brusin, in: Miscellanea Pio Paschini. Studi di storia ecclesiastica (Roma 1948/49) 69-76; tav. 1. - AE 1982. 
+                    </bibl>
+                    <bibl>
+                         AE 1991, 0772. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Aic(!) ego sum positus Ma[- - -]/nes natus in Dardani[a cum - - - coniuge - - -] / qu(a)e vixit annos bis qua[ternos mecum sine ull]/a querella in pace decessi [- - - Septembr]/es IAOS annis tricinta(!) / et quinque ex/x(!) tri(bunis) ex pr(o)tecto/ribus depositus / situs(!) diem quintu(m) Kalenda/s A(u)gustas c[o]nsules(!) / Decentio Caesa/ri et <P=R>aulo#<P>aulo#RAULO / consulibus
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Aic <note>sic</note> ego sum positus Ma<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="2"/>nes natus in Dardani<supplied reason="lost">a cum <gap reason="lost" extent="unknown" unit="character"/> coniuge <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/>qu<expan><ex>a</ex><abbr>e</abbr></expan> vixit annos bis qua<supplied reason="lost">ternos mecum sine ull</supplied><lb break="no" n="4"/>a querella in pace decessi <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Septembr</supplied><lb break="no" n="5"/>es IAOS annis tricinta <note>sic</note> <lb n="6"/>et quinque ex<lb break="no" n="7"/>x <note>sic</note> <expan><abbr>tri</abbr><ex>bunis</ex></expan> ex pr<expan><ex>o</ex><abbr>tecto</abbr></expan><lb break="no" n="8"/>ribus depositus <lb n="9"/>situs <note>sic</note> diem <expan><abbr>quintu</abbr><ex>m</ex></expan> Kalenda<lb break="no" n="10"/>s A<expan><ex>u</ex><abbr>gustas</abbr></expan> c<supplied reason="lost">o</supplied>nsules <note>sic</note> <lb n="11"/>Decentio Caesa<lb break="no" n="12"/>ri et <choice><corr>P</corr><sic>R</sic></choice>aulo#<supplied reason="omitted">P</supplied>aulo#RAULO <lb n="13"/>consulibus
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Dekor: u. a. Darstellung eines Protector und eines sitzenden jungen Mannes, der aus einem Becher trinkt (refrigerium-Szene). Darstellung unterbricht die Inschrift. (B): AE 1982: Caesa/ri fehlt.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

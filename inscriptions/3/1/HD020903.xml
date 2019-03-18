@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Besitzer-/Herstellerinschrift auf Tessera</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD020903</idno>
+                <idno type="TM">210159</idno><idno type="localID">HD020903</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bad Homburg/Höhe, Römerkastell Saalburg, Saalburgmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/276">Tessera</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>5</height>
+                                        <width>10</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/145">gepunzt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0131" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1907">1907</date>
+                        <placeName ref="http://www.geonames.org/2857076">Taunusstein</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hessen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/311">Besitzer-/Herstellerinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-05-04" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1908, 0252. (B) 
+                    </bibl>
+                    <bibl>
+                         E. Fabricius, RGKB 1, 1908, 29-30. (B) - AE 1908. 
+                    </bibl>
+                    <bibl>
+                         S.F. Pfahl, Instrumenta Latina et Graeca inscripta des Limesgebietes von 200 v. Chr. bis 600 n. Chr. (Weinstadt 2012) 175, Nr. 315; Taf. 39, 315 (Zeichnung). 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                |(centuria) Sabini Le(ubacciorum?) / Germani<c=S>o(rum)#Germani<c>o(rum)#GERMANISO / |(centuria) Gemelli / Mansueti / A(?)I(?)I(?)[- -]T(?)IS // |(centuria) P(- - -)(?) Fla/vini / Primi
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Sabini <expan><abbr>Le</abbr><ex cert="low">ubacciorum</ex></expan> <lb n="2"/>Germani<choice><corr>c</corr><sic>S</sic></choice><expan><abbr>o</abbr><ex>rum</ex></expan>#Germani<supplied reason="omitted">c</supplied><expan><abbr>o</abbr><ex>rum</ex></expan>#GERMANISO <lb n="3"/><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Gemelli <lb n="4"/>Mansueti <lb n="5"/><expan><abbr>A</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>I</abbr><ex cert="low"/></expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>T</abbr><ex cert="low"/>IS</expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> <abbr>P</abbr><certainty match="preceding-sibling::node()" locus="value"/> Fla<lb break="no" n="2"/>vini <lb n="3"/>Primi
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Besitzermarke. Schreibtechnik: gepunzt. Z. 6-8 stehen kopfüber rechts neben Z. 1-5. (B): Fabricius; AE 1908: Lesung abweichend / unvollständig.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

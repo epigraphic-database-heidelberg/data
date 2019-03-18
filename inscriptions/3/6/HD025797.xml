@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Platte</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD025797</idno>
+                <idno type="TM">155233</idno><idno type="localID">HD025797</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bowes, Kirche, sekundär verwendet</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>81.3</height>
+                                        <width>145</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName>Lavatrae</placeName></origPlace>
+                            <origDate notBefore-custom="0205" notAfter-custom="0208" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">205 AD – 208 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1929">1929</date>
+                        <placeName ref="http://www.geonames.org/2655062">Bowes</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Durham</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-05-02" who="Cowey">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1930, 0111. 
+                    </bibl>
+                    <bibl>
+                         R.G. Collingwood - M.V. Taylor, JRS 18, 1928, 242, Nr. 2. - AE 1930. 
+                    </bibl>
+                    <bibl>
+                         RIB 0740; Zeichnung. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) A 521. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Impp(eratoribus) Caess(aribus) L(ucio) Septim(io) / Severo Pio Pertinaci / Arab(ico) Adiab(enico) Part(hico) maxi(mo) / et M(arco) Aur(elio) Anton(ino) Pio Augg(ustis) / [[[et P(ublio) Sept(imio) Getae nob(ilissimo) Caes(ari)]]] ius/su L(uci) Alfeni Senecionis leg(ati) / Augg(ustorum) pr(o) pr(aetore) coh(ors) I Thrac(um) eq(uitata)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Impp</abbr><ex>eratoribus</ex></expan> <expan><abbr>Caess</abbr><ex>aribus</ex></expan> <expan><abbr>L</abbr><ex>ucio</ex></expan> <expan><abbr>Septim</abbr><ex>io</ex></expan> <lb n="2"/>Severo Pio Pertinaci <lb n="3"/><expan><abbr>Arab</abbr><ex>ico</ex></expan> <expan><abbr>Adiab</abbr><ex>enico</ex></expan> <expan><abbr>Part</abbr><ex>hico</ex></expan> <expan><abbr>maxi</abbr><ex>mo</ex></expan> <lb n="4"/>et <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> <expan><abbr>Anton</abbr><ex>ino</ex></expan> Pio <expan><abbr>Aug<am>g</am></abbr><ex>ustis</ex></expan> <lb n="5"/><del rend="erasure">[et <expan><abbr>P</abbr><ex>ublio</ex></expan> <expan><abbr>Sept</abbr><ex>imio</ex></expan> Getae <expan><abbr>nob</abbr><ex>ilissimo</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan></del>] ius<lb break="no" n="6"/>su <expan><abbr>L</abbr><ex>uci</ex></expan> Alfeni Senecionis <expan><abbr>leg</abbr><ex>ati</ex></expan> <lb n="7"/><expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>coh</abbr><ex>ors</ex></expan> I <expan><abbr>Thrac</abbr><ex>um</ex></expan> <expan><abbr>eq</abbr><ex>uitata</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Tabula ansata.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD031405</idno>
+                <idno type="TM">205742</idno><idno type="localID">HD031405</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003344">Numidia</placeName><placeName ref="http://www.trismegistos.org/place/018251">Thamugadi</placeName></origPlace>
+                            <origDate notBefore-custom="0167" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">167 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2476409">Timgad</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Batna</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2001-11-27" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 157, Nr. 37d. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(eratore) Caesare M(arco) Aureli]o Antonino Armeniaco Parthico maximo Medico Augusto / [pontifice maximo i]mp(eratore) V tribuniciae potestatis XXI co(n)s(ule) III patre patriae et / [Imp(eratore) Caesare L(ucio) Aurelio] Vero Armeniaco Parth(ico) max(imo) Medico Augusto pontifice maximo imp(eratore) V / [trib(uniciae) pot(estatis) VI]I proco(n)s(ule) patr(e) patri(ae) divi Antonini Pii fili(i)s divi Hadriani nepotibus / [divi Traiani Parthi]ci pronepotibus divi Nervae abnepotibus thermas ampliatas / [[M(arcus) Lucceius Torquatus Bassianus leg(atus)]] Aug(gustorum?) [[pro praetore patronus coloniae dedicavit]] d(ecreto) d(ecurionum) p(ecunia) p(ublica)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> Caesare <expan><abbr>M</abbr><ex>arco</ex></expan> Aureli</supplied>o Antonino Armeniaco Parthico maximo Medico Augusto <lb n="2"/><supplied reason="lost">pontifice maximo i</supplied><expan><abbr>mp</abbr><ex>eratore</ex></expan> V tribuniciae potestatis XXI co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> III patre patriae et <lb n="3"/><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> Caesare <expan><abbr>L</abbr><ex>ucio</ex></expan> Aurelio</supplied> Vero Armeniaco <expan><abbr>Parth</abbr><ex>ico</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> Medico Augusto pontifice maximo <expan><abbr>imp</abbr><ex>eratore</ex></expan> V <lb n="4"/><supplied reason="lost"><expan><abbr>trib</abbr><ex>uniciae</ex></expan> <expan><abbr>pot</abbr><ex>estatis</ex></expan> VI</supplied>I proco<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> <expan><abbr>patr</abbr><ex>e</ex></expan> <expan><abbr>patri</abbr><ex>ae</ex></expan> divi Antonini Pii fili<expan><ex>i</ex><abbr>s</abbr></expan> divi Hadriani nepotibus <lb n="5"/><supplied reason="lost">divi Traiani Parthi</supplied>ci pronepotibus divi Nervae abnepotibus thermas ampliatas <lb n="6"/><del rend="erasure"><expan><abbr>M</abbr><ex>arcus</ex></expan> Lucceius Torquatus Bassianus <expan><abbr>leg</abbr><ex>atus</ex></expan></del> <expan><abbr>Aug</abbr><ex cert="low">gustorum</ex></expan> <del rend="erasure">pro praetore patronus coloniae dedicavit</del> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>p</abbr><ex>ublica</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

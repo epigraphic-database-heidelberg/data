@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001951</idno>
+                <idno type="TM">123438</idno><idno type="localID">HD001951</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Aquileia, Mus. Paleocrist.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>32</height>
+                                        <width>41</width>
+                                        <depth>3</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3-1.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033155">Venetia et Histria (Regio X)</placeName><placeName ref="http://www.trismegistos.org/place/003327">Aquileia, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0391-07-12" notAfter-custom="0391-07-12" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">12.7.391 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1893">1893</date>
+                        <placeName ref="http://www.geonames.org/">Aquileia, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Udine</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-09-09" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0386. (B) 
+                    </bibl>
+                    <bibl>
+                         B. Forlati Tamaro, in: Atti del III Congresso Nazionale di Archeologia Cristiana, Aquileia 1972 (Trieste 1974) 207-208, Nr. 5; fig. 6. - AE 1982. 
+                    </bibl>
+                    <bibl>
+                         M. Bonfioli, in: Atti del IX Congresso Internazionale di Archeologia Cristiana 2, Roma 1975 (Roma 1978) 95-97, Nr. 2; fig. 2. (B) - AE 1982. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Hic iacet Secun/dinus qui [v]ixit annus(!) / XLV m(enses) VIII d(ies) III depos[it]us / in pace III Idus Iulias / cons(ulatu) Tatiani et Summac(h)i(!) / viris clarissimis
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Hic iacet Secun<lb break="no" n="2"/>dinus qui <supplied reason="lost">v</supplied>ixit annus <note>sic</note> <lb n="3"/>XLV <expan><abbr>m</abbr><ex>enses</ex></expan> VIII <expan><abbr>d</abbr><ex>ies</ex></expan> III depos<supplied reason="lost">it</supplied>us <lb n="4"/>in pace III Idus Iulias <lb n="5"/><expan><abbr>cons</abbr><ex>ulatu</ex></expan> Tatiani et Summac<expan><ex>h</ex><abbr>i</abbr></expan> <note>sic</note> <lb n="6"/>viris clarissimis
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Tafel besteht aus mehreren Fragmenten. (B): Z. 2: Bonfioli: vixit; Z. 3: AE 1982: depo[sit]us.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

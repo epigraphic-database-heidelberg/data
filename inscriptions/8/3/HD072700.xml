@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD072700</idno>
+                <idno type="TM">429147</idno><idno type="localID">HD072700</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">München, Arch. Staatsslg.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>(Civitas Auderiensium)</placeName></origPlace>
+                            <origDate notBefore-custom="0224-01-13" notAfter-custom="0224-01-13" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">13.1.224 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="2000">2000</date>
+                        <placeName ref="http://www.geonames.org/2859675">Obernburg/Main</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Bayern</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-01-02" who="osnabrügge">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2012, 1013. 
+                    </bibl>
+                    <bibl>
+                         Y. Schmul - B. Steidl, Welterbe Limes. Roms Grenze am Main. Die Steindenkmäler, MittFrBayVFG 121 (München 2008) Nr. 32. - AE 2012. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) C 899. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) B 160. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                In h(onorem) d(omus) d(ivinae) I(ovi) O(ptimo) M(aximo) / diis(!) deabus/que omnib/us Fortun(a)e / Reduci et Ge/nio loci Ner/tinius Festus / m(iles) l(egionis) VIII Aug(ustae) b(ene)f(iciarius) / co(n)s(ularis) pro salute / sua suorumq(ue) posuit / Idib(us) Ianuar(iis) Iuliano et Crisp(ino) co(n)s(ulibus)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>diis <note>sic</note> deabus<lb break="no" n="3"/>que omnib<lb break="no" n="4"/>us Fortun<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="5"/>Reduci et Ge<lb break="no" n="6"/>nio loci Ner<lb break="no" n="7"/>tinius Festus <lb n="8"/><expan><abbr>m</abbr><ex>iles</ex></expan> <expan><abbr>l</abbr><ex>egionis</ex></expan> VIII <expan><abbr>Aug</abbr><ex>ustae</ex></expan> b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> <lb n="9"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> pro salute <lb n="10"/>sua <expan><abbr>suorumq</abbr><ex>ue</ex></expan> posuit <lb n="11"/><expan><abbr>Idib</abbr><ex>us</ex></expan> <expan><abbr>Ianuar</abbr><ex>iis</ex></expan> Iuliano et <expan><abbr>Crisp</abbr><ex>ino</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Steidl: Z. 11: Crisp(o).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

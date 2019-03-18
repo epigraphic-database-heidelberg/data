@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD017758</idno>
+                <idno type="TM">203878</idno><idno type="localID">HD017758</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Mauretania Caesariensis</placeName><placeName ref="http://www.trismegistos.org/place/003116">Caesarea</placeName></origPlace>
+                            <origDate notBefore-custom="0107-11-24" notAfter-custom="0107-11-24" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">24.11.107 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2501440">Cherchel</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2010-05-12" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 199, Nr. 7a. 
+                    </bibl>
+                    <bibl>
+                         CIL 16, 00056. 
+                    </bibl>
+                    <bibl>
+                         M.-G. Pflaum, Les carrières procuratoriennes équestres sous le Haut-Empire romain (Paris 1960/61) 158-160, Nr. 67, 2. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) C 181. 
+                    </bibl>
+                    <bibl>
+                         ILS 2003. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) Caesar divi Nervae f(ilius) Nerva Traianus / August(us) Germanicus Dacicus pontifex maxi/mus tribunic(ia) potestat(e) XI imp(erator) VI co(n)s(ul) V [p(ater)] p(atriae) / equitibus et peditibus qui militaverunt / in alis tribus et cohortibus decem quae ap/pellantur I Nerviana Augusta fidelis |(miliaria) / et II Thracum Augusta p(ia) f(idelis) et Parthorum et / I Augusta Nerviana velox et I Corsorum c(ivium) R(omanorum) / et I Pannoniorum et I Nurritanorum et / I Flavia Musulamiorum et I Flavia Hispa/norum et II Brittonum et II Breucorum / et II Gallorum et IIII Sugambrorum et sunt / in Mauretania Caesarensi sub T(ito) Caeser/nio Macedone quinis et vicenis pluribus/ve stipendiis emeritis dimissis hones/ta missione item classicis quorum nomi/na subscripta sunt ipsis liberis posteris/que eorum civitatem dedit et conubium cum / uxoribus quas tunc habuissent cum est / civitas iis data aut si qui caelibes esse/nt cum iis quas postea duxissent dum/taxat singuli singulas / a(nte) d(iem) VIII K(alendas) Dec(embres) / C(aio) Iulio Longino C(aio) Valerio Paullino co(n)s(ulibus) / cohort(is) IIII Sugambrorum cui prae(e)st / Ti(berius) Claudius Ti(beri) f(ilius) Qui(rina) Magnus / ex pedite / Lovessio Maximi f(ilio) Bracar(o) / descriptum et recognitum ex tabula ae/nea quae fixa est Romae in muro post / templum divi Aug(usti) ad Minervam // Imp(erator) Caesar divi Nervae f(ilius) Nerva Tra[i]an(us) / Aug(ustus) Germanic(us) Dacicus pontif(ex) maximus / tribunic(ia) potest(ate) XI imp(erator) VI co(n)s(ul) V p(ater) p(atriae) / equitibus et peditibus qui militaverunt / in alis tribus et cohortibus decem quae ap/pellantur I Nerviana Aug(usta) f(idelis) |(miliaria) et II Thracum / Aug(usta) p(ia) f(idelis) et Parthorum et I Aug(usta) Nerviana ve/lox et I Corsorum c(ivium) R(omanorum) et I Pannoniorum / et I Nurritanorum et I Flavia Musula/miorum et I Flavia Hispanorum et II Br/ittonum et II Breu[c]orum et II Gallorum / et IIII Sugambrorum et sunt in Maureta/nia Caesarensi sub T(ito) Caesernio Macedo/ne quinis et vicenis pluribusve stipen/diis emer[i]tis dimissis honesta missio/ne item classicis quorum nomina sub/scripta sunt ipsis liberis posteris/que eorum civitatem dedit et conub[i]/um cum uxorib[u]s quas tunc habuissent // cum est civ[it]as [ii]s data aut si qui / caelibes essent cum iis quas postea / duxissent dumtaxat singuli singulas / a(nte) d(iem) VIII K(alendas) Dec(embres) / C(aio) Iulio Longino C(aio) Valerio Paullino co(n)s(ulibus) / coh(ortis) IIII Sugambrorum cui prae(e)st / Ti(berius) Claudiu[s] T[i(beri)] f(ilius) Qui(rina) Magnus / e[x pedi]te / Lovessio Ma[xi]mi f(ilius) Bracar(i) / descriptum et recognitum ex tabula a[e]/nea quae fixa est Romae // Q(uinti) Aemili Soterici / C(ai) Iuli Eut<y=V>chi#Eut<y>chi#EUTVCHI /T(iti) Villi Heraclidae / A(uli) Larci Phronimi / C(ai) Pomptini[i] Hylli / P(ubli) Anni Trophimi / C(ai) Norbani Primi
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Nervae <expan><abbr>f</abbr><ex>ilius</ex></expan> Nerva Traianus <lb n="2"/><expan><abbr>August</abbr><ex>us</ex></expan> Germanicus Dacicus pontifex maxi<lb break="no" n="3"/>mus <expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>potestat</abbr><ex>e</ex></expan> XI <expan><abbr>imp</abbr><ex>erator</ex></expan> VI co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> V <supplied reason="lost"><expan><abbr>p</abbr><ex>ater</ex></expan></supplied> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="4"/>equitibus et peditibus qui militaverunt <lb n="5"/>in alis tribus et cohortibus decem quae ap<lb break="no" n="6"/>pellantur I Nerviana Augusta fidelis |(miliaria) <lb n="7"/>et II Thracum Augusta <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> et Parthorum et <lb n="8"/>I Augusta Nerviana velox et I Corsorum <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <lb n="9"/>et I Pannoniorum et I Nurritanorum et <lb n="10"/>I Flavia Musulamiorum et I Flavia Hispa<lb break="no" n="11"/>norum et II Brittonum et II Breucorum <lb n="12"/>et II Gallorum et IIII Sugambrorum et sunt <lb n="13"/>in Mauretania Caesarensi sub <expan><abbr>T</abbr><ex>ito</ex></expan> Caeser<lb break="no" n="14"/>nio Macedone quinis et vicenis pluribus<lb break="no" n="15"/>ve stipendiis emeritis dimissis hones<lb break="no" n="16"/>ta missione item classicis quorum nomi<lb break="no" n="17"/>na subscripta sunt ipsis liberis posteris<lb break="no" n="18"/>que eorum civitatem dedit et conubium cum <lb n="19"/>uxoribus quas tunc habuissent cum est <lb n="20"/>civitas iis data aut si qui caelibes esse<lb break="no" n="21"/>nt cum iis quas postea duxissent dum<lb break="no" n="22"/>taxat singuli singulas <lb n="23"/><expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> VIII <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Dec</abbr><ex>embres</ex></expan> <lb n="24"/><expan><abbr>C</abbr><ex>aio</ex></expan> Iulio Longino <expan><abbr>C</abbr><ex>aio</ex></expan> Valerio Paullino co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="25"/><expan><abbr>cohort</abbr><ex>is</ex></expan> IIII Sugambrorum cui prae<expan><ex>e</ex><abbr>st</abbr></expan> <lb n="26"/><expan><abbr>Ti</abbr><ex>berius</ex></expan> Claudius <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Qui</abbr><ex>rina</ex></expan> Magnus <lb n="27"/>ex pedite <lb n="28"/>Lovessio Maximi <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Bracar</abbr><ex>o</ex></expan> <lb n="29"/>descriptum et recognitum ex tabula ae<lb break="no" n="30"/>nea quae fixa est Romae in muro post <lb n="31"/>templum divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad Minervam </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Nervae <expan><abbr>f</abbr><ex>ilius</ex></expan> Nerva <expan><abbr>Tra<supplied reason="lost">i</supplied>an</abbr><ex>us</ex></expan> <lb n="2"/><expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>Germanic</abbr><ex>us</ex></expan> Dacicus <expan><abbr>pontif</abbr><ex>ex</ex></expan> maximus <lb n="3"/><expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> XI <expan><abbr>imp</abbr><ex>erator</ex></expan> VI co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> V <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="4"/>equitibus et peditibus qui militaverunt <lb n="5"/>in alis tribus et cohortibus decem quae ap<lb break="no" n="6"/>pellantur I Nerviana <expan><abbr>Aug</abbr><ex>usta</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> |(miliaria) et II Thracum <lb n="7"/><expan><abbr>Aug</abbr><ex>usta</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> et Parthorum et I <expan><abbr>Aug</abbr><ex>usta</ex></expan> Nerviana ve<lb break="no" n="8"/>lox et I Corsorum <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I Pannoniorum <lb n="9"/>et I Nurritanorum et I Flavia Musula<lb break="no" n="10"/>miorum et I Flavia Hispanorum et II Br<lb break="no" n="11"/>ittonum et II Breu<supplied reason="lost">c</supplied>orum et II Gallorum <lb n="12"/>et IIII Sugambrorum et sunt in Maureta<lb break="no" n="13"/>nia Caesarensi sub <expan><abbr>T</abbr><ex>ito</ex></expan> Caesernio Macedo<lb break="no" n="14"/>ne quinis et vicenis pluribusve stipen<lb break="no" n="15"/>diis emer<supplied reason="lost">i</supplied>tis dimissis honesta missio<lb break="no" n="16"/>ne item classicis quorum nomina sub<lb break="no" n="17"/>scripta sunt ipsis liberis posteris<lb break="no" n="18"/>que eorum civitatem dedit et conub<supplied reason="lost">i</supplied><lb break="no" n="19"/>um cum uxorib<supplied reason="lost">u</supplied>s quas tunc habuissent </ab></div><div n="3" type="textpart"><ab><lb n="1"/> cum est civ<supplied reason="lost">it</supplied>as <supplied reason="lost">ii</supplied>s data aut si qui <lb n="2"/>caelibes essent cum iis quas postea <lb n="3"/>duxissent dumtaxat singuli singulas <lb n="4"/><expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> VIII <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Dec</abbr><ex>embres</ex></expan> <lb n="5"/><expan><abbr>C</abbr><ex>aio</ex></expan> Iulio Longino <expan><abbr>C</abbr><ex>aio</ex></expan> Valerio Paullino co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="6"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> IIII Sugambrorum cui prae<expan><ex>e</ex><abbr>st</abbr></expan> <lb n="7"/><expan><abbr>Ti</abbr><ex>berius</ex></expan> Claudiu<supplied reason="lost">s</supplied> T<supplied reason="lost"><expan><abbr>i</abbr><ex>beri</ex></expan></supplied> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Qui</abbr><ex>rina</ex></expan> Magnus <lb n="8"/>e<supplied reason="lost">x pedi</supplied>te <lb n="9"/>Lovessio Ma<supplied reason="lost">xi</supplied>mi <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Bracar</abbr><ex>i</ex></expan> <lb n="10"/>descriptum et recognitum ex tabula a<supplied reason="lost">e</supplied><lb break="no" n="11"/>nea quae fixa est Romae </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>Q</abbr><ex>uinti</ex></expan> Aemili Soterici <lb n="2"/><expan><abbr>C</abbr><ex>ai</ex></expan> Iuli Eut<choice><corr>y</corr><sic>V</sic></choice>chi#Eut<supplied reason="omitted">y</supplied>chi#EUTVCHI <lb n="3"/><expan><abbr>T</abbr><ex>iti</ex></expan> Villi Heraclidae <lb n="4"/><expan><abbr>A</abbr><ex>uli</ex></expan> Larci Phronimi <lb n="5"/><expan><abbr>C</abbr><ex>ai</ex></expan> Pomptini<supplied reason="lost">i</supplied> Hylli <lb n="6"/><expan><abbr>P</abbr><ex>ubli</ex></expan> Anni Trophimi <lb n="7"/><expan><abbr>C</abbr><ex>ai</ex></expan> Norbani Primi
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

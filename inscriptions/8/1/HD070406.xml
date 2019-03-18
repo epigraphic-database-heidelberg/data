@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Platte</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD070406</idno>
+                <idno type="TM">155695</idno><idno type="localID">HD070406</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>107</height>
+                                        <width>53.3</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/015583">Epiacum</placeName></origPlace>
+                            <origDate notBefore-custom="0213" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">213 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1599">1599</date>
+                        <placeName ref="http://www.geonames.org/">Whitley Castle</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Northumberland</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-08-04" who="Cowey">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 07, 00310. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 07, 00310, add. p. 307. (B) 
+                    </bibl>
+                    <bibl>
+                         RIB 1202. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) I 405. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(eratori) Caes(ari) [di]v[i] L(uci) [Sept(imi) Severi Pii Pertinacis Aug(usti) Ara]/bici Adia[benici Parthici] / Max(imi) fil(io) divi Anton[ini] Pi[i] G[erm(anici)] / Sarm(atici) nep(oti) divi Antoni[ni Pii] pron(epoti) / divi Hadr(iani) abnep(oti) divi Traian[i] / Parth(ici) et divi Nervae adnep(oti) / M(arco) Aurelio Antonino Pio / Fel(ici) Aug(usto) [P]art(hico) Ma[x(imo) Bri]t(annico) Ma[x(imo)] pont(ifici) ma[x(imo)] / tr(ibunicia) pot(estate) X[VI] Imp(eratori) I[I] co(n)s(uli) IIII p(atri) p(atriae) / pro pietate a[c] devotione / communi curante [[G(aio)]] / [[Iulio Marco]] leg(ato) Aug(usti) / pr(o) pr(aetore) coh(ors) II Nervio/rum c(ivium) R(omanorum) pos(uit) [d(evota) n(umini) m(aiestati)q(ue) eius]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <supplied reason="lost">di</supplied>v<supplied reason="lost">i</supplied> <expan><abbr>L</abbr><ex>uci</ex></expan> <supplied reason="lost"><expan><abbr>Sept</abbr><ex>imi</ex></expan> Severi Pii Pertinacis <expan><abbr>Aug</abbr><ex>usti</ex></expan> Ara</supplied><lb break="no" n="2"/>bici Adia<supplied reason="lost">benici Parthici</supplied> <lb n="3"/><expan><abbr>Max</abbr><ex>imi</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> divi Anton<supplied reason="lost">ini</supplied> Pi<supplied reason="lost">i</supplied> G<supplied reason="lost"><expan><abbr>erm</abbr><ex>anici</ex></expan></supplied> <lb n="4"/><expan><abbr>Sarm</abbr><ex>atici</ex></expan> <expan><abbr>nep</abbr><ex>oti</ex></expan> divi Antoni<supplied reason="lost">ni Pii</supplied> <expan><abbr>pron</abbr><ex>epoti</ex></expan> <lb n="5"/>divi <expan><abbr>Hadr</abbr><ex>iani</ex></expan> <expan><abbr>abnep</abbr><ex>oti</ex></expan> divi Traian<supplied reason="lost">i</supplied> <lb n="6"/><expan><abbr>Parth</abbr><ex>ici</ex></expan> et divi Nervae <expan><abbr>adnep</abbr><ex>oti</ex></expan> <lb n="7"/><expan><abbr>M</abbr><ex>arco</ex></expan> Aurelio Antonino Pio <lb n="8"/><expan><abbr>Fel</abbr><ex>ici</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr><supplied reason="lost">P</supplied>art</abbr><ex>hico</ex></expan> Ma<supplied reason="lost"><expan><abbr>x</abbr><ex>imo</ex></expan> Bri</supplied><expan><abbr>t</abbr><ex>annico</ex></expan> Ma<supplied reason="lost"><expan><abbr>x</abbr><ex>imo</ex></expan></supplied> <expan><abbr>pont</abbr><ex>ifici</ex></expan> ma<supplied reason="lost"><expan><abbr>x</abbr><ex>imo</ex></expan></supplied> <lb n="9"/><expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> X<supplied reason="lost">VI</supplied> <expan><abbr>Imp</abbr><ex>eratori</ex></expan> I<supplied reason="lost">I</supplied> co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> IIII <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="10"/>pro pietate a<supplied reason="lost">c</supplied> devotione <lb n="11"/>communi curante <del rend="erasure"><expan><abbr>G</abbr><ex>aio</ex></expan></del> <lb n="12"/><del rend="erasure">Iulio Marco</del> <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="13"/><expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>coh</abbr><ex>ors</ex></expan> II Nervio<lb break="no" n="14"/>rum <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <expan><abbr>pos</abbr><ex>uit</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>evota</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan> <expan><abbr>m</abbr><ex>aiestati</ex><abbr>q</abbr><ex>ue</ex></expan> eius</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Zu den Leseabweichungen s. RIB 1202.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

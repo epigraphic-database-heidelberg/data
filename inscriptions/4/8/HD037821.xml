@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD037821</idno>
+                <idno type="TM">196422</idno><idno type="localID">HD037821</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Tata, Angolpark, künstliche Ruine, bei</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>116</height>
+                                        <width>-60</width>
+                                        <depth>31</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5-3.7</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016277">Brigetio, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0196" notAfter-custom="0284" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">196 AD – 284 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3044083">Tata</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Komárom-Esztergom megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-05-11" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/8952">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        RIU 0684; Abb. 684 (Foto u. Zeichnung). 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 10960. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [I(ovi) O(ptimo) M(aximo)] et Conservatori // [p]ro salute / dd(ominorum) nn(ostrorum) / [A]ugg(ustorum) / [M(arcus)? U]lp(ius) Fabia / [Cast?]rensis / [Rom]a vet(eranus) / [leg(ionis)] I adiut(ricis) // [ex vo]to fecit
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan></supplied> et Conservatori </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">p</supplied>ro salute <lb n="2"/><expan><abbr>d<am>d</am></abbr><ex>ominorum</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostrorum</ex></expan> <lb n="3"/><expan><abbr><supplied reason="lost">A</supplied>ugg</abbr><ex>ustorum</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arcus</ex></expan>? U</supplied><expan><abbr>lp</abbr><ex>ius</ex></expan> Fabia <lb n="5"/><supplied reason="lost" cert="low">Cast</supplied>rensis <lb n="6"/><supplied reason="lost">Rom</supplied>a <expan><abbr>vet</abbr><ex>eranus</ex></expan> <lb n="7"/><supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied> I <expan><abbr>adiut</abbr><ex>ricis</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <supplied reason="lost">ex vo</supplied>to fecit
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 1 befindet sich auf der corona, Z. 9 auf der crepido. Auf der rechten Nebenseite Victoria mit Palmzweig. In Z. 5 vor dem P noch der Abschluss einer unterer Horizontalhaste zu erkennen, hier sicher L. Die Ergänzung des Namens aufgrund weiterer Altäre eines M. Ulpius Castrensis aus der Nähe: http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD018281 u. http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD018284.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

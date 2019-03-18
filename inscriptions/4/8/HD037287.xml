@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD037287</idno>
+                <idno type="TM">194899</idno><idno type="localID">HD037287</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Budapest, Magyar Nemzeti Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>73</height>
+                                        <width>-108</width>
+                                        <depth>12</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/029251">Intercisa</placeName></origPlace>
+                            <origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3053438">Dunaújváros</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Fejér megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-10-12" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/3511">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        RIU 1150; Abb. 1150 (Foto u. Zeichnung). 
+                    </bibl>
+                    <bibl>
+                         G. Erdélyi - F. Fülep, in: L. Barkóczi u. a., Intercisa I. (Dunapentele - Sztálinváros). Geschichte der Stadt in der Römerzeit (Budapest 1954) 297, Nr. 122; Taf. 49, 2. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) // M(anibus) // (A)eliae Mattun(a)e qu(a)e et Au[- - -] / h(ic) <e=C>(st)#<e>(st)#C s(ita) ann(orum) XXX con(iuigi) ben[e merenti - - -] / Verecumber(a)e pient[issimae - - -] / Aurelius Vindo[- - -] / et sibi vivo [posuit]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><ex>A</ex><abbr>eliae</abbr></expan> Mattun<expan><ex>a</ex><abbr>e</abbr></expan> qu<expan><ex>a</ex><abbr>e</abbr></expan> et Au<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>h</abbr><ex>ic</ex></expan> <choice><corr>e</corr><sic>C</sic></choice>(st)#<supplied reason="omitted">e</supplied>(st)#C <expan><abbr>s</abbr><ex>ita</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XXX <expan><abbr>con</abbr><ex>iuigi</ex></expan> ben<supplied reason="lost">e merenti <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/>Verecumber<expan><ex>a</ex><abbr>e</abbr></expan> pient<supplied reason="lost">issimae</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>Aurelius Vindo<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>et sibi vivo <supplied reason="lost">posuit</supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Inschriftfeld flankiert von zwei peltaförmigen "ansae", auf denen sich die Abkürzungen D(is) M(anibus) verteilten; links neben der erhaltenen linken "ansa" geflügelter Genius auf einem Altar.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

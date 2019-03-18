@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD072125</idno>
+                <idno type="TM">408602</idno><idno type="localID">HD072125</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Zagreb, Arh. Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>36</height>
+                                        <width>38</width>
+                                        <depth>5.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/029115">Siscia</placeName></origPlace>
+                            <origDate notBefore-custom="0271" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">271 AD – 400 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1877">1877</date>
+                        <placeName ref="http://www.geonames.org/3190813">Sisak</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Sisačko-moslavačka županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-05-04" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/3806">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 10864. (B) 
+                    </bibl>
+                    <bibl>
+                         AIJ 573; Foto. (B) 
+                    </bibl>
+                    <bibl>
+                         CLE 0598. (B) 
+                    </bibl>
+                    <bibl>
+                         CLEPann 031. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [- - -]EC [u]xori / posuit carissim(a)e suae / Maximill(a)e nom[i]na tu<a=E>#tu<a>#TUE / superos laudesq(ue) manebun(t) / adque(!) utinam su[p]erstes amic(o) / reciperes tua mer[i]ta magna / coniugio ereptam / Firma(m) requiris(!) ibidem
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>EC <supplied reason="lost">u</supplied>xori <lb n="2"/>posuit carissim<expan><ex>a</ex><abbr>e</abbr></expan> suae <lb n="3"/>Maximill<expan><ex>a</ex><abbr>e</abbr></expan> nom<supplied reason="lost">i</supplied>na tu<choice><corr>a</corr><sic>E</sic></choice>#tu<supplied reason="omitted">a</supplied>#TUE <lb n="4"/>superos <expan><abbr>laudesq</abbr><ex>ue</ex></expan> <expan><abbr>manebun</abbr><ex>t</ex></expan> <lb n="5"/>adque <note>sic</note> utinam su<supplied reason="lost">p</supplied>erstes <expan><abbr>amic</abbr><ex>o</ex></expan> <lb n="6"/>reciperes tua mer<supplied reason="lost">i</supplied>ta magna <lb n="7"/>coniugio ereptam <lb n="8"/><expan><abbr>Firma</abbr><ex>m</ex></expan> requiris <note>sic</note> ibidem
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> In zwei Teile gebrochen. Metrik: Hexameter. (B): CIL 03, 10864; AIJ; CLE; CLEPann: kleinere Leseabweichungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

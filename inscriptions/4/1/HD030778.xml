@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Block</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD030778</idno>
+                <idno type="TM">200936</idno><idno type="localID">HD030778</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/015771">Africa Proconsularis</placeName><placeName>Lepcis Magna</placeName></origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2219905">Al Khums</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/ly/">Libyen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-05-21" who="Bigi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 57, Nr. 68b. 
+                    </bibl>
+                    <bibl>
+                         IRT 545. 
+                    </bibl>
+                    <bibl>
+                         I. Tantillo - F. Bigi (Hrsg.), Leptis Magna. Una città e le sue iscrizioni in epoca tardoromana (Cassino 2010) 282. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] / [[co(n)s(uli) pro[co(n)s(uli) prov(inciae) Af]ric(ae) XVvir(o) sacr(is) fa[ciundis curat]or(i) ae[d]ium sac(rarum) [et]]] / [[operum [publ(icorum) leg(ato) p]ro pr(aetore)]] Imp(eratoris) Caes(aris) Traiani Ha[driani] Aug(usti) provinc(iae) / [[Cappadoc[iae leg(ato)] pro pr(aetore)]] Imp(eratoris) C[a]es(aris) Traiani Hadrian[i A]ug(usti) pro[[vinciae]] / [[Mo[e]siae i[nferioris]] le]g(ato) pro pr(aetore) I[mp(eratoris)] Caes(aris) divi Traiani [Au]g(usti) provinciae / [Ciliciae cur]atori viae Latinae [leg(ato) leg(ionis) VI ferratae don(is) milit(aribus) don(ato)] / [ab Imp(eratore) Tra]iano Aug(usto) ob bellum [Parthicum pr(aetori) aed(ili) pleb(is) quaest(ori)] / [prov(inciae) Hisp(aniae) B]aetic(ae) ulterioris tribun(o) lat[ic(lavio) leg(ionis) I Minerviae donis milit(aribus) don(ato)] / [ab Imp(eratore) Aug(usto) ob] bellum Marcomannicum [triumviro capitali - - -] / [Le]pcit[ani - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><del rend="erasure"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> pro<supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan> Af</supplied><expan><abbr>ric</abbr><ex>ae</ex></expan> <expan><abbr>XVvir</abbr><ex>o</ex></expan> <expan><abbr>sacr</abbr><ex>is</ex></expan> fa<supplied reason="lost">ciundis curat</supplied><expan><abbr>or</abbr><ex>i</ex></expan> ae<supplied reason="lost">d</supplied>ium <expan><abbr>sac</abbr><ex>rarum</ex></expan> [et</del>] <lb n="2"/><del rend="erasure">operum <supplied reason="lost"><expan><abbr>publ</abbr><ex>icorum</ex></expan> <expan><abbr>leg</abbr><ex>ato</ex></expan> p</supplied>ro <expan><abbr>pr</abbr><ex>aetore</ex></expan></del> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> Traiani Ha<supplied reason="lost">driani</supplied> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>provinc</abbr><ex>iae</ex></expan> <lb n="3"/><del rend="erasure">Cappadoc<supplied reason="lost">iae <expan><abbr>leg</abbr><ex>ato</ex></expan></supplied> pro <expan><abbr>pr</abbr><ex>aetore</ex></expan></del> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>C<supplied reason="lost">a</supplied>es</abbr><ex>aris</ex></expan> Traiani Hadrian<supplied reason="lost">i A</supplied><expan><abbr>ug</abbr><ex>usti</ex></expan> pro<del rend="erasure">vinciae</del> <lb n="4"/><del rend="erasure">Mo<supplied reason="lost">e</supplied>siae i[nferioris</del> le]<expan><abbr>g</abbr><ex>ato</ex></expan> pro <expan><abbr>pr</abbr><ex>aetore</ex></expan> I<supplied reason="lost"><expan><abbr>mp</abbr><ex>eratoris</ex></expan></supplied> <expan><abbr>Caes</abbr><ex>aris</ex></expan> divi Traiani <expan><abbr><supplied reason="lost">Au</supplied>g</abbr><ex>usti</ex></expan> provinciae <lb n="5"/><supplied reason="lost">Ciliciae cur</supplied>atori viae Latinae <supplied reason="lost"><expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> VI ferratae <expan><abbr>don</abbr><ex>is</ex></expan> <expan><abbr>milit</abbr><ex>aribus</ex></expan> <expan><abbr>don</abbr><ex>ato</ex></expan></supplied> <lb n="6"/><supplied reason="lost">ab <expan><abbr>Imp</abbr><ex>eratore</ex></expan> Tra</supplied>iano <expan><abbr>Aug</abbr><ex>usto</ex></expan> ob bellum <supplied reason="lost">Parthicum <expan><abbr>pr</abbr><ex>aetori</ex></expan> <expan><abbr>aed</abbr><ex>ili</ex></expan> <expan><abbr>pleb</abbr><ex>is</ex></expan> <expan><abbr>quaest</abbr><ex>ori</ex></expan></supplied> <lb n="7"/><supplied reason="lost"><expan><abbr>prov</abbr><ex>inciae</ex></expan> <expan><abbr>Hisp</abbr><ex>aniae</ex></expan> B</supplied><expan><abbr>aetic</abbr><ex>ae</ex></expan> ulterioris <expan><abbr>tribun</abbr><ex>o</ex></expan> lat<supplied reason="lost"><expan><abbr>ic</abbr><ex>lavio</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> I Minerviae donis <expan><abbr>milit</abbr><ex>aribus</ex></expan> <expan><abbr>don</abbr><ex>ato</ex></expan></supplied> <lb n="8"/><supplied reason="lost">ab <expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> ob</supplied> bellum Marcomannicum <supplied reason="lost">triumviro capitali <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="9"/><supplied reason="lost">Le</supplied>pcit<supplied reason="lost">ani</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Reused as building material in the vaults of the Calidarium.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD075839</idno>
+                <idno type="TM"/><idno type="localID">HD075839</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Köln, Röm.-Germ. Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-33</height>
+                                        <width>-29</width>
+                                        <depth>23</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016530">Germania inferior</placeName><placeName ref="http://www.trismegistos.org/place/003258">Colonia Claudia Ara Agrippinensium, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0031" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD – 70 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1891">1891</date>
+                        <placeName ref="http://www.geonames.org/2886242">Köln</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Nordrhein-Westfalen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-02-07" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 08301. 
+                    </bibl>
+                    <bibl>
+                         B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln, IKöln (2. 
+                    </bibl>
+                    <bibl>
+                         Aufl.) (Mainz 2010) 288, Nr. 346; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Q(uinto) An]ch(a)rio Q(uinti) f(ilio) / [Rom(ilia) A]t(este) veter(ano) leg(ionis) / [- - -] Q(uinto) Anchartae(!) / [- - - su]o patrono pie / [et Anchar]iae Q(uinti) l(ibertae) Ma(n)suetae / [et Q(uinto) Anch]ario Q(uinti) l(iberto) Secu/[ndo et Ancha]riae Ve{e}nustae
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Q</abbr><ex>uinto</ex></expan> An</supplied>ch<expan><ex>a</ex><abbr>rio</abbr></expan> <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><supplied reason="lost"><expan><abbr>Rom</abbr><ex>ilia</ex></expan> A</supplied><expan><abbr>t</abbr><ex>este</ex></expan> <expan><abbr>veter</abbr><ex>ano</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Q</abbr><ex>uinto</ex></expan> Anchartae <note>sic</note> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">su</supplied>o patrono pie <lb n="5"/><supplied reason="lost">et Anchar</supplied>iae <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>l</abbr><ex>ibertae</ex></expan> Ma<expan><ex>n</ex><abbr>suetae</abbr></expan> <lb n="6"/><supplied reason="lost">et <expan><abbr>Q</abbr><ex>uinto</ex></expan> Anch</supplied>ario <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>l</abbr><ex>iberto</ex></expan> Secu<lb break="no" n="7"/><supplied reason="lost">ndo et Ancha</supplied>riae Ve<surplus>e</surplus>nustae
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Abmessungen bei Auffindung: (75) x (49).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

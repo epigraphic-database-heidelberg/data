@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD007863</idno>
+                <idno type="TM">203510</idno><idno type="localID">HD007863</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Mauretania Caesariensis</placeName><placeName ref="http://www.trismegistos.org/place/003116">Caesarea</placeName></origPlace>
+                            <origDate notBefore-custom="0171" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2501440">Cherchel</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2010-05-12" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 204, Nr. 16a. 
+                    </bibl>
+                    <bibl>
+                         CIL 08, 09363. 
+                    </bibl>
+                    <bibl>
+                         ILS 1351. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) C 977. 
+                    </bibl>
+                    <bibl>
+                         H.-G. Pflaum, Les carrières procuratoriennes équestres sous le Haut-Empire romain (Paris 1960/61) 438-440, Nr. 175. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Ti(berio) Cl(audio) Prisciano / proc(uratori) Aug(usti) / proc(uratori) provinciae / Pannoniae / superioris / proc(uratori) regni Norici / proc(uratori) XX hereditatium / proc(uratori) provinciae / [Mauretaniae Caesariensis] / Q(uintus) [- - -]n[- - -]io/rius Severus / praef(ectus) coh(ortis) / Sigambro/rum praepo/situs clas/sibus [- - -] / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ti</abbr><ex>berio</ex></expan> <expan><abbr>Cl</abbr><ex>audio</ex></expan> Prisciano <lb n="2"/><expan><abbr>proc</abbr><ex>uratori</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="3"/><expan><abbr>proc</abbr><ex>uratori</ex></expan> provinciae <lb n="4"/>Pannoniae <lb n="5"/>superioris <lb n="6"/><expan><abbr>proc</abbr><ex>uratori</ex></expan> regni Norici <lb n="7"/><expan><abbr>proc</abbr><ex>uratori</ex></expan> XX hereditatium <lb n="8"/><expan><abbr>proc</abbr><ex>uratori</ex></expan> provinciae <lb n="9"/><supplied reason="lost">Mauretaniae Caesariensis</supplied> <lb n="10"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>n<gap reason="lost" extent="unknown" unit="character"/>io<lb break="no" n="11"/>rius Severus <lb n="12"/><expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <lb n="13"/>Sigambro<lb break="no" n="14"/>rum praepo<lb break="no" n="15"/>situs clas<lb break="no" n="16"/>sibus <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Datierung: nach der Prokuratur des Geehrten in Noricum (168 n. Chr.) u. der darauffolgenden Ausübung des Amtes des proc. XX hereditatium, als Claudius Priscianus Prokurator der Mauretania Caesariensis war.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

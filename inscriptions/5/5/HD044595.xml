@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD044595</idno>
+                <idno type="TM">372808</idno><idno type="localID">HD044595</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>120</height>
+                                        <width>45</width>
+                                        <depth>154</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.6-8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/019895">Corduba</placeName></origPlace>
+                            <origDate notBefore-custom="0253" notAfter-custom="0260" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">253 AD – 260 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="2001">2001</date>
+                        <placeName ref="http://www.geonames.org/2519240">Córdoba</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2007-12-10" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2003, 0931. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Q(uinto) Antonio Granio Erasino v(iro) e(gregio) / |(centurioni) frumentario canalic(u)lario / [pro]c(uratori) ad familiam gladiatoriam / per Italiam Aemiliam Transpadum / Liguriam Pannonias Dalmatias / proc(uratori) XXmae heredit(atium) provinciar(um) / duarum Baeticae et Lusitaniae / Valerius Augg(ustorum) lib(ertus) tabularius / magistro innocentissimo / ob meritis posuit
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uinto</ex></expan> Antonio Granio Erasino <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>e</abbr><ex>gregio</ex></expan> <lb n="2"/>|(centurioni) frumentario canalic<expan><ex>u</ex><abbr>lario</abbr></expan> <lb n="3"/><expan><abbr><supplied reason="lost">pro</supplied>c</abbr><ex>uratori</ex></expan> ad familiam gladiatoriam <lb n="4"/>per Italiam Aemiliam Transpadum <lb n="5"/>Liguriam Pannonias Dalmatias <lb n="6"/><expan><abbr>proc</abbr><ex>uratori</ex></expan> XXmae <expan><abbr>heredit</abbr><ex>atium</ex></expan> <expan><abbr>provinciar</abbr><ex>um</ex></expan> <lb n="7"/>duarum Baeticae et Lusitaniae <lb n="8"/>Valerius <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <expan><abbr>lib</abbr><ex>ertus</ex></expan> tabularius <lb n="9"/>magistro innocentissimo <lb n="10"/>ob meritis posuit
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD048584</idno>
+                <idno type="TM">121374</idno><idno type="localID">HD048584</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>108</height>
+                                        <width>75</width>
+                                        <depth>3</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000161">Macedonia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0401" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD – 500 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Kítros</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kentrikí Makedonía</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-07-26" who="Cowey">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1999, 1407. 
+                    </bibl>
+                    <bibl>
+                         E. Marki, in: Ancient Macedonia VI. Papers read at the Sixth International Symposium, Thessaloniki 1996 (Thessaloniki 1999) 727-729; sch. 3. (Zeichnung). - AE 1999. 
+                    </bibl>
+                    <bibl>
+                         SEG 49, 0728. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                ἐνθάδε σῆμα / λέλαχεν Εὐφρόσυνος / ὁ ἀοίδιμος ἀναγνώσ(της) / σταθμὸς στοργῆς / τῆς ἐν φίλοις / ἀκράδαντος // Eufrosynus / simplex verusque / fidelis amicus / scribturae(!) lector / sanctae reverentia / pollens / hic requiem nanctus / cunctorum laude / nitescit / haecque tibi sincera / Iohannes munera / solvit
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                ἐνθάδε σῆμα <lb n="2"/>λέλαχεν Εὐφρόσυνος <lb n="3"/>ὁ ἀοίδιμος ἀναγνώσ(της) <lb n="4"/>σταθμὸς στοργῆς <lb n="5"/>τῆς ἐν φίλοις <lb n="6"/>ἀκράδαντος </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Eufrosynus <lb n="2"/>simplex verusque <lb n="3"/>fidelis amicus <lb n="4"/>scribturae <note>sic</note> lector <lb n="5"/>sanctae reverentia <lb n="6"/>pollens <lb n="7"/>hic requiem nanctus <lb n="8"/>cunctorum laude <lb n="9"/>nitescit <lb n="10"/>haecque tibi sincera <lb n="11"/>Iohannes munera <lb n="12"/>solvit
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Zentriert oberhalb der Z. 1 steht ein Kreuz. Nach dem griechischen Textteil steht ein Hedera.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

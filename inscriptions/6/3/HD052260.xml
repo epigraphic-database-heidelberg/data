@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD052260</idno>
+                <idno type="TM">177024</idno><idno type="localID">HD052260</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>127</height>
+                                        <width>56</width>
+                                        <depth>59</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.5-8</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016417">Lycia et Pamphylia</placeName><placeName ref="http://www.trismegistos.org/place/001689">Perge</placeName></origPlace>
+                            <origDate notBefore-custom="0293" notAfter-custom="0305" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">293 AD – 305 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1977">1977</date>
+                        <placeName ref="http://www.geonames.org/">Aksu</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/tr/">Türkei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-10-28" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2004, 1478. 
+                    </bibl>
+                    <bibl>
+                         IK 61, 0287. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Virtute Pietate Fe/licitate / Providen/tia Invicto d(omino) n(ostro) / Maximiano nob(ilissimo) / Caesari / M(arcus) Ulpius Urbanus / v(ir) p(erfectissimus) praeses prov(inciae) / Pamfyliae(!) d(evotus) n(umini) [m(aiestati)q(ue)] / eius
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Virtute Pietate Fe<lb break="no" n="2"/>licitate <lb n="3"/>Providen<lb break="no" n="4"/>tia Invicto <expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> <lb n="5"/>Maximiano <expan><abbr>nob</abbr><ex>ilissimo</ex></expan> <lb n="6"/>Caesari <lb n="7"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Ulpius Urbanus <lb n="8"/><expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>p</abbr><ex>erfectissimus</ex></expan> praeses <expan><abbr>prov</abbr><ex>inciae</ex></expan> <lb n="9"/>Pamfyliae <note>sic</note> <expan><abbr>d</abbr><ex>evotus</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>aiestati</ex><abbr>q</abbr><ex>ue</ex></expan></supplied> <lb n="10"/>eius
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

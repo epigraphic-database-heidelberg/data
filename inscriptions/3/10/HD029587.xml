@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD029587</idno>
+                <idno type="TM">222125</idno><idno type="localID">HD029587</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-106</height>
+                                        <width>42</width>
+                                        <depth>34</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">7.5-8.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/026043">Cisimbrium</placeName></origPlace>
+                            <origDate notBefore-custom="0660-05-31" notAfter-custom="0660-05-31" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31.5.660 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2509363">Zambra</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2004-07-13" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 02 (2. Aufl.) 05, 00299; Foto. 
+                    </bibl>
+                    <bibl>
+                         IHC 100. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Consecrata e(st) / baselica(!) haec S(an)c(t)ae Mariae / II K(a)l(endas) Iunias / e(ra) DCLXLVIII // dedicavit / hanc aede(m) / d(o)m(inu)s / Bacauda / ep(i)sc(o)p(u)s // fundavit eam / Altissimus / per Eulaliam / et filium eius / Paulum monac(h)u(m) // ara / s(an)c(t)a / D(omi)ni
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Consecrata <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="2"/>baselica <note>sic</note> haec S<expan><ex>an</ex><abbr>c</abbr><ex>t</ex><abbr>ae</abbr></expan> Mariae <lb n="3"/>II K<expan><ex>a</ex><abbr>l</abbr><ex>endas</ex></expan> Iunias <lb n="4"/><expan><abbr>e</abbr><ex>ra</ex></expan> DCLXLVIII </ab></div><div n="2" type="textpart"><ab><lb n="1"/> dedicavit <lb n="2"/>hanc <expan><abbr>aede</abbr><ex>m</ex></expan> <lb n="3"/>d<expan><ex>o</ex><abbr>m</abbr><ex>inu</ex><abbr>s</abbr></expan> <lb n="4"/>Bacauda <lb n="5"/>ep<expan><ex>i</ex><abbr>sc</abbr><ex>o</ex><abbr>p</abbr></expan><expan><ex>u</ex><abbr>s</abbr></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> fundavit eam <lb n="2"/>Altissimus <lb n="3"/>per Eulaliam <lb n="4"/>et filium eius <lb n="5"/>Paulum monac<expan><ex>h</ex><abbr>u</abbr><ex>m</ex></expan> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> ara <lb n="2"/>s<expan><ex>an</ex><abbr>c</abbr><ex>t</ex><abbr>a</abbr></expan> <lb n="3"/>D<expan><ex>omi</ex><abbr>ni</abbr></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> In 2 Teile gebrochen. Auf allen 4 Seiten beschrieben (Reihenfolge hier von der Vorderseite über die rechte und hintere zur linken Seiten hin).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

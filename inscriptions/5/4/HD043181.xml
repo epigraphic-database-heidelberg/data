@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD043181</idno>
+                <idno type="TM">192098</idno><idno type="localID">HD043181</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Saint-Germain-en-Laye, Mus. Arch. Nat.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-86</height>
+                                        <width>-50</width>
+                                        <depth>-33</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName ref="http://www.trismegistos.org/place/029965">Troesmis</placeName></origPlace>
+                            <origDate notBefore-custom="0117" notAfter-custom="0138" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">117 AD – 138 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/664464">Turcoaia, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Tulcea</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2007-11-07" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://cil-old.bbaw.de/test06/bilder/datenbank/PH0000105.jpg">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IScM 5, 154; Foto. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 06166. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [I(ovi)? O(ptimo)? M(aximo)?] / [pr]o s[a]l(ute) / Imp(eratoris) Cae(saris) / Tra(iani) Hadr(iani) / Aug(usti) C(aio) Val(erio) / Pud(ente) vet(erano) le(gionis) V / Mac(edonicae) et M(arco) Ulp(io) Le/ont(io) mag(istris) canabe(nsium) et / Tuc(cio) Ael(iano) aed(ile) d(onum) d(ant) / vet(erani) et c(ives) R(omani) cons(istentes) ad / canab(as) leg(ionis) V Ma(cedonicae)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">I(ovi)? O(ptimo)? M(aximo)</supplied> <lb n="2"/><supplied reason="lost">pr</supplied>o <expan><abbr>s<supplied reason="lost">a</supplied>l</abbr><ex>ute</ex></expan> <lb n="3"/><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Cae</abbr><ex>saris</ex></expan> <lb n="4"/><expan><abbr>Tra</abbr><ex>iani</ex></expan> <expan><abbr>Hadr</abbr><ex>iani</ex></expan> <lb n="5"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>C</abbr><ex>aio</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan> <lb n="6"/><expan><abbr>Pud</abbr><ex>ente</ex></expan> <expan><abbr>vet</abbr><ex>erano</ex></expan> <expan><abbr>le</abbr><ex>gionis</ex></expan> V <lb n="7"/><expan><abbr>Mac</abbr><ex>edonicae</ex></expan> et <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Ulp</abbr><ex>io</ex></expan> Le<lb break="no" n="8"/><expan><abbr>ont</abbr><ex>io</ex></expan> <expan><abbr>mag</abbr><ex>istris</ex></expan> <expan><abbr>canabe</abbr><ex>nsium</ex></expan> et <lb n="9"/><expan><abbr>Tuc</abbr><ex>cio</ex></expan> <expan><abbr>Ael</abbr><ex>iano</ex></expan> <expan><abbr>aed</abbr><ex>ile</ex></expan> <expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>ant</ex></expan> <lb n="10"/><expan><abbr>vet</abbr><ex>erani</ex></expan> et <expan><abbr>c</abbr><ex>ives</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan> <expan><abbr>cons</abbr><ex>istentes</ex></expan> ad <lb n="11"/><expan><abbr>canab</abbr><ex>as</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> V <expan><abbr>Ma</abbr><ex>cedonicae</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Hederae.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

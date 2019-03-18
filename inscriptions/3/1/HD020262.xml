@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD020262</idno>
+                <idno type="TM">178967</idno><idno type="localID">HD020262</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Alba Iulia, Muz. Unirii</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>69</height>
+                                        <width>34</width>
+                                        <depth>5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">5.5-5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/004366">Dacia</placeName><placeName ref="http://www.trismegistos.org/place/014481">Apulum</placeName></origPlace>
+                            <origDate notBefore-custom="0161" notAfter-custom="0180" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">161 AD – 180 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1934">1934</date>
+                        <placeName ref="http://www.geonames.org/671315">Alba Iulia</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Alba</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-10-10" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F005131">
+            <desc>F005131</desc>
+        </graphic>
+
+        <graphic url="http://lupa.at/11145">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1944, 0029. 
+                    </bibl>
+                    <bibl>
+                         C. Daicoviciu, Dacia 7/8, 1937-1940, 305-306, Nr. 2; Abb. 5. - AE 1944. 
+                    </bibl>
+                    <bibl>
+                         IDR 3, 5, 052; Foto. 
+                    </bibl>
+                    <bibl>
+                         E. Zefleanu, Apulum 3, 1949, 177-178, Nr. 6. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Deanae sacrum / T(itus) Fl(avius) Italicus prim(us) IIIIvir / mun(icipii) cum Statilia Lu/cia coniuge et Fl(avio) Sta/tiliano filio ex voto
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Deanae sacrum <lb n="2"/><expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Italicus <expan><abbr>prim</abbr><ex>us</ex></expan> IIIIvir <lb n="3"/><expan><abbr>mun</abbr><ex>icipii</ex></expan> cum Statilia Lu<lb break="no" n="4"/>cia coniuge et <expan><abbr>Fl</abbr><ex>avio</ex></expan> Sta<lb break="no" n="5"/>tiliano filio ex voto
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Datierung: Apulum wurde unter Mark Aurel municipium, unter Commodus colonia. (B): Zefleanu: Z. 2: Italicus / prim(us); Z. 2/3: IIIIvir(alis) mun(icipii); Z. 6: Fla(vio).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

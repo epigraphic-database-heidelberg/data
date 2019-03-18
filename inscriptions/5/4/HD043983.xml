@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD043983</idno>
+                <idno type="TM">180055</idno><idno type="localID">HD043983</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Alba Iulia, Muz. Unirii</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>125</height>
+                                        <width>62</width>
+                                        <depth>62</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6.5-3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/004366">Dacia</placeName><placeName ref="http://www.trismegistos.org/place/014481">Apulum</placeName></origPlace>
+                            <origDate notBefore-custom="0197" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">197 AD – 230 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/686578">Alba Iulia</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Alba</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-06-21" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/12244">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1998, 1079. (B) 
+                    </bibl>
+                    <bibl>
+                         V. Moga - I. Piso - M. Drîmbărean, ActaMusNapoca 35, 1, 1998, 114-117, Nr. 3; fig. 3a; fig. 3b (Zeichnung). (B) - AE 1998. 
+                    </bibl>
+                    <bibl>
+                         IDR 3, 5, 709; Foto u. Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [D]eo Invicto / [Mi]t(h)rae sac(rum) / [-] Statorius / [- - -]anus dec(urio) / [et] flamen m/[uni]c(ipii) Sep(timi) Ap[ul(ensis)] / [In]vict(i) templum pr[o] / [sal]utem(!) sua suorum/[que p]ecunia mea feci
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">D</supplied>eo Invicto <lb n="2"/><expan><abbr><supplied reason="lost">Mi</supplied>t</abbr><ex>h</ex>rae</expan> <expan><abbr>sac</abbr><ex>rum</ex></expan> <lb n="3"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Statorius <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>anus <expan><abbr>dec</abbr><ex>urio</ex></expan> <lb n="5"/><supplied reason="lost">et</supplied> flamen m<lb break="no" n="6"/><expan><abbr><supplied reason="lost">uni</supplied>c</abbr><ex>ipii</ex></expan> <expan><abbr>Sep</abbr><ex>timi</ex></expan> Ap<supplied reason="lost"><expan><abbr>ul</abbr><ex>ensis</ex></expan></supplied> <lb n="7"/><expan><abbr><supplied reason="lost">In</supplied>vict</abbr><ex>i</ex></expan> templum pr<supplied reason="lost">o</supplied> <lb n="8"/><supplied reason="lost">sal</supplied>utem <note>sic</note> sua suorum<lb break="no" n="9"/><supplied reason="lost">que p</supplied>ecunia mea feci
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 9: Buchstaben NI vergessen und nachträglich unterhalb der Zeile eingeflickt. (B): Moga - Piso - Drîmbărean; AE 1998: Z. 7: [in]victi. Datierung: nicht vor 197 n. Chr., als Apulum municipium wurde.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

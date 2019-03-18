@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD065055</idno>
+                <idno type="TM">178241</idno><idno type="localID">HD065055</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Oxford, Ashmolean Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-36.5</height>
+                                        <width>-40.5</width>
+                                        <depth>9</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">1.1-2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000078">Achaia</placeName><placeName>Athenae</placeName></origPlace>
+                            <origDate notBefore-custom="0036" notAfter-custom="0037" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">36 AD – 37 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1676">1676</date>
+                        <placeName ref="http://www.geonames.org/">Athínai</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Attikí</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-12-21" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IG 02 (2. Aufl.) 01967. 
+                    </bibl>
+                    <bibl>
+                         AE 2006, 1366. 
+                    </bibl>
+                    <bibl>
+                         O. Thomas, ZPE 157, 2006, 71-76; Fig. 1, 3 u. 4. - AE 2006. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                οἱ ἐφηβεύσαντες ἐν τῷ ἐπ[ὶ] / βασιλέως Ῥοιμητάλκα ν̣ε̣ / ἄρχοντος ἐνιαυτῶι Ἑρμῆι [παι]/δοτριβούντων Θηβαγένου[ς καὶ] / Θεοδώρου τῶν Ἰρηναίου [Ἑρ]/μήων ὑποπαιδοτριβ<ο>ῦντος / Δημοσθένο(υ)ς τοῦ Μύρωνος / Κυδαθηναιέως / Αὖλος Βάσσου Παλληνεύς / Λεοντίσκος Διονυσίου Σουνιεύς / Βάσ(σ)ος Ͻ Παλληνεύς / Λήναιος Γαργ[ήτ]τιος / Ἀθήναις ἐξ Οἴου / Φιλήμων Ͻ <ἐκ> Μυρινούντης / Χαβρέας Τιμοκράτο(υ)ς Πειραιεύς / Ἀριστοτέλης Τιμοκράτο(υ)ς / Εὐμήδης Δημητρίου / Ναυκύδης Ἰσιδότου / Ἀφροδίσιος Φιλήμον[ος] / [Κ]αλλίξεν<ο>ς [- - -] / [Ἐ]π[ί]κτητος Ἰσ[- - -] / [Δι]ονύσιος [- - -] / [Δημ]ήτρ[ιος -]ς [- - - - - -
+            --><div type="edition" xml:lang="grc"><head>Text</head><ab><lb n="1"/>
+                οἱ ἐφηβεύσαντες ἐν τῷ ἐπ<supplied reason="lost">ὶ</supplied> <lb n="2"/>βασιλέως Ῥοιμητάλκα ν̣ε̣ <lb n="3"/>ἄρχοντος ἐνιαυτῶι Ἑρμῆι <supplied reason="lost">παι</supplied><lb break="no" n="4"/>δοτριβούντων Θηβαγένου<supplied reason="lost">ς καὶ</supplied> <lb n="5"/>Θεοδώρου τῶν Ἰρηναίου <supplied reason="lost">Ἑρ</supplied><lb break="no" n="6"/>μήων ὑποπαιδοτριβ<supplied reason="omitted">ο</supplied>ῦντος <lb n="7"/>Δημοσθένο(υ)ς τοῦ Μύρωνος <lb n="8"/>Κυδαθηναιέως <lb n="9"/>Αὖλος Βάσσου Παλληνεύς <lb n="10"/>Λεοντίσκος Διονυσίου Σουνιεύς <lb n="11"/>Βάσ(σ)ος Ͻ Παλληνεύς <lb n="12"/>Λήναιος Γαργ<supplied reason="lost">ήτ</supplied>τιος <lb n="13"/>Ἀθήναις ἐξ Οἴου <lb n="14"/>Φιλήμων Ͻ <supplied reason="omitted">ἐκ</supplied> Μυρινούντης <lb n="15"/>Χαβρέας Τιμοκράτο(υ)ς Πειραιεύς <lb n="16"/>Ἀριστοτέλης Τιμοκράτο(υ)ς <lb n="17"/>Εὐμήδης Δημητρίου <lb n="18"/>Ναυκύδης Ἰσιδότου <lb n="19"/>Ἀφροδίσιος Φιλήμον<supplied reason="lost">ος</supplied> <lb n="20"/><supplied reason="lost">Κ</supplied>αλλίξεν<supplied reason="omitted">ο</supplied>ς <gap reason="lost" extent="unknown" unit="character"/> <lb n="21"/><supplied reason="lost">Ἐ</supplied>π<supplied reason="lost">ί</supplied>κτητος Ἰσ<gap reason="lost" extent="unknown" unit="character"/> <lb n="22"/><supplied reason="lost">Δι</supplied>ονύσιος <gap reason="lost" extent="unknown" unit="character"/> <lb n="23"/><supplied reason="lost">Δημ</supplied>ήτρ<supplied reason="lost">ιος <gap reason="lost" quantity="1" unit="character"/></supplied>ς <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Inschrift besteht aus zwei Fragmenten. Die Maße des kleineren Fragments sind: Höhe: -23; Breite: -16; Tiefe: 9.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

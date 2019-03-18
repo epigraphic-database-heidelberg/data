@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000842</idno>
+                <idno type="TM">282484</idno><idno type="localID">HD000842</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Corfinio, Museo</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>77.6</height>
+                                        <width>-147.3</width>
+                                        <depth>29.6</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">8-1.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Samnium (Regio IV)</placeName><placeName ref="http://www.trismegistos.org/place/014424">Corfinium</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 130 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1977">1977</date>
+                        <placeName ref="http://www.geonames.org/">Corfinio</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Abruzzo</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-12-27" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1983, 0324. (AB) 
+                    </bibl>
+                    <bibl>
+                         G. Paci, Epigraphica 42, 1980, 46-64, Nr. 8; fig. 8. - AE 1983. 
+                    </bibl>
+                    <bibl>
+                         AE 1991, 0556. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                T(ito) Petiedio T(iti) l(iberto) Nyctaeo ep(h)ip(p)iario // T(itus) Petiedius / T(iti) l(ibertus) Stephanio / vivos(!) sibi // Luciliae / |(mulieris) l(ibertae) Calybeni / coniugi // C(aius) Lucilius / Ichimenus / vivos(!) sibi // sevir Augustalis d(ecreto) d(ecurionum) // Tu qui praeteriens lassus properare videris si coeptum peragas / [si]ste parumper iter propositum vitae{i}que meae mortisque legendum da / [pe]dibus requiem et perlege pauca precor emerui dominam officis bis libera facta cum meritis / [fa]to morte perempta meis iamque quater denos aetas impleverat annos cum interea nulli / [noxi]a dicta forem tota domus dominae nostro pendebat amore coniugibusque meis semper / [am]anda fui qualemcumque domum cernis monumentaqu{a}e nostra impensa facta{m} (a) coniuge / [p]roque nato quorum vita precor longo spatietur amore inveniantque sibi quae bene velle / [veli?]nt n[on in]certum habeo te non inquirere velle praeteriens oculis quae legere ipse potes / [sive mih]i Calybe sive es Lucilia dicta digna es cui dicam sit tibi terra levis et tu quicumque es / [ho]c titulo remorate legendo pervenias quo vis sit tibi amica Fides // [Tito Petie]dio T(iti) l(iberto) Nyctaeo et tibi
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>ito</ex></expan> Petiedio <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>l</abbr><ex>iberto</ex></expan> Nyctaeo ep<expan><ex>h</ex><abbr>ip</abbr><ex>p</ex><abbr>iario</abbr></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>T</abbr><ex>itus</ex></expan> Petiedius <lb n="2"/><expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> Stephanio <lb n="3"/>vivos <note>sic</note> sibi </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Luciliae <lb n="2"/>|(mulieris) <expan><abbr>l</abbr><ex>ibertae</ex></expan> Calybeni <lb n="3"/>coniugi </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>aius</ex></expan> Lucilius <lb n="2"/>Ichimenus <lb n="3"/>vivos <note>sic</note> sibi </ab></div><div n="5" type="textpart"><ab><lb n="1"/> sevir Augustalis <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> </ab></div><div n="6" type="textpart"><ab><lb n="1"/> Tu qui praeteriens lassus properare videris si coeptum peragas <lb n="2"/><supplied reason="lost">si</supplied>ste parumper iter propositum vitae<surplus>i</surplus>que meae mortisque legendum da <lb n="3"/><supplied reason="lost">pe</supplied>dibus requiem et perlege pauca precor emerui dominam officis bis libera facta cum meritis <lb n="4"/><supplied reason="lost">fa</supplied>to morte perempta meis iamque quater denos aetas impleverat annos cum interea nulli <lb n="5"/><supplied reason="lost">noxi</supplied>a dicta forem tota domus dominae nostro pendebat amore coniugibusque meis semper <lb n="6"/><supplied reason="lost">am</supplied>anda fui qualemcumque domum cernis monumentaqu<surplus>a</surplus>e nostra impensa facta<surplus>m</surplus> (a) coniuge <lb n="7"/><supplied reason="lost">p</supplied>roque nato quorum vita precor longo spatietur amore inveniantque sibi quae bene velle <lb n="8"/><supplied reason="lost" cert="low">veli</supplied>nt n<supplied reason="lost">on in</supplied>certum habeo te non inquirere velle praeteriens oculis quae legere ipse potes <lb n="9"/><supplied reason="lost">sive mih</supplied>i Calybe sive es Lucilia dicta digna es cui dicam sit tibi terra levis et tu quicumque es <lb n="10"/><supplied reason="lost">ho</supplied>c titulo remorate legendo pervenias quo vis sit tibi amica Fides </ab></div><div n="7" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Tito Petie</supplied>dio <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>l</abbr><ex>iberto</ex></expan> Nyctaeo et tibi
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> 2-teilige Inschrift: eigentliche Grabinschrift und carmen in elegischen Distichen zu Ehren der Verstorbenen. Beziehung des T. Petiedius Nyctaeus zu den anderen Personen: Verwandter, Patron oder Freigelassener. (A): ungenaue Wiedergabe der Buchstabenhöhe. (B): AE: Z. 7: implevreat. Material aus dem Apennin.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

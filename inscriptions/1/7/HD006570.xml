@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD006570</idno>
+                <idno type="TM">258843</idno><idno type="localID">HD006570</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-35</height>
+                                        <width>-19</width>
+                                        <depth>5.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.8-4.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Liguria (Regio IX)</placeName><placeName ref="http://www.trismegistos.org/place/031683">Albingaunum</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 150 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Cervo</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="1998-11-02" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1985, 0426. 
+                    </bibl>
+                    <bibl>
+                         G. Mennella, Epigraphica 47, 1985, 176-180; fig. 1 u. 2. - AE 1985. 
+                    </bibl>
+                    <bibl>
+                         AE 1990, 0371. 
+                    </bibl>
+                    <bibl>
+                         G. Mennella, SupplIt (Roma 1988) 261-262, Nr. 10; Foto. - AE 1990. 
+                    </bibl>
+                    <bibl>
+                         N. Lamboglia, RII 15, 1960, 21-22; fig. 1. (B) - AE 1985. 1990. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] / [|(centurio)? le]g(ionis) XII fu[lminatae - - -] / [- - - militaribus donis don]atus a[b Imp(eratore) - - -] / [- - - A]ug(usto) Ger[manico - - -] / [- - - an]n(is) XXXVII [- - -] / [- - - fecit] sibi et su[is - - -] / [-] Vett[ius - - -] / [- - -] ob [- - -] / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><supplied reason="lost">|(centurio)? le</supplied><expan><abbr>g</abbr><ex>ionis</ex></expan> XII fu<supplied reason="lost">lminatae</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> militaribus donis don</supplied>atus a<supplied reason="lost">b <expan><abbr>Imp</abbr><ex>eratore</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>usto</ex></expan> Ger<supplied reason="lost">manico</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">an</supplied>n</abbr><ex>is</ex></expan> XXXVII <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">fecit</supplied> sibi et su<supplied reason="lost">is</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Vett<supplied reason="lost">ius</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> ob <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Mit freundlichen Hinweisen von G. Mennella. (B): Lamboglia: Z. 1: [le]g. XIII G[eminae p.f.]; Z. 3 (Anfang): Aug.; Z. 4 (Ende): XXXVIII.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

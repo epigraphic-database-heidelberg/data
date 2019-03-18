@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD055883</idno>
+                <idno type="TM">217801</idno><idno type="localID">HD055883</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mainz, Röm.-Germ. Zentralmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>16</height>
+                                        <width>13.2</width>
+                                        <depth>0.1</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">unbekannt</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0112-05-03" notAfter-custom="0112-05-03" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">3.5.112 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries//">unbekannt</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-10-07" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1997, 1782. 
+                    </bibl>
+                    <bibl>
+                         RMD 223. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) Caesar divi Nervae f(ilius) Nerva Traianus / Aug(ustus) Germ(anicus) Dacicus pontif(ex) maximus / tribunic(ia) potestat(e) XVI imp(erator) VI co(n)s(ul) VI p(ater) p(atriae) / equitibus et peditibus qui militaverunt / in alis quinque et cohortibus tribus / quae appellantur I Batavor(um) milliar(ia) c(ivium) R(omanorum) p(ia) f(idelis) / et I Ulpia contarior(um) milliar(ia) et I Thra/cum veterana et I Aravacor(um) et Hispanor(um) / et I Bosporanor(um) et I et II Batavor(um) milliar(ia) / c(ivium) R(omanorum) p(ia) f(idelis) et V Callaecor(um) Lucensium et sunt / in Pannonia superiore sub L(ucio) Minico / Natale quinis et vicenis pluribusve sti/pendiis emeritis dimissis honesta missio/ne a Caecilio Faustino quorum nomina / subscripta sunt ipsis lilberis posterisque / eorum civitatem dedit et conubium cum / uxoribus quas tunc habuissent cum est ci/vita<s=T>#ci/vita<s>#CIVITAT iis data aut si qui caelibes essent / cum iis quas postea duxissent dumtaxat / singuli singulas a(nte) d(iem) V Non(as) Mai(as) / Q(uinto) Valerio Vegeto Cn(aeo) Cornelio Severo co(n)s(ulibus) / alae Aravacor(um) et Hispanor(um) cui prae(e)st / Ti(berius) Claudius Numidicus / ex gregale / Dasenti Liccai f(ilio) Pannon(io) / et Matenae Etdeidatis fil(iae) uxori eius Azal(ae) / et Attoni f(ilio) eius et Rumae fil(iae) eius / et Sibullae fil(iae) eius et Ianuariae fil(iae) eius / descriptum et recognitum ex tabula / aenea quae fixa est Romae in muro / post templum divi Aug(usti) ad Minervam // Imp(erator) Caesar divi Nervae f(ilius) Nerva Trai/anus Aug(ustus) Germ(anicus) Daci(cus) pontif(ex) max(imus) / tribunic(ia) potest(ate) XVI imp(erator) VI co(n)s(ul) VI p(ater) p(atriae) / equitibus et peditib(us) qui militaverunt / in alis quinque et cohortibus tribus / quae appellantur I Batavor(um) |(milliaria) c(ivium) R(omanorum) p(ia) f(idelis) / et I Ulpia contarior(um) |(milliaria) et I Thracum / veterana et I Aravacor(um) et Hispanor(um) / et I Bosporanor(um) et I et II Batavor(um) / |(milliaria) c(ivium) R(omanorum) p(ia) f(idelis) et V Callaecor(um) Lucensium / et sunt in Pannonia superiore sub / L(ucio) Minicio Natale quinis et vicenis / pluribusve stipendiis emeritis / dimissis honesta missione a Caecilio / Faustino quorum nomina subscri/pta sunt ipsis liberis posterisq(ue) // Eorum civitatem dedit et conu/bium cum uxoribus quas tunc habu/issent cum est civitas iis data aut si / qui caelibes essent cum iis quas poste/a duxissent dumtaxat singuli / singulas a(nte) d(iem) V Non(as) Mai(as) / Q(uinto) Valerio Vegeto / Cn(aeo) Cornelio Severo co(n)s(ulibus) / alae Aravacor(um) et Hispanor(um) cui prae(e)st / Ti(berius) Claudius Numidicus / ex gregale / Dasenti Liccai f(ilio) Pannon(io) / et Matenae Etdeidati(s) fil(iae) uxori eius Aza<l=I>(ae)#Aza<l>(ae)#AZAI / et Attoni f(ilio) eius et Rumae fil(iae) eius / et Sibullae fil(iae) eius et Ianuariae fil(iae) e(ius) / descriptum et recognitum ex tabula / aenea quae fixa est Romae // L(uci) Pulli Verecundi / P(ubli) Atini Amerimni / C(ai) Tuticani Saturnini / L(uci) Pulli Trophimi / C(ai) Vettieni Hermetis / C(ai) Tuticani Heli / L(uci) Pulli Charitonis
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Nervae <expan><abbr>f</abbr><ex>ilius</ex></expan> Nerva Traianus <lb n="2"/><expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>Germ</abbr><ex>anicus</ex></expan> Dacicus <expan><abbr>pontif</abbr><ex>ex</ex></expan> maximus <lb n="3"/><expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>potestat</abbr><ex>e</ex></expan> XVI <expan><abbr>imp</abbr><ex>erator</ex></expan> VI co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> VI <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="4"/>equitibus et peditibus qui militaverunt <lb n="5"/>in alis quinque et cohortibus tribus <lb n="6"/>quae appellantur I <expan><abbr>Batavor</abbr><ex>um</ex></expan> <expan><abbr>milliar</abbr><ex>ia</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <lb n="7"/>et I Ulpia <expan><abbr>contarior</abbr><ex>um</ex></expan> <expan><abbr>milliar</abbr><ex>ia</ex></expan> et I Thra<lb break="no" n="8"/>cum veterana et I <expan><abbr>Aravacor</abbr><ex>um</ex></expan> et <expan><abbr>Hispanor</abbr><ex>um</ex></expan> <lb n="9"/>et I <expan><abbr>Bosporanor</abbr><ex>um</ex></expan> et I et II <expan><abbr>Batavor</abbr><ex>um</ex></expan> <expan><abbr>milliar</abbr><ex>ia</ex></expan> <lb n="10"/><expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> et V <expan><abbr>Callaecor</abbr><ex>um</ex></expan> Lucensium et sunt <lb n="11"/>in Pannonia superiore sub <expan><abbr>L</abbr><ex>ucio</ex></expan> Minico <lb n="12"/>Natale quinis et vicenis pluribusve sti<lb break="no" n="13"/>pendiis emeritis dimissis honesta missio<lb break="no" n="14"/>ne a Caecilio Faustino quorum nomina <lb n="15"/>subscripta sunt ipsis lilberis posterisque <lb n="16"/>eorum civitatem dedit et conubium cum <lb n="17"/>uxoribus quas tunc habuissent cum est ci<lb break="no" n="18"/>vita<choice><corr>s</corr><sic>T</sic></choice>#ci<lb break="no" n="19"/>vita<supplied reason="omitted">s</supplied>#CIVITAT iis data aut si qui caelibes essent <lb n="20"/>cum iis quas postea duxissent dumtaxat <lb n="21"/>singuli singulas <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> V <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Mai</abbr><ex>as</ex></expan> <lb n="22"/><expan><abbr>Q</abbr><ex>uinto</ex></expan> Valerio Vegeto <expan><abbr>Cn</abbr><ex>aeo</ex></expan> Cornelio Severo co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="23"/>alae <expan><abbr>Aravacor</abbr><ex>um</ex></expan> et <expan><abbr>Hispanor</abbr><ex>um</ex></expan> cui prae<expan><ex>e</ex><abbr>st</abbr></expan> <lb n="24"/><expan><abbr>Ti</abbr><ex>berius</ex></expan> Claudius Numidicus <lb n="25"/>ex gregale <lb n="26"/>Dasenti Liccai <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>io</ex></expan> <lb n="27"/>et Matenae Etdeidatis <expan><abbr>fil</abbr><ex>iae</ex></expan> uxori eius <expan><abbr>Azal</abbr><ex>ae</ex></expan> <lb n="28"/>et Attoni <expan><abbr>f</abbr><ex>ilio</ex></expan> eius et Rumae <expan><abbr>fil</abbr><ex>iae</ex></expan> eius <lb n="29"/>et Sibullae <expan><abbr>fil</abbr><ex>iae</ex></expan> eius et Ianuariae <expan><abbr>fil</abbr><ex>iae</ex></expan> eius <lb n="30"/>descriptum et recognitum ex tabula <lb n="31"/>aenea quae fixa est Romae in muro <lb n="32"/>post templum divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad Minervam </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Nervae <expan><abbr>f</abbr><ex>ilius</ex></expan> Nerva Trai<lb break="no" n="2"/>anus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>Germ</abbr><ex>anicus</ex></expan> <expan><abbr>Daci</abbr><ex>cus</ex></expan> <expan><abbr>pontif</abbr><ex>ex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <lb n="3"/><expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> XVI <expan><abbr>imp</abbr><ex>erator</ex></expan> VI co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> VI <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="4"/>equitibus et <expan><abbr>peditib</abbr><ex>us</ex></expan> qui militaverunt <lb n="5"/>in alis quinque et cohortibus tribus <lb n="6"/>quae appellantur I <expan><abbr>Batavor</abbr><ex>um</ex></expan> |(milliaria) <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <lb n="7"/>et I Ulpia <expan><abbr>contarior</abbr><ex>um</ex></expan> |(milliaria) et I Thracum <lb n="8"/>veterana et I <expan><abbr>Aravacor</abbr><ex>um</ex></expan> et <expan><abbr>Hispanor</abbr><ex>um</ex></expan> <lb n="9"/>et I <expan><abbr>Bosporanor</abbr><ex>um</ex></expan> et I et II <expan><abbr>Batavor</abbr><ex>um</ex></expan> <lb n="10"/>|(milliaria) <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> et V <expan><abbr>Callaecor</abbr><ex>um</ex></expan> Lucensium <lb n="11"/>et sunt in Pannonia superiore sub <lb n="12"/><expan><abbr>L</abbr><ex>ucio</ex></expan> Minicio Natale quinis et vicenis <lb n="13"/>pluribusve stipendiis emeritis <lb n="14"/>dimissis honesta missione a Caecilio <lb n="15"/>Faustino quorum nomina subscri<lb break="no" n="16"/>pta sunt ipsis liberis <expan><abbr>posterisq</abbr><ex>ue</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Eorum civitatem dedit et conu<lb break="no" n="2"/>bium cum uxoribus quas tunc habu<lb break="no" n="3"/>issent cum est civitas iis data aut si <lb n="4"/>qui caelibes essent cum iis quas poste<lb break="no" n="5"/>a duxissent dumtaxat singuli <lb n="6"/>singulas <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> V <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Mai</abbr><ex>as</ex></expan> <lb n="7"/><expan><abbr>Q</abbr><ex>uinto</ex></expan> Valerio Vegeto <lb n="8"/><expan><abbr>Cn</abbr><ex>aeo</ex></expan> Cornelio Severo co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="9"/>alae <expan><abbr>Aravacor</abbr><ex>um</ex></expan> et <expan><abbr>Hispanor</abbr><ex>um</ex></expan> cui prae<expan><ex>e</ex><abbr>st</abbr></expan> <lb n="10"/><expan><abbr>Ti</abbr><ex>berius</ex></expan> Claudius Numidicus <lb n="11"/>ex gregale <lb n="12"/>Dasenti Liccai <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>io</ex></expan> <lb n="13"/>et Matenae <expan><abbr>Etdeidati</abbr><ex>s</ex></expan> <expan><abbr>fil</abbr><ex>iae</ex></expan> uxori eius Aza<choice><corr>l</corr><sic>I</sic></choice>(ae)#Aza<supplied reason="omitted">l</supplied>(ae)#AZAI <lb n="14"/>et Attoni <expan><abbr>f</abbr><ex>ilio</ex></expan> eius et Rumae <expan><abbr>fil</abbr><ex>iae</ex></expan> eius <lb n="15"/>et Sibullae <expan><abbr>fil</abbr><ex>iae</ex></expan> eius et Ianuariae <expan><abbr>fil</abbr><ex>iae</ex></expan> <expan><abbr>e</abbr><ex>ius</ex></expan> <lb n="16"/>descriptum et recognitum ex tabula <lb n="17"/>aenea quae fixa est Romae </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>uci</ex></expan> Pulli Verecundi <lb n="2"/><expan><abbr>P</abbr><ex>ubli</ex></expan> Atini Amerimni <lb n="3"/><expan><abbr>C</abbr><ex>ai</ex></expan> Tuticani Saturnini <lb n="4"/><expan><abbr>L</abbr><ex>uci</ex></expan> Pulli Trophimi <lb n="5"/><expan><abbr>C</abbr><ex>ai</ex></expan> Vettieni Hermetis <lb n="6"/><expan><abbr>C</abbr><ex>ai</ex></expan> Tuticani Heli <lb n="7"/><expan><abbr>L</abbr><ex>uci</ex></expan> Pulli Charitonis
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

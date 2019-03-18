@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD068242</idno>
+                <idno type="TM">408858</idno><idno type="localID">HD068242</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Wien, Kunsthist. Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>76.5</height>
+                                        <width>167</width>
+                                        <depth>16</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="guidelines">GUIDELINES</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0193" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">193 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1890">1890</date>
+                        <placeName ref="http://www.geonames.org/2762445">Himberg</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Niederösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-05-11" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/192">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1891, 0037. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 11305. (B) 
+                    </bibl>
+                    <bibl>
+                         W. Pailer, MZK 16, 1890, 138-139; fig. 1 (Zeichnung). - AE 1891. 
+                    </bibl>
+                    <bibl>
+                         M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR Österreich 1, 4 (Wien 1972) 20, Nr. 428; Taf. 15, 428. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) // C(aius) Iul(ius) Valerius vet(eranus) l(egionis) X g(eminae) / vi(v)us fecit s(ibi) et Sept(imiae) / Flor(a)e coniugi p(ientissimae) k(arissimae) an(orum) L / et Iulio Floro filio k(arissimo) an(norum) V
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Valerius <expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>l</abbr><ex>egionis</ex></expan> X <expan><abbr>g</abbr><ex>eminae</ex></expan> <lb n="2"/>vi<expan><ex>v</ex><abbr>us</abbr></expan> fecit <expan><abbr>s</abbr><ex>ibi</ex></expan> et <expan><abbr>Sept</abbr><ex>imiae</ex></expan> <lb n="3"/>Flor<expan><ex>a</ex><abbr>e</abbr></expan> coniugi <expan><abbr>p</abbr><ex>ientissimae</ex></expan> <expan><abbr>k</abbr><ex>arissimae</ex></expan> <expan><abbr>an</abbr><ex>orum</ex></expan> L <lb n="4"/>et Iulio Floro filio <expan><abbr>k</abbr><ex>arissimo</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> V
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> In drei aneinanderpassende Fragmente gebrochen. Gefunden in Sekundärverwendung als Boden eines Kistengrabes. Front eines Sarkophages? Zeile 1 befindet sich oberhalb des gerahmten Inschriftfeldes. Dieses wird von Delfinen flankiert. Pailer: Wiedergabe der Inschrift nur in Zeichnung. In dieser die K mit drei zusammenlaufenden Schräghasten, anhand des Fotos nicht erkennbar. Datierung nach Gentiliz der Frau, Monumenttyp, Verwendung von Superlativen. Zeile 4: AN-Ligatur; Zeile 5: AN-Ligatur. (B): AE 1891: Z. 1 fehlt; CIL 03, 11305; Krüger: Z. 4/5: d(e)f(unct-) statt k(arissim-).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

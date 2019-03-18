@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD055448</idno>
+                <idno type="TM">176735</idno><idno type="localID">HD055448</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Silfike, Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>160</height>
+                                        <width>72</width>
+                                        <depth>52</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.5-5.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000075">Cilicia</placeName><placeName>Seleucia ad Calycadnum</placeName></origPlace>
+                            <origDate notBefore-custom="0310" notAfter-custom="0313" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">310 AD – 313 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1983">1983</date>
+                        <placeName ref="http://www.geonames.org/300808">Silifke</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Mersin</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/tr/">Türkei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-04-16" who="Cowey">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1991, 1548. 
+                    </bibl>
+                    <bibl>
+                         S. Şahin, EA 17, 1991, 149-151, Nr. 2; Taf. 21, 6. (B) - AE 1991. 
+                    </bibl>
+                    <bibl>
+                         SEG 41, 1407. 
+                    </bibl>
+                    <bibl>
+                         S. Hagel - K. Tomaschitz, Repertorium der westkilikischen Inschriften, ETAM 22 (Wien 1998) 376-377, 150. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Baeatissimo(!) / adque(!) indulgen/tissimo vere / humanissimo / [[[d(omino) n(ostro) Maximino]]] / semper Augusto / Fl(avius) Severianus v(ir) p(erfectissimus) / praes(es) prov(inciae) Is(auriae) d(evotus) n(umini) / m(aiestati)q(ue) eius // ἡ Σελευκέων πόλις τὸν ἑαυτῶν / πολίτην Τ. Αἴλιον Αὐρήλιον Μάρωνα / καὶ Ἀλεξανδρέα τῶν πρὸς Αἰγύπτῳ / καὶ Ἀθηναῖον καὶ ἄλλων πολλῶν / πόλεων πολίτην, ξυστάρχην / περιοδονίκην τέλειον πρῶτον / ἀνθρώπων παλαιστὴν ἄλειπτον / ἐστεφανωμένον ἱεροὺς εἰσελα/στικοὺς ἀγῶνας / Ὀλύμπια δὶς Ῥώμην Πύθια δίς Ἴσ/θμια τρίς Νέμεια τρίς Ἀθήνας / πεντάκις Ἄκτια Νέαν Πόλιν δίς / Ποτιόλους Ἁλεῖα τὰ ἐν Ῥόδῳ Ἀν/τιόχειαν τρίς Ἔφεσον δίς Σμύ[ρ]/ναν δίς Πέργαμον τρίς Τάρσον / τὴν ἐξ Ἄργους ἀσπίδα καὶ θεμα/τικοὺς ἄλλους τεσσεράκοντα / τέσσαρας // εἰ καὶ βαιὸς ἰδεῖν, φήσεις μέγαν / οὔ τινα τόσσον / πάντα δαεὶς / μεγάλης ἔργα παλαισμοσύνης· /mδὶς μὲν γὰρ Ῥώμην τρὶς δ’ Ἴσθμια, τρὶς / δὲ Νέμεια / καὶ Πεῖσαν στεφόμη[ν] / καὶ δύο Πυθιάδας· δὶς δ’ ἄρ’ Ὀλυ[μ]/πείων τε Πανελλήνων τε κέκα[σμαι] /mκαὶ Παναθηναίων στέμμασι δὶς / Ἐφέσου καὶ δὶς Σμύρναν ἔχω τρὶς / δ’ Ἀντιόχειαν ἐνείκων δὶς δὲ / Νέας Πόλεως ἆθλα τ’ ἐπ’ Εὐσεβίῃ / ἐξελόμην Τάρσον τε καὶ Ἄκτια / καὶ Ῥόδον εἱρήν καὶ τρὶς Τευθρα/νίην Πέργαμον ἐστεφόμην / παῖς ἀγένειος ἀνὴρ ὁ Σελευκεὺς / οὔποτε νίκης εἴξας ἐν σταδίοις / ἀντιπάλοισι Μάρων
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Baeatissimo <note>sic</note> <lb n="2"/>adque <note>sic</note> indulgen<lb break="no" n="3"/>tissimo vere <lb n="4"/>humanissimo <lb n="5"/><del rend="erasure">[<expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> Maximino</del>] <lb n="6"/>semper Augusto <lb n="7"/><expan><abbr>Fl</abbr><ex>avius</ex></expan> Severianus <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>p</abbr><ex>erfectissimus</ex></expan> <lb n="8"/><expan><abbr>praes</abbr><ex>es</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan> <expan><abbr>Is</abbr><ex>auriae</ex></expan> <expan><abbr>d</abbr><ex>evotus</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan> <lb n="9"/>m<expan><ex>aiestati</ex><abbr>q</abbr><ex>ue</ex></expan> eius </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ἡ Σελευκέων πόλις τὸν ἑαυτῶν <lb n="2"/>πολίτην Τ. Αἴλιον Αὐρήλιον Μάρωνα <lb n="3"/>καὶ Ἀλεξανδρέα τῶν πρὸς Αἰγύπτῳ <lb n="4"/>καὶ Ἀθηναῖον καὶ ἄλλων πολλῶν <lb n="5"/>πόλεων πολίτην, ξυστάρχην <lb n="6"/>περιοδονίκην τέλειον πρῶτον <lb n="7"/>ἀνθρώπων παλαιστὴν ἄλειπτον <lb n="8"/>ἐστεφανωμένον ἱεροὺς εἰσελα<lb break="no" n="9"/>στικοὺς ἀγῶνας <lb n="10"/>Ὀλύμπια δὶς Ῥώμην Πύθια δίς Ἴσ<lb break="no" n="11"/>θμια τρίς Νέμεια τρίς Ἀθήνας <lb n="12"/>πεντάκις Ἄκτια Νέαν Πόλιν δίς <lb n="13"/>Ποτιόλους Ἁλεῖα τὰ ἐν Ῥόδῳ Ἀν<lb break="no" n="14"/>τιόχειαν τρίς Ἔφεσον δίς Σμύ<supplied reason="lost">ρ</supplied><lb break="no" n="15"/>ναν δίς Πέργαμον τρίς Τάρσον <lb n="16"/>τὴν ἐξ Ἄργους ἀσπίδα καὶ θεμα<lb break="no" n="17"/>τικοὺς ἄλλους τεσσεράκοντα <lb n="18"/>τέσσαρας </ab></div><div n="3" type="textpart"><ab><lb n="1"/> εἰ καὶ βαιὸς ἰδεῖν, φήσεις μέγαν <lb n="2"/>οὔ τινα τόσσον <lb n="3"/>πάντα δαεὶς <lb n="4"/>μεγάλης ἔργα παλαισμοσύνης· <lb n="5"/>mδὶς μὲν γὰρ Ῥώμην τρὶς δ’ Ἴσθμια, τρὶς <lb n="6"/>δὲ Νέμεια <lb n="7"/>καὶ Πεῖσαν στεφόμη<supplied reason="lost">ν</supplied> <lb n="8"/>καὶ δύο Πυθιάδας· δὶς δ’ ἄρ’ Ὀλυ<supplied reason="lost">μ</supplied><lb break="no" n="9"/>πείων τε Πανελλήνων τε κέκα<supplied reason="lost">σμαι</supplied> <lb n="10"/>mκαὶ Παναθηναίων στέμμασι δὶς <lb n="11"/>Ἐφέσου καὶ δὶς Σμύρναν ἔχω τρὶς <lb n="12"/>δ’ Ἀντιόχειαν ἐνείκων δὶς δὲ <lb n="13"/>Νέας Πόλεως ἆθλα τ’ ἐπ’ Εὐσεβίῃ <lb n="14"/>ἐξελόμην Τάρσον τε καὶ Ἄκτια <lb n="15"/>καὶ Ῥόδον εἱρήν καὶ τρὶς Τευθρα<lb break="no" n="16"/>νίην Πέργαμον ἐστεφόμην <lb n="17"/>παῖς ἀγένειος ἀνὴρ ὁ Σελευκεὺς <lb n="18"/>οὔποτε νίκης εἴξας ἐν σταδίοις <lb n="19"/>ἀντιπάλοισι Μάρων
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Auf der Vorderseite griechische Ehreninschrift, Datierung: 130-200. Sekundär verwendet für Kaiserinschrift. Datierung: vermutlich 310/11. (B): EA 17: Z. 1: beatissimo. (B): ETAM 22: Z. 1: beatissimo.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

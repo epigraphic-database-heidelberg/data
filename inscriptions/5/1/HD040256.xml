@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD040256</idno>
+                <idno type="TM">196984</idno><idno type="localID">HD040256</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Budapest, Magyar Nemzeti Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>114</height>
+                                        <width>45</width>
+                                        <depth>10</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="guidelines">GUIDELINES</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3-2.4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/019885">Savaria?</placeName></origPlace>
+                            <origDate notBefore-custom="0131" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3044310">Szombathely?</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Vas megye?</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-03-23" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/686">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 04208. 
+                    </bibl>
+                    <bibl>
+                         RIU 0093; Abb. 93 (Zeichnung). 
+                    </bibl>
+                    <bibl>
+                         M. Nagy, Guide to the archaeological exhibitions in the Hungarian National Museum. Roman stones. Lapidarium (Budapest 2012) 36-37, Nr. 21; Foto. 
+                    </bibl>
+                    <bibl>
+                         L. Balla - T.P. Buocz - Z. Kádár - A. Mócsy - T. Szentléleky, Die römischen Steindenkmäler von Savaria (Amsterdam 1971) 105, Nr. 112; Bild 95. 
+                    </bibl>
+                    <bibl>
+                         E. Tóth, Lapidarium Savariense. Savaria római feliratos kőemlékei (Szombathely 2011) 161-162, Nr. 109; Foto. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Marcia Marce/l(l)ina an(norum) v(iva) f(ecit) s(ibi) / et Ulpiae Maxim/inae an(norum) et Ulp/io Sabiniano / an(norum) XXII et Flavi/ae Sabinae / an(norum) XXX et Ulpio / Titiano an(norum) XXIII / et Ulpio Dubit/ato an(norum) XXVII / fili(i)s pi{i}entis(s)i(mis) / et Ulpiae Dubita/t(a)e sorori an(norum) LXX / et T(ito) Fla(vio) Leoni an(norum) XII / PARTERVM C
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Marcia Marce<lb break="no" n="2"/>l<expan><ex>l</ex><abbr>ina</abbr></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> <expan><abbr>v</abbr><ex>iva</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <expan><abbr>s</abbr><ex>ibi</ex></expan> <lb n="3"/>et Ulpiae Maxim<lb break="no" n="4"/>inae <expan><abbr>an</abbr><ex>norum</ex></expan> et Ulp<lb break="no" n="5"/>io Sabiniano <lb n="6"/><expan><abbr>an</abbr><ex>norum</ex></expan> XXII et Flavi<lb break="no" n="7"/>ae Sabinae <lb n="8"/><expan><abbr>an</abbr><ex>norum</ex></expan> XXX et Ulpio <lb n="9"/>Titiano <expan><abbr>an</abbr><ex>norum</ex></expan> XXIII <lb n="10"/>et Ulpio Dubit<lb break="no" n="11"/>ato <expan><abbr>an</abbr><ex>norum</ex></expan> XXVII <lb n="12"/>fili<expan><ex>i</ex><abbr>s</abbr></expan> pi<surplus>i</surplus>entis<expan><ex>s</ex><abbr>i</abbr><ex>mis</ex></expan> <lb n="13"/>et Ulpiae Dubita<lb break="no" n="14"/>t<expan><ex>a</ex><abbr>e</abbr></expan> sorori <expan><abbr>an</abbr><ex>norum</ex></expan> LXX <lb n="15"/>et <expan><abbr>T</abbr><ex>ito</ex></expan> <expan><abbr>Fla</abbr><ex>vio</ex></expan> Leoni <expan><abbr>an</abbr><ex>norum</ex></expan> XII <lb n="16"/>PARTERVM C
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Oberhalb des Inschriftfeldes Giebel mit Gorgoneion; über den Giebelschrägen Delphine. (B): Tóth: Z. 2 (Ende): s(ib)i; Z. 15/16: an(norum) / XII.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

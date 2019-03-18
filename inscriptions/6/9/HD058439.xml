@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD058439</idno>
+                <idno type="TM">217040</idno><idno type="localID">HD058439</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003243">Raetia</placeName><placeName ref="http://www.trismegistos.org/place/028140">Abodiacum</placeName></origPlace>
+                            <origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD – 235 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1750">1750</date>
+                        <placeName ref="http://www.geonames.org/2929874">Epfach</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Bayern</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift?</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-12-14" who="osnabrügge">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IBR 088. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 05778. 
+                    </bibl>
+                    <bibl>
+                         K. Kraft, in: H. Castritius - D. Kienast (Hrsg.), Konrad Kraft. Gesammelte Aufsätze zur antiken Geschichte und Militärgeschichte (Darmstadt 1973) 245, Nr. 7. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Ti(berius) Cl(audius) Ti(beri) [fil(ius)] / Vehe[mens?] / [t]rib(unus) mil(itum) [leg(ionis) X?] / gem[inae] / S(everianae) A(lexandrianae) [- - -] / GISEDA(?)[- - -] / [- - - - - -?
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ti</abbr><ex>berius</ex></expan> <expan><abbr>Cl</abbr><ex>audius</ex></expan> <expan><abbr>Ti</abbr><ex>beri</ex></expan> <supplied reason="lost"><expan><abbr>fil</abbr><ex>ius</ex></expan></supplied> <lb n="2"/>Vehe<supplied reason="lost" cert="low">mens</supplied> <lb n="3"/><expan><abbr><supplied reason="lost">t</supplied>rib</abbr><ex>unus</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <supplied reason="lost" cert="low">leg(ionis) X</supplied> <lb n="4"/>gem<supplied reason="lost">inae</supplied> <lb n="5"/><expan><abbr>S</abbr><ex>everianae</ex></expan> <expan><abbr>A</abbr><ex>lexandrianae</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><expan><abbr>GISEDA</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Nur handschriftlich überliefert. Z. 3: statt X? auch XIII? oder XIV? möglich. Z. 6: Lesung offenbar unsicher. Grabinschrift? Dann auch anderer Kasus in der Ergänzung möglich. (B): Kraft: Z. 3: trib(unus) mili[tum]</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Basis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD036284</idno>
+                <idno type="TM">176442</idno><idno type="localID">HD036284</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/53">Basis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>80</height>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016280">Bithynia et Pontus</placeName><placeName>Heraclea Pontica</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/747471">Ereğli</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Zonguldak</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/tr/">Türkei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-08-16" who="Cowey">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IK 47, 02. 
+                    </bibl>
+                    <bibl>
+                         IGR 3, 0081, (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                πᾶσαν ἐπίστασθαι χάριν ὁμολογοῦμεν Μαρκίῳ Ξε/νοκράτῃ τῷ ὑμετέρῳ πολεί‹τῃ› καὶ διὰ τὴν τῶν / ἠθῶν σεμνότατα καὶ διὰ τὴν τοῦ βίου κο/σμιότατα αὔξει μὲν καὶ γεραίρει τὸ τῆς ὑ/μετέρας πόλεως ἀξίωμα κοσμεῖ δὲ τὸ ἱε/ρὸν ἡμῶν συνέδριον οὐ μόνον τῇ κατὰ τὸ / ἔργον ἀρετῇ ἧς ἐστὶν περιβόητος ἀλλὰ / καὶ ‹τ›ῇ κατὰ τὴν εὔνοιαν σπουδῇ φιλοτειμό/τατος ὑπάρχων ὡς καὶ τοὺς καθ' ἕνα τῶν ἡμε/τέρων συνοδιτῶ‹ν› εὐεργετεῖν καὶ ἐν τοῖς / τῷ κοινῷ ἀνήκουσι προθύμως ἅπαντα πράτ/τειν ὡς καὶ ἤδη διὰ τῆς ἑαυτοῦ προνοίας / οὐ κοινὰ οὐδὲ τὰ τυχόντα κατορθῶσαι ἡμεῖ/ν ὅθεν εὐεργετουμένοις τοσαῦτα μόνως οὔ/τως ἐλογισάμεθα δύνασθαι τὴν καταξίαν τῆς / χάριτος ἀμοιβὴν ἀποτίνειν ΤΡΙΑΝΩ ὑμεῖν οὓς / φιλτάτους κέκρικεν αὐτῷ ὁμολογοῦντες ε[ἰ]/δέναι μὲν χάριν αὐτοῖς συνηδόμενοι δὲ ὅτι / τοιοῦντον εὐτύχησε πολείτην ἀνθ' ὧν ἄλ[λως] / καὶ ἔδοξεν τῇ ἱερᾷ ἡμων Ἁδριανῇ Ἀντ[ων]εί[νῃ] περι/[πολι]στικῇ θυμε[λ]ικῇ μεγάλῃ νεωκόρῳ ἐπὶ Ῥώ/μη‹ς› συνόδῳ ψήφισμα στ[- - -] τον [- - -]λμα[- - -] / ρα εἰκών [- - -] καὶ ἀ[ν]δριάντ[- - -] / ἀναστάσε[- - -] // ἀνέστη[- - -] / ἐπὶ ὑπάτων Κυ(ΐντου) / Φαβίου Κατυλλεί/νου Μ(άρκου) Φ[λ]αβίου Ἄ/περος ἐπὶ δὲ βα/σιλείας Ἡρακλείδου / Ἡρακλείτου
+            --><div type="edition" xml:lang="grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                πᾶσαν ἐπίστασθαι χάριν ὁμολογοῦμεν Μαρκίῳ Ξε<lb break="no" n="2"/>νοκράτῃ τῷ ὑμετέρῳ πολεί‹τῃ› καὶ διὰ τὴν τῶν <lb n="3"/>ἠθῶν σεμνότατα καὶ διὰ τὴν τοῦ βίου κο<lb break="no" n="4"/>σμιότατα αὔξει μὲν καὶ γεραίρει τὸ τῆς ὑ<lb break="no" n="5"/>μετέρας πόλεως ἀξίωμα κοσμεῖ δὲ τὸ ἱε<lb break="no" n="6"/>ρὸν ἡμῶν συνέδριον οὐ μόνον τῇ κατὰ τὸ <lb n="7"/>ἔργον ἀρετῇ ἧς ἐστὶν περιβόητος ἀλλὰ <lb n="8"/>καὶ ‹τ›ῇ κατὰ τὴν εὔνοιαν σπουδῇ φιλοτειμό<lb break="no" n="9"/>τατος ὑπάρχων ὡς καὶ τοὺς καθ' ἕνα τῶν ἡμε<lb break="no" n="10"/>τέρων συνοδιτῶ‹ν› εὐεργετεῖν καὶ ἐν τοῖς <lb n="11"/>τῷ κοινῷ ἀνήκουσι προθύμως ἅπαντα πράτ<lb break="no" n="12"/>τειν ὡς καὶ ἤδη διὰ τῆς ἑαυτοῦ προνοίας <lb n="13"/>οὐ κοινὰ οὐδὲ τὰ τυχόντα κατορθῶσαι ἡμεῖ<lb break="no" n="14"/>ν ὅθεν εὐεργετουμένοις τοσαῦτα μόνως οὔ<lb break="no" n="15"/>τως ἐλογισάμεθα δύνασθαι τὴν καταξίαν τῆς <lb n="16"/>χάριτος ἀμοιβὴν ἀποτίνειν ΤΡΙΑΝΩ ὑμεῖν οὓς <lb n="17"/>φιλτάτους κέκρικεν αὐτῷ ὁμολογοῦντες ε<supplied reason="lost">ἰ</supplied><lb break="no" n="18"/>δέναι μὲν χάριν αὐτοῖς συνηδόμενοι δὲ ὅτι <lb n="19"/>τοιοῦντον εὐτύχησε πολείτην ἀνθ' ὧν ἄλ<supplied reason="lost">λως</supplied> <lb n="20"/>καὶ ἔδοξεν τῇ ἱερᾷ ἡμων Ἁδριανῇ Ἀντ<supplied reason="lost">ων</supplied>εί<supplied reason="lost">νῃ</supplied> περι<lb break="no" n="21"/><supplied reason="lost">πολι</supplied>στικῇ θυμε<supplied reason="lost">λ</supplied>ικῇ μεγάλῃ νεωκόρῳ ἐπὶ Ῥώ<lb break="no" n="22"/>μη‹ς› συνόδῳ ψήφισμα στ<gap reason="lost" extent="unknown" unit="character"/> τον <gap reason="lost" extent="unknown" unit="character"/>λμα<gap reason="lost" extent="unknown" unit="character"/> <lb n="23"/>ρα εἰκών <gap reason="lost" extent="unknown" unit="character"/> καὶ ἀ<supplied reason="lost">ν</supplied>δριάντ<gap reason="lost" extent="unknown" unit="character"/> <lb n="24"/>ἀναστάσε<gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ἀνέστη<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>ἐπὶ ὑπάτων Κυ(ΐντου) <lb n="3"/>Φαβίου Κατυλλεί<lb break="no" n="4"/>νου Μ(άρκου) Φ<supplied reason="lost">λ</supplied>αβίου Ἄ<lb break="no" n="5"/>περος ἐπὶ δὲ βα<lb break="no" n="6"/>σιλείας Ἡρακλείδου <lb n="7"/>Ἡρακλείτου
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): IGR 3, 0081 druckt nur ab Z. 19 des Textes.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

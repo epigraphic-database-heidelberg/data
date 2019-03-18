@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD004990</idno>
+                <idno type="TM">213237</idno><idno type="localID">HD004990</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/019860">Narbonensis</placeName><placeName ref="http://www.trismegistos.org/place/020656">Ruscino</placeName></origPlace>
+                            <origDate notBefore-custom="0031" notAfter-custom="0037" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD – 37 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2982452">Perpignan</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-07-10" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1980, 0614. 
+                    </bibl>
+                    <bibl>
+                         M. Gayraud, RAN Suppl. 7, 1980, 85, Nr. 21; Foto. - AE 1980. 
+                    </bibl>
+                    <bibl>
+                         AE 1914, 0026. (B) 
+                    </bibl>
+                    <bibl>
+                         F.-P. Thiers, BCTH 1913, 217-218. - AE 1914. 
+                    </bibl>
+                    <bibl>
+                         AE 1912, 0152. (B) 
+                    </bibl>
+                    <bibl>
+                         F.-P. Thiers, BCTH 1912, 80-84. (B) - AE 1912. 
+                    </bibl>
+                    <bibl>
+                         ILGN 633. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                P(ublio) Memm[io P(ubli) f(ilio)] / Reg[ul]o / qu[a]esto[ri Ti(beri)] / Caesar[is praet(ori)] / co(n)s(uli) [septemv]iro / epulo[n]um [s]odali / [August]ali frat(ri) [Arv(ali)] / [legat]o Caes(aris) [Aug(usti)] / [pat]rono
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> Memm<supplied reason="lost">io <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="2"/>Reg<supplied reason="lost">ul</supplied>o <lb n="3"/>qu<supplied reason="lost">a</supplied>esto<supplied reason="lost">ri <expan><abbr>Ti</abbr><ex>beri</ex></expan></supplied> <lb n="4"/>Caesar<supplied reason="lost">is <expan><abbr>praet</abbr><ex>ori</ex></expan></supplied> <lb n="5"/>co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <supplied reason="lost">septemv</supplied>iro <lb n="6"/>epulo<supplied reason="lost">n</supplied>um <supplied reason="lost">s</supplied>odali <lb n="7"/><supplied reason="lost">August</supplied>ali <expan><abbr>frat</abbr><ex>ri</ex></expan> <supplied reason="lost"><expan><abbr>Arv</abbr><ex>ali</ex></expan></supplied> <lb n="8"/><supplied reason="lost">legat</supplied>o <expan><abbr>Caes</abbr><ex>aris</ex></expan> <supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> <lb n="9"/><supplied reason="lost">pat</supplied>rono
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> 19 Fragmente einer Marmortafel zu Ehren des bekannten Senators und Konsuls des Jahres 31 n. Chr. P. Memmius Regulus. Zwei weitere Fragmente bei Gayraud, die möglicherweise zu dieser Tafel gehören. (B): Thiers, BCTH 1912; AE 1912; Thiers, BCTH 1914; AE 1914: Abweichungen in den Ergänzungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

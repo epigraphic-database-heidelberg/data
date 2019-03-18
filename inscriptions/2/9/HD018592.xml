@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD018592</idno>
+                <idno type="TM">197601</idno><idno type="localID">HD018592</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Kazanlŭk, Muzej</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>130</height>
+                                        <width>80</width>
+                                        <depth>14</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000014">Thracia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/727291">Kazanlâk</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Stara Zagora</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-04-24" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1965, 0347. 
+                    </bibl>
+                    <bibl>
+                         IGBulg 1741bis; tab. 123-125. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [D(is) M(anibus)] Ce[lsus Marius eques coh(ortis) II Bra]caug[us]starom(!) / [[[- - -]]] [tur(mae) Petroni XXIV stipendi]orum ex testam(ento) / [M(arcus)] Traid[aci f(ilius) eques coh(ortis) II Numid(arum)] tur(mae) Festi [-]R posuit // Κέλσος Μάριος∙ ἱππεὺς∙ χώρτης δευτέρας Βρακατῶν / Αὐγοῦσ∙τι∙ τούρμης Πετρωνίου στοπενδίων∙ κδ / [ἐ]τῶν∙ νε∙ κατὰ διαθήκην Μᾶρκος Τραιδακοῦ ἱππεὺς / χώρτης δευτέρας Νουμιδῶν τύρμης Φήστου∙ ἀνέθηκεν
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> Ce<supplied reason="lost">lsus Marius eques <expan><abbr>coh</abbr><ex>ortis</ex></expan> II Bra</supplied>caug<supplied reason="lost">us</supplied>starom <note>sic</note> <lb n="2"/><del rend="erasure">[<gap reason="lost" extent="unknown" unit="character"/></del>] <supplied reason="lost"><expan><abbr>tur</abbr><ex>mae</ex></expan> Petroni XXIV stipendi</supplied>orum ex <expan><abbr>testam</abbr><ex>ento</ex></expan> <lb n="3"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arcus</ex></expan></supplied> Traid<supplied reason="lost">aci <expan><abbr>f</abbr><ex>ilius</ex></expan> eques <expan><abbr>coh</abbr><ex>ortis</ex></expan> II <expan><abbr>Numid</abbr><ex>arum</ex></expan></supplied> <expan><abbr>tur</abbr><ex>mae</ex></expan> Festi <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>R posuit </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Κέλσος Μάριος∙ ἱππεὺς∙ χώρτης δευτέρας Βρακατῶν <lb n="2"/>Αὐγοῦσ∙τι∙ τούρμης Πετρωνίου στοπενδίων∙ κδ <lb n="3"/><supplied reason="lost">ἐ</supplied>τῶν∙ νε∙ κατὰ διαθήκην Μᾶρκος Τραιδακοῦ ἱππεὺς <lb n="4"/>χώρτης δευτέρας Νουμιδῶν τύρμης Φήστου∙ ἀνέθηκεν
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Das Relief enthält eine Darstellung sowohl eines thrakischen Reiters als auch einer Totenmahlszene.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

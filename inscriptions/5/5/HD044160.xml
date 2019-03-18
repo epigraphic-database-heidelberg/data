@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gebet auf Instrumentum sacrum</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD044160</idno>
+                <idno type="TM">135941</idno><idno type="localID">HD044160</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Koptisches Museum, Kairo</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/142">Instrumentum sacrum</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/008881">Aegyptus</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0300" notAfter-custom="0640" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">300 AD – 640 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/eg/">Ägypten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/85">Gebet</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2007-07-27" who="Hartmann">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2002, 1612. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Κατευθυνθήτ<ω=Ο>#Κατευθυνθήτ<ω>#ΚατευθυνθήτΟ ἡ πρ<ο=Ω>σευχή#πρ<ο>σευχή#πρΩσευχή μου <ὡ=Ο>ς#<ὡ>ς#Ος θυμ<ί=Η>αμα#θυμ<ί>αμα#θυμΗαμα ἐν<ώ=Ο>π<ι=Η>όν#ἐν<ώ>π<ι>όν#ἐνΟπΗόν σου, Κύρ<ι=Η>ε.#Κύρ<ι>ε.#ΚύρΗε.
+            --><div type="edition" xml:lang="grc"><head>Text</head><ab><lb n="1"/>
+                Κατευθυνθήτ<choice><corr>ω</corr><sic>Ο</sic></choice>#Κατευθυνθήτ<supplied reason="omitted">ω</supplied>#ΚατευθυνθήτΟ ἡ πρ<choice><corr>ο</corr><sic>Ω</sic></choice>σευχή#πρ<supplied reason="omitted">ο</supplied>σευχή#πρΩσευχή μου <choice><corr>ὡ</corr><sic>Ο</sic></choice>ς#<supplied reason="omitted">ὡ</supplied>ς#Ος θυμ<choice><corr>ί</corr><sic>Η</sic></choice>αμα#θυμ<supplied reason="omitted">ί</supplied>αμα#θυμΗαμα ἐν<choice><corr>ώ</corr><sic>Ο</sic></choice>π<choice><corr>ι</corr><sic>Η</sic></choice>όν#ἐν<supplied reason="omitted">ώ</supplied>π<supplied reason="omitted">ι</supplied>όν#ἐνΟπΗόν σου, Κύρ<choice><corr>ι</corr><sic>Η</sic></choice>ε.#Κύρ<supplied reason="omitted">ι</supplied>ε.#ΚύρΗε.
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

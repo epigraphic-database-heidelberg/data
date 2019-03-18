@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD055436</idno>
+                <idno type="TM">217708</idno><idno type="localID">HD055436</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="guidelines">GUIDELINES</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3-5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">unbekannt</placeName><placeName>Aquae S(---), bei</placeName></origPlace>
+                            <origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD – 170 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3187464">Vogošća</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Sarajevski kanton</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ba/">Bosnien und Herzegowina</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-12-06" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2006, 1022. (B) 
+                    </bibl>
+                    <bibl>
+                         V. Paškvalin - M. Forić, GodAkSarajevo 35, 2006, 161-177; sl. 1. (B) - AE 2006. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [- - - Vict]orino dec(urioni) m(unicipii) Aq(uae) fili[o]q(ue) infelicissi/[mo vixit ann]os X(!) me(n)s(es) L(?)I(!) dies XIIII et Ulp(iae) Galli(a)e / [coniugi? i]ncomparabili P(ublius) Ael(ius) Victorinus / [- - -] q(uaestor) II[[I]]vir q(uin)q(uennalis) ed(!) sibi vi(v)us fecit
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Vict</supplied>orino <expan><abbr>dec</abbr><ex>urioni</ex></expan> <expan><abbr>m</abbr><ex>unicipii</ex></expan> <expan><abbr>Aq</abbr><ex>uae</ex></expan> <expan><abbr>fili<supplied reason="lost">o</supplied>q</abbr><ex>ue</ex></expan> infelicissi<lb break="no" n="2"/><supplied reason="lost">mo vixit ann</supplied>os X <note>sic</note> me<expan><ex>n</ex><abbr>s</abbr><ex>es</ex></expan> <expan><abbr>L</abbr><ex cert="low"/>I</expan> <note>sic</note> dies XIIII et <expan><abbr>Ulp</abbr><ex>iae</ex></expan> Galli<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="3"/><supplied reason="lost">coniugi<certainty locus="name" match="preceding-sibling::text()" cert="low"/> i</supplied>ncomparabili <expan><abbr>P</abbr><ex>ublius</ex></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan> Victorinus <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>q</abbr><ex>uaestor</ex></expan> II<del rend="erasure">I</del>vir q<expan><ex>uin</ex><abbr>q</abbr><ex>uennalis</ex></expan> ed <note>sic</note> sibi vi<expan><ex>v</ex><abbr>us</abbr></expan> fecit
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Zeilenlinien für die Beschriftung. Z. 2: möglicherweise Jahres- und Monatszahl vertauscht; Zahl L(?) ähnlich einer TL-Ligatur; (B): Paškvalin - Forić; AE 2006: Abweichungen in Lesung und Ergänzung.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verzeichnis auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD004910</idno>
+                <idno type="TM">213236</idno><idno type="localID">HD004910</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/019860">Narbonensis</placeName><placeName ref="http://www.trismegistos.org/place/019888">Arausio</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 100 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Orange</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/108">Verzeichnis</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-08-28" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1986, 0475. 
+                    </bibl>
+                    <bibl>
+                         F. Salviat, RAN 19, 1986, 101-105, Nr. 1; fig. 1 (Zeichnung). (C) - AE 1986. 
+                    </bibl>
+                    <bibl>
+                         AE 1963, 0197. 
+                    </bibl>
+                    <bibl>
+                         A. Piganiol, Les documents cadastraux de la colonie romaine d'Orange (Paris 1962) 305-306, Nr. 357; pl. 27,357 (Zeichnung). - AE 1963. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                SD I VK XXIII / insul(ae) Furian(ae) / col(oniae) iug(era) XX / et nov(a) VII / pr(aestant) a(era) IV |(denarii) I|(bes) |(semuncia) / sol(vunt) her(edes) / Firmi Se[cu]/ndi // SD I VK XXII / col(oniae) iug(era) XCVII|(bes) / Q(uinto) Curtio Rufo / IIvir(o) et invent(ore) nova iug(era) XV|(dodrans) / pr(aestant) a(era) III |(denarii) III|(dodrans) |(semuncia) TAI / sol(vunt) [h(eredes) Fi]rmi / [Secundi]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                SD I VK XXIII <lb n="2"/><expan><abbr>insul</abbr><ex>ae</ex></expan> <expan><abbr>Furian</abbr><ex>ae</ex></expan> <lb n="3"/><expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>iug</abbr><ex>era</ex></expan> XX <lb n="4"/>et <expan><abbr>nov</abbr><ex>a</ex></expan> VII <lb n="5"/><expan><abbr>pr</abbr><ex>aestant</ex></expan> <expan><abbr>a</abbr><ex>era</ex></expan> IV |(denarii) I|(bes) |(semuncia) <lb n="6"/><expan><abbr>sol</abbr><ex>vunt</ex></expan> <expan><abbr>her</abbr><ex>edes</ex></expan> <lb n="7"/>Firmi Se<supplied reason="lost">cu</supplied><lb break="no" n="8"/>ndi </ab></div><div n="2" type="textpart"><ab><lb n="1"/> SD I VK XXII <lb n="2"/><expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>iug</abbr><ex>era</ex></expan> XCVII|(bes) <lb n="3"/><expan><abbr>Q</abbr><ex>uinto</ex></expan> Curtio Rufo <lb n="4"/><expan><abbr>IIvir</abbr><ex>o</ex></expan> et <expan><abbr>invent</abbr><ex>ore</ex></expan> nova <expan><abbr>iug</abbr><ex>era</ex></expan> XV|(dodrans) <lb n="5"/><expan><abbr>pr</abbr><ex>aestant</ex></expan> <expan><abbr>a</abbr><ex>era</ex></expan> III |(denarii) III|(dodrans) |(semuncia) TAI <lb n="6"/><expan><abbr>sol</abbr><ex>vunt</ex></expan> <supplied reason="lost"><expan><abbr>h</abbr><ex>eredes</ex></expan> Fi</supplied>rmi <lb n="7"/><supplied reason="lost">Secundi</supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (C): Katasterregister von Arausio nennt Q. Curtius Rufus, den Salviat mit dem bekannten Historiker identifiziert. Y: Datierung erste Hälfte 1. Jh. - Zahlenangaben nach Piganiol in Z. 6/7: nova iugera 15 3/4, Steuer zu 3 Denaren u. 15 Assen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

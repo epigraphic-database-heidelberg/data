@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD047991</idno>
+                <idno type="TM">201248</idno><idno type="localID">HD047991</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>59.4</height>
+                                        <width>59.1</width>
+                                        <depth>4</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/015771">Africa Proconsularis</placeName><placeName ref="http://www.trismegistos.org/place/011845">Thysdrus</placeName></origPlace>
+                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">El-Djem</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/tn/">Tunesien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/76">Defixio</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-03-31" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2000, 1611. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                (H)os(!) opera ritine(!) / mi(hi) Patelaria Menor(!) / amor piger n(obis) // E{c}x of(f)icina magica / Donatus t(u)is hoc tibi o(p)tamus / te bidere(!) // Bictor(!) / colon(orum) / c(oloniae) Nov(a)e e(n)s/trume(n)ta/rius(!) (h)o<s=C>#(h)o<s>#OC no/bis o(p)tamus / AEE // Ave / Mater / ave
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><ex>H</ex><abbr>os</abbr></expan> <note>sic</note> opera ritine <note>sic</note> <lb n="2"/><expan><abbr>mi</abbr><ex>hi</ex></expan> Patelaria Menor <note>sic</note> <lb n="3"/>amor piger <expan><abbr>n</abbr><ex>obis</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> E<surplus>c</surplus>x of<expan><ex>f</ex><abbr>icina</abbr></expan> magica <lb n="2"/>Donatus t<expan><ex>u</ex><abbr>is</abbr></expan> hoc tibi o<expan><ex>p</ex><abbr>tamus</abbr></expan> <lb n="3"/>te bidere <note>sic</note> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Bictor <note>sic</note> <lb n="2"/><expan><abbr>colon</abbr><ex>orum</ex></expan> <lb n="3"/><expan><abbr>c</abbr><ex>oloniae</ex></expan> Nov<expan><ex>a</ex><abbr>e</abbr></expan> e<expan><ex>n</ex><abbr>s</abbr></expan><lb break="no" n="4"/>trume<expan><ex>n</ex><abbr>ta</abbr></expan><lb break="no" n="5"/>rius <note>sic</note> <expan><ex>h</ex><abbr>o</abbr></expan><choice><corr>s</corr><sic>C</sic></choice>#<expan><ex>h</ex><abbr>o</abbr></expan><supplied reason="omitted">s</supplied>#OC no<lb break="no" n="6"/>bis o<expan><ex>p</ex><abbr>tamus</abbr></expan> <lb n="7"/>AEE </ab></div><div n="4" type="textpart"><ab><lb n="1"/> Ave <lb n="2"/>Mater <lb n="3"/>ave
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

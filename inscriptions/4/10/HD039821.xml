@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD039821</idno>
+                <idno type="TM">183950</idno><idno type="localID">HD039821</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Ljubuški, Humac, Museum (Franziskanerkloster) ; Erešova kula, Turm (Kopie)</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>220.5</height>
+                                        <width>66</width>
+                                        <depth>24.8</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2.5-2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/029496">Bigeste, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 100 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3288697">Ljubuški</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Zapadnohercegovački kanton</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ba/">Bosnien und Herzegowina</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-03-01" who="Feraudi">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2000, 1179. 
+                    </bibl>
+                    <bibl>
+                         E. Marin - M. Mayer - G. Paci - I. Rodà, in: Y. Le Bohec - C. Wolff (Hrsg.), Les légions de Rome sous le Haut-Empire 2, Actes du Congrès de Lyon 1998 (Lyon 2000) 513, Nr. 10. - AE 2000. 
+                    </bibl>
+                    <bibl>
+                         A. Škegro, OpuscArchZagreb 21, 1997, 88, Nr. 15. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Veranus Caturonis / f(ilius) eq(ues) coh(ortis) I Bracaraug(ustanorum) / turma Tironis ann(norum) / XXXIIX stipendiorum / XVIII h(ic) s(itus) e(st) t(estamento) f(ieri) i(ussit) / h(eredes) p(osuerunt) / Tiro dec(urio) et Crispus / Caturonis
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Veranus Caturonis <lb n="2"/><expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>eq</abbr><ex>ues</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> I <expan><abbr>Bracaraug</abbr><ex>ustanorum</ex></expan> <lb n="3"/>turma Tironis <expan><abbr>n<am>n</am></abbr><ex>norum</ex></expan> <lb n="4"/>XXXIIX stipendiorum <lb n="5"/>XVIII <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>f</abbr><ex>ieri</ex></expan> <expan><abbr>i</abbr><ex>ussit</ex></expan> <lb n="6"/><expan><abbr>h</abbr><ex>eredes</ex></expan> <expan><abbr>p</abbr><ex>osuerunt</ex></expan> <lb n="7"/>Tiro <expan><abbr>dec</abbr><ex>urio</ex></expan> et Crispus <lb n="8"/>Caturonis
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 3, 4, 7: hederae.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

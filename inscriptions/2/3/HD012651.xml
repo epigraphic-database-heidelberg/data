@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD012651</idno>
+                <idno type="TM">197584</idno><idno type="localID">HD012651</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>117</height>
+                                        <width>67</width>
+                                        <depth>10</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000014">Thracia</placeName><placeName>Perinthus</placeName></origPlace>
+                            <origDate notBefore-custom="0193" notAfter-custom="0196" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">193 AD – 196 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/741725">Marmara Ereğlisi</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Tekirdağ</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/tr/">Türkei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-05-21" who="Feraudi">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1976, 0640. (B) 
+                    </bibl>
+                    <bibl>
+                         M.P. Speidel, BJ 176, 1976, 132-134, Nr. 4; fig. 4. (B)- AE 1976. 
+                    </bibl>
+                    <bibl>
+                         M.H. Sayar, Perinthos-Herakleia (Marmara Ereğlisi) und Umgebung. 
+                    </bibl>
+                    <bibl>
+                         Geschichte, Testimonien, griechische und lateinische Inschriften (Wien 1998) 261-262, Nr. 75; Taf. 20, 77. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(is) M(anibus) // [Iul(ius) Fi]rminianus mi(les) le(gionis) I ad(i)u<t=I>(ricis)#ad(i)u<t>(ricis)#ADUI / [coh(ortis) VI] vixit annos XXX mi/[l(itavit) annos] VI pos<u=I>erunt#pos<u>erunt#POSIERUNT bene / [merenti] (h)eredes Ael(ius) Procu/[lus Aelius] M<a=O>crinus#M<a>crinus#MOCRINUS et Au/[rel(ius) I]ustus
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>Iul</abbr><ex>ius</ex></expan> Fi</supplied>rminianus <expan><abbr>mi</abbr><ex>les</ex></expan> <expan><abbr>le</abbr><ex>gionis</ex></expan> I ad<expan><ex>i</ex><abbr>u</abbr></expan><choice><corr>t</corr><sic>I</sic></choice>(ricis)#ad<expan><ex>i</ex><abbr>u</abbr></expan><supplied reason="omitted">t</supplied>(ricis)#ADUI <lb n="2"/><supplied reason="lost"><expan><abbr>coh</abbr><ex>ortis</ex></expan> VI</supplied> vixit annos XXX mi<lb break="no" n="3"/><supplied reason="lost"><expan><abbr>l</abbr><ex>itavit</ex></expan> annos</supplied> VI pos<choice><corr>u</corr><sic>I</sic></choice>erunt#pos<supplied reason="omitted">u</supplied>erunt#POSIERUNT bene <lb n="4"/><supplied reason="lost">merenti</supplied> <expan><ex>h</ex><abbr>eredes</abbr></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan> Procu<lb break="no" n="5"/><supplied reason="lost">lus Aelius</supplied> M<choice><corr>a</corr><sic>O</sic></choice>crinus#M<supplied reason="omitted">a</supplied>crinus#MOCRINUS et Au<lb break="no" n="6"/><supplied reason="lost"><expan><abbr>rel</abbr><ex>ius</ex></expan> I</supplied>ustus
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Oberhalb der Inschrift Darstellung eines Soldaten. Die Stele war bei der Auffindung noch vollständig erhalten. Z. 1: D und M auf den Akroteren des Giebels, der die Stele bekrönt. Z. 2 (Ende): möglicherweise auch T statt I zu lesen. (B): Speidel; AE 1976: Leseabweichungen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

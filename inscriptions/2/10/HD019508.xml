@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Platte</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD019508</idno>
+                <idno type="TM">155644</idno><idno type="localID">HD019508</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Hexham Abbey</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-73.7</height>
+                                        <width>145</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName>Corstopitum</placeName></origPlace>
+                            <origDate notBefore-custom="0207" notAfter-custom="0208" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">207 AD – 208 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1907">1907</date>
+                        <placeName ref="http://www.geonames.org/2652382">Corbridge</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Northumberland</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-01-16" who="Cowey">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 07, 00482. 
+                    </bibl>
+                    <bibl>
+                         EphEp 9, p. 579 n. 1156. 
+                    </bibl>
+                    <bibl>
+                         AE 1947, 0106. 
+                    </bibl>
+                    <bibl>
+                         R.P. Wright, JRS 31, 1941, 142, Nr. 8. - AE 1947. 
+                    </bibl>
+                    <bibl>
+                         RIB 1151; Zeichnungen. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) A 521. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) Caes(ar) L(ucius) Sep(timus) [S]everus Pi(us) / Pertinax et Imp(erator) C[a]esar M(arcus) / Aur(elius) Antoninu[s] Pius Aug/usti [[et P(ublius) Septi[mi]us Geta]] / [[Caesar]] horre[u]m [per] / vexillatione[m leg(ionis) - - -] / fecerunt su[b L(ucio) Alfeno] / [Senecione leg(ato) Augg(ustorum) pr(o) pr(aetore)]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Sep</abbr><ex>timus</ex></expan> <supplied reason="lost">S</supplied>everus <expan><abbr>Pi</abbr><ex>us</ex></expan> <lb n="2"/>Pertinax et <expan><abbr>Imp</abbr><ex>erator</ex></expan> C<supplied reason="lost">a</supplied>esar <expan><abbr>M</abbr><ex>arcus</ex></expan> <lb n="3"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Antoninu<supplied reason="lost">s</supplied> Pius Aug<lb break="no" n="4"/>usti <del rend="erasure">et <expan><abbr>P</abbr><ex>ublius</ex></expan> Septi<supplied reason="lost">mi</supplied>us Geta</del> <lb n="5"/><del rend="erasure">Caesar</del> horre<supplied reason="lost">u</supplied>m <supplied reason="lost">per</supplied> <lb n="6"/>vexillatione<supplied reason="lost">m <expan><abbr>leg</abbr><ex>ionis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="7"/>fecerunt su<supplied reason="lost">b <expan><abbr>L</abbr><ex>ucio</ex></expan> Alfeno</supplied> <lb n="8"/><supplied reason="lost">Senecione <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Augg</abbr><ex>ustorum</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

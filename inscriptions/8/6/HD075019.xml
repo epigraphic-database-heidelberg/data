@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Relief</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD075019</idno>
+                <idno type="TM"/><idno type="localID">HD075019</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Zagreb, Arh. Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/24">Relief</objectType>
+                                    <material>Marmor, geädert / farbig</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>128</height>
+                                        <width>121</width>
+                                        <depth>25</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/029125">Aquae Iasae</placeName></origPlace>
+                            <origDate notBefore-custom="0213" notAfter-custom="0214" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">213 AD – 214 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="2011">2011</date>
+                        <placeName ref="http://www.geonames.org/3188380">Varaždinske Toplice</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Varaždinska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-06-01" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        D. Kušan Špalj, in: Aquae Iasae. Nova otkrića iz rimskog razdoblja na području Varaždinskih Toplica. Recent discoveries of Roman remains in the region of Varaždinske Toplice (Zagreb 2015) 71-73. 95-99. 156-157, Nr. 69; Fotos. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) A 519. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Pro salute et victoriis / Imperatoris Caesaris / M(arci) Aurel{l}(i) Antonini / Pii Felicis Augusti // L(ucius) Alfenus Avitianus leg(atus) leg(ionis) X gemin(ae) / Antoninianae p(iae) f(idelis) praes(es) prov(inciae) Arab(iae) / devotus numini maiestatique eius
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Pro salute et victoriis <lb n="2"/>Imperatoris Caesaris <lb n="3"/><expan><abbr>M</abbr><ex>arci</ex></expan> Aurel<surplus>l</surplus>(i) Antonini <lb n="4"/>Pii Felicis Augusti </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>ucius</ex></expan> Alfenus Avitianus <expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> X <expan><abbr>gemin</abbr><ex>ae</ex></expan> <lb n="2"/>Antoninianae <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <expan><abbr>praes</abbr><ex>es</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan> <expan><abbr>Arab</abbr><ex>iae</ex></expan> <lb n="3"/>devotus numini maiestatique eius
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Relief mit Darstellungen der Salus-Hygia (links) und des Aesculapius (rechts), in Rundbogennischen, zwischen beiden Telesphorus. Oben zwischen den Rundbogennischen Muschel flankiert von Delfinen. Z. 1-3 befinden sich auf einer tabula ansata oberhalb der Bogennischen, links und rechts flankiert von Victorien mit Palmzweig und Kranz; Z. 4-6 unterhalb des Reliefs. Datierung: Mitte 214 war der Dedikant bereits legatus Augusti für Pannonia (vgl. CIL III 3637, welche zu einer Serie Mitte 214 entstandener Inschriften für Heil und Sieg des Caracalla gehört); 209-211 oder 212-213 noch Statthalter in Arabia. Gefunden in Sekundärverwendung als Teil der Pflasterung im südlichen Bereich des Forums.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

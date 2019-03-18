@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD056100</idno>
+                <idno type="TM">195439</idno><idno type="localID">HD056100</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-6</height>
+                                        <width>-3.8</width>
+                                        <depth>0.1</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016529">Pannonia inferior</placeName><placeName ref="http://www.trismegistos.org/place/029147">Vetus Salina</placeName></origPlace>
+                            <origDate notBefore-custom="0105-01-12" notAfter-custom="0105-01-12" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">12.1.105 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1994">1994</date>
+                        <placeName ref="http://www.geonames.org/3056414">Adony</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Fejér megye</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hu/">Ungarn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-04-05" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1999, 1258. 
+                    </bibl>
+                    <bibl>
+                         B. Lőrincz, AAntHung 39, 1999, 197-202; Abb. 1a u. 1b; Abb. 1c u. 1d (Zeichnungen). - AE 1999. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $ pr(idie)? Idus? Ian(uarias)?] / [Ti(berio) Iulio Candido Mario Celso II] / [C(aio) An]tio Iu[lio Quadrato II co(n)s(ulibus)] / [coho]rt(is) I Brit[tonum |(milliariae) cui prae(e)st] / [- - - P]lautiu[s - - -] / [equiti?] / [- - -]maro [- - - f(ilio) - - -] / [descri]ptum et r[ecognitum ex tabu]/[la ae]nea qua[e fixa est Romae] // [Ti(beri) I]uli [Urbani] / [P(ubli) Ca]uli [Gemelli] / [C(ai) Ve]ttieni [Modesti] / [L(uci) Pulli Verecundi] / [P(ubli) Atini Amerimni] / [C(ai) Iuli Parati]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                $ <expan><abbr>pr</abbr><ex>idie</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> Idus<certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>Ian</abbr><ex>uarias</ex></expan><certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><supplied reason="lost"><expan><abbr>Ti</abbr><ex>berio</ex></expan> Iulio Candido Mario Celso II</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>C</abbr><ex>aio</ex></expan> An</supplied>tio Iu<supplied reason="lost">lio Quadrato II <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="4"/><expan><abbr><supplied reason="lost">coho</supplied>rt</abbr><ex>is</ex></expan> I Brit<supplied reason="lost">tonum |(milliariae) cui <expan><abbr>prae</abbr><ex>e</ex>st</expan></supplied> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">P</supplied>lautiu<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><supplied reason="lost" cert="low">equiti</supplied> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>maro <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>f</abbr><ex>ilio</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="8"/><supplied reason="lost">descri</supplied>ptum et r<supplied reason="lost">ecognitum ex tabu</supplied><lb break="no" n="9"/><supplied reason="lost">la ae</supplied>nea qua<supplied reason="lost">e fixa est Romae</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>Ti</abbr><ex>beri</ex></expan> I</supplied>uli <supplied reason="lost">Urbani</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>P</abbr><ex>ubli</ex></expan> Ca</supplied>uli <supplied reason="lost">Gemelli</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>C</abbr><ex>ai</ex></expan> Ve</supplied>ttieni <supplied reason="lost">Modesti</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>L</abbr><ex>uci</ex></expan> Pulli Verecundi</supplied> <lb n="5"/><supplied reason="lost"><expan><abbr>P</abbr><ex>ubli</ex></expan> Atini Amerimni</supplied> <lb n="6"/><supplied reason="lost"><expan><abbr>C</abbr><ex>ai</ex></expan> Iuli Parati</supplied>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

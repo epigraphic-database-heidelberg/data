@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meilen-/Leugenstein</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD044487</idno>
+                <idno type="TM">197768</idno><idno type="localID">HD044487</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Sofija, Nac. Arh. Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugenstein</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>202</height>
+                                        <width>45</width>
+                                        <depth>25</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2.5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000014">Thracia</placeName><placeName>Serdica</placeName></origPlace>
+                            <origDate notBefore-custom="0227" notAfter-custom="0229" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">227 AD – 229 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/727011">Sofija</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Sofija, grad</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2015-05-19" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        IGR 1, 0688. 
+                    </bibl>
+                    <bibl>
+                         E. Kalinka, Antike Denkmäler in Bulgarien (Wien 1906) 53, Nr. 52 u. 368, Nr. 52. 
+                    </bibl>
+                    <bibl>
+                         V. Beševliev, Spätgriechische und spätlateinische Inschriften aus Bulgarien (Berlin 1964) 1, Nr. 1; Taf. 1, 1 (Zeichnung). 
+                    </bibl>
+                    <bibl>
+                         IGBulg 1982; tab. 31, 1982 (1); tab. 32, 1982 (2) u. 1982 (3). 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) R 257. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [ἀγαθῆι τύχηι] / [ὑπὲρ τῆς τοῦ Αὐτοκράτορος] Καίσαρος / [Μ(άρκου) Αὐρ(ηλίου) Σευήρου Ἀ]λεξάν[δρου] / Σεβ(αστοῦ) τύχης τε καὶ νείκης καὶ αἰ/[ω]νίου διαμονῆς ἡγεμονεύον/τος τῆς λαμπροτάτης Θρᾳκῶν / [ἐπ]α[ρχίας] Ῥουτιλίου Πούδεν/[τος Κρισπί]νου πρεσβ(ευτοῦ) Σεβ(αστοῦ) ἀντι/στρατήγου ἡ Σερδων πόλις ἀ/[νέστ]η[σεν] τὸ μίλιον // [d(ominis)] n(ostris) Constan/[tino - - -] Val(erio) Licini(ano) [Li]cin[io] / [perp(etuis) Aug(ustis)] Fl(avio) Iul(io) Cri[spo] / [Lic(iniano) Lici]n[io Fl(avio)] Cl(audio) Const[antino] / [Fl(avio) Iul(io) C]ons[tantio] nobb(ilissimis) Caess(aribus) / m(ilia) p(assuum) XI
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">ἀγαθῆι τύχηι</supplied> <lb n="2"/><supplied reason="lost">ὑπὲρ τῆς τοῦ Αὐτοκράτορος</supplied> Καίσαρος <lb n="3"/><supplied reason="lost">Μ(άρκου) Αὐρ(ηλίου) Σευήρου Ἀ</supplied>λεξάν<supplied reason="lost">δρου</supplied> <lb n="4"/>Σεβ(αστοῦ) τύχης τε καὶ νείκης καὶ αἰ<lb break="no" n="5"/><supplied reason="lost">ω</supplied>νίου διαμονῆς ἡγεμονεύον<lb break="no" n="6"/>τος τῆς λαμπροτάτης Θρᾳκῶν <lb n="7"/><supplied reason="lost">ἐπ</supplied>α<supplied reason="lost">ρχίας</supplied> Ῥουτιλίου Πούδεν<lb break="no" n="8"/><supplied reason="lost">τος Κρισπί</supplied>νου πρεσβ(ευτοῦ) Σεβ(αστοῦ) ἀντι<lb break="no" n="9"/>στρατήγου ἡ Σερδων πόλις ἀ<lb break="no" n="10"/><supplied reason="lost">νέστ</supplied>η<supplied reason="lost">σεν</supplied> τὸ μίλιον </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>d</abbr><ex>ominis</ex></expan></supplied> <expan><abbr>n</abbr><ex>ostris</ex></expan> Constan<lb break="no" n="2"/><supplied reason="lost">tino</supplied><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Val</abbr><ex>erio</ex></expan> <expan><abbr>Licini</abbr><ex>ano</ex></expan> <supplied reason="lost">Li</supplied>cin<supplied reason="lost">io</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>perp</abbr><ex>etuis</ex></expan> <expan><abbr>Aug</abbr><ex>ustis</ex></expan></supplied> <expan><abbr>Fl</abbr><ex>avio</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> Cri<supplied reason="lost">spo</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>Lic</abbr><ex>iniano</ex></expan> Lici</supplied>n<supplied reason="lost">io <expan><abbr>Fl</abbr><ex>avio</ex></expan></supplied> <expan><abbr>Cl</abbr><ex>audio</ex></expan> Const<supplied reason="lost">antino</supplied> <lb n="5"/><supplied reason="lost"><expan><abbr>Fl</abbr><ex>avio</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> C</supplied>ons<supplied reason="lost">tantio</supplied> <expan><abbr>nobb</abbr><ex>ilissimis</ex></expan> <expan><abbr>Caess</abbr><ex>aribus</ex></expan> <lb n="6"/><expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> XI
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Auf dem Meilenstein wurden zwei separate Inschriften angebracht. Die oberere griechische Inschrift ist am ehesten zu datieren auf die Jahre 227-229, vgl. K. Dietz, Senatus contra principem (München 1980), 216. Die lateinische Inschrift ist auf das Jahr 323 datierbar.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

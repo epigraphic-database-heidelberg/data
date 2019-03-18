@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD076393</idno>
+                <idno type="TM"/><idno type="localID">HD076393</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bonn, Rhein. Landesmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/30">Tuff</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>67</height>
+                                        <width>43</width>
+                                        <depth>43</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0070" notAfter-custom="0122" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 AD – 122 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1826">1826</date>
+                        <placeName ref="http://www.geonames.org/2891830">Andernach</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-05-24" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F017370">
+            <desc>F017370</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 07695. 
+                    </bibl>
+                    <bibl>
+                         K. Matijević, Römische und frühchristliche Zeugnisse im Norden Obergermaniens. Epigraphische Studien zu unterer Mosel und östlicher Eifel (Rahden (Westf.) 2010) 54-57, Nr. 9; Abb. 13. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Herculi In/victo sac/rum G(aius) Ter/entius Bass/us |(centurio) leg(ionis) VI vi/ctricis et ve/xi(l)latio le(gionis) e[i(usdem)]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Herculi In<lb break="no" n="2"/>victo sac<lb break="no" n="3"/>rum <expan><abbr>G</abbr><ex>aius</ex></expan> Ter<lb break="no" n="4"/>entius Bass<lb break="no" n="5"/>us |(centurio) <expan><abbr>leg</abbr><ex>ionis</ex></expan> VI vi<lb break="no" n="6"/>ctricis et ve<lb break="no" n="7"/>xi<expan><ex>l</ex><abbr>latio</abbr></expan> <expan><abbr>le</abbr><ex>gionis</ex></expan> e<supplied reason="lost"><expan><abbr>i</abbr><ex>usdem</ex></expan></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Datierung: bis Anfang der 120er Jahre; da die Legionsbeinamen pia fidelis fehlen, vermutlich vor 89 n. Chr.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

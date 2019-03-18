@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD055878</idno>
+                <idno type="TM">217796</idno><idno type="localID">HD055878</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-4.4</height>
+                                        <width>-3.2</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">0.2-0.3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">unbekannt</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0166" notAfter-custom="0168" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">166 AD – 168 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries//">unbekannt</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-04-02" who="Platz">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1998, 1625. 
+                    </bibl>
+                    <bibl>
+                         RMD 440. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(erator) Caesar Marcus Aurelius Antoninus Aug(ustus) Armeniacus Medicus Parthicus pontif(ex) max(imus) tribunic(ia) potest(ate) - - - imp(erator) - - - co(n)s(ul) III et Imp(erator) Caesar Lucius Aurelius Verus Aug(ustus) Armeniacus Medicus Parthicus max(imus) tribunic(ia) pot(estate) - - - imp(erator) - - - co(n)s(ul) - - - patres patriae divi Antonini f(ilii) divi Hadriani] nepot[es divi Traiani Parthici pronep]otes [divi Nervae abnep]otes [peditibus et equitibus qui mil]itaverunt [in cohortibus tribus quae] appellan[tur I Ael(ia) Athoitarum et II Luce]nsium et II [Mattiacorum et sunt in Thr]aciae sub [Claudio Martiali leg(ato) qui]nque et vi[ginti stipendi(i)s emeritis] dimissis [honesta missione & // $ dederunt] et conu[bium cum uxoribus quas tunc h]abuiss(ent) cum e[st civitas i(i)s data aut cum i(i)s] quas poste[a duxissent dumtaxat singul]is
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar Marcus Aurelius Antoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Armeniacus Medicus Parthicus <expan><abbr>pontif</abbr><ex>ex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>imp</abbr><ex>erator</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III et <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar Lucius Aurelius Verus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Armeniacus Medicus Parthicus <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>imp</abbr><ex>erator</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> patres patriae divi Antonini <expan><abbr>f</abbr><ex>ilii</ex></expan> divi Hadriani</supplied> nepot<supplied reason="lost">es divi Traiani Parthici pronep</supplied>otes <supplied reason="lost">divi Nervae abnep</supplied>otes <supplied reason="lost">peditibus et equitibus qui mil</supplied>itaverunt <supplied reason="lost">in cohortibus tribus quae</supplied> appellan<supplied reason="lost">tur I <expan><abbr>Ael</abbr><ex>ia</ex></expan> Athoitarum et II Luce</supplied>nsium et II <supplied reason="lost">Mattiacorum et sunt in Thr</supplied>aciae sub <supplied reason="lost">Claudio Martiali <expan><abbr>leg</abbr><ex>ato</ex></expan> qui</supplied>nque et vi<supplied reason="lost">ginti <expan><abbr>stipendi</abbr><ex>i</ex>s</expan> emeritis</supplied> dimissis [honesta missione &amp; </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><supplied reason="lost">dederunt</supplied> et conu<supplied reason="lost">bium cum uxoribus quas tunc h</supplied><expan><abbr>abuiss</abbr><ex>ent</ex></expan> cum e<supplied reason="lost">st civitas <expan><abbr>i</abbr><ex>i</ex>s</expan> data aut cum <expan><abbr>i</abbr><ex>i</ex>s</expan></supplied> quas poste<supplied reason="lost">a duxissent dumtaxat singul</supplied>is
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Platte</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD067360</idno>
+                <idno type="TM">402388</idno><idno type="localID">HD067360</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Celje, Pokrajinski Muz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>84</height>
+                                        <width>-102</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">4.5-11</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003230">Noricum</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0501" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">501 AD – 600 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1900">1900</date>
+                        <placeName ref="http://www.geonames.org/3192570">Prebold</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Savinjska statistična regija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/si/">Slowenien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-02-20" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/6187">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AIJ 016; Zeichnung. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Gaude terra solo et longum laetare per aev[um] / accipe pacificum corpus et flore cor[ona] / vatis innocui sup(!) quo pastore b<e>a[to] / didicimus Domini legem pia voce ca[nente] / en age si meritus nobis h(a)ec munera de[dit?] / ne aliud sancti quam balsama corpus in[undent] / tu autem de Domino precibus orare mem[ento] / in tua ne veniat grege leo fervidus i[ntro] / episcop[i] // Gaudenti
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Gaude terra solo et longum laetare per aev<supplied reason="lost">um</supplied> <lb n="2"/>accipe pacificum corpus et flore cor<supplied reason="lost">ona</supplied> <lb n="3"/>vatis innocui sup <note>sic</note> quo pastore b<supplied reason="omitted">e</supplied>a<supplied reason="lost">to</supplied> <lb n="4"/>didicimus Domini legem pia voce ca<supplied reason="lost">nente</supplied> <lb n="5"/>en age si meritus nobis h<expan><ex>a</ex><abbr>ec</abbr></expan> munera de<supplied reason="lost" cert="low">dit</supplied> <lb n="6"/>ne aliud sancti quam balsama corpus in<supplied reason="lost">undent</supplied> <lb n="7"/>tu autem de Domino precibus orare mem<supplied reason="lost">ento</supplied> <lb n="8"/>in tua ne veniat grege leo fervidus i<supplied reason="lost">ntro</supplied> <lb n="9"/>episcop<supplied reason="lost">i</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Gaudenti
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> 3 aneinanderpassende Fragmente erhalten. Oberhalb von Z. 1 kreisrunde Ausmeißelung wohl eines Christogramms, flankiert von zwei Pfauen. Drei Kreuzzeichen innerhalb des Inschriftfeldes sekundär eingemeißelt im Zusammenhang mit der Verwendung der Platte als Altarmensa. Aufbewahrungsort nach lupa 6187; Fundjahr nur ungefähr. Z. 1-8: Die Anfangsbuchstaben ergeben den Namen des Bischofs Gaudentius. Z. 5 (Ende): hinter DE nach dem Foto bei lupa 6187 eher das untere Ende einer aufsteigenden Schräghaste als eine Lücke oder ein D. (B): AIJ: Z. 2 (Ende): co[rona]; Z. 3: v[ati]s.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

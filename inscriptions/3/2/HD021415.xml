@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Architekturteil</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD021415</idno>
+                <idno type="TM">199980</idno><idno type="localID">HD021415</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/35">Architekturteil</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">15</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/015771">Africa Proconsularis</placeName><placeName>Lepcis Magna</placeName></origPlace>
+                            <origDate notBefore-custom="-0008" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">8 BC
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/2219905">Al Khums</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/ly/">Libyen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-05-21" who="Bigi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1951, 0205. 
+                    </bibl>
+                    <bibl>
+                         AE 1998, 1513. 
+                    </bibl>
+                    <bibl>
+                         IRT 319. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(erator) Caesar Divi f(ilius) Augustus] co(n)s(ul) XI imp(erator) XIIII trib(unicia) pot(estate) XV pont(ifex) m[axi]mus // M(arco) Licinio M(arci) f(ilio) Crasso Frugi co(n)s(ule) augure proco(n)s(ule) patrono flaminib(us) August(i) Caesaris Iddib[a]le Arinis f(ilio) [- - -]one [et - - - A]nnobalis [f(ilio) - - -]ON[- su]fetib(us) M[uttun Annonis f(ilio) & // Annobal Himilcho(nis) f(ilius) Tapapius Rufus sufes flamen praefectus sacrorum de sua pequ[nia] faciun[dum coe]ravit idem[que] de[d]icavit
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar Divi <expan><abbr>f</abbr><ex>ilius</ex></expan> Augustus</supplied> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> XI <expan><abbr>imp</abbr><ex>erator</ex></expan> XIIII <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XV <expan><abbr>pont</abbr><ex>ifex</ex></expan> m<supplied reason="lost">axi</supplied>mus </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>M</abbr><ex>arco</ex></expan> Licinio <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Crasso Frugi co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> augure proco<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> patrono <expan><abbr>flaminib</abbr><ex>us</ex></expan> <expan><abbr>August</abbr><ex>i</ex></expan> Caesaris Iddib<supplied reason="lost">a</supplied>le Arinis <expan><abbr>f</abbr><ex>ilio</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>one <supplied reason="lost">et <gap reason="lost" extent="unknown" unit="character"/> A</supplied>nnobalis <supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/>ON<gap reason="lost" quantity="1" unit="character"/><expan><abbr><supplied reason="lost">su</supplied>fetib</abbr><ex>us</ex></expan> M[uttun Annonis <expan><abbr>f</abbr><ex>ilio</ex></expan> &amp; </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Annobal <expan><abbr>Himilcho</abbr><ex>nis</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Tapapius Rufus sufes flamen praefectus sacrorum de sua pequ<supplied reason="lost">nia</supplied> faciun<supplied reason="lost">dum coe</supplied>ravit idem<supplied reason="lost">que</supplied> de<supplied reason="lost">d</supplied>icavit
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 2: Imilchonis corrected to Himilcho. Lintel block; text carved</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001949</idno>
+                <idno type="TM">176636</idno><idno type="localID">HD001949</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mus. Kayseri</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>224</height>
+                                        <width>48</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000482">Cappadocia</placeName><placeName>Caesarea Cappadociae</placeName></origPlace>
+                            <origDate notBefore-custom="0131" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD – 230 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Kayseri</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kayseri</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/tr/">Türkei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-02-28" who="Cowey">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1984, 0893. 
+                    </bibl>
+                    <bibl>
+                         D.H. French, in: St. Mitchell (Hg.), Armies and Frontiers in Roman and Byzantine Anatolia (Oxford 1983) 51-52; fig. 5,1 (Zeichnung). - AE 1984. 
+                    </bibl>
+                    <bibl>
+                         SEG 33, 1194. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                C(aio) Coesio C(ai) f(ilio) / Fab(ia) Floro p(rimo) [p(ilo)] / leg(ionis) IV Scyt(hicae) / praef(ecto) leg(ionis) XI / Cl(audiae) piae fidelis / Grania Nigel/la uxor et C(aius) Coe/sius Florus Licin/nianus(!) filius // Γ(αίῳ) Κοισίῳ Γα/ίου υἱῷ Φαβίᾳ Φλώ/ρῳ, πρειμιπιλα/ρίῳ λεγ(ιῶνος) Δ Σκυθι/κῆς, ἐπάρχῳ λεγ(ιῶνος) ΙΑ Κλαυ/δίας εὐσεβοῦς πιστῆς, Γρα/νία Νιγέλλα ἀνδρὶ ἀγα/θῷ καὶ Γ(αίος) Κοίσιος Φλῶρος / Λικιννιανὸς ὁ υἱὸς μνή/μης ἕνεκα
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Coesio <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><expan><abbr>Fab</abbr><ex>ia</ex></expan> Floro <expan><abbr>p</abbr><ex>rimo</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>ilo</ex></expan></supplied> <lb n="3"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> IV <expan><abbr>Scyt</abbr><ex>hicae</ex></expan> <lb n="4"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <lb n="5"/><expan><abbr>Cl</abbr><ex>audiae</ex></expan> piae fidelis <lb n="6"/>Grania Nigel<lb break="no" n="7"/>la uxor et <expan><abbr>C</abbr><ex>aius</ex></expan> Coe<lb break="no" n="8"/>sius Florus Licin<lb break="no" n="9"/>nianus <note>sic</note> filius </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Γ(αίῳ) Κοισίῳ Γα<lb break="no" n="2"/>ίου υἱῷ Φαβίᾳ Φλώ<lb break="no" n="3"/>ρῳ, πρειμιπιλα<lb break="no" n="4"/>ρίῳ λεγ(ιῶνος) Δ Σκυθι<lb break="no" n="5"/>κῆς, ἐπάρχῳ λεγ(ιῶνος) ΙΑ Κλαυ<lb break="no" n="6"/>δίας εὐσεβοῦς πιστῆς, Γρα<lb break="no" n="7"/>νία Νιγέλλα ἀνδρὶ ἀγα<lb break="no" n="8"/>θῷ καὶ Γ(αίος) Κοίσιος Φλῶρος <lb n="9"/>Λικιννιανὸς ὁ υἱὸς μνή<lb break="no" n="10"/>μης ἕνεκα
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Dem lateinischen folgt der gleichlautende griechische Text. Praef. leg. wohl als praef. (castrorum) leg. aufzufassen. Material: weißer Kalkstein.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

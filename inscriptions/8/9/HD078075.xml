@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Platte</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD078075</idno>
+                <idno type="TM"/><idno type="localID">HD078075</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Mainz, Landesmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-44</height>
+                                        <width>55</width>
+                                        <depth>29</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum</placeName></origPlace>
+                            <origDate notBefore-custom="0451" notAfter-custom="0550" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">451 AD – 550 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1907">1907</date>
+                        <placeName ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2018-11-15" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F015764">
+            <desc>F015764</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F015765">
+            <desc>F015765</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 11920. (B) 
+                    </bibl>
+                    <bibl>
+                         ILCV 4734. (B) 
+                    </bibl>
+                    <bibl>
+                         W. Boppert, Die frühchristlichen Inschriften des Mittelrheingebietes (Mainz 1971) 51-56; Zeichnung. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Hic quiesc[it in pac]e Leon/cia(!) qu(a)e vixi[t anno]s LXVIII / beata requ[i- - -]ae / hic quiesci<t=E>#quiesci<t>#QUIESCIE in [pace - - -]iova / qu(a)e vixit ann[os - - - d]ies X(?) [be?]/ata requie<sc>it RO(?)[- - -]ES / die Veneres(!) (h)or[a- - -] de/lexit Domeno(!) [- - -]F(?) / dignatus est uno titu[lo - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Hic quiesc<supplied reason="lost">it in pac</supplied>e Leon<lb break="no" n="2"/>cia <note>sic</note> qu<expan><ex>a</ex><abbr>e</abbr></expan> vixi<supplied reason="lost">t anno</supplied>s LXVIII <lb n="3"/>beata requ<supplied reason="lost">i</supplied><gap reason="lost" extent="unknown" unit="character"/>ae <lb n="4"/>hic quiesci<choice><corr>t</corr><sic>E</sic></choice>#quiesci<supplied reason="omitted">t</supplied>#QUIESCIE in <supplied reason="lost">pace</supplied><gap reason="lost" extent="unknown" unit="character"/>iova <lb n="5"/>qu<expan><ex>a</ex><abbr>e</abbr></expan> vixit ann<supplied reason="lost">os <gap reason="lost" extent="unknown" unit="character"/> d</supplied>ies <expan><abbr>X</abbr><ex cert="low"/></expan> <supplied reason="lost" cert="low">be</supplied><lb break="no" n="6"/>ata requie<supplied reason="omitted">sc</supplied>it <expan><abbr>RO</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>ES <lb n="7"/>die Veneres <note>sic</note> <expan><ex>h</ex><abbr>or</abbr></expan><supplied reason="lost">a</supplied><gap reason="lost" extent="unknown" unit="character"/> de<lb break="no" n="8"/>lexit Domeno <note>sic</note> <gap reason="lost" extent="unknown" unit="character"/><expan><abbr>F</abbr><ex cert="low"/></expan> <lb n="9"/>dignatus est uno titu<supplied reason="lost">lo</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Zwei nicht aneinanderpassende Fragmente erhalten. Rechts und links der Inschrift je ein um 90 Grad gedrehtes Christusmonogramm. Maße: Breite bezieht sich auf das linke Fragment; Breite des rechten Fragments: (50) cm. (B): CIL 13, 11920; ILCV: Z. 3: requi[evit; Z. 4: quiescit; CIL 13, 11920; ILCV; Boppert: Z. 6: RECVIEIT; Boppert: Z. 8 (Ende): F(?) fehlt.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

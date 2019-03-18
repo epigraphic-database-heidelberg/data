@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD013237</idno>
+                <idno type="TM">285385</idno><idno type="localID">HD013237</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>150</height>
+                                        <width>57</width>
+                                        <depth>28</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Transpadana (Regio XI)</placeName><placeName ref="http://www.trismegistos.org/place/003308">Mediolanum</placeName></origPlace>
+                            <origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Milano</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Lombardia</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2009-12-02" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1969/70, 0201. (B) 
+                    </bibl>
+                    <bibl>
+                         A. Soffredi, Epigraphica 31, 1969, 122-123; fig. 2. (B) - AE 1969/70. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                C(aius) Calven[tius] / Campanu[s] / sibi et / Cassiae Polla[e] / coniugi / carissimae / et Calventio / Calvo fil(io) / VIvir(o) iun(iori) / et C(aio) Cassio / Sextilio amico / Cassiae Satullae / socerae / C(aio) Cassio / Masuinni f(ilio) / socero
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Calven<supplied reason="lost">tius</supplied> <lb n="2"/>Campanu<supplied reason="lost">s</supplied> <lb n="3"/>sibi et <lb n="4"/>Cassiae Polla<supplied reason="lost">e</supplied> <lb n="5"/>coniugi <lb n="6"/>carissimae <lb n="7"/>et Calventio <lb n="8"/>Calvo <expan><abbr>fil</abbr><ex>io</ex></expan> <lb n="9"/><expan><abbr>VIvir</abbr><ex>o</ex></expan> <expan><abbr>iun</abbr><ex>iori</ex></expan> <lb n="10"/>et <expan><abbr>C</abbr><ex>aio</ex></expan> Cassio <lb n="11"/>Sextilio amico <lb n="12"/>Cassiae Satullae <lb n="13"/>socerae <lb n="14"/><expan><abbr>C</abbr><ex>aio</ex></expan> Cassio <lb n="15"/>Masuinni <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="16"/>socero
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Z. 1: AE, Soffredi: Calve[ntius]; Z. 4: AE, Soffredi: Polla[e].</p>
+            </div>
+        </body>
+    </text>
+</TEI>

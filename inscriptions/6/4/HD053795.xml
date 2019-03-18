@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Instrumentum domesticum</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD053795</idno>
+                <idno type="TM">197315</idno><idno type="localID">HD053795</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/140">Instrumentum domesticum</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-7.8</height>
+                                        <width>6.1</width>
+                                        <depth>3.3</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/145">gepunzt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 100 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1984">1984</date>
+                        <placeName ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Niederösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-07-07" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1992, 1429. 
+                    </bibl>
+                    <bibl>
+                         E. Weber - R. Selinger, RŒ 19/20, 1991/92, 210, Nr. 231. - AE 1992. 
+                    </bibl>
+                    <bibl>
+                         G. Kremer - E. Römer-Martijnse, CarnuntumJb 1987, 105-114; Abb. 1-6; Abb. 7 (Zeichnung). - AE 1992. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Do//mi[n]o / f[ie]ri / ut pact/us // ius(s)it v/isu L(ucium) M/es(s)ium(?) // {m} b(eneficiarium) co(n)s(ularis) / legio(nis)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Do</ab></div><div n="2" type="textpart"><ab><lb n="1"/>mi<supplied reason="lost">n</supplied>o <lb n="2"/>f<supplied reason="lost">ie</supplied>ri <lb n="3"/>ut pact<lb break="no" n="4"/>us </ab></div><div n="3" type="textpart"><ab><lb n="1"/> ius<expan><ex>s</ex><abbr>it</abbr></expan> v<lb break="no" n="2"/>isu <expan><abbr>L</abbr><ex>ucium</ex></expan> M<lb break="no" n="3"/>es<expan><ex>s</ex><abbr>ium</abbr></expan><certainty match="preceding-sibling::node()" locus="value"/> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <surplus>m</surplus> <expan><abbr>b</abbr><ex>eneficiarium</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <lb n="2"/><expan><abbr>legio</abbr><ex>nis</ex></expan>
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Die Inschrift befindet sich auf den vier Seitenfeldern des altarförmigen Untersatzes einer Bronzeschalte. Flankiert von vier Adlern an den Ecken, darüber vier Delfine, die den Ring zur Aufnahme der Schale tragen. Schreibtechnik: gepunzt. Alternative Lesung Z. 8 nach Kremer - Römer-Martijnse: Mesium; M(a)esium.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

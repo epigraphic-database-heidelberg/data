@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Sarkophag</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD025117</idno>
+                <idno type="TM">182075</idno><idno type="localID">HD025117</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>73</height>
+                                        <width>210</width>
+                                        <depth>88</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6-5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName>Salonae, aus?</placeName></origPlace>
+                            <origDate notBefore-custom="0425" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">425 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/3198214">Kaštela</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Splitsko-dalmatinska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-05-13" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1922, 0042. (B) 
+                    </bibl>
+                    <bibl>
+                         F. Bulić, BAHD 37, 1914, 107, 111; Zeichnung. (B) - AE 1922. 
+                    </bibl>
+                    <bibl>
+                         ILC 3791C. (B) 
+                    </bibl>
+                    <bibl>
+                         ILJug 2789. (B) 
+                    </bibl>
+                    <bibl>
+                         E. Marin u. a., Salona 4. Inscriptions de Salone chrétienne, IVe-VIIe siècles (Rome - Split 2010) 452-454, Nr. 194; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                D(ominis) n(ostris) Thaeodosio(!) co(n)s(ule) XI et Valentiniano / viro nobelissimo(!) Caes(are) ego T<h=N>aeodo/sius(!)#T<h>aeodo/sius(!)#TNAEODOSIUS emi a Fl(avia) Vita[li]a pr(es)b(yteri) sanc(ta) matro/na auri sol(idis) III sub d(ie)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>ominis</ex></expan> <expan><abbr>n</abbr><ex>ostris</ex></expan> Thaeodosio <note>sic</note> co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> XI et Valentiniano <lb n="2"/>viro nobelissimo <note>sic</note> <expan><abbr>Caes</abbr><ex>are</ex></expan> ego T<choice><corr>h</corr><sic>N</sic></choice>aeodo<lb break="no" n="3"/>sius <note>sic</note>#T<supplied reason="omitted">h</supplied>aeodo<lb break="no" n="4"/>sius <note>sic</note>#TNAEODOSIUS emi a <expan><abbr>Fl</abbr><ex>avia</ex></expan> Vita<supplied reason="lost">li</supplied>a pr<expan><ex>es</ex><abbr>b</abbr><ex>yteri</ex></expan> <expan><abbr>sanc</abbr><ex>ta</ex></expan> matro<lb break="no" n="5"/>na auri <expan><abbr>sol</abbr><ex>idis</ex></expan> III sub <expan><abbr>d</abbr><ex>ie</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Sarkophagkasten; gefunden in Wiederverwendung als Ölbehälter. Z. 4: genaue Tagesangabe möglicherweise nachträglich mit Farbe eingetragen. Buchstabe V teilweise in der Form von U geschrieben. (B): Bulić; AE 1922; ILC; ILJug: Leseabweichungen. Datierung: 7.5. - 23.10.425 n . Chr., als Valentinianus Caesar war.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

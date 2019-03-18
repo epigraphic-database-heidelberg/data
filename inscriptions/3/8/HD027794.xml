@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD027794</idno>
+                <idno type="TM">223477</idno><idno type="localID">HD027794</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/026159">Obulco</placeName></origPlace>
+                            <origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD – 130 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Porcuna</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Andalucía</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-01-17" who="Feraudi">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 02 (2. Aufl.) 07, 00126. 
+                    </bibl>
+                    <bibl>
+                         CIL 02, 02130. (B) 
+                    </bibl>
+                    <bibl>
+                         ILS 5497. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [-] Cornelius [L(uci) f(ilius) - n(epos)] / [-] pron(epos) Gal(eria) [- - -?] / [- - -]na aedil(is) [- - -?] / [post] mortem testamento / [- - -?] statuas sibi et patri equestres / [item?] matri pedestrem poni iussit / [quas?] Cornelia L(uci) f(ilia) Anus soror / p(onendas) c(uravit)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Cornelius <supplied reason="lost"><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <gap reason="lost" quantity="1" unit="character"/> <expan><abbr>n</abbr><ex>epos</ex></expan></supplied> <lb n="2"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <expan><abbr>pron</abbr><ex>epos</ex></expan> <expan><abbr>Gal</abbr><ex>eria</ex></expan> <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>na <expan><abbr>aedil</abbr><ex>is</ex></expan> <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="4"/><supplied reason="lost">post</supplied> mortem testamento <lb n="5"/><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> statuas sibi et patri equestres <lb n="6"/><supplied reason="lost" cert="low">item</supplied> matri pedestrem poni iussit <lb n="7"/><supplied reason="lost" cert="low">quas</supplied> Cornelia <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> Anus soror <lb n="8"/><expan><abbr>p</abbr><ex>onendas</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): CIL II 2130: Z. 3: [---] aedil postmortem [---]; Z. 4: [---] testamento statuas [---]; Z. 5: [---] sibi et patri equestres [---]; ILS 5497: Z. 3: aedil. post mortem [---]; Z. 4: testamento statuas; Z. 5: sibi et patri equestres; Z. 6 (Anfang): matri; Z. 7 (Anfang): Cornelia.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

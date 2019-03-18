@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD058325</idno>
+                <idno type="TM">177506</idno><idno type="localID">HD058325</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000078">Achaia</placeName><placeName>Thebae</placeName></origPlace>
+                            <origDate notBefore-custom="0014" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">14 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1881">1881</date>
+                        <placeName ref="http://www.geonames.org/">Thívai</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Stereá Elláda</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gr/">Griechenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2011-09-20" who="Cowey">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 07301. (B) 
+                    </bibl>
+                    <bibl>
+                         M. Šašel Kos, Inscriptiones Latinae in Graecia repertae. Additamenta ad CIL III (Faenza 1979) 65, Nr. 151. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                St(atius) Vallius St(ati) f(ilius) Lem(onia) Rufus / Cn(aeus) Castricius A(uli) f(ilius) Pal(atina) Macer / A(ulus) Castricius [A(uli) f(ilius) - - -] Modestus / P(ublius) Bruttius [P(ubli) f(ilius)] Qui(rina) Rufus / T(itus) Stat[ilius Ta]uri l(ibertus) Eros / L(ucius) Licinius Iustus / T(itus) Statilius [Taur]i l(ibertus) Faustus / C(aius) [- - -] Rex / T(itus) Statilius Tauri l(ibertus) Festus / Sex(tus) Aemilius Primus // Antiochus Athena[i]dis / Androcles Athena[i]dis / Saturus Caphisiae / Pammenus Chrysermi / L(ucius) Ambasius M[od]estus / L(ucius) Marius Grecinus / St(atius) Vallius Faustus / L(ucius) Ambasius Ilus / Exacestus Myrtonis // Sex(to) Appuleio Sex(to) Pompeio co(n)s(ulibus) / pr(idie) Idus Decembres dedicata
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>St</abbr><ex>atius</ex></expan> Vallius <expan><abbr>St</abbr><ex>ati</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Lem</abbr><ex>onia</ex></expan> Rufus <lb n="2"/><expan><abbr>Cn</abbr><ex>aeus</ex></expan> Castricius <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Pal</abbr><ex>atina</ex></expan> Macer <lb n="3"/><expan><abbr>A</abbr><ex>ulus</ex></expan> Castricius <supplied reason="lost"><expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> Modestus <lb n="4"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Bruttius <supplied reason="lost"><expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <expan><abbr>Qui</abbr><ex>rina</ex></expan> Rufus <lb n="5"/><expan><abbr>T</abbr><ex>itus</ex></expan> Stat<supplied reason="lost">ilius Ta</supplied>uri <expan><abbr>l</abbr><ex>ibertus</ex></expan> Eros <lb n="6"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Licinius Iustus <lb n="7"/><expan><abbr>T</abbr><ex>itus</ex></expan> Statilius <supplied reason="lost">Taur</supplied>i <expan><abbr>l</abbr><ex>ibertus</ex></expan> Faustus <lb n="8"/><expan><abbr>C</abbr><ex>aius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> Rex <lb n="9"/><expan><abbr>T</abbr><ex>itus</ex></expan> Statilius Tauri <expan><abbr>l</abbr><ex>ibertus</ex></expan> Festus <lb n="10"/><expan><abbr>Sex</abbr><ex>tus</ex></expan> Aemilius Primus </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Antiochus Athena<supplied reason="lost">i</supplied>dis <lb n="2"/>Androcles Athena<supplied reason="lost">i</supplied>dis <lb n="3"/>Saturus Caphisiae <lb n="4"/>Pammenus Chrysermi <lb n="5"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Ambasius M<supplied reason="lost">od</supplied>estus <lb n="6"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Marius Grecinus <lb n="7"/><expan><abbr>St</abbr><ex>atius</ex></expan> Vallius Faustus <lb n="8"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Ambasius Ilus <lb n="9"/>Exacestus Myrtonis </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>Sex</abbr><ex>to</ex></expan> Appuleio <expan><abbr>Sex</abbr><ex>to</ex></expan> Pompeio co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="2"/><expan><abbr>pr</abbr><ex>idie</ex></expan> Idus Decembres dedicata
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Abweichende Lesung der Z. 6.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD043312</idno>
+                <idno type="TM">192202</idno><idno type="localID">HD043312</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+                                    <rs type="hederae">HEDERAE</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName ref="http://www.trismegistos.org/place/029933">Abrittus</placeName></origPlace>
+                            <origDate notBefore-custom="0138" notAfter-custom="0161" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">138 AD – 161 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1893">1893</date>
+                        <placeName ref="http://www.geonames.org/727696">Razgrad</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Razgrad</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2016-06-01" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 2006, 1209. 
+                    </bibl>
+                    <bibl>
+                         P. Weiß, Chiron 36, 2006, 361-367, Nr. 2. - AE 2006. 
+                    </bibl>
+                    <bibl>
+                         CIL 03, 13727. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) I 278. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(eratore) Caesare div]i Hadriani f(ilio) divi [Traiani Parthici n(epote) divi] / [Nervae pron(epote) T(ito) Ae]l(io) Hadriano Anto[nino Aug(usto) Pio pont(ifice) max(imo)] / [trib(unicia) pot(estate) - - - p]er Iulium Crass[ipedem leg(atum) Aug(usti) pr(o) pr(aetore)] / [- - -] fecit cui prae[est - - -] / [- - -]anus [- - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> Caesare div</supplied>i Hadriani <expan><abbr>f</abbr><ex>ilio</ex></expan> divi <supplied reason="lost">Traiani Parthici <expan><abbr>n</abbr><ex>epote</ex></expan> divi</supplied> <lb n="2"/><supplied reason="lost">Nervae <expan><abbr>pron</abbr><ex>epote</ex></expan> <expan><abbr>T</abbr><ex>ito</ex></expan> Ae</supplied><expan><abbr>l</abbr><ex>io</ex></expan> Hadriano Anto<supplied reason="lost">nino <expan><abbr>Aug</abbr><ex>usto</ex></expan> Pio <expan><abbr>pont</abbr><ex>ifice</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan></supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> p</supplied>er Iulium Crass<supplied reason="lost">ipedem <expan><abbr>leg</abbr><ex>atum</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> fecit cui prae<supplied reason="lost">est</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>anus <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Hederae als Worttrenner. Ergänzungen nach Weiß.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

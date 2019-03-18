@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD024090</idno>
+                <idno type="TM">200355</idno><idno type="localID">HD024090</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/015771">Africa Proconsularis</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0301" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 600 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Aïn-Zara</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/ly/">Libyen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2012-06-20" who="Bodard">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1933, 0220. 
+                    </bibl>
+                    <bibl>
+                         IRT 261. 
+                    </bibl>
+                    <bibl>
+                         AE 1937, p. 6 a. n. 1. 
+                    </bibl>
+                    <bibl>
+                         AE 1937, p. 69 s. n. 176. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [In] (h)ok(!) tumulo iaket(!) korpus b(o)n(ae) m(emoriae) RV[- - - pectore? ca]/rus(?) qui per gladium indomitem(!) okisum(!) bixit(!) in pake(!) plus minus / annos XXV rekessit(!) de (h)ok(!) s(a)ekulo(!) sub die VI m(ensis) Dekember(!) indictio(ne) / XIII amen
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">In</supplied> <expan><ex>h</ex><abbr>ok</abbr></expan> <note>sic</note> tumulo iaket <note>sic</note> korpus b<expan><ex>o</ex><abbr>n</abbr><ex>ae</ex></expan> <expan><abbr>m</abbr><ex>emoriae</ex></expan> RV<supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> pectore<certainty locus="name" match="preceding-sibling::text()" cert="low"/> ca</supplied><lb break="no" n="2"/><expan><abbr>rus</abbr><ex cert="low"/></expan> qui per gladium indomitem <note>sic</note> okisum <note>sic</note> bixit <note>sic</note> in pake <note>sic</note> plus minus <lb n="3"/>annos XXV rekessit <note>sic</note> de <expan><ex>h</ex><abbr>ok</abbr></expan> <note>sic</note> s<expan><ex>a</ex><abbr>ekulo</abbr></expan> <note>sic</note> sub die VI <expan><abbr>m</abbr><ex>ensis</ex></expan> Dekember <note>sic</note> <expan><abbr>indictio</abbr><ex>ne</ex></expan> <lb n="4"/>XIII amen
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD017465</idno>
+                <idno type="TM">204999</idno><idno type="localID">HD017465</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-66</height>
+                                        <width>-34</width>
+                                        <depth>-18</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003344">Numidia</placeName><placeName ref="http://www.trismegistos.org/place/018251">Thamugadi</placeName></origPlace>
+                            <origDate notBefore-custom="0140" notAfter-custom="0141" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">140 AD – 141 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1940">1940</date>
+                        <placeName ref="http://www.geonames.org/2476409">Timgad</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Batna</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/dz/">Algerien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-08-29" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1954, 0150. 
+                    </bibl>
+                    <bibl>
+                         B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 147, Nr. 27h. 
+                    </bibl>
+                    <bibl>
+                         H. Doisy, MEFR 65, 1953, 118-119, Nr. 17; Zeichnung. - AE 1954. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) C 183. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(eratori) Caes(ari) T(ito) Aelio Hadriano] / [Antonino Aug(usto) Pio divi Hadriani] / [fil(io) divi Traiani Part(hici) nepoti divi Nervae] / pr[o]nepot[i pontif(ici) max(imo) trib(unicia) pot(estate) - - - co(n)s(uli) III p(atri) p(atriae)] / T(itus) C[a]eserni[us Statianus leg(atus) Aug(usti) pr(o) pr(aetore) co(n)s(ul)] / d[esi]g(natus) patr[onus coloniae dedicavit d(ecreto) d(ecurionum) p(ecunia) p(ublica)]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>T</abbr><ex>ito</ex></expan> Aelio Hadriano</supplied> <lb n="2"/><supplied reason="lost">Antonino <expan><abbr>Aug</abbr><ex>usto</ex></expan> Pio divi Hadriani</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>fil</abbr><ex>io</ex></expan> divi Traiani <expan><abbr>Part</abbr><ex>hici</ex></expan> nepoti divi Nervae</supplied> <lb n="4"/>pr<supplied reason="lost">o</supplied>nepot<supplied reason="lost">i <expan><abbr>pontif</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> III <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="5"/><expan><abbr>T</abbr><ex>itus</ex></expan> C<supplied reason="lost">a</supplied>eserni<supplied reason="lost">us Statianus <expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></supplied> <lb n="6"/><expan><abbr>d<supplied reason="lost">esi</supplied>g</abbr><ex>natus</ex></expan> patr<supplied reason="lost">onus coloniae dedicavit <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>p</abbr><ex>ublica</ex></expan></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> 3 Fragmente, davon 2 aneinanderpassend (b und c). Fundjahr: 1940 (Fragment b u. c); 1941 (Fragment a). Maße beziehen sich auf Fragment a; Fragment b: (33) x (53) x (17) cm; Fragment c: (42,5) x (71) x (7) cm.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

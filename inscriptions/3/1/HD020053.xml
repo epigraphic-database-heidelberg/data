@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Block</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD020053</idno>
+                <idno type="TM">250256</idno><idno type="localID">HD020053</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-65</height>
+                                        <width>-93</width>
+                                        <depth>25</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/033152">Latium et Campania (Regio I)</placeName><placeName ref="http://www.trismegistos.org/place/032416">Casilinum</placeName></origPlace>
+                            <origDate notBefore-custom="-0108" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">108 BC
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Capua</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Campania</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-03-13" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1958, 0266a. 
+                    </bibl>
+                    <bibl>
+                         A. de Franciscis, in: Studi in onore di Aristide Calderini e Roberto Paribeni 3 (Milano 1956) 354. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [L(ucius) Iuve]ntius L(uci) f(ilius) Ruf(us) L(ucius) Quinctius L(uci) f(ilius) Ge[la] / [C(aius) Ti]ttius C(ai) f(ilius) C(aius) Helvius N(umeri) f(ilius) / [L(ucius)] Helvius L(uci) f(ilius) C(aius) Helvius N(umeri) f(ilius) Gero / P(ublius) Plinius M(arci) f(ilius) [Q(uintus)] Matuius Q(uinti) f(ilius) / C(aius) Paccius Cn(aei) f(ilius) M(arcus) Mamius M(ani) f(ilius) / [C(aius) S]attius C(ai) f(ilius) [P(ublius)] Statius P(ubli) f(ilius) Stag(- - -) / [hei]sce magistrei Iov[ei] O[p]tumo / Maxsumo(!) [mu]r[um] coniun[gendum] / [et peilam faciendam et t(h)eatrum] / [terra exaggerandum locavere] / [eidemque luudos! fecere] / [Ser(vio) Sulpicio Ser(vi) f(ilio) Galba co(n)s(ule)]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan> Iuve</supplied>ntius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Ruf</abbr><ex>us</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> Quinctius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Ge<supplied reason="lost">la</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>C</abbr><ex>aius</ex></expan> Ti</supplied>ttius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>C</abbr><ex>aius</ex></expan> Helvius <expan><abbr>N</abbr><ex>umeri</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="3"/><supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan></supplied> Helvius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>C</abbr><ex>aius</ex></expan> Helvius <expan><abbr>N</abbr><ex>umeri</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Gero <lb n="4"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Plinius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <supplied reason="lost"><expan><abbr>Q</abbr><ex>uintus</ex></expan></supplied> Matuius <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="5"/><expan><abbr>C</abbr><ex>aius</ex></expan> Paccius <expan><abbr>Cn</abbr><ex>aei</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> Mamius <expan><abbr>M</abbr><ex>ani</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="6"/><supplied reason="lost"><expan><abbr>C</abbr><ex>aius</ex></expan> S</supplied>attius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <supplied reason="lost"><expan><abbr>P</abbr><ex>ublius</ex></expan></supplied> Statius <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <abbr>Stag</abbr> <lb n="7"/><supplied reason="lost">hei</supplied>sce magistrei Iov<supplied reason="lost">ei</supplied> O<supplied reason="lost">p</supplied>tumo <lb n="8"/>Maxsumo <note>sic</note> <supplied reason="lost">mu</supplied>r<supplied reason="lost">um</supplied> coniun<supplied reason="lost">gendum</supplied> <lb n="9"/><supplied reason="lost">et peilam faciendam et <expan><abbr>t</abbr><ex>h</ex>eatrum</expan></supplied> <lb n="10"/><supplied reason="lost">terra exaggerandum locavere</supplied> <lb n="11"/><supplied reason="lost">eidemque luudos! fecere</supplied> <lb n="12"/><supplied reason="lost"><expan><abbr>Ser</abbr><ex>vio</ex></expan> Sulpicio <expan><abbr>Ser</abbr><ex>vi</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Galba <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Ergänzung der Z. 9-12 und die daraus folgende Datierung nach AE 1952, 55.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

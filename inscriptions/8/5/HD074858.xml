@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD074858</idno>
+                <idno type="TM"/><idno type="localID">HD074858</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bratislava, Slov. Nár. Múz.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-45</height>
+                                        <width>-60</width>
+                                        <depth>45</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution">eingemeiÃ&#x9f;elt (mit Farbresten)</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">Barbaricum</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0205" notAfter-custom="0208" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">205 AD – 208 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1982">1982</date>
+                        <placeName ref="http://www.geonames.org/3061071">Bíňa</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Nitriansky kraj</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/sk/">Slowakei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-06-07" who="osnabrügge">
+             überprüft an Zeichnung
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        R. Hošek, Tituli Latini Pannoniae superioris annis 1967-1982 in Slovacia reperti (Praha 1985) 91-92, Abb. 55 (Zeichnung). (B) 
+                    </bibl>
+                    <bibl>
+                         F.Ž. Matyasowszky, Antické nápisné pamiatky na území Slovenska (Nitra 2003) 83, Nr. 1; Zeichnung. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                - - - - - -] / [v(otum) s(olvit)] l(ibens) l(aetus) [m(erito) Imp(eratore)] / Antonin(o) Au[gu(sto) II?] / et [[[Getae Caes(aris)]]] / co(n)s(ulibus)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan></supplied> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>erito</ex></expan> <expan><abbr>Imp</abbr><ex>eratore</ex></expan></supplied> <lb n="2"/><expan><abbr>Antonin</abbr><ex>o</ex></expan> Au<supplied reason="lost" cert="low">gu(sto) II</supplied> <lb n="3"/>et <del rend="erasure">[Getae <expan><abbr>Caes</abbr><ex>aris</ex></expan></del>] <lb n="4"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Reste von roter Farbe in den Buchstaben. Unterer Teil eines Altars. Hošek, dessen Lesung und Interpretation von Matyasowszky übernommen wurde, liest in Z. 4 das erste E als ET-Ligatur und ergänzt daher den eradierten Namen zu 'T. [[[Fl(avio) Novio Ru]]]/ [[[fo]]]', der Konsul des Jahres 219 gewesen sei. Eponymer Konsul 219 war Tineius Sacerdos (PIR (2. Aufl.) T 229); zu ergänzen wäre bei einer Datierung ins Jahr 219 etwa T[[[ineio Sacerdote]]], eine damnatio memoriae ist bei diesem jedoch nicht bekannt. Datierung: 205 (Antonino Augusto II et Getae) oder 208 (Antonino Augusto III et Getae II). Datierung nach Hošek: 219.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

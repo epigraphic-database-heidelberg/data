@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD068238</idno>
+                <idno type="TM">408738</idno><idno type="localID">HD068238</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>35</height>
+                                        <width>40</width>
+                                        <depth>15</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution">eingemeiÃ&#x9f;elt (mit Farbresten)</rs>
+
+                                    <rs type="guidelines">GUIDELINES</rs>
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016532">Pannonia superior</placeName><placeName ref="http://www.trismegistos.org/place/016521">Carnuntum</placeName></origPlace>
+                            <origDate notBefore-custom="0073" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">73 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1881">1881</date>
+                        <placeName ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Niederösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2017-05-31" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://cil-old.bbaw.de/test06/bilder/datenbank/PH0000132.jpg">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 11195. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) V 73. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) E 18. 
+                    </bibl>
+                    <bibl>
+                         J. Fitz, Die Verwaltung Pannoniens in der Römerzeit (Budapest 1993) 153-154, Nr. 59 u. 190-191, Nr. 83. 
+                    </bibl>
+                    <bibl>
+                         E. Vorbeck, Militärinschriften aus Carnuntum (2. Aufl. Wien 1980) 113, Nr. 326. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Imp(eratori) Vespasiano] / [Caes(ari) Aug(usto) p(ontifici) m(aximo) imp(eratori) X p(atri) p(atriae) co(n)s(uli) IV] / desi[g(nato) V] / [T(ito) Imp(eratori) Caes(ari) Au]g(usti) f(ilio) imp(eratori) IV c[o(n)s(uli) II] / [desig(nato)] III / [Domitiano] Caes(ari) Aug(usti) f(ilio) c[o(n)s(uli) II] / [C(aio) Calpetano] Rantio Quir[inale] / [Valerio Fest]o leg(ato) Aug(usti) pr(o) p[r(aetore)] / [Q(uinto) Egnatio Cato leg(ato) leg(ionis) XV Apollinaris]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> Vespasiano</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> <expan><abbr>imp</abbr><ex>eratori</ex></expan> X <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> IV</supplied> <lb n="3"/>desi<supplied reason="lost"><expan><abbr>g</abbr><ex>nato</ex></expan> V</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>T</abbr><ex>ito</ex></expan> <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> Au</supplied><expan><abbr>g</abbr><ex>usti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>imp</abbr><ex>eratori</ex></expan> IV c<supplied reason="lost"><expan><abbr>o</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II</supplied> <lb n="5"/><supplied reason="lost"><expan><abbr>desig</abbr><ex>nato</ex></expan></supplied> III <lb n="6"/><supplied reason="lost">Domitiano</supplied> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> c<supplied reason="lost"><expan><abbr>o</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II</supplied> <lb n="7"/><supplied reason="lost"><expan><abbr>C</abbr><ex>aio</ex></expan> Calpetano</supplied> Rantio Quir<supplied reason="lost">inale</supplied> <lb n="8"/><supplied reason="lost">Valerio Fest</supplied>o <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> p<supplied reason="lost"><expan><abbr>r</abbr><ex>aetore</ex></expan></supplied> <lb n="9"/><supplied reason="lost"><expan><abbr>Q</abbr><ex>uinto</ex></expan> Egnatio Cato <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XV Apollinaris</supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Fragment der rechten Hälfte des Inschriftfeldes einer Bauinschrift des Legionslagers (weitere identische Exemplare der gleichen Bauinschrift: http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD068237 u. http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD068239 ). Inschriftfeld in Form einer tabula ansata. Reste von roter Farbe in den Buchstaben. Bei Vorbeck keine Wiedergabe der Inschrift. Es ist unklar, auf welche der Inschriften CIL 03, 11195 u. 11196 sowie Hild, Supplementum Epigraphicum zu CIL III. Das pannonische Niederösterreich, Burgenland und Wien 1902-1968 (Wien 1968) 4-5, Nr. 5 sich der Eintrag bei Vorbeck bezieht.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

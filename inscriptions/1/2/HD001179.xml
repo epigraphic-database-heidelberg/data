@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001179</idno>
+                <idno type="TM">175877</idno><idno type="localID">HD001179</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar?</objectType>
+                                    <material>Marmor, geädert / farbig</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-44</height>
+                                        <width>83</width>
+                                        <depth>83</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">2.9-4</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/002496">Asia</placeName><placeName>Ephesus</placeName></origPlace>
+                            <origDate notBefore-custom="0218" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">218 AD – 300 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1969">1969</date>
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/">Izmir</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/tr/">Türkei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-08-12" who="Feraudi">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1982, 0864. 
+                    </bibl>
+                    <bibl>
+                         W. Eck, ZPE 42, 1981, 248-249. - AE 1982. 
+                    </bibl>
+                    <bibl>
+                         AE 1972, 0595. (B) 
+                    </bibl>
+                    <bibl>
+                         H. Engelmann - D. Knibbe - R. Merkelbach (Hrsg.), Die Inschriften von Ephesos, Teil III. Inschriften griechischer Städte aus Kleinasien, Bd. 13 (Bonn 1980) Nr. 723. (B) 
+                    </bibl>
+                    <bibl>
+                         D. Knibbe, JŒAI (Beibl.) 49, 1968-1971, 83-84, Nr. 17; Abb. 41 (B). - AE 1972. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [B(onae)? F(ortunae)?] / domini n(ostri) Imp(eratoris) M(arci) Aur(eli) [[Antonini]] Pii / Felicis Aug(usti) // Cl(audio) Valerio Lysimacho / procur(atore) et praeposito / duarum vexillationum
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">B(onae)? F(ortunae)</supplied> <lb n="2"/>domini <expan><abbr>n</abbr><ex>ostri</ex></expan> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Aur</abbr><ex>eli</ex></expan> <del rend="erasure">Antonini</del> Pii <lb n="3"/>Felicis <expan><abbr>Aug</abbr><ex>usti</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Cl</abbr><ex>audio</ex></expan> Valerio Lysimacho <lb n="2"/><expan><abbr>procur</abbr><ex>atore</ex></expan> et praeposito <lb n="3"/>duarum vexillationum
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Z. 1: Eck: B F - so alle anderen - auf Abklatsch nicht erhalten; Knibbe, AE 1972: Z. 2: Domini Imp(eratoris) ... A[ntonini]; Z. 4: Cn. Datierung: Bislang wurde der zu Anfang genannte Kaiser für den gehalten, der Lysimachus das Kommando über zwei Vexillationen erteilte. Nach Eck gehören die beiden Inschriften nicht zusammen, wofür u.a. syntaktische Gründe sprechen. Außerdem stehen Z. 4ff. auf einer sekundär bearbeiteten Fläche. 1. Inschrift war wohl Elagabal gewidmet und nicht Caracalla (so Knibbe, AE 1972); Name von Caracalla in Ephesos nicht getilgt. Material: weiß-blauer Marmor.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

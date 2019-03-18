@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD034875</idno>
+                <idno type="TM">214888</idno><idno type="localID">HD034875</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Wels, Stadtmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>149</height>
+                                        <width>80</width>
+                                        <depth>58</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003230">Noricum</placeName><placeName ref="http://www.trismegistos.org/place/028261">Ovilava</placeName></origPlace>
+                            <origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD – 170 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1600">1600</date>
+                        <placeName ref="http://www.geonames.org/2761524">Wels</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Oberösterreich</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/at/">Österreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-04-10" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/9080">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 05629. 
+                    </bibl>
+                    <bibl>
+                         ILS 3231. 
+                    </bibl>
+                    <bibl>
+                         ILLPRON 1021. 
+                    </bibl>
+                    <bibl>
+                         S. Zabehlicky-Scheffenegger, in: K. Holter - W. Rieß - S. Zabehlicky-Scheffenegger, Stadtmuseum Wels. Katalog. Vorgeschichte, Römerzeit, Frühgeschichte, JbWels 22 (Wels 1981) 117, Nr. R 522. 
+                    </bibl>
+                    <bibl>
+                         A. Betz, JbWels 1954, 18, Inv.-Nr. 12018. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Apollini / Aug(usto) / in memoriam / M(arci) Modesti M(arci) f(ili) / Repentini / M(arcus) Modestius / Repentinus / pater vet(eranus) ex dec(urio) / al(ae) I Aravacorum
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                Apollini <lb n="2"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="3"/>in memoriam <lb n="4"/><expan><abbr>M</abbr><ex>arci</ex></expan> Modesti <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ili</ex></expan> <lb n="5"/>Repentini <lb n="6"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Modestius <lb n="7"/>Repentinus <lb n="8"/>pater <expan><abbr>vet</abbr><ex>eranus</ex></expan> ex <expan><abbr>dec</abbr><ex>urio</ex></expan> <lb n="9"/><expan><abbr>al</abbr><ex>ae</ex></expan> I Aravacorum
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Mittelteil eines Altars oder einer Statuenbasis.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

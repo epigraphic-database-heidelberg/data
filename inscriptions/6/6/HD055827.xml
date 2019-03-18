@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Militärdiplom auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD055827</idno>
+                <idno type="TM">217773</idno><idno type="localID">HD055827</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Xanten, LVR-Archäolog. Park Xanten / Römer-Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-5.7</height>
+                                        <width>-5.9</width>
+                                        <depth>0.2</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">0.3</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion">unbekannt</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0164-07-21" notAfter-custom="0164-07-21" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">21.7.164 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries//">unbekannt</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/91">Militärdiplom</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2013-07-31" who="gräf">
+             provisorisch bearbeitet
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        AE 1999, 1103. 
+                    </bibl>
+                    <bibl>
+                         RMD 287. 
+                    </bibl>
+                    <bibl>
+                         W. Eck - M. Roxan, in: G. Precht (Hrsg.), Grabung - Forschung - Präsentation, Xantener Berichte 8 (Xanten 1999) 347-352; Abb. 1 u. 2. - AE 1999. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(erator) Caesar Marcus Au[relius Antoninus] / Aug(ustus) Armeniacus pon[t(ifex) max(imus) trib(unicia)] / potest(ate) XVIII imp(erator) II [co(n)s(ul) III et] / Imp(erator) Caesar Lucius Aurel(ius) [Antoninus Verus Aug(ustus) Ar]/meniacus tribunic(ia) p[ot(estate) IIII imp(erator) II pro]/co(n)s(ul) co(n)s(ul) II divi Antoni[ni filii divi Hadri]/ani nepotes divi Trai[ani Parthici pro]/nepotes divi Nervae [abnepotes] / equitibus et peditibus [qui militaver(unt) in alis] / tribus quae appellant[ur II Gall(orum) et Pann(oniorum)] / et Silian(a) c(ivium) R(omanorum) et I Tungr(orum) [Frontonian(a) et coh(ortibus)] / decem et duabus I Brit[ton(um) |(milliaria) et I Britann(ica)] / equit(ata) et I Hispan(orum) [|(miliaria) & // Imp(erator) Caes(ar) Marcu[s Aurelius Antoninus Aug(ustus) Arme]niacu(s) pont(ifex) max(imus) tr[ib(unicia) pot(estate) XVIII imp(erator) II co(n)s(ul) III et] / Imp(erator) Caesar Lucius Aur[el(ius) Antoninus Verus Aug(ustus) Armeniacus trib(unicia)] / pot(estate) IIII imp(erator) II proco(n)[s(ul) co(n)s(ul) II divi Antonini filii divi] / Hadriani nepot[es divi Traiani Parthici prone]/potes divi Ne[rvae abnepotes] / equitib(us) et pediti[b(us) qui militaver(unt) in alis tribus quae] / appell(antur) II Gall(orum) et P[ann(oniorum) et Silian(a) c(ivium) R(omanorum) et I Tungr(orum) Frontonian(a)] / et coh(ortibus) XII I Brit(t)on(um) [|(miliaria) et I Britann(ica) equit(ata) et I His]/pan(orum) |(miliaria) et I Batav(orum) |(miliaria) [et I Ael(ia) Gaesat(orum) et II Nerv(ia) Brit]/ton(um) |(miliaria) et II Britan[n(orum) |(miliaria) et I Hisp(anorum) |(miliaria) et I Canna]/nef(atium) et I(I) Hispan(orum) et [V Lingon(um) &
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar Marcus Au<supplied reason="lost">relius Antoninus</supplied> <lb n="2"/><expan><abbr>Aug</abbr><ex>ustus</ex></expan> Armeniacus pon<supplied reason="lost"><expan><abbr>t</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan></supplied> <lb n="3"/><expan><abbr>potest</abbr><ex>ate</ex></expan> XVIII <expan><abbr>imp</abbr><ex>erator</ex></expan> II <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III et</supplied> <lb n="4"/><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar Lucius <expan><abbr>Aurel</abbr><ex>ius</ex></expan> <supplied reason="lost">Antoninus Verus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Ar</supplied><lb break="no" n="5"/>meniacus <expan><abbr>tribunic</abbr><ex>ia</ex></expan> p<supplied reason="lost"><expan><abbr>ot</abbr><ex>estate</ex></expan> IIII <expan><abbr>imp</abbr><ex>erator</ex></expan> II pro</supplied><lb break="no" n="6"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> II divi Antoni<supplied reason="lost">ni filii divi Hadri</supplied><lb break="no" n="7"/>ani nepotes divi Trai<supplied reason="lost">ani Parthici pro</supplied><lb break="no" n="8"/>nepotes divi Nervae <supplied reason="lost">abnepotes</supplied> <lb n="9"/>equitibus et peditibus <supplied reason="lost">qui <expan><abbr>militaver</abbr><ex>unt</ex></expan> in alis</supplied> <lb n="10"/>tribus quae appellant<supplied reason="lost">ur II <expan><abbr>Gall</abbr><ex>orum</ex></expan> et <expan><abbr>Pann</abbr><ex>oniorum</ex></expan></supplied> <lb n="11"/>et <expan><abbr>Silian</abbr><ex>a</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I <expan><abbr>Tungr</abbr><ex>orum</ex></expan> <supplied reason="lost"><expan><abbr>Frontonian</abbr><ex>a</ex></expan> et <expan><abbr>coh</abbr><ex>ortibus</ex></expan></supplied> <lb n="12"/>decem et duabus I Brit<supplied reason="lost"><expan><abbr>ton</abbr><ex>um</ex></expan> |(milliaria) et I <expan><abbr>Britann</abbr><ex>ica</ex></expan></supplied> <lb n="13"/><expan><abbr>equit</abbr><ex>ata</ex></expan> et I <expan><abbr>Hispan</abbr><ex>orum</ex></expan> [|(miliaria) &amp; </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> Marcu<supplied reason="lost">s Aurelius Antoninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Arme</supplied><expan><abbr>niacu</abbr><ex>s</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> tr<supplied reason="lost"><expan><abbr>ib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XVIII <expan><abbr>imp</abbr><ex>erator</ex></expan> II <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III et</supplied> <lb n="2"/><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar Lucius Aur<supplied reason="lost"><expan><abbr>el</abbr><ex>ius</ex></expan> Antoninus Verus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Armeniacus <expan><abbr>trib</abbr><ex>unicia</ex></expan></supplied> <lb n="3"/><expan><abbr>pot</abbr><ex>estate</ex></expan> IIII <expan><abbr>imp</abbr><ex>erator</ex></expan> II <expan><abbr>proco</abbr><ex>n</ex></expan><supplied reason="lost"><expan><abbr>s</abbr><ex>ul</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> II divi Antonini filii divi</supplied> <lb n="4"/>Hadriani nepot<supplied reason="lost">es divi Traiani Parthici prone</supplied><lb break="no" n="5"/>potes divi Ne<supplied reason="lost">rvae abnepotes</supplied> <lb n="6"/><expan><abbr>equitib</abbr><ex>us</ex></expan> et pediti<supplied reason="lost"><expan><abbr>b</abbr><ex>us</ex></expan> qui <expan><abbr>militaver</abbr><ex>unt</ex></expan> in alis tribus quae</supplied> <lb n="7"/><expan><abbr>appell</abbr><ex>antur</ex></expan> II <expan><abbr>Gall</abbr><ex>orum</ex></expan> et P<supplied reason="lost"><expan><abbr>ann</abbr><ex>oniorum</ex></expan> et <expan><abbr>Silian</abbr><ex>a</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I <expan><abbr>Tungr</abbr><ex>orum</ex></expan> <expan><abbr>Frontonian</abbr><ex>a</ex></expan></supplied> <lb n="8"/>et <expan><abbr>coh</abbr><ex>ortibus</ex></expan> XII I Brit<expan><ex>t</ex><abbr>on</abbr><ex>um</ex></expan> <supplied reason="lost">|(miliaria) et I <expan><abbr>Britann</abbr><ex>ica</ex></expan> <expan><abbr>equit</abbr><ex>ata</ex></expan> et I His</supplied><lb break="no" n="9"/><expan><abbr>pan</abbr><ex>orum</ex></expan> |(miliaria) et I <expan><abbr>Batav</abbr><ex>orum</ex></expan> |(miliaria) <supplied reason="lost">et I <expan><abbr>Ael</abbr><ex>ia</ex></expan> <expan><abbr>Gaesat</abbr><ex>orum</ex></expan> et II <expan><abbr>Nerv</abbr><ex>ia</ex></expan> Brit</supplied><lb break="no" n="10"/><expan><abbr>ton</abbr><ex>um</ex></expan> |(miliaria) et II Britan<supplied reason="lost"><expan><abbr>n</abbr><ex>orum</ex></expan> |(miliaria) et I <expan><abbr>Hisp</abbr><ex>anorum</ex></expan> |(miliaria) et I Canna</supplied><lb break="no" n="11"/><expan><abbr>nef</abbr><ex>atium</ex></expan> et <expan><abbr>I</abbr><ex>I</ex></expan> <expan><abbr>Hispan</abbr><ex>orum</ex></expan> et [V <expan><abbr>Lingon</abbr><ex>um</ex></expan> &amp;
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Fragment der tab. I.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

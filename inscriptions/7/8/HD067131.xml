@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meilen-/Leugenstein</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD067131</idno>
+                <idno type="TM">402705</idno><idno type="localID">HD067131</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Rasen-Antholz / Rasun Anterselva, Niederrasen / Rasun di Sotto, Pfarrwidum</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugenstein</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/51">Quarzit</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>110</height>
+                                        <width>40</width>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003230">Noricum</placeName><placeName ref="http://www.trismegistos.org/place/014134">Aguntum, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0195" notAfter-custom="0213" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">195 AD – 213 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1723">1723</date>
+                        <placeName ref="http://www.geonames.org/6535938">Olang / Valdaora - Rasen-Antholz / Rasun Anterselva, zwischen</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Trentino-Südtirol / Trentino-Alto Adige</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/102">Meilen-/Leugenstein</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-08-25" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 03, 05707. 
+                    </bibl>
+                    <bibl>
+                         CIL 17, 04, 00167. 
+                    </bibl>
+                    <bibl>
+                         ILLPRON 1572. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Imp(eratori) Caes(ari) / [- - -]tim[- - -] Aug(usti?) / [- - -] Sever[- - -] / [- - -]AB[- - -]SANB / [- - - Aug(usto?) - - -] / [- - -]TA[- -]PO[- - -] / [- - -] prin[-] opt[- - -] / [- - - - - -] / [- - - - - -] / [- - - - - -] / [- - -] XLXI
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>tim<gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Aug</abbr><ex cert="low">usti</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> Sever<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>AB<gap reason="lost" extent="unknown" unit="character"/>SANB <lb n="5"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Aug</abbr><ex cert="low">usto</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>TA<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>PO<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> prin<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> opt<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> XLXI
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Wahrscheinlich ist der genannte Kaiser Septimius Severus. Die Inschrift ist heute nicht erkennbar. Zu den verschiedenen Abschriften s. CIL 17, 04, 00167. Textwiedergabe hier nach Variante b von Roschmann in CIL 17, 04, 00167 (= ILLPRON 1572).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Stele</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD030437</idno>
+                <idno type="TM">222457</idno><idno type="localID">HD030437</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/"/>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/025443">Baetica</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0031" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD – 100 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Los Santos</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/es/">Spanien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="1999-12-13" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 02 (2. Aufl.) 05, 00617. 
+                    </bibl>
+                    <bibl>
+                         CIL 02, 01630. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                In fronte p(edes) XVIII / in agro p(edes) XXXVI / M(arcus) Fuficius M(arci) l(ibertus) / Quietus Aug(ustalis) col(oniae) / Aug(ustae) Fir(mae) an(norum) LXI / M(arcus) Fuficius M(arci) l(ibertus) Lybicus / Aug(ustalis) col(oniae) Aug(ustae) Fir(mae) / Fuficia M(arci) l(iberta) Maurilla uxor / Fuficia C[- - -]IN[- - -]MA / [loc(us) q(uo)]q(uo) v(ersus) p(edes) XXXV
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                In fronte <expan><abbr>p</abbr><ex>edes</ex></expan> XVIII <lb n="2"/>in agro <expan><abbr>p</abbr><ex>edes</ex></expan> XXXVI <lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Fuficius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> <lb n="4"/>Quietus <expan><abbr>Aug</abbr><ex>ustalis</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <lb n="5"/><expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>Fir</abbr><ex>mae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> LXI <lb n="6"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Fuficius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> Lybicus <lb n="7"/><expan><abbr>Aug</abbr><ex>ustalis</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>Fir</abbr><ex>mae</ex></expan> <lb n="8"/>Fuficia <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> Maurilla uxor <lb n="9"/>Fuficia C<gap reason="lost" extent="unknown" unit="character"/>IN<gap reason="lost" extent="unknown" unit="character"/>MA <lb n="10"/><supplied reason="lost"><expan><abbr>loc</abbr><ex>us</ex></expan> <expan><abbr>q</abbr><ex>uo</ex></expan></supplied><expan><abbr>q</abbr><ex>uo</ex></expan> <expan><abbr>v</abbr><ex>ersus</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> XXXV
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Z. 1 u. 2 sind wohl älter als die übrige Inschrift.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

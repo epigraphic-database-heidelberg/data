@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD032435</idno>
+                <idno type="TM">262753</idno><idno type="localID">HD032435</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/000172">Roma</placeName><placeName ref="http://www.trismegistos.org/place/000172">Roma</placeName></origPlace>
+                            <origDate notBefore-custom="0245" notAfter-custom="0253" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">245 AD – 253 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/">Roma</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/it/">Italien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2008-01-24" who="gräf">
+             keine Bildvorlage
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 06, 41232. 
+                    </bibl>
+                    <bibl>
+                         CIL 06, 01520. 
+                    </bibl>
+                    <bibl>
+                         ILS 1189. 
+                    </bibl>
+                    <bibl>
+                         PIR S 529. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) S 748. 
+                    </bibl>
+                    <bibl>
+                         I. Piso, Fasti provinciae Daciae 1. Die senatorischen Amtsträger (Bonn 1993) 203-207, Nr. 46, 8. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Dis Manibus](?) / [D(ecimi) S]imoni Proculi Iuliani C(larissimo) [v(iro) co(n)s(uli) praef(ecto) urbi - - -? leg(ato) Aug(usti) pr(o) pr(aetore) provinc(iarum)] / [Sy]riae Coeles Daciarum III P[onti et Bithyniae? Arabiae Thraciae - - -?] / [iur]idico per Transpadum pr[aetori - - -] / [Liber]ti(?) hii qui centum iugera agri cum [- - -] / [- - - - - -?
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">Dis Manibus</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>D</abbr><ex>ecimi</ex></expan> S</supplied>imoni Proculi Iuliani <expan><abbr>C</abbr><ex>larissimo</ex></expan> <supplied reason="lost"><expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan> urbi <gap reason="lost" extent="unknown" unit="character"/>? <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>provinc</abbr><ex>iarum</ex></expan></supplied> <lb n="3"/><supplied reason="lost">Sy</supplied>riae Coeles Daciarum III P<supplied reason="lost" cert="low">onti et Bithyniae? Arabiae Thraciae ---</supplied> <lb n="4"/><supplied reason="lost">iur</supplied>idico per Transpadum pr<supplied reason="lost">aetori</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost">Liber</supplied><expan><abbr>ti</abbr><ex cert="low"/></expan> hii qui centum iugera agri cum <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Denkmaltyp: möglicherweise auch Architrav. Das Stück ist heute verschollen. Ergänzungen nach G. Alföldy.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

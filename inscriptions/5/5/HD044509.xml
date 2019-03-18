@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weihinschrift auf Altar</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD044509</idno>
+                <idno type="TM">180230</idno><idno type="localID">HD044509</idno>
+                <availability>
+                    <p>© Heidelberg Academy of Sciences and Humanities</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Turda, Muz. Ist.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>128</height>
+                                        <width>64</width>
+                                        <depth>40</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">6.5-5</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/004366">Dacia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0195" notAfter-custom="0196" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">195 AD – 196 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            
+                        <placeName ref="http://www.geonames.org/673480">Tureni</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Cluj</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ro/">Rumänien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2014-10-22" who="gräf">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F007895">
+            <desc>F007895</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F036332">
+            <desc>F036332</desc>
+        </graphic>
+
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        ILD 533. (B) 
+                    </bibl>
+                    <bibl>
+                         I. Piso, Tyche 6, 1991, 156, Anm. 125. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                Volk(ano)(!) Aug(usto) / pro sal(ute) Imp(eratoris) / L(uci) Sep(timi) Severi / Pert(inacis) Aug(usti) et / M(arci) Aur(eli) Anton[i]/ni Caes(aris) desti[n(ati)] / colleg(ium) fabr(um) / m(unicipii) Sep(timii) P[ot(aissensis) - - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Volk</abbr><ex>ano</ex></expan> <note>sic</note> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="2"/>pro <expan><abbr>sal</abbr><ex>ute</ex></expan> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <lb n="3"/><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>Sep</abbr><ex>timi</ex></expan> Severi <lb n="4"/><expan><abbr>Pert</abbr><ex>inacis</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> et <lb n="5"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Aur</abbr><ex>eli</ex></expan> Anton<supplied reason="lost">i</supplied><lb break="no" n="6"/>ni <expan><abbr>Caes</abbr><ex>aris</ex></expan> desti<supplied reason="lost"><expan><abbr>n</abbr><ex>ati</ex></expan></supplied> <lb n="7"/><expan><abbr>colleg</abbr><ex>ium</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan> <lb n="8"/><expan><abbr>m</abbr><ex>unicipii</ex></expan> <expan><abbr>Sep</abbr><ex>timii</ex></expan> P<supplied reason="lost"><expan><abbr>ot</abbr><ex>aissensis</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): ILD: Z. 8: munic(ipii) [---].</p>
+            </div>
+        </body>
+    </text>
+</TEI>
