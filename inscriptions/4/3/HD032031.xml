@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">Basel, Hist. Mus.</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -29,12 +29,12 @@
                             <supportDesc>
                                 <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height>-22.7</height>
-                                        <width>15.5</width>
-                                        <depth/>
+                                        <height>-23</height>
+                                        <width>16</width>
+                                        <depth>8</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -51,20 +51,20 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">1.1-1.5</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Salodurum - Augusta Rauricorum, inter</placeName></origPlace>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
                             <origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 250 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
-                        <placeName ref="http://www.geonames.org/">Langenbruck, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
+                            <date when="1900">1900</date>
+                        <placeName ref="http://www.geonames.org/2660036">Langenbruck</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kanton Basel-Landschaft</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -100,11 +100,17 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2010-07-07" who="gräf">
+         <change when="2019-03-14" who="gräf">
              überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/13857">
+        </graphic>
+
+    </facsimile>
     <text>
         <body>
                        
@@ -114,7 +120,16 @@
                         AE 1902, 0142. (B) 
                     </bibl>
                     <bibl>
+                         CIL 13, 11541. (B) 
+                    </bibl>
+                    <bibl>
                          T. Burckhardt-Biedermann, ASA 3, 1901, 245-247; Fig. 133. - AE 1902. 
+                    </bibl>
+                    <bibl>
+                         G. Walser, Römische Inschriften in der Schweiz 2 (Bern 1980) 246-247, Nr. 231; Foto. 
+                    </bibl>
+                    <bibl>
+                         R. Fellmann, Das römische Basel (Basel 1981) 24. 
                     </bibl>
 
                 </listBibl>
@@ -122,15 +137,15 @@
             
             
             <!--
-                - - - - - -] / Heni[oc(h)]/us d(e) p(roprio) d(edit) / p(onendum) <c=G>(uravit?)#<c>(uravit?)#G Amo/r liber{e}/tus / v(otum) s(olvit) l(ibens) m(erito)
+                - - - - - -] / Heni[oc(h)]/us d(e) p(roprio) d(edit)(?) / p(onendum) c(uravit) Amo/r liber{e}/tus / v(otum) s(olvit) l(ibens) m(erito)
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/>Heni<supplied reason="lost"><expan><abbr>oc</abbr><ex>h</ex></expan></supplied><lb break="no" n="2"/>us <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>p</abbr><ex>roprio</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan> <lb n="3"/><expan><abbr>p</abbr><ex>onendum</ex></expan> <choice><corr>c</corr><sic>G</sic></choice>(uravit<certainty match="preceding-sibling::node()" locus="value"/>#<supplied reason="omitted">c</supplied>(uravit<certainty match="preceding-sibling::node()" locus="value"/>#G Amo<lb break="no" n="4"/>r liber<surplus>e</surplus><lb break="no" n="5"/>tus <lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/>Heni<supplied reason="lost"><expan><abbr>oc</abbr><ex>h</ex></expan></supplied><lb break="no" n="2"/>us <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>p</abbr><ex>roprio</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="3"/><expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan> Amo<lb break="no" n="4"/>r liber<surplus>e</surplus><lb break="no" n="5"/>tus <lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Gesamttiefe unbekannt; Tiefe des Mittelteils: 8,7 cm. (B): AE 1902: Z. 4/5: liber/tus.</p>
+                <p> Inschriftträger: Altar oder Basis / Statuenbasis; Tiefe des Mittelteils: 8,7 cm. (B): Burckhardt-Biedermann; AE 1902: Z. 3: &amp;lt;c=G&amp;gt;(uravit?); CIL 13, 11541: Z. 4/5: liber[-]/tus; AE 1902; Walser: Z. 4/5: liber/tus.</p>
             </div>
         </body>
     </text>
