@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>AE 1951, 0262.AE 1951.</title>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,12 +28,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height>46</height>
+                                        <width>56</width>
                                         <depth/>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
@@ -59,11 +59,11 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Augusta Rauricorum</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0031" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD – 70 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
+                            <date when="1949">1949</date>
                         <placeName ref="http://www.geonames.org/2661681">Augst</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Basel-Landschaft</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
                     </history>
                 </msDesc>
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2008-06-18" who="Feraudi">
-             provisorisch bearbeitet
+         <change when="2019-03-22" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -112,11 +112,11 @@
         <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F026012">
             <desc>F026012</desc>
         </graphic>
-        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F027350">
-            <desc>F027350</desc>
-        </graphic>
         <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F027351">
             <desc>F027351</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F027350">
+            <desc>F027350</desc>
         </graphic>
         <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F036742">
             <desc>F036742</desc>
@@ -132,10 +132,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1951, 0262. 
+                        AE 1951, 0262. (B) 
                     </bibl>
                     <bibl>
-                         H. Nesselhauf - H. Lieb, BRGK 40, 1959, 160-161, Nr. 102. - AE 1951. 
+                         H. Nesselhauf - H. Lieb, BRGK 40, 1959, 160-161, Nr. 102. 
+                    </bibl>
+                    <bibl>
+                         R. Fellmann, SP 13, 1949, 53-57; Abb. 38; Abb. 39 (Zeichnung). - AE 1951. 
                     </bibl>
 
                 </listBibl>
@@ -143,15 +146,15 @@
             
             
             <!--
-                Iullus Ad/comar[g]i Dec(i)mus / Brutti [d]e s(uo) o(rnamenta?) d(ederunt)
+                Iullus Ad/comar[g?]i Decmus / Brutti [d]e s<u?>o d(ederunt)
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Iullus Ad<lb break="no" n="2"/>comar<supplied reason="lost">g</supplied>i Dec<expan><ex>i</ex><abbr>mus</abbr></expan> <lb n="3"/>Brutti <supplied reason="lost">d</supplied>e <expan><abbr>s</abbr><ex>uo</ex></expan> <expan><abbr>o</abbr><ex cert="low">rnamenta</ex></expan> <expan><abbr>d</abbr><ex>ederunt</ex></expan>
+                Iullus Ad<lb break="no" n="2"/>comar<supplied reason="lost" cert="low">g</supplied>i Decmus <lb n="3"/>Brutti <supplied reason="lost">d</supplied>e s&lt;u<certainty match="preceding-sibling::node()" locus="value"/>&gt;o <expan><abbr>d</abbr><ex>ederunt</ex></expan>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> In zwei Teile gebrochen. Z. 2: Buchstabe D mit Querhaste in der Mitte. Datierung: nach der Stratigraphie; gefunden in Wiederverwendung für eine römische Straße in Schichten vom Ende des 1 Jh. n. Chr. (B): AE 1951: Z. 3 (Ende): S D D.</p>
             </div>
         </body>
     </text>
