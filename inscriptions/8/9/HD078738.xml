@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Platte</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD078738</idno>
+                <idno type="TM"/><idno type="localID">HD078738</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Andernach, Mus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>31</height>
+                                        <width>21</width>
+                                        <depth>6</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/026924">Antunnacum</placeName></origPlace>
+                            <origDate notBefore-custom="0501-10-29" notAfter-custom="0501-10-29" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">29.10.501 AD – 700 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date notAfter="1900">1900</date>
+                        <placeName ref="http://www.geonames.org/2956206">Andernach</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-02-01" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        H. Lehner, BJ 105, 1900, 135, Nr. 11; Taf. 16, 2. (B) 
+                    </bibl>
+                    <bibl>
+                         R. Egger, BJ 154, 1954, 149, Nr. 8; Taf. 5, 1. (B) 
+                    </bibl>
+                    <bibl>
+                         M.-P. Terrien, La christianisation de la région rhénane du IVe au milieu du VIIIe siècle. Corpus (Besançon 2007) 24. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [- - - hic re]quie[s]/cit in pace <Q=C>[u]/artinus#<Q>[u]/artinus#CARTINUS kar/us paren(ti)bus / vix[it] / in [sae]colo(!) / an[nos - - -] obi[i]t / [i]n [p]a[ce] <q=C>u[arto]#<q>u[arto]#CU / [K]alendas / [N]ove<m=N>br(es)#[N]ove<m>br(es)#OVENBR
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> hic re</supplied>quie<supplied reason="lost">s</supplied><lb break="no" n="2"/>cit in pace <choice><corr>Q</corr><sic>C</sic></choice><supplied reason="lost">u</supplied><lb break="no" n="3"/>artinus#<supplied reason="omitted">Q</supplied><supplied reason="lost">u</supplied><lb break="no" n="4"/>artinus#CARTINUS kar<lb break="no" n="5"/>us paren<expan><ex>ti</ex><abbr>bus</abbr></expan> <lb n="6"/>vix<supplied reason="lost">it</supplied> <lb n="7"/>in <supplied reason="lost">sae</supplied>colo <note>sic</note> <lb n="8"/>an<supplied reason="lost">nos</supplied><gap reason="lost" extent="unknown" unit="character"/> obi<supplied reason="lost">i</supplied>t <lb n="9"/><supplied reason="lost">i</supplied>n <supplied reason="lost">p</supplied>a<supplied reason="lost">ce</supplied> <choice><corr>q</corr><sic>C</sic></choice>u<supplied reason="lost">arto</supplied>#<supplied reason="omitted">q</supplied>u<supplied reason="lost">arto</supplied>#CU <lb n="10"/><supplied reason="lost">K</supplied>alendas <lb n="11"/><supplied reason="lost">N</supplied>ove<choice><corr>m</corr><sic>N</sic></choice><expan><abbr>br</abbr><ex>es</ex></expan>#<supplied reason="lost">N</supplied>ove<supplied reason="omitted">m</supplied><expan><abbr>br</abbr><ex>es</ex></expan>#OVENBR
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> (B): Z. 2/3: Lehne; Terrien: C/arinus; Egger: C[u/a]rtinus; Lehne: Z. 8: [pr]idi[e?]; Terrien: Z. 8: ...idi...; Z. 9: [k]alenda[s].</p>
+            </div>
+        </body>
+    </text>
+</TEI>

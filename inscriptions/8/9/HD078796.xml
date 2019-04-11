@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Tafel</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD078796</idno>
+                <idno type="TM"/><idno type="localID">HD078796</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Trier, Dom- u. Diözesanmus.</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>41</height>
+                                        <width>-27.5</width>
+                                        <depth>3.7</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">1.8-2</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/023540">Belgica</placeName><placeName ref="http://www.trismegistos.org/place/013685">Augusta Treverorum</placeName></origPlace>
+                            <origDate notBefore-custom="0671" notAfter-custom="0750" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">671 AD – 750 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1979">1979</date>
+                        <placeName ref="http://www.geonames.org/2821164">Trier</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-02-18" who="Cowey">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        H. Merten, Die frühchristlichen Inschriften aus St. Maximin bei Trier (Trier 2018) 127-129, Nr. 56; Foto. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [Hic in pace] iaces(!) pr(es)b(y)t(er) sa<c=G>ra/[tus#sa<c>ra/[tus#SAGRA in] Chri(sto) haec aula dei me / [- - -] saeculi contemtur / [- - -]s ortus membra sepul/[cr - - - a]mor in mundo si valv/[- - - ha]bere parentem sae/[- - -]erum subtraxit ami/[cum - - -]ent tantorum Ag/[- - - m]undus quem para/[- - -]ntur tempora / [- - - p]ace quie<v=B>it#quie<v>it#QUIEBIT / [- - - p]r(es)b(y)t(er) tit<u=O>lu(m)#tit<u>lu(m)#TITOLU fieri / [iussit(?)]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Hic in pace</supplied> iaces <note>sic</note> pr<expan><ex>es</ex><abbr>b</abbr><ex>y</ex><abbr>t</abbr></expan>(er) sa<choice><corr>c</corr><sic>G</sic></choice>ra<lb break="no" n="2"/>[tus#sa<supplied reason="omitted">c</supplied>ra<lb break="no" n="3"/><supplied reason="lost">tus#SAGRA in</supplied> <expan><abbr>Chri</abbr><ex>sto</ex></expan> haec aula dei me <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> saeculi contemtur <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>s ortus membra sepul<lb break="no" n="6"/><supplied reason="lost">cr <gap reason="lost" extent="unknown" unit="character"/> a</supplied>mor in mundo si valv<lb break="no" n="7"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ha</supplied>bere parentem sae<lb break="no" n="8"/><gap reason="lost" extent="unknown" unit="character"/>erum subtraxit ami<lb break="no" n="9"/><supplied reason="lost">cum</supplied><gap reason="lost" extent="unknown" unit="character"/>ent tantorum Ag<lb break="no" n="10"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">m</supplied>undus quem para<lb break="no" n="11"/><gap reason="lost" extent="unknown" unit="character"/>ntur tempora <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">p</supplied>ace quie<choice><corr>v</corr><sic>B</sic></choice>it#quie<supplied reason="omitted">v</supplied>it#QUIEBIT <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">p</supplied>r</abbr><ex>es</ex>b</expan><expan><ex>y</ex><abbr>t</abbr><ex>er</ex></expan> tit<choice><corr>u</corr><sic>O</sic></choice><expan><abbr>lu</abbr><ex>m</ex></expan>#tit<supplied reason="omitted">u</supplied><expan><abbr>lu</abbr><ex>m</ex></expan>#TITOLU fieri <lb n="14"/><supplied reason="lost"><expan><abbr>iussit</abbr><ex cert="low"/></expan></supplied>
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

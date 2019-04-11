@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grabinschrift auf Cippus</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD079132</idno>
+                <idno type="TM"/><idno type="localID">HD079132</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Saverne, Musée du Château des Rohan</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/85">Cippus</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>96</height>
+                                        <width>91</width>
+                                        <depth>45</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm"/>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/025430">Tres Tabernae, bei (Civitas Tribocorum)</placeName></origPlace>
+                            <origDate notBefore-custom="0030" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 AD – 200 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1820">1820</date>
+                        <placeName ref="http://www.geonames.org/2975588">Saverne, bei</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Grand Est</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-03-14" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 06005. (B) 
+                    </bibl>
+                    <bibl>
+                         W. Brambach, Corpus inscriptionum Rhenanarum (Elberfeld 1867) 337, Nr. 1873. (B) 
+                    </bibl>
+                    <bibl>
+                         (o. Autor), in: P. Flotté u. a., Le Bas-Rhin, Carte Archéologique de la Gaule 67, 1 (Paris 2000) 578; Abb. 509 (Zeichnung). (B) 
+                    </bibl>
+                    <bibl>
+                         F. Goubet - F. Jodry - N. Meyer - N. Weiss, Au "grès" du temps. Collections lapidaires celtes et gallo-romaines du Musée archéologique de Saverne (Saverne 2015) 308-309, Nr. 335; Foto. (B) 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                [- - - - - -] / OIIAIV[- - -] / APVIILEIVS // Camerino / Ianuario / Carasio / PITERVTT
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>OIIAIV<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>APVIILEIVS </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Camerino <lb n="2"/>Ianuario <lb n="3"/>Carasio <lb n="4"/>PITERVTT
+            </ab></div></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Zwei miteinander verbundene, hausförmige Grabmäler, das linke mit dreieckigem Giebel, das rechte mit abgeflachtem Spitzdach mit Gesims. Jeweils unten mittig halbkreisförmige Öffnung. Text 1 befindet sich in einem trapezförmigen Inschriftfeld auf der linken Hälfte, Text 2 im unteren Teil der rechten Hälfte. Text 1 laut CIL in scriptura inversa, dies ist jedoch unwahrscheinlich und beruht auf der Lesung des vierten Buchstaben von links in Zeile 2 als P, dies ist jedoch nichtzwingend, zu Beginn von Z. 3 ist jedenfalls ein A in richtiger Orientierung deutlich zu sehen. Eine zuverlässige Lesung oder oder Interpretation ist bislang nicht gelungen. Die Lesung wird durch die modern in roter Farbe nachgemalten Buchstaben erschwert. Vermutlich handelt es sich bei der Inschrift von Text 1 um eine Pseudoinschrift. (B): Text 1: Brambach: OIISV / AI VIII EI [---]; CIL 13, 06005; CAG 67, 1: Lubitiata[e]? oder Dibitiata[e]? / Apulio?; Goubet u. a.: OIIAIV / AIVIoIIIIFI. Text 2: Brambach: C ANAS RAO / MANVARIO / CAMSIO / RIHIRR VII; CIL 13, 06005: Ga...... / Ianuario / Ca[r]as[i]o / P[--]ruti (filiis?); CAG 67, 1: Camerino / Ianuario / Carasio / P[---]ruti (filiis?); Goubet u. a.: AV......R...NO / ANV A PIO / CAPISIO / PITFRVTI.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
