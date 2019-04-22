@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Architekturteil</title>
+                <title>Bau-/Stifterinschrift auf Architekturteil</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">Avenches, Mus. Romain, vermauert; Avenches, Mus. Romain, Depot</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -29,7 +29,7 @@
                             <supportDesc>
                                 <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/35">Architekturteil</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
                                         <height>68</height>
@@ -59,11 +59,11 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/028057">Aventicum</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0160" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">160 AD – 170 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
+                            <date notAfter="1852">1852</date>
                         <placeName ref="http://www.geonames.org/2661661">Avenches</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Canton de Vaud</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
                     </history>
                 </msDesc>
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift?</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2014-08-04" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2019-04-17" who="Osnabrügge">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -123,7 +123,10 @@
                          CIL 13, 05144. 
                     </bibl>
                     <bibl>
-                         S. Oelschig, Kaleidoskop der Ephigraphik. Katalog und Rekonstruktion der römischen Steininschriften von Avenches / Aventicum (Avenches 2009) 218-223, Nr. 7147; Abb. 34 (Zeichnung). - AE 2009. 
+                         R. Frei-Stolba - A. Bielmann, Musée Romain d'Avenches. Les inscriptions. Textes, traduction et commentaires (Lausanne 1996) 77-79, Nr. 20 u. 21. (B) 
+                    </bibl>
+                    <bibl>
+                         S. Oelschig, Kaleidoskop der Epigraphik. Katalog und Rekonstruktion der römischen Steininschriften von Avenches / Aventicum (Avenches 2009) 218-223, Nr. 7147; Abb. 34 (Zeichnung). (B) - AE 2009. 
                     </bibl>
                     <bibl>
                          M. Bossert - M. Fuchs, Pro Aventico 31, 1989, 55-56. 60, Nr. I 42, I 44, I 47, I 49 u. I 77. - AE 2009. 
@@ -134,15 +137,15 @@
             
             
             <!--
-                M(arco) Dunio [- f(ilio) Qui]rin[a Paterno - - -] schol[am - - -] / plurib[us - - - impend]ium rei p[ublicae r]emi[serunt -] / Q(uintus) Iulius [- - -]US[- - -] / SC[- - -]
+                M(arco) Dunio [- f(ilio) Qui]rin[a Paterno - - -] schol[am - - -] / plurib[us - - - impend]ium rei p[ublicae r]emi[serunt -] / Q(uintus) Iulius [- - -]US[- - -]PR(?)[- - -] / SC[- - -]
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <expan><abbr>M</abbr><ex>arco</ex></expan> Dunio <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/> <expan><abbr>f</abbr><ex>ilio</ex></expan> Qui</supplied>rin<supplied reason="lost">a Paterno <gap reason="lost" extent="unknown" unit="character"/></supplied> schol<supplied reason="lost">am</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>plurib<supplied reason="lost">us <gap reason="lost" extent="unknown" unit="character"/> impend</supplied>ium rei p<supplied reason="lost">ublicae r</supplied>emi<supplied reason="lost">serunt <gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="3"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Iulius <gap reason="lost" extent="unknown" unit="character"/>US<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>SC<gap reason="lost" extent="unknown" unit="character"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> Dunio <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/> <expan><abbr>f</abbr><ex>ilio</ex></expan> Qui</supplied>rin<supplied reason="lost">a Paterno <gap reason="lost" extent="unknown" unit="character"/></supplied> schol<supplied reason="lost">am</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>plurib<supplied reason="lost">us <gap reason="lost" extent="unknown" unit="character"/> impend</supplied>ium rei p<supplied reason="lost">ublicae r</supplied>emi<supplied reason="lost">serunt <gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="3"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Iulius <gap reason="lost" extent="unknown" unit="character"/>US<gap reason="lost" extent="unknown" unit="character"/><expan><abbr>PR</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>SC<gap reason="lost" extent="unknown" unit="character"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Mehrere, teils aneinanderpassende Fragmente eines Architravs. Maße beziehen sich auf die Rekonstruktion.</p>
+                <p> Mehrere, teils aneinanderpassende Fragmente eines aus mehreren Inschriftträgern bestehenden Architravs. Maße beziehen sich auf die Rekonstruktion. CIL 13; Frei-Stolba - Bielmann: Teilwiedergabe einiger Fragmente der Inschrift. Frei-Stolba - Bielmann Nr. 20 = CIL 13, 05114; Nr. 21 = CIL 13, 05101. Nach Oelschig gehören noch weitere Fragmente aufgrund ihrer Maße möglicherweise zu der Inschrift: https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD079720; https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD079721; https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD079723; https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD079724; https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD079725. (B): Oelschig; Z. 2: [inpend]ium; Frei-Stolba - Bielmann, Nr. 20; Z. 2: [---]um rei p[ublicae ---]; Nr. 21; Z. 1: ---]rnd [---].</p>
             </div>
         </body>
     </text>
