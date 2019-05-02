@@ -52,7 +52,7 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">2</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -60,11 +60,11 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum</placeName></origPlace>
-                            <origDate notBefore-custom="0601" notAfter-custom="0700" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">601 AD – 700 AD
+                            <origDate notBefore-custom="0651" notAfter-custom="0700" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">651 AD – 700 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
+                            <date when="1907">1907</date>
                         <placeName ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
@@ -101,11 +101,18 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2018-11-21" who="Gräf">
-             überprüft an Zeichnung
+         <change when="2019-04-26" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F016091">
+            <desc>F016091</desc>
+        </graphic>
+
+
+    </facsimile>
     <text>
         <body>
                        
@@ -123,21 +130,24 @@
                     <bibl>
                          K. Körber, KWDZ 26, 1907, 105-106, Nr. 2. (B) - AE 1907. 
                     </bibl>
+                    <bibl>
+                         C. Kessel, MZ 113, 2018, 32-33, Nr. 10; Abb. 19. (B) 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                In (h)unc(!) tum/ulo (r)equiisci/[t](!) bene(!) memo/rio(!) Gaereho/ldus qui vix/[it] in pace a[n(nos)] / [- - - - - -
+                In (h)unc(!) tum/ulo (r)equiiscit(!) / bene(!) memo/rio(!) Gaereho/ldus qui vix/[it] in pace a[n(nos)] / [- - - - - -
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                In <expan><ex>h</ex><abbr>unc</abbr></expan> <note>sic</note> tum<lb break="no" n="2"/>ulo <expan><ex>r</ex><abbr>equiisci</abbr></expan><lb break="no" n="3"/><supplied reason="lost">t</supplied> <note>sic</note> bene <note>sic</note> memo<lb break="no" n="4"/>rio <note>sic</note> Gaereho<lb break="no" n="5"/>ldus qui vix<lb break="no" n="6"/><supplied reason="lost">it</supplied> in pace a<supplied reason="lost"><expan><abbr>n</abbr><ex>nos</ex></expan></supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                In <expan><ex>h</ex><abbr>unc</abbr></expan> <note>sic</note> tum<lb break="no" n="2"/>ulo <expan><ex>r</ex><abbr>equiiscit</abbr></expan> <note>sic</note> <lb n="3"/>bene <note>sic</note> memo<lb break="no" n="4"/>rio <note>sic</note> Gaereho<lb break="no" n="5"/>ldus qui vix<lb break="no" n="6"/><supplied reason="lost">it</supplied> in pace a<supplied reason="lost"><expan><abbr>n</abbr><ex>nos</ex></expan></supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Kreuzzeichen am Anfang von Z. 1. (B): Körber; AE 1907: Z. 2: (r)equiisc(i)t; ILCV: Z. 2: &amp;lt;r&amp;gt;equiiscit; Boppert: Z. 2/3: (r)equiisci/t; ILCV: Z. 3/4: benemo/rio; Körber: Z. 4/5: Gareho/[l?]dus; AE 1907: Z. 4/5: Gareho/[l]dus; Boppert: Z. 6 (Ende): pace.</p>
+                <p> Paläographie: Vorkarolingische Kapitalis II. Kreuzzeichen am Anfang von Z. 1. (B): Kessel: Z. 1: i[n]; Körber; AE 1907: Z. 2: (r)equiisc(i)t; Boppert: Z. 2/3: (r)equiisci/t; ILCV: Z. 3/4: benemo/rio; Kessel: Z. 3/4: memo/[r]io; Körber: Z. 4/5: Gareho/[l?]dus; AE 1907; Kessel: Z. 4/5: Gareho/[l]dus; Boppert: Z. 6 (Ende): pace.</p>
             </div>
         </body>
     </text>
