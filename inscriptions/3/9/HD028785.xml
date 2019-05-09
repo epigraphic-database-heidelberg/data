@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ziegel</title>
+                <title>Besitzer-/Herstellerinschrift auf Ziegel</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 200 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/311">Besitzer-/Herstellerinschrift?</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2016-03-08" who="Cowey">
-             provisorisch bearbeitet
+         <change when="2019-04-30" who="Cowey">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,10 +111,19 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1911, 0077. 
+                        CIL 07, 01238. (B) 
                     </bibl>
                     <bibl>
-                         RIB 2490, 6(i). 
+                         AE 1911, 0077. (B) 
+                    </bibl>
+                    <bibl>
+                         F. Haverfield, PSA 23, 1909-1911, 109-112. - AE 1911. (B) 
+                    </bibl>
+                    <bibl>
+                         EphEp 9, p. 652 n. 1289; Foto. (B) 
+                    </bibl>
+                    <bibl>
+                         RIB 2490, 6(i-vii), Zeichnungen. 
                     </bibl>
 
                 </listBibl>
@@ -122,15 +131,15 @@
             
             
             <!--
-                Parietalem / Cabriabanu(s)(?) / [- - - - - -]
+                Parietalem / Cabriabanu(s) / farbicavi
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Parietalem <lb n="2"/><expan><abbr>Cabriabanu</abbr><ex>s</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                Parietalem <lb n="2"/><expan><abbr>Cabriabanu</abbr><ex>s</ex></expan> <lb n="3"/>farbicavi
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Z. 3 unlesbar.</p>
+                <p> (B): Abweichende Textgestaltung.</p>
             </div>
         </body>
     </text>
