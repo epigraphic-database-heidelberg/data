@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Grabinschrift auf Stele</title>
+                <title>Grabinschrift auf Platte</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/">Wiesbaden, Städt. Mus.</repository>
+                        <repository ref="www.trismegistos.org/">Wiesbaden, Mus. Wiesbaden</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -28,11 +28,11 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height>23</height>
+                                        <height>-23</height>
                                         <width>-31</width>
                                         <depth>12</depth>
                                     </dimensions>
@@ -100,7 +100,7 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2017-12-19" who="Esch">
+         <change when="2019-05-09" who="Esch">
              überprüft per Autopsie
          </change>
         </revisionDesc>
@@ -111,10 +111,10 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        CIL 13, 07605. 
+                        CIL 13, 07605/6. 
                     </bibl>
                     <bibl>
-                         CIL 13, 07606. 
+                         C. Kessel, MZ 113, 2018, 91-92, Nr. 76. (B) 
                     </bibl>
                     <bibl>
                          E. Grönke, Die römischen Steindenkmäler im Städtischen Museum Wiesbaden (Frankfurt/Main 1982) 33, Nr. 32. 
@@ -125,15 +125,15 @@
             
             
             <!--
-                Hic quiescit [- - - qui vixit ann]/es(!) XIIII et me(n)s[es &
+                Hic quiescit [- - - ann?]/es(!) XIIII et me(n?)s[es? - - -]
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Hic quiescit <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> qui vixit ann</supplied><lb break="no" n="2"/>es <note>sic</note> XIIII et me<expan><ex>n</ex><abbr>s</abbr></expan><supplied reason="lost">es</supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                Hic quiescit <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> ann</supplied><lb break="no" n="2"/>es <note>sic</note> XIIII et <expan><abbr>me</abbr><ex cert="low">n</ex>s</expan><supplied reason="lost">es<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Autopsie R. Wiegels.</p>
+                <p> Autopsie R. Wiegels. Unterhalb der antiken Inschrift mehrere nachantike Buchstaben. Paläographie: Vorkarolingische Kapitalis I. (B): Kessel: Z. 1: quiesci[t.</p>
             </div>
         </body>
     </text>

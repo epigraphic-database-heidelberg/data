@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Grabinschrift auf Tafel</title>
+                <title>Grabinschrift auf Platte</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,7 +28,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
@@ -36,13 +36,14 @@
                                         <width>22</width>
                                         <depth>5</depth>
                                     </dimensions>
-                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
 
+                                    <rs type="guidelines">GUIDELINES</rs>
 
                                 </layout>
                             </layoutDesc>
@@ -51,7 +52,7 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">2.5</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -59,7 +60,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Aquae Mattiacorum (Civitas Mattiacorum)</placeName></origPlace>
-                            <origDate notBefore-custom="0401" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD – 600 AD
+                            <origDate notBefore-custom="0401" notAfter-custom="0550" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD – 550 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -100,8 +101,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2010-06-21" who="Esch">
-             überprüft an Zeichnung
+         <change when="2019-05-08" who="Esch">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -125,21 +126,24 @@
                     <bibl>
                          H. Gombert, Frühchristliche Grabsteine vom Mittelrhein (Mainz 1940) 15, Nr. 36001; Zeichnung. 
                     </bibl>
+                    <bibl>
+                         C. Kessel, MZ 113, 2018, 85-86, Nr. 70; Abb. 77. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                Hic quie/xcit(!) in pa/ce Eppo qu/[i vixit?] / [- - - - - -
+                Hic quie/xcit(!) in pa/ce Eppo q(ui?)v(ixit?)
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Hic quie<lb break="no" n="2"/>xcit <note>sic</note> in pa<lb break="no" n="3"/>ce Eppo qu<lb break="no" n="4"/><supplied reason="lost" cert="low">i vixit</supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                Hic quie<lb break="no" n="2"/>xcit <note>sic</note> in pa<lb break="no" n="3"/>ce Eppo <expan><abbr>q</abbr><ex cert="low">ui</ex>v</expan>(ixit<certainty match="preceding-sibling::node()" locus="value"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Unterhalb der Inschrift ein Christusmonogramm zwischen zwei heraldisch angeordneten Tauben. Die Buchstaben sind modern rot ausgemalt. Paläographie: Vorkarolingische Kapitalis I.</p>
             </div>
         </body>
     </text>
