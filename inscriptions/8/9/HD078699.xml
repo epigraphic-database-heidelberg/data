@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inschrift</title>
+                <title>Grabinschrift auf Platte</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -19,7 +19,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">Mainz, Landesmus.</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -27,7 +27,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
@@ -58,7 +58,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum</placeName></origPlace>
-                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
+                            <origDate notBefore-custom="0301" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 600 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -81,7 +81,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -99,7 +99,7 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2019-01-31" who="gräf">
+         <change when="2019-05-09" who="gräf">
              überprüft an Zeichnung
          </change>
         </revisionDesc>
@@ -112,21 +112,24 @@
                     <bibl>
                         K. Körber, MZ 3, 1908, 10, Nr. 31a; Abb. 20a (Zeichnung). 
                     </bibl>
+                    <bibl>
+                         C. Kessel, MZ 113, 2018, 73, Nr. 53; Abb. 61 (Zeichnung). 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                [- - -]T(?)P(?)ARE(?)[- - -] / [- - - - - -
+                [- - -]T(?) pare[nt- - -] / [- - - - - -
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <gap reason="lost" extent="unknown" unit="character"/><expan><abbr>T</abbr><ex cert="low"/>P</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>ARE</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                <gap reason="lost" extent="unknown" unit="character"/><expan><abbr>T</abbr><ex cert="low"/></expan> pare<supplied reason="lost">nt</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Paläographie: Vorkarolingische Kapitalis I. Nur die oberen Buchstabenhälften erhalten.</p>
             </div>
         </body>
     </text>

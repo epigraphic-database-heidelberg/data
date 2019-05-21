@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Grabinschrift</title>
+                <title>Grabinschrift auf Platte</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -27,7 +27,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
@@ -58,7 +58,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum</placeName></origPlace>
-                            <origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 400 AD
+                            <origDate notBefore-custom="0301" notAfter-custom="0550" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 550 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -99,7 +99,7 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2019-01-09" who="gräf">
+         <change when="2019-05-03" who="gräf">
              überprüft an Zeichnung
          </change>
         </revisionDesc>
@@ -112,21 +112,24 @@
                     <bibl>
                         K. Körber, MZ 4, 1909, 25, Nr. 37a; Abb. 33a (Zeichnung). 
                     </bibl>
+                    <bibl>
+                         C. Kessel, MZ 113, 2018, 55-56, Nr. 30; Abb. 39 (Zeichnung). 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                - - - - - -] / [- - -]N(?)I(?)V(?)O[- - -]
+                - - - - - -] / [- - -]NI(?)V(?)O[- - -]
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>N</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>V</abbr><ex cert="low"/>O</expan><gap reason="lost" extent="unknown" unit="character"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>NI</abbr><ex cert="low"/>V</expan><certainty match="preceding-sibling::node()" locus="value"/>O<gap reason="lost" extent="unknown" unit="character"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Unterhalb der erhaltenen Inschrift ein Christusmonogramm.</p>
+                <p> Unterhalb der erhaltenen Inschrift ein Christusmonogramm. Paläographie: Vorkarolingische Kapitalis I. IV möglicherweise als N zu deuten.</p>
             </div>
         </body>
     </text>

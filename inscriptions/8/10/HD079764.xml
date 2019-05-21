@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de" xml:base="ex-epidoctemplate.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehreninschrift auf Statuenbasis</title>
+            </titleStmt>  
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD079764</idno>
+                <idno type="TM"/><idno type="localID">HD079764</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported license.
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        
+                        
+                        
+                        <repository ref="www.trismegistos.org/">Avenches, Mus. Romain</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
+                                    <p/>
+                                    <dimensions unit="cm">
+                                        <height>-77</height>
+                                        <width>74.5</width>
+                                        <depth>37.5</depth>
+                                    </dimensions>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+
+
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <dimensions>
+                                    <width unit="cm"/>
+                                    <height unit="cm">3.5-3.9</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/028057">Aventicum</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 250 AD
+                            </origDate>
+                        </origin>
+                        <provenance type="found">  
+                            <date when="1849">1849</date>
+                        <placeName ref="http://www.geonames.org/2661661">Avenches</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Canton de Vaud</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/69">Ehreninschrift</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+                <language ident="sp">Spanish</language>
+            </langUsage>
+        <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
+        <revisionDesc>
+         <change when="2019-04-18" who="osnabrügge">
+             überprüft an Foto
+         </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+
+        <graphic url="http://www.lupa.at/8783">
+        </graphic>
+
+    </facsimile>
+    <text>
+        <body>
+                       
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        CIL 13, 05091. 
+                    </bibl>
+                    <bibl>
+                         G. Walser, Römische Inschriften in der Schweiz 1 (Bern 1979) 176-177, Nr. 83; Foto. (B) 
+                    </bibl>
+                    <bibl>
+                         S. Oelschig, Kaleidoskop der Epigraphik. Katalog und Rekonstruktion der römischen Steininschriften von Avenches/Aventicum (Avenches 2009) Nr. 7011; Zeichnung. 
+                    </bibl>
+
+                </listBibl>
+            </div>
+            
+            
+            <!--
+                $]IEIVI[- - -] / quaestura in p[rov(incia)] / Asia functu[s est] / incolae Avent[ic]ens(es) / ob egreg(ia) eius erga se mer(ita) / patron(o) p(ublico) cui singuli / adq(ue) univers(i) obligatos / se esse praeferunt adq(ue) / etiam parum sibi vi/dentur praedicare / cura T(iti) Nigr(ini) Modesti / IIIIIIviri Augustalis
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>IEIVI<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>quaestura in p<supplied reason="lost"><expan><abbr>rov</abbr><ex>incia</ex></expan></supplied> <lb n="3"/>Asia functu<supplied reason="lost">s est</supplied> <lb n="4"/>incolae <expan><abbr>Avent<supplied reason="lost">ic</supplied>ens</abbr><ex>es</ex></expan> <lb n="5"/>ob <expan><abbr>egreg</abbr><ex>ia</ex></expan> eius erga se <expan><abbr>mer</abbr><ex>ita</ex></expan> <lb n="6"/><expan><abbr>patron</abbr><ex>o</ex></expan> <expan><abbr>p</abbr><ex>ublico</ex></expan> cui singuli <lb n="7"/><expan><abbr>adq</abbr><ex>ue</ex></expan> <expan><abbr>univers</abbr><ex>i</ex></expan> obligatos <lb n="8"/>se esse praeferunt <expan><abbr>adq</abbr><ex>ue</ex></expan> <lb n="9"/>etiam parum sibi vi<lb break="no" n="10"/>dentur praedicare <lb n="11"/>cura <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>Nigr</abbr><ex>ini</ex></expan> Modesti <lb n="12"/>IIIIIIviri Augustalis
+            </ab></div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary">
+                <p> Mehrere aneinanderpassende und verklebte Fragmente. Ein Fragment mit einem Teil der Inschrift vom Beginn der Z. 2 ist heute verschollen (VAE). Von Z. 1 noch die unteren Ansätze der Buchstaben erhalten. (B): Walser: Z. 1 nicht gelesen</p>
+            </div>
+        </body>
+    </text>
+</TEI>

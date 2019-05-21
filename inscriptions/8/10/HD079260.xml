@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Grabinschrift auf Platte</title>
+                <title>Grabinschrift</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -27,13 +27,13 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
-                                    <material>Gesteine</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>20</height>
+                                        <width>35</width>
+                                        <depth>30</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -51,7 +51,7 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">2.5-3</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/027839">Bingium</placeName></origPlace>
-                            <origDate notBefore-custom="0401" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD – 500 AD
+                            <origDate notBefore-custom="0401" notAfter-custom="0550" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD – 550 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2019-03-20" who="gräf">
-             überprüft an Zeichnung
+         <change when="2019-05-09" who="gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -119,21 +119,24 @@
                     <bibl>
                          M.-P. Terrien, La christianisation de la région rhénane du IVe auf milieu du VIIIe siècle. Corpus (Besançon 2007) 39. 
                     </bibl>
+                    <bibl>
+                         C. Kessel, MZ 113, 2018, 98-99, Nr. 80; Abb. 86. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                [Hi]c quiescit in D(omi)n(o) / [M]auricia hone(s)ta / [f]emina quae vixit / [an]nis XXXIII cui v[i]r et / [pa?]ter titolum(!) po(suerunt)
+                [Hi]c quiescit in D(omi)n(o) / [M]auricia hone(s)ta / [f]emina quae vixit / [an]nis XXXIII cui v[i]r et / [- -]ter titolum(!) po(suerunt)
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <supplied reason="lost">Hi</supplied>c quiescit in D<expan><ex>omi</ex><abbr>n</abbr><ex>o</ex></expan> <lb n="2"/><supplied reason="lost">M</supplied>auricia hone<expan><ex>s</ex><abbr>ta</abbr></expan> <lb n="3"/><supplied reason="lost">f</supplied>emina quae vixit <lb n="4"/><supplied reason="lost">an</supplied>nis XXXIII cui v<supplied reason="lost">i</supplied>r et <lb n="5"/><supplied reason="lost" cert="low">pa</supplied>ter titolum <note>sic</note> <expan><abbr>po</abbr><ex>suerunt</ex></expan>
+                <supplied reason="lost">Hi</supplied>c quiescit in D<expan><ex>omi</ex><abbr>n</abbr><ex>o</ex></expan> <lb n="2"/><supplied reason="lost">M</supplied>auricia hone<expan><ex>s</ex><abbr>ta</abbr></expan> <lb n="3"/><supplied reason="lost">f</supplied>emina quae vixit <lb n="4"/><supplied reason="lost">an</supplied>nis XXXIII cui v<supplied reason="lost">i</supplied>r et <lb n="5"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>ter titolum <note>sic</note> <expan><abbr>po</abbr><ex>suerunt</ex></expan>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Buchstabe A mit spitz nach unten zeigender Querhaste.</p>
+                <p> Paläographie: Vorkarolingische Kapitalis I. Buchstabe A mit spitz nach unten zeigender Querhaste.</p>
             </div>
         </body>
     </text>

@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Grabinschrift</title>
+                <title>Grabinschrift auf Platte</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -19,7 +19,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/">Mainz, Landesmus.</repository>
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -27,13 +27,13 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>-22</height>
+                                        <width>-18</width>
+                                        <depth>22</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -58,11 +58,11 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum?</placeName></origPlace>
-                            <origDate notBefore-custom="0201" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 400 AD
+                            <origDate notBefore-custom="0301" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 600 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
+                            <date notAfter="1900">1900</date>
                         <placeName ref="http://www.geonames.org/2874225">Mainz?</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
@@ -99,8 +99,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2018-11-02" who="gräf">
-             keine Bildvorlage
+         <change when="2019-05-08" who="gräf">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -115,21 +115,24 @@
                     <bibl>
                          CIL 13, 07208. 
                     </bibl>
+                    <bibl>
+                         C. Kessel, MZ 113, 2018, 81-82, Nr. 66; Abb. 73 (Zeichnung). (B) 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                $](?) / [- - -]I(?)I(?)[- - -] / [- - -] vissi[t! - - -] / [anno]s XXXV[- - -] / [- - -]r sua [- - -] / [- - - - - -] / [- - - - - -?
+                $](?) / [- - -]I(?)I(?)[- - -] / [- - -] vissi[t! - - -] / [anno]s XXXV[- - -] / [- - -]r sua T[- - -] / [- - -]I(?)I(?)[- - - - -]SV(?)[- - -] / [- - - - - -?
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> vissi<supplied reason="lost">t! <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/><supplied reason="lost">anno</supplied>s XXXV<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>r sua <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+                <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> vissi<supplied reason="lost">t! <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/><supplied reason="lost">anno</supplied>s XXXV<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>r sua T<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>SV</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Z. 1: nur noch die unteren Enden zweier Hasten erhalten. Z. 2 (Ende): hinter SS noch das untere Ende einer Haste erhalten, möglicherweise nicht von einem I, sondern von einer aufsteigenden Schräghaste. Z. 5: nur die oberen Buchstabenenden erhalten.</p>
+                <p> Fundjahr: 19. Jh. Paläographie: Vorkarolingische Kapitalis. Z. 1: nur noch die unteren Enden zweier Hasten erhalten. Z. 2 (Ende): hinter SS nur noch das untere Ende einer senkrechten Haste oder einer aufsteigenden Schräghaste erkennbar. Z. 5: nur die oberen Buchstabenenden erhalten. (B): Kessel: Z. 1: nicht gelesen; Z. 2: viss[it.</p>
             </div>
         </body>
     </text>

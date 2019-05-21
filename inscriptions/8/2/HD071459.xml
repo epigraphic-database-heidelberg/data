@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Platte</title>
+                <title>Defixio auf Tafel</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -19,7 +19,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">Bath, Roman Baths Mus.</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -27,11 +27,11 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height>4.4</height>
+                                        <height>4.5</height>
                                         <width>7.6</width>
                                         <depth/>
                                     </dimensions>
@@ -57,13 +57,13 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName>Aquae Sulis</placeName></origPlace>
+                            <origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 400 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
                             <date when="1880">1880</date>
-                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                        <placeName ref="http://www.geonames.org/2656173">Bath</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Somerset</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -81,7 +81,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/76">Defixio</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -99,7 +99,7 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2015-03-17" who="vanderbilt">
+         <change when="2019-05-14" who="Cowey">
              provisorisch bearbeitet
          </change>
         </revisionDesc>
@@ -110,7 +110,22 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        RIB 2349. 
+                        RIB 2349. (B) 
+                    </bibl>
+                    <bibl>
+                         R.S.O. Tomlin, in: B. Cunliffe (Hrsg.), The Temple of Sulis Minerva at Bath. 
+                    </bibl>
+                    <bibl>
+                         Volume 2 The Finds from the Sacred Spring. 
+                    </bibl>
+                    <bibl>
+                         (Oxford 1988) 236-237, Nr. 100; Zeichnungen. 
+                    </bibl>
+                    <bibl>
+                         R.S.O. Tomlin, ZPE 100, 1994, 93-108; Tafel IV u. V. 
+                    </bibl>
+                    <bibl>
+                         A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 3.2/2. 
                     </bibl>
 
                 </listBibl>
@@ -118,15 +133,15 @@
             
             
             <!--
-                No text recorded
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                No text recorded
-            </ab></div>
+                Si puer si puella / si vir si femina qui hoc / invol[a]vit non ei remit/tatur nis(i) innoc{s}en/tia(m) ALE[ // non illi dimitta[t]ur / nec somnum nisi ut / Eutic(h)ia modium ne/bulae modium veni/at fumi
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Si puer si puella <lb n="2"/>si vir si femina qui hoc <lb n="3"/>invol<supplied reason="lost">a</supplied>vit non ei remit<lb break="no" n="4"/>tatur <expan><abbr>nis</abbr><ex>i</ex></expan> innoc<surplus>s</surplus>en<lb break="no" n="5"/><expan><abbr>tia</abbr><ex>m</ex></expan> ALE[ </ab></div><div n="2" type="textpart"><ab><lb n="1"/> non illi dimitta<supplied reason="lost">t</supplied>ur <lb n="2"/>nec somnum nisi ut <lb n="3"/>Eutic<expan><ex>h</ex><abbr>ia</abbr></expan> modium ne<lb break="no" n="4"/>bulae modium veni<lb break="no" n="5"/>at fumi
+            </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> (B): Völlig andere Lesarten (s. Tomlin in ZPE).</p>
             </div>
         </body>
     </text>
