@@ -32,8 +32,8 @@
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height>9.5</height>
+                                        <width>6.9</width>
                                         <depth/>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
@@ -59,11 +59,11 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/011298">Londinium</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
+                            <date when="1984">1984</date>
                         <placeName ref="http://www.geonames.org/2643743">London</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
                     </history>
                 </msDesc>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2019-03-26" who="Cowey">
-             provisorisch bearbeitet
+         <change when="2019-05-13" who="Cowey">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,10 +111,10 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1987, 0738b. 
+                        AE 1987, 0738b. (B) 
                     </bibl>
                     <bibl>
-                         M.W.C. Hassall - R.S.O. Tomlin, Britannia 18, 1987, 362-363, Nr. 1b fig. 2 (Zeichnung). - AE 1987. 
+                         M.W.C. Hassall - R.S.O. Tomlin, Britannia 18, 1987, 362-363, Nr. 1b fig. 2 (Zeichnung). - AE 1987. (B) 
                     </bibl>
                     <bibl>
                          A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 3.14/3. 
@@ -125,15 +125,15 @@
             
             
             <!--
-                (E)xuparanti / SILVIELESATAVILE / (E)xs(u)paratus / Silvico/le(!) Avitus Melus/so Datus / PERVCITIBI / San(c)tinus / Mag[- - -]etus / Apidimis Antoni / Santus Vas(s)ia/nus Varasius / Datus
+                (E)x(s)up<e=A>ranti(us)#(E)x(s)up<e>ranti(us)#XUPARANTI / Silvi<o=E>l<a=E>,#Silvi<o>l<a>,#SILVIELE, Sat(t)avil(l)<a=E>,#Sat(t)avil(l)<a>,#SATAVILE, / (E)xs(u)p<e=A>ratus#(E)xs(u)p<e>ratus#XSPARATUS / Silvico/l<ae=E>#Silvico/l<ae>#SILVICOLE Avitus Melus/so datus / pervici <te=TIBI>#<te>#TIBI / Santinus / Mag[- - -]etus / APIDIMIS Antoni(us) / San(c)tus Vas(s)ia/nus Varasius / datus
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <expan><ex>E</ex><abbr>xuparanti</abbr></expan> <lb n="2"/>SILVIELESATAVILE <lb n="3"/><expan><ex>E</ex><abbr>xs</abbr><ex>u</ex><abbr>paratus</abbr></expan> <lb n="4"/>Silvico<lb break="no" n="5"/>le <note>sic</note> Avitus Melus<lb break="no" n="6"/>so Datus <lb n="7"/>PERVCITIBI <lb n="8"/>San<expan><ex>c</ex><abbr>tinus</abbr></expan> <lb n="9"/>Mag<gap reason="lost" extent="unknown" unit="character"/>etus <lb n="10"/>Apidimis Antoni <lb n="11"/>Santus Vas<expan><ex>s</ex><abbr>ia</abbr></expan><lb break="no" n="12"/>nus Varasius <lb n="13"/>Datus
+                <expan><ex>E</ex><abbr>x</abbr><ex>s</ex><abbr>up</abbr></expan><choice><corr>e</corr><sic>A</sic></choice><expan><abbr>ranti</abbr><ex>us</ex></expan>#<expan><ex>E</ex><abbr>x</abbr><ex>s</ex><abbr>up</abbr></expan><supplied reason="omitted">e</supplied><expan><abbr>ranti</abbr><ex>us</ex></expan>#XUPARANTI <lb n="2"/>Silvi<choice><corr>o</corr><sic>E</sic></choice>l<choice><corr>a</corr><sic>E</sic></choice>,#Silvi<supplied reason="omitted">o</supplied>l<supplied reason="omitted">a</supplied>,#SILVIELE, Sat<expan><ex>t</ex><abbr>avil</abbr><ex>l</ex></expan><choice><corr>a</corr><sic>E</sic></choice>,#Sat<expan><ex>t</ex><abbr>avil</abbr><ex>l</ex></expan><supplied reason="omitted">a</supplied>,#SATAVILE, <lb n="3"/><expan><ex>E</ex><abbr>xs</abbr><ex>u</ex><abbr>p</abbr></expan><choice><corr>e</corr><sic>A</sic></choice>ratus#<expan><ex>E</ex><abbr>xs</abbr><ex>u</ex><abbr>p</abbr></expan><supplied reason="omitted">e</supplied>ratus#XSPARATUS <lb n="4"/>Silvico<lb break="no" n="5"/>l<supplied reason="omitted">ae=E</supplied>#Silvico<lb break="no" n="6"/>l<supplied reason="omitted">ae</supplied>#SILVICOLE Avitus Melus<lb break="no" n="7"/>so datus <lb n="8"/>pervici <supplied reason="omitted">te=TIBI</supplied>#<supplied reason="omitted">te</supplied>#TIBI <lb n="9"/>Santinus <lb n="10"/>Mag<gap reason="lost" extent="unknown" unit="character"/>etus <lb n="11"/>APIDIMIS <expan><abbr>Antoni</abbr><ex>us</ex></expan> <lb n="12"/>San<expan><ex>c</ex><abbr>tus</abbr></expan> Vas<expan><ex>s</ex><abbr>ia</abbr></expan><lb break="no" n="13"/>nus Varasius <lb n="14"/>datus
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> (B): Abweichende Textgestaltung. Gebet für Gerechtigkeit.</p>
             </div>
         </body>
     </text>
