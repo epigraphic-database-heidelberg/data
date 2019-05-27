@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ziegel</title>
+                <title>Aufschrift auf Ziegel</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">Chester, Grosvenor Mus.</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0083" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">83 AD – 300 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/115">Aufschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2016-03-08" who="Cowey">
-             provisorisch bearbeitet
+         <change when="2019-05-20" who="Cowey">
+             keine Bildvorlage
          </change>
         </revisionDesc>
     </teiHeader>
@@ -114,13 +114,10 @@
                         AE 1975, 0551. 
                     </bibl>
                     <bibl>
-                         R.P. Wright - M.W.C. Hassall, Britannia 3, 1972, 362, Nr. 58. - AE 1975. 
+                         R.P. Wright - M.W.C. Hassall, Britannia 3, 1972, 362, Nr. 58 (d) iii. - AE 1975. 
                     </bibl>
                     <bibl>
                          RIB 2463, 43. 
-                    </bibl>
-                    <bibl>
-                         RIB 2463, 29(xi). 
                     </bibl>
 
                 </listBibl>
@@ -128,10 +125,10 @@
             
             
             <!--
-                [Le]g(io) XX V(aleria) v(ictrix) // [Leg(io) X]X V(aleria) v(ictrix)
-            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
-                <expan><abbr><supplied reason="lost">Le</supplied>g</abbr><ex>io</ex></expan> XX <expan><abbr>V</abbr><ex>aleria</ex></expan> <expan><abbr>v</abbr><ex>ictrix</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>Leg</abbr><ex>io</ex></expan> X</supplied>X <expan><abbr>V</abbr><ex>aleria</ex></expan> <expan><abbr>v</abbr><ex>ictrix</ex></expan>
-            </ab></div></div>
+                [Leg(io) X]X V(aleria) v(ictrix)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Leg</abbr><ex>io</ex></expan> X</supplied>X <expan><abbr>V</abbr><ex>aleria</ex></expan> <expan><abbr>v</abbr><ex>ictrix</ex></expan>
+            </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
