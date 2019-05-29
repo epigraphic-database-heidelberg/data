@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>AE 1932, 0011.</title>
+                <title>Weihinschrift auf Altar</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">Bonn, Rhein. Landesmus.</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -28,15 +28,15 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>-50</height>
+                                        <width>-53</width>
+                                        <depth>-18</depth>
                                     </dimensions>
-                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016530">Germania inferior</placeName><placeName ref="http://www.trismegistos.org/place/020927">Bonna</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2009-12-04" who="Feraudi">
-             provisorisch bearbeitet
+         <change when="2019-05-22" who="Feraudi">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -118,13 +118,16 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1932, 0011. 
+                        AE 1932, 0011. (B) 
                     </bibl>
                     <bibl>
-                         H. Nesselhauf, BRGK 27, 1937, 107, Nr. 202. 
+                         H. Nesselhauf, BRGK 27, 1937, 107, Nr. 202. (B) 
                     </bibl>
                     <bibl>
-                         E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 52, Nr. 48; Foto. 
+                         E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1. Corpus der griechischen und lateinischen Beneficiarier-Inschriften des Römischen Reiches (Stuttgart 1990) 52, Nr. 48; Foto. 
+                    </bibl>
+                    <bibl>
+                         H. Lehner, BJ 136/137, 1932, 148, Nr. 94. (B) - AE 1932. 
                     </bibl>
 
                 </listBibl>
@@ -132,15 +135,15 @@
             
             
             <!--
-                - - - - - -] / [- - -] Victor / b(ene)f(iciarius) co(n)s(ularis) pro se / [et suis - - -] / [- - - - - -?
+                - - - - - -] / [T?](itus?) Sat(?)r(?)[ius] / Victor / b(ene)f(iciarius) co(n)s(ularis) pro se / [et suis - - -] / [- - - - - -?
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Victor <lb n="2"/>b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> pro se <lb n="3"/><supplied reason="lost">et suis <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><supplied reason="lost" cert="low">T</supplied>(itus<certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>Sat</abbr><ex cert="low"/>r</expan><certainty match="preceding-sibling::node()" locus="value"/><supplied reason="lost">ius</supplied> <lb n="2"/>Victor <lb n="3"/>b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> pro se <lb n="4"/><supplied reason="lost">et suis <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> (B): Lehner, AE 1932, Nesselhauf: geringfügig abweichende Textwiedergaben.</p>
             </div>
         </body>
     </text>
