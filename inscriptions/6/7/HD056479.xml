@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Grabinschrift</title>
+                <title>Grabinschrift auf Sarkophag</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,13 +28,13 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material>Gesteine</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/214">Sarkophag</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>-14</height>
+                                        <width>-31</width>
+                                        <depth>11</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -59,12 +59,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum</placeName></origPlace>
-                            <origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 230 AD
+                            <origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 200 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
                             <date when="1804">1804</date>
-                        <placeName ref="http://www.geonames.org/2805319">Mainz</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                        <placeName ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -100,14 +100,17 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2018-10-24" who="Gräf">
-             überprüft per Autopsie
+         <change when="2019-06-07" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F014728">
             <desc>F014728</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/edh/foto/F038435">
+            <desc>F038435</desc>
         </graphic>
 
 
@@ -120,21 +123,24 @@
                     <bibl>
                         CIL 13, 07100. 
                     </bibl>
+                    <bibl>
+                         K. Körber, ZRheinGeschMainz 4, 1893-1905, 251, Nr. 139; Zeichnung. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                [- - - P]rimit[ivae? - - -] / dulciss[imae? - - -] /[&
+                [- - - P]rimit[iv- - -] / dulciss[im- - -] /[&
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">P</supplied>rimit<supplied reason="lost">ivae<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/>dulciss<supplied reason="lost">imae<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">P</supplied>rimit<supplied reason="lost">iv</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>dulciss<supplied reason="lost">im</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Autopsie R. Wiegels.</p>
+                <p/>
             </div>
         </body>
     </text>

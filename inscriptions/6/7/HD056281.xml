@@ -29,12 +29,12 @@
                             <supportDesc>
                                 <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>-12</height>
+                                        <width>-16</width>
+                                        <depth>9</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -43,6 +43,7 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
 
+                                    <rs type="guidelines">GUIDELINES</rs>
 
                                 </layout>
                             </layoutDesc>
@@ -59,7 +60,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum</placeName></origPlace>
-                            <origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 100 AD
+                            <origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 300 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -100,8 +101,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2018-10-18" who="Esch">
-             keine Bildvorlage
+         <change when="2019-06-13" who="Gräf">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -113,21 +114,24 @@
                     <bibl>
                         CIL 13, 07059. 
                     </bibl>
+                    <bibl>
+                         K. Körber, ZRheinGeschMainz 4, 1893-1905, 412, Nr. 48; Zeichnung. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                - - - - - -] / [- - -? ann(orum)] LXV(?) [- - -](?) / [- - -? stip(endiorum)] XL(?)II[- - -](?)[- - -](?) / [- - - - - -
+                - - - - - -] / [- - -]LX [- - -] / [- - -]XIII[- - -] / [- - - - - -
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/>? <expan><abbr>ann</abbr><ex>orum</ex></expan></supplied> <expan><abbr>LXV</abbr><ex cert="low"/></expan> <gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/>? <expan><abbr>stip</abbr><ex>endiorum</ex></expan></supplied> <expan><abbr>XL</abbr><ex cert="low"/>II</expan><gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>LX <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>XIII<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Z. 1: statt V auch X möglich; Z. 2: möglicherweise auch stip. ---]XIII[---].</p>
+                <p/>
             </div>
         </body>
     </text>

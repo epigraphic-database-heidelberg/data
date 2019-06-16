@@ -29,12 +29,12 @@
                             <supportDesc>
                                 <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material>Gesteine</material>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>-25</height>
+                                        <width>-23</width>
+                                        <depth>5</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -63,7 +63,7 @@
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
+                            <date when="1900">1900</date>
                         <placeName ref="http://www.geonames.org/2880270">Mainz</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
@@ -100,7 +100,7 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2018-10-04" who="Gräf">
+         <change when="2019-06-07" who="Gräf">
              überprüft an Foto
          </change>
         </revisionDesc>
@@ -120,21 +120,24 @@
                     <bibl>
                         CIL 13, 06948a. 
                     </bibl>
+                    <bibl>
+                         K. Körber, ZRheinGeschMainz 4, 1893-1905, 374, Nr. 2; Zeichnung. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                - - - - - -] / vet[eran(us) leg(ionis)] / XVI [- - -] / stipe[nd(iorum) - - -] / VIC(?)[- - -] / [- - - - - -
+                - - - - - -] / vet[eran(us) leg(ionis)] / XVI [- - -] / s<t>ipe[nd(iorum) - - -] / VIC(?)[- - -] / [- - - - - -
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/>vet<supplied reason="lost"><expan><abbr>eran</abbr><ex>us</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied> <lb n="2"/>XVI <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>stipe<supplied reason="lost"><expan><abbr>nd</abbr><ex>iorum</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>VIC</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/>vet<supplied reason="lost"><expan><abbr>eran</abbr><ex>us</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied> <lb n="2"/>XVI <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>s<supplied reason="omitted">t</supplied>ipe<supplied reason="lost"><expan><abbr>nd</abbr><ex>iorum</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>VIC</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Z. 3: ST-Ligatur. Z. 4: statt C auch O oder Q möglich.</p>
+                <p> Z. 3: ST-Ligatur? Z. 4: statt C auch O oder Q möglich.</p>
             </div>
         </body>
     </text>
