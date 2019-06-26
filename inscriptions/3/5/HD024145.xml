@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Instrumentum domesticum</title>
+                <title>Beischrift auf Instrumentum domesticum</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -32,7 +32,7 @@
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
+                                        <height>2.5</height>
                                         <width>3.8</width>
                                         <depth>0.6</depth>
                                     </dimensions>
@@ -58,13 +58,13 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName>Aquae Sulis</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 400 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
-                        <placeName ref="http://www.geonames.org/2656173">Bath</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Somerset</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
+                            <date when="1923">1923</date>
+                        <placeName ref="http://www.geonames.org/11887255">Lansdown</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Somerset</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/gb/">Großbritannien</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/109">Beischrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2017-10-02" who="Cowey">
-             provisorisch bearbeitet
+         <change when="2019-06-24" who="Cowey">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,10 +111,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1926, 0086. 
+                        AE 1926, 0086. (B) 
                     </bibl>
                     <bibl>
-                         RIB 2446, 13. 
+                         R.G. Collingwood - M.V. Taylor, JRS 14, 1924, 247, Nr. 16. - AE 1926. (B) 
+                    </bibl>
+                    <bibl>
+                         RIB 2446, 13; Zeichnung. 
                     </bibl>
 
                 </listBibl>
@@ -122,15 +125,15 @@
             
             
             <!--
-                Fili<E=T>ugeni(?)#Fili<E>ugeni(?)#FILITUGENI diap/sori(cum) ad clar(itatem)
+                Fl(avi) Litugeni diap/sori(cum) ad clar(itatem)
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Fili<choice><corr>E</corr><sic>T</sic></choice><expan><abbr>ugeni</abbr><ex cert="low"/></expan>#Fili<supplied reason="omitted">E</supplied><expan><abbr>ugeni</abbr><ex cert="low"/></expan>#FILITUGENI diap<lb break="no" n="2"/><expan><abbr>sori</abbr><ex>cum</ex></expan> ad <expan><abbr>clar</abbr><ex>itatem</ex></expan>
+                <expan><abbr>Fl</abbr><ex>avi</ex></expan> Litugeni diap<lb break="no" n="2"/><expan><abbr>sori</abbr><ex>cum</ex></expan> ad <expan><abbr>clar</abbr><ex>itatem</ex></expan>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> (B): Abweichende Textgestaltung.</p>
             </div>
         </body>
     </text>
