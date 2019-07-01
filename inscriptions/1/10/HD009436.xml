@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift</title>
+                <title>Weihinschrift auf Block</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/">Jülich, Mus. Zitadelle Jülich; Bonn, Rhein. Landesmus. (Abguss)</repository>
+                        <repository ref="www.trismegistos.org/">Jülich, Mus. Zitadelle Jülich; Bonn, Rhein. Landesmus. (Kopie)</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -28,7 +28,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
                                     <p/>
                                     <dimensions unit="cm">
@@ -59,12 +59,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016530">Germania inferior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
-                        <placeName ref="http://www.geonames.org/">Eschweiler</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Nordrhein-Westfalen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                            <date when="1960">1960</date>
+                        <placeName ref="http://www.geonames.org/2880070">Eschweiler</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Nordrhein-Westfalen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2017-10-30" who="Feraudi">
-             provisorisch bearbeitet
+         <change when="2019-06-25" who="Feraudi">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -118,10 +118,10 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1972, 0356. 
+                        AE 1972, 0356. (B) 
                     </bibl>
                     <bibl>
-                         C.B. Rüger, in: EpStud 9 (Bonn 1972) 251-253; Taf. 2, 1; fig. 1 (Zeichnung). 
+                         C.B. Rüger, in: EpStud 9 (Bonn 1972) 251-253; Taf. 2, 1; fig. 1 (Zeichnung). (B) - AE 1972. 
                     </bibl>
                     <bibl>
                          U. Schillinger-Häfele, BRGK 58, 1977, 529, Nr. 145. 
@@ -132,15 +132,15 @@
             
             
             <!--
-                [Mercurio] / curia / Amratinna / [i]npendio Sex(ti) / Antisti / Navini
+                [Mercurio] / curia / Amratinna / [i]npendio Sex(ti) / Antisti / [F?]l(?)avini
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <supplied reason="lost">Mercurio</supplied> <lb n="2"/>curia <lb n="3"/>Amratinna <lb n="4"/><supplied reason="lost">i</supplied>npendio <expan><abbr>Sex</abbr><ex>ti</ex></expan> <lb n="5"/>Antisti <lb n="6"/>Navini
+                <supplied reason="lost">Mercurio</supplied> <lb n="2"/>curia <lb n="3"/>Amratinna <lb n="4"/><supplied reason="lost">i</supplied>npendio <expan><abbr>Sex</abbr><ex>ti</ex></expan> <lb n="5"/>Antisti <lb n="6"/><supplied reason="lost" cert="low">F</supplied><expan><abbr>l</abbr><ex cert="low"/>avini</expan>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Fundstelle Laurenzberg mittlerweile nicht mehr existent, da dem Braunkohle-Tagebau zum Opfer gefallen.</p>
+                <p> Fundstelle Laurenzberg mittlerweile nicht mehr existent, da dem Braunkohle-Tagebau zum Opfer gefallen. (B): Z. 6: Rüger, AE 1972: [N]avini.</p>
             </div>
         </body>
     </text>

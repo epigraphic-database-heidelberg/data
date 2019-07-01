@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Instrumentum domesticum</title>
+                <title>Beischrift auf Instrumentum domesticum</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">Chester, Grosvenor Mus.</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -32,9 +32,9 @@
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/52">Schiefer</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>4</height>
+                                        <width>4</width>
+                                        <depth>0.9</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/015324">Deva</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0101" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 400 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/109">Beischrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2016-03-08" who="Cowey">
-             provisorisch bearbeitet
+         <change when="2019-06-24" who="Cowey">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,13 +111,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1977, 0508a. 
+                        AE 1977, 0508a-d. 
                     </bibl>
                     <bibl>
                          M.W.C. Hassall - R.S.O. Tomlin, Britannia 8, 1977, 435, Nr. 38a. - AE 1977. 
                     </bibl>
                     <bibl>
-                         RIB 2446, 16 (a). 
+                         RIB 2446, 16 (a) - (d); Zeichnung. 
                     </bibl>
 
                 </listBibl>
@@ -125,10 +125,10 @@
             
             
             <!--
-                Q(uinti) Iul(i) Marti/ni stactum
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>Iul</abbr><ex>i</ex></expan> Marti<lb break="no" n="2"/>ni stactum
-            </ab></div>
+                Q(uinti) Iul(i) Marti/ni stactum // Q(uinti) Iul(i) Martin(i) / diapso[ricum] // Q(uinti) Iul(i) Marti/ni penicilli // Q(uinti) Iul(i) Martin(i) / croc(odes) ad aspri(tudinem)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>Iul</abbr><ex>i</ex></expan> Marti<lb break="no" n="2"/>ni stactum </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>Iul</abbr><ex>i</ex></expan> <expan><abbr>Martin</abbr><ex>i</ex></expan> <lb n="2"/>diapso<supplied reason="lost">ricum</supplied> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>Iul</abbr><ex>i</ex></expan> Marti<lb break="no" n="2"/>ni penicilli </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>Iul</abbr><ex>i</ex></expan> <expan><abbr>Martin</abbr><ex>i</ex></expan> <lb n="2"/><expan><abbr>croc</abbr><ex>odes</ex></expan> ad <expan><abbr>aspri</abbr><ex>tudinem</ex></expan>
+            </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
