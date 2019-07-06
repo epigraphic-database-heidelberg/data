@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Besitzer-/Herstellerinschrift auf Instrumentum domesticum</title>
+                <title>Akklamation auf Instrumentum domesticum</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">Cambridge, Mus. of Archaeology and Anthropology</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -32,8 +32,8 @@
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/116">Zinn</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height>9.5</height>
+                                        <width>20.9</width>
                                         <depth/>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD – 400 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/311">Besitzer-/Herstellerinschrift</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/73">Akklamation?</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2016-03-08" who="Cowey">
-             provisorisch bearbeitet
+         <change when="2019-07-01" who="Cowey">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,13 +111,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1998, 0808b. 
+                        RIB 2417, 29; Zeichnung. (B) 
+                    </bibl>
+                    <bibl>
+                         AE 1998, 0808b. 
                     </bibl>
                     <bibl>
                          R.S.O. Tomlin - M.W.C. Hassall, Britannia 29, 1998, 444, (b); fig. 6 (Zeichnung). - AE 1998. 
-                    </bibl>
-                    <bibl>
-                         RIB 2417, 29. 
                     </bibl>
 
                 </listBibl>
@@ -125,15 +125,15 @@
             
             
             <!--
-                Superti[- - -] Patientia
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Superti<gap reason="lost" extent="unknown" unit="character"/> Patientia
-            </ab></div>
+                Α ΧΡ Ω // Superti [- - -] Patientia
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Α ΧΡ Ω </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Superti <gap reason="lost" extent="unknown" unit="character"/> Patientia
+            </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> (B): Abweichende Textgestaltung.</p>
             </div>
         </body>
     </text>
