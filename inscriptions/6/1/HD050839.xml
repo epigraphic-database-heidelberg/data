@@ -32,9 +32,9 @@
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>27.9</height>
+                                        <width>16.2</width>
+                                        <depth>8.9</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0122" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">122 AD – 400 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2016-03-08" who="Cowey">
-             provisorisch bearbeitet
+         <change when="2019-07-02" who="Cowey">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,13 +111,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1995, 1002. 
+                        RIB 2415, 41; Zeichnungen, Pl. V. 
+                    </bibl>
+                    <bibl>
+                         AE 1995, 1002. 
                     </bibl>
                     <bibl>
                          M.W.C. Hassall - R.S.O. Tomlin, Britannia 26, 1995, 390, (h). - AE 1995. 
-                    </bibl>
-                    <bibl>
-                         RIB 2415, 41. 
                     </bibl>
 
                 </listBibl>
@@ -125,10 +125,10 @@
             
             
             <!--
-                Coh(ors) IIII Bre(ucorum)
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <expan><abbr>Coh</abbr><ex>ors</ex></expan> IIII <expan><abbr>Bre</abbr><ex>ucorum</ex></expan>
-            </ab></div>
+                M(arcus) L() N() fec(it) // |(centuria) Cl(audi) Senioris / Anni // Coh(ors) IIII Bre(ucorum)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>L</abbr><ex/></expan> <expan><abbr>N</abbr><ex/></expan> <expan><abbr>fec</abbr><ex>it</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Senioris <lb n="2"/>Anni </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>Coh</abbr><ex>ors</ex></expan> IIII <expan><abbr>Bre</abbr><ex>ucorum</ex></expan>
+            </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
