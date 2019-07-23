@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>AE 1945, 0011.</title>
+                <title>Weihinschrift auf Altar</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">Bonn, Rhein. Landesmus.</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -28,13 +28,13 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>-38.5</height>
+                                        <width>32</width>
+                                        <depth>29.5</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -59,11 +59,11 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016530">Germania inferior</placeName><placeName ref="http://www.trismegistos.org/place/020927">Bonna</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0001" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 250 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
+                            <date notAfter="1941">1941</date>
                         <placeName ref="http://www.geonames.org/2946447">Bonn</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Nordrhein-Westfalen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2009-03-16" who="Feraudi">
-             provisorisch bearbeitet
+         <change when="2019-07-17" who="Feraudi">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -132,15 +132,18 @@
                     <bibl>
                          H. Nesselhauf - H. Lieb, BRGK 40, 1959, 197, Nr. 202. 
                     </bibl>
+                    <bibl>
+                         J. Gerhards - W. Haberey, BJ 146, 1941, 365; pl. 53,4. - AE 1945. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                Victoriae / sacrum / C(aius) Iulius Pala/[ti- - -] / [- - - - - -?
+                Victoriae / sacrum / C(aius) Iulius Pala/[&
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Victoriae <lb n="2"/>sacrum <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Pala<lb break="no" n="4"/><supplied reason="lost">ti</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+                Victoriae <lb n="2"/>sacrum <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Pala<lb break="no" n="4"/><gap reason="lost" extent="unknown" unit="character"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
