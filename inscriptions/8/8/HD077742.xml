@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Grabinschrift auf Stele</title>
+                <title>Grabinschrift</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -27,13 +27,13 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele?</objectType>
-                                    <material>Gesteine</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>-30</height>
+                                        <width>-34</width>
+                                        <depth>7</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003285">Mogontiacum?</placeName></origPlace>
-                            <origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 250 AD
+                            <origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 200 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2018-10-26" who="gräf">
-             keine Bildvorlage
+         <change when="2019-05-23" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -123,15 +123,18 @@
                     <bibl>
                          CLE 1989. 
                     </bibl>
+                    <bibl>
+                         K. Körber, ZRheinGeschMainz 4, 1893-1905, 210, Nr. 80; Zeichnung. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                D(is) [M(anibus)] / forte s[ub? hoc? la?]/pide iac[eo? ma]/trona s[epulta?] / nocte di[eque bono? semper? deflenda? marito?]
+                D(is) [M(anibus)] / forte s[ub? hoc? la?]/pide iac[eo? ma]/trona s[epulta?] / nocte di[eque bono?] / [semper? deflen?]/[da? marito?]
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/>forte s<supplied reason="lost" cert="low">ub? hoc? la</supplied><lb break="no" n="3"/>pide iac<supplied reason="lost">eo<certainty locus="name" match="preceding-sibling::text()" cert="low"/> ma</supplied><lb break="no" n="4"/>trona s<supplied reason="lost" cert="low">epulta</supplied> <lb n="5"/>nocte di<supplied reason="lost" cert="low">eque bono? semper? deflenda? marito</supplied>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/>forte s<supplied reason="lost" cert="low">ub? hoc? la</supplied><lb break="no" n="3"/>pide iac<supplied reason="lost">eo<certainty locus="name" match="preceding-sibling::text()" cert="low"/> ma</supplied><lb break="no" n="4"/>trona s<supplied reason="lost" cert="low">epulta</supplied> <lb n="5"/>nocte di<supplied reason="lost" cert="low">eque bono</supplied> <lb n="6"/><supplied reason="lost" cert="low">semper</supplied><supplied reason="lost">semper</supplied><lb break="no" n="7"/><supplied reason="lost" cert="low">da</supplied><supplied reason="lost">da</supplied>
             </ab></div>
             <div type="apparatus">
                 <p/>

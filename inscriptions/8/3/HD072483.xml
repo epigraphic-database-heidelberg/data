@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Tafel</title>
+                <title>Weihinschrift auf Tafel</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,12 +28,12 @@
                             <supportDesc>
                                 <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
-                                    <material>Gesteine</material>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>-101</height>
+                                        <width>-74</width>
+                                        <depth>17.5</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -50,20 +50,20 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">11.5-10</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/028797">Scardona</placeName></origPlace>
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName>Scardona; Tragurium</placeName></origPlace>
                             <origDate notBefore-custom="0079" notAfter-custom="0081" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">79 AD – 81 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
-                        <placeName ref="http://www.geonames.org/3190692">Skradin</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Šibensko-kninska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                            <date when="2005">2005</date>
+                        <placeName ref="http://www.geonames.org/3190692">Skradin; Trogir</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Šibensko-kninska županija; Splitsko-dalmatinska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -81,7 +81,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -99,8 +99,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2015-11-04" who="gräf">
-             überprüft an Foto
+         <change when="2019-06-26" who="Gräf">
+             provisorisch bearbeitet
          </change>
         </revisionDesc>
     </teiHeader>
@@ -110,7 +110,19 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        E. Podrug - T. Brajković - Z. Krnčević, Arheološki tragovi kultova i religija na šibensom prodručju (Šibenik 2008) 74-75; sl. 21. 
+                        E. Podrug - T. Brajković - Z. Krnčević, Arheološki tragovi kultova i religija na Šibenskom prodručju (Šibenik 2008) 74-75; sl. 21. 
+                    </bibl>
+                    <bibl>
+                         V. Kovačić, in: V. Kovačić - J. Milanović (Hrsg.), Benediktinski samostan sv. 
+                    </bibl>
+                    <bibl>
+                         Nikole u Trogir. Duhovnost i kultura u okrilju Virgines Dei. Zbornik radova prigodom 950. obljetnice utemeljenja (Spirituality and culture under the aegis of Virgines Dei. A collection of papers marking the 950th anniversary of its foundation) (Trogir 2014) 79-80; Foto. - AE 2015. 
+                    </bibl>
+                    <bibl>
+                         D. Demicheli, BAHD 108, 2015, 91-106; sl. 1-5. - AE 2015. 
+                    </bibl>
+                    <bibl>
+                         AE 2015, 1082. 
                     </bibl>
 
                 </listBibl>
@@ -118,15 +130,15 @@
             
             
             <!--
-                Divo Au[gusto et] / divo Ves[pasiano sac(rum)?] / ex auct[oritate Imp(eratoris)] / T(iti) Caesari[s Vespasiani Augu]/sti conv[entus? - - -] / Scardonis C(?)[- - -]
+                Divo Augusto e[t] / divo Vespasian[o] / ex auctoritat[e] / [Imp(eratoris)] T(iti) Caesaris divi Ve[sp(asiani) f(ili) Vesp(asiani)] / [Augu]sti conventus L[iburnor(um)] / Scardonis c[onsecravit?]
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Divo Au<supplied reason="lost">gusto et</supplied> <lb n="2"/>divo Ves<supplied reason="lost" cert="low">pasiano sac(rum)</supplied> <lb n="3"/>ex auct<supplied reason="lost">oritate <expan><abbr>Imp</abbr><ex>eratoris</ex></expan></supplied> <lb n="4"/><expan><abbr>T</abbr><ex>iti</ex></expan> Caesari<supplied reason="lost">s Vespasiani Augu</supplied><lb break="no" n="5"/>sti conv<supplied reason="lost">entus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="6"/>Scardonis <expan><abbr>C</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>
+                Divo Augusto e<supplied reason="lost">t</supplied> <lb n="2"/>divo Vespasian<supplied reason="lost">o</supplied> <lb n="3"/>ex auctoritat<supplied reason="lost">e</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></supplied> <expan><abbr>T</abbr><ex>iti</ex></expan> Caesaris divi Ve<supplied reason="lost"><expan><abbr>sp</abbr><ex>asiani</ex></expan> <expan><abbr>f</abbr><ex>ili</ex></expan> <expan><abbr>Vesp</abbr><ex>asiani</ex></expan></supplied> <lb n="5"/><supplied reason="lost">Augu</supplied>sti conventus L<supplied reason="lost"><expan><abbr>iburnor</abbr><ex>um</ex></expan></supplied> <lb n="6"/>Scardonis c<supplied reason="lost" cert="low">onsecravit</supplied>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Zwei nicht aneinanderpassende Fragmente erhalten; Zusammengehörigkeit von Demicheli erkannt. Fundjahr und Maße beziehen sich auf das linke Fragment (a); rechtes Fragment (b): Fundjahr: 1987/88; Maße: (79) x (49) x 13 cm; Buchstabenhöhe: 11,5-10 cm.</p>
             </div>
         </body>
     </text>

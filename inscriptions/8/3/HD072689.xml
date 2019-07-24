@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift auf Tafel</title>
+                <title>Weihinschrift auf Block</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -19,7 +19,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">Rapperswil, Pfarrhaus, vermauert</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -27,12 +27,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block?</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height>24</height>
+                                        <width>62</width>
                                         <depth/>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
@@ -50,20 +50,20 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">2.7</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Centum Prata</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 300 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
                             <date notAfter="1750">1750</date>
-                        <placeName ref="http://www.geonames.org/">Rapperswil</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Bern</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
+                        <placeName ref="http://www.geonames.org/7670006">Rapperswil-Jona</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kanton S. Gallen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -99,8 +99,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2016-02-24" who="Lopez">
-             provisorisch bearbeitet
+         <change when="2019-07-17" who="Osnabrügge">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -110,7 +110,16 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 2012, 0992. 
+                        AE 2012, 0992. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 13, 05163. (B) 
+                    </bibl>
+                    <bibl>
+                         G. Walser, Römische Inschriften in der Schweiz 2 (Bern 1980) 28-29, Nr. 122; Foto. (B) 
+                    </bibl>
+                    <bibl>
+                         A. Kolb, AAS 95, 2012, 148; Abb. 4 (Zeichnung). Abb. 5. (B) - AE 2012 
                     </bibl>
 
                 </listBibl>
@@ -118,15 +127,15 @@
             
             
             <!--
-                Mercurio Aug(usto) / S(extus) V[- - -]anincanus / ex v[oto pe]cunia sua / [fec]it
+                Mercurio Aug(usto) / S(extus) Ta[- - -]anincanus / ex v[oto pe]cunia sua / [feci]t
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Mercurio <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="2"/><expan><abbr>S</abbr><ex>extus</ex></expan> V<gap reason="lost" extent="unknown" unit="character"/>anincanus <lb n="3"/>ex v<supplied reason="lost">oto pe</supplied>cunia sua <lb n="4"/><supplied reason="lost">fec</supplied>it
+                Mercurio <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="2"/><expan><abbr>S</abbr><ex>extus</ex></expan> Ta<gap reason="lost" extent="unknown" unit="character"/>anincanus <lb n="3"/>ex v<supplied reason="lost">oto pe</supplied>cunia sua <lb n="4"/><supplied reason="lost">feci</supplied>t
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> 1814 erneut am Eingang derKirche von Rapperswil entdeckt, ursprünglicher Fundort (falls abweichend) nicht bekannt. Möglicherweise Statuenbasis, die Existenz von Löchern für die Füße einer Statue kann wegen der heutigen Aufbewahrung nicht nachvollzogen werden. (B): CIL 13, 05163: Z. 3: ex v[oto de pe]cunia; Z. 4: [fec]it; Walser: Z. 2: T[a.........]iunincanus; Z. 3: ex v[oto de pe]cunia; AE 2012; Kolb: Z. 1: Mer[c]urio; Z. s: V[al(erius).</p>
             </div>
         </body>
     </text>
