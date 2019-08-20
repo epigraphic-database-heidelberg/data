@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Grabinschrift</title>
+                <title>Grabinschrift auf Tafel</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,7 +28,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
                                     <material>Gesteine</material>
                                     <p/>
                                     <dimensions unit="cm">
@@ -42,6 +42,7 @@
                             <layoutDesc>
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="metre">METRE</rs>
 
 
                                 </layout>
@@ -59,11 +60,11 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Augusta Rauricorum</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="-0030" notAfter-custom="0030" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC – 30 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            <date notAfter="1800">1800</date>
+                            <date notAfter="1780">1780</date>
                         <placeName ref="http://www.geonames.org/2661681">Augst</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Basel-Landschaft</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
                     </history>
                 </msDesc>
@@ -100,8 +101,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2019-03-29" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2019-08-08" who="Gräf">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -116,21 +117,27 @@
                     <bibl>
                          H. Nesselhauf - H. Lieb, BRGK 40, 1959, 161-162, Nr. 105. 
                     </bibl>
+                    <bibl>
+                         F. Stähelin, BZG 47, 1948, 11-18; Abb. 1 (Zeichnung). - AE 1952. 
+                    </bibl>
+                    <bibl>
+                         B. Rémy - P. Faure, Les médecins dans l'Occident romain (Péninsule Ibérique, Bretagne, Gaules, Germanies) (Bordeaux 2010) 180. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                Prisca Iulia I[- - -] / ann(orum) XX heic(!) si[ta est] / deflendam semper medici [deflerem ego culpam] / si non et reges idem raperentu[r ad orcum] / deserui coniunx una pat[remque virumque] / [qu]em lugere [decet thalami consorte carentem]
+                Prisca Iulia I[- - -] / ann(orum) XX heic(!) si[ta est] / deflendam semper medici [deflerem? ego? culpam?] / si non et reges idem raperentu[r ad? orcum?] / deserui coniunx una pat[remque? virumque?] / [qu]em lugere [decet? thalami? consorte? carentem?] / [- - - - - -?
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Prisca Iulia I<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XX heic <note>sic</note> si<supplied reason="lost">ta est</supplied> <lb n="3"/>deflendam semper medici <supplied reason="lost">deflerem ego culpam</supplied> <lb n="4"/>si non et reges idem raperentu<supplied reason="lost">r ad orcum</supplied> <lb n="5"/>deserui coniunx una pat<supplied reason="lost">remque virumque</supplied> <lb n="6"/><supplied reason="lost">qu</supplied>em lugere <supplied reason="lost">decet thalami consorte carentem</supplied>
+                Prisca Iulia I<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XX heic <note>sic</note> si<supplied reason="lost">ta est</supplied> <lb n="3"/>deflendam semper medici <supplied reason="lost" cert="low">deflerem? ego? culpam</supplied> <lb n="4"/>si non et reges idem raperentu<supplied reason="lost" cert="low">r ad? orcum</supplied> <lb n="5"/>deserui coniunx una pat<supplied reason="lost" cert="low">remque</supplied><supplied reason="lost">remque</supplied> <lb n="6"/><supplied reason="lost">qu</supplied>em lugere <supplied reason="lost" cert="low">decet? thalami? consorte? carentem</supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Fundjahr: spätes 18. Jh.</p>
+                <p> Nur durch Zeichnungen überliefert. Ergänzungsvorschlag nach Stähelin.</p>
             </div>
         </body>
     </text>
