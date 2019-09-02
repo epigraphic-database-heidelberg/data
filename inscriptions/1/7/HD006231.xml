@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>AE 1976, 0493.</title>
+                <title>Weihinschrift auf Statuenbasis</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,7 +28,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis?</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
                                     <p/>
                                     <dimensions unit="cm">
@@ -58,13 +58,13 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>(Civitas Sequanorum)</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 100 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
-                        <placeName ref="http://www.geonames.org/2968964">Villards-d’Héria</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
+                            <date when="1974">1974</date>
+                        <placeName ref="http://www.geonames.org/2968964">Villards-d'Héria</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Bourgogne-Franche-Comté</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="1997-08-15" who="Niquet">
-             provisorisch bearbeitet
+         <change when="2019-08-30" who="Osnabrügge">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -113,21 +113,27 @@
                     <bibl>
                         AE 1976, 0493. 
                     </bibl>
+                    <bibl>
+                         J.-P. Morel, Gallia 34, 1976, 426; fig. 17a. - AE 1976. 
+                    </bibl>
+                    <bibl>
+                         (o. Autor), in: M.-P. Rothé, Le Jura, Carte archéologique de la Gaule 39 (Paris 2001) 734. (B) 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                Marti / Catu[s]
+                Marti(?) / Catu[s] / [- - - - - -?
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Marti <lb n="2"/>Catu<supplied reason="lost">s</supplied>
+                <expan><abbr>Marti</abbr><ex cert="low"/></expan> <lb n="2"/>Catu<supplied reason="lost">s</supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Gefunden in Sekundärverwendung am Fuß der großen Treppe. (B): CAG: Z. 2: Catiu[s].</p>
             </div>
         </body>
     </text>
