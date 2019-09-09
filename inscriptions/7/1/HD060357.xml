@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bau-/Stifterinschrift auf Block</title>
+                <title>Bau-/Stifterinschrift</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,7 +28,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
                                     <p/>
                                     <dimensions unit="cm">
@@ -59,12 +59,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0070" notAfter-custom="0086" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 AD – 86 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
                             <date notAfter="1850">1850</date>
-                        <placeName ref="http://www.geonames.org/">Flörsheim/Main</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hessen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                        <placeName ref="http://www.geonames.org/2926120">Flörsheim/Main</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hessen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift?</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,7 +100,7 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2010-03-26" who="Esch">
+         <change when="2019-09-05" who="Gräf">
              überprüft an Zeichnung
          </change>
         </revisionDesc>
@@ -119,15 +119,15 @@
             
             
             <!--
-                [- - -] leg(io) I adiut(rix) / [|(centuria)] n(umeri) Noni [A]pol(linaris?)
+                Leg(io) I adiut(rix) / |(centuria) n(umeri) Noni Apol(linaris)(?)
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>leg</abbr><ex>io</ex></expan> I <expan><abbr>adiut</abbr><ex>rix</ex></expan> <lb n="2"/><supplied reason="lost"><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan></supplied> <expan><abbr>n</abbr><ex>umeri</ex></expan> Noni <supplied reason="lost">A</supplied><expan><abbr>pol</abbr><ex cert="low">linaris</ex></expan>
+                <expan><abbr>Leg</abbr><ex>io</ex></expan> I <expan><abbr>adiut</abbr><ex>rix</ex></expan> <lb n="2"/><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> <expan><abbr>n</abbr><ex>umeri</ex></expan> Noni <expan><abbr>Apol</abbr><ex>linaris</ex></expan><certainty match="preceding-sibling::node()" locus="value"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Z. 2 (Ende): überliefert ist L POL.</p>
             </div>
         </body>
     </text>
