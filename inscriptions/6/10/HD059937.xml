@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift auf Block</title>
+                <title>Bau-/Stifterinschrift</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,12 +28,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material>Gesteine</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height>-35</height>
-                                        <width>-100</width>
+                                        <height/>
+                                        <width/>
                                         <depth/>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
@@ -59,12 +59,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0117" notAfter-custom="0138" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">117 AD – 138 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
                             <date notAfter="1892">1892</date>
-                        <placeName ref="http://www.geonames.org/">Niddatal</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hessen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                        <placeName ref="http://www.geonames.org/2896607">Niddatal</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hessen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2015-12-09" who="Esch">
-             keine Bildvorlage
+         <change when="2019-09-12" who="Esch">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,7 +111,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        CIL 13, 07393. 
+                        CIL 13, 07393; Zeichnung. 
                     </bibl>
 
                 </listBibl>
@@ -119,15 +119,15 @@
             
             
             <!--
-                [Imp(eratori) Caes(ari) divi] Traian(i) [P]arth(ici) [fil(io)] / [divi Nervae nep(oti) Traia]no H[adriano Aug(usto)] / [- - -]rom impera(tori?) [t]r[ib(unicia?) p]ot(estate?) [- - -] / [- - -] temp[l]u[m et] prot(ectum?) [- - - - - -
+                [- - - divi] Traian[i P]arth[ici filio - - -] / [- - - Traia]no H[adriano - - -] / [- - -]ROM[-]IMPERATBOT[- - -] / [- - -]TEMPVVTMIPROT[- - -]
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> divi</supplied> <expan><abbr>Traian</abbr><ex>i</ex></expan> <expan><abbr><supplied reason="lost">P</supplied>arth</abbr><ex>ici</ex></expan> <supplied reason="lost"><expan><abbr>fil</abbr><ex>io</ex></expan></supplied> <lb n="2"/><supplied reason="lost">divi Nervae <expan><abbr>nep</abbr><ex>oti</ex></expan> Traia</supplied>no H<supplied reason="lost">adriano <expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>rom <expan><abbr>impera</abbr><ex cert="low">tori</ex></expan> <supplied reason="lost">t</supplied>r<supplied reason="lost"><expan><abbr>ib</abbr><ex cert="low">unicia</ex></expan> p</supplied><expan><abbr>ot</abbr><ex cert="low">estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> temp<supplied reason="lost">l</supplied>u<supplied reason="lost">m et</supplied> <expan><abbr>prot</abbr><ex cert="low">ectum</ex></expan><gap reason="lost" extent="unknown" unit="line"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">divi</supplied> Traian<supplied reason="lost">i P</supplied>arth<supplied reason="lost">ici filio <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Traia</supplied>no H<supplied reason="lost">adriano</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ROM<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>IMPERATBOT<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>TEMPVVTMIPROT<gap reason="lost" extent="unknown" unit="character"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Lesung angesichts der Überlieferung unsicher.</p>
+                <p> Maße: CIL 13, 07393: Höhe: 1 Schuh, 2 Zoll; Breite: 3 Schuh, 4 Zoll.</p>
             </div>
         </body>
     </text>
