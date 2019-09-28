@@ -36,7 +36,7 @@
                                         <width>-5.8</width>
                                         <depth/>
                                     </dimensions>
-                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
@@ -59,11 +59,11 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0201" notAfter-custom="0260" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 260 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
+                            <date when="1781">1781</date>
                         <placeName ref="http://www.geonames.org/2953482">Badenweiler</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Baden-Württemberg</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2019-08-28" who="Osnabrügge">
-             provisorisch bearbeitet
+         <change when="2019-09-20" who="Osnabrügge">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,10 +111,16 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        CIL 13, 05338. 
+                        CIL 13, 05338. (B) 
                     </bibl>
                     <bibl>
                          AE 2002, 1063. 
+                    </bibl>
+                    <bibl>
+                         F.X. Kraus, Die christlichen Inschriften der Rheinlande (Freiburg i. B. 1890) 7-9, Nr. 13; Foto. (B) 
+                    </bibl>
+                    <bibl>
+                         H.U. Nuber, ZGO 150, 2002, 21-40; Abb.1. - AE 2002. 
                     </bibl>
 
                 </listBibl>
@@ -122,15 +128,15 @@
             
             
             <!--
-                - - - - - -] / [- - -] IAIAIAIAI Sabaoth / [Adonai Ab]lanathanalba Acra/[machamari S]emesilam Sesengem / [barphara]nges IOIOIO serva Te/[- - -]um quem peperit Leib/[- - - mate]r ab omni per<i=E>culo#per<i>culo#PERECULO / [- - -]acheilon O serva / Luciolum ser/v[a?] Mercussam / [- - - - - -
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> IAIAIAIAI Sabaoth <lb n="2"/><supplied reason="lost">Adonai Ab</supplied>lanathanalba Acra<lb break="no" n="3"/><supplied reason="lost">machamari S</supplied>emesilam Sesengem <lb n="4"/><supplied reason="lost">barphara</supplied>nges IOIOIO serva Te<lb break="no" n="5"/><gap reason="lost" extent="unknown" unit="character"/>um quem peperit Leib<lb break="no" n="6"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">mate</supplied>r ab omni per<choice><corr>i</corr><sic>E</sic></choice>culo#per<supplied reason="omitted">i</supplied>culo#PERECULO <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>acheilon O serva <lb n="8"/>Luciolum ser<lb break="no" n="9"/>v<supplied reason="lost" cert="low">a</supplied> Mercussam <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                [- - -]ΘΡΑΕΑΓ[-]ΑϜΟΖΑ / [- - -]ϹΙΝΙ ια ια ια ια{ι} Ϲαβαωθ / [Αδωναι αβ]λαναθαναλβα Ακρα/[μαχαμαρι Ϲ]εμεϲιλαμ Ϲησηνγεμ/[βαρφαρα]νγηϲ ιο ιο ιο ϲερουατε / [Λουκιολο]υμ κουμ πεππεριτ Λειβ/[- - - ματε]ρ αβ ομνι περ<ι=Ε>κουλω#περ<ι>κουλω#περΕκουλω / [ετ ρογο τε] Αχειλονο ϲερουα Λουκιολουμ ϲειουε Μερκουϲϲαμ / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>ΘΡΑΕΑΓ<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>ΑϜΟΖΑ <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ϹΙΝΙ ια ια ια ια<surplus>ι</surplus> Ϲαβαωθ <lb n="3"/><supplied reason="lost">Αδωναι αβ</supplied>λαναθαναλβα Ακρα<lb break="no" n="4"/><supplied reason="lost">μαχαμαρι Ϲ</supplied>εμεϲιλαμ Ϲησηνγεμ<lb break="no" n="5"/><supplied reason="lost">βαρφαρα</supplied>νγηϲ ιο ιο ιο ϲερουατε <lb n="6"/><supplied reason="lost">Λουκιολο</supplied>υμ κουμ πεππεριτ Λειβ<lb break="no" n="7"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> ματε</supplied>ρ αβ ομνι περ<choice><corr>ι</corr><sic>Ε</sic></choice>κουλω#περ<supplied reason="omitted">ι</supplied>κουλω#περΕκουλω <lb n="8"/><supplied reason="lost">ετ ρογο τε</supplied> Αχειλονο ϲερουα Λουκιολουμ ϲειουε Μερκουϲϲαμ <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Silbertäfelchen. Lateinische Inschrift geschrieben mit griechischen Buchstaben.</p>
+                <p> Silbertäfelchen. Lateinisch-hebräische Inschrift geschrieben mit griechischen Buchstaben. Z. 1 enthält magische Buchstaben, die kaum gedeutet werden können, Z. 2-5 enthalten Anrufungen verschiedener Gottheiten und Dämonen mit hebräischen Namen. Z. 6-10 enthält lateinischen Text mit griechischen Buchstaben; in Z. 11 noch Reste von Buchstaben erkennbar. In Z. 9/10 ein über beide Zeilen reichendes magisches Zeichen. (B): CIL; Kraus: Abweichungen in Lesung/Ergänzung.</p>
             </div>
         </body>
     </text>
