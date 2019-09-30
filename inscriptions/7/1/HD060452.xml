@@ -29,12 +29,12 @@
                             <supportDesc>
                                 <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/16">Basalt</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height>-31</height>
-                                        <width>16</width>
-                                        <depth>-23</depth>
+                                        <height>-23</height>
+                                        <width>-31</width>
+                                        <depth>-16</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
                                 </support>
@@ -51,7 +51,7 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">3</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -63,7 +63,7 @@
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            <date notAfter="1900">1900</date>
+                            <date when="1896">1896</date>
                         <placeName ref="http://www.geonames.org/2933772">Echzell</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hessen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
@@ -100,17 +100,17 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2012-03-21" who="Esch">
-             überprüft per Autopsie
+         <change when="2019-09-25" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F029559.JPG">
-            <desc>F029559</desc>
-        </graphic>
         <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F029558.JPG">
             <desc>F029558</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F029559.JPG">
+            <desc>F029559</desc>
         </graphic>
 
 
@@ -123,21 +123,30 @@
                     <bibl>
                         CIL 13, 07427a. 
                     </bibl>
+                    <bibl>
+                         F. Kofler, in: Der obergermanisch-rätische Limes des Römerreiches B, II, 2, 21 (Lieferung 18) (Heidelberg 1914) 14, Nr. 4; Taf. 3, 3 (Zeichnung). 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) C 1638. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) S 669. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                - - - - - -] Lat[erano] / et Rufino c[o(n)s(ulibus)]
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Lat<supplied reason="lost">erano</supplied> <lb n="2"/>et Rufino c<supplied reason="lost"><expan><abbr>o</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
-            </ab></div>
+                - - - - - -] / [- - -] Lat[erano] // et Rufino c[o(n)s(ulibus)]
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Lat<supplied reason="lost">erano</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> et Rufino c<supplied reason="lost"><expan><abbr>o</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+            </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Fragment eines Altars. Autopsie R. Wiegels. Material: grauer Sandstein.</p>
+                <p> Möglicherweise Fragment vom unteren Teil eines Altars. Z. 2 befindet sich auf der crepido.</p>
             </div>
         </body>
     </text>

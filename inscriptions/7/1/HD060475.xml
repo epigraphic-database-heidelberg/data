@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Besitzer-/Herstellerinschrift auf Instrumentum domesticum</title>
+                <title>Besitzer-/Herstellerinschrift auf Tessera</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,12 +28,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/140">Instrumentum domesticum?</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/276">Tessera?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/124">Knochen</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height>3.7</height>
+                                        <width>6.7</width>
                                         <depth/>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2010-04-21" who="Esch">
-             keine Bildvorlage
+         <change when="2019-09-27" who="Gräf">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -113,21 +113,27 @@
                     <bibl>
                         CIL 13, 07442. 
                     </bibl>
+                    <bibl>
+                         CIL 13, 10032, 18. 
+                    </bibl>
+                    <bibl>
+                         L. Jacobi, in: Der obergermanisch-rätische Limes des Römerreiches B, II, 2, 12 (Lieferung 27) (Heidelberg 1914) 55, Nr. 1; Zeichnung. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                [P]acatus / Saturio
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <supplied reason="lost">P</supplied>acatus <lb n="2"/>Saturio
-            </ab></div>
+                <P=I>(?)acatus#<P>(?)acatus#IACATUS // Saturio
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <choice><corr>P</corr><sic>I</sic></choice><certainty match="preceding-sibling::node()" locus="value"/>acatus#<supplied reason="omitted">P</supplied><certainty match="preceding-sibling::node()" locus="value"/>acatus#IACATUS </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Saturio
+            </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Ovales Plättchen. Z. 1 mit kleineren und dünneren Buchstaben geschrieben; Z. 2 steht auf dem Kopf. Z. 1: beim P(?) ist der nach unten führende Bogen nicht oder nicht komplett komplett ausgeführt.</p>
             </div>
         </body>
     </text>

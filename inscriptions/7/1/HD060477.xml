@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift auf Block</title>
+                <title>CIL 13, 07442b.</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,7 +28,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
                                     <p/>
                                     <dimensions unit="cm">
@@ -36,13 +36,14 @@
                                         <width/>
                                         <depth/>
                                     </dimensions>
-                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
 
+                                    <rs type="hederae">HEDERAE</rs>
 
                                 </layout>
                             </layoutDesc>
@@ -59,7 +60,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 250 AD
+                            <origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD – 250 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -82,7 +83,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift?</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,7 +101,7 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2018-02-08" who="Gräf">
+         <change when="2019-09-26" who="Esch">
              überprüft per Autopsie
          </change>
         </revisionDesc>
@@ -118,7 +119,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        CIL 13, 07442 b. 
+                        CIL 13, 07442b. 
                     </bibl>
 
                 </listBibl>
@@ -126,9 +127,9 @@
             
             
             <!--
-                $]CT[-] / [- - -]VG / [- - -]VS / [- - - - - -
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>CT<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>VG <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>VS <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                $](?) / [- - -]CI(?)(?)[-] / [- - -]VG / [- - -]VS / [- - - - - -?
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>CI</abbr><ex cert="low"/></expan><certainty match="preceding-sibling::node()" locus="value"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>VG <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>VS <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
