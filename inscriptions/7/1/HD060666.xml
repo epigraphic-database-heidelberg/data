@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Instrumentum militare</title>
+                <title>Instrumentum domesticum</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,11 +28,11 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/141">Instrumentum militare</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/140">Instrumentum domesticum</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/111">Eisen</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
+                                        <height>9</height>
                                         <width/>
                                         <depth/>
                                     </dimensions>
@@ -59,12 +59,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate notBefore-custom="0101" notAfter-custom="0260" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 260 AD
+                            <origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 250 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            <date notAfter="1890">1890</date>
-                        <placeName ref="http://www.geonames.org/">Bad Homburg/Höhe</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hessen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                            
+                        <placeName ref="http://www.geonames.org/3208114">Bad Homburg/Höhe</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hessen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2010-06-07" who="Esch">
-             keine Bildvorlage
+         <change when="2019-10-04" who="Esch">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -113,21 +113,27 @@
                     <bibl>
                         CIL 13, 07489a. 
                     </bibl>
+                    <bibl>
+                         L. Jacobi, WDZ 8, 1889, 261-262; Taf. 14, 2 (Zeichnung). 
+                    </bibl>
+                    <bibl>
+                         K. Zangemeister, WDZ 11, 1892, 308, Nr. 4. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                - - - - - -] |(centuria) A[&
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> A<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                |(centuria)(?) A(- - -)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <abbr>A</abbr>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Stempel.</p>
+                <p> Brenneisen. Statt spiegelverkehrtem C möglicherweise auch ein fragmentiertes O und damit O(---) A(---) zu lesen; statt A möglicherweise auch V, also V(---) C(---) oder V(---) O(---) zu lesen.</p>
             </div>
         </body>
     </text>
