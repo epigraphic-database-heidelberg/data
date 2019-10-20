@@ -29,7 +29,7 @@
                             <supportDesc>
                                 <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
                                     <p/>
                                     <dimensions unit="cm">
                                         <height>-71</height>
@@ -100,7 +100,7 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2011-12-01" who="Gräf">
+         <change when="2019-10-17" who="Gräf">
              provisorisch bearbeitet
          </change>
         </revisionDesc>
@@ -132,10 +132,10 @@
             
             
             <!--
-                D(is) M(anibus) / Corneliae / Cosme / ma(tri?) b(ene) m(erenti) // V A
-            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
-                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Corneliae <lb n="3"/>Cosme <lb n="4"/><expan><abbr>ma</abbr><ex cert="low">tri</ex></expan> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> V A
-            </ab></div></div>
+                D(is) M(anibus) / Corneliae / Cosme / <m=A>a(tri)(?)#<m>a(tri)(?)#AA b(ene) m(erenti)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Corneliae <lb n="3"/>Cosme <lb n="4"/><choice><corr>m</corr><sic>A</sic></choice><expan><abbr>a</abbr><ex>tri</ex></expan><certainty match="preceding-sibling::node()" locus="value"/>#<supplied reason="omitted">m</supplied><expan><abbr>a</abbr><ex>tri</ex></expan><certainty match="preceding-sibling::node()" locus="value"/>#AA <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan>
+            </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
