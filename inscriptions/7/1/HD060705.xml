@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift auf Basis</title>
+                <title>Weihinschrift auf Statuenbasis</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,7 +28,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/53">Basis?</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis?</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
                                     <p/>
                                     <dimensions unit="cm">
@@ -100,7 +100,7 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2010-06-08" who="Esch">
+         <change when="2019-10-09" who="Esch">
              überprüft per Autopsie
          </change>
         </revisionDesc>
@@ -118,10 +118,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        CIL 13, 07497b. 
+                        CIL 13, 07497b. (B) 
                     </bibl>
                     <bibl>
                          M. Reuter, SJ 48, 1995, 32, Nr. 42. 
+                    </bibl>
+                    <bibl>
+                         L. Jacobi, in: Der obergermanisch-rätische Limes des Römerreiches B, II, 1 (Lieferung 23) (Berlin - Leipzig 1937) 11, Nr. 5; Zeichnung. (B) 
                     </bibl>
 
                 </listBibl>
@@ -129,15 +132,15 @@
             
             
             <!--
-                $]EN(?)[- - -] / [- - -]T[&
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>EN</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>T<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                $](?) / [- - -]EN(?)[- - -] / [- - -]I(?) n(umer-)(?)[- - -]/ [- - - - - -?
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>EN</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/></expan> <expan><abbr>n</abbr><ex>umer-</ex></expan><certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Vermutlich ein beschriftetes Sockelfragment einer Geniusplastik. Auflösung nach Reuter: [G(?)]en[io 3] / [3]T[&amp;. Autopsie R. Wiegels.</p>
+                <p> Vermutlich ein beschriftetes Sockelfragment einer Geniusplastik. Auflösung nach Reuter: [G?]en[io ---] / [---]T[------. (B): CIL 13, 07497b; Jacobi: Z. 2: [---]I(?)N mit einer Querhaste oberhalb des N für n(umer--).</p>
             </div>
         </body>
     </text>

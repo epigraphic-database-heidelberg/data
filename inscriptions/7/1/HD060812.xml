@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift auf Altar</title>
+                <title>CIL 13, 07610a.CIL 13, 11969.</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,13 +28,13 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>-14</height>
+                                        <width>-13</width>
+                                        <depth>-8</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -51,7 +51,7 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">2</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -59,12 +59,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0091" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">91 AD – 130 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            <date notAfter="1900">1900</date>
-                        <placeName ref="http://www.geonames.org/">Taunusstein</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hessen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                            <date when="1904">1904</date>
+                        <placeName ref="http://www.geonames.org/2857076">Taunusstein</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hessen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,17 +100,17 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2012-06-12" who="Esch">
-             überprüft per Autopsie
+         <change when="2019-10-16" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F021286.JPG">
-            <desc>F021286</desc>
-        </graphic>
         <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F021422.JPG">
             <desc>F021422</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F021286.JPG">
+            <desc>F021286</desc>
         </graphic>
 
 
@@ -121,10 +121,16 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        CIL 13, 07610a. 
+                        CIL 13, 07610a. (B) 
                     </bibl>
                     <bibl>
-                         M. Reuter, SJ 48, 1995, 32, Nr. 37. 
+                         CIL 13, 11969. 
+                    </bibl>
+                    <bibl>
+                         M. Reuter, SJ 48, 1995, 32, Nr. 37. (B) 
+                    </bibl>
+                    <bibl>
+                         L. Jacobi, in: Der obergermanisch-rätische Limes des Römerreiches B, II, 1 (Lieferung 32) (Berlin - Leipzig 1937) 109, Nr. 5; Abb. 20. 
                     </bibl>
 
                 </listBibl>
@@ -132,15 +138,15 @@
             
             
             <!--
-                [Deae] Epon[ae] / [sub] cura T[- - -] / [de s]uo po[suit]
+                $](?) / C[- - -] / RV[- - -] / [-]EP(?)ON[- - -] / curat[or- -? - - -] / [- - -]V(?)[-]P[- - -] / [- - - - - -
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <supplied reason="lost">Deae</supplied> Epon<supplied reason="lost">ae</supplied> <lb n="2"/><supplied reason="lost">sub</supplied> cura T<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><supplied reason="lost">de s</supplied>uo po<supplied reason="lost">suit</supplied>
+                <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="2"/>C<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>RV<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>EP</abbr><ex cert="low"/>ON</expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>curat<supplied reason="lost">or<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/>? <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>V</abbr><ex cert="low"/></expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>P<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Zwei Fragmente einer Weiheinschrift für Epona. Autopsie R. Wiegels.</p>
+                <p> Zwei aneinanderpassende Fragmente erhalten. Fundjahr bezieht sich auf das untere Fragment (b); Fundjahr Fragment a: vor 1904. Z. 3: statt P auch R möglich. (B): Reuter: Z. 1: [---]G[---]; CIL 13, 07610a; Reuter: Z. 5: [de s]uo po[suit].</p>
             </div>
         </body>
     </text>
