@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>AE 1946, 0265.</title>
+                <title>Brief auf Tafel</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">Windisch</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -28,12 +28,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height>-5</height>
+                                        <width>13</width>
                                         <depth/>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
@@ -41,7 +41,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/88">geritzt / Graffito</rs>
 
 
                                 </layout>
@@ -59,11 +59,11 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/010926">Vindonissa</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0070" notAfter-custom="0101" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 AD – 101 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
+                            <date when="1942">1942</date>
                         <placeName ref="http://www.geonames.org/2657976">Windisch</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kanton Aargau</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
                     </history>
                 </msDesc>
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term>Brief</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2010-10-15" who="Feraudi">
-             provisorisch bearbeitet
+         <change when="2019-10-31" who="Osnabrügge">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -113,21 +113,27 @@
                     <bibl>
                         AE 1946, 0265. 
                     </bibl>
+                    <bibl>
+                         R. Laur-Belart, Pro Vindonissa 1942-43, 38-39, Nr. 8; Abb. 27 (Zeichnung). - AE 1946. 
+                    </bibl>
+                    <bibl>
+                         M.A. Speidel, Die römischen Schreibtafeln von Vindonissa (Brugg 1996) 114-115, Nr. 9; Foto u. Zeichnung. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                M(arco) Aemilio [- - -] / [- - -] militi / leg(ionis) [- - - - - -
+                C(aio) Aemilio Lup/erco militi / leg(ionis) XI C(laudiae) p(iae) f(idelis) |(centuria) [- - -] / [- - - - - -
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <expan><abbr>M</abbr><ex>arco</ex></expan> Aemilio <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> militi <lb n="3"/><expan><abbr>leg</abbr><ex>ionis</ex></expan><gap reason="lost" extent="unknown" unit="line"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Aemilio Lup<lb break="no" n="2"/>erco militi <lb n="3"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Obere Hälfte der Aussentafel eines Briefes. Schreibtechnik: geritzt. Unten abgebrochen. (B): AE 1946: M. Aemilio [---] / [---] militi / leg(ionis) [---]; Laur-Belart: Z. 2/3: [---] militi / le[------].</p>
             </div>
         </body>
     </text>
