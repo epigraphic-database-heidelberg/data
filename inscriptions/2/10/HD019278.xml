@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>AE 1953, 0246b.</title>
+                <title>Brief auf Tafel</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/">Windisch, Vindonissa-Museum</repository>
+                        <repository ref="www.trismegistos.org/">verschollen</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -28,8 +28,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material>Holt</material>
                                     <p/>
                                     <dimensions unit="cm">
                                         <height/>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/010926">Vindonissa</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0030" notAfter-custom="0101" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 AD – 101 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term>Brief</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2019-11-08" who="Osnabrügge">
-             provisorisch bearbeitet
+         <change when="2019-11-14" who="Osnabrügge">
+             keine Bildvorlage
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,19 +111,28 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1953, 0246b. 
+                        AE 1953, 0246b. (B) 
                     </bibl>
                     <bibl>
-                         CEL 058. 
+                         CEL 056. (B) 
                     </bibl>
                     <bibl>
-                         CEL 058 add. p. 69. 
+                         CEL 056 add. p. 69. 
+                    </bibl>
+                    <bibl>
+                         (o. Autor), Pro Vindonissa 1947-1948, 32. - AE 1953. 
+                    </bibl>
+                    <bibl>
+                         R.W. Davies, ES 8, 1969, 97, Nr. 40. 
+                    </bibl>
+                    <bibl>
+                         R.J. Rowland, Epigraphica 39, 1977, 177, Nr. 424. 
                     </bibl>
                     <bibl>
                          B. Rémy - P. Faure, Les médecins dans l'Occident romain (Péninsule Ibérique, Bretagne, Gaules, Germanies) (Bordeaux 2010) 153-154, Nr. 53. 
                     </bibl>
                     <bibl>
-                         M.A. Speidel, Die römischen Schreibtafeln von Vindonissa (Brugg 1996) 234, Nr. 69. 
+                         M.A. Speidel, Die römischen Schreibtafeln von Vindonissa (Brugg 1996) 234, Nr. 69. (B) 
                     </bibl>
 
                 </listBibl>
@@ -131,15 +140,15 @@
             
             
             <!--
-                Prisco medico
+                Prisco me/dico [- - - - - -
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Prisco medico
+                Prisco me<lb break="no" n="2"/>dico <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> (B): AE 1953; CEL 056; Speidel: Z. 2: manip(uli); Davies: Priscus; AE 1953; Pro Vindonissa 1947-1948: Zeilenfall nicht angegeben.</p>
             </div>
         </body>
     </text>
