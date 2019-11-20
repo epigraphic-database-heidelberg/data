@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>AE 1926, 0004.</title>
+                <title>Brief auf Tafel</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,12 +28,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height>-5.5</height>
+                                        <width>14.4</width>
                                         <depth/>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
@@ -41,7 +41,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/88">geritzt / Graffito</rs>
 
 
                                 </layout>
@@ -59,12 +59,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/010926">Vindonissa</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0030" notAfter-custom="0101" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 AD – 101 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
-                        <placeName ref="http://www.geonames.org/2657976">Windisch</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Aargau</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
+                            <date when="1923">1923</date>
+                        <placeName ref="http://www.geonames.org/2657976">Windisch</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kanton Aargau</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term>Brief</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2019-02-14" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2019-11-13" who="Osnabrügge">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,10 +111,22 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1926, 0004. 
+                        AE 1926, 0004. (B) 
                     </bibl>
                     <bibl>
-                         H. Finke, BRGK 17, 1927, 41, Nr. 125. 
+                         CEL 060. (B) 
+                    </bibl>
+                    <bibl>
+                         CEL 060 add. p. 70. 
+                    </bibl>
+                    <bibl>
+                         H. Finke, BRGK 17, 1927, 41, Nr. 125. (B) 
+                    </bibl>
+                    <bibl>
+                         O. Bohn, ASA 27, 1925, 194-195; Zeichnung. - AE 1925. 
+                    </bibl>
+                    <bibl>
+                         M.A. Speidel, Die römischen Schreibtafeln von Vindonissa (Brugg 1996) 160-161, Nr. 32; Foto u. Zeichnung. 
                     </bibl>
 
                 </listBibl>
@@ -122,15 +134,15 @@
             
             
             <!--
-                Vindoriso |(centuria) Sa[b]/ini
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Vindoriso <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Sa<supplied reason="lost">b</supplied><lb break="no" n="2"/>ini
-            </ab></div>
+                Vindonio |(centuria) Fa/bri // $?] / [- - - - - -] / MAN[[- - -]] // - - - - - -] / [- - -] ab V(- - -)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Vindonio <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Fa<lb break="no" n="2"/>bri </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="2"/>MAN<del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del> </ab></div><div n="3" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> ab <abbr>V</abbr>
+            </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Obere Hälfte der Aussentafel eines Briefes. Schreibtechnik: geritzt. Die Inschrift befindet sich auf der Aussenseite; darunter noch Spuren einer älteren (Text 2) und einer jüngeren Inschrift (Text 3). (B): AE 1926; CEL; Bohn; Finke: Vindoriso |(centuria) Sab/ini; Text 2 und 3 nicht gelesen.</p>
             </div>
         </body>
     </text>
