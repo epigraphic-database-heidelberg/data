@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/">Wiesbaden, Städt. Mus.</repository>
+                        <repository ref="www.trismegistos.org/">Wiesbaden, Mus. Wiesbaden</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -32,9 +32,9 @@
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height>-13</height>
+                                        <height>-14</height>
                                         <width>-26</width>
-                                        <depth>-9</depth>
+                                        <depth>8</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -51,7 +51,7 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm">4.0</height>
+                                    <height unit="cm">3.5</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -59,12 +59,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 250 AD
+                            <origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 250 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            <date notAfter="1895">1895</date>
-                        <placeName ref="http://www.geonames.org/">Holzhausen/Haide</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                            
+                        <placeName ref="http://www.geonames.org/2899767">Holzhausen/Haide</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2010-06-29" who="Esch">
-             überprüft per Autopsie
+         <change when="2019-11-22" who="Gräf">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -116,21 +116,24 @@
                     <bibl>
                          E. Grönke, Die römischen Steindenkmäler im Städtischen Museum Wiesbaden (Frankfurt/Main 1982) 132, Nr. 178. 
                     </bibl>
+                    <bibl>
+                         L. Pallat, in: Der obergermanisch-rätische Limes des Römerreiches B, I (Lieferung 22) (Berlin - Leipzig 1937) 38, Nr. 8; Taf. 5, 11 (Zeichnung). 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                $ c]o(n)s(uli?) [- - - - - -
+                - - - - - -] / [- - -]OS / [- - - - - -?
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><expan><abbr><supplied reason="lost">c</supplied>o</abbr><ex>n</ex>s</expan>(uli<certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="line"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>OS <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Inschriftfragment. Autopsie R. Wiegels.</p>
+                <p/>
             </div>
         </body>
     </text>

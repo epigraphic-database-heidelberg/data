@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ehreninschrift</title>
+                <title>Ehreninschrift auf Statuenbasis</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/">Wiesbaden, Städt. Mus.</repository>
+                        <repository ref="www.trismegistos.org/">Wiesbaden, Mus. Wiesbaden</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -28,12 +28,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis?</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height>-10</height>
+                                        <width>-14</width>
                                         <depth/>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
@@ -51,7 +51,7 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">4.5</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -59,12 +59,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 250 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            <date notAfter="1895">1895</date>
-                        <placeName ref="http://www.geonames.org/">Holzhausen/Haide</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                            
+                        <placeName ref="http://www.geonames.org/2899767">Holzhausen/Haide</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2010-06-29" who="Esch">
-             überprüft per Autopsie
+         <change when="2019-11-22" who="Gräf">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -119,21 +119,24 @@
                     <bibl>
                          M. Reuter, SJ 48, 1995, 32, Nr. 36. 
                     </bibl>
+                    <bibl>
+                         L. Pallat, in: Der obergermanisch-rätische Limes des Römerreiches B, I (Lieferung 22) (Berlin - Leipzig 1937) 38, Nr. 9; Taf. 5, 13 (Zeichnung). 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                $]O[- - -] / [- - -]A[&
+                - - - - - -] / [- - -]V[- - -] / [- - -]O[- - -] / [- - - - - -
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>O<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>A<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>V<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>O<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Inschriftfragmnet unbekannten Inhalts. Laut Reuter ist durch Fundsituation der Bezug auf eine Kaiserinschrift wahrscheinlich. Autopsie R. Wiegels.</p>
+                <p> Möglicherweise auch kopfüber zu drehen und [---]O[---] / [---]A[---] zu lesen. Möglicherweise zu einem Sockel in den principia gehörig und Teil einer Statuenbasis.</p>
             </div>
         </body>
     </text>
