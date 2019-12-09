@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Grabinschrift</title>
+                <title>Grabinschrift auf Cippus</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">Dijon</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -28,13 +28,13 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/85">Cippus</objectType>
+                                    <material>Gesteine</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>-39</height>
+                                        <width>-28</width>
+                                        <depth>24.5</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -51,7 +51,7 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">4-4.5</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -63,7 +63,7 @@
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
+                            <date when="1990">1990</date>
                         <placeName ref="http://www.geonames.org/3021372">Dijon</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Bourgogne-Franche-Comté</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
                     </history>
                 </msDesc>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2014-12-22" who="Feraudi">
-             provisorisch bearbeitet
+         <change when="2019-12-06" who="Osnabrügge">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -116,21 +116,24 @@
                     <bibl>
                          D. Périchon - C. Vernou, in: L. Baray (Hrsg.), Artisanats, sociétés et civilisations: hommage à Jean-Paul Thevenot (Dijon 2006) 585; fig. 5. - AE 2006. 
                     </bibl>
+                    <bibl>
+                         M. Provost - D. Périchon, in: M. Provost et al. (Hrsg.), La Côte-d'Or, Carte archéologique de la Gaule 21, 2, d'Allerey à Normier (Paris 2009) 249. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                $](?) / Dribuc/oni M[a]/lluro/ni fil(io) / [- - - - - -?
+                $](?) / Dribuc/oni M(a)/lluro/ni fil(io) / [- - - - - -?
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="2"/>Dribuc<lb break="no" n="3"/>oni M<supplied reason="lost">a</supplied><lb break="no" n="4"/>lluro<lb break="no" n="5"/>ni <expan><abbr>fil</abbr><ex>io</ex></expan> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+                <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="2"/>Dribuc<lb break="no" n="3"/>oni <expan><abbr>M</abbr><ex>a</ex></expan><lb break="no" n="4"/>lluro<lb break="no" n="5"/>ni <expan><abbr>fil</abbr><ex>io</ex></expan> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Z. 2: M[A]-Ligatur.</p>
+                <p> Spitz zulaufender Grabpfeiler/Pyramidion (obélisque lingon). Oben und unten abgebrochen. Z. 2: M[A]-Ligatur?</p>
             </div>
         </body>
     </text>
