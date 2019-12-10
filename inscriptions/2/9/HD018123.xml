@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>AE 1989, 0528.</title>
+                <title>Grabinschrift auf Cippus</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">Dijon, Mus. Archéologique</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -28,13 +28,13 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/85">Cippus</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>95</height>
+                                        <width>30</width>
+                                        <depth>25</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -51,7 +51,7 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">5.5</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -59,11 +59,11 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/025384">Divio</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 200 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
+                            <date when="1931">1931</date>
                         <placeName ref="http://www.geonames.org/3021372">Dijon</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Bourgogne-Franche-Comté</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
                     </history>
                 </msDesc>
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="1997-06-09" who="Scheithauer">
-             provisorisch bearbeitet
+         <change when="2019-12-04" who="Osnabrügge">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -113,21 +113,30 @@
                     <bibl>
                         AE 1989, 0528. 
                     </bibl>
+                    <bibl>
+                         H. Joubeaux, Gallia 46, 1989, 232-233, Nr. 32; Foto. - AE 1989. 
+                    </bibl>
+                    <bibl>
+                         Y. Le Bohec, Inscriptions de la cité des Lingons (Paris 2003) 88-89, Nr. 110; Abb. 44. 
+                    </bibl>
+                    <bibl>
+                         M. Provost - D. Périchon, in: M. Provost et al. (Hrsg.), La Côte-d'Or, Carte archéologique de la Gaule 21, 2, d'Allerey à Normier (Paris 2009) 243. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                Iule / Sela/nigo/do
+                Iul(ia?)e / Sela/nigo / do(navit?)
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Iule <lb n="2"/>Sela<lb break="no" n="3"/>nigo<lb break="no" n="4"/>do
+                <expan><abbr>Iul</abbr><ex cert="low">ia</ex>e</expan> <lb n="2"/>Sela<lb break="no" n="3"/>nigo <lb n="4"/><expan><abbr>do</abbr><ex cert="low">navit</ex></expan>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Spitz zulaufender Grabpfeiler/Pyramidion (obélisque lingon). (B): AE 1989; Joubeaux: Sela/nigo/do.</p>
             </div>
         </body>
     </text>
