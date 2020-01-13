@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift</title>
+                <title>Grabinschrift auf Platte</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,13 +28,13 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte?</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>-8</height>
+                                        <width>-6.5</width>
+                                        <depth>2</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -59,12 +59,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
+                            <origDate notBefore-custom="0201" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 600 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            <date notAfter="1900">1900</date>
-                        <placeName ref="http://www.geonames.org/3207806">Mülheim-Kärlich</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                            <date when="1883">1883</date>
+                        <placeName ref="http://www.geonames.org/2892924">Mülheim-Kärlich</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift?</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,7 +100,7 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2011-10-17" who="Esch">
+         <change when="2020-01-09" who="Gräf">
              überprüft an Zeichnung
          </change>
         </revisionDesc>
@@ -111,10 +111,10 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        CIL 13, 07669. 
+                        CIL 13, 07669. (B) 
                     </bibl>
                     <bibl>
-                         H. Lehner, Die antiken Steindenkmäler des provinzialmuseums in Bonn (Bonn 1918) 381, Nr. 989. 
+                         H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 381, Nr. 989. 
                     </bibl>
 
                 </listBibl>
@@ -122,15 +122,15 @@
             
             
             <!--
-                $]ARE[- - -] / [- - -]escita [- - -] / [- - -]IALLV[&
+                - - - - - -] / [- - -]m pie[- - -] / [- - -qui]escit in [- - -] / [- - -]M(?)CIA(?)V(?)[- - -] / [- - - - - -
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ARE<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>escita <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>IALLV<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>m pie<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">qui</supplied>escit in <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>M</abbr><ex cert="low"/>CIA</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>V</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Inschriftfragment, Bedeutung unklar. Buchstaben in Z. 2 sind fraglich!</p>
+                <p> Fragment wohl einer Platte oder Tafel. (B): CIL 13, 07669: Z. 1: [---]AREA(?)[---]; Z. 2: [---]ESCITA[---]; [---]I(?)AI(?)I(?)V(?)[---].</p>
             </div>
         </body>
     </text>
