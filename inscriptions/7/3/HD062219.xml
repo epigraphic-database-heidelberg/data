@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bau-/Stifterinschrift auf Platte</title>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,8 +28,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/309">Platte</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material>Gesteine</material>
                                     <p/>
                                     <dimensions unit="cm">
                                         <height>-11</height>
@@ -100,7 +100,7 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2010-11-11" who="Esch">
+         <change when="2020-01-24" who="Esch">
              überprüft per Autopsie
          </change>
         </revisionDesc>
@@ -129,15 +129,15 @@
             
             
             <!--
-                $]COV[- - -] / [- - - B]assus [- - -] / [- - - p]r(aefectus) coho[rtis - - -] / [- - -]A[&
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>COV<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">B</supplied>assus <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">p</supplied>r</abbr><ex>aefectus</ex></expan> coho<supplied reason="lost">rtis</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>A<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                $](?) / [- - -]O(?)C(?)V[- - -] / [- - - B]assus [- - -] / [- - - p]r(aefectus) coho[rtis - - -] / [- - -]A[&
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>O</abbr><ex cert="low"/>C</expan><certainty match="preceding-sibling::node()" locus="value"/>V<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">B</supplied>assus <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">p</supplied>r</abbr><ex>aefectus</ex></expan> coho<supplied reason="lost">rtis</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>A<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Allseits gebrochenes Fragment einer Inschrift eines Kohorten-Präfekten. Z.1: Lesung der ersten beiden Buchstaben unsicher. Autopsie R. Wiegels.</p>
+                <p> Autopsie R. Wiegels.</p>
             </div>
         </body>
     </text>

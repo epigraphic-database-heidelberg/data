@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bau-/Stifterinschrift auf Tafel</title>
+                <title>CIL 13, 11522.</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,8 +28,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel?</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material>Gesteine</material>
                                     <p/>
                                     <dimensions unit="cm">
                                         <height/>
@@ -59,12 +59,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/010926">Vindonissa, bei</placeName></origPlace>
-                            <origDate notBefore-custom="0231" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">231 AD – 270 AD
+                            <origDate notBefore-custom="0051" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 250 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
                             
-                        <placeName ref="http://www.geonames.org/">Königsfelden</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kanton Aargau</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
+                        <placeName ref="http://www.geonames.org/2657976">Windisch</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kanton Aargau</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift?</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2010-11-11" who="Esch">
-             überprüft an Zeichnung
+         <change when="2020-01-24" who="Esch">
+             keine Bildvorlage
          </change>
         </revisionDesc>
     </teiHeader>
@@ -113,15 +113,18 @@
                     <bibl>
                         CIL 13, 11522. 
                     </bibl>
+                    <bibl>
+                         A. Gessner, ASA 2, 1901, 115. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                - - - - - -] Valerian(us) imp(erator) [- - - - - -
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Valerian</abbr><ex>us</ex></expan> <expan><abbr>imp</abbr><ex>erator</ex></expan><gap reason="lost" extent="unknown" unit="line"/>
+                $ |(centuria)?] Valerian(a?) IMP [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                $ <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan><certainty match="preceding-sibling::node()" locus="value"/>] <expan><abbr>Valerian</abbr><ex cert="low">a</ex></expan> IMP <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
