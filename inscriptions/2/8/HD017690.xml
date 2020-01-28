@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Tafel</title>
+                <title>Brief auf Tafel</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003201">Britannia</placeName><placeName ref="http://www.trismegistos.org/place/011298">Londinium</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0071" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD – 150 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term>Brief</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2015-05-11" who="Cowey">
-             provisorisch bearbeitet
+         <change when="2020-01-24" who="Cowey">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,10 +111,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1954, 0016. 
+                        AE 1954, 0016. (B) 
                     </bibl>
                     <bibl>
                          J.A. Richmond, AntJ 33, 1953, 207-208; pl. 27; fig. 1 (Zeichnung). - AE 1954. 
+                    </bibl>
+                    <bibl>
+                         RIB 2443, 7. (B) 
                     </bibl>
                     <bibl>
                          AE 2002, 0879. 
@@ -122,24 +125,21 @@
                     <bibl>
                          J.N. Adams, ZPE 140, 2002, 262. - AE 2002. 
                     </bibl>
-                    <bibl>
-                         RIB 2443, 7. 
-                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                Londinio // L(ucius) Vital(- - -) Ad(- - -) // Rufus Callisuni salutem Epillico et omni/bus contubernalibus certiores vos esse / credo me recte valere si vos indi/cem fecistis rogo mittite omnia / diligenter cura agas ut illam puel/lam ad nummum redigas
+                Londinio // L(ucius) Vital(- - -) Ad(- - -) // Rufus Callisuni salutem Epillico et omni/bus contubernalibus certiores vos esse / credo me recte valere si vos invi/cem fecistis rogo mittite omnia / diligenter cura agas ut illam puel/lam ad nummum redigas
             --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
-                Londinio </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>ucius</ex></expan> <abbr>Vital</abbr> <abbr>Ad</abbr> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Rufus Callisuni salutem Epillico et omni<lb break="no" n="2"/>bus contubernalibus certiores vos esse <lb n="3"/>credo me recte valere si vos indi<lb break="no" n="4"/>cem fecistis rogo mittite omnia <lb n="5"/>diligenter cura agas ut illam puel<lb break="no" n="6"/>lam ad nummum redigas
+                Londinio </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>ucius</ex></expan> <abbr>Vital</abbr> <abbr>Ad</abbr> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Rufus Callisuni salutem Epillico et omni<lb break="no" n="2"/>bus contubernalibus certiores vos esse <lb n="3"/>credo me recte valere si vos invi<lb break="no" n="4"/>cem fecistis rogo mittite omnia <lb n="5"/>diligenter cura agas ut illam puel<lb break="no" n="6"/>lam ad nummum redigas
             </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Privatbrief.</p>
+                <p> Privatbrief. (B): in Z. 3-4 indi/cem statt invi/cem.</p>
             </div>
         </body>
     </text>
