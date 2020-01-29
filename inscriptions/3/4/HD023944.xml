@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift auf Tafel</title>
+                <title>Weihinschrift auf Tessera</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,7 +28,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/276">Tessera</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
                                     <p/>
                                     <dimensions unit="cm">
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/010926">Vindonissa</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 250 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -100,7 +100,7 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2010-11-11" who="Esch">
+         <change when="2020-01-24" who="Esch">
              überprüft an Zeichnung
          </change>
         </revisionDesc>
@@ -114,7 +114,7 @@
                         AE 1926, 0009. 
                     </bibl>
                     <bibl>
-                         CIL 13, 11525a. (B) 
+                         CIL 13, 11525 a. (B) 
                     </bibl>
                     <bibl>
                          O. Bohn, ASA 28, 1926, 3; Zeichnung. - AE 1926. 
@@ -128,15 +128,15 @@
             
             
             <!--
-                |(Centuria) Arelli Flam(m)a(e) / C(aius) Valeri(u)s / Long(u)s
+                |(centuria) Arelli Flam(m)a(e) / C(aius) Valeri(u)s / Long(u)s
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                |(Centuria) Arelli Flam<expan><ex>m</ex><abbr>a</abbr><ex>e</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Valeri<expan><ex>u</ex><abbr>s</abbr></expan> <lb n="3"/>Long<expan><ex>u</ex><abbr>s</abbr></expan>
+                <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Arelli Flam<expan><ex>m</ex><abbr>a</abbr><ex>e</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Valeri<expan><ex>u</ex><abbr>s</abbr></expan> <lb n="3"/>Long<expan><ex>u</ex><abbr>s</abbr></expan>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Bronzetäfelchen. (B): CIL: Z.2-4: Amepis / C(aius) Longs[3] / LXIV[&amp;. Die vierte Zeile fehlt bei Bohn.</p>
+                <p> (B): CIL 13, 11525 a: Z. 1-3: Leseabweichungen; zusätzlich eine Z. 4: LXIV[---].</p>
             </div>
         </body>
     </text>
