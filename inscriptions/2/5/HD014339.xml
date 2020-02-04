@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>AE 1968, 0316.</title>
+                <title>Weihinschrift auf Architekturteil</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,12 +28,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/35">Architekturteil?</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height>-25</height>
+                                        <width>22</width>
                                         <depth/>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
@@ -58,13 +58,13 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/003308">Mediolanum</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>(Civitas Lingonum)</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 300 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
-                        <placeName ref="http://www.geonames.org/3037790">Ancey</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
+                            <date when="1968">1968</date>
+                        <placeName ref="http://www.geonames.org/3037790">Ancey - Mâlain, zwischen</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Bourgogne-Franche-Comté</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="1997-06-20" who="Niquet">
-             provisorisch bearbeitet
+         <change when="2020-01-30" who="Osnabrügge">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,7 +111,16 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1968, 0316. 
+                        AE 1968, 0316. (B) (B) 
+                    </bibl>
+                    <bibl>
+                         R. Martin, Gallia 26, 1968, 479; fig. 9. - AE 1968. (B) 
+                    </bibl>
+                    <bibl>
+                         Y. Le Bohec, Inscriptions de la cité des Lingons (Paris 2003) 47, Nr. 32. (B) 
+                    </bibl>
+                    <bibl>
+                         M. Provost - L. Roussel, in: M. Provost et al. (Hrsg.), La Côte-d'Or, Carte archéologique de la Gaule 21, 2, d'Allerey à Normier (Paris 2009) 465. (B) 
                     </bibl>
 
                 </listBibl>
@@ -119,15 +128,15 @@
             
             
             <!--
-                [- - - - - -] / [- - - - - -] / [- - -]R[-]NO[- - -] / dedic[a- - -]
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>R<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>NO<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>dedic<supplied reason="lost">a</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                FA[- - -]NO / AV[- - -] / AM[- - -]IVS et Dionys(?)[- - -] / [- - -]K[- - -]S pr(idie) Non(as) [- - -](?) / [- - -] dedic[a- - -]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                FA<gap reason="lost" extent="unknown" unit="character"/>NO <lb n="2"/>AV<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>AM<gap reason="lost" extent="unknown" unit="character"/>IVS et <expan><abbr>Dionys</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>K<gap reason="lost" extent="unknown" unit="character"/>S <expan><abbr>pr</abbr><ex>idie</ex></expan> <expan><abbr>Non</abbr><ex>as</ex></expan> <gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> dedic<supplied reason="lost">a</supplied><gap reason="lost" extent="unknown" unit="character"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Block aus der die beiden Teile des Heiligtums verbindenden Portikus, oben aberundet mit Dübelloch. (B): AE 1968; Martin: Nur die letzte Zeile gelesen; Le Bohec; Provost - Roussel: Abweichungen in Lesung/Ergänzung.</p>
             </div>
         </body>
     </text>
