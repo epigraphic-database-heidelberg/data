@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Beischrift</title>
+                <title>Beischrift auf Instrumentum domesticum</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,12 +28,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/140">Instrumentum domesticum</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height>2</height>
+                                        <width>9</width>
                                         <depth/>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
@@ -41,7 +41,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/77">gestempelt</rs>
 
 
                                 </layout>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/010926">Vindonissa</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 100 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2019-02-28" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2020-02-05" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -121,10 +121,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1953, 0245. 
+                        AE 1953, 0245. (B) 
                     </bibl>
                     <bibl>
                          H. Nesselhauf - H. Lieb, BRGK 40, 1959, 142-143, Nr. 54. 
+                    </bibl>
+                    <bibl>
+                         C. Simonett, Pro Vindonissa 1947/48, 24; Abb. 7 u. 8; Abb. 6 (Zeichnung). (B) - AE 1953. 
                     </bibl>
 
                 </listBibl>
@@ -132,15 +135,15 @@
             
             
             <!--
-                Cicollus Bri[x]sa(?) / Cunn[- -] // Cicoll[us] Br[ixs?a] / Cu[nn- -]
+                [C]icollus Bri[x]sa(?) / Cunn[- -] // Cicoll[us] Br[ixsa?] / Cu[nn- -]
             --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
-                Cicollus Bri<supplied reason="lost">x</supplied><expan><abbr>sa</abbr><ex cert="low"/></expan> <lb n="2"/>Cunn<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Cicoll<supplied reason="lost">us</supplied> Br<supplied reason="lost">ixs<certainty locus="name" match="preceding-sibling::text()" cert="low"/>a</supplied> <lb n="2"/>Cu<supplied reason="lost">nn<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>
+                <supplied reason="lost">C</supplied>icollus Bri<supplied reason="lost">x</supplied><expan><abbr>sa</abbr><ex cert="low"/></expan> <lb n="2"/>Cunn<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Cicoll<supplied reason="lost">us</supplied> Br<supplied reason="lost" cert="low">ixsa</supplied> <lb n="2"/>Cu<supplied reason="lost">nn<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>
             </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Reif aus Bronzeblech. Ehemals fünf gleiche Bildfelder aneinandergereiht, die jeweils in antithetischer Angeordnung links einen Stier, rechts eine Kuh zeigten; unter dem Stier ein Kind, unter der Kuh ein Hund. Erhalten sind ein ganzes und ein halbes Bildfeld. Schreibtechnik: gestempelt. (B): Simonett; AE 1953: Cicollus / Rissa / Cunna.</p>
             </div>
         </body>
     </text>
