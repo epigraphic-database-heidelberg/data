@@ -42,6 +42,7 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
 
+                                    <rs type="guidelines">GUIDELINES</rs>
 
                                 </layout>
                             </layoutDesc>
@@ -58,12 +59,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0131" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD – 230 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
                             <date when="1887">1887</date>
-                        <placeName ref="http://www.geonames.org/"/><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                        <placeName ref="http://www.geonames.org/3208114">Bad Homburg/Höhe</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hessen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -99,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2019-01-25" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2020-02-06" who="Gräf">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -118,21 +119,27 @@
                     <bibl>
                          É. Espérandieu, Signacula medicorum oculariorum (Parisiis 1905) 80, Nr. 122; tab. 40, 122 (Zeichnungen). 
                     </bibl>
+                    <bibl>
+                         K. Zangemeister, KWDZ 7, 1888, 17-19; Zeichnungen. - AE 1888. 
+                    </bibl>
+                    <bibl>
+                         L. Jacobi, Das Römerkastell Saalburg bei Homburg vor der Höhe (Homburg/Höhe 1897) 349-350, Nr. 1; Zeichnung. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                Lepidi P[- - -] / [- - - - - -] // IAM[- - -] // [- - -]PO[- - -]
+                Lepidi p[- - -] // [- - - - - -] // I(?)A(?)M(?)[- - -] // [- - -]PO[- - -]
             --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
-                Lepidi P<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> IAM<gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/>PO<gap reason="lost" extent="unknown" unit="character"/>
+                Lepidi p<gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>I</abbr><ex cert="low"/>A</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>M</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/>PO<gap reason="lost" extent="unknown" unit="character"/>
             </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Augenarztstempel.</p>
+                <p> Augenarztstempel. Die Inschriften verteilten sich auf die vier Seiten des Stempels.</p>
             </div>
         </body>
     </text>
