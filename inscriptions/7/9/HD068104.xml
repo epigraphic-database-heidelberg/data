@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bau-/Stifterinschrift</title>
+                <title>Bau-/Stifterinschrift auf Tafel</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,8 +28,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
                                         <height>85</height>
@@ -58,12 +58,12 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Andematunnum, bei (Civitas Lingonum)</placeName></origPlace>
+                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
+                            <date when="1831">1831</date>
                         <placeName ref="http://www.geonames.org/3035247">Balesmes-sur-Marne</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Haute-Marne</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
                     </history>
                 </msDesc>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2019-07-30" who="Osnabrügge">
-             provisorisch bearbeitet
+         <change when="2020-02-13" who="Osnabrügge">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -121,7 +121,16 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        CIL 13, 05674. 
+                        CIL 13, 05674. (B) 
+                    </bibl>
+                    <bibl>
+                         CIL 13, 04, 05674 add. p. 75. 
+                    </bibl>
+                    <bibl>
+                         J.-J. Thévenard, in: J.-J. Thévenard, La Haute-Marne, Carte archéologique de la Gaule 52, 1 (Paris 1996) 118-119; fig. 62b (Zeichnung). (B) 
+                    </bibl>
+                    <bibl>
+                         Y. Le Bohec, Inscriptions de la cité des Lingons (Paris 2003) 331-332, Nr. 608; Abb. 288. 
                     </bibl>
 
                 </listBibl>
@@ -129,15 +138,15 @@
             
             
             <!--
-                Successus / Natalis l(ibertus) / maceriem / caementiciam / circa hoc tem/plum de sua pe/cunia Matro/nae ex voto sus/cepto v(otum) s(olvit) l(ibens) m(erito)
+                Successus / Natalis l(ibertus) / maceriem / caementiciam / circa hoc tem/plum de sua pe/cunia Matro/nae ex voto sus/cepto / v(otum) s(olvit) l(ibens) m(erito)
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Successus <lb n="2"/>Natalis <expan><abbr>l</abbr><ex>ibertus</ex></expan> <lb n="3"/>maceriem <lb n="4"/>caementiciam <lb n="5"/>circa hoc tem<lb break="no" n="6"/>plum de sua pe<lb break="no" n="7"/>cunia Matro<lb break="no" n="8"/>nae ex voto sus<lb break="no" n="9"/>cepto <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                Successus <lb n="2"/>Natalis <expan><abbr>l</abbr><ex>ibertus</ex></expan> <lb n="3"/>maceriem <lb n="4"/>caementiciam <lb n="5"/>circa hoc tem<lb break="no" n="6"/>plum de sua pe<lb break="no" n="7"/>cunia Matro<lb break="no" n="8"/>nae ex voto sus<lb break="no" n="9"/>cepto <lb n="10"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Metadaten ergänzt nach freundlichem Hinweis von B. Amiri (2012).</p>
+                <p> Metadaten ergänzt nach freundlichem Hinweis von B. Amiri (2012). Z. 4: NTI-, AM-Ligatur; Z. 5: TEM-Ligatur. (B): CIL 13, 05674; Thévenard: Z. 4: caementici(a)m.</p>
             </div>
         </body>
     </text>
