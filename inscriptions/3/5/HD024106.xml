@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>AE 1926, 0069.AE 1926, p. 2 s. n. 6.</title>
+                <title>Weihinschrift auf Tessera</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,12 +28,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/276">Tessera</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height>3.1</height>
+                                        <width>5</width>
                                         <depth/>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
@@ -41,7 +41,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/145">gepunzt</rs>
 
 
                                 </layout>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/010926">Vindonissa</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD – 100 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2019-02-13" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2020-02-12" who="Gräf">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,13 +111,19 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1926, 0069. 
+                        AE 1926, 0069. (B) 
                     </bibl>
                     <bibl>
                          AE 1926, p. 2 s. n. 6. 
                     </bibl>
                     <bibl>
-                         H. Finke, BRGK 17, 1927, 34-35, Nr. 100. 
+                         H. Finke, BRGK 17, 1927, 34-35, Nr. 100. (B) 
+                    </bibl>
+                    <bibl>
+                         O. Bohn, Germania 9, 1925, 133-134. (B) - AE 1926, 0069. 
+                    </bibl>
+                    <bibl>
+                         O. Bohn, ASA 27, 1925, 202-203, Nr. 5; Zeichnung. - AE 1926, p. 2 s. n. 6. 
                     </bibl>
 
                 </listBibl>
@@ -125,15 +131,15 @@
             
             
             <!--
-                |(centuria) Domiti / [- - -]todi / Val(erius) Tertius / Genio leg(ionis) XI C(laudiae) p(iae) f(idelis) / pullum v(otum) s(olvit) / l(aetus) l(ibens) m(erito)
+                |(centuria) Domiti / [- -]todi / Val(erius) Tertius / <G=Q>enio#<G>enio#QENIO leg(ionis) XI C(laudiae) p(iae) f(idelis) / pullum v(otum) s(olvit) / l(aetus) l(ibens) m(erito)
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Domiti <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>todi <lb n="3"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Tertius <lb n="4"/>Genio <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <lb n="5"/>pullum <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <lb n="6"/><expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Domiti <lb n="2"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>todi <lb n="3"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Tertius <lb n="4"/><choice><corr>G</corr><sic>Q</sic></choice>enio#<supplied reason="omitted">G</supplied>enio#QENIO <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <lb n="5"/>pullum <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <lb n="6"/><expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Votivtäfelchen in Form einer tabula ansata. Schreibtechnik: gepunzt. Z. 2: vor T zwei nicht eindeutig identifizierbare Buchstaben. (B): Bohn, Germania; AE 1926; Finke: Z. 4: Genio.</p>
             </div>
         </body>
     </text>

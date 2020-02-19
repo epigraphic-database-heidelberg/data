@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/010926">Vindonissa</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 100 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2020-02-05" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2020-02-12" who="Gräf">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,7 +111,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1926, 0011 H. Nesselhauf - H. Lieb, BRGK 40, 1959, 146, Nr. 66. 
+                        AE 1926, 0011. 
+                    </bibl>
+                    <bibl>
+                         H. Nesselhauf - H. Lieb, BRGK 40, 1959, 146, Nr. 66. - AE 1926. 
+                    </bibl>
+                    <bibl>
+                         O. Bohn, ASA 28, 1926, 6; Zeichnung. - AE 1926. 
                     </bibl>
 
                 </listBibl>
@@ -119,15 +125,15 @@
             
             
             <!--
-                |(centuria) Cassi / Q(uinti) APSRI(?) / Hisponi(s)
+                |(centuria) Cassi / Q(uinti) AP(?)[-](?)SRI / Hisponi(s)
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Cassi <lb n="2"/><expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>APSRI</abbr><ex cert="low"/></expan> <lb n="3"/><expan><abbr>Hisponi</abbr><ex>s</ex></expan>
+                <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Cassi <lb n="2"/><expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>AP</abbr><ex cert="low"/></expan><supplied reason="lost" cert="low">-</supplied>SRI <lb n="3"/><expan><abbr>Hisponi</abbr><ex>s</ex></expan>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Kreisrunde Eigentumsmarke. Schreibtechnik: gepunzt.</p>
+                <p> Kreisrunde Eigentumsmarke. Schreibtechnik: gepunzt. Z. 2: Bohn: möglicherweise Ap[o]sri (für Apsori) zu lesen.</p>
             </div>
         </body>
     </text>
