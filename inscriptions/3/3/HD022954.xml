@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift</title>
+                <title>Weihinschrift auf Altar</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,13 +28,13 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>-72</height>
+                                        <width>54</width>
+                                        <depth>53</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -51,7 +51,7 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">6-5.2</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/028074">Lousonna</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 50 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2019-02-22" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2020-02-21" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -114,7 +114,10 @@
                         AE 1946, 0256. 
                     </bibl>
                     <bibl>
-                         H. Nesselhauf - H. Lieb, BRGK 40, 1959, 133, Nr. 28. 
+                         H. Nesselhauf - H. Lieb, BRGK 40, 1959, 133, Nr. 28. (B) 
+                    </bibl>
+                    <bibl>
+                         P. Collart - D. van Berchem, RHV 49, 1941, 63-64, Nr. 12; pl. 2, 1. - AE 1946. 
                     </bibl>
 
                 </listBibl>
@@ -122,15 +125,15 @@
             
             
             <!--
-                Neptuno / nautae Leu/son(nenses) ex inpen[dio - - -] / [- - -]C(?)EAC[&
+                Neptuno / nautae Leu/son(nenses) ex inpen/[dio? - - -] / [- - -]CE(?)AC(?)[- -] / [- - - - - -?
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Neptuno <lb n="2"/>nautae Leu<lb break="no" n="3"/><expan><abbr>son</abbr><ex>nenses</ex></expan> ex inpen<supplied reason="lost">dio</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>C</abbr><ex cert="low"/>EAC</expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                Neptuno <lb n="2"/>nautae Leu<lb break="no" n="3"/><expan><abbr>son</abbr><ex>nenses</ex></expan> ex inpen<lb break="no" n="4"/><supplied reason="lost">dio<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>CE</abbr><ex cert="low"/>AC</expan><certainty match="preceding-sibling::node()" locus="value"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Z. 4 (Ende): statt C auch G, O oder Q möglich. (B): Nesselhauf - Lieb: Z. 3: inper(io); Z. 4: [---]ICEAC[---].</p>
             </div>
         </body>
     </text>

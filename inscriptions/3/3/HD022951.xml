@@ -32,8 +32,8 @@
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height>47.5</height>
-                                        <width>48.4</width>
+                                        <height>48</height>
+                                        <width>48</width>
                                         <depth>12</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
@@ -51,7 +51,7 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">5.5-2.7</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/028074">Lousonna</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 150 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2019-02-22" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2020-02-21" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,10 +111,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1946, 0255. 
+                        AE 1946, 0255. (B) 
                     </bibl>
                     <bibl>
-                         H. Nesselhauf - H. Lieb, BRGK 40, 1959, 132, Nr. 25. 
+                         H. Nesselhauf - H. Lieb, BRGK 40, 1959, 132, Nr. 25. (B) 
+                    </bibl>
+                    <bibl>
+                         P. Collart - D. van Berchem, RHV 49, 1941, 60-63, Nr. 11; pl. 1, 1. (B) - AE 1946. 
                     </bibl>
 
                 </listBibl>
@@ -122,15 +125,15 @@
             
             
             <!--
-                Herculi / sacr(um) / C(aius) Maec(ius) Firmus / IIIIIIvir Aug(ustalis) / c(urator) c(ivium) R(omanorum) desig(natus) / ex voto p(osuit)
+                Herculi / sacr(um) / C(aius) Maec(ius) Firmus / IIIIIIvir Aug(ustalis) / c(urator) c(ivium) R(omanorum) desig(natus) / ex voto p(ecunia)(?) [s(ua)?] p(osuit)(?)
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Herculi <lb n="2"/><expan><abbr>sacr</abbr><ex>um</ex></expan> <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Maec</abbr><ex>ius</ex></expan> Firmus <lb n="4"/>IIIIIIvir <expan><abbr>Aug</abbr><ex>ustalis</ex></expan> <lb n="5"/><expan><abbr>c</abbr><ex>urator</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <expan><abbr>desig</abbr><ex>natus</ex></expan> <lb n="6"/>ex voto <expan><abbr>p</abbr><ex>osuit</ex></expan>
+                Herculi <lb n="2"/><expan><abbr>sacr</abbr><ex>um</ex></expan> <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Maec</abbr><ex>ius</ex></expan> Firmus <lb n="4"/>IIIIIIvir <expan><abbr>Aug</abbr><ex>ustalis</ex></expan> <lb n="5"/><expan><abbr>c</abbr><ex>urator</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <expan><abbr>desig</abbr><ex>natus</ex></expan> <lb n="6"/>ex voto <expan><abbr>p</abbr><ex>ecunia</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <supplied reason="lost" cert="low">s(ua)</supplied> <expan><abbr>p</abbr><ex>osuit</ex></expan><certainty match="preceding-sibling::node()" locus="value"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Inschriftfeld in Form einer tabula ansata.</p>
+                <p> Inschriftfeld in Form einer tabula ansata. (B): Nesselhauf - Lieb: Z. 3: Firm[u]s; Collart - van Berchem; AE 1946: Z. 6: voto [p(ecunia) s(ua)] p(osuit).</p>
             </div>
         </body>
     </text>
