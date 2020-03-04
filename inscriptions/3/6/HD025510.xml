@@ -32,17 +32,18 @@
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/41">Speckstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>0.9</height>
+                                        <width>4.8</width>
+                                        <depth>0.9</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/23">eingraviert</rs>
 
+                                    <rs type="guidelines">GUIDELINES</rs>
 
                                 </layout>
                             </layoutDesc>
@@ -51,7 +52,7 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">0.2</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -59,12 +60,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 150 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
-                        <placeName ref="http://www.geonames.org/2661552">Bern</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
+                            <date when="1923">1923</date>
+                        <placeName ref="http://www.geonames.org/2661552">Bern</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kanton Bern</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -100,8 +101,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2020-02-12" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2020-02-26" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,10 +112,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1926, 0153. 
+                        AE 1926, 0153. (B) 
                     </bibl>
                     <bibl>
                          O. Tschumi, VGJ 1, 1926, 56, Nr. 2. - AE 1926. 
+                    </bibl>
+                    <bibl>
+                         O. Schultheß, JBM 3, 1923, 86-87, Nr. 2; Fotos u. Zeichnung. 
                     </bibl>
 
                 </listBibl>
@@ -122,15 +126,15 @@
             
             
             <!--
-                Ani/ceton ad aspri(tudines) et cl(aritatem) // cinnaminum ad su(pp)u(rationem?) // dia/misus ad aspritudi(nes) // dias/myrnes ad sedata
+                Ti(beri) Cl(audi) Peregrini ani/ceton ad aspri(tudines) et cl(aritatem) // Ti(beri) Cl(audi) Peregrini cin/naminum ad sup(p)u(rationem)(?) // Ti(beri) Cl(audi) Peregrini dia/misus ad aspritudi(nes) // Ti(beri) Cl(audi) Peregrini dias/myrnes ad sedata
             --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
-                Ani<lb break="no" n="2"/>ceton ad <expan><abbr>aspri</abbr><ex>tudines</ex></expan> et <expan><abbr>cl</abbr><ex>aritatem</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> cinnaminum ad <expan><abbr>su</abbr><ex>pp</ex></expan><expan><abbr>u</abbr><ex cert="low">rationem</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> dia<lb break="no" n="2"/>misus ad <expan><abbr>aspritudi</abbr><ex>nes</ex></expan> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> dias<lb break="no" n="2"/>myrnes ad sedata
+                <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Peregrini ani<lb break="no" n="2"/>ceton ad <expan><abbr>aspri</abbr><ex>tudines</ex></expan> et <expan><abbr>cl</abbr><ex>aritatem</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Peregrini cin<lb break="no" n="2"/>naminum ad sup<expan><ex>p</ex><abbr>u</abbr><ex>rationem</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Peregrini dia<lb break="no" n="2"/>misus ad <expan><abbr>aspritudi</abbr><ex>nes</ex></expan> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Peregrini dias<lb break="no" n="2"/>myrnes ad sedata
             </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Augenarztstempel. Material: grünlich-grauer Speckstein. Die beiden Inschriften verteilen sich auf die vier Langseiten. Schreibtechnik: eingraviert. Inschrift spiegelverkehrt. Am Ende der Z. 2 u. 7 je ein Zeichen / Symbol, das keinem Buchstaben entspricht. Z. 4 (Ende): zwischen SV und V noch die senkrechte Haste eines Buchstabens erkennbar; auch suf(f)u(siones) denkbar. AE 1926: Lesung verkürzt wiedergegeben. (B): AE 1926: Z. 4: su(pp)u(rationem) oder su(ff)u(siones).</p>
             </div>
         </body>
     </text>

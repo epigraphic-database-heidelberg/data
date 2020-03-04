@@ -32,17 +32,18 @@
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/41">Speckstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>0.9</height>
+                                        <width>3.9</width>
+                                        <depth>0.9</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/23">eingraviert</rs>
 
+                                    <rs type="guidelines">GUIDELINES</rs>
 
                                 </layout>
                             </layoutDesc>
@@ -51,7 +52,7 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">0.2</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -59,12 +60,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 150 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
-                        <placeName ref="http://www.geonames.org/2661552">Bern</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
+                            <date when="1923">1923</date>
+                        <placeName ref="http://www.geonames.org/2661552">Bern</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kanton Bern</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -100,8 +101,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2020-02-12" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2020-02-26" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,10 +112,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1926, 0154. 
+                        AE 1926, 0154. (B) 
                     </bibl>
                     <bibl>
-                         O. Tschumi, VGJ 1, 1926, 56, Nr. 3. - AE 1926. 
+                         O. Tschumi, VGJ 1, 1926, 56, Nr. 3. (B) - AE 1926. 
+                    </bibl>
+                    <bibl>
+                         O. Schultheß, JBM 3, 1923, 87-88, Nr. 3; Fotos u. Zeichnung. (B) 
                     </bibl>
 
                 </listBibl>
@@ -122,15 +126,15 @@
             
             
             <!--
-                Ti(beri) Cl(audi) Peregrini diap/soricum ad aspri(tudines) // Ti(beri) Cl(audi) Peregrini cin/naminum ad cali(ginem) // Ti(beri) Alpi Soterichi cin/naminum ad calig(inem) // Ti(beri) Alpi Soterichi dia/psoricum ad claritat(em)
+                Ti(beri) Cl(audi) Peregrini diap/soricum ad aspri(tudines) // Ti(beri) Cl(audi) Peregrini c/innamin(um) ad cali(ginem) // Ti(beri) Alpi Soterichi cin/naminum ad calig(inem) // Ti(beri) Alpi Soterichi dia/psoricum ad c<l=I>aritat(em)#c<l>aritat(em)#CIARITAT
             --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
-                <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Peregrini diap<lb break="no" n="2"/>soricum ad <expan><abbr>aspri</abbr><ex>tudines</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Peregrini cin<lb break="no" n="2"/>naminum ad <expan><abbr>cali</abbr><ex>ginem</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>Ti</abbr><ex>beri</ex></expan> Alpi Soterichi cin<lb break="no" n="2"/>naminum ad <expan><abbr>calig</abbr><ex>inem</ex></expan> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>Ti</abbr><ex>beri</ex></expan> Alpi Soterichi dia<lb break="no" n="2"/>psoricum ad <expan><abbr>claritat</abbr><ex>em</ex></expan>
+                <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Peregrini diap<lb break="no" n="2"/>soricum ad <expan><abbr>aspri</abbr><ex>tudines</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Peregrini c<lb break="no" n="2"/><expan><abbr>n<am>n</am></abbr><ex>um</ex></expan> ad <expan><abbr>cali</abbr><ex>ginem</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>Ti</abbr><ex>beri</ex></expan> Alpi Soterichi cin<lb break="no" n="2"/>naminum ad <expan><abbr>calig</abbr><ex>inem</ex></expan> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>Ti</abbr><ex>beri</ex></expan> Alpi Soterichi dia<lb break="no" n="2"/>psoricum ad c<choice><corr>l</corr><sic>I</sic></choice><expan><abbr>aritat</abbr><ex>em</ex></expan>#c<supplied reason="omitted">l</supplied><expan><abbr>aritat</abbr><ex>em</ex></expan>#CIARITAT
             </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Augenarztstempel.</p>
+                <p> Augenarztstempel. Material: weißlicher Speckstein. Die vier Inschriften verteilen sich auf die vier Langseiten. Schreibtechnik: eingraviert. Inschrift spiegelverkehrt. (B): Schultheß; Tschumi; AE 1926: kleinere Leseabweichungen.</p>
             </div>
         </body>
     </text>

@@ -32,16 +32,16 @@
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/41">Speckstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>0.9</height>
+                                        <width>4.6</width>
+                                        <depth>1.6</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/23">eingraviert</rs>
 
 
                                 </layout>
@@ -59,12 +59,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 150 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
-                        <placeName ref="http://www.geonames.org/2661552">Bern</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
+                            <date when="1923">1923</date>
+                        <placeName ref="http://www.geonames.org/2661552">Bern</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kanton Bern</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2020-02-12" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2020-02-26" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,10 +111,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1926, 0152. 
+                        AE 1926, 0152. (B) 
                     </bibl>
                     <bibl>
-                         O. Tschumi, VGJ 1, 1926, 56, Nr. 1. - AE 1926. 
+                         O. Tschumi, VGJ 1, 1926, 56, Nr. 1. (B) - AE 1926. 
+                    </bibl>
+                    <bibl>
+                         O. Schultheß, JBM 3, 1923, 85-86, Nr. 1; Fotos u. Zeichnung. (B) 
                     </bibl>
 
                 </listBibl>
@@ -122,15 +125,15 @@
             
             
             <!--
-                Ti(beri) Cl(audi) Peregrini dia/lepidos ad cicatric(es) // Ti(beri) Cl(audi) Peregrini di/absoric(um)(!) ad claritatem
+                Ti(beri) C<l=I>(audi)#C<l>(audi)#CI Peregrini dia/lepidos ad cicatri(ces) // Ti(beri) C<l=I>(audi)#C<l>(audi)#CI Peregrini di/absoric(um)(!) ad clarit(atem)
             --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
-                <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Peregrini dia<lb break="no" n="2"/>lepidos ad <expan><abbr>cicatric</abbr><ex>es</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Peregrini di<lb break="no" n="2"/><expan><abbr>absoric</abbr><ex>um</ex></expan> <note>sic</note> ad claritatem
+                <expan><abbr>Ti</abbr><ex>beri</ex></expan> C<choice><corr>l</corr><sic>I</sic></choice>(audi)#C<supplied reason="omitted">l</supplied>(audi)#CI Peregrini dia<lb break="no" n="2"/>lepidos ad <expan><abbr>cicatri</abbr><ex>ces</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Ti</abbr><ex>beri</ex></expan> C<choice><corr>l</corr><sic>I</sic></choice>(audi)#C<supplied reason="omitted">l</supplied>(audi)#CI Peregrini di<lb break="no" n="2"/><expan><abbr>absoric</abbr><ex>um</ex></expan> <note>sic</note> ad <expan><abbr>clarit</abbr><ex>atem</ex></expan>
             </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Augenarztstempel.</p>
+                <p> Augenarztstempel. Material: grüner Speckstein. Die beiden Inschriften verteilen sich auf die beiden Langseiten. Am Anfang der Z. 1/2 ein Zeichen / Symbol, das keinem Buchstaben entspricht. Schreibtechnik: eingraviert. Inschrift spiegelverkehrt. (B): Schultheß; Tschumi; AE 1926: kleinere Leseabweichungen.</p>
             </div>
         </body>
     </text>
