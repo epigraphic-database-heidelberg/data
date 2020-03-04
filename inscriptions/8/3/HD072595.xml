@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Tafel</title>
+                <title>Verzeichnis auf Tafel</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -31,8 +31,8 @@
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height>5.1</height>
-                                        <width>5.2</width>
+                                        <height>-5.1</height>
+                                        <width>-5.2</width>
                                         <depth>0.3</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
@@ -50,20 +50,20 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm">1.1-0.7</height>
+                                    <height unit="cm">0.7-1.1</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="provinceItalicRegion">Barbaricum</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016530">Germania inferior?</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
+                            <origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD – 230 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            <date when="1995">1995</date>
-                        <placeName ref="http://www.geonames.org/">Borken</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Nordrhein-Westfallen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                            <date when="1994">1994</date>
+                        <placeName ref="http://www.geonames.org/2946228">Borken</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Nordrhein-Westfalen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -81,7 +81,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/108">Verzeichnis?</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -99,8 +99,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2016-02-24" who="Lopez">
-             provisorisch bearbeitet
+         <change when="2020-02-27" who="Feraudi">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -112,21 +112,24 @@
                     <bibl>
                         AE 2012, 0982a. 
                     </bibl>
+                    <bibl>
+                         R. Wiegels, AusgrFuWestf 11, 2012, 435-438; Abb. 1; Abb, 2, 1 (Zeichnung). - AE 2012. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                Comin[i - - -] / Fideli[- - -] / Liberal[- - -]
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Comin<supplied reason="lost">i</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>Fideli<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Liberal<gap reason="lost" extent="unknown" unit="character"/>
+                - - - - - -] / Comin[- - -] / Fideli[- - -] / LiberaI(?)[- - -] / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/>Comin<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>Fideli<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>LiberaI</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Inschriftengattung: Militärdiplom auszuschließen, da Rückseite unbeschriftet (vgl. Wiegels).</p>
             </div>
         </body>
     </text>
