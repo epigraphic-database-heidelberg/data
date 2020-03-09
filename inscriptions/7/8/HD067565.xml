@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bau-/Stifterinschrift auf Ziegel</title>
+                <title>Aufschrift auf Ziegel</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -32,7 +32,7 @@
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
+                                        <height>34</height>
                                         <width>34</width>
                                         <depth/>
                                     </dimensions>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016530">Germania inferior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD – 230 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/261">Bau-/Stifterinschrift</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/115">Aufschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2015-06-10" who="Feraudi">
-             provisorisch bearbeitet
+         <change when="2020-03-02" who="Feraudi">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -122,15 +122,15 @@
             
             
             <!--
-                Aur(elius) / Antoninus / Pius / Augustus
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <expan><abbr>Aur</abbr><ex>elius</ex></expan> <lb n="2"/>Antoninus <lb n="3"/>Pius <lb n="4"/>Augustus
-            </ab></div>
+                Aur(elius) / Antoninus / Pius / Augustus // IX[- - -] / IV(?)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Aur</abbr><ex>elius</ex></expan> <lb n="2"/>Antoninus <lb n="3"/>Pius <lb n="4"/>Augustus </ab></div><div n="2" type="textpart"><ab><lb n="1"/> IX<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>IV</abbr><ex cert="low"/></expan>
+            </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Schreibtechnik: eingeritzt (vor dem Brand). Z. 1 nachträglich eingefügt. Z. 4 ragt rechts in den Freiraum von Z. 3 hinein.</p>
+                <p> Schreibtechnik: eingeritzt (vor dem Brand; Graffito). Z. 1 nachträglich eingefügt. Z. 4 ragt rechts in den Freiraum von Z. 3 hinein. Inhalt / Funktion möglicherweise als 'Feierabendziegel' zu deuten.</p>
             </div>
         </body>
     </text>
