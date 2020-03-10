@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Tafel</title>
+                <title>Rechtliche Verfügung, privat auf Tafel</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -29,7 +29,7 @@
                             <supportDesc>
                                 <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
-                                    <material>Gesteine</material>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/79">Molasse</material>
                                     <p/>
                                     <dimensions unit="cm">
                                         <height>21</height>
@@ -51,15 +51,15 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">6-5</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/028074">Lousonna</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/028074">Lousonna, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 100 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term>Rechtliche Verfügung, privat</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2020-02-20" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2020-03-05" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,10 +111,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1968, 0314. 
+                        AE 1968, 0314. (B) 
                     </bibl>
                     <bibl>
-                         G. Walser, Römische Inschriften in der Schweiz 1 (Bern 1979) 122-123, Nr. 57; Foto. 
+                         G. Walser, Römische Inschriften in der Schweiz 1 (Bern 1979) 122-123, Nr. 57; Foto. (B) 
+                    </bibl>
+                    <bibl>
+                         P. Meylan, RHV 70, 1962, 161-173. - AE 1968. 
                     </bibl>
 
                 </listBibl>
@@ -122,15 +125,15 @@
             
             
             <!--
-                Paries perpetuus / communis / est
+                Paries perpetu(u)s / communis / est
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Paries perpetuus <lb n="2"/>communis <lb n="3"/>est
+                Paries perpetu<expan><ex>u</ex><abbr>s</abbr></expan> <lb n="2"/>communis <lb n="3"/>est
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> (B): AE 1968: Z. 1-3: Zeilenfälle nicht angegeben; AE 1968: Z. 1: perpetuus; Walser: Z. 1: perpetu[us].</p>
             </div>
         </body>
     </text>

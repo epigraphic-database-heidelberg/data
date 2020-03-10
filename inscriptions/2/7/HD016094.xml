@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>AE 1966, 0261.</title>
+                <title>Aufschrift auf Instrumentum domesticum</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,21 +28,22 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/140">Instrumentum domesticum</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/41">Speckstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>0.6</height>
+                                        <width>4.5</width>
+                                        <depth>2.2</depth>
                                     </dimensions>
-                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
 
+                                    <rs type="hederae">HEDERAE</rs>
 
                                 </layout>
                             </layoutDesc>
@@ -59,11 +60,11 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/010926">Vindonissa</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0031" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD – 200 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
+                            <date when="1965">1965</date>
                         <placeName ref="http://www.geonames.org/2657976">Windisch</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kanton Aargau</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
                     </history>
                 </msDesc>
@@ -82,7 +83,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/115">Aufschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +101,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2010-10-15" who="Feraudi">
-             provisorisch bearbeitet
+         <change when="2020-03-05" who="Gräf">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -113,21 +114,24 @@
                     <bibl>
                         AE 1966, 0261. 
                     </bibl>
+                    <bibl>
+                         H.R. Wiedemer, Pro Vindonissa 1965, 56-58; Zeichnungen. - AE 1966. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                L(ucius) Cor(nelius) Adiutor / croc(odes) ad aspr(itudines) / L(uci) Corneli Adiutoris / diazmyrnes ad cic(atrices) vet(eres)
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Cor</abbr><ex>nelius</ex></expan> Adiutor <lb n="2"/><expan><abbr>croc</abbr><ex>odes</ex></expan> ad <expan><abbr>aspr</abbr><ex>itudines</ex></expan> <lb n="3"/><expan><abbr>L</abbr><ex>uci</ex></expan> Corneli Adiutoris <lb n="4"/>diazmyrnes ad <expan><abbr>cic</abbr><ex>atrices</ex></expan> <expan><abbr>vet</abbr><ex>eres</ex></expan>
-            </ab></div>
+                L(ucius) Cor(nelius) Adiutor / croc(odes) ad aspr(itudines) // L(uci) Corneli Adiutoris / diazmyrnes ad cic(atrices) vet(eres)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Cor</abbr><ex>nelius</ex></expan> Adiutor <lb n="2"/><expan><abbr>croc</abbr><ex>odes</ex></expan> ad <expan><abbr>aspr</abbr><ex>itudines</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>L</abbr><ex>uci</ex></expan> Corneli Adiutoris <lb n="2"/>diazmyrnes ad <expan><abbr>cic</abbr><ex>atrices</ex></expan> <expan><abbr>vet</abbr><ex>eres</ex></expan>
+            </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Augenarztstempel. Die Inschriften verteilen sich auf die beiden Langseiten. Hederae am Ende der Z. 2 u. 4. Inschriften spiegelverkehrt.</p>
             </div>
         </body>
     </text>

@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>AE 1967, 0333b.</title>
+                <title>Grabinschrift auf Stele</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,8 +28,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material>Gesteine</material>
                                     <p/>
                                     <dimensions unit="cm">
                                         <height/>
@@ -43,6 +43,7 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
 
+                                    <rs type="guidelines">GUIDELINES</rs>
 
                                 </layout>
                             </layoutDesc>
@@ -59,12 +60,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 100 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
-                        <placeName ref="http://www.geonames.org/3017995">Fontaines-sur-Marne</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
+                            <date when="1965">1965</date>
+                        <placeName ref="http://www.geonames.org/3017995">Fontaines-sur-Marne</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Grand Est</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -82,7 +83,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +101,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="1997-07-03" who="Scheithauer">
-             provisorisch bearbeitet
+         <change when="2020-03-05" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -113,21 +114,27 @@
                     <bibl>
                         AE 1967, 0333b. 
                     </bibl>
+                    <bibl>
+                         E. Frézouls, Gallia 25, 1967, 290-292; fig. 37b. - AE 1967. 
+                    </bibl>
+                    <bibl>
+                         (o. Autor), in: J.-J. Thévenard - A. Journoaux - Y. Le Bohec - S. Février - N. Béague-Tahon, La Haute-Marne, Carte archéologique de la Gaule 52, 1 (Paris 1996) 212. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                [Dis] M[an(ibus)] / [mo]nimen[tum] / [- - - - - -
+                [Dis?] M[an(ibus)?] / [- - - mo]nimen[tum - - -] / [- - - - - -
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <supplied reason="lost">Dis</supplied> M<supplied reason="lost"><expan><abbr>an</abbr><ex>ibus</ex></expan></supplied> <lb n="2"/><supplied reason="lost">mo</supplied>nimen<supplied reason="lost">tum</supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                <supplied reason="lost" cert="low">Dis</supplied> M<supplied reason="lost" cert="low">an(ibus)</supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">mo</supplied>nimen<supplied reason="lost">tum</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Fundjahr: 1965/66.</p>
             </div>
         </body>
     </text>
