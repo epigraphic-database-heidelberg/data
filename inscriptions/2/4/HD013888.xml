@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">Langres, Mus.</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -29,12 +29,12 @@
                             <supportDesc>
                                 <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <material>Gesteine</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>166</height>
+                                        <width>57</width>
+                                        <depth>16</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
                                 </support>
@@ -59,11 +59,11 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Andematunnum (Civitas Lingonum)</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD – 130 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
+                            <date when="1967">1967</date>
                         <placeName ref="http://www.geonames.org/3007680">Langres</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Grand Est</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
                     </history>
                 </msDesc>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2020-03-06" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2020-03-12" who="Osnabrügge">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,13 +111,19 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1969/70, 0430. 
+                        AE 1969/70, 0430. (B) 
                     </bibl>
                     <bibl>
                          E. Frézouls, Gallia 25, 1967, 310, Nr. 3; fig. 32, 3. - AE 1969/70. 
                     </bibl>
                     <bibl>
-                         J.-C. Didier, BSHLang 14, 1969 389-390; fig. 6. - AE 1969/70. 
+                         J.-C. Didier, BSHLang 14, 1969 389-390; fig. 6. (B) - AE 1969/70. 
+                    </bibl>
+                    <bibl>
+                         M. Joly, Langres, Carte archéologique de la Gaule 52, 2 (Paris 2001) 105-106; fig. 110, 2. (B) 
+                    </bibl>
+                    <bibl>
+                         Y. Le Bohec, Inscriptions de la cité des Lingons (Paris 2003) 296, Nr. 525. (B) 
                     </bibl>
 
                 </listBibl>
@@ -125,15 +131,15 @@
             
             
             <!--
-                Dd(is) Man(i)bus // Reb(r)ica Res(tituti?) / libe(r)ta{r} / No(c)turna / Angiva A/vilona / posui(t) libe(r)t(ae?)
+                Dd(is) Man(i)bus // Reb(r)ica Res(titut- -?) / libe<rta=TAR>#libe<rta>#LIBETAR / No(c)turna / Angiva A/vilona / posui(t) libe(r)t(ae?)
             --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
-                <expan><abbr>Dd</abbr><ex>is</ex></expan> Man<expan><ex>i</ex><abbr>bus</abbr></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Reb<expan><ex>r</ex><abbr>ica</abbr></expan> <expan><abbr>Res</abbr><ex cert="low">tituti</ex></expan> <lb n="2"/>libe<expan><ex>r</ex><abbr>ta</abbr></expan><surplus>r</surplus> <lb n="3"/>No<expan><ex>c</ex><abbr>turna</abbr></expan> <lb n="4"/>Angiva A<lb break="no" n="5"/>vilona <lb n="6"/><expan><abbr>posui</abbr><ex>t</ex></expan> <expan><abbr>libe</abbr><ex>r</ex></expan><expan><abbr>t</abbr><ex cert="low">ae</ex></expan>
+                <expan><abbr>Dd</abbr><ex>is</ex></expan> Man<expan><ex>i</ex><abbr>bus</abbr></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Reb<expan><ex>r</ex><abbr>ica</abbr></expan> <expan><abbr>Res</abbr><ex cert="low">titut--</ex></expan> <lb n="2"/>libe<supplied reason="omitted">rta=TAR</supplied>#libe<supplied reason="omitted">rta</supplied>#LIBETAR <lb n="3"/>No<expan><ex>c</ex><abbr>turna</abbr></expan> <lb n="4"/>Angiva A<lb break="no" n="5"/>vilona <lb n="6"/><expan><abbr>posui</abbr><ex>t</ex></expan> <expan><abbr>libe</abbr><ex>r</ex></expan><expan><abbr>t</abbr><ex cert="low">ae</ex></expan>
             </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Inschriftfeld in Form einer tabula ansata. Z. 1 befindet sich oberhalb der tabula ansata auf dem unteren Rahmen des doppelten Dreieckgiebels.</p>
+                <p> Rechteckstele mit eingeschriebenem doppelten Dreiecksgiebel. Inschriftfeld in Form einer tabula ansata. Z. 1 befindet sich oberhalb der tabula ansata auf dem unteren Rahmen des doppelten Dreieckgiebels. (B): Z. 5-7: AE 1969/70; Joly: Angi&amp;lt;n&amp;gt;a A/u&amp;lt;li&amp;gt;ona ou A/&amp;lt;q&amp;gt;uilona / posui(t) lib(ertae) tit(ulum); Didier, Z. 4-7: libe(r)ta(r) / No(c)turna / Angina A/uliona / posui(t) lib(ertae) tit(ulum); Frézouls: keine Ergänzung; Le Bohec: Z. 3-7: Libe(r)ta[e], No(c)turna / Angi[n]a, A/[q]uilona / posu[e(runt)] libe(n)t(es).</p>
             </div>
         </body>
     </text>

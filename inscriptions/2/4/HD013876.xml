@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>AE 1969/70, 0426.AE 1969/70.AE 1969/70.</title>
+                <title>Grabinschrift auf Stele</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">Langres, Mus.</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -28,15 +28,15 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material>Gesteine</material>
                                     <p/>
                                     <dimensions unit="cm">
                                         <height/>
-                                        <width/>
-                                        <depth/>
+                                        <width>-80</width>
+                                        <depth>10</depth>
                                     </dimensions>
-                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
@@ -52,7 +52,7 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">5</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -60,11 +60,11 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Andematunnum (Civitas Lingonum)</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 200 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
+                            <date when="1967">1967</date>
                         <placeName ref="http://www.geonames.org/3007680">Langres</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Grand Est</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
                     </history>
                 </msDesc>
@@ -83,7 +83,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -101,8 +101,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2020-03-06" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2020-03-11" who="Osnabrügge">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -112,13 +112,19 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1969/70, 0426. 
+                        AE 1969/70, 0426. (B) 
                     </bibl>
                     <bibl>
-                         E. Frézouls, Gallia 25, 1967, 312, Nr. 8; fig. 32, 8a u. 8b. - AE 1969/70. 
+                         E. Frézouls, Gallia 25, 1967, 312, Nr. 8; fig. 32, 8a u. 8b. (B) - AE 1969/70. 
                     </bibl>
                     <bibl>
-                         J.-C. Didier, BSHLang 14, 1969 391-392; fig. 4. - AE 1969/70. 
+                         J.-C. Didier, BSHLang 14, 1969 391-392; fig. 4. (B) - AE 1969/70. 
+                    </bibl>
+                    <bibl>
+                         M. Joly, Langres, Carte archéologique de la Gaule 52, 2 (Paris 2001) 105; fig. 109, 2. (B) 
+                    </bibl>
+                    <bibl>
+                         Y. Le Bohec, Inscriptions de la cité des Lingons (Paris 2003) 246-247, Nr. 436. (B) 
                     </bibl>
 
                 </listBibl>
@@ -126,15 +132,15 @@
             
             
             <!--
-                [D(is)] M(anibus) / [- - -] Capro / [- - -]nus / l(ibertus?) p(onendum) c(uravit)
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> Capro <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>nus <lb n="4"/><expan><abbr>l</abbr><ex cert="low">ibertus</ex></expan> <expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
-            </ab></div>
+                [D(is)] M(anibus) / [- - -] Capro / [- - - - - - // $]nus / l(ibertus?) p(onendum) c(uravit)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> Capro <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>nus <lb n="2"/><expan><abbr>l</abbr><ex cert="low">ibertus</ex></expan> <expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Zwei Fragmente einer Stele, es ist unklar, ob die beiden aneinanderpassen, wie es die Transkription bei Didier, Joly, Le Bohec suggeriert. Der rechte Rand des Inschriftenfeldes ist erhalten, rechts noch ein Peltenhenkel zu erkennen. Frézouls: keine Ergänzung des Textes. (B): AE 1969/70; Frézouls; Didier; Joly; Le Bohec: Abweichungen in der Transkription.</p>
             </div>
         </body>
     </text>
