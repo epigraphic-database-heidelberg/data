@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Inschrift</title>
+                <title>CIL 03, 14520.</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -29,7 +29,7 @@
                             <supportDesc>
                                 <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <material>Marmor, geädert / farbig</material>
                                     <p/>
                                     <dimensions unit="cm">
                                         <height>-38</height>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029481">Moesia superior</placeName><placeName ref="http://www.trismegistos.org/place/029642">Viminacium, bei</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 200 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -100,7 +100,7 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2015-12-10" who="Gräf">
+         <change when="2020-03-13" who="Gräf">
              überprüft an Zeichnung
          </change>
         </revisionDesc>
@@ -113,21 +113,27 @@
                     <bibl>
                         IMS 2, 267; Zeichnung. 
                     </bibl>
+                    <bibl>
+                         CIL 03, 14520. 
+                    </bibl>
+                    <bibl>
+                         F. Ladek - A. von Premerstein - N. Vulić, JŒAI (Beibl.) 4, 1901, 113, Nr. 20; Zeichnung. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                - - - - - -] NI[- - -]A(?)CR[- - -] / [- - -]is Asglep[i- - -](!) [- - -] / [- - -] et Asgl[epi- - -](!) [- - - - - -
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> NI<gap reason="lost" extent="unknown" unit="character"/><expan><abbr>A</abbr><ex cert="low"/>CR</expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>is Asglep<supplied reason="lost">i</supplied><gap reason="lost" extent="unknown" unit="character"/> <note>sic</note> <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> et Asgl<supplied reason="lost">epi</supplied><gap reason="lost" extent="unknown" unit="character"/> <note>sic</note><gap reason="lost" extent="unknown" unit="line"/>
+                $](?) / [- - - - - -] / [- - -]NI(?)[-]A(?)CR(?)[- - -] / [- - -]is Asglep[i- - -! - - -] [- - -] / [- - -] et Asgl[epi- - -! - - -] / [- - - - - -?
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>NI</abbr><ex cert="low"/></expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>A</abbr><ex cert="low"/>CR</expan><certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>is Asglep<supplied reason="lost">i<gap reason="lost" extent="unknown" unit="character"/>! <gap reason="lost" extent="unknown" unit="character"/></supplied> <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> et Asgl<supplied reason="lost">epi<gap reason="lost" extent="unknown" unit="character"/>! <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Verschollen.</p>
+                <p> Fragment eines zylinderförmigen Steins. Material: rötlicher Marmor.</p>
             </div>
         </body>
     </text>
