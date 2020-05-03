@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Beischrift auf Architekturteil</title>
+                <title>Akklamation auf Architekturteil</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">Meikirch, Kirchgemeindezentrum</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -29,11 +29,11 @@
                             <supportDesc>
                                 <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/35">Architekturteil</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/128">Putz</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height>110.5</height>
-                                        <width>125.5</width>
+                                        <height/>
+                                        <width/>
                                         <depth/>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
@@ -41,8 +41,9 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/96">gemalt / Dipinto</rs>
 
+                                    <rs type="guidelines">GUIDELINES</rs>
 
                                 </layout>
                             </layoutDesc>
@@ -59,12 +60,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0171" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD – 200 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
                             <date when="1977">1977</date>
-                        <placeName ref="http://www.geonames.org/">Meikirch</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kanton Bern</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
+                        <placeName ref="http://www.geonames.org/11048359">Meikirch</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Kanton Bern</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/ch/">Schweiz</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -82,7 +83,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/109">Beischrift</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/73">Akklamation</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +101,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2014-08-20" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2020-04-30" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -113,6 +114,9 @@
                     <bibl>
                         AE 2004, 0994. 
                     </bibl>
+                    <bibl>
+                         P.J. Suter u. a., Meikirch. Villa romana, Gräber und Kirche (Bern 2004) 114-118, Nr. 8; Abb. 120 (Foto u. Zeichnung); Abb. 121 (Zeichnung). - AE 2004. 
+                    </bibl>
 
                 </listBibl>
             </div>
@@ -120,14 +124,14 @@
             
             <!--
                 ISO VMON DVO CEDE
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+            --><div type="edition" xml:lang="la,grc"><head>Text</head><ab><lb n="1"/>
                 ISO VMON DVO CEDE
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Fragmente von bemaltem Wandverputz: Bildfeld mit der Darstellung eines Mannes vor drei Hermen; die Inschrift befindet sich innerhalb des Bildfeldes über dem Mann. Schreibtechnik: gemalt / Dipinto (mit schwarzer Farbe). Suter u. a.: Sprache: ISO VMON griechisch, DVO griechisch oder lateinisch, CEDE lateinisch.</p>
             </div>
         </body>
     </text>
