@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift auf Altar</title>
+                <title>Grabinschrift</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,11 +28,11 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar?</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <material>Gesteine</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
+                                        <height>-13</height>
                                         <width/>
                                         <depth/>
                                     </dimensions>
@@ -60,7 +60,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Nida (Civitas Taunensium)</placeName></origPlace>
-                            <origDate notBefore-custom="0071" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD – 250 AD
+                            <origDate notBefore-custom="0201" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD – 400 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -83,7 +83,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/80">Weihinschrift?</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -101,11 +101,18 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2019-09-11" who="Gräf">
-             keine Bildvorlage
+         <change when="2020-11-17" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F038471.JPG">
+            <desc>F038471</desc>
+        </graphic>
+
+
+    </facsimile>
     <text>
         <body>
                        
@@ -120,15 +127,15 @@
             
             
             <!--
-                - - - - - -] / I(?)OS VII / NA AN T[-] / OM CO
+                - - - - - -] / [- - - an]nos VII / [- - -]na Ant[-] / [- - - O?]M CO[I](?) / [- - - - - -?
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><expan><abbr>I</abbr><ex cert="low"/>OS</expan> VII <lb n="2"/>NA AN T<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="3"/>OM CO
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">an</supplied>nos VII <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>na Ant<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> O</supplied>M CO<supplied reason="lost" cert="low">I</supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Wohl unterer Teil eines Altars oder einer Basis / Statuenbasis.</p>
+                <p> Zur Zeit der Auffindung offenbar noch besser erhalten. Z. 3 (Anfang): vom O(?) war zur Zeit der Publikation des CIL noch ein Rest erkennbar; M war noch vollständig erhalten.</p>
             </div>
         </body>
     </text>

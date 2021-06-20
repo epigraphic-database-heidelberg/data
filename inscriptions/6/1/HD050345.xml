@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">Augst, Mus. Augusta Raurica</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -29,7 +29,7 @@
                             <supportDesc>
                                 <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/89">Meilen-/Leugenstein</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
                                         <height>-15</height>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Augusta Rauricorum</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 250 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2010-08-05" who="Platz">
-             provisorisch bearbeitet
+         <change when="2020-05-20" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -114,7 +114,7 @@
                         AE 1996, 1142b. 
                     </bibl>
                     <bibl>
-                         AE 1997, 1166. 
+                         H. Sütterlin, JberAugst 17, 1996, 85, Nr. 5; Abb. 21, 5; Abb. 19 (Zeichnung). - AE 1996. 
                     </bibl>
 
                 </listBibl>
@@ -122,15 +122,15 @@
             
             
             <!--
-                $]ic / [- - - p]otest(ate) c[o(n)s(uli) &
+                - - - - - -] / [- - -]I(?)C(?)[- - -] / [- - - p]otest(ate) c[o(n)s(uli) - - -] / [- - - - - -
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ic <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">p</supplied>otest</abbr><ex>ate</ex></expan> c[o<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> &amp;
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>C</expan><certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">p</supplied>otest</abbr><ex>ate</ex></expan> c<supplied reason="lost"><expan><abbr>o</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Möglicherweise zum selben Meilenstein gehörig wie AE 1996, 1142a (= HD050344).</p>
             </div>
         </body>
     </text>
