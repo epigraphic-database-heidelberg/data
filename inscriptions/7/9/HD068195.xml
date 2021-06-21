@@ -32,11 +32,11 @@
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height>-42.5</height>
+                                        <height>-43</height>
                                         <width>30</width>
                                         <depth>29</depth>
                                     </dimensions>
-                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/028074">Lousonna</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2019-06-21" who="Osnabrügge">
-             provisorisch bearbeitet
+         <change when="2020-04-30" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,10 +111,10 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 2006, 0919. 
+                        AE 2006, 0919. (B) 
                     </bibl>
                     <bibl>
-                         H. Nesselhauf - H. Lieb, BRGK 40, 1959, 134, Nr. 32. - AE 2006. 
+                         H. Nesselhauf - H. Lieb, BRGK 40, 1959, 134, Nr. 32. (B) - AE 2006. 
                     </bibl>
                     <bibl>
                          M. Fuchs, ArchS 26, 4, 2003, 46; Foto. - AE 2006. 
@@ -125,15 +125,15 @@
             
             
             <!--
-                - - - - - -] / [- - -]I[- - -] / [- - -]N[- - -] / IISVLEI / EIS[-]NAI[- - -] / v(otum) s(olv- - -) l(ibens) m(erito)
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>I<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>N<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>IISVLEI <lb n="4"/>EIS<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>NAI<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olv---</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                $](?) / [- -]I(?)[- - -] / [-]N(?)[- - -] / I(?)I(?)S(?)V(?)L(?)E(?)I(?) / EISNA(?)[-]I(?) / v(otum) s(olv- - -) l(iben- - -) m(erito)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="2"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>N</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>S</abbr><ex cert="low"/>V</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>L</abbr><ex cert="low"/>E</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>I</abbr><ex cert="low"/></expan> <lb n="5"/><expan><abbr>EISNA</abbr><ex cert="low"/></expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>I</abbr><ex cert="low"/></expan> <lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olv---</ex></expan> <expan><abbr>l</abbr><ex>iben---</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Inschriftträger: Altar oder Basis. Inschriftfeld teilweise stark verwittert.</p>
+                <p> Inschriftträger: Altar oder Basis / Statuenbasis. Inschriftfeld teilweise stark verwittert. (B): Nesselhauf - Lieb: Lesung unvollständig; AE 2006: Z. 4: EIS[-]NAI.</p>
             </div>
         </body>
     </text>

@@ -58,13 +58,13 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName>Salonae - 0a1</placeName></origPlace>
-                            <origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 300 AD
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/011624">Dalmatia</placeName><placeName ref="http://www.trismegistos.org/place/015883">Salonae, bei</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 300 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
                             <date when="1888">1888</date>
-                        <placeName ref="http://www.geonames.org/3190359">Solin - 0a1</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Splitsko-dalmatinska županija?</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
+                        <placeName ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Splitsko-dalmatinska županija</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/hr/">Kroatien</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift?</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,7 +100,7 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2010-11-25" who="Gräf">
+         <change when="2020-09-14" who="Gräf">
              keine Bildvorlage
          </change>
         </revisionDesc>
@@ -116,21 +116,24 @@
                     <bibl>
                          CIL 03, 09490 add. p. 2139. 
                     </bibl>
+                    <bibl>
+                         CIL 03, 13034. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                - - - - - -] / [- - -]SEL / [- - -]HOSPI / [- - -] patrono / [- - -]VO III posu(it)
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>SEL <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>HOSPI <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> patrono <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>VO III <expan><abbr>posu</abbr><ex>it</ex></expan>
+                $][- - -]SEL[- - -] / [- - -] Hospi/[ti? - - -] patrono / [- - - s?]uo tit(ulum) posu(it)
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>SEL<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> Hospi<lb break="no" n="3"/><supplied reason="lost">ti<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> patrono <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> s</supplied>uo <expan><abbr>tit</abbr><ex>ulum</ex></expan> <expan><abbr>posu</abbr><ex>it</ex></expan>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> (B): CIL III 9490: Z. 1: SIL; Z. 2: [---]EIOSPI.</p>
+                <p> (B): CIL III 9490: Z. 1: SIL; Z. 2: [---]EIOSPI; Z. 4: III.</p>
             </div>
         </body>
     </text>

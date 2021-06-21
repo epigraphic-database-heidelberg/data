@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Grabinschrift auf Grabbau</title>
+                <title>Grabinschrift</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,7 +28,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/230">Grabbau</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
                                     <p/>
                                     <dimensions unit="cm">
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/003230">Noricum</placeName><placeName ref="http://www.trismegistos.org/place/019892">Celeia</placeName></origPlace>
-                            <origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 300 AD
+                            <origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 250 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -100,11 +100,17 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2014-05-12" who="Cowey">
-             keine Bildvorlage
+         <change when="2020-10-19" who="Cowey">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/30849">
+        </graphic>
+
+    </facsimile>
     <text>
         <body>
                        
@@ -122,9 +128,9 @@
             
             
             <!--
-                - - - - - -] / SV[- - -] / tes[- - -] / suo I[- - -] / et Iu[&
+                - - - - - -] / SV[- - -] / [- - - - - -] / TES[- - -] / suo I(?)[- - -] / et Iu[- - -] / [- - - - - -
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/>SV<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>tes<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>suo I<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>et Iu<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/>SV<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="2"/>TES<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>suo <expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>et Iu<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
