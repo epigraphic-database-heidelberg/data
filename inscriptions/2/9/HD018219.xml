@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>AE 1989, 0560a.</title>
+                <title>Besitzer-/Herstellerinschrift auf Brunnen</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,20 +28,20 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/40">Brunnen</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz</material>
                                     <p/>
                                     <dimensions unit="cm">
                                         <height/>
                                         <width/>
-                                        <depth/>
+                                        <depth>2.7</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
+                                    <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/77">gestempelt</rs>
 
 
                                 </layout>
@@ -51,7 +51,7 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">1.5-1.8</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -59,12 +59,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016530">Germania inferior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 50 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
-                        <placeName ref="http://www.geonames.org/">Oss-Ussen</placeName><placeName type="modern_region" ref="http://www.geonames.org/"/><placeName type="modernCountry" ref="http://www.geonames.org/countries/nl/">Niederlande</placeName></provenance>
+                            <date when="1980">1980</date>
+                        <placeName ref="http://www.geonames.org/2749234">Oss</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Noord-Brabant</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/nl/">Niederlande</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -82,7 +82,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/311">Besitzer-/Herstellerinschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2008-03-28" who="Feraudi">
-             provisorisch bearbeitet
+         <change when="2020-12-11" who="Feraudi">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,7 +111,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1989, 0560a. 
+                        AE 1989, 0560. 
+                    </bibl>
+                    <bibl>
+                         J.E. Bogaers, in: W.A.B. von der Sanden u. a. (Hrsg.), Getekend Zand. 
+                    </bibl>
+                    <bibl>
+                         Tien jaar archeologisch onderzoek in Oss-Ussen (Waalre 1987) 155-160; Afb. 1-3 
                     </bibl>
 
                 </listBibl>
@@ -119,15 +125,15 @@
             
             
             <!--
-                Homulli G(- - -) et Hom[- - -]G
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Homulli <abbr>G</abbr> et Hom<gap reason="lost" extent="unknown" unit="character"/>G
-            </ab></div>
+                Homulli G(ai?) // Hom[ulli] G(ai?) // T(iti?) D[o?]t(i?) A(- - -)
+            --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Homulli <expan><abbr>G</abbr><ex cert="low">ai</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Hom<supplied reason="lost">ulli</supplied> <expan><abbr>G</abbr><ex cert="low">ai</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>T</abbr><ex cert="low">iti</ex></expan> D<supplied reason="lost" cert="low">o</supplied><expan><abbr>t</abbr><ex cert="low">i</ex></expan> <abbr>A</abbr>
+            </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Buchstaben in die Dauben eines Fasses aus Tannenholz gestempelt (drei Schlagstempel). Zweitverwendung des Fasses als Brunnen.</p>
             </div>
         </body>
     </text>
