@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift</title>
+                <title>Weihinschrift auf Tafel</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,7 +28,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
                                     <p/>
                                     <dimensions unit="cm">
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/028074">Lousonna</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 200 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2019-02-22" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2020-08-25" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -114,7 +114,7 @@
                         AE 1939, 0211. 
                     </bibl>
                     <bibl>
-                         AE 1946, p. 70 s. n. 254. 
+                         P. Collart - D. van Berchem, RHV 47/48, 1939/40, 136-137, Nr. 5; pl. 4, 1. - AE 1939. 
                     </bibl>
                     <bibl>
                          E. Howald - E. Meyer, Die römische Schweiz (Zürich 1940) 245, Nr. 162. 
@@ -128,9 +128,9 @@
             
             
             <!--
-                Nonio(s) Sul(eis) / suis voto / l(ibens?) m(erito?) r(estituit?)
+                Nonio(s) Sul(eis) / suis voto / l(ibens?) m(erito?) <p=R>(osuit)(?)#<p>(osuit)(?)#R
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <expan><abbr>Nonio</abbr><ex>s</ex></expan> <expan><abbr>Sul</abbr><ex>eis</ex></expan> <lb n="2"/>suis voto <lb n="3"/><expan><abbr>l</abbr><ex cert="low">ibens</ex></expan> <expan><abbr>m</abbr><ex cert="low">erito</ex></expan> <expan><abbr>r</abbr><ex cert="low">estituit</ex></expan>
+                <expan><abbr>Nonio</abbr><ex>s</ex></expan> <expan><abbr>Sul</abbr><ex>eis</ex></expan> <lb n="2"/>suis voto <lb n="3"/><expan><abbr>l</abbr><ex cert="low">ibens</ex></expan> <expan><abbr>m</abbr><ex cert="low">erito</ex></expan> <choice><corr>p</corr><sic>R</sic></choice>(osuit)<certainty match="preceding-sibling::node()" locus="value"/>#<supplied reason="omitted">p</supplied>(osuit)<certainty match="preceding-sibling::node()" locus="value"/>#R
             </ab></div>
             <div type="apparatus">
                 <p/>

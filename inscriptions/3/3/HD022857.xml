@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bau-/Stifterinschrift auf Tafel</title>
+                <title>Bau-/Stifterinschrift auf Architekturteil</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,12 +28,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/35">Architekturteil</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height>-61</height>
+                                        <width>-134</width>
                                         <depth/>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/028074">Lousonna</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD – 100 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2020-02-20" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2020-07-13" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -114,13 +114,16 @@
                         AE 1939, 0212. 
                     </bibl>
                     <bibl>
-                         AE 1946, p. 70 s. n. 254. 
+                         P. Collart - D. van Berchem, RHV 47/48, 1939/40, 138-139, Nr. 10; pl. 4, 2. - AE 1939. 
                     </bibl>
                     <bibl>
                          H. Nesselhauf - H. Lieb, BRGK 40, 1959, 135, Nr. 34. 
                     </bibl>
                     <bibl>
-                         G. Walser, Römische Inschriften in der Schweiz 1 (Bern 1979) 120-121, Nr. 56; Foto. 
+                         G. Walser, Römische Inschriften in der Schweiz 1 (Bern 1979) 120-121, Nr. 56; Foto. (B) 
+                    </bibl>
+                    <bibl>
+                         M. Fuchs, ArchS 26, 4, 2003, 46; Fotos. (B) 
                     </bibl>
 
                 </listBibl>
@@ -128,15 +131,15 @@
             
             
             <!--
-                - - - - - -] orn[ament- -? & // - - - - - -] parimbola[&
+                - - - - - -] orn[a- - -? & // - - - - - -] parimbola[&
             --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> orn[ament--<certainty match="preceding-sibling::node()" locus="value"/> &amp; </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> parimbola<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> orn[a---<certainty match="preceding-sibling::node()" locus="value"/> &amp; </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> parimbola<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Zahlreiche, teils aneinanderpassende Fragmente erhalten.</p>
+                <p> Wohl Teil einer Wandverkleidung. Zahlreiche, teils aneinanderpassende Fragmente erhalten. (B): Walser; Fuchs: Z. 1: nicht wiedergegeben; Fuchs: Z. 2: parinbola.</p>
             </div>
         </body>
     </text>
