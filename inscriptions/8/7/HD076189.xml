@@ -2,12 +2,12 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Grabinschrift auf Tafel</title>
+                <title>Grabinschrift auf Block</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
                 <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD076189</idno>
-                <idno type="TM"/><idno type="localID">HD076189</idno>
+                <idno type="TM">425176</idno><idno type="localID">HD076189</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported license.
                     </licence>
@@ -19,7 +19,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/">Bonn?</repository>
+                        <repository ref="www.trismegistos.org/">Bonn, Rhein. Landesmus.</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -27,13 +27,13 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel?</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/189">Block?</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>65</height>
+                                        <width>-34</width>
+                                        <depth>-21</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -58,7 +58,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
+                            <origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 300 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -99,11 +99,18 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2018-04-19" who="Osnabrügge">
+         <change when="2021-02-24" who="Osnabrügge">
              überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F018079.JPG">
+            <desc>F018079</desc>
+        </graphic>
+
+
+    </facsimile>
     <text>
         <body>
                        
@@ -118,21 +125,24 @@
                     <bibl>
                          J. Freudenberg, BJ 33, 1863, 196-197. (B) 
                     </bibl>
+                    <bibl>
+                         H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 291, Nr. 719. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                [C]atugan[io?] / [P]atern[o?] / vivo / [M]arti(a)e(?) C/allista[e] / [de]func[tae]
+                [C?]atugan[io] / [P?]atern[o] / vivo / [M?]arti(a)e C/allista[e] / [de]func[tae]
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <supplied reason="lost">C</supplied>atugan<supplied reason="lost" cert="low">io</supplied> <lb n="2"/><supplied reason="lost">P</supplied>atern<supplied reason="lost" cert="low">o</supplied> <lb n="3"/>vivo <lb n="4"/><expan><abbr><supplied reason="lost">M</supplied>arti</abbr><ex>a</ex>e</expan><certainty match="preceding-sibling::node()" locus="value"/> C<lb break="no" n="5"/>allista<supplied reason="lost">e</supplied> <lb n="6"/><supplied reason="lost">de</supplied>func<supplied reason="lost">tae</supplied>
+                <supplied reason="lost" cert="low">C</supplied>atugan<supplied reason="lost">io</supplied> <lb n="2"/><supplied reason="lost" cert="low">P</supplied>atern<supplied reason="lost">o</supplied> <lb n="3"/>vivo <lb n="4"/><supplied reason="lost" cert="low">M</supplied>arti<expan><ex>a</ex><abbr>e</abbr></expan> C<lb break="no" n="5"/>allista<supplied reason="lost">e</supplied> <lb n="6"/><supplied reason="lost">de</supplied>func<supplied reason="lost">tae</supplied>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Bruchstück einer Tafel oder eines Blocks, links und rechts abgebrochen. Z. 1: vielleicht auch [T]atucan[ius], vgl. CIL 03, 04555. 05350. (B): kleinere Leseabweichungen.</p>
+                <p> Bruchstück einer Tafel oder eines Blocks, links und rechts abgebrochen. Z. 1: vielleicht auch [T]atucan[ius], vgl. CIL 03, 04555. 05350. (B): Freudenberg: kleinere Leseabweichungen.</p>
             </div>
         </body>
     </text>

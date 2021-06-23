@@ -31,8 +31,8 @@
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height>1.8</height>
+                                        <width>3.9</width>
                                         <depth/>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
@@ -58,12 +58,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Nida (Civitas Taunensium)</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 250 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
                             
-                        <placeName ref="http://www.geonames.org/">Frankfurt/Main</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hessen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                        <placeName ref="http://www.geonames.org/2908403">Frankfurt/Main</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Hessen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -99,8 +99,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2016-02-25" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2020-07-01" who="Gräf">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -112,21 +112,24 @@
                     <bibl>
                         AE 2012, 1031. 
                     </bibl>
+                    <bibl>
+                         A. Hampel - M. Scholz, Hessen-Arch 2012, 118-121; Abb. 1; Abb. 2-6 (Zeichnungen). - AE 2012. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                SI(?)[- - -] / [- - -]VI s(emis) // [- - - - - -] / [- - -]IOS / LA[- - -](?) s(emis?) // Victor [- - -] / PALL Berus // T(urma?) Fabii calo / et Suranus ca(lo) // T(urma) Veri / Ferati // TRVIS // Tu(rma) Camulia(ni) / Iulii Reati // MAT
+                SI(?)[- - -] / [- - -]VI s(emis) // [- - - - - -] / [- - -]IOS / LA[- - -] |(denarii) [II?]s(emis) // Victor(?)[- - -] / pall(a) Berus // T(urmae) Fabii calo / et Suranus ca(lo) // T(urmae) Veri / Ferati // TRVIS // Tu(rmae) Camulia(ni) / Iulii Reati // MAT
             --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
-                <expan><abbr>SI</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>VI <expan><abbr>s</abbr><ex>emis</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>IOS <lb n="2"/>LA<gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>s</abbr><ex cert="low">emis</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Victor <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>PALL Berus </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>T</abbr><ex cert="low">urma</ex></expan> Fabii calo <lb n="2"/>et Suranus <expan><abbr>ca</abbr><ex>lo</ex></expan> </ab></div><div n="5" type="textpart"><ab><lb n="1"/> <expan><abbr>T</abbr><ex>urma</ex></expan> Veri <lb n="2"/>Ferati </ab></div><div n="6" type="textpart"><ab><lb n="1"/> TRVIS </ab></div><div n="7" type="textpart"><ab><lb n="1"/> <expan><abbr>Tu</abbr><ex>rma</ex></expan> <expan><abbr>Camulia</abbr><ex>ni</ex></expan> <lb n="2"/>Iulii Reati </ab></div><div n="8" type="textpart"><ab><lb n="1"/> MAT
+                <expan><abbr>SI</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>VI <expan><abbr>s</abbr><ex>emis</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>IOS <lb n="2"/>LA<gap reason="lost" extent="unknown" unit="character"/> |(denarii) <supplied reason="lost" cert="low">II</supplied><expan><abbr>s</abbr><ex>emis</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>Victor</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>pall</abbr><ex>a</ex></expan> Berus </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>T</abbr><ex>urmae</ex></expan> Fabii calo <lb n="2"/>et Suranus <expan><abbr>ca</abbr><ex>lo</ex></expan> </ab></div><div n="5" type="textpart"><ab><lb n="1"/> <expan><abbr>T</abbr><ex>urmae</ex></expan> Veri <lb n="2"/>Ferati </ab></div><div n="6" type="textpart"><ab><lb n="1"/> TRVIS </ab></div><div n="7" type="textpart"><ab><lb n="1"/> <expan><abbr>Tu</abbr><ex>rmae</ex></expan> <expan><abbr>Camulia</abbr><ex>ni</ex></expan> <lb n="2"/>Iulii Reati </ab></div><div n="8" type="textpart"><ab><lb n="1"/> MAT
             </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Beide Seiten je vier Mal von verschiedenen Händen beschriftet. Z. 1 u. 2 = Inschrift a (Vorder- und Rückseite). Z. 3 u. 4 = Inschrift b (Vorder- und Rückseite). Z. 5 u. 6 = Inschrift c (Vorder- und Rückseite). Z. 7 u. 8 = Inschrift d (Vorder- und Rückseite). Inschriftengattung: Inschrift a: Aufschrift; Inschriften b-d: Besitzer-/Herstellerinschrift.</p>
             </div>
         </body>
     </text>

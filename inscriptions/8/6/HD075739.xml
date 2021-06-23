@@ -7,7 +7,7 @@
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
                 <idno type="URI">http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD075739</idno>
-                <idno type="TM"/><idno type="localID">HD075739</idno>
+                <idno type="TM">425081</idno><idno type="localID">HD075739</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/3.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported license.
                     </licence>
@@ -19,7 +19,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/">Speyer, Hist. Mus. der Pfalz, Depot</repository>
+                        <repository ref="www.trismegistos.org/">Speyer, Hist. Mus. Pfalz, Depot</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -27,12 +27,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar?</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height>-29</height>
-                                        <width/>
+                                        <height>-27</height>
+                                        <width>-17</width>
                                         <depth/>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
@@ -58,7 +58,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>(Civitas Nemetum)</placeName></origPlace>
-                            <origDate notBefore-custom="0100" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">100 AD – 300 AD
+                            <origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 300 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -99,12 +99,15 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2018-01-24" who="Osnabrügge">
+         <change when="2021-02-18" who="Osnabrügge">
              überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F039439.JPG">
+            <desc>F039439</desc>
+        </graphic>
 
         <graphic url="http://www.lupa.at/26826">
         </graphic>
@@ -116,10 +119,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        CIL 13, 06123. 
+                        CIL 13, 06123. (B) 
                     </bibl>
                     <bibl>
                          F.J. Hildenbrand, Der römische Steinsaal (Lapidarium) des Historischen Museums der Pfalz zu Speyer (Speyer 1911) 54, Nr. 174. (B) 
+                    </bibl>
+                    <bibl>
+                         A. Kakoschke, FeRA 37, 2018, 30-33, Nr. 5; Abb. 9; Abb. 10 (Zeichnung). 
                     </bibl>
 
                 </listBibl>
@@ -127,15 +133,15 @@
             
             
             <!--
-                $]I[- - -] / Ursic(?)[- - -] / ITONI[- - -] / ex v[oto - - -] / l(ibens) l(aetus) m(erito)
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>I<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>Ursic</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>ITONI<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>ex v<supplied reason="lost">oto</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                $](?) / [- - -]I(?)[- - -] / Ursio [Cap?]/itoni[s fil(ius)] / ex vo[to] / l(ibens) l(aetus) m(erito) [pos(uit)?]
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Ursio <supplied reason="lost" cert="low">Cap</supplied><lb break="no" n="4"/>itoni<supplied reason="lost">s <expan><abbr>fil</abbr><ex>ius</ex></expan></supplied> <lb n="5"/>ex vo<supplied reason="lost">to</supplied> <lb n="6"/><expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <supplied reason="lost" cert="low">pos(uit)</supplied>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Fragment eines Altars, oben, rechts und unten vorne abgebrochen. Z. 2: statt C auch O möglich. Z. 3: ITONI Teil einer peregrinen Filiation? L mit schräggestellten Querhasten. (B): Hildenbrand: Z. 4: EK.</p>
+                <p> Fragment wohl vom Mittelteil eines Altars. Z. 2: statt O auch C möglich. L mit schräg nach unten abfallenden Querhasten. (B): CIL 13, 06123; Hildenbrand: Z. 4: v[oto]; Hildenbrand: Z. 4: EK. Ergänzungsvorschlag nach Kakoschke.</p>
             </div>
         </body>
     </text>

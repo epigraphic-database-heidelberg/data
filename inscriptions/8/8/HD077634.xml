@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>CIL 13, 03870.</title>
+                <title>Grabinschrift auf Tafel</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -27,8 +27,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material>
                                     <p/>
                                     <dimensions unit="cm">
                                         <height/>
@@ -58,12 +58,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/023540">Belgica</placeName><placeName ref="http://www.trismegistos.org/place/013685">Augusta Treverorum</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0331" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">331 AD – 500 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
                             
-                        <placeName ref="http://www.geonames.org/">Trier</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
+                        <placeName ref="http://www.geonames.org/2821164">Trier</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Rheinland-Pfalz</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -81,7 +81,7 @@
         <profileDesc>
             <textClass>
                 <keywords>
-                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/143">unbestimmt</term>
+                    <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">Grabinschrift</term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -99,8 +99,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2018-10-12" who="Cowey">
-             provisorisch bearbeitet
+         <change when="2020-06-15" who="Cowey">
+             überprüft an Zeichnung
          </change>
         </revisionDesc>
     </teiHeader>
@@ -113,7 +113,7 @@
                         CIL 13, 03870. 
                     </bibl>
                     <bibl>
-                         ILCV 4161 Anm. 
+                         ILCV 4161 Anm. (B) 
                     </bibl>
                     <bibl>
                          RICG 01, 149; Zeichnung. 
@@ -124,15 +124,15 @@
             
             
             <!--
-                - - - - - -] et Paula / [- - - ma]rito(?) in pace / [- - - m]en(ses?) XXII et(?) VII / [- - -]rito II / [- - - pro ca]ritate pater / [- - -] maritus / [- - - posu]it
+                - - - - - -] et Paula / [- - -]rito in pace / [- - -] XXII (?) VII / [- - -]rito II / [- - - pro ca]ritate pater / [- - -] maritus / [- - - posu]it
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> et Paula <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ma</supplied><expan><abbr>rito</abbr><ex cert="low"/></expan> in pace <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">m</supplied><expan><abbr>en</abbr><ex cert="low">ses</ex></expan> XXII <expan><abbr>et</abbr><ex cert="low"/></expan> VII <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>rito II <lb n="5"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> pro ca</supplied>ritate pater <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> maritus <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">posu</supplied>it
+                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> et Paula <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>rito in pace <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> XXII <certainty match="preceding-sibling::node()" locus="value"/> VII <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>rito II <lb n="5"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> pro ca</supplied>ritate pater <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> maritus <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">posu</supplied>it
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> (B): Z. 2: [--- ma]rito statt [---]rito.</p>
             </div>
         </body>
     </text>

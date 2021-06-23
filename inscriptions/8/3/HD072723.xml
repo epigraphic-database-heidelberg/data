@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift auf Altar</title>
+                <title>Weihinschrift auf Statuenbasis</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -27,13 +27,13 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar</objectType>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/57">Statuenbasis?</objectType>
                                     <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>86</height>
+                                        <width>60</width>
+                                        <depth>60</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -50,7 +50,7 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">7-5</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -58,12 +58,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/029480">Moesia inferior</placeName><placeName ref="http://www.trismegistos.org/place/029933">Abrittus</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">200 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
                             
-                        <placeName ref="http://www.geonames.org/">Razgrad</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Razgrad</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
+                        <placeName ref="http://www.geonames.org/727696">Razgrad</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Razgrad</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/bg/">Bulgarien</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -99,11 +99,17 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2016-02-29" who="Lopez">
-             provisorisch bearbeitet
+         <change when="2021-04-30" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
+    <facsimile>
+
+        <graphic url="http://lupa.at/20873">
+        </graphic>
+
+    </facsimile>
     <text>
         <body>
                        
@@ -112,21 +118,30 @@
                     <bibl>
                         AE 2012, 1270. 
                     </bibl>
+                    <bibl>
+                         R. Ivanov, Thracia 20, 2012, 83-86; obr. 1. (B) - AE 2012. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) A 1394. 
+                    </bibl>
+                    <bibl>
+                         PIR (2. Aufl.) C 1028. 
+                    </bibl>
 
                 </listBibl>
             </div>
             
             
             <!--
-                Invicto Herculi // Imp(eratore) Severo / Victorino co(n)s(ulibus) / P(ublius) Ael(ius) Epityn/chanus sacerdos / ara(m) sub c(ura) s(ua)
+                Invicto Herculi // {Imp(eratore)} Severo / Victorino co(n)s(ulibus) / P(ublius) Ael(ius) Epityn/chanus sacerdos / ara(m) sub c(ura) s(ua)
             --><div type="edition" xml:lang="la"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
-                Invicto Herculi </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>eratore</ex></expan> Severo <lb n="2"/>Victorino co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="3"/><expan><abbr>P</abbr><ex>ublius</ex></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan> Epityn<lb break="no" n="4"/>chanus sacerdos <lb n="5"/><expan><abbr>ara</abbr><ex>m</ex></expan> sub <expan><abbr>c</abbr><ex>ura</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan>
+                Invicto Herculi </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <surplus>Imp(eratore)</surplus> Severo <lb n="2"/>Victorino co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="3"/><expan><abbr>P</abbr><ex>ublius</ex></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan> Epityn<lb break="no" n="4"/>chanus sacerdos <lb n="5"/><expan><abbr>ara</abbr><ex>m</ex></expan> sub <expan><abbr>c</abbr><ex>ura</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan>
             </ab></div></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Z. 1 befindet sich auf der corona. (B): Ivanov: Z. 6: sub s(ua) [c(ura)]. Z. 2/3: Konsulat des Ti. Claudius Severus Proculus und des C. Aufidius Victorinus. Z. 2: Ivanov: Weihung an Hercules und Septimius Severus unter dem Konsulat des (Senators) Severus; d. h. der Steinmetz vergaß hinter Z. 2 eine weitere Zeile "Severo et". Lesung hier entsprechend AE 2012, wonach irrtümlich IMP vor den Namen des Senators Severus gesetzt wurde.</p>
             </div>
         </body>
     </text>
