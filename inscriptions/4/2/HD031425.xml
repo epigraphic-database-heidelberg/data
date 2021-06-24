@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift</title>
+                <title>Weihinschrift auf Stele</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,21 +28,22 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material>Gesteine</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/98">Vulkantuff</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>106</height>
+                                        <width>36</width>
+                                        <depth>15</depth>
                                     </dimensions>
-                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
+                                    <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">Ja</rs>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
 
+                                    <rs type="hederae">HEDERAE</rs>
 
                                 </layout>
                             </layoutDesc>
@@ -51,7 +52,7 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm"/>
+                                    <height unit="cm">5.5-3.7</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -59,11 +60,11 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016530">Germania inferior</placeName><placeName ref="http://www.trismegistos.org/place/020927">Bonna, bei</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD – 150 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
-                            
+                            <date when="1898">1898</date>
                         <placeName ref="http://www.geonames.org/2871725">Bornheim</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Nordrhein-Westfalen</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/de/">Deutschland</placeName></provenance>
                     </history>
                 </msDesc>
@@ -100,8 +101,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2020-04-16" who="Feraudi">
-             provisorisch bearbeitet
+         <change when="2020-12-23" who="Feraudi">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -112,6 +113,12 @@
                 <listBibl>
                     <bibl>
                         AE 1903, 0279. 
+                    </bibl>
+                    <bibl>
+                         A. Oxé, BJ 108/109, 1902, 246-250; Foto. - AE 1903. 
+                    </bibl>
+                    <bibl>
+                         CIL 13, 08153; Zeichnung. 
                     </bibl>
 
                 </listBibl>
@@ -127,7 +134,7 @@
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> Z. 6: Hedera.</p>
             </div>
         </body>
     </text>

@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/"/>
+                        <repository ref="www.trismegistos.org/">Stuttgart, Württ. Landesmus., Depot</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -43,6 +43,7 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
 
+                                    <rs type="guidelines">GUIDELINES</rs>
 
                                 </layout>
                             </layoutDesc>
@@ -100,11 +101,27 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2019-01-23" who="Osnabrügge">
-             keine Bildvorlage
+         <change when="2020-12-08" who="Osnabrügge">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
+    <facsimile>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F039227.JPG">
+            <desc>F039227</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F039228.JPG">
+            <desc>F039228</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F039229.JPG">
+            <desc>F039229</desc>
+        </graphic>
+        <graphic url="http://edh-www.adw.uni-heidelberg.de/fotos/F039230.JPG">
+            <desc>F039230</desc>
+        </graphic>
+
+
+    </facsimile>
     <text>
         <body>
                        
@@ -122,15 +139,15 @@
             
             
             <!--
-                $]IVNI[- - -] / [- - - c]oh(or-) XX[IV volunt(ariorum) c(ivium) R(omanorum) &
-            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="0"/>
-                <gap reason="lost" extent="unknown" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>IVNI<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">c</supplied><expan><abbr>oh</abbr><ex>or-</ex></expan> XX[IV <expan><abbr>volunt</abbr><ex>ariorum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> &amp;
+                [- - -]I(?)VNI[- - -] / [- - - c]oh(or- - -) XX[IV volunt(ariorum) c(ivium) R(omanorum) - - -] / [- - -]C(?)E(?)[- - -] / [- - - - - -
+            --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>VNI</expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">c</supplied><expan><abbr>oh</abbr><ex>or---</ex></expan> XX<supplied reason="lost">IV <expan><abbr>volunt</abbr><ex>ariorum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>C</abbr><ex cert="low"/>E</expan><certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> Fragment, gefunden in Sekundärverwendung als Mauerstein im vicus.</p>
+                <p> Z. 1 (Anfang): statt I auch N möglich. Z. 3: nur die oberen Buchstabenenden erhalten.</p>
             </div>
         </body>
     </text>
