@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Weihinschrift auf Basis</title>
+                <title>Weihinschrift auf Altar</title>
             </titleStmt>  
             <publicationStmt>
                 <authority>Epigraphische Datenbank Heidelberg</authority>
@@ -28,8 +28,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/53">Basis?</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/29">Altar?</objectType>
+                                    <material>Gesteine</material>
                                     <p/>
                                     <dimensions unit="cm">
                                         <height/>
@@ -59,12 +59,12 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>(Civitas Lingonum)</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD – 200 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
                             <date when="1883">1883</date>
-                        <placeName ref="http://www.geonames.org/3021838">Dampierre</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Haute-Marne</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
+                        <placeName ref="http://www.geonames.org/3021838">Dampierre</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Grand Est</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2008-06-16" who="Platz">
-             provisorisch bearbeitet
+         <change when="2020-12-08" who="Osnabrügge">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,7 +111,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1997, 1180. 
+                        AE 1997, 1180. (B) 
+                    </bibl>
+                    <bibl>
+                         Y. Le Bohec, Inscriptions de la cité des Lingons. Inscriptions sur pierre (Paris 2003) 334-335, Nr. 614. (B) 
+                    </bibl>
+                    <bibl>
+                         J.-J. Thévenard, in: J.-J. Thévenard - A. Villes - R. Neiss, La Haute-Marne, Carte archéologique de la Gaule 52, 1 (Paris 1996) 187-188. (B) 
                     </bibl>
 
                 </listBibl>
@@ -119,15 +125,15 @@
             
             
             <!--
-                Mercurio et Maia(e) [v(otum)] s(olvit) [l(ibens)] m(erito)
+                Mercurio et Maiia(e) / [v(otum)] s(olvit) [l(ibens)] m(erito)
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Mercurio et <expan><abbr>Maia</abbr><ex>e</ex></expan> <supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan></supplied> <expan><abbr>s</abbr><ex>olvit</ex></expan> <supplied reason="lost"><expan><abbr>l</abbr><ex>ibens</ex></expan></supplied> <expan><abbr>m</abbr><ex>erito</ex></expan>
+                Mercurio et <expan><abbr>Maiia</abbr><ex>e</ex></expan> <lb n="2"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan></supplied> <expan><abbr>s</abbr><ex>olvit</ex></expan> <supplied reason="lost"><expan><abbr>l</abbr><ex>ibens</ex></expan></supplied> <expan><abbr>m</abbr><ex>erito</ex></expan>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> (B): Le Bohec: s(olvit) l(ibens) m(erito); Thévenard; AE 1997: Z. 1: Maia(e).</p>
             </div>
         </body>
     </text>

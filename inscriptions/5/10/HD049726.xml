@@ -29,11 +29,11 @@
                             <supportDesc>
                                 <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/2">unbestimmt</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/138">unbestimmt</material>
+                                    <material>Gesteine</material>
                                     <p/>
                                     <dimensions unit="cm">
-                                        <height>19</height>
-                                        <width>28</width>
+                                        <height>-19</height>
+                                        <width>-28</width>
                                         <depth>18</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
@@ -43,6 +43,7 @@
                                 <layout>
                                     <rs type="execution" ref="http://www.eagle-network.eu/voc/writing/lod/21">unbestimmt</rs>
 
+                                    <rs type="guidelines">GUIDELINES</rs>
 
                                 </layout>
                             </layoutDesc>
@@ -58,13 +59,13 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName ref="http://www.trismegistos.org/place/002036"/></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>(Civitas Lingonum)</placeName></origPlace>
+                            <origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD – 200 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
                             <date notAfter="1897">1897</date>
-                        <placeName ref="http://www.geonames.org/">Dampierre</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Haute-Marne</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
+                        <placeName ref="http://www.geonames.org/3021838">Dampierre</placeName><placeName type="modern_region" ref="http://www.geonames.org/">Grand Est</placeName><placeName type="modernCountry" ref="http://www.geonames.org/countries/fr/">Frankreich</placeName></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -100,8 +101,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2020-03-25" who="Osnabrügge">
-             provisorisch bearbeitet
+         <change when="2020-10-28" who="Osnabrügge">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -111,13 +112,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 1997, 1181. 
+                        AE 1997, 1181. (B) 
                     </bibl>
                     <bibl>
-                         J.-J. Thévenard, in: J.-J. Thévenard, La Haute-Marne, Carte archéologique de la Gaule 52, 1 (Paris 1996) 188. 
+                         J.-J. Thévenard, in: J.-J. Thévenard - A. Villes - R. Neiss, La Haute-Marne, Carte archéologique de la Gaule 52, 1 (Paris 1996) 188; fig. 136. (B) 
                     </bibl>
                     <bibl>
-                         Y. Le Bohec, Inscriptions de la cité des Lingons. Inscriptions sur pierre (Paris 2003) 335, Nr. 615. 
+                         Y. Le Bohec, Inscriptions de la cité des Lingons. Inscriptions sur pierre (Paris 2003) 335, Nr. 615. (B) 
                     </bibl>
 
                 </listBibl>
@@ -125,15 +126,15 @@
             
             
             <!--
-                Deo Mercur/io C(aius) Antonius / retro Segomar(us) / Liberaris ex v[oto]
+                Deo Me<r>cur/io C(aius) Anto<n>iu[s] / retro Segomar(us) / Liberaris ex v(oto) [p(osuit)?]
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                Deo Mercur<lb break="no" n="2"/>io <expan><abbr>C</abbr><ex>aius</ex></expan> Antonius <lb n="3"/>retro <expan><abbr>Segomar</abbr><ex>us</ex></expan> <lb n="4"/>Liberaris ex v<supplied reason="lost">oto</supplied>
+                Deo Me<supplied reason="omitted">r</supplied>cur<lb break="no" n="2"/>io <expan><abbr>C</abbr><ex>aius</ex></expan> Anto<supplied reason="omitted">n</supplied>iu<supplied reason="lost">s</supplied> <lb n="3"/>retro <expan><abbr>Segomar</abbr><ex>us</ex></expan> <lb n="4"/>Liberaris ex <expan><abbr>v</abbr><ex>oto</ex></expan> <supplied reason="lost" cert="low">p(osuit)</supplied>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p/>
+                <p> (B): Thévenard: Z. 1/2: Mercur(io) / C(aius); AE 1997: Z 1/2: Mercur/io; Le Bohec: Z. 1/2: Me(r)cur(i)/o; Thévenard; AE 1997: Z. 2: Antonius; Le Bohec: Z. 2: Anton(ius); Thévenard: Z. 4: v(o)t(o); AE 1997; Le Bohec: Z. 4: v[oto].</p>
             </div>
         </body>
     </text>

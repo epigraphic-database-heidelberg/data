@@ -20,7 +20,7 @@
                         
                         
                         
-                        <repository ref="www.trismegistos.org/">Avenches, Mus. Romain, Depot</repository>
+                        <repository ref="www.trismegistos.org/">Avenches, Mus. Rom., Depot</repository>
                         <collection/>
                         <idno/>
                     </msIdentifier>
@@ -29,12 +29,12 @@
                             <supportDesc>
                                 <support>
                                     <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/257">Tafel</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material>
+                                    <material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material>
                                     <p/>
                                     <dimensions unit="cm">
                                         <height>-16.5</height>
-                                        <width/>
-                                        <depth>-5.3</depth>
+                                        <width>-13</width>
+                                        <depth>-5.2</depth>
                                     </dimensions>
                                     <rs type="decoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">nein</rs>
                                 </support>
@@ -51,7 +51,7 @@
                             <handNote>
                                 <dimensions>
                                     <width unit="cm"/>
-                                    <height unit="cm">3.3</height>
+                                    <height unit="cm">2.3-2.2</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -59,7 +59,7 @@
                     <history>
                         <origin>
                             <origPlace><placeName type="provinceItalicRegion" ref="http://www.trismegistos.org/place/016528">Germania superior</placeName><placeName>Aventicum (Civitas Helvetiorum)</placeName></origPlace>
-                            <origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">
+                            <origDate notBefore-custom="0202" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">202 AD
                             </origDate>
                         </origin>
                         <provenance type="found">  
@@ -100,8 +100,8 @@
             </langUsage>
         <creation>EAGLE - Europeana Network of Ancient Greek and Latin Epigraphy</creation></profileDesc>
         <revisionDesc>
-         <change when="2020-04-23" who="Gräf">
-             provisorisch bearbeitet
+         <change when="2020-10-30" who="Gräf">
+             überprüft an Foto
          </change>
         </revisionDesc>
     </teiHeader>
@@ -118,19 +118,22 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        AE 2001, 1518. 
+                        AE 2001, 1518. (B) 
                     </bibl>
                     <bibl>
                          AE 2013, 1134. 
                     </bibl>
                     <bibl>
-                         J. Bartels - N. Hächler - M. Aberson - R. Frei-Stolba - A. Kolb, MH 72, 2015, 96, Nr. 13. 
+                         J. Bartels - N. Hächler - M. Aberson - R. Frei-Stolba - A. Kolb, MH 72, 2015, 96, Nr. 13. - AE 2013. 
                     </bibl>
                     <bibl>
-                         S. Oelschig, Kaleidoskop der Epigraphik. Katalog und Rekonstruktion der römischen Steininschriften von Avenches/Aventicum (Avenches 2009) 283-284, Nr. 7196; Zeichnungen. 
+                         S. Oelschig, Kaleidoskop der Epigraphik. Katalog und Rekonstruktion der römischen Steininschriften von Avenches/Aventicum (Avenches 2009) 283-284, Nr. 7196; Zeichnung. 
                     </bibl>
                     <bibl>
-                         J. Morel - P. Blanc - C. Chevalley - J.-P. Dal Bianco - A. Pantet, Pro Aventico 42, 2000, 146; Fig. 5. (B) - AE 2001. 
+                         J. Morel - P. Blanc - C. Chevalley - J.-P. Dal Bianco - A. Pantet, Pro Aventico 42, 2000, 146; Fig. 5. - AE 2001. 
+                    </bibl>
+                    <bibl>
+                         A. Kolb, ETF(hist) 26, 2013, 243-248; Foto. - AE 2013. 
                     </bibl>
 
                 </listBibl>
@@ -138,15 +141,15 @@
             
             
             <!--
-                [- - -] Imp(eratorum) / [Septimi Seve]ri Perti[nacis - - - e]t Anto/[nini &
+                $](?) / [- - - pro salute] Imp[p(eratorum)] / [dominorum nn(ostrorum) L(uci) Septimi Seve]ri Perti(nacis) / [M(arci) Aur(eli) Antonini Aug(ustorum) Severo III] et Anto/[nino Aug(ustis) co(n)s(ulibus) - - - H?]eL(?)[v(etii)] / [- - - - - -
             --><div type="edition" xml:lang="la"><head>Text</head><ab><lb n="1"/>
-                <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Imp</abbr><ex>eratorum</ex></expan> <lb n="2"/><supplied reason="lost">Septimi Seve</supplied>ri Perti<supplied reason="lost">nacis <gap reason="lost" extent="unknown" unit="character"/> e</supplied>t Anto<lb break="no" n="3"/><supplied reason="lost">nini</supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> pro salute</supplied> Imp<supplied reason="lost"><expan><abbr>p</abbr><ex>eratorum</ex></expan></supplied> <lb n="3"/><supplied reason="lost">dominorum <expan><abbr>nn</abbr><ex>ostrorum</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> Septimi Seve</supplied>ri <expan><abbr>Perti</abbr><ex>nacis</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Aur</abbr><ex>eli</ex></expan> Antonini <expan><abbr>Aug</abbr><ex>ustorum</ex></expan> Severo III</supplied> et Anto<lb break="no" n="5"/><supplied reason="lost" cert="low">nino Aug(ustis) co(n)s(ulibus) --- H</supplied><expan><abbr>eL</abbr><ex cert="low"/></expan><supplied reason="lost"><expan><abbr>v</abbr><ex>etii</ex></expan></supplied> <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab></div>
             <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary">
-                <p> (B): Morel et al.: Z. 2: e(?)t Anto.</p>
+                <p> Ergänzungsvorschlag nach A. Kolb. Datierung entsprechend der ergänzten Konsuldatierung. (B): AE 2001: Z. 2/3: Zeilenfall nicht angegeben; Z. 3: e]t.</p>
             </div>
         </body>
     </text>
